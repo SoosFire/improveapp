@@ -1,0 +1,136 @@
+{
+  "id": "why-kids-ask-why",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Children Won't Stop Asking 'Why?'",
+    "teaser": "By age 4, your kid will ask about 300 questions a day. It isn't a stall tactic — it's a tiny scientist at work.",
+    "category": "Parenting",
+    "subcategories": ["Early Childhood", "Cognitive Development"],
+    "tags": ["curiosity", "language", "cognitive development", "learning", "preschoolers"],
+    "emoji": "❓",
+    "accentColor": "#7BAE7F",
+    "coverSymbol": {
+      "sfSymbol": "questionmark.bubble.fill",
+      "fallbackEmoji": "❓"
+    },
+    "coverImagePrompt": "A wide-eyed preschooler holding a dandelion up to a grown-up, sunlit garden background, painterly, warm, full of wonder"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The endless staircase of 'why'",
+      "body": "Why is the sky blue? Because light scatters. Why does it scatter? Because of tiny molecules. Why are there tiny molecules? By question six, most adults wave a white flag. But the child isn't trolling you — they are running a remarkably efficient learning algorithm, and they are just getting started.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A chain of speech bubbles rising into a sunset sky, each with the word 'why?' in a child's handwriting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The question explosion",
+      "body": "Between ages 2 and 5, children acquire roughly 10 new words a day. This is also the age when 'why?' erupts. Psycholinguist Michelle Chouinard found preschoolers ask about 76 information-seeking questions per hour with a familiar adult. Over a waking day, that can easily top 300 questions.",
+      "keyTerms": [
+        { "term": "Information-seeking question", "definition": "A question asked because the child genuinely wants to know the answer" },
+        { "term": "Theory of mind", "definition": "Understanding that other people know things you don't — and can tell you" }
+      ],
+      "visual": {
+        "sfSymbol": "number.circle.fill",
+        "imagePrompt": "An animated counter showing '300 questions / day' floating above a small child's silhouette"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why 'why?' is a power move",
+      "body": "Before age 3, questions are mostly about facts ('What's that?'). Around 3, children start asking about causes — the structure of reality itself. This shift happens just as they're building mental models of how the world works. A 'why?' is essentially the child saying: *I have a gap in my model, and I'd like you to fill it.*",
+      "visual": {
+        "sfSymbol": "gearshape.2.fill",
+        "imagePrompt": "A cross-section of a child's head with interlocking gears labeled with concepts like gravity, kindness, weather"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "They know when you're dodging",
+      "body": "Chouinard's transcripts showed something surprising: when adults gave a real explanation, kids moved on to the next topic. When adults dodged or gave a non-answer, the children asked again — often with the same word. They aren't repeating themselves out of habit; they're repeating themselves because the answer they got didn't actually solve anything.",
+      "funFact": "In one study, children as young as 3 stopped asking follow-ups 78% of the time when an adult gave a causal explanation — versus only 37% when the answer was non-informative.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A child with a tilted head, intently listening to a grown-up, soft bokeh background, documentary feel"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Answer like a scientist, not a judge",
+      "body": "You don't need the perfect answer — you need an honest one. 'I don't know, let's find out' is a legitimate response and models real thinking. The goal isn't to satisfy every question; it's to keep the door to curiosity open. A kid who stops asking 'why?' has learned, somewhere, that asking isn't worth it.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how many questions per hour do preschoolers ask with a familiar adult?",
+      "options": ["About 10", "About 25", "About 76", "About 200"],
+      "correctIndex": 2,
+      "explanation": "Michelle Chouinard's research found preschoolers ask about 76 information-seeking questions per hour."
+    },
+    {
+      "index": 1,
+      "question": "What changes about children's questions around age 3?",
+      "options": [
+        "They stop asking questions",
+        "They start asking causal 'why' questions",
+        "They only ask about themselves",
+        "They ask in whole sentences for the first time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Around age 3, questions shift from labeling ('what's that?') to seeking causes and explanations."
+    },
+    {
+      "index": 2,
+      "question": "What do kids typically do when adults give a non-informative answer?",
+      "options": [
+        "They drop the topic",
+        "They ask the same question again",
+        "They get distracted",
+        "They answer themselves"
+      ],
+      "correctIndex": 1,
+      "explanation": "Children persistently re-ask when an answer doesn't fill the gap — they know a dodge when they hear one."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Children's questions: A mechanism for cognitive development",
+      "publisher": "Monographs of the Society for Research in Child Development",
+      "year": 2007
+    },
+    {
+      "title": "The hungry mind: Intellectual curiosity is the third pillar of academic performance",
+      "publisher": "Perspectives on Psychological Science",
+      "year": 2011
+    }
+  ],
+
+  "related": ["marshmallow-test", "terrible-twos-explained", "attachment-theory"]
+}

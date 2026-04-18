@@ -1,0 +1,136 @@
+{
+  "id": "law-of-large-numbers",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Law of Large Numbers",
+    "teaser": "Casinos never sweat a lucky winner. This 300-year-old theorem explains why.",
+    "category": "Mathematics",
+    "subcategories": ["Probability", "Statistics"],
+    "tags": ["probability", "statistics", "casinos", "gambler's-fallacy"],
+    "emoji": "🎲",
+    "accentColor": "#2E7D5B",
+    "coverSymbol": {
+      "sfSymbol": "dice.fill",
+      "fallbackEmoji": "🎰"
+    },
+    "coverImagePrompt": "A pair of red casino dice in mid-tumble across a green felt table, blurred chips in the background, overhead spotlight, cinematic shallow depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why the house never worries",
+      "body": "A gambler hits a miraculous streak on the roulette wheel and walks out $50,000 richer. The pit boss watches calmly. Not because he's hiding anxiety — but because he's thinking about the next ten million spins. In the short run, anything can happen. In the long run, math wins.",
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "A roulette wheel spinning in moody casino lighting, chips scattered around"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Averages tame chaos",
+      "body": "The Law of Large Numbers says: as you repeat a random trial more and more times, the average of your results closes in on the true expected value. Flip a fair coin ten times, you might get 70% heads. Flip it a million times, and you'll be almost exactly 50%. The chaos doesn't disappear — it gets averaged out.",
+      "keyTerms": [
+        { "term": "Expected value", "definition": "The long-run average outcome of a repeated random process" },
+        { "term": "Sample size", "definition": "How many trials you've run — bigger is steadier" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A wobbly line settling into a straight horizontal line over time on a graph"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Jacob Bernoulli's 20 years",
+      "body": "In 1713, Swiss mathematician Jacob Bernoulli published the first rigorous proof of this idea — it had taken him two decades. He called it his 'golden theorem.' He showed that with enough coin flips, the observed ratio of heads gets arbitrarily close to ½, and stays there. Not eventually. Not probably. Provably.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "An open 18th-century Latin manuscript with hand-drawn probability diagrams"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "The fallacy it kills",
+      "body": "Here's where people get burned: 'Red has come up ten times in a row — black is due.' The Law of Large Numbers does not say short streaks get corrected. It says they get *diluted* by millions of unremarkable spins to come. The roulette wheel has no memory. Believing otherwise is the gambler's fallacy — and it's a very expensive mistake.",
+      "funFact": "On August 18, 1913, black came up 26 times in a row at Monte Carlo. Gamblers lost millions betting on red because 'it had to end.' It didn't have to.",
+      "visual": {
+        "sfSymbol": "xmark.circle.fill",
+        "imagePrompt": "A vintage casino with gamblers gathered around a roulette wheel looking stunned"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Big N, small chaos",
+      "body": "This is why insurance companies, polling firms, and drug trials depend on large samples. Individually, people are unpredictable. In bulk, they become almost mathematically obedient. The Law of Large Numbers is less a rule about dice than a quiet truth about how order emerges from enough repetition.",
+      "visual": {
+        "sfSymbol": "person.3.sequence.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the Law of Large Numbers state?",
+      "options": [
+        "Random events always balance out within 100 trials",
+        "Averages converge to the expected value as sample size grows",
+        "Big numbers cause errors in statistics",
+        "Rare events eventually become common"
+      ],
+      "correctIndex": 1,
+      "explanation": "The average of repeated trials approaches the true expected value as you run more of them."
+    },
+    {
+      "index": 1,
+      "question": "What is the gambler's fallacy?",
+      "options": [
+        "Believing the house always wins",
+        "Thinking past random outcomes influence future ones",
+        "Ignoring your budget",
+        "Betting on a hot streak to continue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assuming random events must 'balance out' in the short term misreads what the law actually says."
+    },
+    {
+      "index": 2,
+      "question": "Who first proved this idea rigorously?",
+      "options": ["Blaise Pascal", "Pierre-Simon Laplace", "Jacob Bernoulli", "Carl Friedrich Gauss"],
+      "correctIndex": 2,
+      "explanation": "Jacob Bernoulli's 'golden theorem' was published in 1713 after 20 years of work."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Ars Conjectandi",
+      "publisher": "Jacob Bernoulli",
+      "year": 1713
+    },
+    {
+      "title": "The Drunkard's Walk: How Randomness Rules Our Lives",
+      "publisher": "Leonard Mlodinow, Pantheon",
+      "year": 2008
+    }
+  ],
+
+  "related": ["birthday-paradox", "gamblers-fallacy", "central-limit-theorem"]
+}

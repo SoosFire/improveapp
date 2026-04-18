@@ -1,0 +1,126 @@
+{
+  "id": "en-passant",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "En Passant: Chess's Weirdest Move",
+    "teaser": "A pawn captures another pawn — on a square the captured pawn never touched. Wait, what?",
+    "category": "Chess",
+    "subcategories": ["Rules", "Chess History"],
+    "tags": ["chess", "pawn", "rules", "history"],
+    "emoji": "♟️",
+    "accentColor": "#8B4513",
+    "coverSymbol": {
+      "sfSymbol": "checkerboard.rectangle",
+      "fallbackEmoji": "♟️"
+    },
+    "coverImagePrompt": "A dramatic overhead shot of a chessboard with a white pawn diagonally capturing a black pawn beside it, soft cinematic light, warm wood tones, the captured piece falling in slow motion"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The rule that breaks every other rule",
+      "body": "Chess is famously logical: pieces move where they move, and you capture what's there. Except for one bizarre exception. In en passant, a pawn can capture another pawn on a square the enemy pawn just skipped over. Players call it 'illegal' all the time. It's not. It's older than your great-great-great-grandfather.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "Two wooden pawns face to face on adjacent files, one mid-air being moved, dramatic shadow, warm tavern lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Here's exactly how it works",
+      "body": "When a pawn moves two squares forward from its starting position and lands beside an enemy pawn, that enemy pawn can capture it as if it had only moved one square. The capture must happen on the very next move — miss the window, and the right is gone forever. Only pawns can do this. Only against pawns. Only immediately.",
+      "keyTerms": [
+        { "term": "En passant", "definition": "French for 'in passing' — a pawn capture of an enemy pawn that just advanced two squares" },
+        { "term": "Double-step", "definition": "A pawn's option to move two squares on its first move" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "A clear animated-style chess diagram showing the en passant sequence in three frames, bright colors, arrows"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it exists at all",
+      "body": "Originally, pawns only moved one square. Medieval players found chess painfully slow, so around the 15th century, the double-step was added to speed up openings. But this created a problem: a pawn could now sprint past an enemy pawn's attack square, dodging capture. En passant was invented as a patch — the defending pawn gets one chance to pretend the sprint never happened.",
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "A medieval illuminated manuscript showing knights and pawns, warm candlelight, detailed gold leaf borders"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "The rule hiding in plain sight",
+      "body": "En passant is a living fossil — a 500-year-old compromise still sitting on every board. Beginners forget it. Streamers rage at it. Grandmasters weaponize it. Next time someone yells that it's illegal, you can smile and whisper: 'In passing.'",
+      "funFact": "En passant is only legal on ranks 5 (for White) and 4 (for Black) — the only places where a defending pawn and a double-stepping pawn can land beside each other.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "When must a player use en passant, or lose the right?",
+      "options": [
+        "Any time before the game ends",
+        "Within the next three moves",
+        "On the very next move",
+        "Whenever the pawn reaches the last rank"
+      ],
+      "correctIndex": 2,
+      "explanation": "En passant must be played immediately — the opportunity vanishes after a single move."
+    },
+    {
+      "index": 1,
+      "question": "Which pieces can perform en passant?",
+      "options": ["Any piece", "Pawns only, against pawns only", "Pawns and knights", "Only the queen"],
+      "correctIndex": 1,
+      "explanation": "Only pawns can capture en passant, and only against enemy pawns that just moved two squares."
+    },
+    {
+      "index": 2,
+      "question": "Why was en passant invented?",
+      "options": [
+        "To make endgames shorter",
+        "To balance the new two-square pawn move introduced in medieval times",
+        "To give kings more safety",
+        "To honor a French duke"
+      ],
+      "correctIndex": 1,
+      "explanation": "When pawns gained the double-step in the 15th century, en passant was added so they couldn't just sprint past enemy pawns' attack squares."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A History of Chess",
+      "publisher": "Oxford University Press (H. J. R. Murray)",
+      "year": 1913
+    },
+    {
+      "title": "FIDE Laws of Chess",
+      "publisher": "Fédération Internationale des Échecs",
+      "year": 2023
+    }
+  ],
+
+  "related": ["pawn-promotion", "castling-rules", "chess-history"]
+}

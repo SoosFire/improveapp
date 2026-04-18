@@ -1,0 +1,136 @@
+{
+  "id": "chess-openings-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Most Popular Chess Openings",
+    "teaser": "Every serious chess game is shaped in the first 10 moves. Here's why grandmasters keep returning to the same few.",
+    "category": "Chess",
+    "subcategories": ["Chess Strategy", "Openings"],
+    "tags": ["chess", "openings", "strategy", "theory", "grandmaster"],
+    "emoji": "♟️",
+    "accentColor": "#3B4A6B",
+    "coverSymbol": {
+      "sfSymbol": "checkerboard.rectangle",
+      "fallbackEmoji": "♟️"
+    },
+    "coverImagePrompt": "A chess board photographed from above, pieces mid-opening, warm focused library light, deep walnut and ivory, cinematic depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why the first moves matter",
+      "body": "A chess game has an astronomical number of possible positions, but the first few moves — the opening — dramatically shrinks what's possible. Play the opening well and you arrive at a middlegame with active pieces, a safe king, and real choices. Play it poorly and you're already losing before the real fight begins. That's why top players study openings for decades.",
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "An overhead shot of a chess board after the first four moves, pieces crisp and shadowed"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The three golden principles",
+      "body": "Opening theory boils down to three timeless goals. First, control the center with pawns and pieces so your forces have room to maneuver. Second, develop your knights and bishops off the back rank quickly. Third, get your king to safety — almost always by castling. Every popular opening is just a different way of obeying these three rules.",
+      "keyTerms": [
+        { "term": "Center control", "definition": "Influencing the four central squares of the board, where pieces are most powerful" },
+        { "term": "Development", "definition": "Moving minor pieces (knights and bishops) off their starting squares into active positions" }
+      ],
+      "visual": {
+        "sfSymbol": "target",
+        "imagePrompt": "A chess board highlighting the four central squares with glowing markers"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Four openings you'll see everywhere",
+      "body": "The Ruy López (1.e4 e5 2.Nf3 Nc6 3.Bb5) is one of the oldest known openings, first analyzed by a Spanish priest in 1561. The Italian Game (3.Bc4) puts the bishop on its most aggressive diagonal. The Sicilian Defense (1.e4 c5) is Black's most popular and most fighting reply to 1.e4. And the Queen's Gambit (1.d4 d5 2.c4) offers a pawn to grab central space — a line that became a household name after the 2020 Netflix series.",
+      "visual": {
+        "sfSymbol": "list.bullet",
+        "imagePrompt": "Four small chess diagrams side by side illustrating the starting position of the Ruy López, Italian, Sicilian, and Queen's Gambit"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the numbers say",
+      "body": "Databases of millions of grandmaster games show that 1.e4 and 1.d4 account for more than 80% of top-level opening moves. Among Black's answers to 1.e4, the Sicilian appears in roughly 25% of games at the elite level. World champions specialize: Bobby Fischer was famous for the Ruy López, Garry Kasparov for the King's Indian, and Magnus Carlsen for an unusually broad repertoire designed to drag opponents out of their prep.",
+      "funFact": "The Queen's Gambit is over 500 years old — one of the earliest recorded moves, found in a 1490 Göttingen manuscript.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A clean bar chart showing the relative frequency of popular chess openings at grandmaster level"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Play like a librarian, fight like a shark",
+      "body": "Memorizing opening moves doesn't make you a better player. Understanding *why* each move serves center control, development, or king safety does. Once those ideas are second nature, you can improvise your way through any opening trap — including the ones you've never seen before.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of these is NOT one of the core principles of the opening?",
+      "options": [
+        "Control the center",
+        "Develop your pieces",
+        "Castle to safety",
+        "Bring out your queen as early as possible"
+      ],
+      "correctIndex": 3,
+      "explanation": "Early queen development usually just gets the queen chased around, losing precious tempo."
+    },
+    {
+      "index": 1,
+      "question": "Which opening begins with 1.e4 c5?",
+      "options": ["The Ruy López", "The Queen's Gambit", "The Sicilian Defense", "The Italian Game"],
+      "correctIndex": 2,
+      "explanation": "1.e4 c5 is the Sicilian Defense — Black's most popular fighting reply to the e-pawn."
+    },
+    {
+      "index": 2,
+      "question": "Who analyzed the Ruy López in 1561?",
+      "options": [
+        "A French mathematician",
+        "A Spanish priest",
+        "An English nobleman",
+        "A Russian master"
+      ],
+      "correctIndex": 1,
+      "explanation": "The opening is named after Ruy López de Segura, a 16th-century Spanish priest who published an influential book on chess."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Modern Chess Openings, 15th Edition",
+      "publisher": "Random House",
+      "year": 2008
+    },
+    {
+      "title": "A History of Chess",
+      "publisher": "Oxford University Press (H.J.R. Murray)",
+      "year": 1913
+    }
+  ],
+
+  "related": ["castling-explained", "sicilian-defense-deep-dive", "opening-principles"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "hydration-myths",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The 8 Glasses a Day Myth",
+    "teaser": "Nobody can find the study. Nobody can find the science. And yet we've all been counting glasses for 80 years.",
+    "category": "Health",
+    "subcategories": ["Nutrition", "Physiology"],
+    "tags": ["hydration", "water", "myths", "nutrition", "kidneys"],
+    "emoji": "💧",
+    "accentColor": "#4FA3C9",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "💧"
+    },
+    "coverImagePrompt": "Eight glass tumblers arranged in a perfect row on a reflective counter, each half full, soft morning light streaming through a kitchen window, cinematic minimalism"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A rule with no receipt",
+      "body": "Eight 8-ounce glasses a day — the '8x8' rule — is probably the most repeated piece of health advice on Earth. Ask anyone. They've heard it. But when researchers have actually gone looking for the source, they keep coming up empty. No landmark study, no clinical trial. Just decades of confident nodding.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A stack of old medical journals on a desk, a librarian's hand flipping through them with a puzzled expression, warm reading-lamp light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where it probably started",
+      "body": "The most plausible origin is a 1945 U.S. Food and Nutrition Board recommendation suggesting adults need about 2.5 liters of water per day — with a crucial footnote saying most of that 'is contained in prepared foods.' Somewhere in the popular retelling, the footnote fell off. What remained was a vague-sounding number that fit neatly into eight glasses.",
+      "keyTerms": [
+        { "term": "Total water intake", "definition": "All fluids consumed, including water in food and other beverages" },
+        { "term": "Hyponatremia", "definition": "Dangerously low blood sodium, sometimes caused by drinking too much water too fast" }
+      ],
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "An old 1945 government nutrition pamphlet on yellowed paper, a magnifying glass zooming in on a footnote, sepia tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Food is drinking, too",
+      "body": "A cucumber is 96% water. Watermelon, 92%. Even a grilled chicken breast is more than half water. Coffee, tea, milk, soup, and juice all count. Your kidneys also handle fluid balance automatically — when you need water, you feel thirsty, usually before any measurable dehydration. For most healthy adults, following thirst is a perfectly good strategy.",
+      "visual": {
+        "sfSymbol": "carrot.fill",
+        "imagePrompt": "A cross-section of fresh produce — cucumber, watermelon, tomato — with glowing water droplets suspended in midair above them, vibrant studio shot"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The dark side of overhydration",
+      "body": "Drinking too much water can actually be dangerous. Overhydration dilutes the sodium in your blood, a condition called hyponatremia. It has killed marathon runners, hazing victims, and even a California woman who competed in a 2007 'hold-your-wee for a Wii' radio contest. Your kidneys can process roughly a liter of water per hour — push past that, and trouble follows.",
+      "funFact": "NASA carefully calibrates astronaut water intake. In zero gravity, fluid already shifts toward the head — overhydration there makes headaches and vision problems worse.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A clear water bottle toppled on a running track, the runner blurred in the distance, cautionary mood"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Drink when you're thirsty",
+      "body": "There's nothing magic about 64 ounces. Needs vary with size, climate, activity, pregnancy, and illness. A useful rule of thumb: pale yellow urine means you're fine, dark amber means drink more. Beyond that, your body's ancient thirst circuit is probably doing a better job of hydrating you than any app ever will.",
+      "visual": {
+        "sfSymbol": "hand.thumbsup.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the main problem with the '8 glasses a day' rule?",
+      "options": [
+        "It's too low for most people",
+        "There's no rigorous scientific study supporting it",
+        "It only applies to children",
+        "It was banned by the FDA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despite its popularity, no controlled study ever established the 8x8 rule. It likely came from a misread 1945 recommendation."
+    },
+    {
+      "index": 1,
+      "question": "Roughly how much of daily water intake can come from food?",
+      "options": ["Almost none", "About 5%", "Around 20% or more", "100%"],
+      "correctIndex": 2,
+      "explanation": "Fruits, vegetables, and many other foods are mostly water. A fifth or more of typical daily fluid intake comes from food."
+    },
+    {
+      "index": 2,
+      "question": "What's hyponatremia?",
+      "options": [
+        "Dehydration",
+        "Low blood sodium, sometimes from drinking too much water",
+        "A vitamin deficiency",
+        "High blood pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excess water dilutes blood sodium, which can be dangerous or fatal in extreme cases."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "'Drink at least eight glasses of water a day.' Really?",
+      "publisher": "American Journal of Physiology",
+      "year": 2002
+    },
+    {
+      "title": "Water, Hydration, and Health",
+      "publisher": "Nutrition Reviews",
+      "year": 2010
+    }
+  ],
+
+  "related": ["electrolyte-basics", "sports-science-hydration", "kidney-function"]
+}

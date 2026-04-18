@@ -1,0 +1,136 @@
+{
+  "id": "mitochondrial-eve",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Mitochondrial Eve: Your Oldest Mother",
+    "teaser": "Every human alive shares one mother — a single woman who lived in Africa about 155,000 years ago. And we can prove it.",
+    "category": "Genetics",
+    "subcategories": ["Human Evolution", "Molecular Genetics"],
+    "tags": ["genetics", "evolution", "mitochondria", "ancestry", "dna"],
+    "emoji": "🧬",
+    "accentColor": "#6A3E8B",
+    "coverSymbol": {
+      "sfSymbol": "dna",
+      "fallbackEmoji": "🧬"
+    },
+    "coverImagePrompt": "A silhouette of a woman standing on a savanna hill at dusk, glowing DNA helices rising from her like smoke, painterly, symbolic, warm tones"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A woman we all remember",
+      "body": "Trace your mother's mother's mother, far enough back, and you'll meet her. So will everyone else on Earth. She isn't Adam-and-Eve mythology — she's a real person, genetically locatable, who lived in East Africa during a cooling climate about 155,000 years ago. Her name, because we had to call her something, is Mitochondrial Eve.",
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": "A young woman with braided hair looking at sunrise over a dry East African landscape, documentary-style lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The gift only mothers give",
+      "body": "Inside every one of your cells are hundreds of mitochondria — tiny power plants with their own small ring of DNA. Crucially, you inherited all of them from your mother. Sperm mitochondria are destroyed at fertilization. That makes mitochondrial DNA a pure maternal line, unbroken from mother to daughter across generations.",
+      "keyTerms": [
+        { "term": "Mitochondria", "definition": "Cellular structures that generate energy and carry their own DNA" },
+        { "term": "mtDNA", "definition": "Mitochondrial DNA, inherited exclusively from the mother" }
+      ],
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A microscopic illustration of a mitochondrion with a small circular DNA molecule inside, glowing subtly"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Coalescence, not creation",
+      "body": "Mitochondrial Eve wasn't the first woman, nor the only woman alive at her time. She's simply the most recent common ancestor in an unbroken female line. Other women lived alongside her — but at some point, every one of their maternal lines had only sons, and the chain snapped. Hers kept going. Through sheer demographic luck, we all inherited her mitochondria.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A branching family tree diagram where most lineages fade out and only one vertical line continues to the present, elegant infographic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The molecular clock",
+      "body": "In 1987, researchers at Berkeley sampled mtDNA from 147 people worldwide and tallied the mutations. Because mtDNA mutates at a roughly steady rate, they could read the differences like tree rings. The result: all modern mtDNA converges on a single woman in Africa. The finding held up across thousands of later samples, refined to roughly 100,000–200,000 years ago.",
+      "funFact": "If Mitochondrial Eve met Y-chromosomal Adam, their lifetimes wouldn't have overlapped by tens of thousands of years. They're ancestors of everyone, but not of each other.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A laboratory scene from the 1980s with DNA sequencing gels on a lightbox, researcher in a white coat, vintage color grade"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "We are one family, stubbornly",
+      "body": "Every human being shares a great-great-...-grandmother less than 10,000 generations back. On genealogical scales, that's nothing. The lesson of Mitochondrial Eve isn't just biology — it's that the 'deep' differences between us are dwarfed by a very recent, very African, very shared origin.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who do you inherit your mitochondrial DNA from?",
+      "options": ["Your father only", "Your mother only", "Both parents equally", "Randomly from either"],
+      "correctIndex": 1,
+      "explanation": "Sperm mitochondria are destroyed at fertilization, so mtDNA comes entirely from the mother."
+    },
+    {
+      "index": 1,
+      "question": "Was Mitochondrial Eve the only woman alive in her time?",
+      "options": [
+        "Yes, she was the first human",
+        "Yes, other humans came later",
+        "No, many women lived alongside her",
+        "The question can't be answered"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many women lived at the same time; only her unbroken female lineage survived to the present."
+    },
+    {
+      "index": 2,
+      "question": "Roughly when did Mitochondrial Eve live?",
+      "options": [
+        "About 10,000 years ago",
+        "About 155,000 years ago",
+        "About 2 million years ago",
+        "About 500,000 years ago"
+      ],
+      "correctIndex": 1,
+      "explanation": "Genetic analyses converge on roughly 100,000–200,000 years ago, with a best estimate near 155,000."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mitochondrial DNA and human evolution",
+      "publisher": "Nature",
+      "year": 1987
+    },
+    {
+      "title": "A revised root for the human Y chromosomal phylogenetic tree",
+      "publisher": "American Journal of Human Genetics",
+      "year": 2013
+    }
+  ],
+
+  "related": ["crispr-basics", "human-origins", "y-chromosomal-adam"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "milankovitch-cycles",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Earth Has Ice Ages",
+    "teaser": "Earth's orbit wobbles like a spinning top. Those wobbles build and melt continent-sized glaciers — on a 100,000-year schedule.",
+    "category": "Climate Science",
+    "subcategories": ["Paleoclimate", "Astronomy"],
+    "tags": ["ice-age", "milankovitch", "orbits", "paleoclimate", "astronomy"],
+    "emoji": "🧊",
+    "accentColor": "#7FB2D9",
+    "coverSymbol": {
+      "sfSymbol": "snow",
+      "fallbackEmoji": "❄️"
+    },
+    "coverImagePrompt": "Earth partially engulfed by a white ice sheet covering half the northern hemisphere, the globe tilted at a dramatic angle, cold blue cosmic lighting, scientific illustration"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A mile of ice over Manhattan",
+      "body": "Twenty thousand years ago, where Manhattan stands today, there was a wall of ice a mile high. Chicago, Boston, Stockholm, and most of northern Europe lay buried under continental glaciers. Then the ice retreated — not because humans did anything, but because Earth's orbit nudged a few degrees. Welcome to the most elegant climate story ever told.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "A towering wall of glacial ice where a modern skyline would stand, the ruins of a city frozen in the distance, cinematic apocalyptic atmosphere"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Serbian mathematician",
+      "body": "In 1920, a Serbian engineer named Milutin Milanković did something audacious — he calculated, with pencil and paper, exactly how much sunlight Earth would receive at every latitude for the past 600,000 years. He locked himself in a Budapest POW hotel during World War I and worked through his equations. His output? A theory explaining why ice ages come and go on astronomical schedules.",
+      "keyTerms": [
+        { "term": "Milankovitch cycles", "definition": "Three periodic variations in Earth's orbit and tilt that drive long-term climate change" },
+        { "term": "Insolation", "definition": "The amount of solar energy hitting a specific part of Earth's surface" }
+      ],
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A black-and-white photograph of Milutin Milankovic at a desk covered in handwritten equations and astronomical charts, 1920s attire, study lit by oil lamp"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three wobbles",
+      "body": "Milankovitch found three separate orbital rhythms. Eccentricity: Earth's orbit stretches from nearly circular to slightly oval every 100,000 years. Obliquity: the tilt of Earth's axis nods between 22.1° and 24.5° every 41,000 years. Precession: Earth wobbles like a slowing top every 26,000 years, changing which hemisphere points at the sun during its closest approach. Stack all three, and you get a complex but predictable beat.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "Animated-style diagram showing Earth in three orbital configurations — stretched ellipse, tilted axis, and wobbling top — labeled clearly"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Proof from the seafloor",
+      "body": "For fifty years, Milankovitch's theory was mostly ignored. Then in 1976, a study of deep-sea sediment cores called 'Pacemaker of the Ice Ages' found fossil plankton whose oxygen isotope ratios matched all three cycles almost perfectly. Ice ages really did pulse to Milankovitch's astronomical drumbeat. It was one of the most dramatic vindications in climate science — and he never lived to see it.",
+      "funFact": "Ice ages don't arrive because winters get colder. They arrive when summers get cooler — cool enough that the previous winter's snow fails to melt, and snow accumulates year after year into glaciers.",
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "Scientists in a research ship pulling up a long cylindrical ocean sediment core, striped layers visible, cold Atlantic light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The orbit sets the beat, CO₂ plays the melody",
+      "body": "There's a catch. Milankovitch's wobbles only produce small shifts in sunlight — not enough, alone, to freeze continents. The orbital trigger nudges things, then feedback loops amplify it: ice reflects more sunlight, colder oceans absorb more CO₂ from the atmosphere, forests turn to tundra. What we do to CO₂ matters immensely because our emissions now dwarf any orbital forcing — the drumbeat has been drowned out.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What are the three Milankovitch cycles?",
+      "options": [
+        "Rotation, revolution, and radiation",
+        "Eccentricity, obliquity, and precession",
+        "Solar, lunar, and planetary",
+        "Atmosphere, hydrosphere, and cryosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eccentricity (orbital shape), obliquity (axial tilt), and precession (axial wobble) together make up the Milankovitch cycles."
+    },
+    {
+      "index": 1,
+      "question": "What actually triggers an ice age, according to the Milankovitch model?",
+      "options": [
+        "Colder winters in the Northern Hemisphere",
+        "Cooler summers that fail to melt winter snow",
+        "A sudden drop in solar output",
+        "Massive volcanic eruptions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ice ages begin when summer temperatures stay cool enough that previous winters' snow persists year-round, building glaciers."
+    },
+    {
+      "index": 2,
+      "question": "Which 1976 study provided strong evidence for Milankovitch's theory?",
+      "options": [
+        "'Pacemaker of the Ice Ages' using ocean sediment cores",
+        "'The Keeling Curve' using atmospheric CO₂ measurements",
+        "'The Ozone Hole' using Antarctic observations",
+        "'The Blue Marble' using satellite imagery"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'Pacemaker of the Ice Ages' paper analyzed plankton fossils and matched all three Milankovitch cycles in climate records."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Variations in the Earth's Orbit: Pacemaker of the Ice Ages",
+      "publisher": "Science",
+      "year": 1976
+    },
+    {
+      "title": "Canon of Insolation and the Ice-Age Problem",
+      "publisher": "Royal Serbian Academy",
+      "year": 1941
+    }
+  ],
+
+  "related": ["ice-core-climate", "eccentricity-orbit", "little-ice-age"]
+}

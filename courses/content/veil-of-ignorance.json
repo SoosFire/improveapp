@@ -1,0 +1,144 @@
+{
+  "id": "veil-of-ignorance",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Rawls's Veil of Ignorance",
+    "teaser": "Design a society — but you don't get to know who you'll be in it. Suddenly, fairness gets interesting.",
+    "category": "Ethics",
+    "subcategories": ["Political Philosophy", "Justice"],
+    "tags": ["rawls", "justice", "philosophy", "ethics", "fairness"],
+    "emoji": "🎭",
+    "accentColor": "#4E5D6C",
+    "coverSymbol": {
+      "sfSymbol": "theatermask.and.paintbrush.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A classical marble bust with a flowing silver veil draped completely over the face, set against deep indigo, contemplative, museum-lit"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A thought experiment that changed ethics",
+      "body": "Imagine designing the rules of a society from scratch — the tax code, the laws, the healthcare system. Easy, right? Now add one catch: once you finish, you'll be randomly placed into that society. You might be rich or poor, healthy or disabled, majority or minority, born in the capital or a forgotten village. What would you choose now? That single mental trick is John Rawls's veil of ignorance, and it reshaped 20th-century political philosophy.",
+      "visual": {
+        "sfSymbol": "dice.fill",
+        "imagePrompt": "A silver die tumbling through soft white mist, each face showing a different silhouette of a human life, dreamlike"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The original position",
+      "body": "Rawls asks you to imagine stepping into what he calls the 'original position': a hypothetical starting point where rational people design the principles of justice for a society they'll live in. Behind the 'veil of ignorance,' you don't know your future race, gender, class, talents, religion, or even your own preferences. You're deciding fairness in pure, self-interest-free conditions.",
+      "keyTerms": [
+        { "term": "Original position", "definition": "Rawls's hypothetical scenario where people design society without knowing their future place in it" },
+        { "term": "Veil of ignorance", "definition": "The thought device blocking self-interest by hiding personal details from decision-makers" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "A circle of silhouetted figures sitting around a table, all wearing identical blank white masks, clean philosophical diagram"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The two principles that pop out",
+      "body": "Rawls argued that rational people behind the veil would land on two principles. First, everyone gets equal basic liberties — speech, voting, due process — because you might end up the person who needs them most. Second, any inequalities in wealth or power are only justified if they benefit the worst-off members of society. That second rule, the 'difference principle,' is Rawls's radical move.",
+      "keyTerms": [
+        { "term": "Difference principle", "definition": "Inequalities are acceptable only if they improve the position of the worst-off" }
+      ],
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": "An ornate brass scale, one side loaded with gold coins, the other with loaves of bread, balanced in dramatic museum lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it works on you",
+      "body": "Try the test yourself. Would you design a society with a shredded safety net — if you didn't know whether you'd be born a CEO or a dishwasher? Would you accept weak criminal defense rights — if you didn't know whether you'd be falsely accused? Rawls's 1971 book 'A Theory of Justice' became one of the most-cited works in modern philosophy precisely because this test is hard to cheat. Self-interest keeps sneaking back, and you have to shoo it away.",
+      "funFact": "Rawls spent nearly 20 years developing the argument. Critics like Robert Nozick fired back with libertarian alternatives, sparking decades of debate that still shapes political theory today.",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "A well-worn hardcover edition of 'A Theory of Justice' on a philosopher's desk, margin notes in fountain pen, warm reading lamp"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A pocket tool for any policy",
+      "body": "You don't need a PhD to use the veil. Before supporting any law, policy, or system, ask yourself: would I still back this if I didn't know my place in the society it governs? It won't give you the 'right' answer — philosophers still argue over that. But it strips away the quiet bias of 'I'm fine, so it's fine,' which might be the most useful mental move in all of applied ethics.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What do you NOT know about yourself behind the veil of ignorance?",
+      "options": [
+        "Whether other people exist",
+        "Your future social position, talents, and identity",
+        "Basic logical reasoning",
+        "The laws of physics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rawls hides your personal circumstances — race, class, gender, ability — so self-interest can't sway your choices."
+    },
+    {
+      "index": 1,
+      "question": "What is Rawls's 'difference principle'?",
+      "options": [
+        "Everyone should earn the same amount",
+        "Inequalities are only fair if they help the worst-off",
+        "Differences in opinion are the foundation of justice",
+        "People should be ranked by skill"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inequality is only acceptable when it genuinely improves the position of society's least advantaged members."
+    },
+    {
+      "index": 2,
+      "question": "In which landmark book did Rawls present the veil of ignorance?",
+      "options": [
+        "The Republic",
+        "A Theory of Justice (1971)",
+        "Leviathan",
+        "The Social Contract"
+      ],
+      "correctIndex": 1,
+      "explanation": "'A Theory of Justice' (1971) is among the most influential works of political philosophy in the 20th century."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Theory of Justice",
+      "publisher": "Harvard University Press",
+      "year": 1971
+    },
+    {
+      "title": "John Rawls",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "year": 2017
+    }
+  ],
+
+  "related": ["social-contract", "utilitarianism", "distributive-justice"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "dna-evidence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How DNA Evidence Solves Cold Cases",
+    "teaser": "A single skin cell on a stamp. A 40-year-old murder solved. How did DNA become the ultimate witness?",
+    "category": "Criminology",
+    "subcategories": ["Forensics", "Genetics"],
+    "tags": ["DNA", "forensics", "cold cases", "genealogy", "science"],
+    "emoji": "🧬",
+    "accentColor": "#6B2D5C",
+    "coverSymbol": {
+      "sfSymbol": "waveform.path.ecg",
+      "fallbackEmoji": "🧬"
+    },
+    "coverImagePrompt": "A glowing blue DNA double helix spiraling out of a dusty evidence box marked 1978, papers and photographs scattered around, cinematic sci-fi lighting, dark lab background"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The Golden State Killer",
+      "body": "For 44 years he got away with 13 murders and more than 50 rapes across California. Then in 2018, investigators uploaded his decades-old crime-scene DNA to a public genealogy website. They didn't find him — they found his distant cousins. Six days later, a 72-year-old former cop named Joseph DeAngelo was arrested in his driveway.",
+      "visual": {
+        "sfSymbol": "person.crop.square.filled.and.at.rectangle",
+        "imagePrompt": "A branching family tree diagram glowing in darkness, dozens of faces connected by blue lines, one face at the bottom circled in red"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What forensic scientists actually look at",
+      "body": "We share 99.9% of our DNA with every other human. The useful 0.1% lives in regions called Short Tandem Repeats — stretches where short sequences like 'GATA' repeat a variable number of times. By counting repeats at 20 standard locations, forensic labs create a numerical profile. The odds of two unrelated people matching at all 20? Roughly one in a quintillion.",
+      "keyTerms": [
+        { "term": "STR (Short Tandem Repeat)", "definition": "A DNA region where a short sequence repeats; the number of repeats varies between people" },
+        { "term": "CODIS", "definition": "The FBI's combined DNA index system, used to match profiles across cases" }
+      ],
+      "visual": {
+        "sfSymbol": "number.square.fill",
+        "imagePrompt": "A stylized DNA profile readout on a lab monitor, peaks of different heights labeled with numbers, blue-on-black data visualization"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The PCR revolution",
+      "body": "Before 1985, a crime-scene sample needed to be roughly the size of a quarter to yield a profile. Then Kary Mullis invented PCR — polymerase chain reaction — which can photocopy a single DNA molecule into billions of identical copies in a few hours. Suddenly a licked stamp, a cigarette butt, or a single hair root was enough. PCR turned DNA from a curiosity into a forensic superweapon.",
+      "visual": {
+        "sfSymbol": "doc.on.doc.fill",
+        "imagePrompt": "A laboratory thermocycler machine with glowing blue tubes inside, close-up of a technician's gloved hand loading samples, sterile white environment"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Exonerations: the other side of DNA",
+      "body": "The Innocence Project has used DNA to free more than 375 wrongfully convicted people in the US, including 21 who were on death row. The average sentence served before exoneration is 14 years. DNA doesn't just catch the guilty — it has revealed how often eyewitness testimony, false confessions, and flawed forensic work put the wrong people in prison.",
+      "funFact": "In one 1989 case, Gary Dotson became the first person in US history ever exonerated by DNA evidence — for a rape that the 'victim' had fabricated.",
+      "visual": {
+        "sfSymbol": "lock.open.fill",
+        "imagePrompt": "An open prison cell door with warm light streaming in, a single manila file folder on a cot, emotional cinematic framing"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The privacy paradox",
+      "body": "Investigative genetic genealogy works because you don't need the suspect's DNA — just a third cousin who uploaded their results to a public database. By 2020, roughly 60% of Americans of European descent could already be identified through a relative's profile. DNA solves cold cases, but it also means your genome is never really just your own.",
+      "visual": {
+        "sfSymbol": "lock.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did investigators identify the Golden State Killer?",
+      "options": [
+        "A surveillance camera caught his face",
+        "By matching his DNA to distant relatives on a genealogy site",
+        "An anonymous tip from a neighbor",
+        "A direct hit in the FBI's CODIS database"
+      ],
+      "correctIndex": 1,
+      "explanation": "Investigators uploaded crime-scene DNA to GEDmatch, found third and fourth cousins, and built a family tree that pointed to DeAngelo."
+    },
+    {
+      "index": 1,
+      "question": "What technology lets scientists work with tiny DNA samples?",
+      "options": [
+        "Mass spectrometry",
+        "Gel electrophoresis",
+        "Polymerase Chain Reaction (PCR)",
+        "CRISPR editing"
+      ],
+      "correctIndex": 2,
+      "explanation": "PCR, invented by Kary Mullis in 1985, can amplify a single DNA molecule into billions of copies."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many wrongful convictions in the US have been overturned by DNA evidence?",
+      "options": ["About 50", "About 150", "More than 375", "Fewer than 20"],
+      "correctIndex": 2,
+      "explanation": "The Innocence Project has secured more than 375 DNA exonerations, including many from death row."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Identifying relatives with long-range familial DNA searching",
+      "publisher": "Science",
+      "year": 2018
+    },
+    {
+      "title": "The Innocence Project: 30 Years of Exonerations",
+      "publisher": "Innocence Project Annual Report",
+      "year": 2022
+    }
+  ],
+
+  "related": ["how-fingerprinting-works", "eyewitness-testimony-psychology", "why-lie-detectors-dont-work"]
+}

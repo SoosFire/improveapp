@@ -1,0 +1,141 @@
+{
+  "id": "tardigrades",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Tardigrades: Nature's Toughest Animal",
+    "teaser": "Boiled, frozen, vacuum-dried, blasted with radiation, launched into space. This half-millimeter animal shrugs it all off.",
+    "category": "Biology",
+    "subcategories": ["Microbiology", "Extremophiles"],
+    "tags": ["tardigrades", "extremophiles", "space", "survival", "microbes"],
+    "emoji": "🦠",
+    "accentColor": "#8BA66B",
+    "coverSymbol": {
+      "sfSymbol": "pawprint.fill",
+      "fallbackEmoji": "🐻"
+    },
+    "coverImagePrompt": "An extreme electron-microscope-style close-up of a tardigrade, chubby and bear-like with eight clawed legs, rendered in soft gold and cream tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A bear the size of a dust speck",
+      "body": "Fill a thimble with moss, squeeze out the water, and you're probably holding a few. Tardigrades — nicknamed water bears — are chubby, eight-legged animals about half a millimeter long. They're also the only creature we know of that has survived every experiment humans have thrown at them, including a trip into the vacuum of space.",
+      "visual": {
+        "sfSymbol": "sparkles.rectangle.stack.fill",
+        "imagePrompt": "A microscope image of a translucent tardigrade crawling across a fragment of moss, incredibly detailed with visible claws"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The death-defying cheat code",
+      "body": "When conditions get brutal — no water, freezing cold, blazing heat — a tardigrade doesn't die. It curls into a tiny barrel called a tun, loses over 95 percent of its water, and enters a state called cryptobiosis. Its metabolism essentially stops. It isn't dead. It's paused.",
+      "keyTerms": [
+        { "term": "Cryptobiosis", "definition": "A reversible state in which an organism's metabolism drops to undetectable levels" },
+        { "term": "Tun", "definition": "The shriveled, barrel-shaped form a tardigrade assumes during cryptobiosis" }
+      ],
+      "visual": {
+        "sfSymbol": "cube.transparent.fill",
+        "imagePrompt": "A shriveled tardigrade curled into a microscopic barrel shape, artistic scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How they survive the impossible",
+      "body": "When they dry out, tardigrades flood their cells with a glassy sugar-protein compound that locks organelles in place — a kind of biological amber. They also produce a protein called Dsup that physically shields their DNA from radiation damage. This combination lets them endure temperatures from −272°C to +150°C, pressures that would crush a submarine, and radiation doses a thousand times what would kill you.",
+      "funFact": "When tardigrade DNA was put into human cells in a lab, the human cells became noticeably more resistant to X-ray damage.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "A glowing tardigrade in a glass-like bubble with molecules of Dsup protein wrapping protectively around a DNA strand inside"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "In orbit and on the Moon",
+      "body": "In 2007, the European Space Agency glued tardigrades in their tun state to the outside of a satellite and left them in the vacuum of space for ten days. When they came home and were rehydrated, most walked away unharmed. In 2019, an Israeli spacecraft carrying thousands of dormant tardigrades crashed on the Moon. There's a real chance some of them are still there — paused, and perfectly fine.",
+      "visual": {
+        "sfSymbol": "moon.stars.fill",
+        "imagePrompt": "A satellite orbiting Earth with tiny tardigrades clinging to its exterior panels, dark space background with stars"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Life, stubbornly",
+      "body": "Tardigrades live on almost every surface on Earth — glaciers, hot springs, Himalayan soil, your backyard moss. Their trick isn't to fight hostile conditions but to wait them out, for years or even decades. They're a reminder that life's toughest forms don't push harder. They know how to pause.",
+      "visual": {
+        "sfSymbol": "infinity.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is cryptobiosis?",
+      "options": [
+        "A form of hibernation requiring fat stores",
+        "A reversible near-total shutdown of metabolism",
+        "The process of shedding an exoskeleton",
+        "A type of asexual reproduction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cryptobiosis is a state where an organism's metabolism drops to nearly undetectable levels — technically not alive by most measures, but not dead either."
+    },
+    {
+      "index": 1,
+      "question": "What role does the protein Dsup play in tardigrades?",
+      "options": [
+        "It lets them digest cellulose",
+        "It allows them to breathe underwater",
+        "It physically shields their DNA from radiation",
+        "It helps them glow in the dark"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dsup — short for 'damage suppressor' — wraps around tardigrade DNA and protects it from radiation, one reason they survive space."
+    },
+    {
+      "index": 2,
+      "question": "What happened in the 2007 ESA space experiment with tardigrades?",
+      "options": [
+        "They froze solid and died",
+        "They were exposed to space vacuum and most survived",
+        "They produced new offspring in orbit",
+        "They evolved faster than expected"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 2007, tardigrades were glued outside a satellite and exposed to the vacuum of space for ten days — when rehydrated, most were fine."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tardigrades Survive Exposure to Space in Low Earth Orbit",
+      "publisher": "Current Biology",
+      "year": 2008
+    },
+    {
+      "title": "Extremotolerant tardigrade genome and improved radiotolerance of human cultured cells by tardigrade-unique protein",
+      "publisher": "Nature Communications",
+      "year": 2016
+    }
+  ],
+
+  "related": ["immortal-jellyfish", "trees-talk-fungi", "extremophiles"]
+}

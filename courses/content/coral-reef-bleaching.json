@@ -1,0 +1,141 @@
+{
+  "id": "coral-reef-bleaching",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Coral Reefs Are Bleaching",
+    "teaser": "A bleached coral isn't dead yet — it's a coral that just got too hot, and kicked out the tiny tenants that feed it.",
+    "category": "Marine Life",
+    "subcategories": ["Reef Ecology", "Climate Change"],
+    "tags": ["coral", "bleaching", "climate", "reefs", "zooxanthellae"],
+    "emoji": "🪸",
+    "accentColor": "#E8A87C",
+    "coverSymbol": {
+      "sfSymbol": "thermometer.sun.fill",
+      "fallbackEmoji": "🌡️"
+    },
+    "coverImagePrompt": "An underwater close-up of a coral colony transitioning from vibrant fluorescent colors on one side to ghostly bleached white on the other, sunbeams filtering down, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A reef goes pale",
+      "body": "In early 2016, divers on Australia's Great Barrier Reef surfaced with photos that changed how the world talked about coral. Vast stretches that had been brown, purple, and gold a month earlier were now the color of bleached bone. It wasn't a disease. It wasn't pollution in the normal sense. The water was simply too warm for too long — and the coral did what stressed coral does. It turned itself white.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A drone shot of a coral lagoon stretching to the horizon, patches glowing white against turquoise water"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Coral is a partnership",
+      "body": "What looks like a single organism is actually a team. A coral is a colony of tiny animals called polyps, and inside the polyps live microscopic algae called zooxanthellae. The algae photosynthesize, hand over sugars to the coral, and give the reef its colors. In return, the coral provides shelter and nutrients. Up to 90% of a coral's energy can come from these tenants.",
+      "keyTerms": [
+        { "term": "Zooxanthellae", "definition": "Single-celled algae that live symbiotically inside coral polyp tissues" },
+        { "term": "Polyp", "definition": "The individual animal unit that makes up a coral colony" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Microscopic view of a coral polyp with glowing green-gold algae cells packed inside translucent tissue"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What bleaching actually is",
+      "body": "When the water gets too warm — even 1-2°C above a coral's usual summer maximum, for just a few weeks — the algae start producing toxic oxygen compounds. The coral expels them to survive. Without its algal roommates, the coral becomes transparent, revealing the white calcium carbonate skeleton underneath. A bleached coral isn't dead. It's starving. If the heat stress ends quickly, it can reabsorb algae and recover. If it doesn't, the coral runs out of energy and dies within weeks.",
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "A warming thermometer next to a coral releasing glowing algae cells out into the water"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A problem accelerating",
+      "body": "Before 1980, mass bleaching was essentially unheard of. Since then, there have been five global-scale bleaching events — 1998, 2010, 2014-17, 2023, and 2024. The 2016 event alone killed an estimated 30% of corals on the Great Barrier Reef. Studies suggest reefs may face bleaching-level heat every year by around 2040 under current emission paths, which means recovery intervals may shrink below the decade or more most corals need.",
+      "funFact": "Some surviving corals are showing signs of passing heat-tolerance to their offspring — and researchers are now experimenting with 'assisted evolution' to help reefs keep up.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A line graph showing rising ocean temperature with pulses of red marking each global bleaching year"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A canary in warm water",
+      "body": "Coral bleaching is how a reef announces, visibly and at massive scale, that the ocean has moved beyond what its inhabitants evolved for. Corals built the reefs that roughly a quarter of marine species depend on. If they can't keep pace with how fast we're changing their water, the consequences cascade far beyond the coral itself — they reshape entire ocean neighborhoods.",
+      "visual": {
+        "sfSymbol": "drop.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What exactly is bleached coral?",
+      "options": [
+        "Dead coral",
+        "Coral that has expelled its symbiotic algae",
+        "Coral infected with a virus",
+        "Coral coated in limestone"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bleached coral has ejected its zooxanthellae, revealing the white skeleton beneath. It's stressed but not yet dead."
+    },
+    {
+      "index": 1,
+      "question": "What do zooxanthellae provide to their coral hosts?",
+      "options": [
+        "Heat resistance",
+        "Calcium for skeletons",
+        "Sugars from photosynthesis",
+        "Protection from predators"
+      ],
+      "correctIndex": 2,
+      "explanation": "The algae photosynthesize and transfer sugars, which can supply up to 90% of a coral's energy needs."
+    },
+    {
+      "index": 2,
+      "question": "What's the main trigger of modern mass bleaching events?",
+      "options": [
+        "Overfishing",
+        "Plastic pollution",
+        "Prolonged elevated ocean temperatures",
+        "Sunscreen chemicals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even 1-2°C above normal summer highs for a few weeks is enough to trigger widespread bleaching."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Global warming and recurrent mass bleaching of corals",
+      "publisher": "Nature (Hughes et al.)",
+      "year": 2017
+    },
+    {
+      "title": "Coral Bleaching",
+      "publisher": "NOAA Coral Reef Watch",
+      "year": 2024
+    }
+  ],
+
+  "related": ["ocean-acidification", "great-barrier-reef", "marine-symbiosis"]
+}

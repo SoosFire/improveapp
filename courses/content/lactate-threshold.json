@@ -1,0 +1,142 @@
+{
+  "id": "lactate-threshold",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What the 'Burn' in Your Muscles Really Is",
+    "teaser": "For decades, coaches blamed lactic acid for that burning feeling. They got it almost exactly backwards.",
+    "category": "Fitness",
+    "subcategories": ["Endurance", "Physiology"],
+    "tags": ["lactate", "running", "endurance", "exercise-science", "vo2"],
+    "emoji": "🔥",
+    "accentColor": "#D62828",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🏃"
+    },
+    "coverImagePrompt": "A close-up of a runner's legs mid-stride on a cinder track, heat haze rising, golden-hour backlighting, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The villain that wasn't",
+      "body": "For most of the 20th century, gym teachers and textbooks told the same story: you run hard, lactic acid builds up in your muscles, and that's why they burn and fail. Every part of that story turned out to be wrong. Lactate isn't acid. It isn't the cause of the burn. And far from being a waste product, it's actually fuel.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "An old anatomy textbook open to a diagram of muscle fibers, dramatic lighting, vintage paper texture"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Lactate vs lactic acid",
+      "body": "When your muscles break down glucose for quick energy, they produce a molecule called lactate and a separate proton (a hydrogen ion). It's the protons — not the lactate — that make the muscle environment more acidic. Lactate actually helps buffer that acidity by soaking up hydrogen ions, and then gets shipped off to the heart, liver, and other muscles where it's burned as fuel.",
+      "keyTerms": [
+        { "term": "Lactate", "definition": "A molecule produced during fast glucose breakdown — a usable fuel, not a waste product" },
+        { "term": "H+ (hydrogen ions)", "definition": "The particles that actually cause the muscle pH drop and the 'burn'" },
+        { "term": "Glycolysis", "definition": "The chemical pathway that breaks down glucose quickly for energy" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A clean biochemistry diagram showing glucose splitting into lactate and protons, arrows labeled"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The threshold that matters",
+      "body": "At low effort, your body clears lactate as fast as it's produced. Push harder, and a tipping point appears — your lactate threshold — where production outruns clearance. Blood lactate climbs, protons pile up, and the muscle turns acidic enough to interfere with contraction. That's the burn. Trained endurance athletes can run at a much higher percentage of their max before hitting this point.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A clean line chart with a gentle slope that curves sharply upward at a marked 'threshold' point"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Training moves the line",
+      "body": "A 2004 review by Dr. George Brooks — who pioneered the 'lactate shuttle' concept — showed that endurance training builds more lactate transporters and more mitochondria, letting muscles burn lactate as fuel instead of letting it stall them out. Tour de France riders can produce staggering amounts of lactate and still keep going because their cells consume it almost as fast as it forms.",
+      "funFact": "In 1985, Dr. Brooks proposed that lactate is actively shuttled between cells as fuel — an idea that sounded heretical at the time but is now textbook physiology.",
+      "visual": {
+        "sfSymbol": "bicycle",
+        "imagePrompt": "A lone cyclist climbing a mountain road at sunrise, long shadow, cinematic wide shot"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Burn the right bridges",
+      "body": "The burn isn't a warning that something is broken — it's a signal that you've crossed into a zone where your engine is working faster than your cooling system. Training at or just below your threshold teaches your body to handle more of that heat. Lactate isn't the enemy. It's the fuel you mislabeled.",
+      "visual": {
+        "sfSymbol": "flame",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What actually causes the burning feeling during intense exercise?",
+      "options": [
+        "Lactate itself",
+        "A buildup of hydrogen ions (increased acidity)",
+        "Oxygen poisoning",
+        "Cold muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrogen ions cause the drop in pH; lactate actually buffers some of that effect."
+    },
+    {
+      "index": 1,
+      "question": "How does the body use lactate?",
+      "options": [
+        "It's useless waste",
+        "It's burned as fuel by the heart, liver, and other muscles",
+        "It's stored in bones",
+        "It's exhaled through the lungs"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'lactate shuttle' moves lactate between tissues where it's used as an energy source."
+    },
+    {
+      "index": 2,
+      "question": "What does endurance training do to your lactate threshold?",
+      "options": [
+        "Lowers it",
+        "Has no effect",
+        "Raises it, letting you work harder before the burn sets in",
+        "Eliminates lactate entirely"
+      ],
+      "correctIndex": 2,
+      "explanation": "Training increases the threshold — you can push harder before production outruns clearance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Lactate Shuttle During Exercise and Recovery",
+      "publisher": "Medicine & Science in Sports & Exercise",
+      "year": 1986
+    },
+    {
+      "title": "Lactate as a fulcrum of metabolism",
+      "publisher": "Redox Biology",
+      "year": 2020
+    }
+  ],
+
+  "related": ["zone-2-cardio", "why-we-get-stronger", "vo2-max-explained"]
+}

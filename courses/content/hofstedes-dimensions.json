@@ -1,0 +1,136 @@
+{
+  "id": "hofstedes-dimensions",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Culture Shapes Leadership",
+    "teaser": "A Dutch researcher surveyed 116,000 IBM employees — and found that 'good leadership' looks radically different in Tokyo than in Texas.",
+    "category": "Leadership",
+    "subcategories": ["Cross-Cultural", "Global Teams"],
+    "tags": ["culture", "hofstede", "global", "diversity", "management"],
+    "emoji": "🌍",
+    "accentColor": "#3B7EA1",
+    "coverSymbol": {
+      "sfSymbol": "globe",
+      "fallbackEmoji": "🌏"
+    },
+    "coverImagePrompt": "A transparent globe sitting on a meeting table, with threads of colored light connecting six different office scenes around it, cinematic, warm, painterly"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The same memo, two reactions",
+      "body": "A manager in Stockholm sends a team email calling her boss by his first name and asking for feedback on her plan. The Swedish team nods. The Seoul office is horrified. Same words, two cultures, two leadership worlds. What we call 'professional' is often just local custom wearing a tie.",
+      "visual": {
+        "sfSymbol": "envelope.fill",
+        "imagePrompt": "Two split-screen office scenes receiving the same email — one casual Scandinavian loft, one formal Korean boardroom, subtle contrast in lighting and posture"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Six dimensions of difference",
+      "body": "Dutch social psychologist Geert Hofstede spent the 1970s studying IBM employees across 50+ countries. His insight: national cultures cluster along measurable dimensions. Power Distance (how acceptable is hierarchy?). Individualism vs. Collectivism. Uncertainty Avoidance. Masculinity vs. Femininity. Long-term Orientation. Indulgence vs. Restraint.",
+      "keyTerms": [
+        { "term": "Power Distance", "definition": "How comfortable a society is with unequal distribution of authority" },
+        { "term": "Uncertainty Avoidance", "definition": "How much a culture needs explicit rules and predictability" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A six-axis radar chart with different country profiles layered in translucent color, clean infographic aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why this matters for leaders",
+      "body": "A leader from a low-power-distance culture (Denmark, New Zealand) may expect direct disagreement from juniors. A leader from a high-power-distance culture (Malaysia, Russia) may read that same behavior as disrespect. Neither is wrong — they're operating by different invisible rulebooks. Global teams break when leaders assume their rulebook is universal.",
+      "visual": {
+        "sfSymbol": "arrow.left.and.right",
+        "imagePrompt": "Two leadership styles visualized as parallel staircases — one tall and narrow, one wide and flat — with people moving between levels"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When GM missed the memo",
+      "body": "When General Motors partnered with Toyota at the NUMMI plant in California, American managers initially pushed individual performance bonuses. Toyota's system was built on collective accountability — individualist incentives actively hurt teamwork. Adjusting to the collectivist model turned NUMMI into GM's highest-quality plant in North America within three years.",
+      "funFact": "Hofstede originally found four dimensions. Long-term Orientation was added in 1991 after Chinese colleagues pointed out a Confucian value set Western surveys had entirely missed.",
+      "visual": {
+        "sfSymbol": "car.fill",
+        "imagePrompt": "A 1980s-era American car assembly line viewed through soft film grain, workers in Toyota-style blue uniforms, dramatic industrial lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Read the room — then the country",
+      "body": "Hofstede's scores aren't stereotypes; they're statistical averages that miss every individual. But as a starting lens for cross-cultural leadership, they beat winging it. Before you lead across borders, ask: which of my 'obvious' management instincts are actually just my culture's defaults? The leaders who travel well are the ones who pack that question.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'power distance' measure in Hofstede's framework?",
+      "options": [
+        "Physical distance between offices",
+        "Acceptance of unequal distribution of authority",
+        "Tolerance for risk",
+        "Average income gap"
+      ],
+      "correctIndex": 1,
+      "explanation": "Power distance captures how much a society expects and accepts hierarchical differences in power and status."
+    },
+    {
+      "index": 1,
+      "question": "How many dimensions does the current Hofstede model include?",
+      "options": ["Four", "Five", "Six", "Eight"],
+      "correctIndex": 2,
+      "explanation": "Originally four, then five after Long-term Orientation was added in 1991, and six with Indulgence vs. Restraint in 2010."
+    },
+    {
+      "index": 2,
+      "question": "Which approach best fits cross-cultural leadership?",
+      "options": [
+        "Apply your home culture's style everywhere",
+        "Ignore cultural differences as stereotypes",
+        "Use dimensions as a lens, not a script",
+        "Let the loudest culture win"
+      ],
+      "correctIndex": 2,
+      "explanation": "The dimensions are averages and should inform — not dictate — how you approach individuals. The goal is awareness, not pigeonholing."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Culture's Consequences: International Differences in Work-Related Values",
+      "publisher": "Sage Publications",
+      "year": 1980
+    },
+    {
+      "title": "Cultures and Organizations: Software of the Mind (3rd ed.)",
+      "publisher": "McGraw-Hill",
+      "year": 2010
+    }
+  ],
+
+  "related": ["servant-leadership", "cultural-intelligence", "high-context-communication"]
+}

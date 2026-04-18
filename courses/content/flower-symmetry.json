@@ -1,0 +1,141 @@
+{
+  "id": "flower-symmetry",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Flowers Are Symmetrical",
+    "teaser": "Flowers aren't symmetrical for us. They're billboards for insects — and the shape of the billboard tells the bee exactly how to land.",
+    "category": "Botany",
+    "subcategories": ["Plant Biology", "Coevolution"],
+    "tags": ["botany", "flowers", "pollinators", "evolution", "symmetry"],
+    "emoji": "🌸",
+    "accentColor": "#C06A8F",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌸"
+    },
+    "coverImagePrompt": "Macro photograph of a snapdragon blossom with a bumblebee mid-landing, pollen dust catching sunlight, soft garden bokeh behind"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A design principle with wings",
+      "body": "Look at a daisy. Look at a sunflower. Look at an orchid. All of them are built on invisible mirror lines. Plants can't see, can't move, and can't plan — so where does the rigorous geometry come from? The answer isn't about beauty. It's about bees.",
+      "visual": {
+        "sfSymbol": "leaf.arrow.circlepath",
+        "imagePrompt": "A composite image of six different flowers from above, each with their symmetry axis lightly overlaid in dashed line, elegant"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two kinds of symmetry",
+      "body": "Botanists split flowers into two geometries. Radial flowers, like daisies and buttercups, look the same from any direction you approach — an open landing pad. Bilateral flowers, like orchids and snapdragons, have a single mirror line — one way to land is correct, all others fail. The second kind is evolutionarily newer, and almost always tied to a pickier pollinator.",
+      "keyTerms": [
+        { "term": "Radial symmetry", "definition": "Flower shape that looks identical when rotated around its center" },
+        { "term": "Bilateral symmetry", "definition": "Flower shape with a single mirror axis — like a face" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.2x2.fill",
+        "imagePrompt": "Side-by-side botanical illustration of a daisy (radial) and an orchid (bilateral), with their symmetry axes highlighted"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Bees see what we don't",
+      "body": "Bees aren't impressed by symmetry for its own sake. But they learn fast, and symmetrical flowers are easier to recognize across distances. Under ultraviolet light — which bees see and we don't — many flowers also display 'nectar guides,' radial streaks pointing to the reward like runway lights. A flower is a dashboard, laid out for a species that isn't us.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A black-eyed susan flower photographed in UV light, showing bullseye nectar guide pattern invisible to human vision"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The asymmetry experiment",
+      "body": "In 1995, researchers created slightly asymmetrical plastic flowers and measured bumblebee preferences. The bees consistently chose the more symmetrical blooms — and the preference held even when rewards were identical. Over geological time, that preference has been sculpting flower shape. Bilateral flowers also evolved alongside more specialized bees; you can almost read the pollinator off the petals.",
+      "funFact": "The orchid Ophrys apifera doesn't just look like a female bee — it releases matching pheromones. Confused males try to mate with it and leave carrying pollen. Sexual deception, flowering.",
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "A bumblebee hovering between two plastic test flowers on a lab bench, one slightly crooked, one perfectly symmetric"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A conversation written in petals",
+      "body": "Every flower you've ever picked is an answer to an insect's question. The radial shapes say 'anyone welcome.' The bilateral shapes say 'if you know, you know.' Flowers look designed because they are — not by us, but by millions of years of pollinators making choices one landing at a time.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which flower type usually evolves alongside specialist pollinators?",
+      "options": [
+        "Radial-symmetry flowers",
+        "Bilateral-symmetry flowers",
+        "Flowers with no symmetry",
+        "Flowers with odd petal counts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bilateral flowers are more specialized and tend to pair with specific pollinators like orchid bees or hummingbirds."
+    },
+    {
+      "index": 1,
+      "question": "What are 'nectar guides'?",
+      "options": [
+        "Small sweet crystals at the top of petals",
+        "UV-visible streaks pointing insects toward the reward",
+        "Warning colors for predators",
+        "Magnetic field lines produced by the flower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nectar guides are ultraviolet patterns — invisible to us — that direct pollinators to the nectar."
+    },
+    {
+      "index": 2,
+      "question": "What did the 1995 plastic-flower experiment reveal?",
+      "options": [
+        "Bees prefer larger flowers regardless of shape",
+        "Bees consistently preferred more symmetrical flowers even with equal reward",
+        "Symmetry had no effect",
+        "Only one species of bee responded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bumblebees preferred symmetrical plastic flowers over asymmetrical ones even when both offered identical sugar rewards."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Floral symmetry affects speciation rates in angiosperms",
+      "publisher": "Proceedings of the Royal Society B",
+      "year": 2003
+    },
+    {
+      "title": "Bumblebee preference for symmetrical flowers",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 1995
+    }
+  ],
+
+  "related": ["peacock-tails-evolution", "bee-vision", "pollinator-coevolution"]
+}

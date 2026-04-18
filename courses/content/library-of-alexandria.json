@@ -1,0 +1,136 @@
+{
+  "id": "library-of-alexandria",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Library of Alexandria",
+    "teaser": "The greatest library in the ancient world — and nobody is sure how it actually died.",
+    "category": "History",
+    "subcategories": ["Ancient History", "Classical Antiquity"],
+    "tags": ["alexandria", "library", "egypt", "ptolemies", "knowledge"],
+    "emoji": "📜",
+    "accentColor": "#C77F3B",
+    "coverSymbol": {
+      "sfSymbol": "books.vertical.fill",
+      "fallbackEmoji": "📚"
+    },
+    "coverImagePrompt": "A sunlit marble hall stacked floor-to-ceiling with papyrus scrolls, scholars walking between towering shelves, dust motes floating in golden Mediterranean light, cinematic wide shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The internet before the internet",
+      "body": "Imagine a single place that tried to hold every book ever written. In the 3rd century BCE, the Ptolemies of Egypt attempted exactly that. Alexandria's library may have housed up to 500,000 scrolls — the closest the ancient world ever came to a universal archive of human thought. And then it vanished.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "An enormous Hellenistic library hall at dawn, endless rows of scrolls glowing in warm light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A royal obsession with books",
+      "body": "The library was part of a larger research institution called the Mouseion — a 'temple of the Muses' where scholars lived, dined, and worked at state expense. The Ptolemaic kings were fanatical collectors: every ship docking in Alexandria was searched, and any scrolls on board were copied. The original was kept. The copy was returned.",
+      "keyTerms": [
+        { "term": "Mouseion", "definition": "A state-funded research institute in Alexandria, root of the word 'museum'" },
+        { "term": "Ptolemies", "definition": "The Greek-speaking dynasty that ruled Egypt from 305 to 30 BCE" }
+      ],
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "Greek scholars in robes unrolling scrolls at long stone tables, Hellenistic architecture, oil painting style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What they actually did there",
+      "body": "This wasn't just a reading room. Eratosthenes measured the circumference of the Earth from Alexandria — getting it right to within a few percent. Euclid probably compiled the Elements nearby. Aristarchus proposed the sun, not the Earth, sat at the center of things. For roughly 300 years, Alexandria was the intellectual capital of the Mediterranean world.",
+      "funFact": "The chief librarian position was one of the most prestigious jobs in the Hellenistic world — usually given to a tutor of the royal children.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A bearded Hellenistic scholar drawing geometric figures in sand while sunlight streams through columns"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The mystery of how it died",
+      "body": "Hollywood loves the story of a single dramatic fire — usually blaming Julius Caesar, whose troops accidentally torched part of the harbor in 48 BCE. But the evidence suggests a slower death: centuries of budget cuts, religious riots, civil wars, and neglect. By the time Arab forces arrived in 642 CE, there was probably nothing left to burn.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "Smoke rising over an ancient harbor at sunset, silhouettes of columns and ships, dramatic and somber"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What we actually lost",
+      "body": "We don't know what was in the library — which is precisely the tragedy. Lost plays by Sophocles, entire works of Sappho, astronomical calculations, medical texts: gone. Alexandria is a reminder that knowledge isn't indestructible. It needs buildings, budgets, and people who care enough to keep copying it.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which scholar used Alexandria to calculate the Earth's circumference?",
+      "options": ["Euclid", "Eratosthenes", "Archimedes", "Hippocrates"],
+      "correctIndex": 1,
+      "explanation": "Eratosthenes measured shadow angles in Alexandria and Syene on the same day and got within a few percent of the true value."
+    },
+    {
+      "index": 1,
+      "question": "How did the Ptolemies acquire so many scrolls?",
+      "options": [
+        "They purchased them from Rome",
+        "They searched ships in port and kept the originals",
+        "They sent scribes to copy monasteries in India",
+        "They traded gold for manuscripts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Every ship entering Alexandria's harbor was searched. Scrolls were copied, the originals kept, and the copies returned to their owners."
+    },
+    {
+      "index": 2,
+      "question": "What's the most accurate picture of the library's destruction?",
+      "options": [
+        "One catastrophic fire set by Caesar",
+        "A gradual decline over many centuries",
+        "A single earthquake in 365 CE",
+        "A deliberate decree by Cleopatra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern historians see the library's end as a slow unraveling across war, neglect, and political upheaval rather than a single dramatic event."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Rise and Fall of Alexandria: Birthplace of the Modern Mind",
+      "publisher": "Viking",
+      "year": 2006
+    },
+    {
+      "title": "The Library of Alexandria: Centre of Learning in the Ancient World",
+      "publisher": "I.B. Tauris",
+      "year": 2000
+    }
+  ],
+
+  "related": ["ancient-egypt", "eratosthenes-earth", "hellenistic-science"]
+}

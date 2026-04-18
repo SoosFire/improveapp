@@ -1,0 +1,4110 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-18",
+  "categories": [
+    {
+      "name": "Anthropology",
+      "count": 5,
+      "courseIds": [
+        "dunbar-number",
+        "fire-made-us-human",
+        "primates-grooming-bonds",
+        "why-humans-gossip",
+        "why-humans-walk-upright"
+      ]
+    },
+    {
+      "name": "Archaeology",
+      "count": 5,
+      "courseIds": [
+        "gobekli-tepe",
+        "otzi-the-iceman",
+        "pompeii-preserved",
+        "rosetta-stone",
+        "terracotta-army"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "count": 5,
+      "courseIds": [
+        "bauhaus-movement",
+        "flying-buttress",
+        "golden-ratio-architecture",
+        "pyramid-construction-mystery",
+        "why-gothic-cathedrals-tall"
+      ]
+    },
+    {
+      "name": "Art",
+      "count": 5,
+      "courseIds": [
+        "impressionism-explained",
+        "mona-lisa-fame",
+        "vantablack-story",
+        "why-banksy-shredded-painting",
+        "why-picasso-cubism"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "count": 3,
+      "courseIds": [
+        "how-llms-work",
+        "neural-networks-basics",
+        "turing-test"
+      ]
+    },
+    {
+      "name": "Astronomy",
+      "count": 4,
+      "courseIds": [
+        "fermi-paradox",
+        "great-attractor",
+        "inside-a-black-hole",
+        "venus-evil-twin"
+      ]
+    },
+    {
+      "name": "Biology",
+      "count": 4,
+      "courseIds": [
+        "gut-brain-connection",
+        "immortal-jellyfish",
+        "tardigrades",
+        "trees-talk-fungi"
+      ]
+    },
+    {
+      "name": "Botany",
+      "count": 6,
+      "courseIds": [
+        "corpse-flower",
+        "flower-symmetry",
+        "how-trees-drink-water",
+        "how-venus-flytrap-snaps",
+        "strangler-figs",
+        "why-plants-are-green"
+      ]
+    },
+    {
+      "name": "Business",
+      "count": 5,
+      "courseIds": [
+        "blue-ocean-strategy",
+        "innovators-dilemma",
+        "kodak-missed-digital",
+        "network-effects",
+        "osborne-effect"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "count": 3,
+      "courseIds": [
+        "how-soap-works",
+        "maillard-reaction",
+        "why-ice-floats"
+      ]
+    },
+    {
+      "name": "Chess",
+      "count": 6,
+      "courseIds": [
+        "castling-explained",
+        "chess-openings-basics",
+        "deep-blue-vs-kasparov",
+        "en-passant",
+        "stalemate-vs-checkmate",
+        "why-chess-developed-from-war"
+      ]
+    },
+    {
+      "name": "Climate Science",
+      "count": 5,
+      "courseIds": [
+        "albedo-effect",
+        "carbon-cycle",
+        "greenhouse-effect",
+        "milankovitch-cycles",
+        "ocean-currents"
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "count": 3,
+      "courseIds": [
+        "big-o-notation",
+        "binary-counting",
+        "how-search-engines-work"
+      ]
+    },
+    {
+      "name": "Cooking",
+      "count": 3,
+      "courseIds": [
+        "umami-fifth-taste",
+        "why-onions-make-you-cry",
+        "why-salt-enhances-flavor"
+      ]
+    },
+    {
+      "name": "Criminology",
+      "count": 6,
+      "courseIds": [
+        "broken-windows-theory",
+        "dna-evidence",
+        "eyewitness-testimony-psychology",
+        "how-fingerprinting-works",
+        "stockholm-syndrome",
+        "why-lie-detectors-dont-work"
+      ]
+    },
+    {
+      "name": "Critical Thinking",
+      "count": 5,
+      "courseIds": [
+        "anchoring-effect",
+        "confirmation-bias",
+        "occams-razor",
+        "steelmanning",
+        "survivorship-bias"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "count": 5,
+      "courseIds": [
+        "how-vpns-work",
+        "password-entropy",
+        "phishing-basics",
+        "ransomware-explained",
+        "two-factor-authentication"
+      ]
+    },
+    {
+      "name": "Design",
+      "count": 5,
+      "courseIds": [
+        "apple-logo-bitten",
+        "color-psychology",
+        "dieter-rams-ten-principles",
+        "fitts-law",
+        "norman-doors"
+      ]
+    },
+    {
+      "name": "Economics",
+      "count": 5,
+      "courseIds": [
+        "comparative-advantage",
+        "inflation-basics",
+        "moral-hazard",
+        "opportunity-cost",
+        "tragedy-of-the-commons"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "count": 5,
+      "courseIds": [
+        "dam-engineering",
+        "panama-canal-locks",
+        "tacoma-narrows-bridge",
+        "why-airplanes-fly",
+        "why-skyscrapers-sway"
+      ]
+    },
+    {
+      "name": "Ethics",
+      "count": 5,
+      "courseIds": [
+        "doctrine-of-double-effect",
+        "ends-justify-means",
+        "kantian-ethics",
+        "utilitarianism-basics",
+        "veil-of-ignorance"
+      ]
+    },
+    {
+      "name": "Evolutionary Biology",
+      "count": 5,
+      "courseIds": [
+        "convergent-evolution",
+        "peacock-tails-evolution",
+        "red-queen-hypothesis",
+        "why-humans-cry",
+        "why-we-yawn"
+      ]
+    },
+    {
+      "name": "Fashion",
+      "count": 6,
+      "courseIds": [
+        "little-black-dress",
+        "purple-royal-color",
+        "wedding-white-tradition",
+        "why-jeans-are-blue",
+        "why-men-stopped-wearing-heels",
+        "zipper-history"
+      ]
+    },
+    {
+      "name": "Film & Cinema",
+      "count": 5,
+      "courseIds": [
+        "chekhovs-gun",
+        "color-grading-magic",
+        "dolly-zoom",
+        "why-movies-24fps",
+        "why-the-wilhelm-scream"
+      ]
+    },
+    {
+      "name": "Finance",
+      "count": 5,
+      "courseIds": [
+        "compound-interest",
+        "emergency-fund-math",
+        "financial-bubbles",
+        "index-funds-explained",
+        "inverted-yield-curve"
+      ]
+    },
+    {
+      "name": "Fitness",
+      "count": 5,
+      "courseIds": [
+        "lactate-threshold",
+        "muscle-memory",
+        "vo2-max",
+        "why-we-get-stronger",
+        "zone-2-cardio"
+      ]
+    },
+    {
+      "name": "Games & Strategy",
+      "count": 5,
+      "courseIds": [
+        "chess-game-possibilities",
+        "game-theory-basics",
+        "monty-hall-problem",
+        "prisoners-dilemma",
+        "why-rock-paper-scissors-works"
+      ]
+    },
+    {
+      "name": "Gardening",
+      "count": 6,
+      "courseIds": [
+        "bonsai-art",
+        "companion-planting",
+        "composting-basics",
+        "hydroponics-basics",
+        "three-sisters-garden",
+        "why-lawns-exist"
+      ]
+    },
+    {
+      "name": "Genetics",
+      "count": 5,
+      "courseIds": [
+        "blue-eyes-single-ancestor",
+        "crispr-basics",
+        "epigenetics-basics",
+        "junk-dna-isnt-junk",
+        "mitochondrial-eve"
+      ]
+    },
+    {
+      "name": "Geography",
+      "count": 3,
+      "courseIds": [
+        "kola-superdeep-borehole",
+        "map-projections",
+        "why-time-zones-weird"
+      ]
+    },
+    {
+      "name": "Health",
+      "count": 5,
+      "courseIds": [
+        "blue-zones-longevity",
+        "circadian-rhythm",
+        "hydration-myths",
+        "sleep-cycles",
+        "why-we-fever"
+      ]
+    },
+    {
+      "name": "History",
+      "count": 7,
+      "courseIds": [
+        "antikythera-mechanism",
+        "dancing-plague-1518",
+        "emu-war",
+        "library-of-alexandria",
+        "mongol-postal-system",
+        "roman-concrete",
+        "viking-sunstone"
+      ]
+    },
+    {
+      "name": "Home & DIY",
+      "count": 6,
+      "courseIds": [
+        "drywall-explained",
+        "how-locks-work",
+        "how-toilets-flush",
+        "ladder-angle-rule",
+        "load-bearing-walls",
+        "why-three-prong-plugs"
+      ]
+    },
+    {
+      "name": "Language",
+      "count": 5,
+      "courseIds": [
+        "babies-learn-language",
+        "emojis-new-language",
+        "english-spelling-weird",
+        "why-q-needs-u",
+        "why-we-swear"
+      ]
+    },
+    {
+      "name": "Law",
+      "count": 5,
+      "courseIds": [
+        "common-law-vs-civil-law",
+        "double-jeopardy",
+        "habeas-corpus",
+        "miranda-rights",
+        "statute-of-limitations"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "count": 6,
+      "courseIds": [
+        "bikeshedding-law",
+        "eisenhower-matrix",
+        "halo-effect-leadership",
+        "hofstedes-dimensions",
+        "peter-principle",
+        "servant-leadership"
+      ]
+    },
+    {
+      "name": "Linguistics",
+      "count": 5,
+      "courseIds": [
+        "foreign-accents-hard-to-lose",
+        "japanese-no-spaces",
+        "phonemes-vs-graphemes",
+        "pidgin-to-creole",
+        "sapir-whorf-hypothesis"
+      ]
+    },
+    {
+      "name": "Literature",
+      "count": 3,
+      "courseIds": [
+        "heros-journey",
+        "shakespeare-invented-words",
+        "unreliable-narrator"
+      ]
+    },
+    {
+      "name": "Logic",
+      "count": 6,
+      "courseIds": [
+        "deductive-vs-inductive",
+        "godels-incompleteness",
+        "logical-fallacies",
+        "modus-ponens",
+        "pigeonhole-principle",
+        "russells-paradox"
+      ]
+    },
+    {
+      "name": "Marine Life",
+      "count": 5,
+      "courseIds": [
+        "bioluminescence",
+        "coral-reef-bleaching",
+        "mariana-trench",
+        "octopus-eyes-better",
+        "whale-fall-ecosystems"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "count": 5,
+      "courseIds": [
+        "decoy-effect",
+        "foot-in-the-door",
+        "ikea-effect",
+        "price-anchoring",
+        "scarcity-principle"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "count": 5,
+      "courseIds": [
+        "birthday-paradox",
+        "fibonacci-sequence",
+        "infinity-sizes",
+        "law-of-large-numbers",
+        "why-point-nine-equals-one"
+      ]
+    },
+    {
+      "name": "Medicine",
+      "count": 3,
+      "courseIds": [
+        "antibiotic-resistance",
+        "placebo-effect",
+        "vaccines-basics"
+      ]
+    },
+    {
+      "name": "Mental Health",
+      "count": 3,
+      "courseIds": [
+        "anxiety-vs-fear",
+        "cognitive-behavioral-therapy",
+        "fight-flight-freeze"
+      ]
+    },
+    {
+      "name": "Microbiology",
+      "count": 6,
+      "courseIds": [
+        "bacteriophages",
+        "extremophiles",
+        "human-microbiome",
+        "pasteur-spontaneous-generation",
+        "penicillin-discovery",
+        "what-is-a-virus"
+      ]
+    },
+    {
+      "name": "Mindfulness & Meditation",
+      "count": 5,
+      "courseIds": [
+        "body-scan-meditation",
+        "box-breathing",
+        "flow-state",
+        "loving-kindness-meditation",
+        "meditation-changes-brain"
+      ]
+    },
+    {
+      "name": "Music",
+      "count": 3,
+      "courseIds": [
+        "circle-of-fifths",
+        "earworm-science",
+        "why-chords-sound-sad"
+      ]
+    },
+    {
+      "name": "Nature",
+      "count": 5,
+      "courseIds": [
+        "aurora-borealis",
+        "leaves-change-color",
+        "why-geese-fly-v",
+        "why-rainbows-appear",
+        "why-soil-smells-after-rain"
+      ]
+    },
+    {
+      "name": "Neuroscience",
+      "count": 5,
+      "courseIds": [
+        "deja-vu-science",
+        "how-memories-form",
+        "mirror-neurons",
+        "neuroplasticity",
+        "why-we-dream"
+      ]
+    },
+    {
+      "name": "Nutrition",
+      "count": 5,
+      "courseIds": [
+        "caffeine-science",
+        "fat-vs-sugar-villain",
+        "fiber-gut-health",
+        "sugar-crash",
+        "why-we-crave-salt"
+      ]
+    },
+    {
+      "name": "Paleontology",
+      "count": 6,
+      "courseIds": [
+        "feathered-dinosaurs",
+        "how-fossils-form",
+        "life-in-amber",
+        "permian-extinction",
+        "t-rex-tiny-arms",
+        "why-dinosaurs-died"
+      ]
+    },
+    {
+      "name": "Parenting",
+      "count": 6,
+      "courseIds": [
+        "attachment-theory",
+        "marshmallow-test",
+        "object-permanence",
+        "terrible-twos-explained",
+        "why-babies-cry-at-night",
+        "why-kids-ask-why"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "count": 3,
+      "courseIds": [
+        "ship-of-theseus",
+        "stoicism-basics",
+        "trolley-problem"
+      ]
+    },
+    {
+      "name": "Photography",
+      "count": 6,
+      "courseIds": [
+        "depth-of-field",
+        "exposure-triangle",
+        "first-photograph",
+        "golden-hour-photography",
+        "rule-of-thirds",
+        "why-red-eye-happens"
+      ]
+    },
+    {
+      "name": "Physics",
+      "count": 4,
+      "courseIds": [
+        "quantum-entanglement",
+        "schrodingers-cat",
+        "time-near-black-hole",
+        "why-sky-is-blue"
+      ]
+    },
+    {
+      "name": "Political Science",
+      "count": 5,
+      "courseIds": [
+        "electoral-college",
+        "first-past-the-post",
+        "gerrymandering",
+        "separation-of-powers",
+        "social-contract"
+      ]
+    },
+    {
+      "name": "Productivity",
+      "count": 5,
+      "courseIds": [
+        "deep-work-concept",
+        "getting-things-done",
+        "pareto-principle",
+        "parkinsons-law",
+        "pomodoro-technique"
+      ]
+    },
+    {
+      "name": "Psychology",
+      "count": 5,
+      "courseIds": [
+        "cognitive-biases",
+        "dunning-kruger",
+        "why-we-laugh",
+        "why-we-procrastinate",
+        "zeigarnik-effect"
+      ]
+    },
+    {
+      "name": "Relationships",
+      "count": 5,
+      "courseIds": [
+        "active-listening",
+        "arranged-vs-love-marriages",
+        "gottman-four-horsemen",
+        "love-languages",
+        "mere-exposure-effect"
+      ]
+    },
+    {
+      "name": "Religion & Mythology",
+      "count": 3,
+      "courseIds": [
+        "egyptian-afterlife",
+        "greek-twelve-labors",
+        "norse-mythology-ragnarok"
+      ]
+    },
+    {
+      "name": "Self-improvement",
+      "count": 5,
+      "courseIds": [
+        "atomic-habits-rule",
+        "growth-vs-fixed-mindset",
+        "ikigai",
+        "spaced-repetition",
+        "wim-hof-method"
+      ]
+    },
+    {
+      "name": "Sociology",
+      "count": 5,
+      "courseIds": [
+        "bystander-effect",
+        "groupthink",
+        "history-of-manners",
+        "moral-panic",
+        "six-degrees-of-separation"
+      ]
+    },
+    {
+      "name": "Sports",
+      "count": 5,
+      "courseIds": [
+        "curveball-physics",
+        "home-field-advantage",
+        "marathon-distance-origin",
+        "mile-impossible-4-minutes",
+        "why-athletes-choke"
+      ]
+    },
+    {
+      "name": "Survival Skills",
+      "count": 5,
+      "courseIds": [
+        "finding-north-without-compass",
+        "how-to-purify-water",
+        "how-to-start-fire-without-matches",
+        "navigate-by-stars",
+        "survival-rule-of-threes"
+      ]
+    },
+    {
+      "name": "Technology",
+      "count": 3,
+      "courseIds": [
+        "end-to-end-encryption",
+        "how-internet-works",
+        "how-wifi-works"
+      ]
+    },
+    {
+      "name": "Theater & Drama",
+      "count": 6,
+      "courseIds": [
+        "break-a-leg-origin",
+        "deus-ex-machina",
+        "greek-chorus",
+        "method-acting",
+        "theater-masks-symbol",
+        "three-act-structure"
+      ]
+    },
+    {
+      "name": "Travel",
+      "count": 5,
+      "courseIds": [
+        "airfare-economics",
+        "jet-lag-science",
+        "longest-flight-explained",
+        "passport-color-meaning",
+        "why-airplane-food-tastes-bland"
+      ]
+    },
+    {
+      "name": "Weather",
+      "count": 5,
+      "courseIds": [
+        "ball-lightning-mystery",
+        "how-rain-forms",
+        "thunder-and-lightning",
+        "why-hurricanes-spin",
+        "why-snowflakes-unique"
+      ]
+    },
+    {
+      "name": "Wildlife",
+      "count": 5,
+      "courseIds": [
+        "corvid-intelligence",
+        "elephants-mourn-dead",
+        "octopus-intelligence",
+        "why-cats-purr",
+        "why-zebras-striped"
+      ]
+    }
+  ],
+  "subcategories": [
+    {
+      "name": "AI History",
+      "count": 1,
+      "courseIds": [
+        "turing-test"
+      ]
+    },
+    {
+      "name": "Acting Technique",
+      "count": 1,
+      "courseIds": [
+        "method-acting"
+      ]
+    },
+    {
+      "name": "Aerodynamics",
+      "count": 2,
+      "courseIds": [
+        "why-airplanes-fly",
+        "why-geese-fly-v"
+      ]
+    },
+    {
+      "name": "African Wildlife",
+      "count": 1,
+      "courseIds": [
+        "why-zebras-striped"
+      ]
+    },
+    {
+      "name": "Afterlife",
+      "count": 1,
+      "courseIds": [
+        "egyptian-afterlife"
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "count": 2,
+      "courseIds": [
+        "big-o-notation",
+        "how-search-engines-work"
+      ]
+    },
+    {
+      "name": "Anatomy",
+      "count": 1,
+      "courseIds": [
+        "t-rex-tiny-arms"
+      ]
+    },
+    {
+      "name": "Ancient China",
+      "count": 1,
+      "courseIds": [
+        "terracotta-army"
+      ]
+    },
+    {
+      "name": "Ancient Egypt",
+      "count": 1,
+      "courseIds": [
+        "pyramid-construction-mystery"
+      ]
+    },
+    {
+      "name": "Ancient History",
+      "count": 2,
+      "courseIds": [
+        "antikythera-mechanism",
+        "library-of-alexandria"
+      ]
+    },
+    {
+      "name": "Ancient Rome",
+      "count": 1,
+      "courseIds": [
+        "roman-concrete"
+      ]
+    },
+    {
+      "name": "Ancient Technology",
+      "count": 1,
+      "courseIds": [
+        "antikythera-mechanism"
+      ]
+    },
+    {
+      "name": "Ancient Theater",
+      "count": 1,
+      "courseIds": [
+        "greek-chorus"
+      ]
+    },
+    {
+      "name": "Animal Behavior",
+      "count": 5,
+      "courseIds": [
+        "elephants-mourn-dead",
+        "peacock-tails-evolution",
+        "why-cats-purr",
+        "why-geese-fly-v",
+        "why-we-yawn"
+      ]
+    },
+    {
+      "name": "Animal Cognition",
+      "count": 2,
+      "courseIds": [
+        "corvid-intelligence",
+        "octopus-intelligence"
+      ]
+    },
+    {
+      "name": "Anthropology",
+      "count": 1,
+      "courseIds": [
+        "sapir-whorf-hypothesis"
+      ]
+    },
+    {
+      "name": "Antibiotics",
+      "count": 1,
+      "courseIds": [
+        "penicillin-discovery"
+      ]
+    },
+    {
+      "name": "Applied Ethics",
+      "count": 1,
+      "courseIds": [
+        "doctrine-of-double-effect"
+      ]
+    },
+    {
+      "name": "Architecture",
+      "count": 1,
+      "courseIds": [
+        "why-skyscrapers-sway"
+      ]
+    },
+    {
+      "name": "Argumentation",
+      "count": 1,
+      "courseIds": [
+        "steelmanning"
+      ]
+    },
+    {
+      "name": "Art History",
+      "count": 2,
+      "courseIds": [
+        "impressionism-explained",
+        "mona-lisa-fame"
+      ]
+    },
+    {
+      "name": "Art Market",
+      "count": 1,
+      "courseIds": [
+        "why-banksy-shredded-painting"
+      ]
+    },
+    {
+      "name": "Astrobiology",
+      "count": 2,
+      "courseIds": [
+        "extremophiles",
+        "fermi-paradox"
+      ]
+    },
+    {
+      "name": "Astronomy",
+      "count": 3,
+      "courseIds": [
+        "aurora-borealis",
+        "milankovitch-cycles",
+        "navigate-by-stars"
+      ]
+    },
+    {
+      "name": "Astrophysics",
+      "count": 1,
+      "courseIds": [
+        "time-near-black-hole"
+      ]
+    },
+    {
+      "name": "Athletics History",
+      "count": 1,
+      "courseIds": [
+        "mile-impossible-4-minutes"
+      ]
+    },
+    {
+      "name": "Atmosphere",
+      "count": 1,
+      "courseIds": [
+        "greenhouse-effect"
+      ]
+    },
+    {
+      "name": "Atmospheric Physics",
+      "count": 2,
+      "courseIds": [
+        "ball-lightning-mystery",
+        "why-sky-is-blue"
+      ]
+    },
+    {
+      "name": "Atmospheric Science",
+      "count": 3,
+      "courseIds": [
+        "aurora-borealis",
+        "thunder-and-lightning",
+        "why-hurricanes-spin"
+      ]
+    },
+    {
+      "name": "Attraction",
+      "count": 1,
+      "courseIds": [
+        "mere-exposure-effect"
+      ]
+    },
+    {
+      "name": "Australian History",
+      "count": 1,
+      "courseIds": [
+        "emu-war"
+      ]
+    },
+    {
+      "name": "Authentication",
+      "count": 2,
+      "courseIds": [
+        "password-entropy",
+        "two-factor-authentication"
+      ]
+    },
+    {
+      "name": "Aviation",
+      "count": 3,
+      "courseIds": [
+        "airfare-economics",
+        "longest-flight-explained",
+        "why-airplane-food-tastes-bland"
+      ]
+    },
+    {
+      "name": "Baseball",
+      "count": 1,
+      "courseIds": [
+        "curveball-physics"
+      ]
+    },
+    {
+      "name": "Beginner Practice",
+      "count": 1,
+      "courseIds": [
+        "body-scan-meditation"
+      ]
+    },
+    {
+      "name": "Behavior",
+      "count": 1,
+      "courseIds": [
+        "why-we-procrastinate"
+      ]
+    },
+    {
+      "name": "Behavioral Economics",
+      "count": 5,
+      "courseIds": [
+        "decoy-effect",
+        "financial-bubbles",
+        "ikea-effect",
+        "moral-hazard",
+        "price-anchoring"
+      ]
+    },
+    {
+      "name": "Behavioral Science",
+      "count": 1,
+      "courseIds": [
+        "home-field-advantage"
+      ]
+    },
+    {
+      "name": "Behavioural Economics",
+      "count": 1,
+      "courseIds": [
+        "anchoring-effect"
+      ]
+    },
+    {
+      "name": "Biochemistry",
+      "count": 2,
+      "courseIds": [
+        "bioluminescence",
+        "how-soap-works"
+      ]
+    },
+    {
+      "name": "Biogeochemistry",
+      "count": 1,
+      "courseIds": [
+        "carbon-cycle"
+      ]
+    },
+    {
+      "name": "Biology",
+      "count": 3,
+      "courseIds": [
+        "jet-lag-science",
+        "life-in-amber",
+        "why-soil-smells-after-rain"
+      ]
+    },
+    {
+      "name": "Biology of Taste",
+      "count": 1,
+      "courseIds": [
+        "why-we-crave-salt"
+      ]
+    },
+    {
+      "name": "Biomechanics",
+      "count": 1,
+      "courseIds": [
+        "why-humans-walk-upright"
+      ]
+    },
+    {
+      "name": "Biotechnology",
+      "count": 1,
+      "courseIds": [
+        "crispr-basics"
+      ]
+    },
+    {
+      "name": "Birds",
+      "count": 1,
+      "courseIds": [
+        "corvid-intelligence"
+      ]
+    },
+    {
+      "name": "Bonds",
+      "count": 1,
+      "courseIds": [
+        "inverted-yield-curve"
+      ]
+    },
+    {
+      "name": "Botany",
+      "count": 1,
+      "courseIds": [
+        "leaves-change-color"
+      ]
+    },
+    {
+      "name": "Brain",
+      "count": 1,
+      "courseIds": [
+        "how-memories-form"
+      ]
+    },
+    {
+      "name": "Brain Plasticity",
+      "count": 1,
+      "courseIds": [
+        "neuroplasticity"
+      ]
+    },
+    {
+      "name": "Branding",
+      "count": 1,
+      "courseIds": [
+        "apple-logo-bitten"
+      ]
+    },
+    {
+      "name": "Breathwork",
+      "count": 1,
+      "courseIds": [
+        "box-breathing"
+      ]
+    },
+    {
+      "name": "Budgeting",
+      "count": 1,
+      "courseIds": [
+        "emergency-fund-math"
+      ]
+    },
+    {
+      "name": "Bushcraft",
+      "count": 2,
+      "courseIds": [
+        "finding-north-without-compass",
+        "how-to-start-fire-without-matches"
+      ]
+    },
+    {
+      "name": "Cardio",
+      "count": 1,
+      "courseIds": [
+        "vo2-max"
+      ]
+    },
+    {
+      "name": "Carnivorous Plants",
+      "count": 1,
+      "courseIds": [
+        "how-venus-flytrap-snaps"
+      ]
+    },
+    {
+      "name": "Cartography",
+      "count": 1,
+      "courseIds": [
+        "map-projections"
+      ]
+    },
+    {
+      "name": "Cellular Biology",
+      "count": 1,
+      "courseIds": [
+        "immortal-jellyfish"
+      ]
+    },
+    {
+      "name": "Cephalopods",
+      "count": 1,
+      "courseIds": [
+        "octopus-eyes-better"
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "count": 1,
+      "courseIds": [
+        "why-soil-smells-after-rain"
+      ]
+    },
+    {
+      "name": "Chess",
+      "count": 1,
+      "courseIds": [
+        "chess-game-possibilities"
+      ]
+    },
+    {
+      "name": "Chess History",
+      "count": 3,
+      "courseIds": [
+        "deep-blue-vs-kasparov",
+        "en-passant",
+        "why-chess-developed-from-war"
+      ]
+    },
+    {
+      "name": "Chess Rules",
+      "count": 2,
+      "courseIds": [
+        "castling-explained",
+        "stalemate-vs-checkmate"
+      ]
+    },
+    {
+      "name": "Chess Strategy",
+      "count": 1,
+      "courseIds": [
+        "chess-openings-basics"
+      ]
+    },
+    {
+      "name": "Child Development",
+      "count": 4,
+      "courseIds": [
+        "attachment-theory",
+        "babies-learn-language",
+        "marshmallow-test",
+        "object-permanence"
+      ]
+    },
+    {
+      "name": "Chronobiology",
+      "count": 1,
+      "courseIds": [
+        "circadian-rhythm"
+      ]
+    },
+    {
+      "name": "Cinematography",
+      "count": 3,
+      "courseIds": [
+        "color-grading-magic",
+        "dolly-zoom",
+        "why-movies-24fps"
+      ]
+    },
+    {
+      "name": "Civil Engineering",
+      "count": 4,
+      "courseIds": [
+        "dam-engineering",
+        "panama-canal-locks",
+        "tacoma-narrows-bridge",
+        "why-skyscrapers-sway"
+      ]
+    },
+    {
+      "name": "Civil Procedure",
+      "count": 1,
+      "courseIds": [
+        "statute-of-limitations"
+      ]
+    },
+    {
+      "name": "Classical Antiquity",
+      "count": 1,
+      "courseIds": [
+        "library-of-alexandria"
+      ]
+    },
+    {
+      "name": "Climate Change",
+      "count": 1,
+      "courseIds": [
+        "coral-reef-bleaching"
+      ]
+    },
+    {
+      "name": "Climate Systems",
+      "count": 2,
+      "courseIds": [
+        "carbon-cycle",
+        "ocean-currents"
+      ]
+    },
+    {
+      "name": "Clinical Research",
+      "count": 1,
+      "courseIds": [
+        "placebo-effect"
+      ]
+    },
+    {
+      "name": "Coevolution",
+      "count": 2,
+      "courseIds": [
+        "flower-symmetry",
+        "red-queen-hypothesis"
+      ]
+    },
+    {
+      "name": "Cognition",
+      "count": 2,
+      "courseIds": [
+        "elephants-mourn-dead",
+        "why-we-dream"
+      ]
+    },
+    {
+      "name": "Cognitive Bias",
+      "count": 5,
+      "courseIds": [
+        "anchoring-effect",
+        "cognitive-biases",
+        "confirmation-bias",
+        "dunning-kruger",
+        "halo-effect-leadership"
+      ]
+    },
+    {
+      "name": "Cognitive Biases",
+      "count": 1,
+      "courseIds": [
+        "survivorship-bias"
+      ]
+    },
+    {
+      "name": "Cognitive Development",
+      "count": 1,
+      "courseIds": [
+        "why-kids-ask-why"
+      ]
+    },
+    {
+      "name": "Cognitive Neuroscience",
+      "count": 1,
+      "courseIds": [
+        "mirror-neurons"
+      ]
+    },
+    {
+      "name": "Cognitive Science",
+      "count": 2,
+      "courseIds": [
+        "babies-learn-language",
+        "sapir-whorf-hypothesis"
+      ]
+    },
+    {
+      "name": "Color",
+      "count": 1,
+      "courseIds": [
+        "purple-royal-color"
+      ]
+    },
+    {
+      "name": "Combinatorics",
+      "count": 2,
+      "courseIds": [
+        "birthday-paradox",
+        "pigeonhole-principle"
+      ]
+    },
+    {
+      "name": "Communication",
+      "count": 3,
+      "courseIds": [
+        "active-listening",
+        "gottman-four-horsemen",
+        "love-languages"
+      ]
+    },
+    {
+      "name": "Comparative Biology",
+      "count": 1,
+      "courseIds": [
+        "convergent-evolution"
+      ]
+    },
+    {
+      "name": "Comparative Law",
+      "count": 1,
+      "courseIds": [
+        "common-law-vs-civil-law"
+      ]
+    },
+    {
+      "name": "Comparative Planetology",
+      "count": 1,
+      "courseIds": [
+        "venus-evil-twin"
+      ]
+    },
+    {
+      "name": "Compassion Practice",
+      "count": 1,
+      "courseIds": [
+        "loving-kindness-meditation"
+      ]
+    },
+    {
+      "name": "Complexity",
+      "count": 1,
+      "courseIds": [
+        "big-o-notation"
+      ]
+    },
+    {
+      "name": "Composition",
+      "count": 3,
+      "courseIds": [
+        "circle-of-fifths",
+        "depth-of-field",
+        "rule-of-thirds"
+      ]
+    },
+    {
+      "name": "Computer Chess",
+      "count": 1,
+      "courseIds": [
+        "deep-blue-vs-kasparov"
+      ]
+    },
+    {
+      "name": "Consciousness",
+      "count": 1,
+      "courseIds": [
+        "deja-vu-science"
+      ]
+    },
+    {
+      "name": "Consequentialism",
+      "count": 1,
+      "courseIds": [
+        "utilitarianism-basics"
+      ]
+    },
+    {
+      "name": "Constitutional Law",
+      "count": 3,
+      "courseIds": [
+        "double-jeopardy",
+        "habeas-corpus",
+        "miranda-rights"
+      ]
+    },
+    {
+      "name": "Constitutional Theory",
+      "count": 1,
+      "courseIds": [
+        "separation-of-powers"
+      ]
+    },
+    {
+      "name": "Construction",
+      "count": 2,
+      "courseIds": [
+        "drywall-explained",
+        "load-bearing-walls"
+      ]
+    },
+    {
+      "name": "Construction Engineering",
+      "count": 1,
+      "courseIds": [
+        "pyramid-construction-mystery"
+      ]
+    },
+    {
+      "name": "Consumer Psychology",
+      "count": 1,
+      "courseIds": [
+        "ikea-effect"
+      ]
+    },
+    {
+      "name": "Contemporary Art",
+      "count": 2,
+      "courseIds": [
+        "vantablack-story",
+        "why-banksy-shredded-painting"
+      ]
+    },
+    {
+      "name": "Corporate History",
+      "count": 1,
+      "courseIds": [
+        "kodak-missed-digital"
+      ]
+    },
+    {
+      "name": "Cosmology",
+      "count": 3,
+      "courseIds": [
+        "fermi-paradox",
+        "great-attractor",
+        "inside-a-black-hole"
+      ]
+    },
+    {
+      "name": "Criminal Law",
+      "count": 2,
+      "courseIds": [
+        "double-jeopardy",
+        "statute-of-limitations"
+      ]
+    },
+    {
+      "name": "Criminal Procedure",
+      "count": 1,
+      "courseIds": [
+        "miranda-rights"
+      ]
+    },
+    {
+      "name": "Critical Thinking",
+      "count": 1,
+      "courseIds": [
+        "logical-fallacies"
+      ]
+    },
+    {
+      "name": "Cross-Cultural",
+      "count": 1,
+      "courseIds": [
+        "hofstedes-dimensions"
+      ]
+    },
+    {
+      "name": "Cryosphere",
+      "count": 1,
+      "courseIds": [
+        "albedo-effect"
+      ]
+    },
+    {
+      "name": "Cryptography",
+      "count": 2,
+      "courseIds": [
+        "end-to-end-encryption",
+        "password-entropy"
+      ]
+    },
+    {
+      "name": "Crystallography",
+      "count": 1,
+      "courseIds": [
+        "why-snowflakes-unique"
+      ]
+    },
+    {
+      "name": "Cubism",
+      "count": 1,
+      "courseIds": [
+        "why-picasso-cubism"
+      ]
+    },
+    {
+      "name": "Cultural History",
+      "count": 1,
+      "courseIds": [
+        "history-of-manners"
+      ]
+    },
+    {
+      "name": "Culture",
+      "count": 1,
+      "courseIds": [
+        "arranged-vs-love-marriages"
+      ]
+    },
+    {
+      "name": "Decision Making",
+      "count": 6,
+      "courseIds": [
+        "bikeshedding-law",
+        "cognitive-biases",
+        "ends-justify-means",
+        "groupthink",
+        "opportunity-cost",
+        "prisoners-dilemma"
+      ]
+    },
+    {
+      "name": "Decision Theory",
+      "count": 1,
+      "courseIds": [
+        "game-theory-basics"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "count": 1,
+      "courseIds": [
+        "neural-networks-basics"
+      ]
+    },
+    {
+      "name": "Deep Sea",
+      "count": 3,
+      "courseIds": [
+        "bioluminescence",
+        "mariana-trench",
+        "whale-fall-ecosystems"
+      ]
+    },
+    {
+      "name": "Deep Time",
+      "count": 1,
+      "courseIds": [
+        "permian-extinction"
+      ]
+    },
+    {
+      "name": "Democracy",
+      "count": 2,
+      "courseIds": [
+        "first-past-the-post",
+        "gerrymandering"
+      ]
+    },
+    {
+      "name": "Deontology",
+      "count": 1,
+      "courseIds": [
+        "kantian-ethics"
+      ]
+    },
+    {
+      "name": "Design",
+      "count": 3,
+      "courseIds": [
+        "golden-ratio-architecture",
+        "passport-color-meaning",
+        "zipper-history"
+      ]
+    },
+    {
+      "name": "Design History",
+      "count": 1,
+      "courseIds": [
+        "bauhaus-movement"
+      ]
+    },
+    {
+      "name": "Development",
+      "count": 1,
+      "courseIds": [
+        "terrible-twos-explained"
+      ]
+    },
+    {
+      "name": "Diet Science",
+      "count": 1,
+      "courseIds": [
+        "fat-vs-sugar-villain"
+      ]
+    },
+    {
+      "name": "Digital Communication",
+      "count": 1,
+      "courseIds": [
+        "emojis-new-language"
+      ]
+    },
+    {
+      "name": "Dinosaurs",
+      "count": 2,
+      "courseIds": [
+        "feathered-dinosaurs",
+        "t-rex-tiny-arms"
+      ]
+    },
+    {
+      "name": "Disaster History",
+      "count": 1,
+      "courseIds": [
+        "tacoma-narrows-bridge"
+      ]
+    },
+    {
+      "name": "Disruption",
+      "count": 2,
+      "courseIds": [
+        "innovators-dilemma",
+        "kodak-missed-digital"
+      ]
+    },
+    {
+      "name": "Dramatic Devices",
+      "count": 2,
+      "courseIds": [
+        "deus-ex-machina",
+        "greek-chorus"
+      ]
+    },
+    {
+      "name": "Dramaturgy",
+      "count": 1,
+      "courseIds": [
+        "three-act-structure"
+      ]
+    },
+    {
+      "name": "Early Childhood",
+      "count": 1,
+      "courseIds": [
+        "why-kids-ask-why"
+      ]
+    },
+    {
+      "name": "Early Photography",
+      "count": 1,
+      "courseIds": [
+        "first-photograph"
+      ]
+    },
+    {
+      "name": "Earth History",
+      "count": 1,
+      "courseIds": [
+        "why-dinosaurs-died"
+      ]
+    },
+    {
+      "name": "Earth Science",
+      "count": 1,
+      "courseIds": [
+        "kola-superdeep-borehole"
+      ]
+    },
+    {
+      "name": "Ecology",
+      "count": 3,
+      "courseIds": [
+        "bacteriophages",
+        "trees-talk-fungi",
+        "whale-fall-ecosystems"
+      ]
+    },
+    {
+      "name": "Economics",
+      "count": 4,
+      "courseIds": [
+        "airfare-economics",
+        "game-theory-basics",
+        "network-effects",
+        "pareto-principle"
+      ]
+    },
+    {
+      "name": "Egyptian Mythology",
+      "count": 1,
+      "courseIds": [
+        "egyptian-afterlife"
+      ]
+    },
+    {
+      "name": "Egyptology",
+      "count": 1,
+      "courseIds": [
+        "rosetta-stone"
+      ]
+    },
+    {
+      "name": "Elections",
+      "count": 1,
+      "courseIds": [
+        "gerrymandering"
+      ]
+    },
+    {
+      "name": "Electoral Systems",
+      "count": 2,
+      "courseIds": [
+        "electoral-college",
+        "first-past-the-post"
+      ]
+    },
+    {
+      "name": "Electrical",
+      "count": 1,
+      "courseIds": [
+        "why-three-prong-plugs"
+      ]
+    },
+    {
+      "name": "Email Security",
+      "count": 1,
+      "courseIds": [
+        "phishing-basics"
+      ]
+    },
+    {
+      "name": "Emergency Response",
+      "count": 1,
+      "courseIds": [
+        "survival-rule-of-threes"
+      ]
+    },
+    {
+      "name": "Emotional Intelligence",
+      "count": 1,
+      "courseIds": [
+        "love-languages"
+      ]
+    },
+    {
+      "name": "Emotions",
+      "count": 2,
+      "courseIds": [
+        "anxiety-vs-fear",
+        "why-humans-cry"
+      ]
+    },
+    {
+      "name": "Endgame",
+      "count": 1,
+      "courseIds": [
+        "stalemate-vs-checkmate"
+      ]
+    },
+    {
+      "name": "Endocrinology",
+      "count": 1,
+      "courseIds": [
+        "sugar-crash"
+      ]
+    },
+    {
+      "name": "Endurance",
+      "count": 2,
+      "courseIds": [
+        "lactate-threshold",
+        "zone-2-cardio"
+      ]
+    },
+    {
+      "name": "Energy Balance",
+      "count": 1,
+      "courseIds": [
+        "albedo-effect"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "count": 1,
+      "courseIds": [
+        "flying-buttress"
+      ]
+    },
+    {
+      "name": "Engineering History",
+      "count": 1,
+      "courseIds": [
+        "roman-concrete"
+      ]
+    },
+    {
+      "name": "Enlightenment",
+      "count": 1,
+      "courseIds": [
+        "social-contract"
+      ]
+    },
+    {
+      "name": "Environment",
+      "count": 1,
+      "courseIds": [
+        "tragedy-of-the-commons"
+      ]
+    },
+    {
+      "name": "Epidemiology",
+      "count": 1,
+      "courseIds": [
+        "blue-zones-longevity"
+      ]
+    },
+    {
+      "name": "Epistemics",
+      "count": 1,
+      "courseIds": [
+        "steelmanning"
+      ]
+    },
+    {
+      "name": "Eschatology",
+      "count": 1,
+      "courseIds": [
+        "norse-mythology-ragnarok"
+      ]
+    },
+    {
+      "name": "Ethics",
+      "count": 2,
+      "courseIds": [
+        "stoicism-basics",
+        "trolley-problem"
+      ]
+    },
+    {
+      "name": "Etiquette",
+      "count": 1,
+      "courseIds": [
+        "history-of-manners"
+      ]
+    },
+    {
+      "name": "Etymology",
+      "count": 2,
+      "courseIds": [
+        "shakespeare-invented-words",
+        "why-q-needs-u"
+      ]
+    },
+    {
+      "name": "Everyday Science",
+      "count": 2,
+      "courseIds": [
+        "how-soap-works",
+        "why-ice-floats"
+      ]
+    },
+    {
+      "name": "Evolution",
+      "count": 3,
+      "courseIds": [
+        "convergent-evolution",
+        "feathered-dinosaurs",
+        "why-zebras-striped"
+      ]
+    },
+    {
+      "name": "Evolutionary Anthropology",
+      "count": 1,
+      "courseIds": [
+        "why-humans-gossip"
+      ]
+    },
+    {
+      "name": "Evolutionary Biology",
+      "count": 1,
+      "courseIds": [
+        "why-we-laugh"
+      ]
+    },
+    {
+      "name": "Evolutionary Psychology",
+      "count": 1,
+      "courseIds": [
+        "dunbar-number"
+      ]
+    },
+    {
+      "name": "Experimental Method",
+      "count": 1,
+      "courseIds": [
+        "pasteur-spontaneous-generation"
+      ]
+    },
+    {
+      "name": "Extinction Events",
+      "count": 1,
+      "courseIds": [
+        "why-dinosaurs-died"
+      ]
+    },
+    {
+      "name": "Extremophiles",
+      "count": 1,
+      "courseIds": [
+        "tardigrades"
+      ]
+    },
+    {
+      "name": "Fashion History",
+      "count": 5,
+      "courseIds": [
+        "little-black-dress",
+        "purple-royal-color",
+        "wedding-white-tradition",
+        "why-men-stopped-wearing-heels",
+        "zipper-history"
+      ]
+    },
+    {
+      "name": "Fiction",
+      "count": 1,
+      "courseIds": [
+        "unreliable-narrator"
+      ]
+    },
+    {
+      "name": "Film History",
+      "count": 2,
+      "courseIds": [
+        "why-movies-24fps",
+        "why-the-wilhelm-scream"
+      ]
+    },
+    {
+      "name": "Flash",
+      "count": 1,
+      "courseIds": [
+        "why-red-eye-happens"
+      ]
+    },
+    {
+      "name": "Flavor Science",
+      "count": 2,
+      "courseIds": [
+        "umami-fifth-taste",
+        "why-salt-enhances-flavor"
+      ]
+    },
+    {
+      "name": "Flowering Plants",
+      "count": 1,
+      "courseIds": [
+        "corpse-flower"
+      ]
+    },
+    {
+      "name": "Focus",
+      "count": 2,
+      "courseIds": [
+        "deep-work-concept",
+        "pomodoro-technique"
+      ]
+    },
+    {
+      "name": "Food Chemistry",
+      "count": 1,
+      "courseIds": [
+        "maillard-reaction"
+      ]
+    },
+    {
+      "name": "Food Policy",
+      "count": 1,
+      "courseIds": [
+        "fat-vs-sugar-villain"
+      ]
+    },
+    {
+      "name": "Food Science",
+      "count": 2,
+      "courseIds": [
+        "why-airplane-food-tastes-bland",
+        "why-onions-make-you-cry"
+      ]
+    },
+    {
+      "name": "Forensic Archaeology",
+      "count": 1,
+      "courseIds": [
+        "otzi-the-iceman"
+      ]
+    },
+    {
+      "name": "Forensics",
+      "count": 4,
+      "courseIds": [
+        "dna-evidence",
+        "eyewitness-testimony-psychology",
+        "how-fingerprinting-works",
+        "why-lie-detectors-dont-work"
+      ]
+    },
+    {
+      "name": "Formal Logic",
+      "count": 1,
+      "courseIds": [
+        "modus-ponens"
+      ]
+    },
+    {
+      "name": "Fossilization",
+      "count": 2,
+      "courseIds": [
+        "how-fossils-form",
+        "life-in-amber"
+      ]
+    },
+    {
+      "name": "Foundations of Math",
+      "count": 2,
+      "courseIds": [
+        "godels-incompleteness",
+        "russells-paradox"
+      ]
+    },
+    {
+      "name": "Fundamentals",
+      "count": 3,
+      "courseIds": [
+        "binary-counting",
+        "exposure-triangle",
+        "rule-of-thirds"
+      ]
+    },
+    {
+      "name": "Galactic Dynamics",
+      "count": 1,
+      "courseIds": [
+        "great-attractor"
+      ]
+    },
+    {
+      "name": "Game Shows",
+      "count": 1,
+      "courseIds": [
+        "monty-hall-problem"
+      ]
+    },
+    {
+      "name": "Game Theory",
+      "count": 3,
+      "courseIds": [
+        "prisoners-dilemma",
+        "tragedy-of-the-commons",
+        "why-rock-paper-scissors-works"
+      ]
+    },
+    {
+      "name": "Gender",
+      "count": 1,
+      "courseIds": [
+        "why-men-stopped-wearing-heels"
+      ]
+    },
+    {
+      "name": "General Relativity",
+      "count": 1,
+      "courseIds": [
+        "inside-a-black-hole"
+      ]
+    },
+    {
+      "name": "Genetics",
+      "count": 1,
+      "courseIds": [
+        "dna-evidence"
+      ]
+    },
+    {
+      "name": "Genomics",
+      "count": 1,
+      "courseIds": [
+        "junk-dna-isnt-junk"
+      ]
+    },
+    {
+      "name": "Geography",
+      "count": 1,
+      "courseIds": [
+        "longest-flight-explained"
+      ]
+    },
+    {
+      "name": "Geology",
+      "count": 2,
+      "courseIds": [
+        "how-fossils-form",
+        "kola-superdeep-borehole"
+      ]
+    },
+    {
+      "name": "Geopolitics",
+      "count": 1,
+      "courseIds": [
+        "passport-color-meaning"
+      ]
+    },
+    {
+      "name": "Global Teams",
+      "count": 1,
+      "courseIds": [
+        "hofstedes-dimensions"
+      ]
+    },
+    {
+      "name": "Gothic Architecture",
+      "count": 1,
+      "courseIds": [
+        "flying-buttress"
+      ]
+    },
+    {
+      "name": "Governance",
+      "count": 1,
+      "courseIds": [
+        "separation-of-powers"
+      ]
+    },
+    {
+      "name": "Greek Mythology",
+      "count": 1,
+      "courseIds": [
+        "greek-twelve-labors"
+      ]
+    },
+    {
+      "name": "Group Behavior",
+      "count": 1,
+      "courseIds": [
+        "bystander-effect"
+      ]
+    },
+    {
+      "name": "Gut Health",
+      "count": 1,
+      "courseIds": [
+        "fiber-gut-health"
+      ]
+    },
+    {
+      "name": "Habits",
+      "count": 1,
+      "courseIds": [
+        "atomic-habits-rule"
+      ]
+    },
+    {
+      "name": "Health",
+      "count": 2,
+      "courseIds": [
+        "caffeine-science",
+        "jet-lag-science"
+      ]
+    },
+    {
+      "name": "Heroes",
+      "count": 1,
+      "courseIds": [
+        "greek-twelve-labors"
+      ]
+    },
+    {
+      "name": "History",
+      "count": 4,
+      "courseIds": [
+        "first-photograph",
+        "theater-masks-symbol",
+        "why-jeans-are-blue",
+        "why-lawns-exist"
+      ]
+    },
+    {
+      "name": "History of Crime",
+      "count": 1,
+      "courseIds": [
+        "how-fingerprinting-works"
+      ]
+    },
+    {
+      "name": "History of English",
+      "count": 1,
+      "courseIds": [
+        "english-spelling-weird"
+      ]
+    },
+    {
+      "name": "History of Science",
+      "count": 2,
+      "courseIds": [
+        "pasteur-spontaneous-generation",
+        "penicillin-discovery"
+      ]
+    },
+    {
+      "name": "Horticulture",
+      "count": 1,
+      "courseIds": [
+        "bonsai-art"
+      ]
+    },
+    {
+      "name": "Human Behavior",
+      "count": 1,
+      "courseIds": [
+        "why-humans-cry"
+      ]
+    },
+    {
+      "name": "Human Biology",
+      "count": 1,
+      "courseIds": [
+        "human-microbiome"
+      ]
+    },
+    {
+      "name": "Human Evolution",
+      "count": 4,
+      "courseIds": [
+        "blue-eyes-single-ancestor",
+        "fire-made-us-human",
+        "mitochondrial-eve",
+        "why-humans-walk-upright"
+      ]
+    },
+    {
+      "name": "Human Performance",
+      "count": 1,
+      "courseIds": [
+        "mile-impossible-4-minutes"
+      ]
+    },
+    {
+      "name": "Human Physiology",
+      "count": 1,
+      "courseIds": [
+        "why-we-crave-salt"
+      ]
+    },
+    {
+      "name": "Hydraulics",
+      "count": 1,
+      "courseIds": [
+        "panama-canal-locks"
+      ]
+    },
+    {
+      "name": "Hydrology",
+      "count": 1,
+      "courseIds": [
+        "dam-engineering"
+      ]
+    },
+    {
+      "name": "Hydroponics",
+      "count": 1,
+      "courseIds": [
+        "hydroponics-basics"
+      ]
+    },
+    {
+      "name": "Iconic Garments",
+      "count": 1,
+      "courseIds": [
+        "little-black-dress"
+      ]
+    },
+    {
+      "name": "Identity",
+      "count": 1,
+      "courseIds": [
+        "ship-of-theseus"
+      ]
+    },
+    {
+      "name": "Immunology",
+      "count": 2,
+      "courseIds": [
+        "vaccines-basics",
+        "why-we-fever"
+      ]
+    },
+    {
+      "name": "Imperial Burials",
+      "count": 1,
+      "courseIds": [
+        "terracotta-army"
+      ]
+    },
+    {
+      "name": "Indigenous Agriculture",
+      "count": 1,
+      "courseIds": [
+        "three-sisters-garden"
+      ]
+    },
+    {
+      "name": "Industrial Design",
+      "count": 1,
+      "courseIds": [
+        "dieter-rams-ten-principles"
+      ]
+    },
+    {
+      "name": "Infants",
+      "count": 1,
+      "courseIds": [
+        "why-babies-cry-at-night"
+      ]
+    },
+    {
+      "name": "Infectious Disease",
+      "count": 1,
+      "courseIds": [
+        "why-we-fever"
+      ]
+    },
+    {
+      "name": "Inference Rules",
+      "count": 1,
+      "courseIds": [
+        "modus-ponens"
+      ]
+    },
+    {
+      "name": "Infinity",
+      "count": 1,
+      "courseIds": [
+        "why-point-nine-equals-one"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "count": 1,
+      "courseIds": [
+        "how-internet-works"
+      ]
+    },
+    {
+      "name": "Inheritance",
+      "count": 1,
+      "courseIds": [
+        "epigenetics-basics"
+      ]
+    },
+    {
+      "name": "Innovation",
+      "count": 1,
+      "courseIds": [
+        "blue-ocean-strategy"
+      ]
+    },
+    {
+      "name": "Insurance",
+      "count": 1,
+      "courseIds": [
+        "moral-hazard"
+      ]
+    },
+    {
+      "name": "Interaction Design",
+      "count": 1,
+      "courseIds": [
+        "fitts-law"
+      ]
+    },
+    {
+      "name": "Investing",
+      "count": 2,
+      "courseIds": [
+        "compound-interest",
+        "index-funds-explained"
+      ]
+    },
+    {
+      "name": "Japanese",
+      "count": 1,
+      "courseIds": [
+        "japanese-no-spaces"
+      ]
+    },
+    {
+      "name": "Japanese Culture",
+      "count": 1,
+      "courseIds": [
+        "bonsai-art"
+      ]
+    },
+    {
+      "name": "Justice",
+      "count": 1,
+      "courseIds": [
+        "veil-of-ignorance"
+      ]
+    },
+    {
+      "name": "Knowledge Work",
+      "count": 1,
+      "courseIds": [
+        "deep-work-concept"
+      ]
+    },
+    {
+      "name": "Landscape",
+      "count": 2,
+      "courseIds": [
+        "golden-hour-photography",
+        "why-lawns-exist"
+      ]
+    },
+    {
+      "name": "Language Contact",
+      "count": 1,
+      "courseIds": [
+        "pidgin-to-creole"
+      ]
+    },
+    {
+      "name": "Learning",
+      "count": 3,
+      "courseIds": [
+        "growth-vs-fixed-mindset",
+        "neuroplasticity",
+        "spaced-repetition"
+      ]
+    },
+    {
+      "name": "Legal History",
+      "count": 1,
+      "courseIds": [
+        "habeas-corpus"
+      ]
+    },
+    {
+      "name": "Legal Systems",
+      "count": 1,
+      "courseIds": [
+        "common-law-vs-civil-law"
+      ]
+    },
+    {
+      "name": "Lifestyle",
+      "count": 1,
+      "courseIds": [
+        "blue-zones-longevity"
+      ]
+    },
+    {
+      "name": "Lighting",
+      "count": 1,
+      "courseIds": [
+        "golden-hour-photography"
+      ]
+    },
+    {
+      "name": "Linguistics",
+      "count": 3,
+      "courseIds": [
+        "babies-learn-language",
+        "english-spelling-weird",
+        "rosetta-stone"
+      ]
+    },
+    {
+      "name": "Logic",
+      "count": 1,
+      "courseIds": [
+        "infinity-sizes"
+      ]
+    },
+    {
+      "name": "Logo Design",
+      "count": 1,
+      "courseIds": [
+        "apple-logo-bitten"
+      ]
+    },
+    {
+      "name": "Longevity",
+      "count": 2,
+      "courseIds": [
+        "blue-zones-longevity",
+        "zone-2-cardio"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "count": 2,
+      "courseIds": [
+        "how-llms-work",
+        "neural-networks-basics"
+      ]
+    },
+    {
+      "name": "Macroeconomics",
+      "count": 2,
+      "courseIds": [
+        "inflation-basics",
+        "inverted-yield-curve"
+      ]
+    },
+    {
+      "name": "Malware",
+      "count": 1,
+      "courseIds": [
+        "ransomware-explained"
+      ]
+    },
+    {
+      "name": "Management",
+      "count": 1,
+      "courseIds": [
+        "peter-principle"
+      ]
+    },
+    {
+      "name": "Management Philosophy",
+      "count": 1,
+      "courseIds": [
+        "servant-leadership"
+      ]
+    },
+    {
+      "name": "Marine Biology",
+      "count": 2,
+      "courseIds": [
+        "immortal-jellyfish",
+        "octopus-intelligence"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "count": 1,
+      "courseIds": [
+        "osborne-effect"
+      ]
+    },
+    {
+      "name": "Markets",
+      "count": 1,
+      "courseIds": [
+        "financial-bubbles"
+      ]
+    },
+    {
+      "name": "Mass Extinctions",
+      "count": 1,
+      "courseIds": [
+        "permian-extinction"
+      ]
+    },
+    {
+      "name": "Mass Hysteria",
+      "count": 1,
+      "courseIds": [
+        "moral-panic"
+      ]
+    },
+    {
+      "name": "Material Science",
+      "count": 1,
+      "courseIds": [
+        "vantablack-story"
+      ]
+    },
+    {
+      "name": "Materials",
+      "count": 1,
+      "courseIds": [
+        "drywall-explained"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "count": 3,
+      "courseIds": [
+        "chess-game-possibilities",
+        "golden-ratio-architecture",
+        "map-projections"
+      ]
+    },
+    {
+      "name": "Mechanics",
+      "count": 2,
+      "courseIds": [
+        "how-locks-work",
+        "how-toilets-flush"
+      ]
+    },
+    {
+      "name": "Media Studies",
+      "count": 1,
+      "courseIds": [
+        "moral-panic"
+      ]
+    },
+    {
+      "name": "Medical Mysteries",
+      "count": 1,
+      "courseIds": [
+        "dancing-plague-1518"
+      ]
+    },
+    {
+      "name": "Medieval Architecture",
+      "count": 1,
+      "courseIds": [
+        "why-gothic-cathedrals-tall"
+      ]
+    },
+    {
+      "name": "Medieval History",
+      "count": 2,
+      "courseIds": [
+        "dancing-plague-1518",
+        "mongol-postal-system"
+      ]
+    },
+    {
+      "name": "Meetings",
+      "count": 1,
+      "courseIds": [
+        "bikeshedding-law"
+      ]
+    },
+    {
+      "name": "Memory",
+      "count": 4,
+      "courseIds": [
+        "deja-vu-science",
+        "how-memories-form",
+        "spaced-repetition",
+        "zeigarnik-effect"
+      ]
+    },
+    {
+      "name": "Mental Models",
+      "count": 1,
+      "courseIds": [
+        "pareto-principle"
+      ]
+    },
+    {
+      "name": "Metabolism",
+      "count": 1,
+      "courseIds": [
+        "sugar-crash"
+      ]
+    },
+    {
+      "name": "Metamathematics",
+      "count": 1,
+      "courseIds": [
+        "godels-incompleteness"
+      ]
+    },
+    {
+      "name": "Metaphysics",
+      "count": 1,
+      "courseIds": [
+        "ship-of-theseus"
+      ]
+    },
+    {
+      "name": "Meteorology",
+      "count": 3,
+      "courseIds": [
+        "how-rain-forms",
+        "why-hurricanes-spin",
+        "why-snowflakes-unique"
+      ]
+    },
+    {
+      "name": "Microbial Ecology",
+      "count": 1,
+      "courseIds": [
+        "extremophiles"
+      ]
+    },
+    {
+      "name": "Microbiology",
+      "count": 2,
+      "courseIds": [
+        "antibiotic-resistance",
+        "tardigrades"
+      ]
+    },
+    {
+      "name": "Microbiome",
+      "count": 3,
+      "courseIds": [
+        "fiber-gut-health",
+        "gut-brain-connection",
+        "human-microbiome"
+      ]
+    },
+    {
+      "name": "Microeconomics",
+      "count": 2,
+      "courseIds": [
+        "comparative-advantage",
+        "opportunity-cost"
+      ]
+    },
+    {
+      "name": "Military Oddities",
+      "count": 1,
+      "courseIds": [
+        "emu-war"
+      ]
+    },
+    {
+      "name": "Mindfulness",
+      "count": 3,
+      "courseIds": [
+        "body-scan-meditation",
+        "loving-kindness-meditation",
+        "meditation-changes-brain"
+      ]
+    },
+    {
+      "name": "Modern Agriculture",
+      "count": 1,
+      "courseIds": [
+        "hydroponics-basics"
+      ]
+    },
+    {
+      "name": "Modern Art",
+      "count": 1,
+      "courseIds": [
+        "why-picasso-cubism"
+      ]
+    },
+    {
+      "name": "Modernism",
+      "count": 1,
+      "courseIds": [
+        "bauhaus-movement"
+      ]
+    },
+    {
+      "name": "Molecular Biology",
+      "count": 3,
+      "courseIds": [
+        "crispr-basics",
+        "epigenetics-basics",
+        "junk-dna-isnt-junk"
+      ]
+    },
+    {
+      "name": "Molecular Genetics",
+      "count": 1,
+      "courseIds": [
+        "mitochondrial-eve"
+      ]
+    },
+    {
+      "name": "Money",
+      "count": 1,
+      "courseIds": [
+        "inflation-basics"
+      ]
+    },
+    {
+      "name": "Mongol Empire",
+      "count": 1,
+      "courseIds": [
+        "mongol-postal-system"
+      ]
+    },
+    {
+      "name": "Moral Philosophy",
+      "count": 5,
+      "courseIds": [
+        "doctrine-of-double-effect",
+        "ends-justify-means",
+        "kantian-ethics",
+        "trolley-problem",
+        "utilitarianism-basics"
+      ]
+    },
+    {
+      "name": "Motivation",
+      "count": 2,
+      "courseIds": [
+        "why-we-procrastinate",
+        "zeigarnik-effect"
+      ]
+    },
+    {
+      "name": "Music Theory",
+      "count": 2,
+      "courseIds": [
+        "circle-of-fifths",
+        "why-chords-sound-sad"
+      ]
+    },
+    {
+      "name": "Mutation",
+      "count": 1,
+      "courseIds": [
+        "blue-eyes-single-ancestor"
+      ]
+    },
+    {
+      "name": "Mycology",
+      "count": 1,
+      "courseIds": [
+        "trees-talk-fungi"
+      ]
+    },
+    {
+      "name": "Narrative Technique",
+      "count": 1,
+      "courseIds": [
+        "unreliable-narrator"
+      ]
+    },
+    {
+      "name": "Narrative Theory",
+      "count": 1,
+      "courseIds": [
+        "heros-journey"
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "count": 1,
+      "courseIds": [
+        "how-llms-work"
+      ]
+    },
+    {
+      "name": "Nature",
+      "count": 1,
+      "courseIds": [
+        "fibonacci-sequence"
+      ]
+    },
+    {
+      "name": "Navigation",
+      "count": 1,
+      "courseIds": [
+        "finding-north-without-compass"
+      ]
+    },
+    {
+      "name": "Neolithic",
+      "count": 1,
+      "courseIds": [
+        "gobekli-tepe"
+      ]
+    },
+    {
+      "name": "Networking",
+      "count": 3,
+      "courseIds": [
+        "how-internet-works",
+        "how-vpns-work",
+        "how-wifi-works"
+      ]
+    },
+    {
+      "name": "Networks",
+      "count": 1,
+      "courseIds": [
+        "six-degrees-of-separation"
+      ]
+    },
+    {
+      "name": "Neurolinguistics",
+      "count": 1,
+      "courseIds": [
+        "why-we-swear"
+      ]
+    },
+    {
+      "name": "Neuroscience",
+      "count": 10,
+      "courseIds": [
+        "anxiety-vs-fear",
+        "caffeine-science",
+        "earworm-science",
+        "fight-flight-freeze",
+        "gut-brain-connection",
+        "meditation-changes-brain",
+        "placebo-effect",
+        "sleep-cycles",
+        "why-athletes-choke",
+        "why-we-yawn"
+      ]
+    },
+    {
+      "name": "Norse Mythology",
+      "count": 1,
+      "courseIds": [
+        "norse-mythology-ragnarok"
+      ]
+    },
+    {
+      "name": "Number Systems",
+      "count": 1,
+      "courseIds": [
+        "binary-counting"
+      ]
+    },
+    {
+      "name": "Number Theory",
+      "count": 2,
+      "courseIds": [
+        "fibonacci-sequence",
+        "why-point-nine-equals-one"
+      ]
+    },
+    {
+      "name": "Nutrition",
+      "count": 1,
+      "courseIds": [
+        "hydration-myths"
+      ]
+    },
+    {
+      "name": "Oceanography",
+      "count": 2,
+      "courseIds": [
+        "mariana-trench",
+        "ocean-currents"
+      ]
+    },
+    {
+      "name": "Olympic History",
+      "count": 1,
+      "courseIds": [
+        "marathon-distance-origin"
+      ]
+    },
+    {
+      "name": "Openings",
+      "count": 1,
+      "courseIds": [
+        "chess-openings-basics"
+      ]
+    },
+    {
+      "name": "Optics",
+      "count": 4,
+      "courseIds": [
+        "depth-of-field",
+        "why-rainbows-appear",
+        "why-red-eye-happens",
+        "why-sky-is-blue"
+      ]
+    },
+    {
+      "name": "Organic",
+      "count": 1,
+      "courseIds": [
+        "companion-planting"
+      ]
+    },
+    {
+      "name": "Organic Chemistry",
+      "count": 1,
+      "courseIds": [
+        "maillard-reaction"
+      ]
+    },
+    {
+      "name": "Origins",
+      "count": 1,
+      "courseIds": [
+        "why-chess-developed-from-war"
+      ]
+    },
+    {
+      "name": "Paleoanthropology",
+      "count": 1,
+      "courseIds": [
+        "fire-made-us-human"
+      ]
+    },
+    {
+      "name": "Paleoclimate",
+      "count": 1,
+      "courseIds": [
+        "milankovitch-cycles"
+      ]
+    },
+    {
+      "name": "Parasitology",
+      "count": 1,
+      "courseIds": [
+        "red-queen-hypothesis"
+      ]
+    },
+    {
+      "name": "Passive Investing",
+      "count": 1,
+      "courseIds": [
+        "index-funds-explained"
+      ]
+    },
+    {
+      "name": "Performance",
+      "count": 2,
+      "courseIds": [
+        "flow-state",
+        "method-acting"
+      ]
+    },
+    {
+      "name": "Performance Reviews",
+      "count": 1,
+      "courseIds": [
+        "halo-effect-leadership"
+      ]
+    },
+    {
+      "name": "Permaculture",
+      "count": 1,
+      "courseIds": [
+        "three-sisters-garden"
+      ]
+    },
+    {
+      "name": "Personal Finance",
+      "count": 2,
+      "courseIds": [
+        "compound-interest",
+        "emergency-fund-math"
+      ]
+    },
+    {
+      "name": "Personal Security",
+      "count": 1,
+      "courseIds": [
+        "two-factor-authentication"
+      ]
+    },
+    {
+      "name": "Persuasion",
+      "count": 2,
+      "courseIds": [
+        "foot-in-the-door",
+        "scarcity-principle"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "count": 2,
+      "courseIds": [
+        "ikigai",
+        "occams-razor"
+      ]
+    },
+    {
+      "name": "Philosophy of Biology",
+      "count": 1,
+      "courseIds": [
+        "what-is-a-virus"
+      ]
+    },
+    {
+      "name": "Philosophy of Mind",
+      "count": 1,
+      "courseIds": [
+        "turing-test"
+      ]
+    },
+    {
+      "name": "Philosophy of Science",
+      "count": 2,
+      "courseIds": [
+        "deductive-vs-inductive",
+        "schrodingers-cat"
+      ]
+    },
+    {
+      "name": "Phonetics",
+      "count": 2,
+      "courseIds": [
+        "foreign-accents-hard-to-lose",
+        "phonemes-vs-graphemes"
+      ]
+    },
+    {
+      "name": "Phonology",
+      "count": 1,
+      "courseIds": [
+        "phonemes-vs-graphemes"
+      ]
+    },
+    {
+      "name": "Photosynthesis",
+      "count": 1,
+      "courseIds": [
+        "why-plants-are-green"
+      ]
+    },
+    {
+      "name": "Physical Chemistry",
+      "count": 1,
+      "courseIds": [
+        "why-ice-floats"
+      ]
+    },
+    {
+      "name": "Physics",
+      "count": 4,
+      "courseIds": [
+        "curveball-physics",
+        "greenhouse-effect",
+        "how-rain-forms",
+        "thunder-and-lightning"
+      ]
+    },
+    {
+      "name": "Physics of Flight",
+      "count": 1,
+      "courseIds": [
+        "why-airplanes-fly"
+      ]
+    },
+    {
+      "name": "Physiology",
+      "count": 7,
+      "courseIds": [
+        "hydration-myths",
+        "lactate-threshold",
+        "muscle-memory",
+        "vo2-max",
+        "why-cats-purr",
+        "why-we-get-stronger",
+        "wim-hof-method"
+      ]
+    },
+    {
+      "name": "Planetary Science",
+      "count": 1,
+      "courseIds": [
+        "venus-evil-twin"
+      ]
+    },
+    {
+      "name": "Plant Biology",
+      "count": 2,
+      "courseIds": [
+        "flower-symmetry",
+        "why-plants-are-green"
+      ]
+    },
+    {
+      "name": "Plant Ecology",
+      "count": 1,
+      "courseIds": [
+        "corpse-flower"
+      ]
+    },
+    {
+      "name": "Plant Movement",
+      "count": 1,
+      "courseIds": [
+        "how-venus-flytrap-snaps"
+      ]
+    },
+    {
+      "name": "Plant Physiology",
+      "count": 1,
+      "courseIds": [
+        "how-trees-drink-water"
+      ]
+    },
+    {
+      "name": "Plumbing",
+      "count": 1,
+      "courseIds": [
+        "how-toilets-flush"
+      ]
+    },
+    {
+      "name": "Policing",
+      "count": 1,
+      "courseIds": [
+        "broken-windows-theory"
+      ]
+    },
+    {
+      "name": "Political Philosophy",
+      "count": 2,
+      "courseIds": [
+        "social-contract",
+        "veil-of-ignorance"
+      ]
+    },
+    {
+      "name": "Post-Production",
+      "count": 1,
+      "courseIds": [
+        "color-grading-magic"
+      ]
+    },
+    {
+      "name": "Prehistoric Archaeology",
+      "count": 1,
+      "courseIds": [
+        "gobekli-tepe"
+      ]
+    },
+    {
+      "name": "Prehistoric Europe",
+      "count": 1,
+      "courseIds": [
+        "otzi-the-iceman"
+      ]
+    },
+    {
+      "name": "Pricing Strategy",
+      "count": 2,
+      "courseIds": [
+        "decoy-effect",
+        "price-anchoring"
+      ]
+    },
+    {
+      "name": "Primatology",
+      "count": 1,
+      "courseIds": [
+        "primates-grooming-bonds"
+      ]
+    },
+    {
+      "name": "Primitive Skills",
+      "count": 1,
+      "courseIds": [
+        "how-to-start-fire-without-matches"
+      ]
+    },
+    {
+      "name": "Prioritization",
+      "count": 1,
+      "courseIds": [
+        "eisenhower-matrix"
+      ]
+    },
+    {
+      "name": "Privacy",
+      "count": 2,
+      "courseIds": [
+        "end-to-end-encryption",
+        "how-vpns-work"
+      ]
+    },
+    {
+      "name": "Probability",
+      "count": 3,
+      "courseIds": [
+        "birthday-paradox",
+        "law-of-large-numbers",
+        "monty-hall-problem"
+      ]
+    },
+    {
+      "name": "Product Design",
+      "count": 1,
+      "courseIds": [
+        "dieter-rams-ten-principles"
+      ]
+    },
+    {
+      "name": "Productivity",
+      "count": 2,
+      "courseIds": [
+        "atomic-habits-rule",
+        "eisenhower-matrix"
+      ]
+    },
+    {
+      "name": "Proof Techniques",
+      "count": 1,
+      "courseIds": [
+        "pigeonhole-principle"
+      ]
+    },
+    {
+      "name": "Psychoacoustics",
+      "count": 1,
+      "courseIds": [
+        "why-chords-sound-sad"
+      ]
+    },
+    {
+      "name": "Psychology",
+      "count": 17,
+      "courseIds": [
+        "arranged-vs-love-marriages",
+        "attachment-theory",
+        "cognitive-behavioral-therapy",
+        "color-psychology",
+        "eyewitness-testimony-psychology",
+        "flow-state",
+        "foot-in-the-door",
+        "gottman-four-horsemen",
+        "growth-vs-fixed-mindset",
+        "marshmallow-test",
+        "object-permanence",
+        "parkinsons-law",
+        "scarcity-principle",
+        "stockholm-syndrome",
+        "why-lie-detectors-dont-work",
+        "why-rock-paper-scissors-works",
+        "why-we-swear"
+      ]
+    },
+    {
+      "name": "Psychology of Music",
+      "count": 1,
+      "courseIds": [
+        "earworm-science"
+      ]
+    },
+    {
+      "name": "Public Health",
+      "count": 2,
+      "courseIds": [
+        "antibiotic-resistance",
+        "vaccines-basics"
+      ]
+    },
+    {
+      "name": "Quantum Physics",
+      "count": 2,
+      "courseIds": [
+        "quantum-entanglement",
+        "schrodingers-cat"
+      ]
+    },
+    {
+      "name": "Radio",
+      "count": 1,
+      "courseIds": [
+        "how-wifi-works"
+      ]
+    },
+    {
+      "name": "Reasoning",
+      "count": 2,
+      "courseIds": [
+        "confirmation-bias",
+        "deductive-vs-inductive"
+      ]
+    },
+    {
+      "name": "Reef Ecology",
+      "count": 1,
+      "courseIds": [
+        "coral-reef-bleaching"
+      ]
+    },
+    {
+      "name": "Relativity",
+      "count": 1,
+      "courseIds": [
+        "time-near-black-hole"
+      ]
+    },
+    {
+      "name": "Renaissance",
+      "count": 1,
+      "courseIds": [
+        "mona-lisa-fame"
+      ]
+    },
+    {
+      "name": "Renovation",
+      "count": 1,
+      "courseIds": [
+        "load-bearing-walls"
+      ]
+    },
+    {
+      "name": "Rhetoric",
+      "count": 1,
+      "courseIds": [
+        "logical-fallacies"
+      ]
+    },
+    {
+      "name": "Roman Empire",
+      "count": 1,
+      "courseIds": [
+        "pompeii-preserved"
+      ]
+    },
+    {
+      "name": "Rules",
+      "count": 1,
+      "courseIds": [
+        "en-passant"
+      ]
+    },
+    {
+      "name": "Running",
+      "count": 1,
+      "courseIds": [
+        "marathon-distance-origin"
+      ]
+    },
+    {
+      "name": "Safety",
+      "count": 2,
+      "courseIds": [
+        "ladder-angle-rule",
+        "why-three-prong-plugs"
+      ]
+    },
+    {
+      "name": "Scientific Method",
+      "count": 1,
+      "courseIds": [
+        "occams-razor"
+      ]
+    },
+    {
+      "name": "Screenwriting",
+      "count": 1,
+      "courseIds": [
+        "chekhovs-gun"
+      ]
+    },
+    {
+      "name": "Seafaring",
+      "count": 1,
+      "courseIds": [
+        "viking-sunstone"
+      ]
+    },
+    {
+      "name": "Seasoning",
+      "count": 1,
+      "courseIds": [
+        "why-salt-enhances-flavor"
+      ]
+    },
+    {
+      "name": "Seasons",
+      "count": 1,
+      "courseIds": [
+        "leaves-change-color"
+      ]
+    },
+    {
+      "name": "Second Language Acquisition",
+      "count": 1,
+      "courseIds": [
+        "foreign-accents-hard-to-lose"
+      ]
+    },
+    {
+      "name": "Security",
+      "count": 1,
+      "courseIds": [
+        "how-locks-work"
+      ]
+    },
+    {
+      "name": "Self-Perception",
+      "count": 1,
+      "courseIds": [
+        "dunning-kruger"
+      ]
+    },
+    {
+      "name": "Semiotics",
+      "count": 1,
+      "courseIds": [
+        "emojis-new-language"
+      ]
+    },
+    {
+      "name": "Set Theory",
+      "count": 2,
+      "courseIds": [
+        "infinity-sizes",
+        "russells-paradox"
+      ]
+    },
+    {
+      "name": "Sexual Selection",
+      "count": 1,
+      "courseIds": [
+        "peacock-tails-evolution"
+      ]
+    },
+    {
+      "name": "Shakespeare",
+      "count": 1,
+      "courseIds": [
+        "shakespeare-invented-words"
+      ]
+    },
+    {
+      "name": "Sleep",
+      "count": 1,
+      "courseIds": [
+        "why-babies-cry-at-night"
+      ]
+    },
+    {
+      "name": "Sleep Science",
+      "count": 3,
+      "courseIds": [
+        "circadian-rhythm",
+        "sleep-cycles",
+        "why-we-dream"
+      ]
+    },
+    {
+      "name": "Social Anthropology",
+      "count": 1,
+      "courseIds": [
+        "dunbar-number"
+      ]
+    },
+    {
+      "name": "Social Behavior",
+      "count": 1,
+      "courseIds": [
+        "why-humans-gossip"
+      ]
+    },
+    {
+      "name": "Social Brain",
+      "count": 1,
+      "courseIds": [
+        "mirror-neurons"
+      ]
+    },
+    {
+      "name": "Social Engineering",
+      "count": 1,
+      "courseIds": [
+        "phishing-basics"
+      ]
+    },
+    {
+      "name": "Social Evolution",
+      "count": 1,
+      "courseIds": [
+        "primates-grooming-bonds"
+      ]
+    },
+    {
+      "name": "Social Psychology",
+      "count": 4,
+      "courseIds": [
+        "bystander-effect",
+        "groupthink",
+        "mere-exposure-effect",
+        "why-we-laugh"
+      ]
+    },
+    {
+      "name": "Social Science",
+      "count": 1,
+      "courseIds": [
+        "six-degrees-of-separation"
+      ]
+    },
+    {
+      "name": "Sociolinguistics",
+      "count": 1,
+      "courseIds": [
+        "pidgin-to-creole"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "count": 1,
+      "courseIds": [
+        "active-listening"
+      ]
+    },
+    {
+      "name": "Soil Science",
+      "count": 1,
+      "courseIds": [
+        "composting-basics"
+      ]
+    },
+    {
+      "name": "Sound Design",
+      "count": 1,
+      "courseIds": [
+        "why-the-wilhelm-scream"
+      ]
+    },
+    {
+      "name": "Sports Analytics",
+      "count": 1,
+      "courseIds": [
+        "home-field-advantage"
+      ]
+    },
+    {
+      "name": "Sports Psychology",
+      "count": 1,
+      "courseIds": [
+        "why-athletes-choke"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "count": 2,
+      "courseIds": [
+        "law-of-large-numbers",
+        "survivorship-bias"
+      ]
+    },
+    {
+      "name": "Stoicism",
+      "count": 1,
+      "courseIds": [
+        "stoicism-basics"
+      ]
+    },
+    {
+      "name": "Storytelling",
+      "count": 3,
+      "courseIds": [
+        "chekhovs-gun",
+        "heros-journey",
+        "three-act-structure"
+      ]
+    },
+    {
+      "name": "Strategy",
+      "count": 3,
+      "courseIds": [
+        "blue-ocean-strategy",
+        "castling-explained",
+        "innovators-dilemma"
+      ]
+    },
+    {
+      "name": "Strength",
+      "count": 1,
+      "courseIds": [
+        "muscle-memory"
+      ]
+    },
+    {
+      "name": "Strength Training",
+      "count": 1,
+      "courseIds": [
+        "why-we-get-stronger"
+      ]
+    },
+    {
+      "name": "Stress Reduction",
+      "count": 1,
+      "courseIds": [
+        "box-breathing"
+      ]
+    },
+    {
+      "name": "Stress Response",
+      "count": 1,
+      "courseIds": [
+        "fight-flight-freeze"
+      ]
+    },
+    {
+      "name": "Structural Engineering",
+      "count": 1,
+      "courseIds": [
+        "why-gothic-cathedrals-tall"
+      ]
+    },
+    {
+      "name": "Superstitions",
+      "count": 1,
+      "courseIds": [
+        "break-a-leg-origin"
+      ]
+    },
+    {
+      "name": "Sustainability",
+      "count": 1,
+      "courseIds": [
+        "composting-basics"
+      ]
+    },
+    {
+      "name": "Symbolism",
+      "count": 1,
+      "courseIds": [
+        "theater-masks-symbol"
+      ]
+    },
+    {
+      "name": "Systems",
+      "count": 1,
+      "courseIds": [
+        "getting-things-done"
+      ]
+    },
+    {
+      "name": "Taste",
+      "count": 1,
+      "courseIds": [
+        "umami-fifth-taste"
+      ]
+    },
+    {
+      "name": "Team Culture",
+      "count": 1,
+      "courseIds": [
+        "servant-leadership"
+      ]
+    },
+    {
+      "name": "Tech History",
+      "count": 1,
+      "courseIds": [
+        "osborne-effect"
+      ]
+    },
+    {
+      "name": "Technique",
+      "count": 1,
+      "courseIds": [
+        "exposure-triangle"
+      ]
+    },
+    {
+      "name": "Technology",
+      "count": 1,
+      "courseIds": [
+        "network-effects"
+      ]
+    },
+    {
+      "name": "Textiles",
+      "count": 1,
+      "courseIds": [
+        "why-jeans-are-blue"
+      ]
+    },
+    {
+      "name": "Theater History",
+      "count": 1,
+      "courseIds": [
+        "break-a-leg-origin"
+      ]
+    },
+    {
+      "name": "Therapy",
+      "count": 1,
+      "courseIds": [
+        "cognitive-behavioral-therapy"
+      ]
+    },
+    {
+      "name": "Threats",
+      "count": 1,
+      "courseIds": [
+        "ransomware-explained"
+      ]
+    },
+    {
+      "name": "Time Management",
+      "count": 3,
+      "courseIds": [
+        "getting-things-done",
+        "parkinsons-law",
+        "pomodoro-technique"
+      ]
+    },
+    {
+      "name": "Timekeeping",
+      "count": 1,
+      "courseIds": [
+        "why-time-zones-weird"
+      ]
+    },
+    {
+      "name": "Toddlers",
+      "count": 1,
+      "courseIds": [
+        "terrible-twos-explained"
+      ]
+    },
+    {
+      "name": "Tools",
+      "count": 1,
+      "courseIds": [
+        "ladder-angle-rule"
+      ]
+    },
+    {
+      "name": "Trade",
+      "count": 1,
+      "courseIds": [
+        "comparative-advantage"
+      ]
+    },
+    {
+      "name": "Tree Biology",
+      "count": 1,
+      "courseIds": [
+        "strangler-figs"
+      ]
+    },
+    {
+      "name": "Trees",
+      "count": 1,
+      "courseIds": [
+        "how-trees-drink-water"
+      ]
+    },
+    {
+      "name": "Tropical Ecology",
+      "count": 1,
+      "courseIds": [
+        "strangler-figs"
+      ]
+    },
+    {
+      "name": "True Crime",
+      "count": 1,
+      "courseIds": [
+        "stockholm-syndrome"
+      ]
+    },
+    {
+      "name": "US Constitution",
+      "count": 1,
+      "courseIds": [
+        "electoral-college"
+      ]
+    },
+    {
+      "name": "UX Design",
+      "count": 1,
+      "courseIds": [
+        "norman-doors"
+      ]
+    },
+    {
+      "name": "Unsolved Science",
+      "count": 1,
+      "courseIds": [
+        "ball-lightning-mystery"
+      ]
+    },
+    {
+      "name": "Urban Sociology",
+      "count": 1,
+      "courseIds": [
+        "broken-windows-theory"
+      ]
+    },
+    {
+      "name": "Usability",
+      "count": 2,
+      "courseIds": [
+        "fitts-law",
+        "norman-doors"
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "count": 2,
+      "courseIds": [
+        "companion-planting",
+        "why-onions-make-you-cry"
+      ]
+    },
+    {
+      "name": "Viking Age",
+      "count": 1,
+      "courseIds": [
+        "viking-sunstone"
+      ]
+    },
+    {
+      "name": "Virology",
+      "count": 2,
+      "courseIds": [
+        "bacteriophages",
+        "what-is-a-virus"
+      ]
+    },
+    {
+      "name": "Vision Science",
+      "count": 1,
+      "courseIds": [
+        "octopus-eyes-better"
+      ]
+    },
+    {
+      "name": "Visual Design",
+      "count": 1,
+      "courseIds": [
+        "color-psychology"
+      ]
+    },
+    {
+      "name": "Visual Language",
+      "count": 1,
+      "courseIds": [
+        "dolly-zoom"
+      ]
+    },
+    {
+      "name": "Visual Perception",
+      "count": 1,
+      "courseIds": [
+        "impressionism-explained"
+      ]
+    },
+    {
+      "name": "Volcanology",
+      "count": 1,
+      "courseIds": [
+        "pompeii-preserved"
+      ]
+    },
+    {
+      "name": "Water Safety",
+      "count": 1,
+      "courseIds": [
+        "how-to-purify-water"
+      ]
+    },
+    {
+      "name": "Wayfinding",
+      "count": 1,
+      "courseIds": [
+        "navigate-by-stars"
+      ]
+    },
+    {
+      "name": "Weather",
+      "count": 1,
+      "courseIds": [
+        "why-rainbows-appear"
+      ]
+    },
+    {
+      "name": "Web",
+      "count": 1,
+      "courseIds": [
+        "how-search-engines-work"
+      ]
+    },
+    {
+      "name": "Wedding",
+      "count": 1,
+      "courseIds": [
+        "wedding-white-tradition"
+      ]
+    },
+    {
+      "name": "Wellbeing",
+      "count": 1,
+      "courseIds": [
+        "ikigai"
+      ]
+    },
+    {
+      "name": "Wellness",
+      "count": 1,
+      "courseIds": [
+        "wim-hof-method"
+      ]
+    },
+    {
+      "name": "Wilderness Medicine",
+      "count": 1,
+      "courseIds": [
+        "how-to-purify-water"
+      ]
+    },
+    {
+      "name": "Wilderness Survival",
+      "count": 1,
+      "courseIds": [
+        "survival-rule-of-threes"
+      ]
+    },
+    {
+      "name": "Workplace",
+      "count": 1,
+      "courseIds": [
+        "peter-principle"
+      ]
+    },
+    {
+      "name": "World Geography",
+      "count": 1,
+      "courseIds": [
+        "why-time-zones-weird"
+      ]
+    },
+    {
+      "name": "Writing Craft",
+      "count": 1,
+      "courseIds": [
+        "deus-ex-machina"
+      ]
+    },
+    {
+      "name": "Writing Systems",
+      "count": 2,
+      "courseIds": [
+        "japanese-no-spaces",
+        "why-q-needs-u"
+      ]
+    }
+  ]
+}

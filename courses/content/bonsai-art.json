@@ -1,0 +1,134 @@
+{
+  "id": "bonsai-art",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Ancient Art of Bonsai",
+    "teaser": "It's not a miniature species — it's a full-size tree convinced to live its whole life in a teacup.",
+    "category": "Gardening",
+    "subcategories": ["Japanese Culture", "Horticulture"],
+    "tags": ["bonsai", "japan", "trees", "tradition", "horticulture"],
+    "emoji": "🌳",
+    "accentColor": "#2E7D32",
+    "coverSymbol": {
+      "sfSymbol": "tree.fill",
+      "fallbackEmoji": "🌲"
+    },
+    "coverImagePrompt": "A weathered 200-year-old Japanese black pine bonsai on a dark wooden stand, soft window light revealing every needle and gnarled branch, tokonoma alcove setting, cinematic shallow depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A 400-year-old tree in a pot",
+      "body": "In a Tokyo nursery sits a white pine called the 'Sandai Shogun-no-Matsu' — planted around 1610 and cared for continuously ever since. It's only a meter tall. That's not a dwarf tree. It's a regular Japanese white pine that has been living in a shallow ceramic tray for four centuries, passed from gardener to gardener like a relay baton.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "An ancient Japanese white pine bonsai with a thick gnarled trunk in a blue ceramic tray, placed in the Imperial Palace garden, soft golden light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Not a species — a practice",
+      "body": "The word bonsai (盆栽) literally means 'tray planting.' Almost any tree can become one: pines, maples, junipers, even apples or pomegranates. What makes it a bonsai isn't genetics — it's the ongoing practice of root pruning, branch wiring, and pot confinement that keeps a normal tree in a miniature form.",
+      "keyTerms": [
+        { "term": "Bonsai", "definition": "Japanese for 'tray planting' — the art of growing full-species trees in confined containers" },
+        { "term": "Wiring", "definition": "Wrapping branches in copper or aluminum wire to bend them into shape over months" }
+      ],
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "Close-up of hands using specialized bonsai scissors to trim a juniper, copper wire wrapped around a branch"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How you shrink a tree",
+      "body": "Two techniques do most of the work. Root pruning every 2–5 years cuts back the tree's underground mass, which limits how big the above-ground part can grow. Branch wiring lets you bend trunks and limbs into graceful curves that mimic the shapes of ancient wind-blown mountain trees. Combine them and you get a tree with the proportions of an old giant — scaled down a hundredfold.",
+      "keyTerms": [
+        { "term": "Root pruning", "definition": "Trimming a tree's roots to control its overall size and force dense, fine new growth" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.and.line.horizontal.and.arrow.up",
+        "imagePrompt": "Illustrated diagram showing before/after of a bonsai being root-pruned, fine roots exposed against soil, followed by trunk wiring"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Imported from China, refined in Japan",
+      "body": "The practice began in China more than 1,300 years ago as 'penjing' — landscape scenes in trays — and was brought to Japan by Buddhist monks around the 6th century. The Japanese stripped it down to focus on a single tree as the centerpiece. By the 14th century, bonsai was an aristocratic pursuit; today, world-class specimens sell for over one million dollars at auction.",
+      "funFact": "A Japanese white pine that survived the Hiroshima atomic bomb in 1945 is now on display at the U.S. National Arboretum — donated by the family that tended it for 300 years.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "Historical scroll painting of a Chinese penjing landscape in a tray, transitioning to a Japanese zen garden with a single bonsai"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A conversation across generations",
+      "body": "A serious bonsai outlives its caretaker. The tree you buy and train for 30 years might be passed to your grandchildren, then to theirs. The art isn't really about controlling a tree — it's about entering a slow conversation with one that will speak back long after you're gone.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the word 'bonsai' literally mean?",
+      "options": ["Small tree", "Tray planting", "Old wood", "Patient gardener"],
+      "correctIndex": 1,
+      "explanation": "'Bon' means tray or shallow pot, and 'sai' means planting — so bonsai literally means tray planting."
+    },
+    {
+      "index": 1,
+      "question": "What keeps a bonsai small?",
+      "options": [
+        "Genetic dwarfism",
+        "Root pruning and branch shaping",
+        "Chemical growth inhibitors",
+        "Lack of water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bonsai are regular tree species kept small through ongoing root pruning, wiring, and pot confinement."
+    },
+    {
+      "index": 2,
+      "question": "Where did the practice of bonsai originate?",
+      "options": ["Japan", "Korea", "China", "India"],
+      "correctIndex": 2,
+      "explanation": "The art originated in China as 'penjing' over 1,300 years ago before being brought to Japan by Buddhist monks."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Bonsai: Its Art, Science, History and Philosophy",
+      "publisher": "Deborah R. Koreshoff / Timber Press",
+      "year": 1984
+    },
+    {
+      "title": "The National Bonsai & Penjing Museum collection notes",
+      "publisher": "U.S. National Arboretum",
+      "year": 2020
+    }
+  ],
+
+  "related": ["japanese-gardens", "zen-aesthetics", "tree-biology"]
+}

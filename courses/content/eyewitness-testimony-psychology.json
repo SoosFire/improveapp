@@ -1,0 +1,136 @@
+{
+  "id": "eyewitness-testimony-psychology",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Eyewitnesses Are So Often Wrong",
+    "teaser": "You saw his face. You're sure. Juries believe you. The problem? Memory is not a recording — it's a remix.",
+    "category": "Criminology",
+    "subcategories": ["Psychology", "Forensics"],
+    "tags": ["memory", "eyewitness", "psychology", "justice", "bias"],
+    "emoji": "👁️",
+    "accentColor": "#4A4E69",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "A blurred memory-like scene of a courtroom witness stand, a single spotlight on a pointing finger, faces around it dissolving into smoke, painterly surreal"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Eleven years for the wrong man",
+      "body": "In 1984, Jennifer Thompson was raped in her North Carolina apartment. She memorized her attacker's face with laser focus, confident she could identify him anywhere. She picked Ronald Cotton out of a lineup. Cotton spent eleven years in prison before DNA evidence cleared him — and identified the real rapist, a man whose face Jennifer had never even seen.",
+      "visual": {
+        "sfSymbol": "person.crop.rectangle.stack.fill",
+        "imagePrompt": "A 1980s police photo lineup card with six grainy black-and-white headshots, one marked with a shaky hand-drawn circle, dramatic shadows"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Memory is reconstructive",
+      "body": "We experience memory like playing a video — but that's an illusion. The brain stores fragments — a voice, a color, an emotion — and rebuilds the scene every time we remember it, filling gaps with what seems plausible. Every retrieval is an edit. The version you recall at trial two years later is not the version you stored at the scene.",
+      "keyTerms": [
+        { "term": "Reconstructive memory", "definition": "The idea that remembering is an act of rebuilding, not playback" },
+        { "term": "Misinformation effect", "definition": "How post-event information (questions, news, conversations) alters what witnesses 'remember'" }
+      ],
+      "visual": {
+        "sfSymbol": "puzzlepiece.fill",
+        "imagePrompt": "An illustration of a face made of scattered jigsaw pieces, some missing, others being placed by a ghostly hand, dreamlike coloring"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Elizabeth Loftus and the smashed cars",
+      "body": "In a landmark 1974 experiment, psychologist Elizabeth Loftus showed volunteers a video of a car crash, then asked half of them how fast the cars were going when they 'smashed' into each other. The other half got the word 'contacted'. The 'smashed' group not only estimated higher speeds — a week later, many of them falsely remembered seeing broken glass that wasn't in the video.",
+      "visual": {
+        "sfSymbol": "car.fill",
+        "imagePrompt": "A vintage black-and-white photograph of a staged two-car collision, with subtle visual glitches suggesting altered perception, lab monitor framing"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How lineups go wrong",
+      "body": "Of the first 375 DNA exonerations in the US, roughly 70% involved a mistaken eyewitness ID. The usual culprits: lineups where the suspect stands out, officers who unconsciously signal which face is the 'right' one, and witnesses who grow more confident every time they see the same face again. By trial, that early uncertainty has hardened into certainty — and juries love certainty.",
+      "funFact": "Cross-race identifications are especially unreliable: people recognize faces of their own race roughly 1.4x more accurately than faces of other races.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A modern police lineup behind one-way glass, the suspect subtly spotlit brighter than the others, tense interrogation atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What better looks like",
+      "body": "Psychologists now push for 'double-blind sequential lineups' — showing faces one at a time, with an officer who doesn't know who the suspect is, and recording the witness's confidence immediately. Jurisdictions that adopted these reforms have seen fewer mistaken IDs. Your memory isn't broken — it just works nothing like the HD footage our justice system tends to assume.",
+      "visual": {
+        "sfSymbol": "checkmark.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what share of early US DNA exonerations involved a mistaken eyewitness?",
+      "options": ["About 10%", "About 30%", "About 70%", "Nearly 100%"],
+      "correctIndex": 2,
+      "explanation": "Eyewitness misidentification was a factor in approximately 70% of the first 375 DNA exonerations."
+    },
+    {
+      "index": 1,
+      "question": "Elizabeth Loftus's car-crash study mainly showed that…",
+      "options": [
+        "Witnesses always lie under pressure",
+        "Wording of questions can plant false memories",
+        "Speed is impossible to estimate accurately",
+        "Memory is unaffected by language"
+      ],
+      "correctIndex": 1,
+      "explanation": "Changing one verb altered both speed estimates and, later, whether people remembered seeing broken glass that wasn't there."
+    },
+    {
+      "index": 2,
+      "question": "Which reform helps reduce lineup errors?",
+      "options": [
+        "Letting officers tell witnesses if they picked the right person",
+        "Showing all faces simultaneously in a group",
+        "Double-blind sequential lineups with recorded confidence",
+        "Using only photos of similar-aged suspects"
+      ],
+      "correctIndex": 2,
+      "explanation": "Double-blind sequential lineups remove experimenter bias and capture a witness's initial confidence, which tends to inflate over time."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Reconstruction of automobile destruction: An example of the interaction between language and memory",
+      "publisher": "Journal of Verbal Learning and Verbal Behavior",
+      "year": 1974
+    },
+    {
+      "title": "Identifying the Culprit: Assessing Eyewitness Identification",
+      "publisher": "US National Research Council",
+      "year": 2014
+    }
+  ],
+
+  "related": ["how-fingerprinting-works", "dna-evidence", "why-lie-detectors-dont-work"]
+}

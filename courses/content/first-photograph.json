@@ -1,0 +1,136 @@
+{
+  "id": "first-photograph",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The First Photograph Ever Taken",
+    "teaser": "A courtyard in France. Eight hours of sunlight. A pewter plate coated in tar. The world's first photo is almost unreadable — and revolutionary.",
+    "category": "Photography",
+    "subcategories": ["History", "Early Photography"],
+    "tags": ["history", "niépce", "daguerreotype", "invention", "19th century"],
+    "emoji": "🖼️",
+    "accentColor": "#8C7853",
+    "coverSymbol": {
+      "sfSymbol": "photo.fill",
+      "fallbackEmoji": "🖼️"
+    },
+    "coverImagePrompt": "A weathered 1820s French attic window overlooking a courtyard at midday, a strange pewter plate in a wooden camera obscura, dust motes in slanted light, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An image of a rooftop that changed the world",
+      "body": "Squint at it and you'll see almost nothing — just smeary shapes of buildings on a hazy plate. But *View from the Window at Le Gras*, taken around 1826 in the French village of Saint-Loup-de-Varennes, is the oldest surviving photograph on Earth. And making it took a former French lieutenant an entire summer.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "A ghostly, grainy image of a sunlit French village rooftop in faded brown tones, historical photograph aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet Nicéphore Niépce",
+      "body": "Joseph Nicéphore Niépce was a tinkerer obsessed with capturing images without having to draw them. He called his process *heliography* — 'sun writing.' After years of experiments with lavender oil, silver salts, and exotic chemicals, he landed on an unlikely hero: bitumen of Judea, a tar-like substance that hardens when exposed to light.",
+      "keyTerms": [
+        { "term": "Heliography", "definition": "Niépce's original term for photography — literally 'writing with the sun'" },
+        { "term": "Bitumen of Judea", "definition": "A natural asphalt that hardens in sunlight, used as the first photographic emulsion" }
+      ],
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "A portrait of Nicéphore Niépce in his study with bottles of lavender oil and dark tar, candlelit, historical"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "An eight-hour exposure",
+      "body": "Niépce coated a pewter plate with bitumen dissolved in lavender oil, then slid it inside a camera obscura — a darkened box with a lens — aimed at his courtyard. He had to leave it there for *at least eight hours*. The sun moved across the sky during the exposure, which is why on the surviving image, sunlight appears to hit both sides of the buildings at once. Photography's first image is technically impossible light.",
+      "visual": {
+        "sfSymbol": "sun.and.horizon.fill",
+        "imagePrompt": "A cross-section diagram of a camera obscura aimed out a window, a long time-exposure arc of the sun overhead"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Lost, found, and almost destroyed",
+      "body": "After Niépce died in 1833, the plate disappeared for decades. Historian Helmut Gernsheim tracked it down in 1952, hidden inside a traveling trunk in a London attic. The Harry Ransom Center at the University of Texas now keeps it in a sealed case under argon gas — the original, fragile chemistry of photography itself would fade if exposed to normal air for long.",
+      "funFact": "The plate is only 16 × 20 cm and weighs less than a slice of bread — yet it is literally the birth certificate of every selfie, Instagram post, and film still on Earth.",
+      "visual": {
+        "sfSymbol": "shippingbox.fill",
+        "imagePrompt": "A small pewter plate sealed inside a glass archival case, warm museum spotlight, reverent atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Everything from one summer",
+      "body": "Within 13 years of Niépce's blurry courtyard, Louis Daguerre had turned the same idea into a commercial product. Within 50 years, cameras were small enough to carry. Within 150, they lived in our pockets. Every photograph you'll ever take descends from one retired soldier staring patiently out a window, betting that light could do what a paintbrush could.",
+      "visual": {
+        "sfSymbol": "camera.shutter.button.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who took the world's oldest surviving photograph?",
+      "options": [
+        "Louis Daguerre",
+        "Nicéphore Niépce",
+        "William Henry Fox Talbot",
+        "George Eastman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frenchman Joseph Nicéphore Niépce captured *View from the Window at Le Gras* around 1826."
+    },
+    {
+      "index": 1,
+      "question": "What light-sensitive material coated the first photographic plate?",
+      "options": [
+        "Silver nitrate",
+        "Gelatin silver emulsion",
+        "Bitumen of Judea",
+        "Lead oxide"
+      ],
+      "correctIndex": 2,
+      "explanation": "Niépce used bitumen of Judea — a tar that hardens where light strikes it — dissolved in lavender oil."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how long was the exposure time for the first photograph?",
+      "options": ["A few seconds", "About 30 minutes", "At least 8 hours", "Several days"],
+      "correctIndex": 2,
+      "explanation": "The plate needed at least 8 hours of sunlight — long enough that the sun moved across the sky during the shot."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Origins of Photography",
+      "publisher": "Thames & Hudson",
+      "year": 1982
+    },
+    {
+      "title": "First Photograph: Joseph Nicéphore Niépce's 'View from the Window at Le Gras'",
+      "publisher": "Harry Ransom Center, University of Texas",
+      "year": 2003
+    }
+  ],
+
+  "related": ["exposure-triangle", "golden-hour-photography", "depth-of-field"]
+}

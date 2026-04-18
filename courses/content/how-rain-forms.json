@@ -1,0 +1,139 @@
+{
+  "id": "how-rain-forms",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How a Raindrop Is Actually Born",
+    "teaser": "Before it falls on your window, a raindrop needs a piece of dust, a crowd of friends, and a very patient cloud.",
+    "category": "Weather",
+    "subcategories": ["Meteorology", "Physics"],
+    "tags": ["rain", "clouds", "condensation", "atmosphere", "water-cycle"],
+    "emoji": "🌧️",
+    "accentColor": "#5B8DB8",
+    "coverSymbol": {
+      "sfSymbol": "cloud.rain.fill",
+      "fallbackEmoji": "💧"
+    },
+    "coverImagePrompt": "An extreme close-up of a single fat raindrop mid-fall, backlit against a blurred gray storm sky, tiny dust mote suspended at the drop's center, photographic, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Pure water won't rain",
+      "body": "Here's something strange: if the air only held clean, pure water vapor, rain would almost never fall. Water molecules don't enjoy sticking together out of thin air — they need something to grab onto first. Every raindrop you've ever seen started its life wrapped around a piece of dirt.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A microscopic view of water molecules hovering in air, struggling to come together, stylized scientific visualization"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The seed of a drop",
+      "body": "Clouds form around tiny floating particles called cloud condensation nuclei — specks of dust, sea salt, soot, pollen, even bacteria. Water vapor condenses on these specks, building a droplet only a hundredth of a millimeter across. A single cloud holds billions of them, and that's the fog you see.",
+      "keyTerms": [
+        { "term": "Condensation nuclei", "definition": "Tiny airborne particles that water vapor can condense onto" },
+        { "term": "Cloud droplet", "definition": "A microscopic water droplet around 0.01 mm wide — too small to fall as rain" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "A stylized diagram showing a salt crystal in the air with water molecules layering around it to form a droplet, soft blue palette"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "From droplet to drop",
+      "body": "A cloud droplet is far too light to fall — it would evaporate before reaching the ground. To become rain, roughly a million droplets have to merge into one. They do this by colliding as they drift and jostle inside the cloud, or by growing on ice crystals that attract water from nearby droplets. Only once a drop reaches about 0.5 mm across does gravity win.",
+      "keyTerms": [
+        { "term": "Collision-coalescence", "definition": "The process where small cloud droplets collide and merge into larger ones" }
+      ],
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "A slow-motion animation-style image of cloud droplets colliding and merging into a single larger drop inside a cloud"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it's not a teardrop",
+      "body": "Cartoon rain is pointy. Real rain isn't. A falling raindrop is squashed by air resistance into the shape of a tiny hamburger bun — flat on the bottom, rounded on top. Very large drops even split in half as they fall. High-speed camera studies by NASA atmospheric physicists have captured the exact moment a 5 mm drop breaks apart in mid-air.",
+      "funFact": "The biggest raindrops ever measured, over Brazil and the Marshall Islands, were nearly 1 cm across — the size of a small grape.",
+      "visual": {
+        "sfSymbol": "camera.aperture",
+        "imagePrompt": "High-speed photograph of a real raindrop mid-fall, clearly flattened like a hamburger bun, black background, studio lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Every storm is also a dust storm",
+      "body": "Next time it pours, remember: the clean sheet of water running down your window is actually made of a million tiny collisions, each one built on a speck of desert dust, ocean salt, or factory smoke. Rain isn't just water returning to Earth — it's the sky doing its own laundry.",
+      "visual": {
+        "sfSymbol": "cloud.drizzle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does a water droplet need to form inside a cloud?",
+      "options": [
+        "Lightning to trigger it",
+        "A tiny particle to condense around",
+        "Wind above 30 mph",
+        "Pure water vapor only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water vapor condenses onto condensation nuclei — tiny airborne particles like dust, salt, or soot."
+    },
+    {
+      "index": 1,
+      "question": "Roughly how many cloud droplets merge to form a single raindrop?",
+      "options": ["A few dozen", "About a thousand", "About a million", "About a trillion"],
+      "correctIndex": 2,
+      "explanation": "It takes on the order of a million microscopic cloud droplets to build one falling raindrop."
+    },
+    {
+      "index": 2,
+      "question": "What shape is a real falling raindrop?",
+      "options": [
+        "A teardrop with a point on top",
+        "A perfect sphere",
+        "Flattened like a hamburger bun",
+        "Pancake-flat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air resistance squashes falling drops into a rounded top with a flat base — nothing like the cartoon teardrop."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Physics of Clouds and Precipitation",
+      "publisher": "NOAA National Severe Storms Laboratory",
+      "year": 2022
+    },
+    {
+      "title": "Raindrop Shape and Terminal Velocity",
+      "publisher": "NASA Earth Observatory",
+      "year": 2021
+    }
+  ],
+
+  "related": ["why-snowflakes-unique", "cloud-types", "water-cycle-basics"]
+}

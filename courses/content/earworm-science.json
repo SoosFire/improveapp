@@ -1,0 +1,141 @@
+{
+  "id": "earworm-science",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Songs Get Stuck in Your Head",
+    "teaser": "That chorus you can't stop humming? Scientists call it an earworm, and they've figured out exactly why your brain won't let go.",
+    "category": "Music",
+    "subcategories": ["Psychology of Music", "Neuroscience"],
+    "tags": ["music", "brain", "memory", "earworms", "psychology"],
+    "emoji": "🎵",
+    "accentColor": "#A85FBF",
+    "coverSymbol": {
+      "sfSymbol": "music.note",
+      "fallbackEmoji": "🎶"
+    },
+    "coverImagePrompt": "A translucent brain silhouette with a musical note spiraling inside like a coiled worm, vibrant purple and pink, surreal and artistic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The song you didn't ask for",
+      "body": "It's 2 AM. You're trying to sleep. And somewhere in the back of your head, the chorus to a song you haven't heard in a decade keeps looping. You didn't play it. You didn't even think about it. But it's there now, and it refuses to leave. Welcome to the wonderful, maddening world of earworms.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "A person lying awake in bed at night with musical notes floating above their head in a dreamy spiral, moonlight through curtains"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Involuntary musical imagery",
+      "body": "The technical term is involuntary musical imagery, or INMI. Studies suggest over 90 percent of people experience earworms weekly. They usually last from a few minutes to a few hours, though occasional sufferers have reported loops lasting days. The songs are almost never entire tracks — they're short, catchy fragments, usually the chorus or hook.",
+      "keyTerms": [
+        { "term": "Involuntary musical imagery (INMI)", "definition": "The scientific name for a song spontaneously playing in your head" },
+        { "term": "Earworm", "definition": "A catchy melodic fragment that repeats involuntarily in the mind" }
+      ],
+      "visual": {
+        "sfSymbol": "repeat",
+        "imagePrompt": "A looping ribbon of musical notation curling around itself like an infinity symbol, soft watercolor style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why your brain loves a loop",
+      "body": "The auditory cortex — the part of your brain that processes sound — doesn't quit when a song ends. It keeps firing in echo patterns, and short catchy phrases fit perfectly inside short-term memory. Songs with predictable melodic contours and unusual intervals seem to stick hardest. The brain treats an incomplete loop like an unfinished sentence: it keeps trying to 'close' it, and replaying is how.",
+      "visual": {
+        "sfSymbol": "brain",
+        "imagePrompt": "A colorful glowing brain cross-section with sound waves echoing through the auditory cortex, artistic neuroscience"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The worst offenders, measured",
+      "body": "Researchers at Durham University analyzed thousands of reported earworms and found some universal champions: Lady Gaga's 'Bad Romance,' Journey's 'Don't Stop Believin',' and the jingle for Kylie Minogue's 'Can't Get You Out of My Head.' The common pattern — a fast tempo, repetitive melodic shape, and one surprising interval — is essentially the chemical formula for stickiness.",
+      "funFact": "Chewing gum has been shown in controlled studies to reduce earworms, probably because it occupies the same brain regions used for subvocal singing.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A playful chart of album covers stacked like a pop music leaderboard, colorful retro design"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to escape the loop",
+      "body": "If an earworm won't budge, research suggests a few reliable tricks. Listen to the song all the way through — closure often ends the loop. Engage in a different cognitive task like a crossword or counting backwards. Or try the gum trick. What rarely works? Trying to actively suppress it. Like a jack-in-the-box, the more you push down, the harder it springs back.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the scientific name for a song stuck in your head?",
+      "options": [
+        "Auditory fixation",
+        "Involuntary musical imagery",
+        "Cognitive echo",
+        "Neural reverb"
+      ],
+      "correctIndex": 1,
+      "explanation": "Researchers call the phenomenon involuntary musical imagery, or INMI. 'Earworm' is the popular term."
+    },
+    {
+      "index": 1,
+      "question": "What has been shown to reduce earworms in controlled studies?",
+      "options": [
+        "Drinking coffee",
+        "Chewing gum",
+        "Humming louder",
+        "Taking a nap"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chewing gum occupies brain regions involved in subvocal singing, interfering with the loop."
+    },
+    {
+      "index": 2,
+      "question": "Why can listening to a song all the way through sometimes stop an earworm?",
+      "options": [
+        "It tires out the auditory cortex",
+        "It provides the 'closure' the brain was seeking",
+        "It replaces the melody with lyrics",
+        "It increases dopamine release"
+      ],
+      "correctIndex": 1,
+      "explanation": "The brain treats unfinished loops like unfinished sentences. Hearing the song completed gives the closure it was chasing."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Dissecting an Earworm: Melodic Features and Song Popularity Predict Involuntary Musical Imagery",
+      "publisher": "Psychology of Aesthetics, Creativity, and the Arts",
+      "year": 2016
+    },
+    {
+      "title": "Musicophilia: Tales of Music and the Brain",
+      "publisher": "Knopf",
+      "year": 2007
+    }
+  ],
+
+  "related": ["memory-and-music", "auditory-cortex", "advertising-jingles"]
+}

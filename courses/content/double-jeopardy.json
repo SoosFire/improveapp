@@ -1,0 +1,141 @@
+{
+  "id": "double-jeopardy",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Double Jeopardy: You Can't Be Tried Twice",
+    "teaser": "Acquitted of murder, confess on live TV — and still walk free. How can that be legal?",
+    "category": "Law",
+    "subcategories": ["Criminal Law", "Constitutional Law"],
+    "tags": ["double-jeopardy", "fifth-amendment", "criminal-procedure", "rights"],
+    "emoji": "⚖️",
+    "accentColor": "#8B2E3F",
+    "coverSymbol": {
+      "sfSymbol": "scalemass.fill",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "A weathered gavel resting on an open law book, shafts of dusty courtroom light slanting through tall windows, cinematic and solemn, painterly detail"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "One shot to convict",
+      "body": "Imagine a man is tried for murder, found not guilty, then walks out of court and announces on camera that he did it. Can prosecutors drag him back in? In most of the United States, the answer is no. The rule that protects him is called 'double jeopardy' — and it's one of the oldest ideas in Anglo-American law.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A defendant leaving a courthouse steps with reporters pressing in, dramatic flashbulb lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the Fifth Amendment actually says",
+      "body": "The U.S. Constitution's Fifth Amendment promises that no person shall 'be subject for the same offence to be twice put in jeopardy of life or limb.' In plain English: once the state takes its swing at you and loses, it doesn't get another. The idea predates the Constitution — it shows up in Roman law, the Talmud, and English common law going back at least to the 1100s.",
+      "keyTerms": [
+        { "term": "Double jeopardy", "definition": "The rule that a defendant cannot be tried twice for the same offense" },
+        { "term": "Attachment of jeopardy", "definition": "The precise moment — usually when the jury is sworn — after which the protection kicks in" }
+      ],
+      "visual": {
+        "sfSymbol": "text.book.closed.fill",
+        "imagePrompt": "A close-up of the U.S. Bill of Rights on aged parchment, the Fifth Amendment highlighted by warm candlelight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why give acquittals this power",
+      "body": "The state has vastly more resources than any individual. If it could retry you over and over, it would eventually wear you down, find a sympathetic jury, or dig up new 'evidence' to fit the charge. Double jeopardy forces prosecutors to bring their best case the first time. It also protects something subtler — the finality of a verdict, so you can rebuild your life after trial ends.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "A lone figure standing before a towering wall of robed judges, light cutting through stained glass"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The loopholes are wider than you think",
+      "body": "Double jeopardy bars a second prosecution by the same sovereign for the same offense — but the U.S. has many sovereigns. After the officers who beat Rodney King were acquitted in California state court in 1992, the federal government retried them for civil rights violations and won. The same act, two different sovereigns, no double jeopardy problem. Civil suits are also fair game: O.J. Simpson was acquitted criminally, then lost a $33 million wrongful-death judgment.",
+      "funFact": "The UK actually scrapped its double jeopardy rule in 2003 for serious crimes when 'new and compelling evidence' emerges — partly because of the unsolved 1993 Stephen Lawrence case.",
+      "visual": {
+        "sfSymbol": "doc.text.magnifyingglass",
+        "imagePrompt": "Two courtroom doors side by side — one marked STATE, one marked FEDERAL — both standing open"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A finality worth the cost",
+      "body": "Double jeopardy sometimes lets the guilty go free. That's the price of a rule that stops the government from hunting anyone forever. The framers decided, quite deliberately, that a state with unlimited tries is more dangerous than a guilty defendant who escapes. It's a choice about which kind of injustice we're willing to live with.",
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where in U.S. law is the double jeopardy rule found?",
+      "options": [
+        "The First Amendment",
+        "The Fifth Amendment",
+        "The Fourteenth Amendment",
+        "Article II of the Constitution"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Fifth Amendment forbids putting a person 'twice in jeopardy of life or limb' for the same offense."
+    },
+    {
+      "index": 1,
+      "question": "Why could the officers in the Rodney King case be retried after a state acquittal?",
+      "options": [
+        "New evidence appeared",
+        "The federal government is a separate sovereign with its own laws",
+        "The acquittal was technically a mistrial",
+        "Double jeopardy doesn't apply to police officers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under the 'dual sovereignty' doctrine, state and federal governments can each prosecute for their own offenses arising from the same conduct."
+    },
+    {
+      "index": 2,
+      "question": "What core purpose does double jeopardy serve?",
+      "options": [
+        "Speeding up trials",
+        "Letting juries deliberate longer",
+        "Preventing the state from wearing down defendants with repeated prosecutions",
+        "Making appeals easier"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rule forces the government to put its best case forward once, rather than using its superior resources to prosecute indefinitely."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Double Jeopardy Clause",
+      "publisher": "Cornell Legal Information Institute",
+      "year": 2023
+    },
+    {
+      "title": "Gamble v. United States",
+      "publisher": "U.S. Supreme Court",
+      "year": 2019
+    }
+  ],
+
+  "related": ["fifth-amendment", "dual-sovereignty", "jury-selection"]
+}

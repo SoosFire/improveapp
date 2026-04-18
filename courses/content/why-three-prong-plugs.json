@@ -1,0 +1,145 @@
+{
+  "id": "why-three-prong-plugs",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Electrical Plugs Have Three Prongs",
+    "teaser": "Two prongs run your toaster. The third one exists for exactly one reason: to keep you alive when something goes wrong.",
+    "category": "Home & DIY",
+    "subcategories": ["Electrical", "Safety"],
+    "tags": ["electricity", "safety", "grounding", "diy", "wiring"],
+    "emoji": "⚡",
+    "accentColor": "#FBC02D",
+    "coverSymbol": {
+      "sfSymbol": "bolt.fill",
+      "fallbackEmoji": "🔌"
+    },
+    "coverImagePrompt": "Macro photograph of a three-prong electrical plug half-inserted into a wall outlet, dramatic side lighting, a faint blue spark, crisp industrial aesthetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A wire that normally does nothing",
+      "body": "Look at the back of your washing machine. The plug has three prongs, but only two of them are carrying electricity during normal use. The third — the round one — sits there doing nothing for years. Then one day a wire inside the machine rubs bare, the metal case goes live with 120 volts, and that 'useless' third prong quietly saves your life.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A washing machine with its panel open, a frayed wire touching the metal casing, glowing ominously in a dark laundry room"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Hot, neutral, and ground",
+      "body": "In a standard North American outlet, the small flat slot is 'hot' — that's where 120V electricity arrives from the power plant. The bigger flat slot is 'neutral,' the return path back to the grid. The round pin is 'ground,' connected all the way down to a copper rod driven into the dirt outside your house. Ground is held at 0 volts — the same voltage as the earth.",
+      "keyTerms": [
+        { "term": "Hot", "definition": "The wire that carries 120V (or 240V) from the grid to the device" },
+        { "term": "Neutral", "definition": "The return path, normally kept at approximately 0V" },
+        { "term": "Ground", "definition": "A safety path bonded to the actual earth, used only in a fault" }
+      ],
+      "visual": {
+        "sfSymbol": "bolt.horizontal.fill",
+        "imagePrompt": "Cutaway illustration of a three-prong outlet showing hot, neutral, and ground wires tracing from the receptacle down through the wall to a copper ground rod in the soil"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The life-saving shortcut",
+      "body": "The ground prong connects to the metal chassis of your appliance. If a hot wire breaks loose and touches that chassis, electricity now has two possible paths: through you (if you're touching it), or through the ground wire. Because copper has almost no resistance, nearly all the current rushes through the ground wire instead — and that huge current surge trips the breaker in your panel within milliseconds, cutting power before your heart even notices.",
+      "keyTerms": [
+        { "term": "Circuit breaker", "definition": "A switch that automatically cuts power when current exceeds a safe level" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.turn.down.right",
+        "imagePrompt": "Annotated diagram showing electricity choosing the low-resistance ground path around a person touching a faulty appliance, arrows indicating current flow"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it became mandatory",
+      "body": "Before the 1960s, most American homes had two-prong outlets and metal-cased appliances killed hundreds of people a year through accidental shocks. The U.S. National Electrical Code first required grounded outlets in residential kitchens and laundry rooms in 1962, then expanded it nationwide. Deaths from household electrocution dropped by over 80% in the decades that followed.",
+      "funFact": "'Double-insulated' appliances like hair dryers only have two prongs because their entire outer shell is plastic — there's no metal chassis for a fault to energize.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "Vintage 1960s-style infographic showing a declining chart of household electrocution deaths with icons of old vs new outlets"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A safety net you hope never triggers",
+      "body": "The third prong is the safety seatbelt of electricity. Cutting it off so a plug fits an old two-prong outlet is one of the worst DIY mistakes people still make — you've saved five seconds and given up the entire safety system. If you're curious whether your outlets are properly grounded, a $5 plug-in tester from a hardware store will tell you in three seconds.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the third (round) prong of a standard plug do during normal use?",
+      "options": [
+        "Carries the main current",
+        "Returns current to the grid",
+        "Nothing — it's a backup safety path",
+        "Stabilizes voltage"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ground carries no current in normal operation. It only activates if a fault energizes the appliance's metal case."
+    },
+    {
+      "index": 1,
+      "question": "What happens when a hot wire touches an appliance's metal chassis in a properly grounded setup?",
+      "options": [
+        "The appliance slowly overheats",
+        "A huge current flows through the ground wire and trips the breaker",
+        "Nothing — grounding just stores the charge",
+        "The neutral wire catches fire"
+      ],
+      "correctIndex": 1,
+      "explanation": "The low-resistance ground path causes a massive current spike that trips the breaker and cuts power almost instantly."
+    },
+    {
+      "index": 2,
+      "question": "Why do some appliances (like hair dryers) only have two prongs?",
+      "options": [
+        "They use less electricity",
+        "They're 'double-insulated' with a non-conductive plastic shell",
+        "They don't need safety features",
+        "Manufacturers skip grounding to save money"
+      ],
+      "correctIndex": 1,
+      "explanation": "Double-insulated designs have no exposed metal chassis, so a ground prong isn't necessary."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "National Electrical Code (NFPA 70)",
+      "publisher": "National Fire Protection Association",
+      "year": 2023
+    },
+    {
+      "title": "Electric Shock Hazards and Grounding Practices",
+      "publisher": "IEEE Power & Energy Magazine",
+      "year": 2018
+    }
+  ],
+
+  "related": ["gfci-outlets", "home-wiring-basics", "circuit-breakers"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "why-we-fever",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Fevers Actually Help You",
+    "teaser": "A fever isn't your body breaking — it's your body fighting. And suppressing it too fast may cost you.",
+    "category": "Health",
+    "subcategories": ["Immunology", "Infectious Disease"],
+    "tags": ["fever", "immune system", "infection", "inflammation", "temperature"],
+    "emoji": "🌡️",
+    "accentColor": "#E07A3A",
+    "coverSymbol": {
+      "sfSymbol": "thermometer.high",
+      "fallbackEmoji": "🌡️"
+    },
+    "coverImagePrompt": "A glowing thermometer rising above a warm amber silhouette of a sleeping person, immune cells drifting like embers in the background, cinematic, moody orange lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Old strategy, deep roots",
+      "body": "Fever isn't a mammal thing. Lizards, fish, even insects run a fever when they're sick — by moving into sunlight or warmer water. Evolution has preserved the trick for more than 400 million years. That's a strong hint that those extra couple of degrees aren't just a malfunction.",
+      "visual": {
+        "sfSymbol": "lizard.fill",
+        "imagePrompt": "A desert lizard sunbathing on a warm stone, subtle heat shimmer rising around its body, late afternoon golden light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "It's a controlled reset",
+      "body": "During infection, your immune cells release messengers called pyrogens. Those reach your hypothalamus — the brain's thermostat — and tell it to raise the set point. Your body then shivers, clamps down blood flow to the skin, and burns more energy until the new target is reached. You feel cold because your body is aiming for hot.",
+      "keyTerms": [
+        { "term": "Pyrogen", "definition": "A substance that triggers fever by acting on the brain's thermostat" },
+        { "term": "Hypothalamus", "definition": "The brain region that regulates body temperature, among many other things" }
+      ],
+      "visual": {
+        "sfSymbol": "slider.horizontal.below.square.and.square.filled",
+        "imagePrompt": "A stylized brain with a temperature dial being turned up, tiny chemical messengers floating toward it, clean medical illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why warmth wins",
+      "body": "Higher temperatures slow the replication of many bacteria and viruses — some pathogens are finely tuned for 37°C. Meanwhile, your immune cells speed up. T cells proliferate faster, certain white blood cells become stickier and move more efficiently, and infection-fighting proteins work harder. In lab studies, a 1–2°C bump can dramatically sharpen immune response.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A single immune cell in the bloodstream glowing brighter as the background shifts from cool blue to warm red, microscopic cinematic view"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What happens when we suppress it",
+      "body": "A 2014 modeling study estimated that widespread use of fever-reducing drugs during influenza outbreaks may increase transmission by around 5% — because people feel well enough to go out, and their immune system never quite catches up. In children with mild fevers, multiple trials have found no benefit from routinely bringing the temperature down, beyond comfort.",
+      "funFact": "Hot tub use and even sauna bathing can temporarily mimic some immune effects of fever. Don't try it while actually sick, though — dehydration compounds fast.",
+      "visual": {
+        "sfSymbol": "pills.fill",
+        "imagePrompt": "A pill bottle tipped over on a nightstand, a half-drunk glass of water beside it, soft shadowed night lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "When to treat, when to trust",
+      "body": "None of this means every fever is fine. Very high fevers, fevers in newborns, or fevers with stiff neck, rash, or confusion still need urgent care. But a moderate fever in an otherwise healthy adult is usually a feature, not a bug. If you can tolerate it, letting it do its job may help you recover a little faster.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which brain region controls the fever set point?",
+      "options": ["Cerebellum", "Hypothalamus", "Brainstem", "Pituitary gland"],
+      "correctIndex": 1,
+      "explanation": "The hypothalamus acts as the body's thermostat. Pyrogens signal it to raise the target temperature."
+    },
+    {
+      "index": 1,
+      "question": "Why does fever often help fight infection?",
+      "options": [
+        "It kills pathogens with heat alone",
+        "It slows some pathogens while speeding up immune cell activity",
+        "It flushes toxins through sweat",
+        "It numbs pain receptors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Many pathogens replicate best at 37°C, while immune cells become more active at elevated temperatures."
+    },
+    {
+      "index": 2,
+      "question": "Why do you feel cold at the start of a fever?",
+      "options": [
+        "The virus lowers your metabolism",
+        "Your body is chilling itself before warming up",
+        "Your thermostat has moved up, so your current temp feels too low",
+        "Blood flow to the brain drops"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once the hypothalamus raises the target, your current temperature feels cold. You shiver and huddle until you catch up."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Fever and the thermal regulation of immunity: the immune system feels the heat",
+      "publisher": "Nature Reviews Immunology",
+      "year": 2015
+    },
+    {
+      "title": "Population-level effects of suppressing fever",
+      "publisher": "Proceedings of the Royal Society B",
+      "year": 2014
+    }
+  ],
+
+  "related": ["inflammation-basics", "how-vaccines-work", "sleep-and-immunity"]
+}

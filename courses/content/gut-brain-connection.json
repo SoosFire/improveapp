@@ -1,0 +1,141 @@
+{
+  "id": "gut-brain-connection",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Your Second Brain: The Gut",
+    "teaser": "Your intestines contain more neurons than your spinal cord. And yes — they really can affect your mood.",
+    "category": "Biology",
+    "subcategories": ["Neuroscience", "Microbiome"],
+    "tags": ["gut", "brain", "neurons", "microbiome", "vagus nerve"],
+    "emoji": "🧠",
+    "accentColor": "#D66F8E",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A stylized human silhouette glowing with two centers of light — one in the head, one in the abdomen — connected by a thin luminous nerve pathway, painterly, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "'Gut feelings' aren't just poetry",
+      "body": "The phrase 'butterflies in your stomach' is more literal than you think. Wrapped around your intestines is a tangled web of roughly 500 million neurons — more than live in your entire spinal cord. This mini-brain can talk to your head brain directly, and it changes how you think, feel, and decide.",
+      "visual": {
+        "sfSymbol": "bolt.heart.fill",
+        "imagePrompt": "A cross-section of human anatomy with glowing neural networks wrapping around the digestive tract, soft warm light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The enteric nervous system",
+      "body": "The nerve mesh lining your gut is called the enteric nervous system, or ENS. It's so independent that it can keep your intestines working even if you cut every connection to the brain above. It decides when to contract, when to secrete enzymes, and when to pass food along — mostly without conscious input.",
+      "keyTerms": [
+        { "term": "Enteric nervous system (ENS)", "definition": "The network of roughly 500 million neurons lining the gastrointestinal tract" },
+        { "term": "Vagus nerve", "definition": "The long cranial nerve carrying signals back and forth between the gut and brain" }
+      ],
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A detailed anatomical illustration of the enteric nervous system woven around the intestines, dense mesh of neurons"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The vagus superhighway",
+      "body": "The ENS and your head brain gossip constantly through the vagus nerve, which runs from the brainstem down the back of your neck and branches into your chest and belly. Roughly 80 percent of the fibers carry signals from gut to brain — not the other way around. That means your stomach has much more to say to your head than your head has to say to your stomach.",
+      "funFact": "About 90 percent of the serotonin in your body is made in your gut — not in your brain.",
+      "visual": {
+        "sfSymbol": "arrow.up.and.down.circle.fill",
+        "imagePrompt": "A diagram of the vagus nerve with thick arrows showing the dominant upward flow of signals from gut to brain"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Microbes with an opinion",
+      "body": "Add to this the trillions of bacteria living in your gut — the microbiome. Some of them produce neurotransmitters that leak across the gut wall. In one striking experiment, shy mice given gut bacteria from bolder mice became noticeably more adventurous, and vice versa. Human studies link microbiome diversity with mood disorders, though the causal picture is still being worked out.",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "Colorful microscopic illustration of gut bacteria — rods, spirals, and spheres — densely packed against a pink intestinal wall"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "One body, two thinkers",
+      "body": "Your decisions aren't made by a single command center. Your head brain gets the final word, but a huge amount of what shapes that word — hunger, nausea, unease, contentment — is whispered up from below. Treating the gut as a 'second brain' isn't metaphor. It's anatomy.",
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how many neurons live in the enteric nervous system?",
+      "options": [
+        "Around 10,000",
+        "About 5 million",
+        "Around 500 million",
+        "About 86 billion"
+      ],
+      "correctIndex": 2,
+      "explanation": "The enteric nervous system holds about 500 million neurons — more than the spinal cord, though far fewer than the brain's 86 billion."
+    },
+    {
+      "index": 1,
+      "question": "What fraction of vagus nerve signals travel from gut to brain, versus brain to gut?",
+      "options": [
+        "About 20%",
+        "About half",
+        "About 80%",
+        "Essentially all go down, not up"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roughly 80% of vagus nerve fibers carry signals upward from the gut to the brain — a huge one-way stream of information."
+    },
+    {
+      "index": 2,
+      "question": "Where is most of your body's serotonin actually produced?",
+      "options": [
+        "The pineal gland",
+        "The gut",
+        "The adrenal glands",
+        "The cerebellum"
+      ],
+      "correctIndex": 1,
+      "explanation": "About 90% of the body's serotonin is manufactured in gut cells — not in the brain, where it plays a smaller but critical signaling role."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Second Brain: A Groundbreaking New Understanding of Nervous Disorders of the Stomach and Intestine",
+      "publisher": "Harper Perennial",
+      "year": 1999
+    },
+    {
+      "title": "Gut microbiota's effect on mental health: The gut-brain axis",
+      "publisher": "Clinics and Practice",
+      "year": 2017
+    }
+  ],
+
+  "related": ["immortal-jellyfish", "trees-talk-fungi", "vagus-nerve"]
+}

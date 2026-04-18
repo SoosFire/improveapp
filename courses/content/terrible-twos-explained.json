@@ -1,0 +1,136 @@
+{
+  "id": "terrible-twos-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Terrible Twos Are Actually Good",
+    "teaser": "That tiny dictator throwing spaghetti on the floor? Developmentally, it's one of the most important milestones of their life.",
+    "category": "Parenting",
+    "subcategories": ["Toddlers", "Development"],
+    "tags": ["toddlers", "tantrums", "autonomy", "brain development", "psychology"],
+    "emoji": "🍝",
+    "accentColor": "#D96C5A",
+    "coverSymbol": {
+      "sfSymbol": "face.smiling.fill",
+      "fallbackEmoji": "😤"
+    },
+    "coverImagePrompt": "A defiant toddler on a wooden kitchen floor, arms crossed, lower lip out, golden afternoon light streaming through a window, painterly, cinematic, sympathetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The banana was broken",
+      "body": "Every parent has a story. You handed the toddler a banana, but you peeled it wrong. You cut the toast into triangles instead of squares. You said goodnight to the moon before they were ready. And suddenly you're holding a shrieking 30-pound human with a full sense of grievance. What is actually happening inside that tiny, furious head?",
+      "visual": {
+        "sfSymbol": "exclamationmark.2",
+        "imagePrompt": "A broken banana on a kitchen counter with a blurred tiny figure mid-tantrum in the background, shallow depth of field"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Enter the 'I'",
+      "body": "Around 18–24 months, something extraordinary happens: the child discovers they are a separate person. Psychologists call it the emergence of 'autonomy' — the birth of selfhood. They recognize themselves in mirrors. They start saying 'no' and 'mine.' They've just realized they have a will. Tantrums are that new will crashing into reality.",
+      "keyTerms": [
+        { "term": "Autonomy", "definition": "The sense of being a separate person with your own preferences and will" },
+        { "term": "Mirror self-recognition", "definition": "Understanding the reflection in a mirror is you — typically appearing around 18 months" }
+      ],
+      "visual": {
+        "sfSymbol": "person.fill.viewfinder",
+        "imagePrompt": "A small child gazing in wonder at their reflection in a hand mirror, soft window light, painterly"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "An unfinished brain in a world of rules",
+      "body": "A toddler's prefrontal cortex — the brain's impulse-control center — is years away from being functional. Meanwhile, their amygdala (the emotion engine) is already in full swing. That mismatch means they feel feelings at Hulk intensity but have almost no brakes. It's less 'bad behavior' and more a Ferrari with bicycle pedals.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A cross-section illustration of a toddler's brain showing a glowing amygdala and a faint prefrontal cortex, educational art style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Tantrums have a shape",
+      "body": "In a 2011 study, researchers at the University of Minnesota recorded over 100 toddler tantrums with sensors hidden in onesies. They found tantrums follow a predictable arc — anger spikes first, then collapses into sadness. Trying to reason during the anger phase extends the tantrum. Quiet proximity during the sadness phase shortens it.",
+      "funFact": "The study found that the average tantrum lasts only about 3 minutes — it just feels like 3 hours when you're inside one.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A glowing audio waveform chart showing anger peaks and sadness valleys in a toddler tantrum, clean infographic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A feature, not a bug",
+      "body": "Research tracking toddlers into adolescence finds that kids who assert themselves — even loudly — at two often grow into more confident, socially capable children by age ten. The 'no' isn't defiance. It's rehearsal. Your job isn't to eliminate tantrums; it's to stay calm enough that the storm can pass through without crashing your house.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Around what age do toddlers typically begin recognizing themselves in a mirror?",
+      "options": ["6 months", "12 months", "18 months", "3 years"],
+      "correctIndex": 2,
+      "explanation": "Mirror self-recognition usually emerges around 18 months and marks a big leap in self-awareness."
+    },
+    {
+      "index": 1,
+      "question": "Why are toddler emotions so intense?",
+      "options": [
+        "Their amygdala is overactive while their prefrontal cortex is immature",
+        "They have more neurons than adults",
+        "They produce too much dopamine",
+        "Their hearing is more sensitive"
+      ],
+      "correctIndex": 0,
+      "explanation": "The emotional brain comes online long before the impulse-control brain — a natural developmental mismatch."
+    },
+    {
+      "index": 2,
+      "question": "What does the Minnesota tantrum study say shortens a tantrum?",
+      "options": [
+        "Reasoning during the anger phase",
+        "Distraction with toys",
+        "Quiet proximity during the sadness phase",
+        "Time-outs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trying to talk during anger prolongs tantrums; calmly staying close as sadness arrives helps them end sooner."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tantrums in healthy versus depressed and disruptive preschoolers",
+      "publisher": "Emotion",
+      "year": 2011
+    },
+    {
+      "title": "Autonomy, competence, and relatedness in early childhood",
+      "publisher": "Developmental Psychology",
+      "year": 2014
+    }
+  ],
+
+  "related": ["why-kids-ask-why", "marshmallow-test", "attachment-theory"]
+}

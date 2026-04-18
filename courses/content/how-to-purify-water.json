@@ -1,0 +1,131 @@
+{
+  "id": "how-to-purify-water",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How to Make Wild Water Safe to Drink",
+    "teaser": "That clear mountain stream can still put you in a hospital bed. Here's what you need to kill.",
+    "category": "Survival Skills",
+    "subcategories": ["Water Safety", "Wilderness Medicine"],
+    "tags": ["water", "purification", "filtration", "survival", "health"],
+    "emoji": "💧",
+    "accentColor": "#3D8CD0",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "🥾"
+    },
+    "coverImagePrompt": "A metal cup scooping from a clear alpine stream at sunrise, low morning mist clinging to the water surface, mossy rocks and pine needles framing the composition, cinematic macro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The optimist's stream",
+      "body": "It looks perfect: cold, tumbling, alpine clear, surrounded by pines. You kneel, cup your hands, drink. Two weeks later you're in a clinic producing diagnoses from the bathroom. Giardia lamblia doesn't care that your stream looked clean. A single elk that died upstream three miles away is all it took.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "A cracked enamel mug half-full of stream water on a flat rock, a warning triangle symbol superimposed subtly in the reflection"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three things to kill",
+      "body": "Wild water contains three categories of trouble. Protozoa like Giardia and Cryptosporidium — tough, cyst-walled, common in North America. Bacteria like E. coli and Salmonella — smaller but easier to kill. And viruses like norovirus and hepatitis A — tiny, and a bigger concern in the developing world or anywhere upstream of human camps. A complete solution handles all three.",
+      "keyTerms": [
+        { "term": "Pathogen", "definition": "Any microorganism that can cause disease in humans" },
+        { "term": "Cyst", "definition": "A dormant, armored form of certain protozoa that resists chemicals and filters" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.3x3.fill",
+        "imagePrompt": "A scientific illustration showing three scale-comparison circles labeled protozoa, bacteria, and viruses, decreasing in size"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Boiling: the nuclear option",
+      "body": "Bringing water to a rolling boil kills every pathogen you'll encounter in the wild. The CDC recommends one full minute of boiling at low elevation, three minutes above 2,000 meters where water boils cooler. No timer? A vigorous rolling boil is enough the moment it starts — the time up to boiling already sterilizes it. Downsides: it uses fuel, it takes time, and the water tastes flat until you pour it back and forth to re-aerate.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A blackened camping pot over blue flame on a small backpacking stove, steam rising dramatically, tent glowing orange behind"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Filters, tablets, and UV",
+      "body": "Modern ceramic or hollow-fiber filters catch protozoa and bacteria down to about 0.2 microns — but most don't stop viruses. Chlorine dioxide tablets handle all three given time (up to 4 hours for Crypto). UV pens zap DNA in about 90 seconds but need clear water to work — turbidity shields pathogens. Cold water and cloudy water both slow chemical treatments. Pre-filter with a bandana first.",
+      "funFact": "The 0.2 micron pore size became a standard because it's smaller than any bacterium but easier to push water through than finer meshes. Viruses are typically 10–100x smaller.",
+      "visual": {
+        "sfSymbol": "line.3.horizontal.decrease.circle",
+        "imagePrompt": "Three methods laid out on a log: a ceramic filter, a bottle of chlorine tablets, and a UV SteriPEN, each labeled, overhead field-guide shot"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The layered approach",
+      "body": "Experienced wilderness travelers don't pick one method — they combine them. A bandana pre-filter removes silt. A hollow-fiber filter handles bacteria and protozoa. If viruses are a real concern, a final chlorine dioxide dose closes the gap. Belt and suspenders. One giardia infection teaches you this lesson for life.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which category of pathogen is hardest for standard hollow-fiber backpacking filters to catch?",
+      "options": ["Protozoa", "Bacteria", "Viruses", "Algae"],
+      "correctIndex": 2,
+      "explanation": "Viruses are smaller than the typical 0.2-micron filter pore. Chemical treatment or boiling is needed to kill them."
+    },
+    {
+      "index": 1,
+      "question": "According to the CDC, how long must water boil at elevations above 2,000 meters?",
+      "options": ["10 seconds", "1 minute", "3 minutes", "10 minutes"],
+      "correctIndex": 2,
+      "explanation": "At altitude, water boils at a lower temperature, so the CDC recommends a full three minutes of rolling boil."
+    },
+    {
+      "index": 2,
+      "question": "Which protozoan is notoriously slow to die even with chlorine treatment?",
+      "options": [
+        "Giardia",
+        "Cryptosporidium",
+        "E. coli",
+        "Norovirus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cryptosporidium cysts can require up to four hours of contact with chlorine dioxide to be neutralized."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Drinking Water Treatment Methods for Backcountry and Travel Use",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "year": 2020
+    },
+    {
+      "title": "Wilderness Medical Society Clinical Practice Guidelines for Water Disinfection",
+      "publisher": "Wilderness & Environmental Medicine",
+      "year": 2019
+    }
+  ],
+
+  "related": ["giardia", "backcountry-hygiene", "dehydration"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "pyramid-construction-mystery",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Pyramids Were Built",
+    "teaser": "Forget aliens — the real story involves beer rations, a papyrus diary, and a flooded canal straight to Giza.",
+    "category": "Architecture",
+    "subcategories": ["Ancient Egypt", "Construction Engineering"],
+    "tags": ["pyramids", "egypt", "khufu", "giza", "architecture"],
+    "emoji": "🔺",
+    "accentColor": "#C89845",
+    "coverSymbol": {
+      "sfSymbol": "triangle.fill",
+      "fallbackEmoji": "🔺"
+    },
+    "coverImagePrompt": "The Great Pyramid of Giza at golden hour, thousands of workers hauling massive limestone blocks on wooden sledges up earthen ramps, dust and sun haze, cinematic panorama"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "2.3 million stones. 20 years.",
+      "body": "Around 2560 BCE, the workers of Pharaoh Khufu stacked 2.3 million limestone blocks into a single 481-foot triangle — the Great Pyramid of Giza. Each block weighed on average 2.5 tons. To finish in 20 years, they'd have had to place one every two to three minutes, day and night. For 4,000 years, people have asked: how?",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "Aerial view of the Great Pyramid of Giza at sunrise, with wide desert stretching to the horizon"
+      }
+    },
+    {
+      "index": 1,
+      "type": "evidence",
+      "title": "The diary of Merer",
+      "body": "In 2013, archaeologists at Wadi al-Jarf on the Red Sea found papyrus fragments written by a mid-ranking official named Merer. They are the oldest papyri ever found — and they are a construction log. Merer describes leading 200 men to haul white limestone from Tura quarries to Giza by boat, three trips a month. It is the only eyewitness account of pyramid construction in existence.",
+      "funFact": "Merer's log even records his crew's food: bread, beer, and cuts of meat — workers were fed well, not starved.",
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "Fragment of ancient papyrus with faded hieroglyphic columns, golden desert light"
+      }
+    },
+    {
+      "index": 2,
+      "type": "concept",
+      "title": "Paid labor, not slaves",
+      "body": "Herodotus claimed slaves built the pyramids — but archaeology disagrees. Excavations at the workers' village south of Giza, led by Mark Lehner and Zahi Hawass, uncovered bakeries, breweries, barracks, and medical tents. Skeletons show signs of healed fractures — these people received care. Tomb inscriptions call them 'friends of Khufu.' This was a national project, not a slave camp.",
+      "keyTerms": [
+        { "term": "Corvée labor", "definition": "A rotating, conscripted but paid labor force, common in ancient Egypt" },
+        { "term": "Wadi al-Jarf", "definition": "Red Sea port where Merer's logbooks were found in 2013" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Reconstruction illustration of an Egyptian workers' village: bakeries, beer vats, and mudbrick barracks"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Water did the heavy lifting",
+      "body": "A recent breakthrough: researchers found traces of an ancient arm of the Nile, the 'Khufu Branch,' that once flowed right up to the Giza plateau. Stones from Tura crossed the river on barges, then transferred onto a canal that reached the pyramid's base. On land, workers dragged sledges over sand wetted with water — experiments show this cuts friction by more than half, explaining a famous tomb painting of a worker pouring water in front of a sledge.",
+      "visual": {
+        "sfSymbol": "water.waves",
+        "imagePrompt": "Ancient Egyptian wall painting showing a worker pouring water in front of a massive sledge carrying a stone block"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Less mystery, more marvel",
+      "body": "The pyramids weren't built by aliens, lost civilizations, or magic. They were built by a well-fed, organized society with rotating labor crews, a river highway, simple physics, and two decades of relentless work. Which is, honestly, more impressive than any conspiracy theory. Human beings did this.",
+      "visual": {
+        "sfSymbol": "hand.thumbsup.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did the 2013 discovery of Merer's papyri reveal?",
+      "options": [
+        "That aliens helped build the pyramids",
+        "An eyewitness logbook of pyramid construction",
+        "The location of Khufu's burial chamber",
+        "Secret tunnels beneath Giza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Merer's logs at Wadi al-Jarf recorded trips hauling Tura limestone to Giza — the only firsthand account of the pyramids being built."
+    },
+    {
+      "index": 1,
+      "question": "Who actually built the Great Pyramid?",
+      "options": [
+        "Slaves captured in war",
+        "A paid, organized Egyptian labor force",
+        "Mercenaries from Nubia",
+        "Unknown pre-dynastic people"
+      ],
+      "correctIndex": 1,
+      "explanation": "Archaeology at the workers' village shows a well-fed, medically cared-for paid labor force — not slaves."
+    },
+    {
+      "index": 2,
+      "question": "Why did workers pour water in front of sledges?",
+      "options": [
+        "To cool the stones",
+        "To reduce friction so sledges slid more easily",
+        "As a religious offering",
+        "To mark the path for supervisors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wet sand reduces friction under sledges by more than half — a technique confirmed by modern experiments."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Red Sea Scrolls: How Ancient Papyri Reveal the Secrets of the Pyramids",
+      "publisher": "Pierre Tallet & Mark Lehner, Thames & Hudson",
+      "year": 2022
+    },
+    {
+      "title": "Nile waterscapes facilitated the construction of the Giza pyramids",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2022
+    }
+  ],
+
+  "related": ["why-gothic-cathedrals-tall", "ancient-egyptian-religion", "nile-river-civilization"]
+}

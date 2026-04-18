@@ -1,0 +1,144 @@
+{
+  "id": "elephants-mourn-dead",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Do Elephants Mourn Their Dead?",
+    "teaser": "They return to old bones for years. They touch skulls with their trunks. Is it grief — or something we can't quite name?",
+    "category": "Wildlife",
+    "subcategories": ["Animal Behavior", "Cognition"],
+    "tags": ["elephants", "grief", "ethology", "savanna", "cognition"],
+    "emoji": "🐘",
+    "accentColor": "#6B7A3F",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌿"
+    },
+    "coverImagePrompt": "An adult elephant gently touching a bleached elephant skull with the tip of its trunk on a golden savanna at dusk, other herd members gathered behind, cinematic, reverent atmosphere"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The gathering at the bones",
+      "body": "In 2016, a Samburu elephant matriarch named Victoria died in northern Kenya. Over the following three weeks, researchers documented five different elephant families — some related, some not — making specific detours to the carcass. They stood silent for minutes. They ran their trunks along her ribcage. A young bull returned alone, over and over. What were they doing?",
+      "visual": {
+        "sfSymbol": "sun.haze.fill",
+        "imagePrompt": "A herd of elephants standing in a silent semicircle around a fallen matriarch's body in golden savanna light, solemn and still"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'mourning' would mean",
+      "body": "Biologists are careful with the word. 'Grief' in animals usually has to mean three things: recognition that a specific individual is gone, behavior that disrupts normal routines, and responses that can't be easily explained by food, fear, or mating. Elephants, probably more than any non-human species, tick all three boxes.",
+      "keyTerms": [
+        { "term": "Thanatology", "definition": "The scientific study of death — including how non-human animals respond to it" },
+        { "term": "Comparative grief", "definition": "The careful comparison of animal responses to death with human mourning, without overclaiming" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile.fill",
+        "imagePrompt": "A quiet portrait of an elephant's face in warm backlight, one eye with a visible eyelash catching light, intimate and contemplative"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The trunk knows",
+      "body": "Elephants have extraordinary memory and scent discrimination. They recognize at least 100 individual calls and can identify specific elephants from urine samples alone. When they encounter the bones of a dead elephant, they don't react to wildebeest or buffalo remains — only to their own species. Repeated field studies, especially by the late biologist Cynthia Moss in Amboseli, show they linger longer and touch more gently when the bones belonged to a relative.",
+      "keyTerms": [
+        { "term": "Bone investigation", "definition": "Behavior in which elephants repeatedly visit, sniff, and handle the skeletal remains of their own species" }
+      ],
+      "visual": {
+        "sfSymbol": "hand.point.up.fill",
+        "imagePrompt": "Close-up of an elephant trunk tip delicately exploring the curves of a weathered tusk, soft dust lifting in shafts of sunlight"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Documented returns",
+      "body": "A landmark 2005 study in Kenya's Amboseli National Park offered elephants three objects: ivory, an elephant skull, and a piece of wood. The elephants spent significantly more time with the ivory and skull than the wood, and more time with elephant skulls than with buffalo or rhino skulls. Matriarchs showed the strongest preference — suggesting older animals hold more of the social memory.",
+      "funFact": "Elephants have been filmed covering the bodies of dead companions with branches and leaves — behavior unique to very few species.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A composite photograph showing three objects laid out on savanna ground — ivory, skull, and wood — with elephants investigating each"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "We don't need their word for it",
+      "body": "We'll probably never know what an elephant feels. But we know what it does: it remembers. It returns. It treats the remains of its own kind differently from any other object on the plain. Whether we call that grief, respect, or something that doesn't fit a human word, it's one of the most human-like things in the animal world.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In the 2005 Amboseli study, which object did elephants examine most?",
+      "options": [
+        "Wooden logs",
+        "Ivory and elephant skulls",
+        "Buffalo skulls",
+        "Rhino skulls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elephants spent significantly more time examining ivory and elephant skulls than wood or the skulls of other species."
+    },
+    {
+      "index": 1,
+      "question": "What makes elephant behavior toward the dead hard to explain by survival instincts alone?",
+      "options": [
+        "They eat the bones",
+        "They ignore all remains",
+        "They respond selectively to their own species and linger even when no food, mate, or threat is involved",
+        "They only respond at night"
+      ],
+      "correctIndex": 2,
+      "explanation": "Their behavior is species-specific and can't be explained by typical drivers like food, fear, or reproduction."
+    },
+    {
+      "index": 2,
+      "question": "Why does the word 'grief' have to be used carefully with animals?",
+      "options": [
+        "It's considered impolite",
+        "Scientists require specific criteria before attributing human emotions",
+        "Animals don't have brains",
+        "Grief isn't a real emotion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thanatology requires careful comparison — behavior must be specific, disruptive, and not reducible to food, fear, or mating."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Behavioural Reactions of Elephants Towards a Dying and Deceased Matriarch",
+      "publisher": "PLOS ONE",
+      "year": 2016
+    },
+    {
+      "title": "African Elephants Show High Levels of Interest in the Skulls and Ivory of Their Own Species",
+      "publisher": "Biology Letters (Royal Society)",
+      "year": 2006
+    }
+  ],
+
+  "related": ["elephant-memory", "animal-cognition", "matriarch-societies"]
+}

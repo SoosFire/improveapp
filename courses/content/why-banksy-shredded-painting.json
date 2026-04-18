@@ -1,0 +1,141 @@
+{
+  "id": "why-banksy-shredded-painting",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Banksy Shredded His Own Painting",
+    "teaser": "Sotheby's slammed the hammer at £1.04 million — and the painting immediately began destroying itself.",
+    "category": "Art",
+    "subcategories": ["Contemporary Art", "Art Market"],
+    "tags": ["banksy", "street art", "auction", "sothebys", "performance"],
+    "emoji": "🎨",
+    "accentColor": "#E63946",
+    "coverSymbol": {
+      "sfSymbol": "scissors",
+      "fallbackEmoji": "✂️"
+    },
+    "coverImagePrompt": "A framed painting of a girl reaching for a red heart balloon, half of the canvas shredded into thin strips dangling below the frame, stunned auction crowd blurred in background, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The hammer fell — then so did the painting",
+      "body": "October 5, 2018. Sotheby's London. A Banksy painting called 'Girl with Balloon' sold for £1.04 million — triple its estimate. Applause rippled through the room. Then a high-pitched beep sounded from inside the frame, and the bottom half of the canvas slid slowly through a hidden shredder in strips. The room went silent. Something unprecedented had just happened live at auction.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "Auction room frozen mid-gasp, red auction hammer still raised, canvas strips visibly descending from frame"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Who is Banksy?",
+      "body": "Banksy is an anonymous British street artist whose identity has been guessed at for 25 years. His stenciled work — rats, monkeys, police officers kissing, a girl reaching for a red heart balloon — appears overnight on walls from Bristol to Bethlehem. He refuses interviews, keeps no gallery, and sells nothing through normal channels. He is possibly the most famous artist in the world whose face no one has seen.",
+      "keyTerms": [
+        { "term": "Stencil art", "definition": "Street art technique using cut templates to spray consistent images quickly" },
+        { "term": "Provenance", "definition": "The documented ownership history of a work of art" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.circle.badge.questionmark",
+        "imagePrompt": "Shadowy silhouette with spray can, hood up, against a brick wall with a half-finished stencil"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The planned destruction",
+      "body": "Banksy later released a video on Instagram revealing he had built the shredder into the frame years earlier, 'in case it was ever put up for auction.' A remote transmitter in the room triggered the blades. But the mechanism jammed halfway through — the painting stopped with the top half intact and the bottom half shredded into even strips. Banksy admitted the original plan was full destruction.",
+      "funFact": "In a follow-up video Banksy posted ironically titled 'Shred the Love,' he showed a rehearsal where the shredder worked perfectly.",
+      "visual": {
+        "sfSymbol": "gearshape.fill",
+        "imagePrompt": "Cross-section illustration of a thick ornate picture frame with hidden shredder blades inside"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Value went up, not down",
+      "body": "Here is the twist that made art-market analysts dizzy: the painting wasn't destroyed — it was reborn. Banksy renamed the shredded version 'Love is in the Bin' and authenticated it as a new work. In October 2021, it sold at Sotheby's again for £18.6 million — 18 times the original price. A piece of art had literally doubled in value by self-destructing on camera.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "Stylized line chart rising sharply after a visual 'shredder' icon, labeled 2018 and 2021"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A critique that became the product",
+      "body": "Banksy has said: 'The urge to destroy is also a creative urge.' The stunt was meant as an attack on the commodification of art — an artist spitting in the face of million-pound auctions. Instead, the art world swallowed the critique whole and resold it. It's either the sharpest piece of contemporary art in a generation, or the ultimate proof of the system Banksy was mocking. Possibly both.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where was 'Girl with Balloon' shredded?",
+      "options": [
+        "Christie's New York",
+        "Sotheby's London",
+        "The Tate Modern",
+        "Bonhams Paris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The stunt took place live at Sotheby's London on October 5, 2018, seconds after the hammer fell."
+    },
+    {
+      "index": 1,
+      "question": "What did Banksy rename the shredded work?",
+      "options": [
+        "Balloon Girl No. 2",
+        "Love is in the Bin",
+        "The Last Stencil",
+        "Auction Day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Banksy authenticated the half-shredded canvas as a new piece titled 'Love is in the Bin.'"
+    },
+    {
+      "index": 2,
+      "question": "What happened to the painting's value after the shredding?",
+      "options": [
+        "It lost most of its worth",
+        "It stayed roughly the same",
+        "It sold for roughly 18x more in 2021",
+        "It was burned afterward"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 2021 the work resold for £18.6 million — about 18 times its pre-shredding price."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Banksy's Shredded Painting: The Story of 'Love is in the Bin'",
+      "publisher": "Sotheby's",
+      "year": 2021
+    },
+    {
+      "title": "Banksy: You Are an Acceptable Level of Threat",
+      "publisher": "Patrick Potter, Carpet Bombing Culture",
+      "year": 2019
+    }
+  ],
+
+  "related": ["warhol-factory", "street-art-history", "contemporary-auction-market"]
+}

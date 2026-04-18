@@ -1,0 +1,144 @@
+{
+  "id": "octopus-eyes-better",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Octopus Eyes Work Better Than Ours",
+    "teaser": "Octopuses are colorblind — and yet they match their skin to a coral reef. Their eyes have a design trick we don't.",
+    "category": "Marine Life",
+    "subcategories": ["Cephalopods", "Vision Science"],
+    "tags": ["octopus", "eyes", "vision", "cephalopods", "evolution"],
+    "emoji": "🐙",
+    "accentColor": "#8C3B6A",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "An extreme macro of an octopus eye with its horizontal slit pupil, iridescent golden iris, rippling caustics of underwater light reflecting across the skin"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Colorblind master mimics",
+      "body": "Octopuses can reshape their skin to match a purple sea fan, a speckled rock, or a swaying piece of algae in under a second. They're some of the best camouflage artists on Earth. The twist: every species tested so far is completely colorblind. Their eyes have only one type of photoreceptor, so in principle they should see the world in grayscale. How do they pick the right color to pretend to be?",
+      "visual": {
+        "sfSymbol": "wand.and.stars",
+        "imagePrompt": "An octopus pressed flat against coral, its skin transforming from one coral pattern to another in a blur of motion"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where our eyes go wrong",
+      "body": "The human retina is famously installed backwards. Our photoreceptors point away from incoming light, so photons have to travel through a layer of blood vessels and nerves before reaching them. Our optic nerve also pokes out through the retina, creating a blind spot your brain constantly fills in. Octopus eyes, which evolved independently from ours, have the retina the 'right' way around — photoreceptors face the light, nerves run behind, no blind spot at all.",
+      "keyTerms": [
+        { "term": "Everted retina", "definition": "A retina with photoreceptors facing the light — the octopus arrangement" },
+        { "term": "Inverted retina", "definition": "The human arrangement, with photoreceptors facing away from the light" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "Two side-by-side diagrams of a human eye and an octopus eye showing the retina wiring reversed between them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The chromatic aberration hack",
+      "body": "Here's the proposed trick. Like any lens, an octopus eye bends different wavelengths of light by slightly different amounts — a property called chromatic aberration. Most animals with color vision work hard to correct for this blur. Octopuses may exploit it. By changing pupil shape and focal depth with a U-shaped, horizontally elongated pupil, they might detect which wavelengths are in focus and infer color from that. Effectively: color through blur, using shape instead of cone cells.",
+      "keyTerms": [
+        { "term": "Chromatic aberration", "definition": "The splitting of wavelengths through a lens, causing different colors to focus at different distances" }
+      ],
+      "visual": {
+        "sfSymbol": "camera.aperture",
+        "imagePrompt": "A sunburst split into rainbow fringes through a magnifying glass, with a cephalopod eye overlaid"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Hunting support for a wild idea",
+      "body": "The chromatic aberration hypothesis was proposed in 2016 by Alexander Stubbs and Christopher Stubbs, a father-son team. They built optical simulations showing that cephalopod pupil shapes — especially the distinctive U-shape — are unusually well suited for exploiting aberration. Behavioral experiments have since shown octopuses adjust their pupils precisely when looking at colored targets, hinting at the mechanism. It's not yet proven, but the math adds up.",
+      "funFact": "Octopuses also have photoreceptors in their skin. Some biologists think they may 'see' color with their bodies, not just their eyes.",
+      "visual": {
+        "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+        "imagePrompt": "A research lab setup with a small octopus in an illuminated tank, colored lights being projected above a computer modeling aberration"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Different solutions, same world",
+      "body": "Evolution doesn't converge on one answer. Vertebrates solved color with multiple photoreceptor types. Octopuses may have solved it — imperfectly, but at no cost to resolution — by exploiting an aberration we treat as a flaw. Their eyes remind us that 'better' depends entirely on what you're trying to do, and that nature has more than one way to see.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What design advantage do octopus eyes have over human eyes?",
+      "options": [
+        "Bigger pupils",
+        "Retina wired the 'right' way around, with no blind spot",
+        "More photoreceptor types",
+        "Self-cleaning tears"
+      ],
+      "correctIndex": 1,
+      "explanation": "Octopus photoreceptors face the incoming light, and their optic nerve doesn't pierce the retina — so there's no blind spot."
+    },
+    {
+      "index": 1,
+      "question": "How might octopuses perceive color despite being colorblind?",
+      "options": [
+        "By using their skin alone",
+        "By exploiting chromatic aberration through pupil shape",
+        "By mimicking nearby fish",
+        "They actually see color using cones"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Stubbs hypothesis suggests that their U-shaped pupils use chromatic aberration — normally a visual flaw — to extract color information."
+    },
+    {
+      "index": 2,
+      "question": "Which statement about octopus photoreceptors is true?",
+      "options": [
+        "They have three types like humans",
+        "They have only one type in the retina",
+        "They don't have any",
+        "They switch types at night"
+      ],
+      "correctIndex": 1,
+      "explanation": "Octopuses have just one opsin type in their retina, which is why they're technically colorblind."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A spectral colour sensing mechanism in cephalopods",
+      "publisher": "PNAS (Stubbs & Stubbs)",
+      "year": 2016
+    },
+    {
+      "title": "Eye evolution: lens and cornea as an upgrade",
+      "publisher": "Current Biology",
+      "year": 2005
+    }
+  ],
+
+  "related": ["cephalopod-camouflage", "color-vision", "convergent-evolution"]
+}

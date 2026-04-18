@@ -1,0 +1,139 @@
+{
+  "id": "comparative-advantage",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Comparative Advantage: Why Countries Trade",
+    "teaser": "Even if one nation can make everything better — it still pays to trade. The 200-year-old reason, in five minutes.",
+    "category": "Economics",
+    "subcategories": ["Trade", "Microeconomics"],
+    "tags": ["trade", "ricardo", "opportunity-cost", "globalization", "economics"],
+    "emoji": "🌐",
+    "accentColor": "#4E7B52",
+    "coverSymbol": {
+      "sfSymbol": "arrow.left.arrow.right.circle.fill",
+      "fallbackEmoji": "🤝"
+    },
+    "coverImagePrompt": "A busy historical port at golden hour with wooden cargo ships unloading barrels of wine and bolts of cloth onto a stone dock, warm cinematic light, oil-painting quality"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The doctor and the gardener",
+      "body": "Imagine a brilliant surgeon who also happens to be the fastest gardener in her neighborhood. Should she mow her own lawn? Even though she's better at it than the kid down the street, every hour spent gardening is an hour not spent in the operating room — where she earns a hundred times more. Hire the kid. That single instinct, scaled up to nations, is comparative advantage.",
+      "visual": {
+        "sfSymbol": "stethoscope",
+        "imagePrompt": "A doctor in scrubs holding gardening shears awkwardly next to a teenager mowing a lawn, sunlit suburban scene, slightly humorous composition"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Ricardo's wine and cloth",
+      "body": "In 1817, economist David Ricardo wrote the canonical example. Portugal could produce both wine and cloth using less labor than England. Yet Ricardo showed that if each country specialized in what it gave up the least to produce — Portugal wine, England cloth — and traded, both ended up with more of each than if they'd tried to be self-sufficient. The key isn't being better; it's being less worse at one thing.",
+      "keyTerms": [
+        { "term": "Opportunity cost", "definition": "What you give up to do something — the next-best thing you could have done instead" },
+        { "term": "Comparative advantage", "definition": "Being able to produce a good at a lower opportunity cost than someone else" }
+      ],
+      "visual": {
+        "sfSymbol": "wineglass.fill",
+        "imagePrompt": "Two vintage ledger pages side by side labelled 'Portugal' and 'England', each showing hours-per-unit of wine and cloth"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it still works even when you're worse at everything",
+      "body": "Here's the counterintuitive bit. Absolute advantage — being better in outright terms — doesn't determine who should specialize. Opportunity cost does. A country absolutely worse at producing both cars and shirts can still profit enormously by specializing in whichever it sacrifices less of to make. Trade turns time and skill into goods more efficiently than self-sufficiency ever can.",
+      "keyTerms": [
+        { "term": "Absolute advantage", "definition": "Being able to produce more of a good using the same resources" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "A stylized scale labeled 'opportunity cost' outweighing another scale labeled 'absolute advantage', editorial flat illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The real-world payoff",
+      "body": "Economists estimate that post-WWII trade liberalization added roughly 8–10% to global GDP by 2000 — roughly a trillion dollars a year, spread unevenly but massively in total. MIT's David Autor has shown trade also causes concentrated job losses in specific regions, which is why the theory alone isn't enough: the gains are real, but so is the need to cushion the people displaced by them.",
+      "funFact": "Ricardo wrote On the Principles of Political Economy while already fabulously wealthy from the London stock exchange — his model was literally written by someone who'd mastered the art of specializing.",
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A world map crisscrossed with glowing shipping routes and rising GDP bars anchored at major ports, clean infographic style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The deeper lesson",
+      "body": "Comparative advantage isn't just about nations. It's why teams divide work, why couples split chores, why specialists exist in your hospital or your startup. The world gets richer — not when everyone is best at everything — but when each of us focuses on what we give up the least to produce, and trades the rest.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which concept lies at the heart of comparative advantage?",
+      "options": [
+        "Absolute productivity",
+        "Opportunity cost",
+        "Labor cost in dollars",
+        "Tariff levels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Comparative advantage is defined by lower opportunity cost, not by being absolutely better or cheaper."
+    },
+    {
+      "index": 1,
+      "question": "Who introduced the classic wine-and-cloth example?",
+      "options": ["Adam Smith", "Karl Marx", "David Ricardo", "John Maynard Keynes"],
+      "correctIndex": 2,
+      "explanation": "David Ricardo laid out the Portugal-England example in his 1817 Principles of Political Economy."
+    },
+    {
+      "index": 2,
+      "question": "Which statement about trade is most consistent with the theory?",
+      "options": [
+        "A country with absolute advantage in everything has no reason to trade",
+        "Even a country worse at everything can gain from trade through specialization",
+        "Trade always makes every individual better off immediately",
+        "Trade only benefits wealthy countries"
+      ],
+      "correctIndex": 1,
+      "explanation": "Specializing where opportunity cost is lower, then trading, can make both partners better off — even when one is absolutely better at everything."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "On the Principles of Political Economy and Taxation",
+      "publisher": "John Murray (David Ricardo)",
+      "year": 1817
+    },
+    {
+      "title": "The China Shock: Learning from Labor Market Adjustment",
+      "publisher": "Annual Review of Economics (Autor, Dorn & Hanson)",
+      "year": 2016
+    }
+  ],
+
+  "related": ["inflation-basics", "moral-hazard", "globalization-explained"]
+}

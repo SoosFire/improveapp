@@ -1,0 +1,144 @@
+{
+  "id": "how-toilets-flush",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How a Toilet Actually Flushes",
+    "teaser": "There's no pump, no motor, no electricity. A flush is just a perfectly timed physics trick you've been performing since you were two.",
+    "category": "Home & DIY",
+    "subcategories": ["Plumbing", "Mechanics"],
+    "tags": ["plumbing", "physics", "siphon", "diy", "home"],
+    "emoji": "🚽",
+    "accentColor": "#4FC3F7",
+    "coverSymbol": {
+      "sfSymbol": "toilet.fill",
+      "fallbackEmoji": "🚽"
+    },
+    "coverImagePrompt": "A stylized cutaway view of a white porcelain toilet showing the S-shaped trap and water swirling down, clean technical illustration with water flow arrows, bright bathroom light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "No moving parts, no motor",
+      "body": "Open the tank on your toilet and look inside. There's no pump. No fan. No plug in the wall. And yet, with one handle push, about 1.6 gallons of water overpower gravity itself — racing up and over a curve in the pipe — and drag whatever's in the bowl down to the sewer. How does a flush happen with nothing electric?",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A photographer's hand opening a ceramic toilet tank lid, revealing the float and flapper inside, sunlight streaming through a bathroom window"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The trapway: a hidden U-turn",
+      "body": "Hidden inside every toilet is an S-shaped or P-shaped pipe called the 'trapway.' It rises up behind the bowl before curving back down to the sewer line. Normally the top of that curve is above the water level in the bowl — so nothing can spill through, and a plug of water at the bottom of the bend keeps sewer gases sealed out.",
+      "keyTerms": [
+        { "term": "Trapway", "definition": "The S- or P-shaped bend behind the toilet bowl that blocks sewer gas and enables the siphon" },
+        { "term": "Weir", "definition": "The high point of the trapway that water must crest to start a flush" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.and.down.righttriangle.up.righttriangle.down",
+        "imagePrompt": "Clean cross-section illustration of a toilet with the S-shaped trapway highlighted, labeled weir and sewer connection"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The magic is a siphon",
+      "body": "Push the handle and the flapper opens, dumping the tank's 1.6 gallons into the bowl very quickly. The water level spikes high enough that water pours over the top of the trapway and races down the far side. That falling column of water creates suction — a siphon — that pulls the rest of the bowl's water up and over the weir behind it. The flushing sound you hear is the siphon running. When enough air breaks into the pipe, the siphon collapses and the flush ends with a gurgle.",
+      "keyTerms": [
+        { "term": "Siphon", "definition": "A continuous flow of water up and over an obstacle, driven by gravity pulling the downhill end" }
+      ],
+      "visual": {
+        "sfSymbol": "water.waves",
+        "imagePrompt": "Time-lapse style illustration showing water level rising, cresting the trapway, then siphoning the bowl empty — three frames"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A 19th-century breakthrough",
+      "body": "Flush toilets had existed for decades when Thomas Crapper helped popularize the siphonic design in 1880s England. The innovation wasn't the toilet itself — it was the reliable siphon, which let a flush happen with a small, precise volume of water instead of a constant stream. The 1994 U.S. Energy Policy Act limited residential toilets to 1.6 gallons per flush, forcing a redesign of the trapway geometry that engineers are still optimizing today.",
+      "funFact": "The gurgle at the end of a flush is actually the siphon 'breaking' — air rushes in and the remaining water falls back, refilling the bowl's seal.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "Sepia-toned illustration of a Victorian-era plumber working on an ornate porcelain toilet, patent diagrams pinned to the wall"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Plumbing is poetry",
+      "body": "A toilet is an engineering sonnet — shape, volume, and timing conspiring to use gravity against itself. Once you see the siphon, weak flushes suddenly make sense. Too little tank water means the trapway never crests, too much clog means the siphon can't pull. Your plunger's real job isn't pushing anything down — it's helping re-establish the siphon.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What physical principle drives a toilet flush?",
+      "options": [
+        "A small electric pump in the tank",
+        "A siphon created by water cresting the trapway",
+        "Air pressure from the supply line",
+        "Gravity alone, with no special trick"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tank dumps water fast enough to crest the trapway, starting a siphon that sucks the bowl empty."
+    },
+    {
+      "index": 1,
+      "question": "What ends the flush?",
+      "options": [
+        "A timed valve closes",
+        "Air enters the trapway and breaks the siphon",
+        "The tank stops refilling",
+        "The flapper seals with suction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once the water level drops and air enters the trapway, the siphon collapses — that's the final gurgle."
+    },
+    {
+      "index": 2,
+      "question": "Why does the bowl always have some water in it after flushing?",
+      "options": [
+        "To help the next flush be heavier",
+        "To seal the trapway and block sewer gases",
+        "To keep the bowl cool",
+        "To stop the tank from overflowing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The water sits in the bottom of the trapway, creating a seal that blocks sewer gas from entering the bathroom."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Engineering of Plumbing Fixtures",
+      "publisher": "ASPE (American Society of Plumbing Engineers)",
+      "year": 2019
+    },
+    {
+      "title": "The Big Necessity: The Unmentionable World of Human Waste",
+      "publisher": "Rose George / Metropolitan Books",
+      "year": 2008
+    }
+  ],
+
+  "related": ["plumbing-basics", "sewer-systems", "low-flow-fixtures"]
+}

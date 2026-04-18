@@ -1,0 +1,136 @@
+{
+  "id": "umami-fifth-taste",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Umami: The Fifth Taste",
+    "teaser": "For most of history, chefs swore there were four tastes. Then a Japanese scientist boiled some seaweed and changed cooking forever.",
+    "category": "Cooking",
+    "subcategories": ["Flavor Science", "Taste"],
+    "tags": ["umami", "taste", "glutamate", "chemistry", "japanese"],
+    "emoji": "🍲",
+    "accentColor": "#8B4513",
+    "coverSymbol": {
+      "sfSymbol": "fork.knife",
+      "fallbackEmoji": "🍜"
+    },
+    "coverImagePrompt": "A steaming bowl of rich mushroom and miso broth, golden light through steam, close-up with shallow focus on translucent umami-rich liquid, cinematic food photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A taste with no name",
+      "body": "Aged parmesan. A ripe tomato. The deep bottom of a beef stock. You know this taste. It's savory, round, mouth-filling. But until about a century ago, Western science didn't even admit it existed. For 2,000 years the official list was sweet, sour, salty, bitter — full stop. Something was missing, and one chemist was determined to find it.",
+      "visual": {
+        "sfSymbol": "tag.fill",
+        "imagePrompt": "Close-up of a shaved parmesan wedge next to a halved tomato, rich warm lighting, almost painterly still life"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The man and the seaweed",
+      "body": "In 1908, Tokyo chemist Kikunae Ikeda was obsessed with a flavor his wife's dashi broth carried — something beyond salt. He boiled kombu seaweed down, crystallized the residue, and isolated a single compound: glutamate. He coined a new word for the taste it carried. 'Umai' means delicious. 'Mi' means essence. Umami.",
+      "keyTerms": [
+        { "term": "Glutamate", "definition": "An amino acid responsible for umami taste" },
+        { "term": "Umami", "definition": "The fifth basic taste, savory and mouth-filling" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Vintage photo-style image of dried kombu seaweed sheets on a wooden tray beside a simmering pot, sepia tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The receptor that took 100 years",
+      "body": "For nearly a century, Western scientists dismissed umami as imagined. Then in 2000, researchers identified a specific receptor on the human tongue — T1R1/T1R3 — that responds only to glutamate and a handful of its chemical cousins. Not salt. Not bitterness. Its own thing, with its own hardware. Umami wasn't just marketing. It was anatomy.",
+      "visual": {
+        "sfSymbol": "mouth.fill",
+        "imagePrompt": "Scientific illustration of a tongue cross-section with glowing receptor cells highlighted in amber"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The synergy superpower",
+      "body": "Umami has a secret trick: certain compounds multiply its intensity. Glutamate alone is satisfying. Pair it with inosinate (from meat and fish) or guanylate (from mushrooms) and the perceived umami can jump eightfold. That's why parmesan on tomato sauce, dashi from seaweed and bonito, or mushroom-and-beef stew taste so much bigger than their parts. Chefs have been exploiting this synergy for centuries without knowing why.",
+      "funFact": "Breast milk is one of the richest natural sources of glutamate humans encounter — which may be why a craving for umami is wired in from birth.",
+      "visual": {
+        "sfSymbol": "multiply.circle.fill",
+        "imagePrompt": "Two glowing molecules meeting and exploding into a larger shimmering cluster, abstract scientific beauty"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Cook with the fifth taste",
+      "body": "You don't need MSG to add umami. Aged cheese, soy sauce, miso, tomato paste, anchovies, dried mushrooms, cured meats, seaweed — all loaded. Mix two umami sources and you get that multiplier effect. Once you notice what's missing from a dish, you stop salting it harder and reach for umami instead. Suddenly, dishes taste 'finished' without being heavier.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who discovered and named umami?",
+      "options": [
+        "Auguste Escoffier",
+        "Kikunae Ikeda",
+        "Ferran Adrià",
+        "Julia Child"
+      ],
+      "correctIndex": 1,
+      "explanation": "Japanese chemist Kikunae Ikeda isolated glutamate from kombu seaweed in 1908 and coined the term umami."
+    },
+    {
+      "index": 1,
+      "question": "Which molecule is most responsible for umami taste?",
+      "options": ["Sucrose", "Citric acid", "Glutamate", "Caffeine"],
+      "correctIndex": 2,
+      "explanation": "Glutamate, an amino acid found in aged cheese, tomatoes, seaweed, and many proteins, is umami's main signal."
+    },
+    {
+      "index": 2,
+      "question": "What's the 'umami synergy' effect?",
+      "options": [
+        "Umami disappears when salt is added",
+        "Glutamate combined with inosinate or guanylate dramatically boosts perceived umami",
+        "It only works in soup",
+        "It makes food less flavorful"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pairing glutamate sources (tomato, cheese) with inosinate (meat) or guanylate (mushroom) multiplies umami intensity."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "New Taste Sensations of Glutamic Acid",
+      "publisher": "Kikunae Ikeda, Journal of the Chemical Society of Tokyo",
+      "year": 1909
+    },
+    {
+      "title": "An amino-acid taste receptor",
+      "publisher": "Nature (Nelson, Chandrashekar, Hoon, et al.)",
+      "year": 2002
+    }
+  ],
+
+  "related": ["why-salt-enhances-flavor", "why-onions-make-you-cry", "maillard-reaction"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "why-plants-are-green",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Plants Are Green",
+    "teaser": "The sun pours out every color — so why do plants throw away the most powerful one?",
+    "category": "Botany",
+    "subcategories": ["Plant Biology", "Photosynthesis"],
+    "tags": ["plants", "chlorophyll", "light", "biology", "evolution"],
+    "emoji": "🌿",
+    "accentColor": "#3E8948",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌱"
+    },
+    "coverImagePrompt": "A single backlit leaf glowing against a golden afternoon sun, veins translucent, light rays streaming through, macro cinematic botanical photography, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The color plants refuse",
+      "body": "Sunlight is a buffet of colors, and green sits near the middle — the brightest, most energy-rich slice of what reaches Earth's surface. Yet plants, which literally eat light for a living, reject it. They bounce it back into our eyes. That's why forests look green: we're seeing the one color plants don't want.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "A prism splitting white sunlight into a rainbow, with the green band being reflected off a leaf while other colors are absorbed"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet chlorophyll",
+      "body": "Inside every leaf live tiny green factories called chloroplasts, packed with a pigment called chlorophyll. Chlorophyll is tuned to absorb red and blue wavelengths — the two ends of the visible spectrum — because those wavelengths kick electrons loose in just the right way to drive photosynthesis.",
+      "keyTerms": [
+        { "term": "Chlorophyll", "definition": "The green pigment that absorbs sunlight to power photosynthesis" },
+        { "term": "Photosynthesis", "definition": "The process of converting light energy into sugar using CO₂ and water" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A microscopic view inside a plant cell showing chloroplasts packed with green chlorophyll molecules"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why skip the brightest light?",
+      "body": "It seems wasteful — green light is the strongest wavelength coming from the sun. But biologists now think early photosynthetic bacteria evolved under purple, sulfur-eating microbes that hogged the green part of the spectrum. The plants' ancestors had to make do with what was left: red and blue. The color of life on Earth is essentially a 3-billion-year-old compromise.",
+      "funFact": "If purple bacteria had gone extinct first, we might be living on a planet of purple forests instead.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "An ancient ocean scene with purple microbial mats covering the seafloor under early sunlight, geological cross-section"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A stability story, not a power story",
+      "body": "A 2020 study in Science argued another reason: absorbing green would actually be unstable. Leaves need steady energy input, not maximum input. By reflecting the noisy, variable green band, plants keep photosynthesis smooth — like a car that deliberately ignores sudden gusts of wind to cruise safely.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A scientific graph showing red and blue light absorption peaks in chlorophyll with green as a reflected valley"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A planet painted by limitation",
+      "body": "Every spring meadow, every forest canopy, every houseplant on your windowsill is the color it is because of what it doesn't use. Green isn't a flag of abundance — it's the echo of an evolutionary trade-off older than animals, older than fish, older than bones.",
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which wavelengths of light does chlorophyll absorb most strongly?",
+      "options": ["Green and yellow", "Red and blue", "Ultraviolet only", "All colors equally"],
+      "correctIndex": 1,
+      "explanation": "Chlorophyll absorbs red and blue wavelengths and reflects green — which is why leaves appear green."
+    },
+    {
+      "index": 1,
+      "question": "According to one theory, why didn't early plants evolve to absorb green light?",
+      "options": [
+        "Green light damages plant cells",
+        "Purple bacteria were already using the green band",
+        "Green light doesn't reach Earth's surface",
+        "Green light is too weak to matter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early photosynthetic organisms like purple bacteria absorbed green light, leaving the ancestors of plants to adapt to red and blue."
+    },
+    {
+      "index": 2,
+      "question": "What benefit does reflecting green light give plants, according to the 2020 Science study?",
+      "options": [
+        "More total energy",
+        "Protection from UV damage",
+        "Stable, less noisy energy input",
+        "Faster growth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rejecting the brightest, noisiest slice of light helps plants maintain a smooth, reliable flow of energy."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Quieting a noisy antenna reproduces photosynthetic light-harvesting spectra",
+      "publisher": "Science",
+      "year": 2020
+    },
+    {
+      "title": "The Purple Earth Hypothesis",
+      "publisher": "International Journal of Astrobiology",
+      "year": 2007
+    }
+  ],
+
+  "related": ["photosynthesis-basics", "why-leaves-turn-red", "purple-bacteria"]
+}

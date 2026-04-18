@@ -1,0 +1,131 @@
+{
+  "id": "atomic-habits-rule",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The 1% Better Rule",
+    "teaser": "Improve by 1% a day for a year and you end up 37 times better. The math is almost unfair.",
+    "category": "Self-improvement",
+    "subcategories": ["Habits", "Productivity"],
+    "tags": ["habits", "compounding", "self-improvement", "atomic-habits", "discipline"],
+    "emoji": "📈",
+    "accentColor": "#5D8CAE",
+    "coverSymbol": {
+      "sfSymbol": "arrow.up.right.circle.fill",
+      "fallbackEmoji": "📈"
+    },
+    "coverImagePrompt": "A staircase of tiny identical steps climbing up out of morning fog into bright blue sky, painterly, cinematic, motivational yet restrained"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The quiet arithmetic of tiny gains",
+      "body": "Here's a line that looks like motivational poster junk until you do the math: if you get 1% better every day for a year, you end up roughly 37 times better. 1.01 raised to the 365th power is 37.78. That's not a metaphor. That's just compounding — the same force that makes small savings turn into retirements.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A gently curving exponential line rising from lower left to upper right across a grid, minimal, elegant"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What James Clear called 'atomic habits'",
+      "body": "In his 2018 book, writer James Clear borrowed a metaphor from physics. An atom is tiny, but also a source of enormous energy. An 'atomic' habit is small enough to do on a bad day, but repeated often enough to reshape who you become. The point is identity, not effort.",
+      "keyTerms": [
+        { "term": "Atomic habit", "definition": "A very small, routine behavior that compounds into significant change over time" },
+        { "term": "Compounding", "definition": "Growth where each gain itself generates further gain, producing exponential curves" }
+      ],
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A glowing atom symbol orbited by small daily-life icons: a book, sneakers, a water glass, a notebook"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why small beats ambitious",
+      "body": "Big resolutions fail because they rely on motivation, which is finite. Tiny habits survive because they slip under the radar of resistance. Two pushups. One page. One honest sentence in a journal. The goal isn't the two pushups — it's proving to yourself that you are the kind of person who shows up, so that tomorrow doesn't start from zero.",
+      "visual": {
+        "sfSymbol": "repeat.circle.fill",
+        "imagePrompt": "A warm flat illustration of a single checkmark on a calendar, repeated across a grid of days"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The British cycling experiment",
+      "body": "Clear's favorite case study: in 2003, coach Dave Brailsford took over British Cycling, a team that had won just one Olympic gold in 76 years. He obsessed over 1% improvements — better massage gels, warmer overshorts, the exact pillow each rider slept on. By 2012, British riders had won 70% of available gold medals at the London Olympics. No single change did it. All of them, together, did.",
+      "funFact": "Brailsford even had the team's truck painted white inside, so any speck of dust affecting bike performance would be immediately visible.",
+      "visual": {
+        "sfSymbol": "bicycle",
+        "imagePrompt": "A velodrome cyclist mid-sprint, motion blur on the wheels, spotlighted against a dark crowd"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Cast a vote for who you're becoming",
+      "body": "Forget the annual goal for a second. Every small habit is a vote for an identity: 'I'm the kind of person who reads,' 'who trains,' 'who writes.' You don't need a majority of votes right away. You just need to win today's election. Do that often enough and the curve does the rest.",
+      "visual": {
+        "sfSymbol": "checkmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "If you improve 1% each day, how many times better are you after a year?",
+      "options": ["About 3.6x", "About 10x", "About 37x", "About 365x"],
+      "correctIndex": 2,
+      "explanation": "1.01 to the 365th power equals roughly 37.78 — the arithmetic of compounding."
+    },
+    {
+      "index": 1,
+      "question": "Who wrote 'Atomic Habits'?",
+      "options": ["Charles Duhigg", "James Clear", "BJ Fogg", "Cal Newport"],
+      "correctIndex": 1,
+      "explanation": "James Clear published 'Atomic Habits' in 2018, popularizing the 1% better framing."
+    },
+    {
+      "index": 2,
+      "question": "According to Clear, the most durable driver of habit change is:",
+      "options": [
+        "Motivation",
+        "Willpower",
+        "Identity",
+        "Accountability partners"
+      ],
+      "correctIndex": 2,
+      "explanation": "Clear argues that habits stick when they reinforce who you believe you are — not through raw motivation."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "publisher": "James Clear, Avery",
+      "year": 2018
+    },
+    {
+      "title": "How 1% Performance Improvements Led to Olympic Gold",
+      "publisher": "Harvard Business Review",
+      "year": 2015
+    }
+  ],
+
+  "related": ["ikigai", "keystone-habits", "habit-loops"]
+}

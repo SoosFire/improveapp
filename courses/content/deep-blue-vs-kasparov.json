@@ -1,0 +1,136 @@
+{
+  "id": "deep-blue-vs-kasparov",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "When a Computer Beat the World Champion",
+    "teaser": "On May 11, 1997, a 1.4-ton IBM machine did something no silicon had ever done before: it beat the best human on Earth.",
+    "category": "Chess",
+    "subcategories": ["Chess History", "Computer Chess"],
+    "tags": ["chess", "ai", "deep-blue", "kasparov", "history"],
+    "emoji": "🤖",
+    "accentColor": "#1F3A68",
+    "coverSymbol": {
+      "sfSymbol": "cpu.fill",
+      "fallbackEmoji": "🤖"
+    },
+    "coverImagePrompt": "A tense 1997 chess scene: Garry Kasparov hunched over a board with IBM's Deep Blue cabinet looming behind him, cool blue light, grainy cinematic realism"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The match the world watched",
+      "body": "On May 11, 1997, in a Manhattan office building, Garry Kasparov — the highest-rated chess player in history — tipped over his king, stood up, and stormed off stage. He had just lost game 6 to a computer. It was the first time a reigning world champion had ever lost a classical match to a machine. The internet, still in its infancy, crashed under the traffic. Chess, and silicon, were never quite the same.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A 1997 newspaper front page announcing Deep Blue's victory, slightly faded paper, grainy film grain"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What Deep Blue actually was",
+      "body": "Deep Blue wasn't a thinking machine. It was a purpose-built chess monster — an IBM RS/6000 SP supercomputer with 30 PowerPC nodes and 480 custom chess chips that together evaluated about 200 million positions per second. Kasparov, by contrast, calculated perhaps 2 or 3 positions per second, but with the judgment of a grandmaster mind refined over 20 years.",
+      "keyTerms": [
+        { "term": "Evaluation function", "definition": "The scoring system a chess engine uses to rate a given position" },
+        { "term": "Minimax search", "definition": "The algorithm engines use to look ahead by assuming both sides play the best move available" }
+      ],
+      "visual": {
+        "sfSymbol": "server.rack",
+        "imagePrompt": "IBM's Deep Blue — two tall black server cabinets in a bright computer lab, cables streaming"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the rematch played out",
+      "body": "Kasparov had actually beaten an earlier version of Deep Blue 4–2 in 1996, but IBM rebuilt the machine with nearly double its speed and brought it back for a 6-game rematch. Kasparov won game 1 crushingly. Game 2 flipped: Deep Blue played a quiet, positional move — 36.axb5 — so un-computer-like that Kasparov later accused IBM of human intervention. Rattled, he resigned game 2 in a position modern engines have since shown was actually drawable. Games 3, 4, and 5 were drawn. Game 6 was over in 19 moves.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A dramatic chess board showing the key quiet move from game 2, arrows highlighting the surprising positional idea"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A myth, decoded",
+      "body": "Years later, Deep Blue's designers revealed the truth about move 44 from game 1 — a strange move that had frightened Kasparov into believing the machine was brilliant. It was actually a bug. Deep Blue couldn't pick a move and chose randomly. Kasparov, convinced he was facing a genius, changed his strategy in game 2 and started playing defensively — ultimately to his undoing. The greatest psychological lever in Deep Blue's game was an accident.",
+      "funFact": "IBM's stock jumped about 15% after the match, adding billions of dollars in market value.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "A close-up on a glowing computer screen showing an error message and a chess position"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The end of one era, the start of another",
+      "body": "After Deep Blue, chess changed forever. Engines became the coaches, the analysts, the training sparring partners. By 2017, a successor idea — AlphaZero — learned chess from scratch in 4 hours and surpassed every hand-crafted engine. Humans no longer beat computers at chess. Instead, we collaborate with them. The 1997 match wasn't just about a game. It was the moment machines stopped imitating us and started teaching us.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Approximately how many positions per second could Deep Blue evaluate?",
+      "options": ["2 million", "20 million", "200 million", "2 billion"],
+      "correctIndex": 2,
+      "explanation": "Deep Blue's custom hardware could search roughly 200 million positions per second — vastly faster than any human."
+    },
+    {
+      "index": 1,
+      "question": "What happened in the 1996 match between Kasparov and an earlier Deep Blue?",
+      "options": [
+        "Deep Blue won 3.5–2.5",
+        "Kasparov won 4–2",
+        "The match ended in a tie",
+        "The match was never played"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kasparov won 4–2 in 1996, but IBM upgraded the machine and returned for the famous 1997 rematch."
+    },
+    {
+      "index": 2,
+      "question": "What was actually behind Deep Blue's unsettling move 44 in game 1 of the 1997 rematch?",
+      "options": [
+        "A deep positional plan by IBM engineers",
+        "A hidden grandmaster in the room",
+        "A software bug that caused a random move",
+        "The machine's neural network"
+      ],
+      "correctIndex": 2,
+      "explanation": "Deep Blue's engineers later revealed that the eerie move was caused by a bug — Kasparov simply read more into it than was there."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Deep Blue",
+      "publisher": "Artificial Intelligence Journal",
+      "year": 2002
+    },
+    {
+      "title": "Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins",
+      "publisher": "PublicAffairs (Garry Kasparov)",
+      "year": 2017
+    }
+  ],
+
+  "related": ["alphazero", "computer-chess-history", "kasparov-career"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "crispr-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "CRISPR: The Gene Editing Revolution",
+    "teaser": "Bacteria have been fighting viruses for 3 billion years. In 2012, we realized their weapon could rewrite human DNA.",
+    "category": "Genetics",
+    "subcategories": ["Biotechnology", "Molecular Biology"],
+    "tags": ["crispr", "gene-editing", "dna", "biotech", "cas9"],
+    "emoji": "🧬",
+    "accentColor": "#2B8C8A",
+    "coverSymbol": {
+      "sfSymbol": "scissors",
+      "fallbackEmoji": "✂️"
+    },
+    "coverImagePrompt": "A glowing DNA helix with a pair of precise molecular scissors snipping a single rung, laboratory blue background, cinematic scientific visualization"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A bacterial immune system, stolen",
+      "body": "In the 1990s, a Spanish grad student named Francisco Mojica noticed strange repeating patterns in bacterial DNA. Nobody cared. He kept looking. By 2005 he realized those repeats held snippets of viruses — bacterial memories of past infections. He'd discovered an immune system older than most of the animal kingdom. Seven years later, biologists turned it into the sharpest tool biology has ever held.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A scientist peering into a microscope in a dimly lit lab, glowing DNA diagrams on screens around him, moody photograph"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What CRISPR actually is",
+      "body": "CRISPR stands for 'Clustered Regularly Interspaced Short Palindromic Repeats' — bacterial DNA that files away fragments of attackers. When the same virus returns, the bacterium's Cas9 protein uses the filed snippet as a wanted poster. It scans DNA until it finds the match, then cuts. You've just described a programmable, precision pair of molecular scissors.",
+      "keyTerms": [
+        { "term": "Cas9", "definition": "A protein that cuts DNA at a location specified by a matching RNA guide" },
+        { "term": "Guide RNA", "definition": "A short RNA sequence that directs Cas9 to the exact target DNA" }
+      ],
+      "visual": {
+        "sfSymbol": "target",
+        "imagePrompt": "A 3D molecular model of Cas9 protein wrapped around a double helix with a glowing guide RNA strand, educational infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it's such a leap",
+      "body": "Before CRISPR, editing a single gene could take years and millions of dollars. After CRISPR, a grad student could do it in a week for the cost of pizza. Design a 20-letter RNA guide, attach it to Cas9, deliver it into a cell, and it finds and cuts your target. The cell's own repair machinery then does the rest — sometimes stitching the gene closed, sometimes letting you paste in a replacement.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "Split-screen comparison: a complicated old-school gene editing lab vs. a simple benchtop setup with a single tube labeled CRISPR"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From lab to human",
+      "body": "In 2023, the FDA approved Casgevy — a CRISPR therapy that edits a patient's own stem cells to cure sickle cell disease. It's the first CRISPR medicine ever. Clinical trials are underway for blindness, heart disease, and cancer. In 2020, Jennifer Doudna and Emmanuelle Charpentier won the Nobel Prize for the technique — the first Nobel in chemistry awarded to two women.",
+      "funFact": "The approved sickle cell therapy reactivates a gene from fetal development — essentially switching a patient's red blood cells back to a baby-style hemoglobin that bypasses the broken one.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "A nurse administering an IV while a glowing strand of edited DNA floats above the patient in visualization overlay, hopeful mood"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A tool, not a miracle",
+      "body": "CRISPR isn't perfect — off-target cuts happen, ethics run ahead of regulation, and heritable edits remain deeply controversial. But it's already moving from curing individual patients toward rewriting crops, mosquitos, and perhaps someday disease before birth. We're the first generation in history whose kids could grow up treating genetic diseases like we treat cavities.",
+      "visual": {
+        "sfSymbol": "wand.and.stars",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where was CRISPR originally discovered?",
+      "options": [
+        "In human stem cells",
+        "In plant chloroplasts",
+        "In bacteria as an immune system",
+        "In viral genomes"
+      ],
+      "correctIndex": 2,
+      "explanation": "CRISPR is a bacterial defense system — bacteria store viral DNA snippets to recognize future invaders."
+    },
+    {
+      "index": 1,
+      "question": "What does Cas9 do?",
+      "options": [
+        "It copies DNA",
+        "It cuts DNA at a specific location guided by RNA",
+        "It folds proteins",
+        "It repairs broken chromosomes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cas9 is the enzyme that cuts DNA, directed by a matching guide RNA sequence."
+    },
+    {
+      "index": 2,
+      "question": "Which condition received the first FDA-approved CRISPR therapy?",
+      "options": ["Type 1 diabetes", "Sickle cell disease", "Cystic fibrosis", "Huntington's disease"],
+      "correctIndex": 1,
+      "explanation": "Casgevy, approved in 2023, treats sickle cell disease by editing a patient's own stem cells."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A programmable dual-RNA-guided DNA endonuclease in adaptive bacterial immunity",
+      "publisher": "Science",
+      "year": 2012
+    },
+    {
+      "title": "FDA Approves First Gene Therapies to Treat Sickle Cell Disease",
+      "publisher": "U.S. Food and Drug Administration",
+      "year": 2023
+    }
+  ],
+
+  "related": ["mitochondrial-eve", "gene-therapy", "synthetic-biology"]
+}

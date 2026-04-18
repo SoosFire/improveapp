@@ -1,0 +1,136 @@
+{
+  "id": "why-time-zones-weird",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Time Zones Are So Weird",
+    "teaser": "Why is all of China one time zone — and Nepal 45 minutes off from everyone?",
+    "category": "Geography",
+    "subcategories": ["Timekeeping", "World Geography"],
+    "tags": ["time", "clocks", "geography", "trains"],
+    "emoji": "🕐",
+    "accentColor": "#5FA8D3",
+    "coverSymbol": {
+      "sfSymbol": "clock.fill",
+      "fallbackEmoji": "🕐"
+    },
+    "coverImagePrompt": "A vintage world map overlaid with twisted, irregular time zone boundaries and clock faces at different hours scattered across continents, cinematic and chaotic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Two cities, same longitude, different days",
+      "body": "It's noon in Kashgar, in western China. 3,200 kilometers east in Shanghai, it's also noon — same time, by law. But Kashgar is closer to Tehran's longitude than Beijing's, so the sun there actually peaks around 3 p.m. Meanwhile, Nepal sets its clocks 5 hours and 45 minutes ahead of UTC — a deliberately odd offset that puts it 15 minutes away from India. Time, it turns out, is political.",
+      "visual": {
+        "sfSymbol": "globe.asia.australia.fill",
+        "imagePrompt": "A stylized world map showing China as a single color despite spanning multiple sun-angles, with small clock faces pinned to major cities"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Before time zones, chaos",
+      "body": "Until the 1800s, every town set its clocks by local noon — whenever the sun hit its highest point. Boston's noon was 12 minutes behind New York's. A single U.S. train trip could cross 100+ different 'times.' Railroads couldn't publish workable schedules, and head-on collisions happened because conductors disagreed about what time it was. Clocks weren't broken — the world just hadn't agreed to synchronize.",
+      "keyTerms": [
+        { "term": "Solar time", "definition": "The time measured by the actual position of the sun overhead" },
+        { "term": "Standard time", "definition": "An agreed-upon time shared across a region, independent of local solar noon" }
+      ],
+      "visual": {
+        "sfSymbol": "tram.fill",
+        "imagePrompt": "A 19th-century steam train station with a wall covered in dozens of clocks, each showing a different time, sepia tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How we carved up the planet",
+      "body": "In 1884, delegates from 25 nations met at the International Meridian Conference in Washington, D.C. They picked the observatory in Greenwich, England as longitude zero and divided the globe into 24 one-hour zones, each 15° wide. Neat in theory. In practice, countries drew their own zone lines along borders, mountain ranges, and political alliances — which is why the map looks nothing like clean vertical stripes.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A map of the world from 1884 with idealized 15-degree time zone stripes, annotated in fine pen"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The weirdest zones on Earth",
+      "body": "China spans 5 solar time zones but uses only one — Beijing Time — a 1949 Mao-era decision meant to symbolize national unity. India sits on a single 30-minute offset (UTC+5:30). Nepal offsets by 5:45 specifically to differentiate from India. Venezuela moved to UTC−4:30 in 2007 purely for Hugo Chávez's political signaling, then reverted in 2016. And some Antarctic research stations technically share a time zone with their supply country, not their longitude.",
+      "funFact": "The line dividing Kiribati's time zones was redrawn in 1994 so the whole country could celebrate the year 2000 first — moving the International Date Line by thousands of miles.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A close-up map of the strange international date line zigzagging through the Pacific Ocean, annotated"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Time is a story we tell",
+      "body": "The hour on your phone isn't measured from the sun — it's voted on by governments. Every border, offset, and daylight-saving rule is a human decision, often political, sometimes arbitrary, occasionally petty. The clock is one of civilization's most underrated diplomatic achievements. It also means if you ever feel jet-lagged, you're not confused — you're just out of sync with a political agreement.",
+      "visual": {
+        "sfSymbol": "clock.arrow.2.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many official time zones does China use?",
+      "options": ["1", "3", "5", "8"],
+      "correctIndex": 0,
+      "explanation": "Despite spanning roughly 5 solar hours of sunlight, China has used a single time zone (Beijing Time) since 1949."
+    },
+    {
+      "index": 1,
+      "question": "What 1884 event established the modern world time zone system?",
+      "options": [
+        "The Paris Peace Conference",
+        "The International Meridian Conference in Washington D.C.",
+        "The Treaty of Versailles",
+        "The Berlin Observatory Accord"
+      ],
+      "correctIndex": 1,
+      "explanation": "25 nations agreed on Greenwich as longitude zero and 24 one-hour zones."
+    },
+    {
+      "index": 2,
+      "question": "Why does Nepal use the unusual offset of UTC+5:45?",
+      "options": [
+        "To align with solar noon in Kathmandu",
+        "Because of a historical clock-making error",
+        "Specifically to be different from India's UTC+5:30",
+        "To match Chinese rail schedules"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nepal chose a 15-minute offset from India as a deliberate mark of independence."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The International Meridian Conference",
+      "publisher": "U.S. Government Printing Office",
+      "year": 1884
+    },
+    {
+      "title": "Time Lord: Sir Sandford Fleming and the Creation of Standard Time",
+      "publisher": "Arcade Publishing",
+      "year": 2001
+    }
+  ],
+
+  "related": ["daylight-saving-time", "greenwich-meridian", "international-date-line"]
+}

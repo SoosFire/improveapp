@@ -1,0 +1,137 @@
+{
+  "id": "gobekli-tepe",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Göbekli Tepe: The Oldest Temple",
+    "teaser": "Hunter-gatherers built a stone temple 6,000 years before the pyramids — then buried it on purpose.",
+    "category": "Archaeology",
+    "subcategories": ["Prehistoric Archaeology", "Neolithic"],
+    "tags": ["gobekli-tepe", "neolithic", "turkey", "prehistoric", "temples"],
+    "emoji": "🗿",
+    "accentColor": "#A05A2C",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🗿"
+    },
+    "coverImagePrompt": "A massive T-shaped limestone pillar carved with animals standing in a circular stone enclosure at sunset, Anatolian hilltop, cinematic, mysterious"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A site that rewrote human history",
+      "body": "Until the 1990s, every archaeology textbook said the same thing: humans first settled into villages, invented farming, and only then — once they had stable food supplies — built temples. Then a German archaeologist named Klaus Schmidt dug into a Turkish hilltop and found a 11,600-year-old stone temple. Older than farming. Older than pottery. Older than writing. Built by hunter-gatherers. The story of civilization had been backwards.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "An archaeological excavation pit at golden hour, T-shaped limestone pillars half-emerged from red earth, figures in sunhats working carefully"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What's actually up there",
+      "body": "Göbekli Tepe — Turkish for 'Potbelly Hill' — sits in southeastern Turkey near Şanlıurfa. It contains at least 20 circular stone enclosures, each ringed by massive T-shaped limestone pillars up to 18 feet tall and weighing over 10 tons. The pillars are carved with lions, snakes, scorpions, foxes, and vultures. Some have stylized human arms and belts — they seem to represent beings, not just decoration.",
+      "keyTerms": [
+        { "term": "Neolithic", "definition": "The 'New Stone Age,' roughly 10,000–4,500 BCE, when humans began settling down" },
+        { "term": "T-pillar", "definition": "Göbekli Tepe's signature monoliths — carved stones shaped like giant Ts" }
+      ],
+      "visual": {
+        "sfSymbol": "pyramid.fill",
+        "imagePrompt": "Aerial drone shot of multiple circular stone enclosures with T-shaped pillars, arid Anatolian hilltop, dramatic shadows at low sun"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Who built it, and how",
+      "body": "Whoever built Göbekli Tepe had no metal tools, no wheels, no draft animals, and — crucially — no farms. They were hunter-gatherers. Moving a 10-ton limestone pillar across rough terrain would have required hundreds of people cooperating for days. Schmidt's revolutionary argument: the temple came first. The need to feed the workers may have driven people to invent agriculture — not the other way around. Wild einkorn wheat, an ancestor of domestic wheat, was genetically traced to a mountain only 20 miles away.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "Prehistoric workers hauling a massive T-shaped stone pillar with ropes and log rollers, sunset dust, cinematic scene"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The deliberate burial",
+      "body": "Perhaps the strangest thing about Göbekli Tepe is that around 8,000 BCE — roughly 1,500 years after it was built — someone filled the entire site with dirt and rubble. Intentionally. Enclosure by enclosure. It wasn't abandoned or collapsed; it was carefully entombed. That burial is actually why it survived so well. Radiocarbon dating of the backfill and the lowest floors gave us the age. Excavations began in 1995 and continue today — researchers estimate only about 5% of the site has been uncovered.",
+      "funFact": "One pillar — Pillar 43, the 'Vulture Stone' — shows a headless man beside carved animals. Some researchers have argued it records a comet impact around 10,900 BCE. Most archaeologists are skeptical, but the debate continues."
+      ,
+      "visual": {
+        "sfSymbol": "shovel.fill",
+        "imagePrompt": "Close-up of a carved stone pillar showing a vulture, scorpion, and snake, earth being gently brushed away by an archaeologist's tool"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still matters",
+      "body": "Göbekli Tepe forces us to rethink what 'primitive' means. Hunter-gatherers — people often imagined as simple and hand-to-mouth — organized massive religious architecture over a thousand years before the first city. The site suggests belief and ritual may have driven civilization, not the other way around. It also reminds us how much of the human story is still literally buried. We're roughly 5% into a find that's already 11,600 years in the making.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Approximately how old is Göbekli Tepe?",
+      "options": ["About 5,000 years", "About 8,000 years", "About 11,600 years", "About 20,000 years"],
+      "correctIndex": 2,
+      "explanation": "Radiocarbon dating places the oldest layers of Göbekli Tepe at roughly 11,600 years old — predating agriculture."
+    },
+    {
+      "index": 1,
+      "question": "Why is Göbekli Tepe so revolutionary to archaeology?",
+      "options": [
+        "It's the first site with written records",
+        "It was built by hunter-gatherers before farming existed, overturning the old 'farming first' story",
+        "It contains the earliest known gold artifacts",
+        "It proves Neanderthals built temples"
+      ],
+      "correctIndex": 1,
+      "explanation": "It shows monumental architecture predates agriculture, upending the old theory that farming came first."
+    },
+    {
+      "index": 2,
+      "question": "What happened to Göbekli Tepe around 8,000 BCE?",
+      "options": [
+        "It was destroyed in a war",
+        "It was gradually abandoned",
+        "It was deliberately buried under rubble",
+        "It was hit by a meteorite"
+      ],
+      "correctIndex": 2,
+      "explanation": "The site was intentionally and carefully buried, which is why it survived so well to be discovered in the 1990s."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia",
+      "publisher": "ex Oriente (Klaus Schmidt)",
+      "year": 2012
+    },
+    {
+      "title": "The World's First Temple",
+      "publisher": "Archaeology Magazine",
+      "year": 2008
+    }
+  ],
+
+  "related": ["egyptian-afterlife", "rosetta-stone", "neolithic-revolution"]
+}

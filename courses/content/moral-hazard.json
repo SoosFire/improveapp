@@ -1,0 +1,145 @@
+{
+  "id": "moral-hazard",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Moral Hazard",
+    "teaser": "Why do people drive more recklessly in rental cars? The answer explains bank bailouts, too.",
+    "category": "Economics",
+    "subcategories": ["Behavioral Economics", "Insurance"],
+    "tags": ["moral-hazard", "insurance", "incentives", "bailouts", "risk"],
+    "emoji": "🎲",
+    "accentColor": "#8A4F7D",
+    "coverSymbol": {
+      "sfSymbol": "exclamationmark.triangle.fill",
+      "fallbackEmoji": "⚠️"
+    },
+    "coverImagePrompt": "A shiny rental car with a small scratch being shrugged off by a driver tossing keys, harsh afternoon sunlight, editorial photojournalism style"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The rental-car shrug",
+      "body": "Most of us drive a rental car a little less carefully than our own. Full insurance means a fender-bender doesn't cost us — so we parallel park aggressively and take that shortcut through a narrow alley. That quiet shift in behavior, once you're protected from a bad outcome, is moral hazard. It shows up in everyday life, in billion-dollar bank policy, and in pretty much every insurance contract ever written.",
+      "visual": {
+        "sfSymbol": "car.fill",
+        "imagePrompt": "A driver taking a tight corner in a rental car, insurance sticker visible on windshield, late afternoon light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Hidden after the handshake",
+      "body": "Economists define moral hazard as the tendency of one party to take on more risk because another party bears the cost. It's one of two classic problems of asymmetric information. Unlike adverse selection — where one party knows more before the deal — moral hazard happens after the contract is signed, when one side's actions become harder to monitor.",
+      "keyTerms": [
+        { "term": "Moral hazard", "definition": "When insurance or protection makes someone take more risk than they otherwise would" },
+        { "term": "Asymmetric information", "definition": "When one party in a deal knows more, or acts more freely, than the other" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "Two silhouetted hands shaking over a contract, with a blurred risky act unfolding behind one figure"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The standard fixes",
+      "body": "You can't abolish moral hazard, but you can blunt it. Insurers require deductibles and copays — so you still feel some of the cost. Employers offer profit-sharing so workers still care about outcomes. Banks face capital requirements. In each case, the idea is the same: keep 'skin in the game' so incentives stay aligned even when watching closely is impossible.",
+      "keyTerms": [
+        { "term": "Deductible", "definition": "The amount the insured pays out-of-pocket before insurance kicks in" },
+        { "term": "Skin in the game", "definition": "Personal exposure to the risk of your own decisions" }
+      ],
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "A hand placing a small stack of coins next to a towering insurance policy, symbolic flat illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Too big to fail",
+      "body": "In 2008, global banks took on extraordinary leverage partly because an implicit rule had settled in: if they blew up, governments would rescue them to protect the financial system. Economists call this the 'too big to fail' problem, and it's moral hazard writ large. A 2014 IMF study estimated that implicit government backing gave the world's largest banks a funding subsidy of roughly $70 billion a year — a direct price tag on moral hazard.",
+      "funFact": "The phrase 'moral hazard' originated with 17th-century British fire insurers, who noticed that insured warehouses burned down suspiciously often.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A dramatic wide-angle shot of a Wall Street bank building at dusk, glowing windows, brooding stormy sky"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Design the incentives",
+      "body": "If you're ever sketching a policy, a contract, or a product, ask: once this is in place, whose behavior will it quietly change? Every safety net bends incentives. The goal isn't to remove the net — it's to design one that catches people without teaching them to jump harder.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is moral hazard?",
+      "options": [
+        "Lying on an insurance application",
+        "Taking more risk because someone else bears the cost",
+        "Choosing between two unethical options",
+        "Charging higher interest rates to risky borrowers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moral hazard is the behavioral shift toward more risk when another party absorbs the downside."
+    },
+    {
+      "index": 1,
+      "question": "How does moral hazard differ from adverse selection?",
+      "options": [
+        "Moral hazard happens before a contract; adverse selection happens after",
+        "Moral hazard happens after a contract; adverse selection happens before",
+        "They are the same concept",
+        "Neither involves information asymmetry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Adverse selection is about hidden information before signing; moral hazard is about hidden actions after signing."
+    },
+    {
+      "index": 2,
+      "question": "Which mechanism is typically used to reduce moral hazard in insurance?",
+      "options": [
+        "Raising premiums for everyone equally",
+        "Adding deductibles and copays",
+        "Removing all coverage",
+        "Hiding the contract terms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deductibles and copays keep the insured with 'skin in the game' so they still have reason to avoid risk."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Moral Hazard in Health Insurance",
+      "publisher": "Columbia University Press (Arrow et al.)",
+      "year": 2014
+    },
+    {
+      "title": "Global Financial Stability Report: How Big Is the Implicit Subsidy for Banks Considered Too Important to Fail?",
+      "publisher": "International Monetary Fund",
+      "year": 2014
+    }
+  ],
+
+  "related": ["inflation-basics", "comparative-advantage", "adverse-selection"]
+}

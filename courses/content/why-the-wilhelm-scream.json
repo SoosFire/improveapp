@@ -1,0 +1,126 @@
+{
+  "id": "why-the-wilhelm-scream",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Wilhelm Scream: Hollywood's Inside Joke",
+    "teaser": "The same six-second scream has been used in over 400 movies. Once you hear it, you'll hear it forever.",
+    "category": "Film & Cinema",
+    "subcategories": ["Sound Design", "Film History"],
+    "tags": ["sound", "easter-egg", "hollywood", "foley", "trivia"],
+    "emoji": "🔊",
+    "accentColor": "#8E3B46",
+    "coverSymbol": {
+      "sfSymbol": "waveform",
+      "fallbackEmoji": "📣"
+    },
+    "coverImagePrompt": "A vintage microphone suspended in a dim recording booth, soundwave patterns glowing in the background, warm vignette, cinematic and nostalgic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "One scream, four hundred films",
+      "body": "A stormtrooper falls off a ledge in Star Wars. An orc gets flung in Lord of the Rings. A cowboy tumbles off a cliff in a 1950s Western. They all scream the exact same scream. Not similar — identical. Same recording, same six seconds, same man yelling from beyond the grave.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A waveform stretched across a black screen, spiking dramatically, cinematic red-and-white"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Born in a 1951 Western",
+      "body": "The scream was first recorded for 'Distant Drums' in 1951 — a scene where a soldier is bitten by an alligator in a swamp. Two years later, Warner Bros. used it again for a character named Private Wilhelm in 'The Charge at Feather River.' Sound editors noticed, grabbed the tape from the studio library, and the joke was born.",
+      "keyTerms": [
+        { "term": "Foley library", "definition": "A studio's archive of reusable sound effects, from footsteps to screams" },
+        { "term": "Stock sound effect", "definition": "A pre-recorded sound reused across multiple films" }
+      ],
+      "visual": {
+        "sfSymbol": "film.stack",
+        "imagePrompt": "A dusty reel-to-reel tape machine with film canisters labeled 'SFX LIBRARY 1951', sepia tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The Ben Burtt connection",
+      "body": "Sound designer Ben Burtt — the man behind R2-D2's beeps and Darth Vader's breathing — tracked down the original tape in the 1970s while working on Star Wars. He slipped it into a scene where Luke shoots a stormtrooper off a platform. Burtt named it the 'Wilhelm Scream' after Private Wilhelm, and from then on used it as his personal signature in every film he touched.",
+      "funFact": "The voice is widely believed to belong to singing cowboy Sheb Wooley, who recorded screams for 'Distant Drums' in the same session he wrote his hit song 'Purple People Eater.'",
+      "visual": {
+        "sfSymbol": "person.wave.2.fill",
+        "imagePrompt": "A silhouette of a sound engineer at a mixing desk in the 1970s, glowing VU meters, studio low-light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "An inside joke that went pro",
+      "body": "What started as a sound editor's prank became a shared Hollywood handshake — sneaking the same scream into Indiana Jones, Toy Story, Reservoir Dogs, and dozens more. Some modern directors now avoid it, saying it's too recognizable to take the audience seriously. But once you know the scream, you can't unhear it. Listen for it.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In which film was the Wilhelm Scream originally recorded?",
+      "options": ["Star Wars", "Distant Drums", "The Charge at Feather River", "Citizen Kane"],
+      "correctIndex": 1,
+      "explanation": "It was first recorded in 1951 for 'Distant Drums' — for a scene with an alligator attack."
+    },
+    {
+      "index": 1,
+      "question": "Who is most responsible for making the scream famous?",
+      "options": [
+        "George Lucas",
+        "Ben Burtt",
+        "Steven Spielberg",
+        "Quentin Tarantino"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sound designer Ben Burtt rediscovered the tape and used it as a signature in Star Wars and many other films."
+    },
+    {
+      "index": 2,
+      "question": "Who is widely believed to have provided the actual scream?",
+      "options": [
+        "Orson Welles",
+        "Sheb Wooley",
+        "James Earl Jones",
+        "An uncredited extra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Evidence points to singer-actor Sheb Wooley, who recorded screams during the same 1951 sessions."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Wilhelm Scream: A Short History",
+      "publisher": "Hollywood Reporter",
+      "year": 2018
+    },
+    {
+      "title": "Sound Design: The Expressive Power of Music, Voice, and Sound Effects in Cinema",
+      "publisher": "Michael Wiese Productions",
+      "year": 2001
+    }
+  ],
+
+  "related": ["color-grading-magic", "foley-art-explained", "star-wars-sound-design"]
+}

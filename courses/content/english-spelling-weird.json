@@ -1,0 +1,141 @@
+{
+  "id": "english-spelling-weird",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why English Spelling Is So Weird",
+    "teaser": "Why does 'though,' 'through,' and 'tough' rhyme with nothing? English spelling is a crime scene.",
+    "category": "Language",
+    "subcategories": ["Linguistics", "History of English"],
+    "tags": ["english", "spelling", "etymology", "linguistics", "history"],
+    "emoji": "📜",
+    "accentColor": "#8A5A44",
+    "coverSymbol": {
+      "sfSymbol": "textformat",
+      "fallbackEmoji": "🔤"
+    },
+    "coverImagePrompt": "An old wooden printing press with wooden letter blocks in disarray, warm candlelight, a parchment page showing the word 'ghoti' in smudged ink, cinematic chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Ghoti, pronounced 'fish'",
+      "body": "George Bernard Shaw loved to point out that the word 'ghoti' could, by English rules, be pronounced 'fish' — 'gh' as in 'enough,' 'o' as in 'women,' 'ti' as in 'nation.' It's a joke, but it captures something real: English spelling looks like it was designed by a committee that hated children. Why is it like this?",
+      "visual": {
+        "sfSymbol": "questionmark.bubble.fill",
+        "imagePrompt": "A child staring bewildered at a chalkboard covered in mismatched English words: through, tough, though, bough, cough"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A language built from wreckage",
+      "body": "English is a mash-up. Old English borrowed heavily from Latin missionaries, then got flattened by Viking Norse, then buried under Norman French in 1066. Each invasion left behind spellings and sounds. We kept the 'k' in 'knight' from Old English, the silent 's' in 'island' from a fake Latin guess, and the 'ph' in 'phone' from Greek — all in the same dictionary.",
+      "keyTerms": [
+        { "term": "Old English", "definition": "The Germanic language spoken in England before 1066, origin of words like 'knight' and 'gnat'" },
+        { "term": "Norman French", "definition": "The French dialect brought by William the Conqueror in 1066, which flooded English with new words and spellings" }
+      ],
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "Three weathered medieval manuscripts stacked together — Anglo-Saxon runes, Latin script, and French gothic lettering — all glowing softly"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Great Vowel Shift",
+      "body": "Between roughly 1400 and 1700, English speakers quietly changed how they pronounced every long vowel. 'Bite' used to sound like 'beet.' 'House' sounded like 'hoose.' But the printing press had just arrived and froze the spellings in place. The result: pronunciations kept evolving while the letters on the page stopped moving. That's why 'name' isn't spelled 'naym.'",
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "A diagram of mouth and tongue positions for vowels shifting over time, rendered like an anatomical illustration, sepia tones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Scribes who charged by the letter",
+      "body": "Medieval scribes sometimes inflated words for pay, which is partly why 'dette' became 'debt' — someone stuck a silent 'b' in to make it look Latin. Dutch printers setting early English books added letters that matched Flemish conventions. And in the 16th century, scholars deliberately inserted silent letters into words like 'doubt' and 'receipt' to flaunt their classical education.",
+      "funFact": "Noah Webster tried to simplify American English in 1806 — that's why Americans write 'color' and 'center.' He wanted 'tongue' to become 'tung.' It didn't take.",
+      "visual": {
+        "sfSymbol": "pencil.and.scribble",
+        "imagePrompt": "A medieval scribe at a candlelit desk, quill mid-stroke, adding a silent letter to a manuscript with a mischievous smile"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A fossil, not a failure",
+      "body": "English spelling isn't broken — it's a geological record. Every silent letter, every weird combination is a fossil from a different era of the language. 'Knight' remembers Saxon villages. 'Rendezvous' remembers Norman courts. Learning to read English is partly learning a thousand years of history, one bizarre word at a time.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What happened during the Great Vowel Shift?",
+      "options": [
+        "The English lost all their consonants",
+        "Long vowels changed pronunciation while spellings stayed the same",
+        "Vikings invented the letter V",
+        "Shakespeare added 1,700 new words"
+      ],
+      "correctIndex": 1,
+      "explanation": "Between 1400 and 1700, English long vowels changed pronunciation — but the printing press had frozen spellings in place."
+    },
+    {
+      "index": 1,
+      "question": "Why does 'debt' have a silent 'b'?",
+      "options": [
+        "Because of Viking influence",
+        "Because early printers were sloppy",
+        "Because scholars added it to match Latin 'debitum'",
+        "Because it used to be pronounced"
+      ],
+      "correctIndex": 2,
+      "explanation": "Renaissance scholars added silent letters to words to make them resemble their Latin roots — a show of classical learning."
+    },
+    {
+      "index": 2,
+      "question": "Why did Noah Webster change American spellings?",
+      "options": [
+        "To simplify and differentiate from British English",
+        "Because of a typo in the first dictionary",
+        "Due to Spanish colonial influence",
+        "To match French pronunciation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Webster wanted a distinct, simpler American English — that's why Americans write 'color' instead of 'colour.'"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Stories of English",
+      "publisher": "Penguin",
+      "year": 2005
+    },
+    {
+      "title": "Spell It Out: The Curious, Enthralling and Extraordinary Story of English Spelling",
+      "publisher": "Profile Books",
+      "year": 2013
+    }
+  ],
+
+  "related": ["great-vowel-shift", "norman-conquest", "printing-press-history"]
+}

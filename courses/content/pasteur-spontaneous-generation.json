@@ -1,0 +1,141 @@
+{
+  "id": "pasteur-spontaneous-generation",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Pasteur Killed an Ancient Belief",
+    "teaser": "For 2,000 years everyone knew maggots grew from rotten meat — until a bent glass neck proved them wrong.",
+    "category": "Microbiology",
+    "subcategories": ["History of Science", "Experimental Method"],
+    "tags": ["pasteur", "germ theory", "experiment", "history", "microbes"],
+    "emoji": "⚗️",
+    "accentColor": "#8B5E3C",
+    "coverSymbol": {
+      "sfSymbol": "flask.fill",
+      "fallbackEmoji": "⚗️"
+    },
+    "coverImagePrompt": "A 19th-century glass flask with a dramatically curved swan-neck resting on a wooden lab bench, warm candlelight, steam rising from clear broth, painterly cinematic scene"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Life from nothing?",
+      "body": "Leave meat on a shelf, and maggots appear. Leave grain in a cellar, and mice show up. For more than two millennia — from Aristotle onward — educated people believed life could simply bubble up from non-living matter when the conditions were right. They called it 'spontaneous generation,' and it seemed obvious.",
+      "visual": {
+        "sfSymbol": "clock.arrow.circlepath",
+        "imagePrompt": "An antique still life of rotting meat on a wooden table with flies, dark Renaissance oil painting aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The swan-neck idea",
+      "body": "In 1859, French chemist Louis Pasteur designed an experiment so simple it sounded like a magic trick. He boiled nutrient broth in a special flask with a long, S-shaped 'swan neck' — open to the air, but curved so dust and microbes would settle in the bend instead of reaching the broth.",
+      "keyTerms": [
+        { "term": "Spontaneous generation", "definition": "The abandoned idea that living organisms can arise directly from non-living matter" },
+        { "term": "Swan-neck flask", "definition": "A flask with a curved neck that lets air in but traps airborne particles" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Labeled diagram of a swan-neck flask with arrows showing air entering but dust settling in the curve, textbook illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The quiet result",
+      "body": "Weeks went by. The broth stayed perfectly clear — no cloudiness, no smell, no growth. Then Pasteur simply tilted one flask so the sterile broth touched the dust trapped in the curve. Within a day, it teemed with life. The conclusion was inescapable: the microbes hadn't appeared from nothing. They had ridden in on particles of dust.",
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "Two swan-neck flasks side by side, one clear and pristine, one tilted and cloudy with bacterial growth, dramatic lab photography"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A whole theory falls",
+      "body": "Pasteur repeated the experiment in different places — in a Parisian cellar, on a mountainside in the Alps — and showed that air from cleaner places produced fewer contaminations. The French Academy of Sciences, which had offered a prize for settling the question, awarded it to him. Within a decade, germ theory began reshaping medicine, brewing, and food safety. Surgeons started washing their hands.",
+      "funFact": "Some of Pasteur's original sealed swan-neck flasks are still on display in Paris — and the broth inside is still clear, 160 years later.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "A bearded 19th-century scientist at a rocky Alpine outcrop, opening a flask to the thin mountain air, historic recreation"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it matters",
+      "body": "Pasteur didn't just debunk a bad idea — he showed how a careful experiment can overturn a belief older than Christianity. The modern idea that 'germs cause disease' rests on this shelf. Every sterile syringe and clean kitchen counter traces back to a curved glass neck.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did 'spontaneous generation' claim?",
+      "options": [
+        "That living things evolve over time",
+        "That life can arise from non-living matter",
+        "That bacteria only reproduce asexually",
+        "That diseases spread through bad air alone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The old theory held that life could bubble up from non-living material — maggots from meat, mice from grain, and so on."
+    },
+    {
+      "index": 1,
+      "question": "Why was the S-shaped swan neck crucial to Pasteur's flask?",
+      "options": [
+        "It trapped dust and microbes before they could reach the broth",
+        "It sealed out all air completely",
+        "It sterilized the broth with ultraviolet light",
+        "It made the broth boil at a lower temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve let air pass but forced dust and airborne microbes to settle in the bend, never touching the broth."
+    },
+    {
+      "index": 2,
+      "question": "What happened when Pasteur tilted the flask so the broth touched the curve?",
+      "options": [
+        "Nothing changed",
+        "The broth evaporated quickly",
+        "Microbes rapidly colonized the broth",
+        "The glass cracked from contamination"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once the broth met the trapped dust, microbes entered and multiplied, proving they came from the air, not from the broth."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mémoire sur les corpuscules organisés qui existent dans l'atmosphère",
+      "publisher": "Annales des Sciences Naturelles",
+      "year": 1861
+    },
+    {
+      "title": "Louis Pasteur: A Life",
+      "publisher": "Johns Hopkins University Press",
+      "year": 1995
+    }
+  ],
+
+  "related": ["penicillin-discovery", "human-microbiome", "what-is-a-virus"]
+}

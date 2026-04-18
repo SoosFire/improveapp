@@ -1,0 +1,137 @@
+{
+  "id": "deus-ex-machina",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Deus Ex Machina: The Lazy Ending",
+    "teaser": "When a story paints itself into a corner — and a god literally flies in to fix it.",
+    "category": "Theater & Drama",
+    "subcategories": ["Dramatic Devices", "Writing Craft"],
+    "tags": ["tragedy", "greek theater", "plot", "criticism", "storytelling"],
+    "emoji": "🎭",
+    "accentColor": "#B5651D",
+    "coverSymbol": {
+      "sfSymbol": "bolt.fill",
+      "fallbackEmoji": "⚡"
+    },
+    "coverImagePrompt": "An ancient wooden crane lowering a golden-robed actor over a Greek stage mid-performance, audience gasping, dust motes in shafts of sunlight, mechanical ropes and pulleys visible, cinematic, dramatic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A crane above the stage",
+      "body": "Imagine you're watching a Greek tragedy. The hero is doomed — trapped in impossible circumstances, every path leads to death. Then, with a creak of ropes, an actor in gold robes is swung in on a crane above the stage, declares himself a god, and fixes everything in a single speech. The audience goes home. This really happened — regularly — and it gave us one of the most famous insults in all of storytelling.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "A gilded actor being lowered by ropes and a wooden pulley onto an ancient Greek stage, crowd beneath gasping"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "God from the machine",
+      "body": "'Deus ex machina' is Latin for 'god from the machine' — a translation of the Greek 'theos ek mēkhanēs.' The machine was a real stage crane called the 'mēkhanē,' used to lower actors playing gods onto the set. Over time, the phrase came to mean any plot twist where an unlikely outside force swoops in to resolve an impossible problem — not through logic or character, but through sheer authorial convenience.",
+      "keyTerms": [
+        { "term": "Mēkhanē", "definition": "The actual wooden crane used in Greek theater to hoist actors" },
+        { "term": "Deus ex Machina", "definition": "Any contrived resolution dropped in from outside the story's logic" },
+        { "term": "Catharsis", "definition": "The emotional release a well-earned ending provides — the opposite of what a deus ex machina delivers" }
+      ],
+      "visual": {
+        "sfSymbol": "wand.and.stars",
+        "imagePrompt": "A golden hand reaching down from clouds to pluck a tiny figure out of a dark maze, myth-style illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Aristotle hated it",
+      "body": "Writing in 335 BCE, Aristotle already thought this device was a cheat. In the Poetics, he insisted that the resolution of a plot 'must arise out of the plot itself, not from a contrivance.' Euripides was his favorite punching bag — the playwright ended Medea by literally flying the murderous heroine away on a dragon-pulled chariot from her grandfather the Sun. Aristotle's complaint: a great ending must feel inevitable, not imposed.",
+      "visual": {
+        "sfSymbol": "hand.thumbsdown.fill",
+        "imagePrompt": "A bust of Aristotle frowning next to a dramatic scroll, chiaroscuro lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Still happening in 2026",
+      "body": "The trope never died. In The War of the Worlds, humanity is saved not by cleverness but by microbes the Martians have no immunity to. In Lord of the Flies, a navy officer arrives at the exact moment the boys are about to kill each other. Critics even accused the giant eagles in Lord of the Rings of being deus ex machina — why not fly to Mordor? Defenders argue that when a 'god' is set up earlier in the story, it's foreshadowing, not cheating. The line is thin.",
+      "funFact": "Shakespeare used it proudly — in As You Like It, a deity named Hymen literally shows up in Act 5 to marry all four couples at once. No explanation offered.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "A split image: Martian tripod collapsing with green microbes floating above, and a giant eagle carrying hobbits in the other half"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still sticks",
+      "body": "Writers use deus ex machina because it's genuinely hard to construct a satisfying exit from a cornered plot. When done badly, it feels like a betrayal — the story asked us to care about characters whose agency didn't matter. When done with irony or set-up, it can work: think of the happy 'coincidences' in Dickens, or the intentionally absurd rescues in Monty Python. The rule of thumb is ancient: endings should feel earned, not gifted.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'deus ex machina' literally translate to?",
+      "options": [
+        "God of endings",
+        "God from the machine",
+        "Machine of the gods",
+        "Miracle of the stage"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's Latin for 'god from the machine' — referring to the crane that lowered actor-gods onto Greek stages."
+    },
+    {
+      "index": 1,
+      "question": "Which ancient critic condemned deus ex machina as a contrivance?",
+      "options": ["Plato", "Aristotle", "Horace", "Plutarch"],
+      "correctIndex": 1,
+      "explanation": "Aristotle argued in the Poetics that plot resolutions must come from within the story, not be imposed from outside."
+    },
+    {
+      "index": 2,
+      "question": "Which example is commonly cited as deus ex machina?",
+      "options": [
+        "Hamlet's soliloquy",
+        "The microbes that defeat the aliens in War of the Worlds",
+        "The witches' prophecy in Macbeth",
+        "The duel in Romeo and Juliet"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Martians lose not to human ingenuity but to unplanned Earth microbes — a classic outside-the-story rescue."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Poetics",
+      "publisher": "Aristotle",
+      "year": -335
+    },
+    {
+      "title": "The Oxford Dictionary of Literary Terms",
+      "publisher": "Oxford University Press",
+      "year": 2015
+    }
+  ],
+
+  "related": ["greek-chorus", "three-act-structure", "theater-masks-symbol"]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "norse-mythology-ragnarok",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Ragnarök: The End of the Norse Gods",
+    "teaser": "What if the gods knew they would die — and fought anyway?",
+    "category": "Religion & Mythology",
+    "subcategories": ["Norse Mythology", "Eschatology"],
+    "tags": ["ragnarok", "odin", "thor", "vikings", "apocalypse"],
+    "emoji": "⚔️",
+    "accentColor": "#6B2E2E",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🔥"
+    },
+    "coverImagePrompt": "A burning world tree Yggdrasil against a blood-red sky, wolves howling at a dying sun, armored gods marching toward battle, cinematic, painterly, Norse mythology"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A prophecy the gods couldn't escape",
+      "body": "Most mythologies promise their gods will live forever. Norse mythology is different. The Aesir — Odin, Thor, Freyr, and the rest — knew exactly how they would die, who would kill them, and that there was nothing they could do to stop it. Ragnarök means 'the fate of the gods,' and it's one of the bleakest, most beautiful endings in any mythology.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A one-eyed Odin staring into a dark pool, seeing visions of his own death reflected in the water, moody lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The three winters that start it all",
+      "body": "According to the Poetic Edda, Ragnarök begins with Fimbulwinter — three winters in a row with no summer in between. Brothers kill brothers. The sun is swallowed by the wolf Sköll, the moon by Hati. Then the cosmic tree Yggdrasil trembles, and every creature bound in chains breaks free at once.",
+      "keyTerms": [
+        { "term": "Fimbulwinter", "definition": "The 'great winter' — three years of unbroken cold that precede Ragnarök" },
+        { "term": "Yggdrasil", "definition": "The world tree that holds together the nine realms of Norse cosmology" }
+      ],
+      "visual": {
+        "sfSymbol": "snowflake",
+        "imagePrompt": "A frozen Viking village under a blackened sky, no sun visible, snow piled impossibly high, desolate and silent"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The great matchups",
+      "body": "Ragnarök isn't chaos — it's a series of cosmic duels, and each god knows their opponent. Odin charges Fenrir, the giant wolf, and is swallowed whole. Thor kills the world serpent Jörmungandr but staggers nine steps and dies from its venom. Freyr, having given away his magic sword, falls to the fire giant Surtr. Heimdall and Loki kill each other.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "Thor mid-swing with Mjölnir against the massive coiled world serpent Jörmungandr, lightning cracking across a stormy sky"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where we learned all this",
+      "body": "Almost everything we know about Ragnarök comes from two Icelandic texts: the Poetic Edda, a collection of anonymous poems written down around 1270 CE, and the Prose Edda, compiled by Snorri Sturluson around 1220. The prophecy itself appears in a poem called Völuspá — 'the seeress's prophecy' — where a dead witch is summoned by Odin to tell him how the world will end.",
+      "funFact": "Snorri was a Christian writing about pagan gods two centuries after Iceland converted — so scholars still debate how much he shaped the myth to echo biblical apocalypse.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "An ancient Icelandic manuscript page with illuminated Norse runes and a small drawing of a howling wolf, candlelight, parchment texture"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it hits different",
+      "body": "Most end-of-the-world stories promise salvation for the faithful. Ragnarök offers something stranger — the gods lose, and they know they will lose, and they fight anyway. But Völuspá ends with a green earth rising from the sea, and two humans, Lif and Lifthrasir, stepping out of hiding. The world ends. Something else begins.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What event signals the beginning of Ragnarök?",
+      "options": ["A comet striking Asgard", "Fimbulwinter — three winters with no summer", "The death of Baldr alone", "The rising of the sea"],
+      "correctIndex": 1,
+      "explanation": "Fimbulwinter — three straight winters with no summer — is the opening sign that Ragnarök has begun."
+    },
+    {
+      "index": 1,
+      "question": "Who kills the world serpent Jörmungandr?",
+      "options": ["Odin", "Loki", "Thor", "Heimdall"],
+      "correctIndex": 2,
+      "explanation": "Thor slays Jörmungandr but is poisoned by its venom and dies after nine steps."
+    },
+    {
+      "index": 2,
+      "question": "Which text is our main source for the Ragnarök prophecy?",
+      "options": ["The Iliad", "The Völuspá (Poetic Edda)", "Beowulf", "The Nibelungenlied"],
+      "correctIndex": 1,
+      "explanation": "The Völuspá, part of the Poetic Edda, is where a seeress describes Ragnarök in detail to Odin."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Poetic Edda",
+      "publisher": "Oxford University Press (trans. Carolyne Larrington)",
+      "year": 2014
+    },
+    {
+      "title": "The Prose Edda",
+      "publisher": "Penguin Classics (trans. Jesse Byock)",
+      "year": 2005
+    }
+  ],
+
+  "related": ["viking-sunstone", "odin-and-the-runes", "valhalla"]
+}

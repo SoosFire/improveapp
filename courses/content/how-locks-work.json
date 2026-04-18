@@ -1,0 +1,145 @@
+{
+  "id": "how-locks-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How a Pin Tumbler Lock Works",
+    "teaser": "The little brass cylinder guarding your front door is basically a row of stacked dominos that all have to line up at exactly the right height.",
+    "category": "Home & DIY",
+    "subcategories": ["Security", "Mechanics"],
+    "tags": ["locks", "security", "mechanics", "engineering", "diy"],
+    "emoji": "🔑",
+    "accentColor": "#B08D57",
+    "coverSymbol": {
+      "sfSymbol": "lock.fill",
+      "fallbackEmoji": "🔐"
+    },
+    "coverImagePrompt": "Macro photograph of a brass pin tumbler lock cutaway, gleaming spring-loaded pins visible inside, a key half-inserted, dramatic side lighting on dark surface"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A 4,000-year-old idea",
+      "body": "The lock on your front door is a variation of a design the Egyptians were using around 2000 BCE. A wooden bolt, a set of pins, a key shaped to lift them — the same principles scaled from palace doors to your Airbnb. Understanding how those pins line up makes you instantly smarter about home security (and a little dangerous at the right kind of party).",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": "A dimly lit ancient Egyptian wooden door with a wooden pin lock, a scribe holding a tooth-shaped key, sepia tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The parts inside",
+      "body": "A modern pin tumbler lock has two key pieces: the outer housing (the 'bible') and a rotating cylinder inside it called the 'plug.' Running across the seam between them are 5 or 6 spring-loaded pin stacks. Each stack has two pins — a lower 'key pin' and an upper 'driver pin' — pushed down by a tiny spring.",
+      "keyTerms": [
+        { "term": "Plug", "definition": "The rotating inner cylinder that turns when unlocked" },
+        { "term": "Driver pin", "definition": "The upper pin that normally blocks the plug from rotating" },
+        { "term": "Shear line", "definition": "The precise seam between plug and housing where pins must align" }
+      ],
+      "visual": {
+        "sfSymbol": "gearshape.fill",
+        "imagePrompt": "Exploded technical diagram of a pin tumbler lock labeled with plug, bible, driver pins, key pins, and springs"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the right key works",
+      "body": "When no key is inserted, the driver pins straddle the shear line — half in the plug, half in the housing — which locks everything up. The teeth on your key are cut to specific heights. Push the right key in and each pin stack is lifted just enough that the gap between key pin and driver pin lands exactly at the shear line. With the pins out of the way, the plug is free to turn.",
+      "keyTerms": [
+        { "term": "Biting", "definition": "The pattern of heights cut into a key — the code that matches a specific lock" }
+      ],
+      "visual": {
+        "sfSymbol": "key.fill",
+        "imagePrompt": "Side-view animation-style diagram of a key being inserted, each pin stack aligning to the shear line, clean infographic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why lockpicking exists",
+      "body": "Locks have a manufacturing flaw: the pin holes are never machined perfectly straight. So when you apply slight turning pressure, only one pin binds at a time. A picker uses a 'tension wrench' to hold that turning force and a pick to push the binding pin up until it clicks at the shear line. Then the next pin binds, and so on. Yale introduced the first mass-produced pin tumbler lock in 1865 — and security experts have been racing pickers ever since.",
+      "funFact": "In competitive lockpicking events, expert pickers routinely open standard residential locks in under 10 seconds.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Close-up of a hand using a tension wrench and hook pick on an open practice lock, precise focus, dramatic spotlight"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The lock is a conversation",
+      "body": "Every lock is a little negotiation: the mechanism wants very specific information (your key's heights), and everything that isn't that information is rejected. Bump keys, picks, and even master-key systems all exploit the same geometry. Once you see a lock as a row of pins waiting for the correct heights, home security stops being magic — it's just a puzzle with 5–6 moving pieces.",
+      "visual": {
+        "sfSymbol": "lock.open.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the 'shear line' in a pin tumbler lock?",
+      "options": [
+        "The edge of the key",
+        "The seam between the plug and the outer housing",
+        "A groove in the door frame",
+        "The bottom spring in each pin stack"
+      ],
+      "correctIndex": 1,
+      "explanation": "The shear line is the boundary between the rotating plug and the fixed housing — the pins must align to it for the plug to turn."
+    },
+    {
+      "index": 1,
+      "question": "What does the correct key do to the pin stacks?",
+      "options": [
+        "Pushes them fully into the housing",
+        "Aligns each pin gap with the shear line",
+        "Compresses every spring fully",
+        "Melts the pins with friction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each tooth lifts its pin stack so the break between key pin and driver pin sits exactly at the shear line."
+    },
+    {
+      "index": 2,
+      "question": "Why can lockpickers open pin tumbler locks?",
+      "options": [
+        "Locks have a built-in master override",
+        "The pin holes aren't perfectly aligned, so pins bind one at a time",
+        "Tension automatically retracts the driver pins",
+        "The plug is magnetized"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tiny manufacturing imperfections cause pins to bind sequentially, letting a picker set them one by one."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Practical Lock Picking",
+      "publisher": "Deviant Ollam / Syngress",
+      "year": 2012
+    },
+    {
+      "title": "High-Security Mechanical Locks: An Encyclopedic Reference",
+      "publisher": "Graham Pulford / Butterworth-Heinemann",
+      "year": 2007
+    }
+  ],
+
+  "related": ["smart-locks", "home-security", "master-keying"]
+}

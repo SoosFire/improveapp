@@ -1,0 +1,136 @@
+{
+  "id": "big-o-notation",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Big O Notation, Visually",
+    "teaser": "Your code works on 100 items. Will it still work on 10 million? Big O already knows.",
+    "category": "Computer Science",
+    "subcategories": ["Algorithms", "Complexity"],
+    "tags": ["algorithms", "complexity", "performance", "interviews"],
+    "emoji": "📈",
+    "accentColor": "#E07B39",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.uptrend.xyaxis",
+      "fallbackEmoji": "📈"
+    },
+    "coverImagePrompt": "A dramatic 3D rendering of several curved lines — straight, curving, and exploding upward — rising from a grid labeled with input sizes, cinematic orange-and-blue palette"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The silent killer of software",
+      "body": "Two programs solve the same problem. Both work perfectly on your laptop with 100 test items. You ship them. One handles a million users effortlessly. The other crashes the server. The difference wasn't a bug — it was how each algorithm grew as the input got bigger. Big O is the language programmers use to predict that growth before it breaks production.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "Two server rooms side by side — one calm and blue-lit, the other engulfed in red warning lights, dramatic contrast"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'O' really means",
+      "body": "Big O doesn't measure time in seconds. It measures how an algorithm's work scales as the input size (n) grows. O(n) means 'roughly proportional to n.' Double the input, double the work. O(n²) means square the work. O(log n) means doubling the input adds almost nothing. The notation was formalized by mathematician Paul Bachmann in 1894 and adopted by computer scientists, including Donald Knuth, in the 1970s.",
+      "keyTerms": [
+        { "term": "n", "definition": "The size of the input, like the number of items to sort" },
+        { "term": "Asymptotic", "definition": "Behavior as n grows toward infinity — what matters for large inputs" }
+      ],
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A simple graph with an x-axis labeled 'n' and a y-axis labeled 'operations,' showing curves labeled O(1), O(log n), O(n), O(n²)"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The famous family of curves",
+      "body": "O(1) is constant time — looking up a known phone number. O(log n) is logarithmic — like finding a name in a phone book by flipping to the middle, then the middle of the half, then again. Binary search is O(log n). O(n) is linear — reading every page. O(n log n) is what good sorting algorithms like merge sort achieve. O(n²) is nested loops — comparing every pair. O(2ⁿ) is exponential — trying every combination of a password. These escalate from 'fine' to 'never do this' fast.",
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A visually striking chart showing O(1), O(log n), O(n), O(n log n), O(n²), O(2ⁿ) curves diverging dramatically as n increases"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it matters at scale",
+      "body": "Take n = 1,000,000 items. An O(n) algorithm does 1 million operations — instant. O(n²) does a trillion — about 16 minutes on a modern CPU. O(2ⁿ) on just n = 100 exceeds the number of atoms in the observable universe. This is why Google doesn't use O(n²) algorithms for search, why Facebook can't brute-force friend recommendations, and why programmers obsess over cutting an algorithm from quadratic to linearithmic. The constants don't matter at scale. The curve does.",
+      "funFact": "A poorly-chosen O(n²) sort on a user's friend list crashed early Facebook profile loads in 2005, until engineers rewrote it to O(n log n).",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "A side-by-side comparison of runtimes on n=1,000,000 for different Big O classes, visualized as stopwatches with dramatically different hand positions"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Think in curves",
+      "body": "Big O is a lens. Once you have it, every piece of code you write gets evaluated not just 'does it work?' but 'how does it grow?' The best programmers aren't the fastest typists — they're the ones who catch an accidental nested loop before it becomes a 3 a.m. incident. Your algorithm on 10 items looks the same as your algorithm on 10 million. The curve decides whether that's a win or a disaster.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which complexity grows the slowest as n increases?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(n²)"],
+      "correctIndex": 1,
+      "explanation": "O(log n) adds barely any work even as n explodes — doubling n adds just one more operation."
+    },
+    {
+      "index": 1,
+      "question": "Which classic algorithm achieves O(log n) complexity?",
+      "options": [
+        "Bubble sort",
+        "Linear search",
+        "Binary search",
+        "Matrix multiplication"
+      ],
+      "correctIndex": 2,
+      "explanation": "Binary search halves the search space at each step, giving logarithmic growth."
+    },
+    {
+      "index": 2,
+      "question": "Why is O(2ⁿ) considered impractical for large n?",
+      "options": [
+        "It uses too much memory",
+        "It grows exponentially — even small n becomes astronomical",
+        "It's only approximate",
+        "It requires quantum computers"
+      ],
+      "correctIndex": 1,
+      "explanation": "At just n=100, 2ⁿ exceeds the number of atoms in the observable universe."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Art of Computer Programming, Vol. 1",
+      "publisher": "Addison-Wesley",
+      "year": 1968
+    },
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "publisher": "MIT Press",
+      "year": 2009
+    }
+  ],
+
+  "related": ["binary-search", "sorting-algorithms", "data-structures-101"]
+}

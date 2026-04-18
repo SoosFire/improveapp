@@ -1,0 +1,142 @@
+{
+  "id": "how-search-engines-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Search Engines Actually Work",
+    "teaser": "You type 3 words. 0.4 seconds later, 50 billion pages are sorted. How?",
+    "category": "Computer Science",
+    "subcategories": ["Web", "Algorithms"],
+    "tags": ["google", "search", "indexing", "pagerank"],
+    "emoji": "🔍",
+    "accentColor": "#4285F4",
+    "coverSymbol": {
+      "sfSymbol": "magnifyingglass",
+      "fallbackEmoji": "🔍"
+    },
+    "coverImagePrompt": "A glowing network of interconnected nodes like a neural web, with a single glowing search query flowing through pathways of light, cinematic and futuristic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The impossible trick",
+      "body": "You type 'why do cats knead' into a search box. In roughly 400 milliseconds, the engine has examined a copy of the entire public web — tens of billions of pages — ranked them, and handed you 10. To put that in perspective: if each page took one second to read, examining them all would take 1,500 years. Search engines don't actually search when you ask. They searched everything, months ago, and built a cheat sheet.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A search bar with a glowing typed query, expanding light rays radiating out across a stylized world of tiny webpages"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Crawl, index, rank",
+      "body": "Every modern search engine has three jobs. Crawling: automated programs (bots) follow hyperlinks from page to page, downloading what they find. Indexing: for every word on every page, the engine records which pages contain it — an 'inverted index,' the backbone of fast search. Ranking: when you query, it retrieves matching pages from the index and sorts them using hundreds of signals. Speed comes from preparing the index in advance.",
+      "keyTerms": [
+        { "term": "Crawler", "definition": "A bot that automatically browses and downloads web pages" },
+        { "term": "Inverted index", "definition": "A data structure mapping each word to the list of pages it appears on" },
+        { "term": "Ranking signal", "definition": "A factor used to score how relevant a page is to a query" }
+      ],
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A clean three-panel infographic showing crawling, indexing, and ranking as distinct stages with icons"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "PageRank — the original magic",
+      "body": "In 1998, two Stanford PhD students named Larry Page and Sergey Brin noticed that the web itself was a kind of vote: links from one page to another were endorsements. Their insight: count incoming links, but weight them by how important the linking page is. This recursive definition — solved with some linear algebra — was PageRank. It was the first algorithm to turn 'popularity' into a measurable signal and made Google wildly more useful than competitors.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A diagram of nodes with arrows pointing between them, some nodes glowing larger to represent higher rank, elegant network visualization"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Modern ranking is messy",
+      "body": "PageRank is now just one of hundreds of signals. Google's ranking factors include page content match, freshness, click behavior, mobile-friendliness, HTTPS use, location, and increasingly, neural language models. Since 2019's BERT and 2022's MUM, search engines interpret the *meaning* of queries, not just the words. Ask 'how old was Einstein when he won his Nobel?' and the engine understands that as an age calculation from dates, not a keyword match.",
+      "funFact": "Google's index reportedly exceeds 100 million gigabytes — if printed out, the stack of paper would reach the Moon more than 10 times.",
+      "visual": {
+        "sfSymbol": "brain.filled.head.profile",
+        "imagePrompt": "A stylized neural network diagram labeled with words and connections, rendering how meaning gets matched instead of keywords"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Search is a mirror",
+      "body": "Search engines don't find information in real time — they prepare the world for your question in advance, then do linear algebra on your behalf. Every result you see is a collision of crawling, indexing, ranking, personalization, and increasingly, large language models guessing what you actually meant. What feels like a simple query is one of the most sophisticated pieces of software humanity has ever built — and you summon it with your thumbs.",
+      "visual": {
+        "sfSymbol": "sparkles.tv.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is an inverted index?",
+      "options": [
+        "A list of banned websites",
+        "A mapping from each word to pages containing it",
+        "A reverse-alphabetical list of URLs",
+        "A duplicate of a webpage's HTML"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inverted indexes let an engine instantly find every page containing a given term."
+    },
+    {
+      "index": 1,
+      "question": "What was the key insight behind PageRank?",
+      "options": [
+        "Use page length to determine importance",
+        "Count links as votes, weighted by the linker's importance",
+        "Rank pages alphabetically",
+        "Use keyword density as the main signal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Page and Brin's 1998 algorithm treated links as weighted votes, making popularity self-referential and measurable."
+    },
+    {
+      "index": 2,
+      "question": "Why is a Google search so fast?",
+      "options": [
+        "It scans the entire web when you press enter",
+        "It uses quantum computers",
+        "Most of the work was done in advance via crawling and indexing",
+        "It only searches recently updated pages"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crawling and indexing happen continuously beforehand; a query just looks up precomputed data."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine",
+      "publisher": "Stanford University",
+      "year": 1998
+    },
+    {
+      "title": "Understanding searches better than ever before (BERT in Search)",
+      "publisher": "Google Blog",
+      "year": 2019
+    }
+  ],
+
+  "related": ["pagerank", "web-crawling", "bert-language-model"]
+}

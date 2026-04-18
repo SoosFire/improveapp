@@ -1,0 +1,136 @@
+{
+  "id": "birthday-paradox",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Birthday Paradox",
+    "teaser": "In a room of 23 strangers, two share a birthday more often than not. Here's why.",
+    "category": "Mathematics",
+    "subcategories": ["Probability", "Combinatorics"],
+    "tags": ["probability", "intuition", "combinatorics", "statistics"],
+    "emoji": "🎂",
+    "accentColor": "#E85D75",
+    "coverSymbol": {
+      "sfSymbol": "birthday.cake.fill",
+      "fallbackEmoji": "🎉"
+    },
+    "coverImagePrompt": "Two identical birthday cakes meeting across a crowded party table, confetti suspended mid-air, warm candlelight, cinematic slight tilt, soft focus on a room full of strangers"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A bet you shouldn't take",
+      "body": "Imagine you walk into a room of 23 people. A stranger offers you a bet: 'I'll wager two people here share a birthday.' You look around — 23 people, 365 days in a year. Sounds like a sucker's bet. You take it. You lose, on average, slightly more than half the time.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A smoky bar with 23 strangers and a handshake bet in the foreground"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Pairs, not people",
+      "body": "Our brains hear '23 people, 365 days' and imagine each person needing to match one specific date. But the puzzle is looking for any match among any pair. With 23 people, there are 253 possible pairs — and each pair gets its own small chance to match. Pairs grow much faster than people.",
+      "keyTerms": [
+        { "term": "Pair", "definition": "Any two people compared with each other" },
+        { "term": "Combinatorics", "definition": "The math of counting combinations and arrangements" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.connected.trianglepath.dotted",
+        "imagePrompt": "A network diagram with 23 glowing dots connected by thin lines"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The math, gently",
+      "body": "Flip the question: what's the chance *nobody* shares? Person 2 has a 364/365 chance of avoiding person 1. Person 3 needs to miss both, so 363/365. Keep multiplying. By the 23rd person, the product of all those 'misses' drops below 0.5 — meaning the chance of *at least one* match is above 50%. At 50 people it's 97%. At 70 people, basically certain.",
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A curve rising steeply from 0 to 1 on a clean graph labeled 'P(shared birthday)'"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It actually works",
+      "body": "Classroom teachers test this every year — gather 25 or so students, ask for birthdays, and a match usually appears. The math also underpins 'birthday attacks' in cryptography: finding collisions in hash functions is far easier than brute force because of the same pair-counting trick. What feels like coincidence is really combinatorial gravity.",
+      "funFact": "With just 70 people, the probability of a shared birthday is over 99.9% — higher than the chance of flipping heads three times in a row.",
+      "visual": {
+        "sfSymbol": "lock.shield.fill",
+        "imagePrompt": "A glowing padlock being picked by floating numbers representing hash collisions"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The lesson beyond birthdays",
+      "body": "Whenever you hear 'the odds of any two random things matching,' remember: you're counting pairs, not individuals. This is why coincidences that feel miraculous — two songs on the radio, two strangers with the same name — tend to happen constantly. The universe is bigger than your intuition gives it credit for.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many people are needed for a shared birthday to be more likely than not?",
+      "options": ["23", "57", "183", "366"],
+      "correctIndex": 0,
+      "explanation": "At 23 people, the probability of at least one shared birthday crosses 50%."
+    },
+    {
+      "index": 1,
+      "question": "Why is the probability so much higher than we expect?",
+      "options": [
+        "Some months have more births",
+        "We count pairs, not individuals",
+        "Leap years change the math",
+        "Birthdays cluster by season"
+      ],
+      "correctIndex": 1,
+      "explanation": "The key is that 23 people form 253 pairs — and each pair has its own chance to match."
+    },
+    {
+      "index": 2,
+      "question": "Where does this math show up outside of party tricks?",
+      "options": [
+        "Flight scheduling",
+        "Hash function attacks in cryptography",
+        "Tax filings",
+        "Weather forecasting"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Birthday attacks' exploit the same pair-counting effect to find collisions in hash functions."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An Introduction to Probability Theory and Its Applications",
+      "publisher": "William Feller, Wiley",
+      "year": 1968
+    },
+    {
+      "title": "The Birthday Problem",
+      "publisher": "American Mathematical Monthly",
+      "year": 1960
+    }
+  ],
+
+  "related": ["law-of-large-numbers", "monty-hall-problem", "probability-basics"]
+}

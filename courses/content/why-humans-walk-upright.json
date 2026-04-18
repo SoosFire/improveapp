@@ -1,0 +1,136 @@
+{
+  "id": "why-humans-walk-upright",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Humans Walk on Two Legs",
+    "teaser": "Standing up cost us speed, stability, and painless childbirth. So why did our ancestors do it?",
+    "category": "Anthropology",
+    "subcategories": ["Human Evolution", "Biomechanics"],
+    "tags": ["bipedalism", "evolution", "lucy", "australopithecus", "anatomy"],
+    "emoji": "🚶",
+    "accentColor": "#C08B5C",
+    "coverSymbol": {
+      "sfSymbol": "figure.walk",
+      "fallbackEmoji": "🚶"
+    },
+    "coverImagePrompt": "A lone hominin walks upright across a cracked African savanna at sunset, her shadow stretching long behind her, grasses waving in the warm wind, cinematic and painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The weirdest gait in the animal kingdom",
+      "body": "No other mammal walks the way we do — striding upright, one leg at a time, balancing a heavy skull on a thin vertical spine. It's slow. It's unstable. It breaks our backs and makes birth dangerous. And yet, six million years ago, our ancestors committed to it. Why?",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "Silhouette of a hominin mid-stride across a golden savanna, a quadruped mammal blurred in the background for contrast"
+      }
+    },
+    {
+      "index": 1,
+      "type": "evidence",
+      "title": "Lucy's knees tell the story",
+      "body": "In 1974, Donald Johanson found a 3.2-million-year-old skeleton in Ethiopia and nicknamed her Lucy. Her pelvis was short and bowl-shaped. Her knees angled inward under her hips. Her spine curved like ours. Lucy's anatomy showed bipedalism was already locked in long before our brains grew.",
+      "funFact": "The team named her after 'Lucy in the Sky with Diamonds,' which was playing on camp radio the night of the discovery.",
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "Reconstructed skeleton of Lucy displayed in museum lighting, with subtle highlights on the pelvis and knees"
+      }
+    },
+    {
+      "index": 2,
+      "type": "concept",
+      "title": "Three leading theories",
+      "body": "Scientists have debated the 'why' for over a century. The savanna hypothesis says standing let us peer over tall grass and keep cool by exposing less body to the sun. The provisioning hypothesis argues free hands let males carry food back to mates. The energy hypothesis points to a simple fact: walking on two legs burns 75% fewer calories than knuckle-walking.",
+      "keyTerms": [
+        { "term": "Bipedalism", "definition": "Habitually walking on two legs" },
+        { "term": "Savanna hypothesis", "definition": "The idea that open grasslands favored upright walking" }
+      ],
+      "visual": {
+        "sfSymbol": "list.bullet",
+        "imagePrompt": "Three hand-drawn panels: one shows a hominin scanning the savanna, one carrying food, one walking efficiently on a long trek"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "The brutal tradeoffs",
+      "body": "Evolution didn't come cheap. The upright spine strains our lower backs — about 80% of adults get lower back pain at some point. Our narrow bipedal pelvis makes human childbirth uniquely painful and risky compared to other primates. And we became slower: a chimp can sprint at 25 mph; a trained human sprints at 28 mph but tires far faster. Bipedalism had to pay off big to survive these costs.",
+      "visual": {
+        "sfSymbol": "figure.gymnastics",
+        "imagePrompt": "Anatomical side view of a human spine curve compared to a chimpanzee's, with stress points highlighted in red"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Built for the long walk",
+      "body": "The payoff may have been endurance. Humans can walk 20–30 miles a day, carry water and food, and keep cool through sweat. No great ape can do this. Two legs didn't make us faster — they made us unstoppable over distance. Every time you take a long walk, you're doing what your body was designed for.",
+      "visual": {
+        "sfSymbol": "mappin.and.ellipse",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Lucy's skeleton show about bipedalism?",
+      "options": [
+        "It evolved after large brains",
+        "It was already present 3.2 million years ago",
+        "It was only used occasionally",
+        "It evolved alongside tool use"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lucy walked upright millions of years before the human brain began to expand — showing bipedalism came first."
+    },
+    {
+      "index": 1,
+      "question": "How much more energy-efficient is walking on two legs versus knuckle-walking?",
+      "options": ["10% more efficient", "25% more efficient", "About 75% more efficient", "No difference"],
+      "correctIndex": 2,
+      "explanation": "Studies comparing human and chimp metabolism show bipedal walking burns roughly 75% fewer calories per mile."
+    },
+    {
+      "index": 2,
+      "question": "Which is a major evolutionary tradeoff of walking upright?",
+      "options": [
+        "A weaker sense of smell",
+        "Loss of color vision",
+        "Painful childbirth and back strain",
+        "Shorter lifespan"
+      ],
+      "correctIndex": 2,
+      "explanation": "The narrow pelvis that supports upright walking makes human birth uniquely difficult, and our S-curved spine strains the lower back."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Lucy: The Beginnings of Humankind",
+      "publisher": "Donald Johanson & Maitland Edey, Simon & Schuster",
+      "year": 1981
+    },
+    {
+      "title": "Metabolic cost of human walking and great ape locomotion",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2007
+    }
+  ],
+
+  "related": ["fire-made-us-human", "australopithecus", "human-endurance-running"]
+}

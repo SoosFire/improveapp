@@ -1,0 +1,139 @@
+{
+  "id": "pidgin-to-creole",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How a Pidgin Becomes a Creole",
+    "teaser": "Strangers forced to trade invent a broken patchwork language. A generation later, their kids turn it into grammar. How?",
+    "category": "Linguistics",
+    "subcategories": ["Sociolinguistics", "Language Contact"],
+    "tags": ["pidgin", "creole", "language-birth", "children"],
+    "emoji": "🌍",
+    "accentColor": "#D98540",
+    "coverSymbol": {
+      "sfSymbol": "bubble.left.and.bubble.right.fill",
+      "fallbackEmoji": "💬"
+    },
+    "coverImagePrompt": "A bustling 18th-century Caribbean dock at sunset, people from many backgrounds gesturing and talking in overlapping speech bubbles, painterly warm golden light"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A language born in one generation",
+      "body": "Imagine a colony where enslaved people speak twenty different African languages, overseers speak French, and nobody has a shared tongue. They invent a rough shared code — nouns, verbs, pointed fingers. But when those enslaved adults have children, something remarkable happens. Within a single generation, the children produce a fully fluent, grammatically rich language their parents never quite spoke. That's how a creole is born.",
+      "visual": {
+        "sfSymbol": "person.2.wave.2.fill",
+        "imagePrompt": "Mothers in a colonial-era village teaching toddlers, mixed-language street signs fading into the background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What is a pidgin?",
+      "body": "A pidgin is a simplified contact language that arises when groups who share no common tongue need to do business — trade, plantation labor, port work. Pidgins have small vocabularies, almost no grammar, no native speakers, and get used only in specific situations. Think of it as linguistic duct tape: functional, temporary, ugly.",
+      "keyTerms": [
+        { "term": "Pidgin", "definition": "A simplified contact language with no native speakers, used in specific settings" },
+        { "term": "Lexifier", "definition": "The dominant language (often the colonizer's) that provides most of the pidgin's vocabulary" }
+      ],
+      "visual": {
+        "sfSymbol": "hand.point.up.left.fill",
+        "imagePrompt": "A dockside scene, two traders gesturing over crates, one holding up fingers, chalkboard signs in broken phrases"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Children do the heavy lifting",
+      "body": "When a pidgin gets passed to children as a first language, they don't tolerate its gaps. Human brains under about age six demand consistent grammar — tenses, pronouns, clause structures — and they manufacture the missing pieces. The resulting language is a creole: full vocabulary, systematic grammar, native speakers. Linguist Derek Bickerton argued creoles reveal a 'bioprogram' — the innate grammar built into our species.",
+      "keyTerms": [
+        { "term": "Creole", "definition": "A fully developed natural language that evolved from a pidgin, with native speakers and full grammar" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.child.and.lock.fill",
+        "imagePrompt": "A schoolyard where children chatter together, a swirl of words stabilizing into a single bright pattern above them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Haiti, Hawaii, and the proof",
+      "body": "Haitian Creole today is spoken by about 10 million people and descends from a 17th-century French-based plantation pidgin. Tok Pisin, the lingua franca of Papua New Guinea, went from pidgin to creole in living memory — older speakers remember the simpler version, their grandchildren speak the fully grammatical one. Researchers studying Hawaiian Pidgin English in the early 1900s watched creolization happen in real time, child by child.",
+      "funFact": "The word 'pidgin' itself may come from a Chinese pronunciation of the English word 'business' used in 19th-century Canton trade.",
+      "visual": {
+        "sfSymbol": "map.circle.fill",
+        "imagePrompt": "A stylized world map with glowing dots marking creole-speaking regions — Haiti, Jamaica, Cape Verde, Papua New Guinea, Hawaii"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Languages don't need centuries",
+      "body": "We tend to think languages drift slowly, over a thousand years, like English from Old English. Creoles prove that's not the only mode. Given the right pressure — a community of children, no shared tongue, urgent need — a full language can emerge in one generation. It's one of the clearest windows we have into what the human mind brings to language, before culture does any of its work.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the main difference between a pidgin and a creole?",
+      "options": [
+        "Pidgins are written, creoles are spoken",
+        "Creoles have native speakers and full grammar; pidgins do not",
+        "Pidgins are older than creoles",
+        "Creoles are only found in Africa"
+      ],
+      "correctIndex": 1,
+      "explanation": "A pidgin is a simplified contact tool; a creole is a fully developed language with children raised speaking it natively."
+    },
+    {
+      "index": 1,
+      "question": "What role do children play in creolization?",
+      "options": [
+        "They slow the process down",
+        "They ignore the pidgin",
+        "They fill in missing grammar, creating a full language in one generation",
+        "They simply copy their parents"
+      ],
+      "correctIndex": 2,
+      "explanation": "Children demand consistent grammar and fill in the pidgin's gaps, producing a complete language."
+    },
+    {
+      "index": 2,
+      "question": "Which language is a well-known creole with millions of native speakers?",
+      "options": ["Dutch", "Haitian Creole", "Finnish", "Mandarin Chinese"],
+      "correctIndex": 1,
+      "explanation": "Haitian Creole, lexified by French, is a fully developed creole language spoken by about 10 million people."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Pidgins and Creoles: An Introduction",
+      "publisher": "John Benjamins (Arends, Muysken, Smith)",
+      "year": 1995
+    },
+    {
+      "title": "Language and Species",
+      "publisher": "University of Chicago Press (Bickerton)",
+      "year": 1990
+    }
+  ],
+
+  "related": ["language-acquisition", "tok-pisin", "linguistic-bioprogram"]
+}

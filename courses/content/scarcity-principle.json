@@ -1,0 +1,136 @@
+{
+  "id": "scarcity-principle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why 'Only 3 Left' Works on You",
+    "teaser": "Your brain treats a red 'almost sold out' label like a threat to your survival. That's not a metaphor.",
+    "category": "Marketing",
+    "subcategories": ["Psychology", "Persuasion"],
+    "tags": ["marketing", "scarcity", "psychology", "persuasion"],
+    "emoji": "⏳",
+    "accentColor": "#D93025",
+    "coverSymbol": {
+      "sfSymbol": "tag.fill",
+      "fallbackEmoji": "🏷️"
+    },
+    "coverImagePrompt": "A hotel booking page glowing on a laptop screen at night, a bright red 'Only 2 rooms left!' banner pulsing, a single finger hovering over the trackpad, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The booking-site trick you can't unsee",
+      "body": "Open any hotel site and you'll see them: red letters whispering 'Only 2 rooms left at this price' or 'Booked 14 times in the last hour.' They're small. They don't look aggressive. And they triple your odds of clicking 'Book Now' — because of a bug in human psychology we've been exploiting for thousands of years.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A close-up of a phone screen at night showing a booking app with flashing red 'low availability' warnings, user's face reflected in the screen"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Scarcity equals value",
+      "body": "Psychologist Robert Cialdini named this the scarcity principle: we want what's rare, and we want it more when it's getting rarer. Evolutionarily, anything scarce — water, food, mates — was worth fighting for. That wiring doesn't know the difference between 'last oasis' and 'last size medium.'",
+      "keyTerms": [
+        { "term": "Scarcity principle", "definition": "Our tendency to assign more value to things that are rare or running out" },
+        { "term": "Loss aversion", "definition": "The psychological weight of losing something feels roughly twice as strong as gaining the same thing" }
+      ],
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": "A single golden apple under a glass dome in a minimalist room, dramatic single spotlight, empty pedestals surrounding it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it hijacks your brain",
+      "body": "Scarcity triggers loss aversion: we hate losing out more than we love gaining something new. When you see 'Only 3 left,' your brain skips past 'Do I want this?' and jumps straight to 'Will I regret not acting?' That shift moves the decision from your slow, logical system to your fast, emotional one — which is exactly where marketers want it.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A stylized split illustration of the human brain, one half calm blue and analytical, the other half red and alarmed, shopping cart icons floating around"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The cookie jar experiment",
+      "body": "In a classic 1975 study, researchers gave subjects cookies from a jar. Cookies from a jar with only two remaining were rated tastier than identical cookies from a jar of ten — and even tastier when the experimenter had just removed cookies in front of them. The cookies hadn't changed. The cue had. Amazon, Booking, and Shopify all run versions of this experiment on you every day.",
+      "funFact": "A 2018 study found that 'low-stock' warnings on e-commerce sites lift conversion rates by an average of 32%.",
+      "visual": {
+        "sfSymbol": "cart.fill",
+        "imagePrompt": "A glass cookie jar with two cookies remaining on a kitchen counter, warm afternoon light, a hand reaching hesitantly"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Naming the pull breaks the spell",
+      "body": "You can't turn off the reflex — it's too old and too deep. But you can slow it down. Next time a site screams 'Only 1 left,' ask yourself: would I buy this at this price if the label said '47 in stock'? If not, the label was the product.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to Cialdini, scarcity makes things seem…",
+      "options": ["Cheaper", "More desirable", "Less trustworthy", "More complicated"],
+      "correctIndex": 1,
+      "explanation": "The scarcity principle says we assign more value to items that are rare or diminishing."
+    },
+    {
+      "index": 1,
+      "question": "What psychological mechanism makes scarcity cues so powerful?",
+      "options": [
+        "Mirror neurons",
+        "Loss aversion",
+        "Anchoring bias",
+        "Confirmation bias"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loss aversion — the pain of losing out weighs heavier than the pleasure of gaining — supercharges scarcity warnings."
+    },
+    {
+      "index": 2,
+      "question": "In the 1975 cookie-jar study, what increased how tasty the cookies seemed?",
+      "options": [
+        "Adding sugar",
+        "Reducing how many were available",
+        "Heating them up",
+        "Letting people choose their own"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cookies from a nearly empty jar — especially one emptied in front of the participant — were rated tastier than identical ones from a full jar."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "publisher": "Harper Business (Robert Cialdini)",
+      "year": 1984
+    },
+    {
+      "title": "Effects of deal scarcity on consumer online purchase intention",
+      "publisher": "Journal of Retailing and Consumer Services",
+      "year": 2018
+    }
+  ],
+
+  "related": ["loss-aversion", "urgency-marketing", "foot-in-the-door"]
+}

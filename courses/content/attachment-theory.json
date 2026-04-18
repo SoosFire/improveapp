@@ -1,0 +1,131 @@
+{
+  "id": "attachment-theory",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Attachment Theory",
+    "teaser": "Why the way you were held as a baby can echo through your relationships for a lifetime.",
+    "category": "Parenting",
+    "subcategories": ["Child Development", "Psychology"],
+    "tags": ["attachment", "bonding", "infants", "psychology", "relationships"],
+    "emoji": "🤱",
+    "accentColor": "#E8A798",
+    "coverSymbol": {
+      "sfSymbol": "figure.and.child.holdinghands",
+      "fallbackEmoji": "🤱"
+    },
+    "coverImagePrompt": "A parent cradling a sleeping infant against their chest in warm lamplight, tiny fingers wrapped around a thumb, soft focus, painterly, emotionally tender"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A question in a lab of wire mothers",
+      "body": "In the 1950s, psychologist Harry Harlow gave baby monkeys a choice between two 'mothers': a wire frame that dispensed milk, and a soft cloth figure that gave none. The babies drank from the wire, but spent nearly all day clinging to the cloth. That unsettling image rewrote what scientists believed love was for.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "A tiny rhesus monkey clinging tightly to a soft terrycloth surrogate mother in a 1950s laboratory, desaturated vintage color"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Four styles, one big idea",
+      "body": "British psychologist John Bowlby and his student Mary Ainsworth proposed that babies form an 'attachment' to their primary caregiver — a built-in survival system. Ainsworth's famous 'Strange Situation' experiments revealed four patterns: secure, anxious, avoidant, and disorganized. Each one is a learned strategy for getting needs met from an imperfect adult.",
+      "keyTerms": [
+        { "term": "Secure attachment", "definition": "Child trusts that the caregiver will reliably respond" },
+        { "term": "Strange Situation", "definition": "A 20-minute lab test watching how a toddler reacts to brief separations" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "A toddler crawling back to a seated mother in a sunlit observation room, one-way mirror faintly visible"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the pattern sticks",
+      "body": "By age one, most babies have already built an 'internal working model' — a rough map of whether people can be trusted to show up. The brain uses this map as a shortcut for decades. That's why someone with anxious attachment may text three times when a partner goes quiet, while an avoidant partner pulls away when things get too close.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A softly glowing neural map inside a silhouette of a child's head, warm pastel tones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It's not destiny",
+      "body": "The Minnesota Longitudinal Study tracked children from birth into their 30s and found attachment in infancy predicted friendship quality, emotional regulation, and even romantic satisfaction — but imperfectly. Roughly 30% of people shift categories over a lifetime. Therapy, a stable partner, or becoming a parent yourself can rewrite the map.",
+      "funFact": "Adults asked to describe their childhood in a structured interview can be classified into attachment styles with about 75% accuracy — based on how they tell the story, not what happened in it.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A hand-drawn longitudinal chart with children's faces at different ages along a life timeline"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Good enough is enough",
+      "body": "You don't need to be a perfect caregiver — just a 'good enough' one. Research shows babies only need caregivers to respond sensitively about 30% of the time to form secure attachment. The misattunements, and the repair that follows, are part of what teaches a child that love survives rupture.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Harlow's monkeys prefer — the wire mother or the cloth mother?",
+      "options": [
+        "The wire mother, because she gave milk",
+        "The cloth mother, even without milk",
+        "They had no preference",
+        "They avoided both"
+      ],
+      "correctIndex": 1,
+      "explanation": "The monkeys spent nearly all their time clinging to the cloth surrogate, suggesting comfort — not just food — is a core need."
+    },
+    {
+      "index": 1,
+      "question": "Who designed the 'Strange Situation' experiment?",
+      "options": ["John Bowlby", "Sigmund Freud", "Mary Ainsworth", "B.F. Skinner"],
+      "correctIndex": 2,
+      "explanation": "Mary Ainsworth developed the Strange Situation in the 1960s to classify toddler attachment styles."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how often must a caregiver respond sensitively for a secure attachment to form?",
+      "options": ["About 10%", "About 30%", "About 70%", "Nearly 100%"],
+      "correctIndex": 1,
+      "explanation": "Research suggests about 30% is enough — 'good enough' parenting, not perfection, is what builds secure attachment."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Patterns of Attachment: A Psychological Study of the Strange Situation",
+      "publisher": "Lawrence Erlbaum Associates",
+      "year": 1978
+    },
+    {
+      "title": "The Development of the Person: The Minnesota Study of Risk and Adaptation from Birth to Adulthood",
+      "publisher": "Guilford Press",
+      "year": 2005
+    }
+  ],
+
+  "related": ["marshmallow-test", "terrible-twos-explained", "why-babies-cry-at-night"]
+}

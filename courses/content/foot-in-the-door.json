@@ -1,0 +1,141 @@
+{
+  "id": "foot-in-the-door",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Foot-in-the-Door Technique",
+    "teaser": "Say yes to something tiny, and you're four times more likely to say yes to something huge. Why?",
+    "category": "Marketing",
+    "subcategories": ["Psychology", "Persuasion"],
+    "tags": ["persuasion", "psychology", "marketing", "influence"],
+    "emoji": "🚪",
+    "accentColor": "#6A1B9A",
+    "coverSymbol": {
+      "sfSymbol": "door.left.hand.open",
+      "fallbackEmoji": "🚪"
+    },
+    "coverImagePrompt": "A close-up of a vintage front door slightly ajar, a single polished dress shoe wedged in the crack, warm hallway light spilling out, cinematic film-noir style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A small yes, a big yes",
+      "body": "A stranger asks you to sign a petition. Easy — you sign. Two weeks later, they're back asking if you'll let them plant a huge billboard in your front yard. You laugh… and then you say yes. Why on earth would anyone agree to that? Because your brain already filed you as 'the kind of person who says yes.'",
+      "visual": {
+        "sfSymbol": "signature",
+        "imagePrompt": "A hand signing a clipboard petition on a suburban porch, soft morning light, warm colors"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The technique, named",
+      "body": "The foot-in-the-door technique is a compliance trick: start with a request so small it's almost rude to refuse, then follow up with the real ask. The small request is the wedge; the big one is the door. The principle works because humans hunger for self-consistency.",
+      "keyTerms": [
+        { "term": "Foot-in-the-door", "definition": "A compliance technique where a small initial request precedes a much larger one" },
+        { "term": "Self-perception theory", "definition": "We infer our attitudes from our own behavior — we become the person our actions describe" }
+      ],
+      "visual": {
+        "sfSymbol": "shoeprints.fill",
+        "imagePrompt": "An illustrative diagram showing two footsteps approaching a door, the first small and light, the second large and confident"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "You tell yourself a story",
+      "body": "Once you've said yes to something small — 'Sure, I'll sign' — your brain updates its self-image. You're now 'someone who cares about this cause.' When the bigger request arrives, refusing would mean contradicting the person you just decided you are. So you comply. The wedge wasn't pressure — it was identity.",
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "A stylized mirror showing a person looking at their own reflection wearing a slightly different outfit, gentle transition between the two"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The billboard that started it all",
+      "body": "In a 1966 study by Freedman and Fraser, Californian homeowners were asked to host a massive, ugly 'DRIVE CAREFULLY' billboard on their lawns. Only 17% of those approached cold said yes. But in a group asked two weeks earlier to place a tiny safety sticker in their window? A staggering 76% agreed to the billboard. Same request, four times the compliance.",
+      "funFact": "Salespeople, charity fundraisers, and subscription apps all use this: 'Can I just ask you one question?' is rarely really about one question.",
+      "visual": {
+        "sfSymbol": "house.fill",
+        "imagePrompt": "A 1960s suburban front lawn with a giant 'DRIVE CAREFULLY' billboard awkwardly installed, neighbors peeking from behind curtains, muted film photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Notice the wedge",
+      "body": "Foot-in-the-door is everywhere: free trials before subscriptions, micro-commitments before upsells, two-question surveys before donation asks. The technique isn't evil — sometimes the big ask is worth saying yes to. But when you feel a series of small yeses building, pause. Ask what door is slowly opening behind it.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the foot-in-the-door technique rely on?",
+      "options": [
+        "Intimidation",
+        "Bribing the target with rewards",
+        "A small initial yes leading to a bigger one",
+        "Timing the request during lunch"
+      ],
+      "correctIndex": 2,
+      "explanation": "The technique starts with a small, easy-to-accept request and then escalates to the real ask."
+    },
+    {
+      "index": 1,
+      "question": "Which theory best explains why it works?",
+      "options": [
+        "Loss aversion",
+        "Self-perception theory",
+        "Cognitive dissonance reduction through denial",
+        "Operant conditioning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once we act, we infer a matching self-image — and then feel pressure to stay consistent with that new identity."
+    },
+    {
+      "index": 2,
+      "question": "In the 1966 billboard study, compliance with the big request roughly…",
+      "options": [
+        "Stayed the same",
+        "Halved",
+        "Quadrupled",
+        "Dropped to zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Homeowners who had first agreed to a tiny safety sticker were about four times more likely to allow the large billboard."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Compliance Without Pressure: The Foot-in-the-Door Technique",
+      "publisher": "Journal of Personality and Social Psychology (Freedman & Fraser)",
+      "year": 1966
+    },
+    {
+      "title": "Influence: The Psychology of Persuasion",
+      "publisher": "Harper Business (Robert Cialdini)",
+      "year": 1984
+    }
+  ],
+
+  "related": ["scarcity-principle", "door-in-the-face", "commitment-consistency"]
+}

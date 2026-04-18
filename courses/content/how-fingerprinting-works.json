@@ -1,0 +1,136 @@
+{
+  "id": "how-fingerprinting-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Fingerprints Caught Criminals",
+    "teaser": "Every fingertip is a one-in-a-billion signature. How did we turn a smudge on a glass into courtroom evidence?",
+    "category": "Criminology",
+    "subcategories": ["Forensics", "History of Crime"],
+    "tags": ["fingerprints", "forensics", "detection", "biometrics", "history"],
+    "emoji": "🔍",
+    "accentColor": "#2E5266",
+    "coverSymbol": {
+      "sfSymbol": "hand.raised.fill",
+      "fallbackEmoji": "🖐️"
+    },
+    "coverImagePrompt": "A close-up of a detective's gloved hand dusting a dark glass tumbler with fine aluminum powder, a ghostly fingerprint emerging under warm desk lamp light, cinematic noir, shallow focus, vintage evidence bag blurred in background"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The smudge that hanged a killer",
+      "body": "In 1905, two elderly shopkeepers in Deptford, London, were found beaten to death. The only clue was a greasy thumbprint on an empty cash box. It was the first time in British history a fingerprint alone would send someone to the gallows — and it launched a revolution in how crimes are solved.",
+      "visual": {
+        "sfSymbol": "shippingbox.fill",
+        "imagePrompt": "A dented metal cash box on a Victorian shop counter, a single oily thumbprint visible on its lid, dim gaslight atmosphere"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why no two prints match",
+      "body": "Fingerprints form in the womb between weeks 10 and 24, shaped by random pressure on fetal skin as the baby grows. Even identical twins — who share DNA — have different ridge patterns. The three basic shapes are loops, whorls, and arches, but it's the tiny break points called minutiae that make each print unique.",
+      "keyTerms": [
+        { "term": "Minutiae", "definition": "The tiny ridge endings and bifurcations that make each print individually identifiable" },
+        { "term": "Dermal papillae", "definition": "The skin layer beneath the fingertip that carries the permanent ridge pattern" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "A macro photograph of a fingerprint with minutiae highlighted by glowing red dots, scientific overlay style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "From Argentina to Scotland Yard",
+      "body": "The first recorded fingerprint conviction happened in 1892 in Argentina, when police inspector Juan Vucetich matched a bloody thumbprint on a doorpost to a mother who had murdered her own two children. Scotland Yard adopted the Henry Classification System in 1901, sorting prints into ten categories so detectives could actually search their files — no small feat in a pre-computer world.",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "A 1900s-era Scotland Yard archive room, wooden drawers of paper fingerprint cards stretching into shadow, single hanging lamp"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How latent prints are lifted today",
+      "body": "Most prints at a crime scene are 'latent' — invisible until developed. Investigators use fine powders on hard surfaces, cyanoacrylate (superglue) fuming on porous ones, and ninhydrin on paper, which turns amino acids from sweat a bright purple. Modern AFIS databases then compare an unknown print against tens of millions of stored records in seconds.",
+      "funFact": "Koalas have fingerprints so similar to humans' that they've reportedly confused forensic investigators at Australian crime scenes.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "A purple-stained paper document under UV light revealing vivid fingerprints, laboratory setting with gloved hands"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not quite as perfect as TV suggests",
+      "body": "Fingerprint matching isn't actually a hard science — it relies on a trained examiner's judgment. Studies since the 2000s have shown error rates of around 0.1%, and several wrongful convictions have been traced back to mistaken matches. The ridges on your fingers may be unique, but the humans reading them are not infallible.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "When do fingerprint patterns form?",
+      "options": [
+        "At birth, from contact with air",
+        "Between weeks 10 and 24 of fetal development",
+        "During the first year of life",
+        "They change continuously with age"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ridge patterns are set in the womb by random pressure on developing fetal skin, which is why even identical twins have different prints."
+    },
+    {
+      "index": 1,
+      "question": "What are 'minutiae' in fingerprint analysis?",
+      "options": [
+        "The three main pattern types (loop, whorl, arch)",
+        "Powders used to reveal latent prints",
+        "Small ridge endings and forks that individualize a print",
+        "The sweat residues left behind on surfaces"
+      ],
+      "correctIndex": 2,
+      "explanation": "Minutiae are the small break points and bifurcations in ridges that examiners compare to declare a match."
+    },
+    {
+      "index": 2,
+      "question": "Which substance reveals fingerprints on paper by reacting with amino acids?",
+      "options": ["Luminol", "Ninhydrin", "Aluminum powder", "Cyanoacrylate"],
+      "correctIndex": 1,
+      "explanation": "Ninhydrin turns amino acids from sweat a vivid purple, making it ideal for porous surfaces like paper."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Suspect Identities: A History of Fingerprinting and Criminal Identification",
+      "publisher": "Harvard University Press",
+      "year": 2001
+    },
+    {
+      "title": "Accuracy and reliability of forensic latent fingerprint decisions",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2011
+    }
+  ],
+
+  "related": ["dna-evidence", "eyewitness-testimony-psychology", "why-lie-detectors-dont-work"]
+}

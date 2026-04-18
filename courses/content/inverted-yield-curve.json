@@ -1,0 +1,142 @@
+{
+  "id": "inverted-yield-curve",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Inverted Yield Curve: Recession Warning",
+    "teaser": "When short-term bonds pay more than long-term ones, something is very wrong. A recession has followed every time — almost.",
+    "category": "Finance",
+    "subcategories": ["Macroeconomics", "Bonds"],
+    "tags": ["bonds", "recession", "macro", "yield", "fed"],
+    "emoji": "📉",
+    "accentColor": "#6A4C93",
+    "coverSymbol": {
+      "sfSymbol": "chart.xyaxis.line",
+      "fallbackEmoji": "📉"
+    },
+    "coverImagePrompt": "A clean financial chart on a dark terminal-style background showing a yield curve bending downward, glowing blue lines, moody and technical"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The signal that makes economists nervous",
+      "body": "Every time the 10-year Treasury yield has dropped below the 2-year yield for a sustained stretch since the 1960s, a U.S. recession has followed within about 6 to 24 months. Every single time. Except possibly once. That's why when the curve inverts, you hear market analysts suddenly getting very quiet on live TV.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "A jagged line chart of treasury yields on a dark Bloomberg-style terminal screen"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the 'yield curve' even is",
+      "body": "Government bonds come in many time-lengths: 3 months, 2 years, 10 years, 30 years. Plot the interest rate each one pays on a line and you get the yield curve. Normally it slopes up — longer-term bonds pay more because you're locking your money up for longer and taking on more uncertainty.",
+      "keyTerms": [
+        { "term": "Yield", "definition": "The annual return you earn on a bond, expressed as a percentage" },
+        { "term": "Treasury bond", "definition": "Debt issued by the U.S. government, considered extremely safe" },
+        { "term": "Yield curve", "definition": "A chart plotting bond yields across different maturities" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "A clean diagram showing a normal upward-sloping yield curve labeled 3M, 2Y, 10Y, 30Y"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why an inversion is weird",
+      "body": "An inversion happens when short-term yields rise above long-term yields — meaning the market thinks short-term rates will drop later. Why would rates drop? Usually because the Federal Reserve will be forced to cut them to rescue a slowing economy. So an inverted curve is the bond market quietly saying: we expect a downturn, and rate cuts, within a few years.",
+      "visual": {
+        "sfSymbol": "arrow.down.right",
+        "imagePrompt": "A yield curve dipping downward, with 2Y higher than 10Y, red warning glow"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The track record",
+      "body": "Research by the San Francisco Fed shows the 10-year minus 3-month spread has inverted before every U.S. recession since 1955, with only one false signal in the mid-1960s. The average lead time is around 12 months. It doesn't say how bad the recession will be — only that the market thinks one is coming.",
+      "funFact": "Economist Campbell Harvey put the indicator on the map in his 1986 PhD thesis — before that, it was just a weird statistical oddity.",
+      "visual": {
+        "sfSymbol": "calendar.badge.exclamationmark",
+        "imagePrompt": "A timeline showing U.S. recessions as red bars with yield-curve inversions marked just before each"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A weather forecast, not a verdict",
+      "body": "The inverted curve is a signal, not a cause. It reflects thousands of traders betting real money on the future of the economy. Predictions can still be wrong — especially when central banks intervene in unusual ways — but when a warning that old and that accurate starts flashing, smart investors pay attention rather than argue with it.",
+      "visual": {
+        "sfSymbol": "cloud.bolt.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does an inverted yield curve mean?",
+      "options": [
+        "Long-term yields are higher than short-term yields",
+        "Short-term yields are higher than long-term yields",
+        "All yields are zero",
+        "Government bonds have been defaulted on"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inversion means short-term bonds are paying more interest than long-term ones — the opposite of normal."
+    },
+    {
+      "index": 1,
+      "question": "Why does an inverted curve hint at a recession?",
+      "options": [
+        "It shows investors lost faith in the currency",
+        "It implies the market expects future rate cuts, usually to fight a slowdown",
+        "It forces banks to stop lending",
+        "It's required by law during recessions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inversions usually mean the market expects the Fed to cut rates — which typically happens during downturns."
+    },
+    {
+      "index": 2,
+      "question": "How reliable has the signal been historically?",
+      "options": [
+        "It has predicted every U.S. recession since 1955 with almost no false alarms",
+        "It predicts about half of recessions",
+        "It has never worked",
+        "Only works in Europe, not the U.S."
+      ],
+      "correctIndex": 0,
+      "explanation": "The 10-year minus 3-month version has preceded nearly every U.S. recession since 1955, with one known false signal."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Yield Curve as a Leading Indicator: Some Practical Issues",
+      "publisher": "Federal Reserve Bank of New York",
+      "year": 2006
+    },
+    {
+      "title": "Information in the Yield Curve about Future Recessions",
+      "publisher": "Federal Reserve Bank of San Francisco",
+      "year": 2018
+    }
+  ],
+
+  "related": ["index-funds-explained", "emergency-fund-math", "federal-reserve-basics"]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "method-acting",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Method Acting",
+    "teaser": "Why do some actors live as their characters for months — and does it actually make the performance better?",
+    "category": "Theater & Drama",
+    "subcategories": ["Acting Technique", "Performance"],
+    "tags": ["acting", "stanislavski", "psychology", "film", "craft"],
+    "emoji": "🎭",
+    "accentColor": "#6B4226",
+    "coverSymbol": {
+      "sfSymbol": "person.fill",
+      "fallbackEmoji": "🎬"
+    },
+    "coverImagePrompt": "An actor studying a mirror in a dim dressing room, costume half-on, a single bare bulb casting shadows, face caught between their own identity and the character's, cinematic, melancholic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Living the role",
+      "body": "Daniel Day-Lewis learned to skin animals for The Last of the Mohicans. Adrien Brody starved himself and sold his apartment to play a Holocaust survivor. Robert De Niro gained 60 pounds for Raging Bull — then waited months for his body to change before filming the later scenes. Is this genius, madness, or marketing?",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "An actor alone on a dark stage, eyes closed, bathed in a single harsh spotlight, sweat and intensity"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'The Method' really is",
+      "body": "Method acting traces back to Constantin Stanislavski, a Russian director who in the early 1900s rejected the flamboyant, declamatory acting of his era. He trained actors to draw on personal memory — 'emotional recall' — to produce real feelings on stage. American teacher Lee Strasberg pushed this further at the Actors Studio in New York, creating what audiences now call 'The Method.'",
+      "keyTerms": [
+        { "term": "Emotional Recall", "definition": "Summoning a real personal memory to trigger a genuine emotion on stage" },
+        { "term": "Sense Memory", "definition": "Recreating physical sensations — cold, taste, pain — to anchor the scene" },
+        { "term": "The Actors Studio", "definition": "The NYC workshop where Strasberg codified the Method from 1951 onward" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A vintage Moscow Art Theatre rehearsal, actors in a circle, Stanislavski in a dark suit holding a notebook"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three schools, one name",
+      "body": "Confusingly, 'Method acting' actually splits into three rival lineages from students who fought bitterly. Strasberg pushed emotional recall and psychological deep-dives. Stella Adler hated that — she argued imagination was more powerful than trauma mining. Sanford Meisner focused on 'living truthfully under imaginary circumstances,' drilling actors in reactive listening. Marlon Brando studied under Adler. Robert De Niro studied with Strasberg. Different methods, same icon status.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Three portraits side by side — Strasberg, Adler, Meisner — in 1950s New York acting-studio lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Does it actually work?",
+      "body": "Studies on actor physiology show that Method performers can genuinely produce stress hormones, elevated heart rates, and altered brain activity while 'in character.' A 2019 McMaster University study scanned actors playing Romeo and Juliet and found measurable suppression of their own self-identity regions. But the same research warns of psychological bleed — some actors report months of depression after heavy roles, a phenomenon called 'post-dramatic stress.'",
+      "funFact": "Heath Ledger famously kept a journal in character as the Joker for The Dark Knight. Some scholars cite the intensity of that immersion as a factor in his declining mental state before his death.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "An actor with EEG sensors on their scalp performing a monologue, waveform readouts on screens behind them"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Brilliance or showbiz myth?",
+      "body": "Critics like Laurence Olivier famously mocked the Method — he allegedly told Dustin Hoffman, who'd stayed awake for days to look exhausted in Marathon Man, 'Dear boy, why don't you just try acting?' The truth is murkier. Method techniques have produced undeniable performances, but so have traditional approaches. What the Method really changed was the cultural belief that acting is a craft of soul-excavation, not just face-making.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Whose early-1900s teachings did the Method grow out of?",
+      "options": ["Bertolt Brecht", "Constantin Stanislavski", "Antonin Artaud", "Jerzy Grotowski"],
+      "correctIndex": 1,
+      "explanation": "Stanislavski's system at the Moscow Art Theatre was the root — American teachers adapted and renamed it."
+    },
+    {
+      "index": 1,
+      "question": "Which teacher rejected Strasberg's emotional recall in favor of imagination?",
+      "options": ["Stella Adler", "Lee Strasberg", "Sanford Meisner", "Uta Hagen"],
+      "correctIndex": 0,
+      "explanation": "Adler argued that mining personal trauma was both unhealthy and unnecessary — the imagination was enough."
+    },
+    {
+      "index": 2,
+      "question": "What did Laurence Olivier reportedly say to Dustin Hoffman about Method extremes?",
+      "options": [
+        "'You're a visionary, dear boy.'",
+        "'Why don't you just try acting?'",
+        "'The body never lies.'",
+        "'We must suffer for art.'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The quip — whether Olivier actually said it or not — became shorthand for the classical-vs-Method debate."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An Actor Prepares",
+      "publisher": "Constantin Stanislavski / Theatre Arts Books",
+      "year": 1936
+    },
+    {
+      "title": "Dropping the Self: A Study of Actors Performing",
+      "publisher": "Royal Society Open Science (McMaster University)",
+      "year": 2019
+    }
+  ],
+
+  "related": ["three-act-structure", "stanislavski-system", "theater-masks-symbol"]
+}

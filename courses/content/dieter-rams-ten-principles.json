@@ -1,0 +1,136 @@
+{
+  "id": "dieter-rams-ten-principles",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Dieter Rams's 10 Principles of Good Design",
+    "teaser": "Why your iPhone looks the way it does — and the quiet German who wrote the rulebook fifty years ago.",
+    "category": "Design",
+    "subcategories": ["Product Design", "Industrial Design"],
+    "tags": ["dieter-rams", "minimalism", "braun", "apple", "industrial-design"],
+    "emoji": "🪑",
+    "accentColor": "#D9D4C7",
+    "coverSymbol": {
+      "sfSymbol": "square.grid.3x3.fill",
+      "fallbackEmoji": "📐"
+    },
+    "coverImagePrompt": "A minimalist arrangement of a Braun T3 radio, a calculator, and a record player on a pale oak shelf in soft diffused daylight, editorial still-life photography, warm beige tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The man behind the shape of everything",
+      "body": "Pick up your phone. Look at your calculator app, your podcast player, your music controls. Odds are almost every one of them traces its visual DNA back to a single desk in Kronberg, Germany, where a man named Dieter Rams shaped the electronics company Braun for four decades. Jony Ive has called him 'the only designer I truly admired.'",
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": "A black-and-white photograph of Dieter Rams at his minimalist workbench in the 1970s, surrounded by Braun prototypes"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The ten commandments",
+      "body": "In the late 1970s, uneasy about the clutter of the design world, Rams wrote out ten principles to ask himself whether his work was actually 'good.' Good design, he said, is innovative, useful, aesthetic, understandable, unobtrusive, honest, long-lasting, thorough down to the last detail, environmentally friendly, and — famously — 'as little design as possible.'",
+      "keyTerms": [
+        { "term": "Less, but better", "definition": "Rams's personal motto: 'Weniger, aber besser' — reduce to the essential, then perfect it" },
+        { "term": "Good design is honest", "definition": "A product should not pretend to be more innovative, powerful, or valuable than it is" }
+      ],
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "A numbered list 1 through 10 arranged on a clean white poster in helvetica, subtle grid background, Swiss design style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Apple connection",
+      "body": "In the late 1990s, a young Jony Ive at Apple studied Braun's catalog like scripture. The iPod's click wheel echoes Braun's T3 pocket radio. The Calculator app is nearly identical to Braun's ET66. iOS iconography, the shelves of the Mac Pro, the Power Mac G5 — all are visual conversations with Rams's work. Apple's entire aesthetic is, in a sense, Rams paid forward.",
+      "visual": {
+        "sfSymbol": "apple.logo",
+        "imagePrompt": "A side-by-side image of a Braun T3 radio and an original iPod, identical silhouettes, museum lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why the principles still hold",
+      "body": "A 2021 retrospective at the Vitra Design Museum argued Rams's principles have aged better than almost any design philosophy of the 20th century because they're ethical, not stylistic. Principle nine — 'environmentally friendly' — was added in 1984, decades before sustainability became a design buzzword. 'Good design,' Rams insisted, 'makes a product useful.' That's a standard even AI-designed interfaces still struggle to meet.",
+      "funFact": "Rams's own home, preserved in Kronberg, still contains the same furniture and appliances he chose in 1971 — living proof of his principle of longevity.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A weathered Braun SK4 radio from 1956 still functioning on a modern desk, timeless design juxtaposition"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A test, not a style",
+      "body": "Rams didn't give designers a look — he gave them ten questions. Is this useful? Is it honest? Will it last? Can you remove more? You can apply the same checklist to software, furniture, slide decks, or a cover letter. The style changes; the questions don't.",
+      "visual": {
+        "sfSymbol": "checkmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was Dieter Rams's famous motto?",
+      "options": [
+        "Form follows function",
+        "Less, but better",
+        "Good artists copy, great artists steal",
+        "Beauty is truth"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Weniger, aber besser' — 'less, but better' — summarized Rams's entire philosophy."
+    },
+    {
+      "index": 1,
+      "question": "Which Apple product is often compared directly to Rams's Braun T3 pocket radio?",
+      "options": ["The Mac Pro", "The iPod", "The Apple Watch", "The Magic Mouse"],
+      "correctIndex": 1,
+      "explanation": "The original iPod's silhouette, click wheel, and proportions clearly echo Rams's 1958 T3 radio."
+    },
+    {
+      "index": 2,
+      "question": "Which principle did Rams add in 1984, decades ahead of the industry?",
+      "options": [
+        "Good design is innovative",
+        "Good design is environmentally friendly",
+        "Good design is aesthetic",
+        "Good design is honest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rams added environmental friendliness as his ninth principle in 1984, long before sustainability became mainstream in design."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Less but Better / Weniger aber besser",
+      "publisher": "Gestalten (Dieter Rams)",
+      "year": 1995
+    },
+    {
+      "title": "Dieter Rams: The Complete Works",
+      "publisher": "Phaidon (Klemp & Ueki-Polet)",
+      "year": 2020
+    }
+  ],
+
+  "related": ["fitts-law", "swiss-design-style", "jony-ive-apple-design"]
+}

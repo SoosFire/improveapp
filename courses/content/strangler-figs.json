@@ -1,0 +1,141 @@
+{
+  "id": "strangler-figs",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Fig That Strangles Trees",
+    "teaser": "It starts life as a single seed in a bird dropping — and ends it as a killer wearing another tree's ghost.",
+    "category": "Botany",
+    "subcategories": ["Tropical Ecology", "Tree Biology"],
+    "tags": ["strangler-fig", "rainforest", "ecology", "symbiosis", "botany"],
+    "emoji": "🌳",
+    "accentColor": "#4E6B3A",
+    "coverSymbol": {
+      "sfSymbol": "tree.fill",
+      "fallbackEmoji": "🌴"
+    },
+    "coverImagePrompt": "A towering strangler fig with a hollow cathedral-like interior where its host tree used to stand, dappled rainforest light filtering through aerial roots, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A tree that lives on top of other trees",
+      "body": "Deep in a tropical rainforest, walk up to a strangler fig and you'll see something bizarre: a towering, braided column of wood with a hollow cathedral inside it. The fig isn't growing around nothing. It's growing around a ghost — the rotted-out shell of a tree it slowly suffocated over a century.",
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "Looking up through the hollow trunk of an ancient strangler fig at a bright patch of jungle sky"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Starting life in the sky",
+      "body": "A strangler fig doesn't sprout from the ground. Its seed is swallowed by a bird or bat, passed out onto a branch high in the canopy, and there — in a crumb of moss and bark — the seedling germinates. It's a smart move. The rainforest floor is dim; the canopy is flooded with light.",
+      "keyTerms": [
+        { "term": "Epiphyte", "definition": "A plant that grows on another plant without being a parasite" },
+        { "term": "Hemiepiphyte", "definition": "A plant that starts life as an epiphyte but later connects to the soil" }
+      ],
+      "visual": {
+        "sfSymbol": "bird.fill",
+        "imagePrompt": "A tropical bird perched on a high rainforest branch dropping a seed onto mossy bark"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The slow siege",
+      "body": "The fig first grows downward. It drapes long aerial roots along the host tree's trunk until they finally touch soil, where they thicken and fuse into a living lattice. Now the race is on. The fig's roots cage the host, competing for water below. Its leaves spread above the host's canopy, stealing light. Its trunk, woven like a basket, squeezes tighter every year. The host — often a perfectly healthy tree — starves.",
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "Time-lapse illustration showing a strangler fig gradually encasing a host tree over decades, multiple panels"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The hollow throne",
+      "body": "Eventually the host tree dies and decomposes inside the fig's woven trunk. What's left is a free-standing lattice tree with an empty interior large enough to walk into. Ficus aurea in Florida and Ficus macrophylla in Australia are famous for these hollow chambers. Some support hundreds of animal species — bats, snakes, lizards, and more than 1,300 known species of pollinating fig wasp that co-evolved with figs over 70 million years.",
+      "funFact": "Each fig species is usually pollinated by one specific wasp species — one of the most finely tuned partnerships in nature.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A close-up of a fig fruit cross-sectioned to reveal tiny symbiotic wasps inside"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Slow violence, rich reward",
+      "body": "Strangler figs look like villains, but rainforest ecologists call them 'keystone species.' Their fruits feed more animals than almost any other plant, and their hollow trunks become living apartments for dozens of species. Calling them killers is too simple. They are destroyers who leave behind more life than they take.",
+      "visual": {
+        "sfSymbol": "pawprint.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where does a strangler fig seed typically germinate?",
+      "options": [
+        "In deep, moist soil on the forest floor",
+        "On the branch of a host tree, high in the canopy",
+        "Inside a river sediment",
+        "Directly attached to stone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Birds and bats deposit seeds onto branches, where seedlings start life as epiphytes before sending roots down."
+    },
+    {
+      "index": 1,
+      "question": "How does the strangler fig actually kill its host?",
+      "options": [
+        "By injecting toxins into the bark",
+        "By outcompeting the host for light, water, and physical trunk space",
+        "By releasing acid from its roots",
+        "By overheating the host's leaves"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fig outcompetes the host above and below ground and physically constricts its trunk over many years."
+    },
+    {
+      "index": 2,
+      "question": "Why are strangler figs considered keystone species in rainforests?",
+      "options": [
+        "They fix nitrogen for nearby plants",
+        "They produce fruit that feeds many animals and shelter species in their hollows",
+        "They reduce rainfall through transpiration",
+        "They outcompete all invasive species"
+      ],
+      "correctIndex": 1,
+      "explanation": "Their fruits feed countless rainforest animals, and their hollow trunks provide crucial habitat for many species."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Figs as a global centrepiece in plant-animal interactions",
+      "publisher": "Symbiosis",
+      "year": 2015
+    },
+    {
+      "title": "The hemiepiphytic habit: evolution and ecology",
+      "publisher": "Botanical Review",
+      "year": 2003
+    }
+  ],
+
+  "related": ["fig-wasp-symbiosis", "rainforest-canopy", "keystone-species"]
+}

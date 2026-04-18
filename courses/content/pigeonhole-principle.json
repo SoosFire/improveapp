@@ -1,0 +1,126 @@
+{
+  "id": "pigeonhole-principle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Pigeonhole Principle",
+    "teaser": "If you have 13 pigeons and 12 boxes, at least two pigeons share a box. That obvious fact has surprisingly powerful consequences.",
+    "category": "Logic",
+    "subcategories": ["Combinatorics", "Proof Techniques"],
+    "tags": ["math", "combinatorics", "proofs", "dirichlet", "counting"],
+    "emoji": "🕊️",
+    "accentColor": "#B4654A",
+    "coverSymbol": {
+      "sfSymbol": "number",
+      "fallbackEmoji": "🕳️"
+    },
+    "coverImagePrompt": "A wall of 12 wooden pigeonhole mail slots in a vintage post office, with 13 paper scrolls tumbling toward them, warm sepia light, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Obvious — until it isn't",
+      "body": "Stuff 13 pigeons into 12 boxes. At least one box gets two pigeons. That's the whole principle. It sounds like the least impressive theorem in math. But in the right hands, this one sentence proves that two people in London have the exact same number of hairs on their heads — and much stranger things.",
+      "visual": {
+        "sfSymbol": "figure.stand.line.dotted.figure.stand",
+        "imagePrompt": "A playful photograph of a row of vintage wooden post-office boxes with envelopes stuffed into each — one box comically overflowing"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The formal statement",
+      "body": "If n items are placed into k containers and n > k, then at least one container holds more than one item. Mathematicians call this the Dirichlet drawer principle, after the 19th-century German mathematician Peter Gustav Lejeune Dirichlet, who formalized it. The generalized version: with n items in k boxes, some box holds at least ⌈n/k⌉ items.",
+      "keyTerms": [
+        { "term": "Pigeonhole Principle", "definition": "If more items than containers, at least one container must hold multiple items" },
+        { "term": "Dirichlet drawer principle", "definition": "Another name for the same rule, from its formalization by Dirichlet in 1834" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A 3x3 grid of empty boxes with 10 small dots waiting to be placed, one dot glowing to emphasize the forced collision"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Two Londoners, same hair count",
+      "body": "Humans have at most about 150,000 scalp hairs. London has roughly 9 million people. If 'number of hairs' is the box and 'people' are the pigeons, the numbers don't fit — we have far more people than possible hair counts. So at least two Londoners (actually, thousands) must share an exact hair count. You just can't say which two.",
+      "funFact": "The pigeonhole principle proves there are two non-bald people on Earth with the exact same number of hairs — a fact first popularized by the Dutch mathematician Pieter van Musschenbroek in the 1700s.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "An aerial view of a dense London crowd at Piccadilly Circus, stylized as identical dots in sepia, two highlighted in red"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Why mathematicians love it",
+      "body": "The pigeonhole principle is beloved because it proves things exist without telling you where they are. It's used in cryptography (to prove hash collisions), in computer science (to prove lossless compression has limits), and in pure math (Ramsey theory, Dirichlet's theorem on Diophantine approximation). Once you start looking for it, you see the pigeonhole hiding everywhere.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the pigeonhole principle guarantee?",
+      "options": [
+        "That items can always be evenly distributed",
+        "That at least one container holds multiple items when items outnumber containers",
+        "That the number of items equals containers",
+        "That no container is ever empty"
+      ],
+      "correctIndex": 1,
+      "explanation": "When you have more pigeons than pigeonholes, at least one pigeonhole must contain two or more pigeons."
+    },
+    {
+      "index": 1,
+      "question": "Who formalized the principle in its modern form?",
+      "options": ["Euler", "Dirichlet", "Gauss", "Fermat"],
+      "correctIndex": 1,
+      "explanation": "Peter Gustav Lejeune Dirichlet formalized the principle in 1834. In German mathematics it's still often called the Schubfachprinzip (drawer principle)."
+    },
+    {
+      "index": 2,
+      "question": "Why do mathematicians value the pigeonhole principle?",
+      "options": [
+        "It gives explicit constructions",
+        "It proves things exist without identifying them",
+        "It replaces calculus",
+        "It only applies to birds"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's a classic 'existence proof' technique — it shows something must exist, even when we can't point to exactly where."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Beweis des Satzes, dass jede unbegrenzte arithmetische Progression...",
+      "publisher": "Abhandlungen der Berliner Akademie",
+      "year": 1837
+    },
+    {
+      "title": "A Walk Through Combinatorics",
+      "publisher": "World Scientific (Miklós Bóna)",
+      "year": 2017
+    }
+  ],
+
+  "related": ["ramsey-theory", "birthday-paradox", "hash-collisions"]
+}

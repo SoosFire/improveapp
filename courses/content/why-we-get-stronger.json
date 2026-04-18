@@ -1,0 +1,142 @@
+{
+  "id": "why-we-get-stronger",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Lifting Weights Makes You Stronger",
+    "teaser": "The real reason you get stronger isn't your muscles getting bigger — it's your brain learning a new trick.",
+    "category": "Fitness",
+    "subcategories": ["Strength Training", "Physiology"],
+    "tags": ["muscle", "strength", "neural", "training", "hypertrophy"],
+    "emoji": "💪",
+    "accentColor": "#E76F51",
+    "coverSymbol": {
+      "sfSymbol": "figure.strengthtraining.traditional",
+      "fallbackEmoji": "🏋️"
+    },
+    "coverImagePrompt": "A chalk-dusted barbell resting on rubber flooring in a moodily lit gym, low-angle shot, warm tungsten highlights, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The first four weeks are a lie",
+      "body": "In the first month of a new lifting program, people often double their numbers on the bar. It looks like miracle muscle growth — but measure their actual muscle fibers, and almost nothing has changed. Something else is doing the heavy lifting: the nervous system is rewiring itself to fire more muscle at once.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A cinematic shot of a lifter deadlifting, slight blur on movement, gym lit with dramatic side light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Motor units and recruitment",
+      "body": "Your muscles are divided into motor units — bundles of fibers all controlled by a single nerve. When you lift something light, only a few motor units fire. When you lift heavy, your brain recruits more of them at once. Untrained lifters use a surprisingly small fraction of their total motor units, even at max effort.",
+      "keyTerms": [
+        { "term": "Motor unit", "definition": "A nerve plus all the muscle fibers it controls" },
+        { "term": "Recruitment", "definition": "How many motor units your nervous system fires during a lift" },
+        { "term": "Hypertrophy", "definition": "The process of muscle fibers growing larger" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.filled.connected.trianglepath.dotted",
+        "imagePrompt": "An anatomical diagram of a motor neuron branching into muscle fibers, clean medical illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Then the muscle catches up",
+      "body": "After the first month or two of neural gains, progress slows — and this is when actual muscle growth (hypertrophy) takes over. Lifting causes microscopic damage to muscle fibers. Your body repairs them slightly thicker and stronger than before, assuming you eat enough protein and sleep enough. That's why recovery is half the workout.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A microscopic view of muscle fibers, some showing tiny tears being repaired, tinted warm red"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Progressive overload wins",
+      "body": "Decades of sports science converge on one rule: to keep getting stronger, the load has to keep going up. It might be adding two pounds a week, one extra rep, or slightly harder leverage. Without progressive overload, the body adapts to the current stimulus and plateaus. A 2017 meta-analysis of 15 studies found training volume — total weight lifted — was the single best predictor of strength gains.",
+      "funFact": "The legendary Soviet weightlifter Vasily Alekseyev is said to have trained by adding a tiny bit of sand to a bar each day for years — a perfect illustration of overload.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A staircase-shaped chart showing gradually increasing weights on a bar over months"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Train the signal first, then the wire",
+      "body": "Getting stronger isn't one thing — it's two. First your brain learns to turn on more muscle; then the muscle itself grows to match the new demand. That's why novices can make huge jumps quickly, and why seasoned lifters have to grind for every extra pound. Both are strength, just different ingredients of it.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What mostly explains strength gains in a beginner's first month of lifting?",
+      "options": [
+        "Rapid muscle fiber growth",
+        "Neural adaptations — better motor unit recruitment",
+        "Bone density changes",
+        "Changes in lung capacity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early gains come mainly from the nervous system learning to fire more muscle fibers at once."
+    },
+    {
+      "index": 1,
+      "question": "What is hypertrophy?",
+      "options": [
+        "Nerve signal speed",
+        "The process of muscle fibers growing larger",
+        "A type of cardio",
+        "Burning fat during a workout"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hypertrophy is the actual thickening of muscle fibers that follows neural gains."
+    },
+    {
+      "index": 2,
+      "question": "What does 'progressive overload' mean?",
+      "options": [
+        "Lifting to complete failure every set",
+        "Gradually increasing the demand over time",
+        "Using only heavy weights all year",
+        "Never changing the workout"
+      ],
+      "correctIndex": 1,
+      "explanation": "Progressive overload means steadily raising the difficulty — more weight, more reps, or harder leverage."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Neural Adaptations to Resistive Exercise: Mechanisms and Recommendations",
+      "publisher": "Sports Medicine",
+      "year": 2006
+    },
+    {
+      "title": "Dose-Response Relationship Between Weekly Resistance Training Volume and Increases in Muscle Mass",
+      "publisher": "Journal of Sports Sciences",
+      "year": 2017
+    }
+  ],
+
+  "related": ["lactate-threshold", "zone-2-cardio", "protein-timing-myth"]
+}

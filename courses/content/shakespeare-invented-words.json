@@ -1,0 +1,126 @@
+{
+  "id": "shakespeare-invented-words",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Words Shakespeare Invented",
+    "teaser": "Eyeball. Swagger. Lonely. Assassination. One man gave English over 1,700 new words.",
+    "category": "Literature",
+    "subcategories": ["Shakespeare", "Etymology"],
+    "tags": ["shakespeare", "english", "etymology", "language", "renaissance"],
+    "emoji": "🪶",
+    "accentColor": "#7B2D26",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A candlelit Elizabethan writing desk with an inkwell, quill pen, and manuscript pages covered in crossed-out words and new inventions, warm chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "You speak Shakespeare every day",
+      "body": "When you call someone 'lonely,' accuse them of 'swagger,' describe an 'eyeball,' or mention an 'assassination,' you're quoting William Shakespeare. Before him, none of those words appear in any surviving English text. He didn't just write plays — he invented roughly 1,700 new words and hundreds of phrases still in daily use 400 years later.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "Floating glowing Elizabethan script spelling out 'eyeball,' 'lonely,' 'swagger,' 'bedroom' above an open First Folio, warm candlelight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How to invent a word in 1600",
+      "body": "Shakespeare mostly used three tricks. He turned nouns into verbs ('elbow,' 'friend,' 'dog' — suddenly verbs). He stuck prefixes on existing words ('un-' was his favorite, giving us 'undress,' 'unlock,' 'unearthly'). And he smashed words together ('eye' + 'ball,' 'bed' + 'room'). English in 1600 was a language hungry for vocabulary — the printing press had only been around 150 years, and nobody had codified rules yet.",
+      "keyTerms": [
+        { "term": "Compounding", "definition": "Smashing two words together to form a new one — eyeball, bedroom, leapfrog" },
+        { "term": "Conversion", "definition": "Using an existing word as a different part of speech, e.g. turning 'friend' into a verb" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.and.pencil.and.ellipsis",
+        "imagePrompt": "Ink quill scribbling new words onto parchment — 'un-' being added to existing words, cinematic close-up, candlelit"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The phrases you didn't know were his",
+      "body": "'Wild goose chase' (Romeo and Juliet). 'Break the ice' (Taming of the Shrew). 'Heart of gold' (Henry V). 'In a pickle' (The Tempest). 'Green-eyed monster' (Othello). 'Wear your heart on your sleeve' (Othello again). Each of these entered English through his plays and never left. Linguists estimate he coined or popularized over 2,000 phrases that are still idiomatic today.",
+      "visual": {
+        "sfSymbol": "text.quote",
+        "imagePrompt": "Stage curtains parted to reveal glowing Shakespearean phrases floating in mid-air above Elizabethan actors, theatrical lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The number you'll hear, and why it's slippery",
+      "body": "The classic claim is that Shakespeare invented 1,700 words. That number comes from the Oxford English Dictionary, which cites him as the first recorded use for about 1,700 entries. But modern scholars have found earlier appearances for roughly a third of them — they existed in spoken English before he wrote them down. He was likely the first to put many into print, which is almost as powerful: he standardized English.",
+      "funFact": "The word 'assassination' appears for the first time in Macbeth (1606). Shakespeare likely built it from 'assassin,' which English had borrowed from Arabic a few decades earlier.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "An open Oxford English Dictionary page with Shakespeare citations highlighted in multiple entries, library light, close-up detail"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why English still feels like his",
+      "body": "Shakespeare's vocabulary was around 20,000 words — bigger than most of his contemporaries, and staggering for any writer. But the real trick wasn't range. It was that he wrote for thousands of groundlings who couldn't read, meaning every word had to land instantly when spoken aloud. That pressure produced some of the punchiest, most reusable English ever coined. Four centuries later, we're still quoting the results.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Approximately how many words is Shakespeare credited with introducing to English?",
+      "options": ["About 200", "About 1,700", "About 5,000", "About 10,000"],
+      "correctIndex": 1,
+      "explanation": "The Oxford English Dictionary lists roughly 1,700 words where Shakespeare provided the earliest recorded use."
+    },
+    {
+      "index": 1,
+      "question": "Which of these phrases was coined or popularized by Shakespeare?",
+      "options": ["'The early bird gets the worm'", "'Break the ice'", "'A penny saved is a penny earned'", "'Time is money'"],
+      "correctIndex": 1,
+      "explanation": "'Break the ice' first appears in The Taming of the Shrew."
+    },
+    {
+      "index": 2,
+      "question": "Which play gave English the word 'assassination'?",
+      "options": ["Hamlet", "Julius Caesar", "Macbeth", "King Lear"],
+      "correctIndex": 2,
+      "explanation": "Shakespeare coined 'assassination' in Macbeth (1606), building on the existing word 'assassin.'"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Shakespeare's Words: A Glossary and Language Companion",
+      "publisher": "Penguin (David Crystal and Ben Crystal)",
+      "year": 2002
+    },
+    {
+      "title": "The Oxford English Dictionary, Second Edition",
+      "publisher": "Oxford University Press",
+      "year": 1989
+    }
+  ],
+
+  "related": ["unreliable-narrator", "origins-of-english", "printing-press-history"]
+}

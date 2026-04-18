@@ -1,0 +1,136 @@
+{
+  "id": "extremophiles",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Life That Lives in Acid, Fire, and Space",
+    "teaser": "Some microbes thrive at 120°C. Others survive the vacuum of space. A few eat rocks. Earth's toughest tenants might not even be from here.",
+    "category": "Microbiology",
+    "subcategories": ["Astrobiology", "Microbial Ecology"],
+    "tags": ["microbiology", "extremophiles", "astrobiology", "life", "survival"],
+    "emoji": "🦠",
+    "accentColor": "#B8430A",
+    "coverSymbol": {
+      "sfSymbol": "atom",
+      "fallbackEmoji": "🦠"
+    },
+    "coverImagePrompt": "A hydrothermal vent on a black ocean floor with crimson tube worms and hazy sulfur smoke billowing into dark water, cinematic, otherworldly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Life where life shouldn't be",
+      "body": "Boiling acid. The inside of a reactor. The bottom of a glacier. Two kilometers down a South African gold mine. A sealed pouch of salt sitting for 250 million years. Microbiologists keep going to places life should be impossible — and keep finding it already moved in. We call these tenants extremophiles, but they might just be calling us the weird ones.",
+      "visual": {
+        "sfSymbol": "thermometer.sun.fill",
+        "imagePrompt": "A bubbling hot spring in Yellowstone, brilliant orange and green microbial mats along its edges, wide landscape"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A catalog of extremes",
+      "body": "Extremophiles are named for what they love, not what they endure. Thermophiles thrive in heat. Psychrophiles prefer the cold of Antarctic ice. Acidophiles live in pH-1 battery acid. Halophiles grow in brines saltier than the Dead Sea. Radiotrophs shrug off doses that would vaporize a human. These aren't near-death survivors — they're at home.",
+      "keyTerms": [
+        { "term": "Thermophile", "definition": "An organism that thrives at high temperatures, often above 45°C" },
+        { "term": "Halophile", "definition": "An organism adapted to very high salt concentrations" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A clean infographic grid of nine extreme environments — volcanic vent, acidic lake, polar ice, salt flat — each with a little microbe illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How they pull it off",
+      "body": "Heat-loving microbes wind their DNA tighter and use proteins stabilized with extra sulfur bonds. Acid-lovers pump protons out of their cells faster than they leak in. Cold-lovers synthesize antifreeze proteins that bind water and keep ice crystals from stabbing them. Radiation-resistant Deinococcus radiodurans just carries extra copies of its genome — stitching itself back together from shreds within hours.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "Microscopic view of bright pink Deinococcus radiodurans colonies on a petri dish under UV light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Tardigrades in space",
+      "body": "In 2007, researchers strapped dried tardigrades — eight-legged micro-animals — to the outside of a satellite and launched them into orbit. Exposed to hard vacuum and unfiltered solar radiation for ten days, most survived. When rehydrated back on Earth, they walked away. Not bacteria. Small animals. Alive, after being in space, unprotected.",
+      "funFact": "Some extremophile spores can stay dormant but viable for millions of years. If a chunk of Earth rock ever got blasted to Mars by an impact, life might have made the trip along for the ride.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A highly detailed electron-microscope style illustration of a tardigrade with its chubby legs and claws, isolated on dark background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The universe just got bigger",
+      "body": "Every environment we thought was 'too hostile for life' has turned out to host some. That rewrites the odds for the moons of Jupiter and Saturn, whose subsurface oceans are warmer and wetter than we once believed. If life can live in rocks two kilometers under South Africa, then habitable might not mean what you thought.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'thermophile' mean?",
+      "options": [
+        "An organism that loves cold",
+        "An organism that thrives in high heat",
+        "An organism that needs high pressure",
+        "An organism that can't survive below freezing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermophiles thrive at high temperatures, often above 45°C and sometimes beyond 100°C."
+    },
+    {
+      "index": 1,
+      "question": "Which organism famously survived exposure to the vacuum of space?",
+      "options": ["E. coli", "Deinococcus radiodurans", "Tardigrades", "Archaea from geysers"],
+      "correctIndex": 2,
+      "explanation": "In 2007, tardigrades were exposed to space vacuum and radiation — and walked away after rehydration."
+    },
+    {
+      "index": 2,
+      "question": "Why do astrobiologists care about extremophiles?",
+      "options": [
+        "They suggest life could exist in harsh off-Earth environments",
+        "They produce rocket fuel",
+        "They are necessary for space telescopes",
+        "They glow in ultraviolet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extremophiles expand our idea of where life is possible — making moons like Europa and Enceladus much more interesting."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tardigrades survive exposure to space in low Earth orbit",
+      "publisher": "Current Biology",
+      "year": 2008
+    },
+    {
+      "title": "Life in extreme environments",
+      "publisher": "Nature",
+      "year": 2001
+    }
+  ],
+
+  "related": ["bioluminescence", "mariana-trench", "astrobiology-basics"]
+}

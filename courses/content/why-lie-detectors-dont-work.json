@@ -1,0 +1,141 @@
+{
+  "id": "why-lie-detectors-dont-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Lie Detectors Don't Actually Work",
+    "teaser": "Sweat. Heart rate. A scribbling needle. The polygraph looks like science — but guessing a coin flip is barely worse.",
+    "category": "Criminology",
+    "subcategories": ["Forensics", "Psychology"],
+    "tags": ["polygraph", "pseudoscience", "psychology", "interrogation", "deception"],
+    "emoji": "📈",
+    "accentColor": "#3D5A80",
+    "coverSymbol": {
+      "sfSymbol": "waveform.path",
+      "fallbackEmoji": "📈"
+    },
+    "coverImagePrompt": "A vintage polygraph machine scribbling jagged red lines onto scrolling paper, wires snaking to an off-camera chair, dim interrogation-room lighting, noir atmosphere"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The spy who beat the machine",
+      "body": "Aldrich Ames was a CIA officer who sold secrets to the Soviets for nine years. He took two polygraph tests during that period — and passed both. His Russian handlers had given him a memorable piece of advice beforehand: 'Get a good night's sleep, and be nice to the polygrapher.' It worked.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A 1980s government office with a stern man smiling politely at a polygraph examiner, wires attached to his fingers, red-white-and-blue flag faded in the background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the polygraph actually measures",
+      "body": "Despite the name, a polygraph doesn't detect lies. It measures arousal — heart rate, blood pressure, breathing depth, and galvanic skin response (how much your palms sweat). The theory is that lying makes you nervous, and nervousness makes these numbers jump. The assumption baked into the whole technology is that liars are more anxious than truth-tellers.",
+      "keyTerms": [
+        { "term": "Galvanic skin response", "definition": "A measurement of tiny changes in sweat-gland activity on the fingertips" },
+        { "term": "Control Question Test", "definition": "The standard polygraph method that compares reactions to relevant versus irrelevant questions" }
+      ],
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": "A stylized cross-section of a human fingertip with tiny sweat droplets glowing, electrodes attached, medical-illustration aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the logic falls apart",
+      "body": "Innocent people can be terrified of being falsely accused — their heart races, their palms sweat, they fail. Trained liars, psychopaths, and people who genuinely believe their own lies can stay calm and pass. You can also deliberately spike the 'control' questions by biting your tongue or doing mental math, making any later answer look relatively calm by comparison. The signal is real, but what it means is anyone's guess.",
+      "visual": {
+        "sfSymbol": "arrow.up.arrow.down.circle.fill",
+        "imagePrompt": "A split illustration: an anxious innocent person on one side with rising heart-rate graphs, a calm liar on the other with flat graphs, dramatic lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the science says",
+      "body": "In 2003, the US National Academy of Sciences reviewed decades of polygraph research and concluded its accuracy was 'well below perfection' and unsuitable for screening employees. Most academic estimates put real-world accuracy somewhere between 65% and 85% — far from the 95%+ that examiners often advertise. Courts in most US states don't admit polygraph results as evidence at all.",
+      "funFact": "The polygraph was co-invented in 1921 by a medical student named John Larson — who later called it 'a Frankenstein monster' he could not control.",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "A towering stack of academic journals on a desk, one open to a bar chart showing inconsistent polygraph accuracy rates, moody library lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it survives anyway",
+      "body": "Polygraphs persist not because they detect deception, but because they scare people into confessing. In intelligence agencies and police interrogations, the machine works as a prop — the charts and wires make suspects believe they've been caught, and some then admit what the machine could never actually prove. It's theater, backed by just enough science to be dangerous.",
+      "visual": {
+        "sfSymbol": "theatermasks.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does a polygraph actually measure?",
+      "options": [
+        "Brain activity during lying",
+        "Levels of stress hormones in sweat",
+        "Arousal signals like heart rate, breathing, and skin conductance",
+        "Micro-expressions on the face"
+      ],
+      "correctIndex": 2,
+      "explanation": "Polygraphs record physical signs of arousal. They infer deception only indirectly — on the assumption that liars get more nervous."
+    },
+    {
+      "index": 1,
+      "question": "Which agency concluded polygraph accuracy is 'well below perfection'?",
+      "options": [
+        "The FBI",
+        "The US National Academy of Sciences",
+        "The American Psychological Association",
+        "The World Health Organization"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 2003 NAS review found polygraphs unreliable, especially for employee screening."
+    },
+    {
+      "index": 2,
+      "question": "Why do polygraphs still get used despite weak science?",
+      "options": [
+        "They are admissible in all US courts",
+        "The fear of being caught prompts confessions",
+        "Modern machines have 99% accuracy",
+        "Only trained liars can beat them"
+      ],
+      "correctIndex": 1,
+      "explanation": "Their value lies mostly in the psychological pressure they place on suspects, not in detecting deception itself."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Polygraph and Lie Detection",
+      "publisher": "US National Academy of Sciences",
+      "year": 2003
+    },
+    {
+      "title": "Charged with the Crime of Faking It: Polygraphs and the Law",
+      "publisher": "Stanford Law Review",
+      "year": 2018
+    }
+  ],
+
+  "related": ["eyewitness-testimony-psychology", "stockholm-syndrome", "how-fingerprinting-works"]
+}

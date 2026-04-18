@@ -1,0 +1,136 @@
+{
+  "id": "bikeshedding-law",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Meetings Argue About the Bike Shed",
+    "teaser": "A nuclear reactor gets rubber-stamped in ten minutes. The staff bike shed takes an hour. Why?",
+    "category": "Leadership",
+    "subcategories": ["Meetings", "Decision Making"],
+    "tags": ["parkinson", "triviality", "meetings", "focus", "productivity"],
+    "emoji": "🚲",
+    "accentColor": "#5B7C99",
+    "coverSymbol": {
+      "sfSymbol": "bicycle",
+      "fallbackEmoji": "🚲"
+    },
+    "coverImagePrompt": "A cluttered boardroom table covered in blueprints of a nuclear reactor, while six executives intensely debate a small wooden model of a bike shed, cinematic lighting, dry humor, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The ten-million-dollar reactor",
+      "body": "In a famous thought experiment, a committee is asked to approve three things: a £10 million nuclear reactor, a £350 bike shed, and the price of coffee for meetings. Guess which one eats most of the meeting? The bike shed. And then the coffee. The reactor? Approved in minutes. Nobody wanted to sound ignorant about nuclear physics.",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "Split-screen illustration: a massive nuclear reactor blueprint on one side, a humble wooden bike shed on the other, equal screen weight, deadpan visual irony"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Parkinson's forgotten law",
+      "body": "Cyril Northcote Parkinson introduced this in his 1957 book 'Parkinson's Law.' He called it the Law of Triviality: the time a committee spends on any item is inversely proportional to its cost. The less important the topic, the longer the debate. Why? Because everyone feels qualified to have an opinion about small, familiar things.",
+      "keyTerms": [
+        { "term": "Law of Triviality", "definition": "The rule that groups spend disproportionate time on easy-to-grasp, low-impact decisions" },
+        { "term": "Bikeshedding", "definition": "Modern nickname for getting distracted by trivial details instead of solving the real problem" }
+      ],
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A clock face where the minute hand is enormously long and painted over a tiny bike shed, while the hour hand is a short stub near a reactor icon"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why smart people fall for it",
+      "body": "Contributing to a debate feels productive. But when the topic is too complex, most people stay silent — they can't risk looking foolish. When the topic is simple, everyone chimes in. Code reviews about variable names. Design meetings about logo shades. Board discussions about holiday party catering. The trivial stuff is where egos feel safe.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A crowded meeting with speech bubbles piling up around a trivial-looking topic, while a complex one sits silent in the corner, editorial illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From boardrooms to open-source code",
+      "body": "The term 'bikeshedding' entered tech culture in 1999, when FreeBSD developer Poul-Henning Kamp wrote an open letter about it. Reviewing a sleep(1) command consumed the mailing list for days — while genuinely critical architecture decisions passed uncontested. Kamp's email became required reading in engineering teams worldwide.",
+      "funFact": "In Sweden, bikeshedding is called 'cykelställsfråga' — literally 'bike-rack question' — used by journalists to mean a political non-issue that eats the news cycle.",
+      "visual": {
+        "sfSymbol": "terminal.fill",
+        "imagePrompt": "A retro green-on-black computer terminal screen showing an exploding thread of nested email replies, with the subject line 'sleep(1)' highlighted"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Guard the agenda",
+      "body": "Good leaders don't just run meetings — they protect them from bikeshedding. Timebox trivial items. Delegate small decisions to one person, not a group. And when you notice ten minutes vanishing into button colors, ask out loud: 'Is this worth the meeting's time?' Usually the answer is no, and everyone is quietly grateful you said it.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to Parkinson's Law of Triviality, meeting time spent on an item is:",
+      "options": [
+        "Proportional to its cost",
+        "Inversely proportional to its cost",
+        "Random",
+        "Determined by the chair's mood"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cheaper or more trivial the item, the more time the group spends debating it — because everyone feels qualified to weigh in."
+    },
+    {
+      "index": 1,
+      "question": "Who popularized the term 'bikeshedding' in software engineering?",
+      "options": ["Linus Torvalds", "Poul-Henning Kamp", "Richard Stallman", "Bjarne Stroustrup"],
+      "correctIndex": 1,
+      "explanation": "FreeBSD developer Poul-Henning Kamp wrote a 1999 email referencing Parkinson that became a classic text in engineering culture."
+    },
+    {
+      "index": 2,
+      "question": "Why do trivial topics attract the most debate?",
+      "options": [
+        "They're the most important",
+        "Everyone feels safe having an opinion on them",
+        "Leaders force the discussion",
+        "They have the most data"
+      ],
+      "correctIndex": 1,
+      "explanation": "On complex topics people stay quiet to avoid looking ignorant. On trivial ones, everyone feels qualified — so debate balloons."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Parkinson's Law, or The Pursuit of Progress",
+      "publisher": "John Murray",
+      "year": 1957
+    },
+    {
+      "title": "Why Should I Care What Color the Bikeshed Is?",
+      "publisher": "FreeBSD mailing list archive",
+      "year": 1999
+    }
+  ],
+
+  "related": ["parkinsons-law", "eisenhower-matrix", "decision-fatigue"]
+}

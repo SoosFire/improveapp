@@ -1,0 +1,132 @@
+{
+  "id": "rosetta-stone",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Cracking the Rosetta Stone",
+    "teaser": "One broken slab unlocked 3,000 years of Egyptian silence — and two men raced for 20 years to read it.",
+    "category": "Archaeology",
+    "subcategories": ["Egyptology", "Linguistics"],
+    "tags": ["rosetta-stone", "hieroglyphs", "champollion", "egypt", "decipherment"],
+    "emoji": "🪨",
+    "accentColor": "#3D5A80",
+    "coverSymbol": {
+      "sfSymbol": "doc.text.magnifyingglass",
+      "fallbackEmoji": "🪨"
+    },
+    "coverImagePrompt": "A dark granodiorite stone slab lit dramatically in a museum gallery, three registers of text visible — hieroglyphs, Demotic, and Greek — cinematic spotlight"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A key found by accident",
+      "body": "On a blistering July day in 1799, French soldiers were tearing down an old wall in a dusty Egyptian town called Rashid — Rosetta to Europeans. One of them, Lieutenant Pierre-François Bouchard, noticed something odd: a broken black slab covered in three kinds of writing. Within weeks, scholars realized what they had. For 1,400 years, no one alive could read Egyptian hieroglyphs. This stone was the key.",
+      "visual": {
+        "sfSymbol": "doc.text.magnifyingglass",
+        "imagePrompt": "Napoleonic soldiers in dusty uniforms pulling a large inscribed dark stone from an old mud-brick wall, harsh desert sunlight, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why three scripts mattered",
+      "body": "The stone carries the same text three times: Egyptian hieroglyphs at the top, Demotic script (a cursive Egyptian used for daily business) in the middle, and Ancient Greek at the bottom. Greek was still readable by 19th-century scholars. The idea was simple but revolutionary: if you could match words between the Greek and the hieroglyphs, you could start decoding a script the world had forgotten.",
+      "keyTerms": [
+        { "term": "Hieroglyphs", "definition": "The sacred script of ancient Egypt, used for about 3,500 years before dying out around 400 CE" },
+        { "term": "Demotic", "definition": "A simpler cursive Egyptian script used for contracts, letters, and everyday writing" }
+      ],
+      "visual": {
+        "sfSymbol": "doc.on.doc.fill",
+        "imagePrompt": "Close-up of three parallel scripts carved into polished dark stone, hieroglyphs, cursive demotic, classical Greek letters, museum lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two rivals, one puzzle",
+      "body": "The race to decode had two main players. Thomas Young, a brilliant English polymath, made the first crucial breakthrough in 1814: he realized that hieroglyphs inside oval rings — cartouches — spelled out royal names phonetically. Meanwhile, in France, a young prodigy named Jean-François Champollion had been obsessed with Egypt since childhood and had taught himself Coptic, a descendant of Egyptian. In 1822, Champollion cracked the system open — proving hieroglyphs weren't just symbols, but a full mix of sounds and meanings.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two Victorian-era scholars hunched over rubbings of hieroglyphs at opposite desks, candlelight, historical study, cinematic portrait"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The moment of decipherment",
+      "body": "On September 14, 1822, Champollion ran through the streets of Paris to his brother's office, shouted 'Je tiens l'affaire!' ('I've got it!') — and reportedly fainted. He had just decoded the cartouches of Ramesses and Thutmose, proving his phonetic system worked across centuries of inscriptions. His paper, Lettre à M. Dacier, is considered the founding document of Egyptology. The stone itself, by the way, is a fairly boring decree from 196 BCE — tax exemptions for priests under the 13-year-old Ptolemy V. Dry politics, world-changing consequences.",
+      "funFact": "The stone has been in the British Museum since 1802, after the British captured it from the French. Egypt has formally requested its return multiple times, most recently in 2022."
+      ,
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "A 19th-century scholar sprinting through a Parisian street clutching papers, coat flapping, dramatic period scene, painterly"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A whole civilization returned",
+      "body": "Before the Rosetta Stone, Egypt was a mystery civilization — its monuments visible, its words locked. After Champollion, scholars could read the walls of tombs, the myths on papyri, the inscriptions of pharaohs. Three thousand years of voices came back. One broken slab, dug out of a crumbling wall by bored soldiers, returned an entire culture to the human conversation.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many different scripts appear on the Rosetta Stone?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctIndex": 2,
+      "explanation": "The stone contains hieroglyphs, Demotic Egyptian, and Ancient Greek — the same decree in three scripts."
+    },
+    {
+      "index": 1,
+      "question": "Who first cracked the full hieroglyphic system in 1822?",
+      "options": ["Thomas Young", "Napoleon Bonaparte", "Jean-François Champollion", "Howard Carter"],
+      "correctIndex": 2,
+      "explanation": "Champollion used his knowledge of Coptic and Young's earlier cartouche work to fully decipher hieroglyphs."
+    },
+    {
+      "index": 2,
+      "question": "What does the text on the Rosetta Stone actually say?",
+      "options": [
+        "A love poem to the goddess Isis",
+        "A decree granting tax exemptions to Egyptian priests",
+        "Spells from the Book of the Dead",
+        "A list of pharaohs"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's a priestly decree from 196 BCE confirming tax privileges for temples under Ptolemy V."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Keys of Egypt: The Obsession to Decipher Egyptian Hieroglyphs",
+      "publisher": "HarperCollins (Lesley and Roy Adkins)",
+      "year": 2000
+    },
+    {
+      "title": "Cracking the Egyptian Code: The Revolutionary Life of Jean-François Champollion",
+      "publisher": "Oxford University Press (Andrew Robinson)",
+      "year": 2012
+    }
+  ],
+
+  "related": ["egyptian-afterlife", "gobekli-tepe", "ancient-writing-systems"]
+}

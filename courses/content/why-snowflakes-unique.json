@@ -1,0 +1,144 @@
+{
+  "id": "why-snowflakes-unique",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Every Snowflake Is Different",
+    "teaser": "Not a myth — and not magic. It's because each flake takes a different elevator ride through the sky.",
+    "category": "Weather",
+    "subcategories": ["Meteorology", "Crystallography"],
+    "tags": ["snow", "crystals", "ice", "winter", "physics"],
+    "emoji": "❄️",
+    "accentColor": "#7FB3D5",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "❄️"
+    },
+    "coverImagePrompt": "Macro photograph of a perfect six-sided snowflake resting on a dark wool fabric, delicate dendrite arms catching rim light, soft blue shadows, hyper-detailed"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An old boast, almost true",
+      "body": "'No two snowflakes are alike' sounds like something your grandmother said. But physicists have done the math, and she was basically right. The odds of finding two truly identical large snow crystals are so small that it's safe to say it has never happened in the history of Earth's weather.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A single snowflake landing on a dark-gloved hand, intricate shape in sharp focus, soft falling snow blurred behind"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why six sides, always",
+      "body": "All snowflakes share one rule: six-fold symmetry. That's not decoration — it's chemistry. Water molecules, when they freeze, naturally bond at 120-degree angles. Stack billions of those bonds and you get a hexagonal lattice. The six sides aren't a coincidence; they're the geometry of ice itself.",
+      "keyTerms": [
+        { "term": "Hexagonal lattice", "definition": "The six-sided crystal structure that water molecules form when they freeze" },
+        { "term": "Dendrite", "definition": "The branching arm of a snow crystal" }
+      ],
+      "visual": {
+        "sfSymbol": "hexagon.fill",
+        "imagePrompt": "A clean scientific diagram of water molecules bonding at 120-degree angles to form a hexagonal ice lattice, translucent blue palette"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The path writes the shape",
+      "body": "A snowflake grows as it falls. At one altitude it's dry and cold, and the crystal grows flat plates. A little lower, it's humid at -15°C, and fern-like arms explode outward. Rise on an updraft into colder air and it grows columns. Each flake takes a unique zig-zag path through these zones — and the shape is literally a record of that journey.",
+      "keyTerms": [
+        { "term": "Morphology diagram", "definition": "The chart (first mapped by Ukichiro Nakaya) showing which snow shape forms at which temperature and humidity" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A stylized Nakaya diagram showing different snowflake shapes arranged by temperature and humidity, scientific illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The farmer who proved it",
+      "body": "In 1885, a Vermont farmer named Wilson Bentley figured out how to photograph single snowflakes through a microscope. Over 46 winters he captured more than 5,000 of them. He never found two alike. Modern physicist Kenneth Libbrecht at Caltech grows designer snowflakes in a lab and confirms it: even two crystals from the same cloud, seconds apart, take different paths and end up visibly different.",
+      "funFact": "A typical cubic meter of falling snow contains a trillion snow crystals — so even a single snowstorm is an astronomical diversity event.",
+      "visual": {
+        "sfSymbol": "camera.fill",
+        "imagePrompt": "A sepia-toned historical photograph of Wilson Bentley peering through a microscope-camera rig, surrounded by glass plates of snowflake photos"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A biography in ice",
+      "body": "Every snowflake that hits your jacket is a tiny autobiography. The six-fold star is its species. The intricate arms are its life story — humidity, temperature, wind, altitude — frozen in the few minutes between cloud and ground. Then it melts, and the story's gone.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do all snowflakes have six-fold symmetry?",
+      "options": [
+        "Tradition in ice folklore",
+        "Random chance favors six sides",
+        "Water molecules bond at 120-degree angles, creating a hexagonal lattice",
+        "Wind shapes them that way"
+      ],
+      "correctIndex": 2,
+      "explanation": "The hydrogen bonds between frozen water molecules form 120-degree angles, producing a hexagonal crystal structure."
+    },
+    {
+      "index": 1,
+      "question": "What mostly determines a snowflake's final shape?",
+      "options": [
+        "The color of the cloud",
+        "The exact path it takes through temperature and humidity zones",
+        "The size of the cloud",
+        "Time of day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Different shapes (plates, columns, fern-like dendrites) grow at different combinations of temperature and humidity as the flake falls."
+    },
+    {
+      "index": 2,
+      "question": "Who was Wilson Bentley?",
+      "options": [
+        "An Arctic explorer",
+        "A Vermont farmer who first photographed thousands of snowflakes",
+        "A Russian physicist",
+        "An inventor of the microscope"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bentley pioneered snowflake photomicrography starting in 1885 and captured over 5,000 images during his lifetime."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Snowflake: Winter's Secret Beauty",
+      "publisher": "Kenneth Libbrecht, Caltech",
+      "year": 2018
+    },
+    {
+      "title": "The Physics of Snow Crystals",
+      "publisher": "Reports on Progress in Physics",
+      "year": 2005
+    }
+  ],
+
+  "related": ["how-rain-forms", "ice-crystal-science", "nakaya-diagram"]
+}

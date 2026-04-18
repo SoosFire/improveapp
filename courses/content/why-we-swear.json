@@ -1,0 +1,142 @@
+{
+  "id": "why-we-swear",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Swearing Actually Helps",
+    "teaser": "Cursing reduces pain, boosts strength, and lives in a different brain region than normal speech.",
+    "category": "Language",
+    "subcategories": ["Neurolinguistics", "Psychology"],
+    "tags": ["swearing", "language", "psychology", "pain", "brain"],
+    "emoji": "🤬",
+    "accentColor": "#C7422A",
+    "coverSymbol": {
+      "sfSymbol": "exclamationmark.2",
+      "fallbackEmoji": "🤬"
+    },
+    "coverImagePrompt": "A comic-book style speech bubble filled with chaotic symbol-swearing (@#$%&!), popping against a deep crimson background, cinematic pop-art energy"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The hand-in-ice experiment",
+      "body": "In 2009, psychologist Richard Stephens asked volunteers to plunge their hand into ice water and hold it as long as possible. Half could repeat a curse word of their choice. Half had to repeat a neutral word. The swearing group lasted about 40% longer — and reported less pain. Cursing, it turns out, is pharmacologically useful.",
+      "visual": {
+        "sfSymbol": "snowflake",
+        "imagePrompt": "A hand submerged in a glass bowl full of ice water in a minimal lab setting, stopwatch on the table, moody clinical lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two different kinds of speech",
+      "body": "Normal speech lives mostly in the left hemisphere of the brain, in regions like Broca's area. Swearing doesn't. It's processed deeper and older, in the limbic system — the same emotional circuitry that governs fear, rage, and fight-or-flight. That's why stroke patients who lose the ability to form sentences can often still curse fluently. It's a different kind of language.",
+      "keyTerms": [
+        { "term": "Limbic system", "definition": "A set of deep brain structures governing emotion, memory, and arousal" },
+        { "term": "Broca's area", "definition": "A left-hemisphere region critical for producing ordinary speech" },
+        { "term": "Hypoalgesia", "definition": "A reduced sensitivity to pain" }
+      ],
+      "visual": {
+        "sfSymbol": "brain",
+        "imagePrompt": "A split-colored brain illustration with Broca's area highlighted in cool blue and the limbic system lit in fiery red, educational clarity"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it kills pain",
+      "body": "Cursing appears to trigger a mild fight-or-flight response. Heart rate ticks up, adrenaline rises, and the body's natural painkilling systems activate — an effect called stress-induced hypoalgesia. It's not the meaning of the word that matters, but the emotional voltage. Made-up pseudo-swears tested in follow-up studies don't produce the same effect.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": "A racing heart-rate monitor trace spiking upward, backed by a soft red pulse pattern, clean modern medical aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Stronger grip, too",
+      "body": "In 2018, Stephens' team found the same swearing group produced up to 8% more power on a stationary bike sprint and had measurably stronger grip strength. The lift disappeared if participants swore too often in daily life — like any drug, the effect tolerates. Occasional, emphatic cursing works best.",
+      "funFact": "Chimpanzees taught sign language reportedly invented their own insults — signing DIRTY at trainers they were annoyed with. The urge to curse may be older than words.",
+      "visual": {
+        "sfSymbol": "figure.strengthtraining.traditional",
+        "imagePrompt": "A close-up of a clenched fist gripping a hand dynamometer, veins visible, golden-hour gym lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A sharp tool, used wisely",
+      "body": "Swearing isn't a sign of low vocabulary — it's a tool with its own specialty. It vents emotion, signals intensity, bonds groups, and dulls pain. Like any tool, it works best when used sparingly. Save your strongest words for moments that need them, and they'll keep their edge. Use them for everything, and they'll cut nothing.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did the 2009 ice-water experiment demonstrate?",
+      "options": [
+        "Swearing makes pain worse",
+        "Swearing significantly increased pain tolerance",
+        "Swearing had no effect on pain",
+        "Only physical restraint reduces pain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Participants who swore could hold their hand in ice water about 40% longer than those using a neutral word."
+    },
+    {
+      "index": 1,
+      "question": "Why can some stroke patients still swear despite losing normal speech?",
+      "options": [
+        "Swearing is processed in deeper, older brain regions like the limbic system",
+        "They're consciously practicing",
+        "Swearing uses visual centers",
+        "They're using muscle memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Swearing bypasses the cortical speech centers and relies on emotional, limbic structures."
+    },
+    {
+      "index": 2,
+      "question": "Why do made-up pseudo-swear words not reduce pain in studies?",
+      "options": [
+        "They're too long",
+        "They lack the emotional charge that triggers the stress response",
+        "Subjects forget them",
+        "They're too funny"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pain-relieving effect depends on the emotional voltage of real taboo words, not the sounds themselves."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Swearing as a response to pain",
+      "publisher": "NeuroReport",
+      "year": 2009
+    },
+    {
+      "title": "Effect of swearing on strength and power performance",
+      "publisher": "Psychology of Sport and Exercise",
+      "year": 2018
+    }
+  ],
+
+  "related": ["language-and-emotion", "limbic-system-basics", "taboo-words"]
+}

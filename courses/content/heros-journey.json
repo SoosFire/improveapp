@@ -1,0 +1,126 @@
+{
+  "id": "heros-journey",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Hero's Journey in Every Great Story",
+    "teaser": "Star Wars, The Lion King, Harry Potter — why do they all feel the same? One scholar figured it out in 1949.",
+    "category": "Literature",
+    "subcategories": ["Storytelling", "Narrative Theory"],
+    "tags": ["campbell", "monomyth", "narrative", "screenwriting", "myth"],
+    "emoji": "🗺️",
+    "accentColor": "#3E5C76",
+    "coverSymbol": {
+      "sfSymbol": "map.fill",
+      "fallbackEmoji": "🗺️"
+    },
+    "coverImagePrompt": "A silhouetted traveler standing at the mouth of a glowing cave, a spiral path behind them winding through mountains and seas, cinematic painterly fantasy"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The same story, told a thousand times",
+      "body": "Luke Skywalker leaves a desert farm. Frodo leaves the Shire. Simba leaves Pride Rock. Harry leaves the cupboard under the stairs. These stories share characters, settings, and special effects with almost nothing in common — yet they feel weirdly identical. In 1949, a mythologist named Joseph Campbell argued that's because they're all the same story.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.turn.up.right.circle.fill",
+        "imagePrompt": "A young farmhand standing at the edge of a golden wheat field, staring at a distant silhouette of castle towers against a twin-sun sunset"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The monomyth in three acts",
+      "body": "Campbell called it the 'monomyth' — a single pattern he found across cultures from Greek epics to Polynesian legends. He broke it into three movements: Departure (hero leaves the ordinary world), Initiation (faces trials in a strange world), and Return (comes home changed, carrying something the old world needed). He counted 17 stages, but most storytellers now use a simplified 12.",
+      "keyTerms": [
+        { "term": "Monomyth", "definition": "Campbell's term for the one story pattern he saw recurring across world mythologies" },
+        { "term": "Call to Adventure", "definition": "The inciting moment where the hero is summoned out of ordinary life" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A circular diagram of the hero's journey glowing on old parchment, 12 stages labeled around a wheel, warm candlelight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The moments you'll recognize",
+      "body": "Every hero meets a Mentor (Obi-Wan, Gandalf, Dumbledore) who gives them a gift. They Cross the Threshold into the unknown. Deep in the story's belly they hit the Abyss — the darkest moment where they seem to fail or die. Then comes Transformation: they emerge changed, carrying the 'elixir' back home. If that sounds like the plot of roughly every movie you've ever seen — that's the point.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A wise old mentor in a gray cloak handing a glowing sword to a young hero at a forest threshold, magical realism"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How it took over Hollywood",
+      "body": "In 1977, George Lucas cited Campbell's book The Hero with a Thousand Faces as direct inspiration for Star Wars. Disney executive Christopher Vogler then wrote a seven-page memo in 1985 summarizing the journey for screenwriters — it leaked, and by the 1990s his expanded book The Writer's Journey was required reading in Hollywood. Pixar, Disney Animation, and most blockbuster franchises still use it.",
+      "funFact": "Vogler's memo was originally an internal Disney document. It shaped The Lion King, Aladdin, and Beauty and the Beast before he published it publicly.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "A storyboard wall in a Hollywood animation studio covered in hand-drawn sketches of a lion cub's journey, warm tungsten lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still works",
+      "body": "Critics argue the monomyth is too neat — that Campbell cherry-picked myths and ignored stories that don't fit. They're right. But the pattern persists because it maps onto something real: every human leaves home, faces something bigger than themselves, and returns different. The hero's journey isn't just a writing formula. It's a map of how we make meaning out of change.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'monomyth'?",
+      "options": ["George Lucas", "Joseph Campbell", "Carl Jung", "Christopher Vogler"],
+      "correctIndex": 1,
+      "explanation": "Joseph Campbell introduced the monomyth in his 1949 book The Hero with a Thousand Faces."
+    },
+    {
+      "index": 1,
+      "question": "What are the three main movements of the hero's journey?",
+      "options": ["Beginning, Middle, End", "Departure, Initiation, Return", "Desire, Conflict, Victory", "Birth, Death, Rebirth"],
+      "correctIndex": 1,
+      "explanation": "Campbell grouped the stages into three arcs: Departure, Initiation, and Return."
+    },
+    {
+      "index": 2,
+      "question": "Which 1977 film openly cited Campbell's work as inspiration?",
+      "options": ["The Godfather", "Star Wars", "Alien", "Close Encounters of the Third Kind"],
+      "correctIndex": 1,
+      "explanation": "George Lucas credited The Hero with a Thousand Faces as a direct blueprint for Star Wars."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Hero with a Thousand Faces",
+      "publisher": "Princeton University Press (Joseph Campbell)",
+      "year": 1949
+    },
+    {
+      "title": "The Writer's Journey: Mythic Structure for Writers",
+      "publisher": "Michael Wiese Productions (Christopher Vogler)",
+      "year": 2007
+    }
+  ],
+
+  "related": ["unreliable-narrator", "greek-twelve-labors", "three-act-structure"]
+}

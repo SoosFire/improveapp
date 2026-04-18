@@ -1,0 +1,146 @@
+{
+  "id": "carbon-cycle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Carbon Cycle",
+    "teaser": "Every breath you take contains atoms that were once in a dinosaur, a volcano, and a 400-year-old oak.",
+    "category": "Climate Science",
+    "subcategories": ["Biogeochemistry", "Climate Systems"],
+    "tags": ["carbon", "co2", "photosynthesis", "cycle", "climate"],
+    "emoji": "🌱",
+    "accentColor": "#2E7D5A",
+    "coverSymbol": {
+      "sfSymbol": "leaf.circle.fill",
+      "fallbackEmoji": "🍃"
+    },
+    "coverImagePrompt": "A translucent diagram of Earth with glowing carbon atoms travelling from smokestacks into forests, oceans, and deep rock, scientific cinematic visualisation in green and amber tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Carbon never dies",
+      "body": "There are about 7 × 10²¹ atoms of carbon in your body right now, and not one of them is new. They were cooked inside dying stars, condensed into Earth, breathed out by ferns, eaten by Triassic reptiles, exhaled by the oceans, and finally incorporated into a sandwich you ate last Tuesday. Carbon doesn't disappear — it just changes address.",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A stylised macro shot of swirling carbon atoms like stardust, travelling through silhouettes of a forest, an ocean wave, and a human hand"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Four big reservoirs",
+      "body": "At any given moment, Earth's carbon is stored in four main places: the atmosphere (about 880 gigatonnes, mostly CO₂), the oceans (around 39,000 Gt, by far the biggest pool), the biosphere including plants and soils (about 2,300 Gt), and fossil reserves — coal, oil, gas — locked in rock (around 5,000 Gt). The cycle is the traffic moving carbon between these reservoirs.",
+      "keyTerms": [
+        { "term": "Reservoir", "definition": "A place where carbon is temporarily stored — atmosphere, ocean, biosphere, or rocks" },
+        { "term": "Flux", "definition": "The rate at which carbon moves between reservoirs, usually measured in gigatonnes per year" }
+      ],
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "A labelled infographic with four cartoon reservoirs — sky, sea, forest, underground rock — and arrows showing carbon moving between them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Fast cycle, slow cycle",
+      "body": "Scientists divide the cycle into fast and slow. The fast cycle moves carbon through living things in days to decades — a leaf pulls CO₂ from air, an animal eats the leaf, the animal exhales CO₂. The slow cycle moves carbon through rock in millions of years — shells bury into the seafloor, compress into limestone, eventually erupt from a volcano. Both were nearly in balance for most of human history.",
+      "funFact": "A single mature oak tree can pull roughly 20 kg of CO₂ from the air each year — about the weight of a small dog of carbon absorbed silently while you drive past.",
+      "visual": {
+        "sfSymbol": "tortoise.fill",
+        "imagePrompt": "Split illustration: on one side a plant, animal, and soil cycling quickly; on the other, rock formations, volcanoes, and the ocean floor cycling slowly"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What humans broke",
+      "body": "Burning fossil fuels takes carbon that the slow cycle spent 300 million years burying and releases it into the atmosphere in a few centuries. Since 1750, humans have added roughly 1.8 trillion tonnes of CO₂ to the air. Oceans and forests have absorbed about half. The other half is why atmospheric CO₂ jumped from 280 parts per million to over 420 ppm — the highest concentration in at least 3 million years.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "The Keeling Curve plotted on a clean chart against a dark background, the exponential rise of atmospheric CO₂ labelled with decades"
+      }
+    },
+    {
+      "index": 4,
+      "type": "explanation",
+      "title": "Why the ocean is tired",
+      "body": "The ocean has done the planet a huge favour by absorbing about 30% of all human CO₂ emissions. But this isn't free. The dissolved carbon reacts with water to form carbonic acid, making the oceans 30% more acidic than in pre-industrial times. That acidity corrodes coral skeletons and shellfish — the reservoir is working, but its walls are starting to crack.",
+      "visual": {
+        "sfSymbol": "drop.degreesign",
+        "imagePrompt": "Close-up of a bleached coral reef underwater, sun rays filtering through hazy blue water, a single colourful fish swimming past"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "Humans are now a major flux",
+      "body": "Before the 18th century, humans were carbon hitchhikers on a roughly balanced cycle. Today, our emissions rival volcanoes and forests as a force moving carbon between reservoirs. The good news is that carbon can also be moved back — through reforestation, direct air capture, better soils — but the cycle's timescales tell us the job is measured in centuries, not quarters.",
+      "visual": {
+        "sfSymbol": "arrow.2.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of these reservoirs currently holds the most carbon?",
+      "options": ["Atmosphere", "Biosphere (plants and soils)", "Oceans", "Living animals"],
+      "correctIndex": 2,
+      "explanation": "Oceans hold about 39,000 Gt of carbon — vastly more than the atmosphere, biosphere, or any animal life."
+    },
+    {
+      "index": 1,
+      "question": "Why is burning fossil fuels considered such a dramatic change to the cycle?",
+      "options": [
+        "It destroys carbon atoms",
+        "It releases slow-cycle carbon into the atmosphere in centuries instead of millennia",
+        "It changes Earth's orbit",
+        "It produces carbon Earth didn't previously have"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fossil fuels were buried over hundreds of millions of years. Burning them returns that stored carbon to the atmosphere almost instantly on geological timescales."
+    },
+    {
+      "index": 2,
+      "question": "What is a side-effect of the ocean absorbing so much human CO₂?",
+      "options": [
+        "Ocean warming only",
+        "Ocean acidification",
+        "Sea-level fall",
+        "Loss of salt content"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dissolved CO₂ forms carbonic acid, making oceans roughly 30% more acidic than pre-industrial times — a serious threat to shell-forming life."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Global Carbon Budget 2023",
+      "publisher": "Earth System Science Data",
+      "year": 2023
+    },
+    {
+      "title": "IPCC AR6 Working Group I: Global Carbon and other Biogeochemical Cycles",
+      "publisher": "IPCC",
+      "year": 2021
+    }
+  ],
+
+  "related": ["albedo-effect", "ocean-currents", "photosynthesis"]
+}

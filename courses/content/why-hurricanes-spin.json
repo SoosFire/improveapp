@@ -1,0 +1,136 @@
+{
+  "id": "why-hurricanes-spin",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Hurricanes Spin",
+    "teaser": "Hurricanes in the northern hemisphere always spin counterclockwise. Southern ones always spin clockwise. Why?",
+    "category": "Weather",
+    "subcategories": ["Meteorology", "Atmospheric Science"],
+    "tags": ["hurricane", "weather", "Coriolis", "atmosphere", "storms"],
+    "emoji": "🌀",
+    "accentColor": "#1E5F8B",
+    "coverSymbol": {
+      "sfSymbol": "tornado",
+      "fallbackEmoji": "🌀"
+    },
+    "coverImagePrompt": "Satellite view of a massive hurricane with a perfect eye over deep blue ocean, swirling cloud bands glowing white against black space, dramatic cinematic NASA-style imagery"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A curious planetary rule",
+      "body": "Look at satellite footage of every hurricane ever recorded in the northern hemisphere and you'll notice something spooky: they all spin the same way — counterclockwise. Cyclones south of the equator always spin clockwise. No hurricane has ever crossed the equator intact. This isn't coincidence. It's one of the largest signatures of physics you can see from space.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": "A split satellite image showing two hurricanes, one in each hemisphere, spinning in opposite directions with arrows highlighting rotation"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why storms form at all",
+      "body": "Hurricanes are heat engines. Warm ocean water (above about 26°C) evaporates, rises, and cools into clouds that release enormous latent heat. That heat warms the surrounding air, which rises faster, pulling more humid air in from below. Low pressure forms at the center. A self-feeding loop kicks off. What starts as a cluster of thunderstorms becomes a towering engine stretching ten miles into the sky.",
+      "keyTerms": [
+        { "term": "Latent heat", "definition": "Energy released when water vapor condenses into liquid droplets — the fuel that powers hurricanes" },
+        { "term": "Low pressure", "definition": "An area where rising air creates lower atmospheric pressure at the surface, drawing in surrounding air" }
+      ],
+      "visual": {
+        "sfSymbol": "cloud.heavyrain.fill",
+        "imagePrompt": "A vertical cross-section illustration of a hurricane showing warm ocean, rising moist air, spiraling bands, calm eye"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Enter the Coriolis effect",
+      "body": "Here's the trick: the Earth is spinning. The equator races east at around 1,670 km/h, while the poles barely move at all. So when air rushes toward a low-pressure center, the air coming from near the equator carries extra eastward speed compared to the target. The result is an apparent deflection — right in the northern hemisphere, left in the southern. Air can't flow straight in; it curves. And that curve becomes a spiral.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Illustration of Earth with red and blue arrows showing air being deflected right in the north and left in the south, elegant physics diagram"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The equator dead zone",
+      "body": "Because Coriolis force is strongest near the poles and zero right at the equator, hurricanes almost never form within about five degrees of the equator — there simply isn't enough spin to get a vortex going. That's why Singapore, Nairobi, and Quito, all hugging the equator, never see hurricanes. Typhoon Vamei in 2001 briefly formed just 1.5° north of the equator and is considered a near-miracle of meteorology.",
+      "funFact": "The Coriolis effect is too weak to make your bathtub drain spin a particular way — that's a myth. Over the scale of a bathtub, Coriolis is dwarfed by the shape of the drain and tiny water currents.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": "A globe highlighted with a red belt around the equator marked 'no hurricane zone,' clean infographic, cosmic background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Spinning because Earth spins",
+      "body": "Every hurricane is, in a way, a fingerprint of our planet's rotation. The direction it turns isn't decided by the storm — it's decided by which hemisphere gave birth to it, which is decided by how fast the ground beneath it is moving east. Watch a satellite loop of the Atlantic and you're not just watching weather. You're watching Earth itself spin.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which direction do hurricanes spin in the northern hemisphere?",
+      "options": ["Clockwise", "Counterclockwise", "Either, depending on latitude", "They don't spin consistently"],
+      "correctIndex": 1,
+      "explanation": "Northern hemisphere hurricanes always spin counterclockwise — a direct consequence of the Coriolis effect."
+    },
+    {
+      "index": 1,
+      "question": "Why don't hurricanes form at the equator?",
+      "options": [
+        "Water is too cold there",
+        "Coriolis force is zero at the equator",
+        "There is not enough rain",
+        "Air pressure is too high"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coriolis force is zero at the equator, so there's no deflection to start a storm spinning into a vortex."
+    },
+    {
+      "index": 2,
+      "question": "What powers a hurricane's energy once it forms?",
+      "options": [
+        "Lightning discharges",
+        "Latent heat released as water vapor condenses",
+        "Radiation from the sun directly",
+        "Ocean currents crashing into land"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hurricanes are heat engines fueled by latent heat released when water vapor condenses into clouds."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Divine Wind: The History and Science of Hurricanes",
+      "publisher": "Oxford University Press",
+      "year": 2005
+    },
+    {
+      "title": "An Introduction to Dynamic Meteorology",
+      "publisher": "Academic Press",
+      "year": 2012
+    }
+  ],
+
+  "related": ["coriolis-effect", "jet-stream", "tornado-formation"]
+}

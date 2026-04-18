@@ -1,0 +1,141 @@
+{
+  "id": "tragedy-of-the-commons",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Tragedy of the Commons",
+    "teaser": "Why rational individuals, all doing what's best for themselves, can destroy the thing they depend on.",
+    "category": "Economics",
+    "subcategories": ["Game Theory", "Environment"],
+    "tags": ["economics", "game theory", "commons", "incentives", "cooperation"],
+    "emoji": "🐄",
+    "accentColor": "#7FA650",
+    "coverSymbol": {
+      "sfSymbol": "leaf.arrow.circlepath",
+      "fallbackEmoji": "🌾"
+    },
+    "coverImagePrompt": "An overgrazed pasture split down the middle — one half lush green, one half cracked bare earth — with cows crowding the healthy side, moody cloudy sky, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The pasture that ate itself",
+      "body": "Picture a village sharing a patch of grass where anyone can graze their cows for free. If you add one more cow, you get all the extra milk. The cost — a little more wear on the pasture — is spread across everyone. So you add one. So does your neighbor. So does everyone. And one day the grass is gone.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A small village pasture in medieval Europe, increasingly crowded with cows in each panel, grass vanishing panel by panel"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "When private gain meets shared cost",
+      "body": "The tragedy of the commons happens whenever a shared resource has no gatekeeper, everyone benefits individually from using more, and the damage is spread thin across the group. Each person's rational self-interest leads to collective ruin. Nobody has to be greedy or evil — basic arithmetic does the job.",
+      "keyTerms": [
+        { "term": "Commons", "definition": "A shared resource that no single person owns and which anyone can access" },
+        { "term": "Externality", "definition": "A cost or benefit of an action that falls on people other than the one making the decision" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Three farmers each reaching into a shared well, the water level dropping dramatically"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "It's everywhere you look",
+      "body": "Overfishing in the oceans. Antibiotic resistance from overprescription. Traffic gridlock on free roads. Global carbon emissions. Office fridges full of mystery leftovers. All of these follow the same pattern — individually rational, collectively disastrous. The scale changes; the arithmetic doesn't.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A collage of overcrowded fishing boats, a smog-choked skyline, and a gridlocked highway, connected by glowing lines"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Elinor Ostrom's counter-discovery",
+      "body": "Economist Elinor Ostrom won a Nobel Prize in 2009 for showing the tragedy isn't inevitable. She studied real-world commons — Swiss alpine meadows, Japanese fishing villages, Spanish irrigation systems — and found communities that had quietly sustained them for centuries. The secret? Clear boundaries, rules made by the users themselves, and swift consequences for cheaters. Human cooperation is possible; it just takes structure.",
+      "funFact": "The phrase was popularized by ecologist Garrett Hardin in 1968 — but historians point out that the historical English commons were actually well-managed for hundreds of years. The 'tragedy' is partly a myth.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A painting of village elders gathered around a table writing rules, with shepherds watching flocks in the background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Rules aren't the enemy of freedom",
+      "body": "The lesson isn't that humans are doomed. It's that freedom without agreement destroys the shared things freedom depends on. Fisheries with quotas outlast unregulated ones. Shared rooms stay clean when chores are assigned. Markets need referees. The tragedy of the commons is really a lesson in why institutions exist — and why they matter.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the core dynamic behind the tragedy of the commons?",
+      "options": [
+        "Individuals acting irrationally",
+        "Private gain paired with shared costs on an open resource",
+        "Central government mismanagement",
+        "Lack of economic growth"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the benefits are private but the costs are spread across the group, each person is incentivized to overuse."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT typically a modern example of the tragedy of the commons?",
+      "options": [
+        "Overfishing international waters",
+        "Antibiotic resistance from overuse",
+        "A small family sharing a single fridge",
+        "Global carbon emissions"
+      ],
+      "correctIndex": 2,
+      "explanation": "A family is small enough to coordinate directly — the tragedy kicks in when the group is too large for informal accountability."
+    },
+    {
+      "index": 2,
+      "question": "What did Elinor Ostrom show about commons?",
+      "options": [
+        "They're always destroyed without government control",
+        "Privatization is the only solution",
+        "Communities can sustainably manage them with clear rules",
+        "They don't really exist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ostrom documented many communities that successfully self-governed shared resources through mutually enforced rules."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Governing the Commons",
+      "publisher": "Cambridge University Press",
+      "year": 1990
+    },
+    {
+      "title": "The Tragedy of the Commons",
+      "publisher": "Science",
+      "year": 1968
+    }
+  ],
+
+  "related": ["game-theory-basics", "prisoners-dilemma", "market-failures"]
+}

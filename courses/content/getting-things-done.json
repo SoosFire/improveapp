@@ -1,0 +1,136 @@
+{
+  "id": "getting-things-done",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Getting Things Done (GTD)",
+    "teaser": "Your brain is for having ideas — not holding them. David Allen's system for a clear head and a calm desk.",
+    "category": "Productivity",
+    "subcategories": ["Systems", "Time Management"],
+    "tags": ["gtd", "david-allen", "inbox-zero", "workflow", "habits"],
+    "emoji": "📥",
+    "accentColor": "#1F6FEB",
+    "coverSymbol": {
+      "sfSymbol": "tray.full.fill",
+      "fallbackEmoji": "🗂️"
+    },
+    "coverImagePrompt": "A clean wooden desk with a single empty inbox tray, a fountain pen, and a closed notebook, morning light spilling through a window. Minimalist, calm, painterly."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The voice in the back of your head",
+      "body": "You know the feeling: you sit down to work and a tiny voice reminds you to renew the car insurance, text your mom back, and figure out what's for dinner. Productivity consultant David Allen noticed that this mental chatter — not workload — is what actually makes people feel overwhelmed. In 2001, he published a system to silence it.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "A person at a laptop surrounded by translucent thought bubbles, each with a different tiny reminder written inside"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Your mind is a terrible office",
+      "body": "Allen's core insight: the brain is great at generating ideas, terrible at storing them. Every 'open loop' — an unfinished task you're trying to remember — drains cognitive bandwidth whether you're actively thinking about it or not. GTD's job is to move those loops out of your head and into a trusted external system.",
+      "keyTerms": [
+        { "term": "Open loop", "definition": "Any unresolved commitment or unfinished task your mind keeps rehearsing" },
+        { "term": "Trusted system", "definition": "An external place — notebook, app, list — you check reliably, so your brain can let go" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A tangle of looping threads being gently unwound from a person's head into a neat notebook on the desk"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The five steps",
+      "body": "GTD boils down to a five-stage workflow: Capture everything into an inbox. Clarify what each item actually is and what to do about it. Organize it into the right list (next actions, waiting, someday). Reflect weekly to keep the system honest. Engage — pick a task and trust your lists enough to focus. Miss any step and the whole thing collapses back into anxiety.",
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "Five simple hand-drawn icons in a horizontal row: an inbox, a question mark, a folder, an eye, and a checkmark"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The Zeigarnik effect",
+      "body": "Psychologist Bluma Zeigarnik discovered in the 1920s that the brain remembers interrupted tasks far better than completed ones — great for survival, terrible for sleep. A 2011 Baumeister study extended her work, showing that merely writing down a plan for an unfinished task reduces the intrusive thoughts. You don't have to do the task. You just have to promise your brain you will.",
+      "funFact": "Zeigarnik made her discovery after a waiter flawlessly remembered a complex order — then forgot it the second it was delivered.",
+      "visual": {
+        "sfSymbol": "brain.fill",
+        "imagePrompt": "A softly glowing brain with small tasks drifting out of it onto a page as a pen writes them down"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Start with a brain dump",
+      "body": "You don't need an app or a perfect system to begin. Sit down with a blank page for twenty minutes and write down every single thing you're tracking in your head — from 'buy milk' to 'change careers'. The relief most people feel is immediate, and it's the foundation everything else in GTD is built on.",
+      "visual": {
+        "sfSymbol": "pencil.and.list.clipboard",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the core philosophy behind GTD?",
+      "options": [
+        "Work longer hours to finish everything",
+        "Move all open loops out of your head into a trusted external system",
+        "Prioritize only the top three tasks each day",
+        "Delegate everything you possibly can"
+      ],
+      "correctIndex": 1,
+      "explanation": "Allen argues the brain is for generating, not storing — external systems free up mental bandwidth."
+    },
+    {
+      "index": 1,
+      "question": "Which is NOT one of GTD's five steps?",
+      "options": ["Capture", "Clarify", "Criticize", "Reflect"],
+      "correctIndex": 2,
+      "explanation": "The five steps are Capture, Clarify, Organize, Reflect, and Engage."
+    },
+    {
+      "index": 2,
+      "question": "What does the Zeigarnik effect describe?",
+      "options": [
+        "The brain remembers unfinished tasks better than finished ones",
+        "People overestimate how long tasks will take",
+        "Rewards improve task performance",
+        "Short breaks improve memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zeigarnik's research showed unfinished tasks stay active in memory — which is why writing them down helps."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Getting Things Done: The Art of Stress-Free Productivity",
+      "publisher": "Penguin",
+      "year": 2001
+    },
+    {
+      "title": "Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 2011
+    }
+  ],
+
+  "related": ["deep-work-concept", "pomodoro-technique", "eisenhower-matrix"]
+}

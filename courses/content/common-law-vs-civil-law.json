@@ -1,0 +1,139 @@
+{
+  "id": "common-law-vs-civil-law",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Common Law vs. Civil Law",
+    "teaser": "Why does an American judge read old cases while a French judge reads a code? Two legal worlds, one planet.",
+    "category": "Law",
+    "subcategories": ["Legal Systems", "Comparative Law"],
+    "tags": ["common-law", "civil-law", "precedent", "legal-history"],
+    "emoji": "📜",
+    "accentColor": "#2E5266",
+    "coverSymbol": {
+      "sfSymbol": "books.vertical.fill",
+      "fallbackEmoji": "📚"
+    },
+    "coverImagePrompt": "A towering library shelf split down the middle — leather-bound English case reports on one side, a pristine French code napoléon on the other, cathedral light pouring in"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Two judges, two toolkits",
+      "body": "A judge in London reaches for a dog-eared volume of old decisions. A judge in Paris reaches for a single book of rules, organized by topic. Both are trying to decide the same case — say, a fender bender — but they work from completely different starting points. This split runs through roughly 150 countries, and it shapes how laws are written, taught, and argued all over the world.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "Two courtrooms shown side by side — one lined with bookshelves, the other austere with a single bound code on the bench"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where each tradition comes from",
+      "body": "Common law grew out of medieval English courts, where royal judges rode the country resolving disputes and recording their reasoning so other judges could follow it. Civil law traces back to Roman law, revived in European universities in the 1100s, and eventually systematized in Napoleon's 1804 Civil Code. Common law was built case by case. Civil law was designed on paper, top-down.",
+      "keyTerms": [
+        { "term": "Common law", "definition": "A legal system where judge-made decisions form binding precedent" },
+        { "term": "Civil law", "definition": "A codified system where comprehensive statutes are the primary source of law" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A medieval English circuit judge on horseback, parchment rolled under his arm, approaching a village courthouse at dawn"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the reasoning differs",
+      "body": "A common-law judge reasons by analogy — 'here's a case from 1987 that looks like this one; here's how it was decided.' Past decisions bind the court under the doctrine of stare decisis. A civil-law judge reasons by deduction — 'here's Article 1382 of the Code; here's how it applies.' Prior cases matter for guidance but don't formally bind. Lawyers in each tradition train to argue in very different shapes.",
+      "keyTerms": [
+        { "term": "Stare decisis", "definition": "The principle that courts should follow precedent from earlier, similar cases" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.connected.trianglepath.dotted",
+        "imagePrompt": "Two flowcharts side by side — one branching from old cases, the other descending cleanly from a single code article"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where the line runs today",
+      "body": "Common law dominates countries shaped by British colonial rule — the U.S., Canada (except Quebec), Australia, India, much of Africa. Civil law covers continental Europe, Latin America, Japan, and large parts of Asia. The two systems have also converged in places: Louisiana operates on a civil-law code leftover from French rule, while common-law jurisdictions have steadily codified chunks of criminal and commercial law.",
+      "funFact": "Scotland is a 'mixed' system — its private law has strong civil-law roots from medieval ties to continental Europe, despite being in the U.K.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A stylized world map colored in two shades, with mixed-system countries marked in a third tone"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Two ways to carry a tradition",
+      "body": "Neither system is objectively better. Common law bends more easily to novel problems but can feel unpredictable. Civil law offers clarity and access — you can, in theory, look up the rule — but can lag when reality outruns the code. They're two different answers to the same human question: how do we keep the law stable while the world keeps changing?",
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the primary source of law in a civil-law system?",
+      "options": [
+        "Judicial precedent",
+        "Comprehensive written codes",
+        "Religious texts",
+        "Custom and tradition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Civil-law systems rely on systematically organized statutes and codes as their primary authority."
+    },
+    {
+      "index": 1,
+      "question": "What does the doctrine of stare decisis require?",
+      "options": [
+        "That all trials be public",
+        "That courts follow binding precedent from earlier similar cases",
+        "That judges must have legal training",
+        "That codes be updated every ten years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stare decisis — 'to stand by things decided' — is the backbone of common-law reasoning."
+    },
+    {
+      "index": 2,
+      "question": "Which U.S. state uses a civil-law-based legal code?",
+      "options": ["California", "Texas", "Louisiana", "New York"],
+      "correctIndex": 2,
+      "explanation": "Louisiana's private law still reflects its French and Spanish colonial heritage."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Common Law and Civil Law Traditions",
+      "publisher": "UC Berkeley Law School",
+      "year": 2020
+    },
+    {
+      "title": "Introduction to Comparative Law",
+      "publisher": "Oxford University Press (Zweigert & Kötz)",
+      "year": 1998
+    }
+  ],
+
+  "related": ["napoleonic-code", "stare-decisis", "roman-law"]
+}

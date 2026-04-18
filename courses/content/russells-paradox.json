@@ -1,0 +1,136 @@
+{
+  "id": "russells-paradox",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Russell's Paradox",
+    "teaser": "In 1902, a single two-page letter broke the foundations of mathematics. It was addressed politely — but it was a grenade.",
+    "category": "Logic",
+    "subcategories": ["Set Theory", "Foundations of Math"],
+    "tags": ["russell", "paradox", "set-theory", "frege", "foundations"],
+    "emoji": "♾️",
+    "accentColor": "#A63D40",
+    "coverSymbol": {
+      "sfSymbol": "questionmark.diamond.fill",
+      "fallbackEmoji": "🔀"
+    },
+    "coverImagePrompt": "A leatherbound mathematics book with a single page glowing ominously, surrounded by set notation floating in the air like embers, cinematic library mood, painterly"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The barber who can't exist",
+      "body": "Picture a village with one rule: the barber shaves exactly those men who don't shave themselves. Simple enough — until you ask: does the barber shave himself? If he does, he shouldn't. If he doesn't, he must. The barber logically cannot exist. This cartoon version hides a paradox that nearly destroyed mathematics.",
+      "visual": {
+        "sfSymbol": "person.crop.circle.badge.exclamationmark",
+        "imagePrompt": "A vintage barbershop mirror reflecting an empty chair where the barber should be standing, razor and towel set aside, eerie still-life mood"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Sets that contain themselves",
+      "body": "In the late 1800s, Georg Cantor's set theory treated sets as the building blocks of all math. A set is just a collection of things. Most sets don't contain themselves — the set of all cats isn't itself a cat. But some might: the set of all 'things that aren't cats' contains itself. Bertrand Russell asked: what about the set of all sets that do not contain themselves?",
+      "keyTerms": [
+        { "term": "Set", "definition": "A collection of distinct objects treated as a single mathematical whole" },
+        { "term": "Self-membership", "definition": "When a set contains itself as one of its own elements" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.circle.fill",
+        "imagePrompt": "Nested translucent circles containing smaller circles, one circle clearly containing itself in impossible M.C. Escher style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The contradiction",
+      "body": "Call Russell's set R. Ask: does R contain R? If R contains itself, then by R's own rule — it shouldn't. If R doesn't contain itself, then by the rule, it should. Both answers are contradictions. The set cannot consistently exist, yet the innocent-looking definition didn't break any rules. Something in the foundations was rotten.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A Möbius strip rendered as interlocking mathematical notation loops, impossible geometry, black and white minimalist"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The letter that crushed Frege",
+      "body": "In June 1902, Russell wrote to the German logician Gottlob Frege — whose life's work was a foundation of arithmetic on set theory. Frege had just sent volume two of his magnum opus to press. Russell's paradox fit on a single page. Frege added an appendix acknowledging the damage: 'A scientist can hardly encounter anything more undesirable than to see the foundations crumble as the work is finished.'",
+      "funFact": "Zermelo had independently discovered the same paradox a year earlier but hadn't published. Russell got the fame — and the painful responsibility of delivering the news.",
+      "visual": {
+        "sfSymbol": "envelope.open.fill",
+        "imagePrompt": "An old handwritten letter on a cluttered Victorian desk, candlelight flickering, a crumbling pile of mathematics books in the background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The rebuild",
+      "body": "The paradox forced mathematicians to rebuild set theory with stricter rules. Zermelo-Fraenkel set theory (ZFC) — the modern standard — forbids the kind of free-for-all 'set of all sets' that Russell exploited. The scar tissue runs through everything: computer types, logic, category theory. A single clever question made math more honest about what it can and cannot say.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What set did Russell consider?",
+      "options": [
+        "The set of all natural numbers",
+        "The set of all sets that contain themselves",
+        "The set of all sets that do NOT contain themselves",
+        "The empty set"
+      ],
+      "correctIndex": 2,
+      "explanation": "Russell's contradictory set R is defined as the set of all sets that are not members of themselves."
+    },
+    {
+      "index": 1,
+      "question": "Whose life's work did the paradox directly undermine?",
+      "options": ["Cantor", "Hilbert", "Frege", "Poincaré"],
+      "correctIndex": 2,
+      "explanation": "Russell sent his paradox to Gottlob Frege just as Frege's foundational 'Grundgesetze der Arithmetik' was going to press."
+    },
+    {
+      "index": 2,
+      "question": "How did modern mathematics resolve the paradox?",
+      "options": [
+        "By declaring it meaningless",
+        "By restricting set formation with axioms like ZFC",
+        "By forbidding sets entirely",
+        "By using fuzzy logic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zermelo-Fraenkel set theory restricts which collections qualify as sets, preventing the unrestricted comprehension that made Russell's set possible."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Principles of Mathematics",
+      "publisher": "Cambridge University Press (Russell)",
+      "year": 1903
+    },
+    {
+      "title": "From Frege to Gödel: A Source Book in Mathematical Logic",
+      "publisher": "Harvard University Press (van Heijenoort, ed.)",
+      "year": 1967
+    }
+  ],
+
+  "related": ["godels-incompleteness", "set-theory", "self-reference"]
+}

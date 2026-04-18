@@ -1,0 +1,131 @@
+{
+  "id": "six-degrees-of-separation",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Six Degrees of Separation",
+    "teaser": "A Harvard psychologist mailed 160 letters to random strangers — and discovered that the world is far smaller than it looks.",
+    "category": "Sociology",
+    "subcategories": ["Networks", "Social Science"],
+    "tags": ["milgram", "networks", "small-world", "sociology", "graph-theory"],
+    "emoji": "🌐",
+    "accentColor": "#3498DB",
+    "coverSymbol": {
+      "sfSymbol": "point.3.filled.connected.trianglepath.dotted",
+      "fallbackEmoji": "🕸️"
+    },
+    "coverImagePrompt": "A night-time view of a city with glowing threads of light connecting windows to distant continents on a map overlay, cinematic, painterly, quietly profound."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A letter to a stockbroker",
+      "body": "In 1967, social psychologist Stanley Milgram mailed packets to 160 randomly chosen people in Nebraska and Kansas. Inside was an instruction: 'Please get this letter to this stockbroker in Boston. You don't know him? Send it to someone you know personally who's more likely to.' He expected the letters to take a hundred hops. The ones that arrived did it in an average of just under six.",
+      "visual": {
+        "sfSymbol": "envelope.fill",
+        "imagePrompt": "A 1960s manila envelope on a wooden desk with a typewritten address, postage stamp, and a small map with red pins"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The small-world phenomenon",
+      "body": "Milgram's experiment gave empirical teeth to what's now called the 'small-world phenomenon': in a large social network, the average distance between any two people is startlingly short. Your network isn't a tidy grid — it's dense clusters of close friends, stitched together by a few well-connected people whose weak ties act as bridges. Those bridges are what collapse the social world.",
+      "keyTerms": [
+        { "term": "Small-world network", "definition": "A network with dense local clusters connected by a few long-range links" },
+        { "term": "Weak ties", "definition": "Acquaintances — not close friends — whose bridging connections often carry the most new information" }
+      ],
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A network diagram with tight clusters of dots connected by a few long, bright threads spanning the canvas"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The number keeps shrinking",
+      "body": "Modern studies have brought the number down further. A 2011 analysis of 721 million Facebook users by researchers at Cornell and Milan found an average degree of separation of just 4.74. By 2016, with a larger dataset, it had dropped again — to around 3.57. The structure Milgram detected with paper letters turned out to be a native feature of the internet, supercharged.",
+      "funFact": "Actor Kevin Bacon is so well-connected in film that nearly every Hollywood actor is within 3 co-starring hops of him — the origin of 'Six Degrees of Kevin Bacon'.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "A bar chart showing shrinking average degrees of separation across decades, from 6 to 3.57"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Caveats in the fine print",
+      "body": "Milgram's study is famous, but only 29% of his original letters actually reached their target, and critics like Judith Kleinfeld have pointed out that his methodology was messier than the textbooks suggest. The core finding has since been replicated — but the real insight isn't the number six. It's that the *topology* of human social life is weirdly efficient: a handful of highly connected hubs bind the rest of us together.",
+      "visual": {
+        "sfSymbol": "exclamationmark.circle",
+        "imagePrompt": "A vintage research paper with some paragraphs redacted in red pen, skeptical margin notes"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The power of weak ties",
+      "body": "Sociologist Mark Granovetter showed that most new jobs, ideas, and opportunities don't come through your closest friends — they come through acquaintances. Your close friends mostly know what you already know. The stranger you met at a conference is the one who lives in a different cluster, and the bridge they form is what makes your 'small world' smaller. Acquaintances aren't filler. They're infrastructure.",
+      "visual": {
+        "sfSymbol": "link.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was the average number of hops in Milgram's successful letter chains?",
+      "options": ["About 2", "About 6", "About 15", "About 100"],
+      "correctIndex": 1,
+      "explanation": "The completed chains averaged just under six intermediaries — the origin of 'six degrees'."
+    },
+    {
+      "index": 1,
+      "question": "What did Facebook's 2016 analysis find for average degrees of separation?",
+      "options": ["About 6.5", "About 4.74", "About 3.57", "About 1.5"],
+      "correctIndex": 2,
+      "explanation": "Across hundreds of millions of users, the average had dropped to about 3.57 hops."
+    },
+    {
+      "index": 2,
+      "question": "According to Granovetter, where do most new opportunities come from?",
+      "options": [
+        "Your closest friends",
+        "Your family members",
+        "Weak ties (acquaintances)",
+        "Strangers online"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acquaintances live in different clusters and bring information your close circle doesn't have."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The small-world problem",
+      "publisher": "Psychology Today",
+      "year": 1967
+    },
+    {
+      "title": "The strength of weak ties",
+      "publisher": "American Journal of Sociology",
+      "year": 1973
+    }
+  ],
+
+  "related": ["dunbars-number", "network-effects", "pareto-principle"]
+}

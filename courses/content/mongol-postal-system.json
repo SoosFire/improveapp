@@ -1,0 +1,131 @@
+{
+  "id": "mongol-postal-system",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Mongol Postal Empire",
+    "teaser": "A 13th-century message could cross a continent faster than a letter could cross Europe 500 years later.",
+    "category": "History",
+    "subcategories": ["Medieval History", "Mongol Empire"],
+    "tags": ["mongols", "postal", "silk road", "genghis khan", "yam"],
+    "emoji": "🐎",
+    "accentColor": "#8B3A2F",
+    "coverSymbol": {
+      "sfSymbol": "figure.equestrian.sports",
+      "fallbackEmoji": "🐎"
+    },
+    "coverImagePrompt": "A Mongol rider in leather armor galloping across an endless steppe at dusk, leather pouch across his chest, dust trailing behind, cinematic sweeping landscape"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "200 miles a day, on horseback",
+      "body": "In the 1200s, a Mongol courier could carry an urgent message 200 miles in a single day — across frozen steppe, desert, and mountain. The British Royal Mail wouldn't match that speed until the 1800s with trains. How? A logistical network so clever it shaped the modern world.",
+      "visual": {
+        "sfSymbol": "envelope.fill",
+        "imagePrompt": "A sealed leather document tube glowing in lantern light on a station desk, with a map of Eurasia faintly visible"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Yam: a chain of way-stations",
+      "body": "The system was called the Yam. Every 20 to 40 miles across the empire sat a relay station stocked with fresh horses, food, and a warm place to sleep. A rider didn't ride one horse for a day — he rode one horse until the next station, swapped, and kept going. At full speed, riders changed mounts a dozen times between dawn and dusk.",
+      "keyTerms": [
+        { "term": "Yam", "definition": "The Mongol relay postal system — a chain of stations stocked with horses" },
+        { "term": "Paiza", "definition": "A metal passport giving the bearer rights to fresh horses and supplies" }
+      ],
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A detailed parchment map of Eurasia with small ger-shaped stations dotted along caravan routes"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it actually worked",
+      "body": "The genius was the paiza — a metal plaque (gold for the most urgent couriers) that acted as a universal credit card across an empire. Show it, and every station keeper had to hand over the best horse and feed you. Marco Polo describes 10,000 stations and 200,000 horses dedicated to the network. It was civil infrastructure on a scale Europe wouldn't see for centuries.",
+      "funFact": "Fast couriers tied bells to their bodies so that stations could hear them coming and have a fresh horse saddled before they arrived.",
+      "visual": {
+        "sfSymbol": "bell.fill",
+        "imagePrompt": "A gold paiza plaque engraved with Mongol script lying on red silk, torchlight glinting off the metal"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the empire used it for",
+      "body": "The Yam wasn't just for love letters. It carried military intelligence, tax reports, trade news, diplomatic missions, and even foreign merchants like Marco Polo. Genghis and Kublai Khan used it to manage a territory spanning from Korea to Hungary — roughly 9 million square miles — without telephones, without trains, without anything but horses and discipline.",
+      "visual": {
+        "sfSymbol": "point.3.connected.trianglepath.dotted",
+        "imagePrompt": "Riders converging at a relay station at dusk, multiple horses saddled, fires lit, steam rising from the animals"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The first information superhighway",
+      "body": "Historians sometimes call the Yam the first true communications network — an empire-wide system that moved information faster than human muscle alone should allow. When we imagine premodern people as isolated, we're often wrong. The Mongols had already figured out: connect the dots, and you connect the world.",
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was the Mongol postal network called?",
+      "options": ["The Yam", "The Khan's Run", "The Silk Relay", "The Ordu"],
+      "correctIndex": 0,
+      "explanation": "Yam (or örtöö in Mongolian) referred to the empire-wide system of relay stations."
+    },
+    {
+      "index": 1,
+      "question": "What was a paiza?",
+      "options": [
+        "A type of Mongol saddle",
+        "A metal tablet granting the bearer access to the postal network",
+        "The title of a regional governor",
+        "A breed of small, fast horse"
+      ],
+      "correctIndex": 1,
+      "explanation": "The paiza was a metal passport — gold, silver, or bronze depending on rank — that entitled the holder to fresh horses and supplies."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many horses did Marco Polo say the system used?",
+      "options": ["2,000", "20,000", "200,000", "2 million"],
+      "correctIndex": 2,
+      "explanation": "Polo reports around 10,000 stations and 200,000 horses — possibly exaggerated, but plausibly on the right order of magnitude."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Genghis Khan and the Making of the Modern World",
+      "publisher": "Crown",
+      "year": 2004
+    },
+    {
+      "title": "The Mongol Empire: A Historical Encyclopedia",
+      "publisher": "ABC-CLIO",
+      "year": 2016
+    }
+  ],
+
+  "related": ["silk-road", "marco-polo", "genghis-khan"]
+}

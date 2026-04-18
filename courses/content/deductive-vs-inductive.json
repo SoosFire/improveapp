@@ -1,0 +1,131 @@
+{
+  "id": "deductive-vs-inductive",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Deductive vs. Inductive Reasoning",
+    "teaser": "Sherlock Holmes called it deduction. Almost every time — it was actually induction. There's a real difference, and it matters.",
+    "category": "Logic",
+    "subcategories": ["Reasoning", "Philosophy of Science"],
+    "tags": ["logic", "reasoning", "philosophy", "science", "argument"],
+    "emoji": "🔍",
+    "accentColor": "#4B3F72",
+    "coverSymbol": {
+      "sfSymbol": "arrow.triangle.branch",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A split composition: on one side, a detective's magnifying glass focused on a specific clue; on the other, scattered clues connecting upward toward a theory, painterly chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Sherlock's tiny lie",
+      "body": "Sherlock Holmes eyes the mud on your trousers and announces you've just come from Afghanistan. Dazzling. But strictly speaking, that's not deduction — it's induction dressed up. Deduction guarantees its conclusion. Induction only suggests it. Conan Doyle mixed them up, and so does almost everyone else.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A Victorian detective's hand holding a magnifying glass over muddy boots, soft gaslight glow, moody sepia palette"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Top-down vs. bottom-up",
+      "body": "Deduction starts with a general rule and applies it to a specific case. 'All humans are mortal. Socrates is human. Therefore Socrates is mortal.' If the premises are true, the conclusion must be true. Induction works the other way: you observe specific instances and generalize. 'Every swan I've seen is white, so all swans are white.' Probably true — but not certain.",
+      "keyTerms": [
+        { "term": "Deduction", "definition": "General rule → specific conclusion. Truth-preserving if premises hold" },
+        { "term": "Induction", "definition": "Specific observations → general rule. Probabilistic, not certain" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "Two vertical arrows side by side, one pointing down labeled 'General → Specific,' one pointing up labeled 'Specific → General,' clean infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the difference bites",
+      "body": "Deductive arguments are brittle but safe: they can't give you new information, only unpack what's already inside the premises. Inductive arguments are generative — they produce new knowledge — but they can always be wrong. Every black swan sighted in Australia in 1697 shattered centuries of 'all swans are white' certainty. The leap from 'so far' to 'always' is where induction lives and dies.",
+      "visual": {
+        "sfSymbol": "swan.fill",
+        "imagePrompt": "A single dramatic black swan swimming into a flock of white ones, ripples on dark water, painterly mood"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Science runs on both",
+      "body": "Newton inductively generalized from falling apples and orbiting moons to his law of gravitation. Then, once the law was accepted, engineers deduced exact trajectories for cannonballs and satellites. Science uses induction to build theories and deduction to apply them. Philosopher Karl Popper argued that's why theories can never be proved — only disproved — because no amount of induction makes a rule airtight.",
+      "funFact": "The word 'induction' comes from Latin 'inducere' — 'to lead into.' Aristotle used it to describe how we 'are led' from instances into principles.",
+      "visual": {
+        "sfSymbol": "apple.logo",
+        "imagePrompt": "An apple mid-fall beside a Newtonian diagram of planetary orbits, chalkboard aesthetic, warm library lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Know which lever you're pulling",
+      "body": "When you want certainty, build a deductive chain and check every premise. When you want to discover something new, let induction do its thing — but mark the conclusion as 'probably,' not 'certainly.' Most bad arguments collapse when you name which kind of reasoning they're pretending to be. Holmes knew better. Now so do you.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which statement describes a deductive argument?",
+      "options": [
+        "Builds rules from specific observations",
+        "Produces new empirical knowledge",
+        "Guarantees the conclusion if premises are true",
+        "Is always probabilistic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Deduction is truth-preserving: given true premises and valid form, the conclusion must also be true."
+    },
+    {
+      "index": 1,
+      "question": "The classic 'black swan' example illustrates a weakness of:",
+      "options": ["Deduction", "Induction", "Syllogisms", "Mathematical proof"],
+      "correctIndex": 1,
+      "explanation": "Induction generalizes from observations. One counter-example — like the black swans found in Australia — can falsify the whole rule."
+    },
+    {
+      "index": 2,
+      "question": "Which philosopher emphasized that scientific theories can only be falsified, not proved?",
+      "options": ["David Hume", "Karl Popper", "Thomas Kuhn", "Francis Bacon"],
+      "correctIndex": 1,
+      "explanation": "Popper argued that scientific knowledge advances by disproving hypotheses, since induction can never fully confirm them."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Prior Analytics",
+      "publisher": "Aristotle, c. 350 BCE (Princeton translation)",
+      "year": 1984
+    },
+    {
+      "title": "The Logic of Scientific Discovery",
+      "publisher": "Routledge (Karl Popper)",
+      "year": 1959
+    }
+  ],
+
+  "related": ["modus-ponens", "abductive-reasoning", "scientific-method"]
+}

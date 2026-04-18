@@ -1,0 +1,141 @@
+{
+  "id": "peter-principle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Peter Principle",
+    "teaser": "In every hierarchy, people rise until they reach the job they're bad at — and there they stay.",
+    "category": "Leadership",
+    "subcategories": ["Management", "Workplace"],
+    "tags": ["leadership", "management", "hierarchy", "promotion"],
+    "emoji": "🪜",
+    "accentColor": "#F5A623",
+    "coverSymbol": {
+      "sfSymbol": "chart.bar.xaxis",
+      "fallbackEmoji": "🪜"
+    },
+    "coverImagePrompt": "A surreal staircase made of office desks climbing into a cloudy sky, each desk occupied by a worker — confident at the bottom, uncertain at the top, cinematic editorial illustration"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The best engineer becomes the worst manager",
+      "body": "Your company has a brilliant engineer. Naturally, you promote her. Now she manages the team — badly. She misses deadlines, gives unclear feedback, and dreads Mondays. You just watched a textbook case of something named back in 1969: the Peter Principle. And the joke's on your org chart.",
+      "visual": {
+        "sfSymbol": "person.fill.badge.plus",
+        "imagePrompt": "A hand-drawn org chart on a whiteboard with one role crossed out and a new title written above it, sharpie ink smudges"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The principle, in one line",
+      "body": "Laurence J. Peter, an education researcher, wrote: 'In a hierarchy, every employee tends to rise to their level of incompetence.' Companies promote people who do well in their current role — but the new role is a different job. Eventually someone gets promoted into a role they're bad at, and the promotions stop. That role becomes their career.",
+      "keyTerms": [
+        { "term": "Peter Principle", "definition": "Employees in hierarchies tend to be promoted until they reach a role they can no longer perform well" },
+        { "term": "Level of incompetence", "definition": "The first role in a career where someone stops excelling — and thus stops advancing" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.circle.fill",
+        "imagePrompt": "A diagram of a corporate ladder with arrows stopping at a middle rung, a confused figure seated there while others continue upward"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it's almost inevitable",
+      "body": "The problem isn't that bosses are dumb — it's that the signal for promotion (current-job excellence) is the wrong predictor for future-job success. Coding well doesn't mean managing well. Selling well doesn't mean coaching sellers well. Each promotion is a bet that one skill predicts a different one. Most of the time, it doesn't.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A clean infographic showing two separate skill trees — 'doing the work' and 'leading the work' — with crossed-out arrows between them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The research caught up",
+      "body": "Peter wrote his book as satire, but economists later took the idea seriously. A 2018 study of 53,000 sales workers across 214 firms found that companies really do promote top salespeople — and those salespeople really do underperform as managers. Team sales dropped by about 6% under a recently promoted star. The satire had a spreadsheet hiding behind it.",
+      "funFact": "Peter's original book spent over a year on the New York Times bestseller list — a business theory so painfully true, it became pop culture.",
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A line chart projecting rising individual performance, then a sharp drop after a promotion line, red zone highlighted"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Fix it by unbundling 'up'",
+      "body": "The cure isn't to stop promoting anyone — it's to stop treating management as the only path upward. Dual career ladders, lateral moves, and skill-matched promotions let great specialists stay great without being drafted into jobs they didn't want. A hierarchy can only work if 'up' isn't always the same direction.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which sentence best captures the Peter Principle?",
+      "options": [
+        "The lazy always get promoted",
+        "People rise to their level of incompetence",
+        "The best managers start as the best workers",
+        "Organizations always have too many bosses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peter's key claim is that employees get promoted until they hit a job they can't do well — and then stop advancing."
+    },
+    {
+      "index": 1,
+      "question": "What's the core logical flaw the principle exposes?",
+      "options": [
+        "Managers don't work hard enough",
+        "Doing one job well doesn't predict doing a different job well",
+        "Companies promote randomly",
+        "Pay should be flat across all roles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each promotion rewards past performance in a job that may require different skills than the new one."
+    },
+    {
+      "index": 2,
+      "question": "The 2018 economic study of 53,000 salespeople found that…",
+      "options": [
+        "Promoted top sellers made better managers than average",
+        "Promoted top sellers underperformed as managers",
+        "Promotions were random",
+        "Sales managers always outperformed individual contributors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Teams under recently promoted top sellers saw sales decline — empirical support for Peter's satire."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Peter Principle: Why Things Always Go Wrong",
+      "publisher": "William Morrow & Co. (Laurence J. Peter & Raymond Hull)",
+      "year": 1969
+    },
+    {
+      "title": "Promotions and the Peter Principle",
+      "publisher": "The Quarterly Journal of Economics",
+      "year": 2019
+    }
+  ],
+
+  "related": ["dual-career-ladder", "dunning-kruger", "management-vs-ic"]
+}

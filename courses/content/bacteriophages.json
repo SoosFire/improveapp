@@ -1,0 +1,136 @@
+{
+  "id": "bacteriophages",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Viruses That Hunt Bacteria",
+    "teaser": "They look like lunar landers, outnumber every other lifeform, and might just replace antibiotics.",
+    "category": "Microbiology",
+    "subcategories": ["Virology", "Ecology"],
+    "tags": ["phages", "viruses", "bacteria", "evolution", "medicine"],
+    "emoji": "👾",
+    "accentColor": "#5E7CE2",
+    "coverSymbol": {
+      "sfSymbol": "atom",
+      "fallbackEmoji": "👾"
+    },
+    "coverImagePrompt": "A bacteriophage with geometric icosahedral head and spindly leg fibers landing on the surface of a bacterium, electron-microscope aesthetic with dramatic teal and violet lighting, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The most abundant thing alive",
+      "body": "There are more bacteriophages on Earth than every other organism combined — stars in the galaxy don't even come close. A single milliliter of seawater holds around 10 million of them. They drift everywhere, and every one is hunting a bacterium.",
+      "visual": {
+        "sfSymbol": "water.waves",
+        "imagePrompt": "A drop of seawater magnified to show millions of tiny phage particles suspended like constellations, deep-blue cinematic microscopy"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Tiny spacecraft with a mission",
+      "body": "A bacteriophage, or 'phage,' is a virus that infects only bacteria. Many species look uncannily like a lunar lander: a geometric head packed with DNA, a stalk-like tail, and spidery fibers that clamp onto the target. They can't move on their own — they bump into prey at random and only stick to the exact bacterial species they evolved to match.",
+      "keyTerms": [
+        { "term": "Bacteriophage", "definition": "A virus that infects bacteria; 'phage' comes from Greek for 'eater'" },
+        { "term": "Capsid", "definition": "The protein shell that encloses a virus's genetic material" }
+      ],
+      "visual": {
+        "sfSymbol": "cube.transparent",
+        "imagePrompt": "A labeled diagram of a T4 bacteriophage showing capsid, tail sheath, baseplate, and tail fibers, technical illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The hijack",
+      "body": "When a phage latches on, it punctures the bacterial wall and injects its DNA like a syringe. That DNA hijacks the cell's machinery, turning the bacterium into a factory for new phages — often hundreds in under half an hour. When the cell is full, new phages release enzymes that burst it open, and the cycle starts again.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "A phage perched on a bacterium, needle-like tail piercing the cell wall, glowing DNA injecting inside, dramatic sci-fi illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A comeback in medicine",
+      "body": "Phage therapy was discovered in 1917, then largely abandoned in the West once antibiotics arrived. The Soviet Union kept using it. Now, with antibiotic resistance rising, phages are back: in 2019, doctors used genetically engineered phages to save a teenager dying of a Mycobacterium infection after a lung transplant. It was the first documented success with engineered phages in a human.",
+      "funFact": "Because each phage only kills specific bacteria, a phage cocktail can wipe out an infection without flattening your gut microbiome the way broad-spectrum antibiotics do.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "A hospital vial labeled 'phage therapy' beside a petri dish showing clear plaques where phages have killed bacteria"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Predators at the smallest scale",
+      "body": "Phages have been shaping bacterial evolution for billions of years — the biggest predator-prey dance in nature, fought at the nanometer scale. They're not just a curiosity; they're the reason oceans don't drown in bacteria, and they may be a major tool in medicine's next chapter.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how many phages live in a typical milliliter of seawater?",
+      "options": ["A few hundred", "About 10,000", "About 10 million", "About 10 billion"],
+      "correctIndex": 2,
+      "explanation": "Surveys typically find around 10 million phage particles per milliliter — making them the most abundant biological entity on Earth."
+    },
+    {
+      "index": 1,
+      "question": "How does a phage get its genetic material into a bacterium?",
+      "options": [
+        "It is swallowed whole by the bacterium",
+        "It injects DNA through the cell wall like a syringe",
+        "It passes through by osmosis",
+        "It fuses its membrane with the bacterium's"
+      ],
+      "correctIndex": 1,
+      "explanation": "A phage clamps onto the bacterium with its tail fibers, then punches through the wall and injects its DNA."
+    },
+    {
+      "index": 2,
+      "question": "What advantage do phages have over broad-spectrum antibiotics?",
+      "options": [
+        "They also kill viruses",
+        "They work against fungal infections",
+        "They are highly specific and spare other bacteria",
+        "They never trigger resistance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Each phage typically targets a narrow set of bacteria, leaving the rest of the microbiome intact."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Marine viruses — major players in the global ecosystem",
+      "publisher": "Nature Reviews Microbiology",
+      "year": 2007
+    },
+    {
+      "title": "Engineered bacteriophages for treatment of a patient with a disseminated Mycobacterium abscessus infection",
+      "publisher": "Nature Medicine",
+      "year": 2019
+    }
+  ],
+
+  "related": ["what-is-a-virus", "penicillin-discovery", "human-microbiome"]
+}

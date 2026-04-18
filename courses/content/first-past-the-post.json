@@ -1,0 +1,141 @@
+{
+  "id": "first-past-the-post",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why First-Past-the-Post Elections Fail",
+    "teaser": "It sounds fair: most votes wins. In practice, it hands power to parties a majority actively voted against.",
+    "category": "Political Science",
+    "subcategories": ["Electoral Systems", "Democracy"],
+    "tags": ["elections", "voting", "democracy", "FPTP", "reform"],
+    "emoji": "🗳️",
+    "accentColor": "#B24B3A",
+    "coverSymbol": {
+      "sfSymbol": "checkmark.square.fill",
+      "fallbackEmoji": "🗳️"
+    },
+    "coverImagePrompt": "A single crumpled paper ballot lying on cracked concrete, a tiny checkmark visible, dusk lighting, moody cinematic editorial still"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "When 40% beats 60%",
+      "body": "In 2015 the UK Conservatives won a majority government with 36.9% of the vote. That same year, UKIP won 12.6% of the vote — and exactly one seat in Parliament. The Scottish National Party won just 4.7% and took 56. Whatever is going on in numbers like these, it isn't simple majority rule.",
+      "visual": {
+        "sfSymbol": "chart.pie.fill",
+        "imagePrompt": "A pie chart broken apart with pieces labeled with percentages that don't match seat counts, editorial illustration"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How first-past-the-post works",
+      "body": "In a first-past-the-post (FPTP) election, each district elects one representative, and whoever gets the most votes wins — even without a majority. Every other vote in that district vanishes. The United States, United Kingdom, Canada, and India all use versions of it. It's easy to count and easy to understand. That's about the strongest thing you can say for it.",
+      "keyTerms": [
+        { "term": "Plurality", "definition": "The largest vote share in a race, not necessarily over 50%" },
+        { "term": "Wasted vote", "definition": "A vote that doesn't contribute to electing anyone — any vote beyond what the winner needed or any vote for a loser" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A grid of voting districts, each one colored by its plurality winner, map-style infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The problems are structural",
+      "body": "FPTP creates predictable distortions. Duverger's law: the system pushes countries toward exactly two major parties because voting for anyone else feels like throwing your ballot away. Spoilers: a third candidate can split the vote and hand victory to someone a majority opposed. Geography lotteries: a party can win millions of votes distributed evenly across the map and end up with nothing to show for it. And huge swaths of voters are 'wasted' — their preferences never translate into representation.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A split-screen illustration showing a two-horse race with a small third candidate tipping the balance, stylized political art"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The numbers from real elections",
+      "body": "In the 2019 Canadian federal election, the Liberals won a plurality of seats despite receiving fewer total votes than the Conservatives. In the 2000 US presidential election, Al Gore received more popular votes than George W. Bush. In the UK, roughly half of all votes in every general election are cast in districts where the result is a foregone conclusion, so they effectively don't influence who governs. Countries with proportional systems — like Germany or New Zealand after its 1996 reform — see seat counts track vote shares far more closely.",
+      "funFact": "New Zealand switched from FPTP to mixed-member proportional in 1996 after a 1993 referendum. Within two election cycles, small parties had real parliamentary voices for the first time in a century.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "World map with countries colored by electoral system, FPTP in red, proportional in green"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Simplicity isn't the same as fairness",
+      "body": "First-past-the-post endures not because it works well but because the parties it produces are the ones who get to change it. Alternatives exist — ranked choice, proportional representation, mixed-member systems — and they solve most of the distortions without adding much cost. 'The system we have' isn't a law of nature. It's a design choice that can be made differently.",
+      "visual": {
+        "sfSymbol": "arrow.2.squarepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'plurality' mean in an FPTP election?",
+      "options": [
+        "An absolute majority of over 50%",
+        "The largest vote share, not necessarily over 50%",
+        "The total number of voters",
+        "A tie between two candidates"
+      ],
+      "correctIndex": 1,
+      "explanation": "A plurality is just 'the most votes,' which can be well below half when multiple candidates compete."
+    },
+    {
+      "index": 1,
+      "question": "What does Duverger's law predict?",
+      "options": [
+        "Voter turnout always rises under FPTP",
+        "FPTP systems tend to collapse into two-party competition",
+        "Small parties gain seats proportionally",
+        "Coalitions always form after elections"
+      ],
+      "correctIndex": 1,
+      "explanation": "The strategic incentive not to 'waste' your vote on a third candidate pushes FPTP systems toward two dominant parties."
+    },
+    {
+      "index": 2,
+      "question": "What distinguishes proportional representation from FPTP?",
+      "options": [
+        "Only one candidate runs in each district",
+        "Seat shares track vote shares more closely",
+        "Only urban voters count",
+        "It's mathematically identical to FPTP"
+      ],
+      "correctIndex": 1,
+      "explanation": "PR systems are designed so the seats each party wins roughly match the share of votes they received."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Political Parties: Their Organization and Activity in the Modern State",
+      "publisher": "Wiley",
+      "year": 1954
+    },
+    {
+      "title": "Electoral System Change: An Update",
+      "publisher": "International IDEA",
+      "year": 2021
+    }
+  ],
+
+  "related": ["ranked-choice-voting", "proportional-representation", "gerrymandering"]
+}

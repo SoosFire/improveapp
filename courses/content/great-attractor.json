@@ -1,0 +1,141 @@
+{
+  "id": "great-attractor",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Great Attractor",
+    "teaser": "Something enormous is pulling the Milky Way toward it at 2 million kilometers per hour — and we can't see what it is.",
+    "category": "Astronomy",
+    "subcategories": ["Cosmology", "Galactic Dynamics"],
+    "tags": ["galaxies", "dark matter", "cosmology", "universe", "mystery"],
+    "emoji": "🌌",
+    "accentColor": "#4B1F6B",
+    "coverSymbol": {
+      "sfSymbol": "moon.stars.fill",
+      "fallbackEmoji": "🌌"
+    },
+    "coverImagePrompt": "A swirling cluster of galaxies in deep space being pulled toward an unseen point, streaks of motion and dark matter halos, cinematic astrophysical visualization"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Something is pulling on us",
+      "body": "Our Milky Way, along with hundreds of nearby galaxies, is rushing through space at roughly 600 kilometers per second — toward a single patch of sky. No matter how much of the universe's known mass astronomers tally up, they can't fully account for the pull. Whatever is doing it sits behind the densest part of our own galaxy, almost impossible to see. They named it the Great Attractor.",
+      "visual": {
+        "sfSymbol": "arrow.right.circle.fill",
+        "imagePrompt": "A map of the local universe showing hundreds of galaxies streaming toward a marked 'X' in space, cinematic cosmology illustration"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The problem we noticed in the 1970s",
+      "body": "Astronomers measuring the cosmic microwave background — the afterglow of the Big Bang — noticed it looked slightly hotter in one direction than the other. That's the Doppler effect at cosmic scale: we're moving in that direction. By the 1980s, teams mapping galaxy redshifts showed that not just the Milky Way but everything near us was flowing the same way.",
+      "keyTerms": [
+        { "term": "Redshift", "definition": "The stretching of light waves from an object moving away from us" },
+        { "term": "Peculiar velocity", "definition": "A galaxy's motion through space relative to the general expansion of the universe" }
+      ],
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": "The cosmic microwave background shown as a mottled oval map with a subtle warm/cool gradient indicating our direction of motion"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Hidden behind the Milky Way",
+      "body": "The direction of the pull lies in the 'Zone of Avoidance' — a strip of sky where our own galaxy's dust and stars block the view of what's beyond. To peek through, astronomers use X-rays, infrared, and radio waves, which can cut through the dust. These surveys revealed a massive galaxy cluster called Norma, roughly 220 million light-years away, lurking in the direction we're falling toward.",
+      "visual": {
+        "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+        "imagePrompt": "A view of the Milky Way's bright center with a ghostly cluster of hidden galaxies glowing faintly behind it, artistic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Even bigger than we thought",
+      "body": "Here's where it gets weirder. The Norma cluster alone can't produce the gravitational pull astronomers measure. In 2016, researchers mapped a vastly larger structure further out — the Shapley Supercluster — and showed that it, too, is tugging on us. And together, these structures are part of an even bigger region, Laniakea, our galactic home: 500 million light-years across, containing 100,000 galaxies. We're all rolling downhill in a cosmic valley.",
+      "funFact": "'Laniakea' is Hawaiian for 'immeasurable heaven' — a name proposed by astronomer Brent Tully and his Hawaiian collaborators.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A flowing, topographic map of the Laniakea Supercluster with galaxy streams converging toward a central attractor, luminous"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "We are not where we thought we were",
+      "body": "For centuries, humans believed they sat at the center of things. The Great Attractor reminds us we're not even close — we're a small mote of matter sliding through a vast, tilted landscape of gravity wells, drawn toward a place we still can barely see. The universe, as always, is weirder and larger than we were prepared for.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How do we know something is pulling the Milky Way?",
+      "options": [
+        "We measured it directly with a gravity probe",
+        "The cosmic microwave background is slightly hotter in one direction",
+        "Distant stars blink in a pattern",
+        "Neutrinos arrive from that direction first"
+      ],
+      "correctIndex": 1,
+      "explanation": "Our motion makes the cosmic microwave background look slightly hotter in one direction — a Doppler fingerprint of our movement."
+    },
+    {
+      "index": 1,
+      "question": "Why is the Great Attractor so hard to observe?",
+      "options": [
+        "It's too far for any telescope",
+        "It lies behind the dense dust and stars of the Milky Way",
+        "It only emits signals every 10,000 years",
+        "Our telescopes can't detect its wavelengths at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Attractor sits in the 'Zone of Avoidance' — blocked by the plane of our own galaxy — so X-ray and infrared observations are needed."
+    },
+    {
+      "index": 2,
+      "question": "What is Laniakea?",
+      "options": [
+        "A rival theory to dark matter",
+        "The supercluster of galaxies that includes the Milky Way",
+        "A newly discovered satellite of the Milky Way",
+        "The nearest black hole"
+      ],
+      "correctIndex": 1,
+      "explanation": "Laniakea is the enormous galaxy supercluster that contains the Milky Way, spanning 500 million light-years and 100,000 galaxies."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Laniakea supercluster of galaxies",
+      "publisher": "Nature",
+      "year": 2014
+    },
+    {
+      "title": "Cosmic Flows and the Expansion of the Local Universe from Non-Linear Phase-Space Reconstructions",
+      "publisher": "Monthly Notices of the Royal Astronomical Society",
+      "year": 2016
+    }
+  ],
+
+  "related": ["inside-a-black-hole", "venus-evil-twin", "dark-matter"]
+}

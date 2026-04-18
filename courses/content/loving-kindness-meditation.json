@@ -1,0 +1,141 @@
+{
+  "id": "loving-kindness-meditation",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Loving-Kindness Meditation",
+    "teaser": "Can you train warmth like a muscle? A 2,500-year-old practice — and the science says yes.",
+    "category": "Mindfulness & Meditation",
+    "subcategories": ["Mindfulness", "Compassion Practice"],
+    "tags": ["metta", "loving-kindness", "compassion", "buddhism", "wellbeing"],
+    "emoji": "💗",
+    "accentColor": "#D4756A",
+    "coverSymbol": {
+      "sfSymbol": "heart.circle.fill",
+      "fallbackEmoji": "🫂"
+    },
+    "coverImagePrompt": "A single person sitting cross-legged with hands over the heart, bathed in soft rose and amber light, gentle dust in the air, cinematic warmth, peaceful expression"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Warmth, on demand",
+      "body": "Imagine you could sit down, close your eyes, and generate a warm, generous feeling toward another person — including someone who annoys you — the same way you'd warm up your car in winter. That's the claim of metta, or loving-kindness meditation. It sounds sentimental. It turns out to be surprisingly trainable.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "A single flickering candle flame, soft golden halo around it"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Four phrases, four people",
+      "body": "The traditional practice is simple. You silently offer four wishes — for safety, happiness, health, and ease — to yourself, then someone you love, someone neutral, someone difficult, and finally all beings. The phrases are usually: 'May you be safe. May you be happy. May you be healthy. May you live with ease.'",
+      "keyTerms": [
+        { "term": "Metta", "definition": "Pali word for loving-kindness or benevolent goodwill" },
+        { "term": "Neutral person", "definition": "Someone you know but have no strong feelings about — a grocery cashier, a distant coworker" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.circle.fill",
+        "imagePrompt": "Four stylized silhouettes of people connected by glowing golden threads"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Seven weeks, measurable change",
+      "body": "In a Stanford study by Emma Seppälä and colleagues, participants who practiced loving-kindness for just seven minutes showed an immediate jump in feelings of social connection and positivity — even toward strangers shown in photos. Barbara Fredrickson's longer studies found 7 weeks of daily practice increased positive emotions, life satisfaction, and vagal tone, a physical marker of heart health.",
+      "funFact": "The effect showed up even in people who rated themselves as 'not particularly warm' before starting.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "A rising heart-rate graph overlaid with soft pink light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why wishing works",
+      "body": "You're not pretending to feel something fake. You're activating the same neural circuits involved in genuine care — repeatedly, deliberately, toward a wider range of people than your brain would default to. Over time, the threshold for warmth drops. The 'difficult person' step especially seems to rewire how you relate to irritation itself, not just that specific person.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "Heart-shaped neural connections gently pulsing with light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Try it once, honestly",
+      "body": "The shortest version: sit comfortably, close your eyes, picture someone you love, and silently repeat the four phrases for 90 seconds. Notice if anything shifts. The practice isn't about forcing a feeling — it's about practicing the gesture, the way you'd practice a handshake before a meeting. The feeling tends to follow, eventually.",
+      "visual": {
+        "sfSymbol": "figure.mind.and.body",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who are the four categories of people in traditional metta practice?",
+      "options": [
+        "Yourself, a loved one, a neutral person, a difficult person",
+        "Your parents, siblings, friends, enemies",
+        "Just your family members",
+        "Only strangers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The practice moves outward — self, loved one, neutral person, difficult person, then all beings."
+    },
+    {
+      "index": 1,
+      "question": "What did Fredrickson's 7-week studies find?",
+      "options": [
+        "No measurable change",
+        "Increased positive emotions and vagal tone",
+        "Only short-term mood boosts",
+        "Decreased empathy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Regular practice correlated with more positive emotion, life satisfaction, and improved vagal tone."
+    },
+    {
+      "index": 2,
+      "question": "Why include a 'difficult person' in the practice?",
+      "options": [
+        "To forgive them completely",
+        "To rewire how you relate to irritation itself",
+        "To confront them later",
+        "Because tradition requires it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wishing well for someone difficult trains your response to irritation — not just your feeling about that person."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Open hearts build lives: Positive emotions, induced through loving-kindness meditation",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 2008
+    },
+    {
+      "title": "Loving-kindness meditation increases social connectedness",
+      "publisher": "Emotion (APA)",
+      "year": 2008
+    }
+  ],
+
+  "related": ["meditation-changes-brain", "body-scan-meditation", "gratitude-practice"]
+}

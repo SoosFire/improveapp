@@ -1,0 +1,136 @@
+{
+  "id": "cognitive-biases",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Cognitive Biases You Use Daily",
+    "teaser": "Your brain takes hundreds of invisible shortcuts every hour. Most of them are useful. Some of them quietly ruin your decisions.",
+    "category": "Psychology",
+    "subcategories": ["Cognitive Bias", "Decision Making"],
+    "tags": ["biases", "heuristics", "kahneman", "decisions", "thinking"],
+    "emoji": "🧩",
+    "accentColor": "#4E7FC2",
+    "coverSymbol": {
+      "sfSymbol": "brain",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A geometric illustration of a brain made from puzzle pieces, each piece subtly distorted or mirrored, moody blue and amber palette, editorial style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Your brain is lying to you right now",
+      "body": "You think you remember last week accurately. You think you bought that jacket because you liked it. You think you can spot a biased argument — especially from people you disagree with. All three are probably wrong. Daniel Kahneman won a Nobel Prize for showing that human decision-making is riddled with predictable, systematic errors. And the worst part? Knowing about them barely helps.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "A person looking in a mirror that shows a slightly distorted, funhouse version of themselves, cinematic lighting, unsettling but beautiful"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two systems, one shortcut machine",
+      "body": "Kahneman described two modes of thinking. System 1 is fast, automatic, emotional — it recognizes faces, avoids cars, feels your opinions. System 2 is slow, deliberate, effortful — it does your taxes and long division. System 1 runs almost everything. To keep up, it relies on mental shortcuts called heuristics. Most of the time they work brilliantly. When they fail, we call the failure a cognitive bias.",
+      "keyTerms": [
+        { "term": "Heuristic", "definition": "A mental shortcut that lets the brain make quick judgments without full analysis" },
+        { "term": "Cognitive bias", "definition": "A systematic error in thinking caused by a heuristic failing in a predictable way" }
+      ],
+      "visual": {
+        "sfSymbol": "gearshape.2.fill",
+        "imagePrompt": "Two gears of different sizes inside a stylized head, one spinning blur-fast and one grinding slow, schematic design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The big five you meet every day",
+      "body": "Confirmation bias: you notice facts that agree with you and filter out the rest. Anchoring: the first number you hear shapes your estimate of everything after. Availability: what comes to mind easily feels more common (shark attacks, lottery wins). Sunk cost: you keep going because you've already invested, even when quitting is smarter. Hindsight: after an event, you're sure you 'saw it coming.'",
+      "funFact": "Real estate agents shown the same house but told different 'list prices' gave appraisals that tracked the fake number — even though they swore the anchor hadn't influenced them.",
+      "visual": {
+        "sfSymbol": "list.bullet.rectangle.fill",
+        "imagePrompt": "A stylized infographic with five icons — magnifier, anchor, lightbulb, hourglass, crystal ball — each representing a different cognitive bias"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Even the experts fall for it",
+      "body": "A study of federal judges found their sentences could be swung by anchoring: judges asked to roll dice (rigged to show high or low numbers) before sentencing gave longer sentences after high rolls. Radiologists miss gorillas inserted into CT scans when they're focused on looking for nodules. Doctors, pilots, and investors all show the same patterns as the rest of us — expertise narrows bias, but rarely removes it.",
+      "visual": {
+        "sfSymbol": "stethoscope",
+        "imagePrompt": "A radiologist at a lightbox staring at a medical scan, a tiny cartoon gorilla hidden in the image, dramatic desk lamp lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You can't debug the system — but you can slow it down",
+      "body": "You can't eliminate your biases by being smart. The trick is designing around them: ask 'what would change my mind?', seek out people who disagree, sleep on big decisions, and write predictions before you know the outcome. Biases are features, not bugs — the price of a brain fast enough to survive. The goal isn't a bias-free mind. It's a slightly humbler one.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which system in Kahneman's model is fast, intuitive, and emotional?",
+      "options": ["System 1", "System 2", "System 3", "The Superego"],
+      "correctIndex": 0,
+      "explanation": "System 1 is the fast, automatic mode. System 2 is slow and deliberate."
+    },
+    {
+      "index": 1,
+      "question": "Confirmation bias is the tendency to:",
+      "options": [
+        "Doubt everything you hear",
+        "Notice and remember information that agrees with your existing beliefs",
+        "Accept the first price you're told",
+        "Refuse to quit a losing project"
+      ],
+      "correctIndex": 1,
+      "explanation": "Confirmation bias makes us favor evidence that supports our current views, and dismiss or forget contradicting evidence."
+    },
+    {
+      "index": 2,
+      "question": "What does the anchoring bias cause?",
+      "options": [
+        "People stop trusting experts",
+        "The first number or piece of information heard disproportionately shapes later judgments",
+        "People remember recent events too vividly",
+        "People refuse to change their minds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anchoring means initial information — even if arbitrary — pulls our later estimates toward it."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Thinking, Fast and Slow",
+      "publisher": "Farrar, Straus and Giroux",
+      "year": 2011
+    },
+    {
+      "title": "The Undoing Project: A Friendship That Changed Our Minds",
+      "publisher": "W. W. Norton & Company",
+      "year": 2016
+    }
+  ],
+
+  "related": ["dunning-kruger", "confirmation-bias", "decision-making"]
+}

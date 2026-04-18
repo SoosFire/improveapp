@@ -1,0 +1,136 @@
+{
+  "id": "dolly-zoom",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Dolly Zoom: Hollywood's Vertigo Trick",
+    "teaser": "The subject stays still. The background warps like a nightmare. One camera move that rewired how movies feel fear.",
+    "category": "Film & Cinema",
+    "subcategories": ["Cinematography", "Visual Language"],
+    "tags": ["cinematography", "hitchcock", "vertigo", "camera", "optics"],
+    "emoji": "🎬",
+    "accentColor": "#732727",
+    "coverSymbol": {
+      "sfSymbol": "camera.metering.center.weighted",
+      "fallbackEmoji": "🎥"
+    },
+    "coverImagePrompt": "A lone figure frozen in place on a narrow stairwell as the walls and background warp inward around them, slight chromatic aberration, dark moody teal-orange cinematic lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The shot that made audiences queasy",
+      "body": "In 1958, Alfred Hitchcock wanted to show what vertigo feels like from the inside — not as a label, but as a bodily sensation. His second-unit cameraman Irmin Roberts engineered a camera move that had never been filmed before. When it hit the screen in Vertigo, audiences gasped. Sixty years later, the same trick still shows up in Jaws, Goodfellas, Lord of the Rings, and countless music videos.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "Grainy black-and-white screenshot of Jimmy Stewart gripping a railing as a stairwell warps impossibly below him, vintage 1958 aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two opposing moves at once",
+      "body": "A dolly zoom combines two actions that cancel each other out for the subject but not for the background. The camera physically rolls (dollies) away from the subject, while simultaneously zooming in to keep the subject the same size in frame. The subject stays locked. Everything behind them appears to stretch toward or away from camera in a deeply unsettling way.",
+      "keyTerms": [
+        { "term": "Dolly", "definition": "Physical movement of the camera toward or away from the subject" },
+        { "term": "Zoom", "definition": "Optical change in the lens's focal length without moving the camera" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.and.right.righttriangle.left.righttriangle.right.fill",
+        "imagePrompt": "Overhead diagram showing camera sliding backward on rails while its lens zooms inward, two red arrows opposing each other"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it feels wrong",
+      "body": "Normally, your brain uses the relative size of objects to judge distance. As you walk backward from a friend, their face shrinks and the background shrinks with them. The dolly zoom breaks that rule. The subject's size stays perfectly constant while the background compresses or expands. Your brain receives contradictory depth cues and, lacking any real-world analog, interprets the mismatch as dread.",
+      "visual": {
+        "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+        "imagePrompt": "Split visualization of normal perspective shift on top and dolly zoom distortion below, showing the contradictory depth cues"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where the shot shows up now",
+      "body": "Spielberg used a dolly zoom on Chief Brody in Jaws the moment he realizes the shark has struck. Scorsese used one on Henry Hill in Goodfellas to show paranoia curdling. Peter Jackson pushed in on Frodo along a forest path. The move has become cinematic shorthand for 'this character's reality just changed.' It's so established that a counter-trend — intentionally overusing it — has made it a comedic cliche too.",
+      "funFact": "The effect is sometimes called the 'Vertigo effect,' 'contra-zoom,' or — in one of cinema's more elegant names — 'trombone shot.'",
+      "visual": {
+        "sfSymbol": "rectangle.stack.fill",
+        "imagePrompt": "Triptych of stylized frames — Chief Brody on the beach, Henry Hill at a bar, Frodo on the path — each mid-dolly-zoom"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "When camera language becomes emotion",
+      "body": "The dolly zoom is proof that cinema isn't just recorded reality — it's a language with grammar all its own. A single move, invented to solve one director's specific problem, became a shared vocabulary for psychological shock. The best camera techniques don't just show you what a character is feeling. They make you feel it too, somewhere low in the stomach.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What two opposing actions make up a dolly zoom?",
+      "options": [
+        "The camera rotates while tilting up",
+        "The camera dollies in while zooming out — or vice versa",
+        "The lens aperture opens while the shutter closes",
+        "The subject walks while the camera stays still"
+      ],
+      "correctIndex": 1,
+      "explanation": "The physical dolly and optical zoom move in opposite directions, keeping the subject framed identically while the background distorts."
+    },
+    {
+      "index": 1,
+      "question": "Which film is credited with introducing the dolly zoom?",
+      "options": ["Jaws (1975)", "Psycho (1960)", "Vertigo (1958)", "Citizen Kane (1941)"],
+      "correctIndex": 2,
+      "explanation": "Hitchcock's Vertigo, shot by Irmin Roberts, debuted the effect to convey its protagonist's acrophobic dizziness."
+    },
+    {
+      "index": 2,
+      "question": "Why does a dolly zoom feel so unsettling to viewers?",
+      "options": [
+        "It triggers motion sickness in most people",
+        "It contradicts the normal relationship between subject size and background size",
+        "It subliminally flashes a second image",
+        "It plays back at double frame rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Our brains use relative sizing for depth. The dolly zoom decouples subject and background in a way nothing in real life does."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Hitchcock/Truffaut (Revised Edition)",
+      "publisher": "Simon & Schuster (François Truffaut)",
+      "year": 1983
+    },
+    {
+      "title": "The Visual Story: Creating the Visual Structure of Film, TV and Digital Media",
+      "publisher": "Focal Press (Bruce Block)",
+      "year": 2020
+    }
+  ],
+
+  "related": ["vertigo-1958", "cinematography-basics", "long-take"]
+}

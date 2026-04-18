@@ -1,0 +1,139 @@
+{
+  "id": "deep-work-concept",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Deep Work: The Modern Superpower",
+    "teaser": "In an age of constant pings, the ability to focus without distraction has become rare — and economically priceless.",
+    "category": "Productivity",
+    "subcategories": ["Focus", "Knowledge Work"],
+    "tags": ["focus", "attention", "cal-newport", "flow", "remote-work"],
+    "emoji": "🧠",
+    "accentColor": "#2C3E50",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🎯"
+    },
+    "coverImagePrompt": "A lone figure at a wooden desk bathed in warm lamplight, surrounded by a dark, quiet room while a storm of notifications swirls outside the window. Cinematic, moody, painterly contrast between calm and chaos."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The skill nobody taught you",
+      "body": "In 2016, computer scientist Cal Newport noticed something strange: the most valuable workers in the world weren't the ones answering emails fastest — they were the ones who could disappear for hours at a time. He gave this vanishing act a name: deep work. And he argued it was becoming both more rare and more valuable at the same time.",
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "A silhouette of a person sitting still at a desk while blurred figures rush past them in a busy open-plan office"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Deep vs. shallow",
+      "body": "Newport splits work into two kinds. Deep work is cognitively demanding, performed without distraction, and pushes your abilities to their limit — writing a research paper, coding an algorithm, composing a song. Shallow work is logistical filler: replying to messages, attending status meetings, reformatting slides. Both feel like 'work', but only one creates rare value.",
+      "keyTerms": [
+        { "term": "Deep work", "definition": "Focused, undistracted cognitive effort on a demanding task" },
+        { "term": "Shallow work", "definition": "Non-demanding, logistical tasks often performed while distracted" }
+      ],
+      "visual": {
+        "sfSymbol": "square.split.2x1.fill",
+        "imagePrompt": "Split-screen image: left side a still, lamp-lit desk with a single open notebook; right side a chaotic mess of sticky notes, phones, and open tabs"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why distraction is so costly",
+      "body": "Psychologist Sophie Leroy coined the term 'attention residue' to describe what happens when you switch tasks: a piece of your mind stays stuck on the previous one. Even a 30-second glance at Slack can leave your brain operating at a fraction of its capacity for the next twenty minutes. Deep work is less about working harder and more about refusing to leave that residue behind.",
+      "keyTerms": [
+        { "term": "Attention residue", "definition": "Lingering cognitive load from an unfinished task that degrades performance on the next one" }
+      ],
+      "visual": {
+        "sfSymbol": "bubbles.and.sparkles.fill",
+        "imagePrompt": "An illustration of a brain with ghostly echoes of previous tasks trailing behind it like smoke"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The 4-hour ceiling",
+      "body": "Studies of violinists, writers, and chess grandmasters by psychologist Anders Ericsson found a remarkably consistent upper limit: even elite performers can sustain truly deep practice for only about four hours a day, usually in 60-90 minute blocks. It's not a motivation problem — it's a biological one. The good news? Four focused hours regularly beats twelve distracted ones.",
+      "funFact": "Charles Darwin wrote 'On the Origin of Species' in three 90-minute work blocks per day, then went for walks.",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": "A vintage hourglass on an old wooden desk next to a worn leather notebook, soft window light, painterly"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Making it a habit",
+      "body": "The practical trick isn't willpower — it's ritual. Schedule focused blocks at the same time each day, make the environment boring (no phone, no tabs), and protect the block like a meeting with your most demanding client. You don't need to work deeply all day. You just need to do it most days.",
+      "visual": {
+        "sfSymbol": "calendar.badge.clock",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What best defines 'deep work' according to Cal Newport?",
+      "options": [
+        "Any work done before 9am",
+        "Focused, distraction-free cognitive effort on demanding tasks",
+        "Long hours at the office",
+        "Work that involves a computer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deep work is defined by the quality of attention, not the hours or location."
+    },
+    {
+      "index": 1,
+      "question": "What is 'attention residue'?",
+      "options": [
+        "Leftover adrenaline after stressful work",
+        "Cognitive load that lingers after switching tasks",
+        "A caffeine-related focus dip",
+        "The feeling of a job well done"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sophie Leroy found that part of your mind stays stuck on the previous task when you switch, reducing performance."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many hours per day of genuine deep work can elite performers sustain?",
+      "options": ["About 1", "About 4", "About 8", "About 12"],
+      "correctIndex": 1,
+      "explanation": "Ericsson's research on elite performers repeatedly shows a ceiling of around four hours of true deep practice."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "publisher": "Grand Central Publishing",
+      "year": 2016
+    },
+    {
+      "title": "Why is it so hard to do my work? The attention residue effect",
+      "publisher": "Organizational Behavior and Human Decision Processes",
+      "year": 2009
+    }
+  ],
+
+  "related": ["pomodoro-technique", "flow-state", "getting-things-done"]
+}

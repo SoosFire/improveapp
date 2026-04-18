@@ -1,0 +1,141 @@
+{
+  "id": "norman-doors",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Norman Doors: Design That Lies to You",
+    "teaser": "Ever pushed a door that said PULL? It's not you — the door is badly designed. And someone literally wrote the book on it.",
+    "category": "Design",
+    "subcategories": ["UX Design", "Usability"],
+    "tags": ["design", "ux", "affordance", "usability", "cognition"],
+    "emoji": "🚪",
+    "accentColor": "#C94C4C",
+    "coverSymbol": {
+      "sfSymbol": "door.left.hand.open",
+      "fallbackEmoji": "🚪"
+    },
+    "coverImagePrompt": "A sleek glass door with a vertical metal pull handle, but a small sticker reading 'PUSH' taped to it, a frustrated hand pressing flat against the glass, soft office lighting, conceptual photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "You are not stupid",
+      "body": "You've done it. Everyone has. You stride confidently toward a door, grab the handle, pull — and it doesn't budge. There's a tiny PUSH sign you missed. You feel dumb for half a second. But you shouldn't. The blame belongs to the designer. That door has a name: a Norman Door.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A hand yanking on a door handle with a tiny almost-invisible 'PUSH' sign above it, comedic frustration, bright commercial photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Who was Don Norman?",
+      "body": "Don Norman is a cognitive scientist who worked at Apple in the 1990s and helped popularize the term 'user experience.' In his 1988 book 'The Design of Everyday Things,' he argued that when an object is confusing to use, the fault is the designer's, not yours. Doors became his favorite punching bag — and his name stuck to the worst ones.",
+      "keyTerms": [
+        { "term": "Affordance", "definition": "A visual clue that tells you how to use an object — a flat plate 'affords' pushing, a handle 'affords' pulling" },
+        { "term": "Signifier", "definition": "A deliberate cue — like a sign or arrow — that tells you what to do" }
+      ],
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "A well-worn hardcover copy of 'The Design of Everyday Things' on a wooden desk next to a coffee cup and eyeglasses"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The two-second rule",
+      "body": "Norman's principle is elegant: a door should tell you how to open it in under two seconds, without any words. A vertical bar says 'pull.' A flat metal plate says 'push.' A horizontal bar on both sides? That's a Norman Door — it affords pulling, but the sign says push. Your hand and your eyes get contradictory instructions, and your brain has to override a reflex.",
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "Side-by-side diagram of two doors: one with a flat plate labeled PUSH, one with a vertical bar labeled PULL, clean infographic style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why these doors exist",
+      "body": "Architects often want doors to look symmetrical from both sides. So they put identical hardware on each face — and suddenly neither side signals direction. Fire codes, security rules, and aesthetic choices all push designers toward doors that look elegant and behave terribly. Signs get added as a patch. As Norman says: 'When you put a sign on something, you've admitted defeat.'",
+      "funFact": "Norman Doors are so common that the Vox-produced video explaining them has over 9 million views — more than most actual door manuals.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A pair of identical glass doors on a modern building with both sides displaying different PUSH and PULL stickers, architectural photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Design is a conversation",
+      "body": "Once you learn about Norman Doors, you start seeing them everywhere — in app buttons that look clickable but aren't, in shower knobs with cryptic arrows, in TV remotes with forty buttons. The lesson isn't about doors. It's that good design whispers instructions silently, and bad design forces you to think. Next time something frustrates you, ask: is it me, or is it a Norman Door?",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'Norman Door'?",
+      "options": [
+        "Architect Norman Foster",
+        "Cognitive scientist Don Norman",
+        "Designer Dieter Rams",
+        "Engineer Norman Borlaug"
+      ],
+      "correctIndex": 1,
+      "explanation": "Don Norman, author of 'The Design of Everyday Things,' used confusing doors as his classic example of bad design."
+    },
+    {
+      "index": 1,
+      "question": "What is an 'affordance' in design?",
+      "options": [
+        "How much something costs to produce",
+        "A visual cue that suggests how an object is used",
+        "The warranty a product comes with",
+        "A government design regulation"
+      ],
+      "correctIndex": 1,
+      "explanation": "An affordance is a property of an object that signals how to interact with it — like a handle suggesting 'pull.'"
+    },
+    {
+      "index": 2,
+      "question": "According to Norman, when a door needs a sign to explain how to open it, the design is...",
+      "options": [
+        "Elegant and minimalist",
+        "A failure",
+        "Compliant with code",
+        "Fine, as long as the sign is clear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Norman famously said adding a sign means you've admitted the design has failed to communicate on its own."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Design of Everyday Things",
+      "publisher": "Basic Books",
+      "year": 1988
+    },
+    {
+      "title": "It's Not You. Bad Doors Are Everywhere.",
+      "publisher": "Vox",
+      "year": 2016
+    }
+  ],
+
+  "related": ["user-experience-design", "cognitive-load", "dieter-rams-principles"]
+}

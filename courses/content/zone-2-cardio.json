@@ -1,0 +1,137 @@
+{
+  "id": "zone-2-cardio",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Zone 2: The Most Overlooked Cardio",
+    "teaser": "It feels almost too easy — but this is the pace elite athletes spend most of their training time at. And it might add years to your life.",
+    "category": "Fitness",
+    "subcategories": ["Endurance", "Longevity"],
+    "tags": ["cardio", "mitochondria", "heart-rate", "training-zones", "longevity"],
+    "emoji": "❤️",
+    "accentColor": "#457B9D",
+    "coverSymbol": {
+      "sfSymbol": "heart.circle.fill",
+      "fallbackEmoji": "🚴"
+    },
+    "coverImagePrompt": "A person running at an easy pace along a forest trail at golden hour, soft bokeh, warm and peaceful, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 80/20 secret of elite athletes",
+      "body": "Olympic marathoners, Tour de France cyclists, Norwegian cross-country skiers — when researchers track what they actually do in training, a weird pattern appears. About 80% of their total training time is spent going easy enough to hold a conversation. Only about 20% is hard. It's called polarized training, and Zone 2 is the 80%.",
+      "visual": {
+        "sfSymbol": "pie.chart",
+        "imagePrompt": "A clean pie chart split 80/20, with the 80 slice labeled 'easy' and the 20 slice labeled 'hard'"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What is Zone 2?",
+      "body": "Training zones split effort into rough categories based on heart rate and fuel usage. Zone 2 is the top end of 'easy' — fast enough that your breathing deepens but you can still speak full sentences, just not sing. For most people, that's roughly 60 to 70% of your max heart rate. At this effort, muscles primarily burn fat for fuel.",
+      "keyTerms": [
+        { "term": "Max heart rate", "definition": "The highest BPM your heart can hit, roughly 220 minus your age" },
+        { "term": "Mitochondria", "definition": "The tiny power plants inside your cells that turn food into usable energy" },
+        { "term": "Polarized training", "definition": "Spending most time easy and some time very hard, skipping the middle" }
+      ],
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "A heart-rate zone chart with Zone 2 highlighted in soft blue between 60-70% max HR"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Building mitochondria",
+      "body": "The magic of Zone 2 happens inside your cells. Low-intensity aerobic effort is the strongest known signal for your body to build more mitochondria — and to keep them healthy. More mitochondria means you can burn more fat, clear more lactate, and recover faster even at hard efforts. You can't get that adaptation from always training at high intensity; the mechanism simply doesn't respond the same way.",
+      "visual": {
+        "sfSymbol": "rectangle.connected.to.line.below",
+        "imagePrompt": "A microscopic illustration of mitochondria inside a muscle cell, glowing softly, clean medical art"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why physicians like it too",
+      "body": "Longevity researcher Dr. Peter Attia argues Zone 2 may be one of the highest-leverage interventions for long-term health, citing links to improved insulin sensitivity, cardiovascular health, and metabolic flexibility. Large observational studies, like the Copenhagen City Heart Study, show moderate-intensity joggers live meaningfully longer than sedentary peers — and even longer than extreme exercisers.",
+      "funFact": "Norwegian distance runner Jakob Ingebrigtsen reportedly does about 90% of his weekly mileage at paces that feel almost absurdly easy.",
+      "visual": {
+        "sfSymbol": "stethoscope",
+        "imagePrompt": "A smartwatch on someone's wrist showing a steady heart-rate reading, tidy aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "If it feels hard, slow down",
+      "body": "Most recreational runners train too hard on easy days and too easy on hard days — the exact opposite of what works. Aim for three to four hours a week at a pace where you could chat with a friend. It won't feel like much in the moment. Over months, it quietly rebuilds the engine your heart and lungs run on.",
+      "visual": {
+        "sfSymbol": "leaf",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How much of their training do elite endurance athletes typically do easy?",
+      "options": ["About 20%", "About 50%", "About 80%", "Almost none"],
+      "correctIndex": 2,
+      "explanation": "The polarized 80/20 model has roughly 80% easy, 20% hard — with very little in between."
+    },
+    {
+      "index": 1,
+      "question": "What cellular change does Zone 2 most strongly drive?",
+      "options": [
+        "Shrinking muscle fibers",
+        "Building more and healthier mitochondria",
+        "Increasing red blood cell destruction",
+        "Lowering your resting metabolic rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low-intensity aerobic work is a powerful stimulus for mitochondrial biogenesis."
+    },
+    {
+      "index": 2,
+      "question": "A practical way to check you're in Zone 2 is:",
+      "options": [
+        "You can't speak at all",
+        "You can still speak in full sentences but not sing",
+        "You feel totally relaxed with no effort",
+        "You're sprinting"
+      ],
+      "correctIndex": 1,
+      "explanation": "The talk test — speak but don't sing — is a classic field proxy for Zone 2 effort."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Training intensity distribution across athletic disciplines",
+      "publisher": "International Journal of Sports Physiology and Performance",
+      "year": 2014
+    },
+    {
+      "title": "The Copenhagen City Heart Study: Jogging and Longevity",
+      "publisher": "Journal of the American College of Cardiology",
+      "year": 2015
+    }
+  ],
+
+  "related": ["lactate-threshold", "why-we-get-stronger", "hrv-explained"]
+}

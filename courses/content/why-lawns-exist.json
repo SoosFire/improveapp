@@ -1,0 +1,138 @@
+{
+  "id": "why-lawns-exist",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We All Have Lawns",
+    "teaser": "A uniform green rectangle in front of your house is a 400-year-old status symbol you probably inherited without knowing it.",
+    "category": "Gardening",
+    "subcategories": ["History", "Landscape"],
+    "tags": ["lawns", "history", "suburbia", "culture", "grass"],
+    "emoji": "🏡",
+    "accentColor": "#7CB342",
+    "coverSymbol": {
+      "sfSymbol": "house.fill",
+      "fallbackEmoji": "🌿"
+    },
+    "coverImagePrompt": "An aerial view of an American suburban neighborhood at dawn — identical rectangles of perfect green lawn in front of every house, long dewy shadows, painterly, slightly melancholic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A strange kind of garden",
+      "body": "Most of what you plant in a garden bears fruit, flowers, or food. The lawn bears nothing. You mow it, water it, fertilize it — and in return it just stays the same shade of green. Why did an entire continent decide this was the default look of home?",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "Close-up of freshly cut suburban grass with mower wheel tracks, soft morning light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Born in the English manor",
+      "body": "The manicured lawn was invented by 17th-century English and French aristocrats. Only rich landowners could afford to maintain huge expanses of grass — it meant your estate was so wealthy you didn't need that land for crops or grazing. Keeping grass short required armies of servants with scythes. A green lawn was, quite literally, wealth you could see from the road.",
+      "keyTerms": [
+        { "term": "Scythe", "definition": "A long curved blade used to cut grass by hand, before the lawnmower existed" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A sweeping 1700s English estate lawn with distant servants using scythes, a manor house in the background, oil painting style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two inventions made it universal",
+      "body": "In 1830, Edwin Budding patented the first lawnmower in England — suddenly one person could maintain in an hour what took a team of scythers all day. Then in post-WWII America, Abraham Levitt built the Levittowns: identical suburban homes with identical front lawns written into the deed. Homeowners were required to mow weekly. The lawn went from aristocratic flex to middle-class mandate in two generations.",
+      "keyTerms": [
+        { "term": "Levittown", "definition": "Mass-produced postwar American suburbs that codified the front lawn as a civic duty" }
+      ],
+      "visual": {
+        "sfSymbol": "gearshape.2.fill",
+        "imagePrompt": "Vintage 1950s suburban scene, a man in white shirt pushing a chrome reel mower across a perfect lawn, children waving in the background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The biggest 'crop' in America",
+      "body": "A 2005 NASA satellite study estimated that turfgrass covers around 40 million acres in the U.S. — three times more than irrigated corn. Americans pour roughly 3 trillion gallons of water and 200 million gallons of gasoline into their lawns every year. It is, by area, the country's single largest irrigated crop — and none of it is edible.",
+      "funFact": "The average American spends about 70 hours per year on lawn care — roughly two full work weeks.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "Stylized map of the continental USA with green patches scattered showing turfgrass coverage, infographic style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A habit, not a law of nature",
+      "body": "The lawn isn't a natural landscape — it's a cultural inheritance, a default that got copied from neighbor to neighbor until it felt inevitable. Knowing where it came from is what makes it a choice again. Some homeowners are now replacing lawns with meadows, clover, or native gardens — and discovering the front yard was never required to be a carpet.",
+      "visual": {
+        "sfSymbol": "leaf.arrow.triangle.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who originally popularized the manicured lawn?",
+      "options": [
+        "American colonists",
+        "17th-century European aristocrats",
+        "Ancient Romans",
+        "Japanese gardeners"
+      ],
+      "correctIndex": 1,
+      "explanation": "English and French nobles used huge lawns as a visible display of wealth — they could afford land that produced nothing."
+    },
+    {
+      "index": 1,
+      "question": "What 1830 invention made lawns accessible to regular people?",
+      "options": ["The sprinkler", "The scythe", "The lawnmower", "Synthetic fertilizer"],
+      "correctIndex": 2,
+      "explanation": "Edwin Budding patented the first lawnmower in 1830, replacing teams of scythe-wielding servants."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how large is U.S. turfgrass coverage compared to irrigated corn?",
+      "options": [
+        "Half as large",
+        "About the same",
+        "Three times larger",
+        "Ten times larger"
+      ],
+      "correctIndex": 2,
+      "explanation": "NASA's 2005 estimate put turfgrass at about 40 million acres — roughly three times the area of irrigated corn."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mapping and Modeling the Biogeochemical Cycling of Turf Grasses in the United States",
+      "publisher": "Environmental Management (NASA-led study)",
+      "year": 2005
+    },
+    {
+      "title": "American Green: The Obsessive Quest for the Perfect Lawn",
+      "publisher": "W. W. Norton",
+      "year": 2006
+    }
+  ],
+
+  "related": ["meadow-gardens", "suburbanization-history", "native-plants"]
+}

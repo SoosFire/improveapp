@@ -1,0 +1,131 @@
+{
+  "id": "love-languages",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Five Love Languages",
+    "teaser": "Why some people feel loved by a gift and others by a hand on the shoulder — and why speaking the wrong one stings.",
+    "category": "Relationships",
+    "subcategories": ["Communication", "Emotional Intelligence"],
+    "tags": ["love", "communication", "psychology", "relationships", "chapman"],
+    "emoji": "💞",
+    "accentColor": "#E4647C",
+    "coverSymbol": {
+      "sfSymbol": "heart.fill",
+      "fallbackEmoji": "❤️"
+    },
+    "coverImagePrompt": "Two hands reaching toward each other across a warmly lit wooden table, a small bouquet and handwritten note between them, soft bokeh, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Loving someone in a language they don't speak",
+      "body": "Imagine working late every night to buy your partner nice things — and then finding out all they ever wanted was twenty minutes on the couch, phones away. You weren't loving them badly. You were loving them in a language they didn't speak.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A couple on opposite ends of a couch, one holding a wrapped gift, the other reaching out for a hand, soft evening lamp light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Chapman's five categories",
+      "body": "In 1992, counselor Gary Chapman distilled decades of couples therapy notes into a simple framework: people tend to feel most loved in one of five 'dialects.' They are words of affirmation, quality time, receiving gifts, acts of service, and physical touch. We usually give love the way we want to receive it — which is exactly where the mismatch starts.",
+      "keyTerms": [
+        { "term": "Love language", "definition": "The primary way a person feels and expresses love" },
+        { "term": "Primary language", "definition": "The one love language that registers most deeply for an individual" }
+      ],
+      "visual": {
+        "sfSymbol": "list.bullet.rectangle.fill",
+        "imagePrompt": "An illustrated notebook page listing five love languages with tiny hand-drawn icons next to each, warm paper texture"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What each one actually feels like",
+      "body": "Words of affirmation is hearing 'I'm proud of you' and believing it. Quality time is undivided attention — no phone, no multitasking. Gifts are tokens that say 'I was thinking of you,' not bribes. Acts of service is doing the dishes so they don't have to. Physical touch is a hand on the back as you pass by. Each channel is its own nervous system language.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "Five warm vignettes arranged as a grid: a handwritten note, coffee together, a wrapped gift, folded laundry, linked hands"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Does it hold up?",
+      "body": "Psychologists have pushed back: most people value all five, not just one, and couples who match don't automatically report higher satisfaction. But a 2022 meta-review in Current Directions in Psychological Science found that what *does* predict satisfaction is perceived responsiveness — feeling that your partner understands and cares about your specific needs. In other words, the framework is oversimplified, but the instinct behind it is real.",
+      "funFact": "Chapman's original book has sold over 20 million copies and been translated into 50 languages — itself a kind of love letter.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A warm infographic of five bars at roughly equal heights with one slightly taller, hand-drawn style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Ask, don't assume",
+      "body": "The useful takeaway isn't to diagnose your partner into a box. It's to ask: 'When have you felt most loved by me?' Their answer is the map. You don't have to believe the framework literally — you just have to believe that how love is received matters as much as how it's sent.",
+      "visual": {
+        "sfSymbol": "message.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who introduced the five love languages framework?",
+      "options": ["John Gottman", "Gary Chapman", "Esther Perel", "Brené Brown"],
+      "correctIndex": 1,
+      "explanation": "Counselor Gary Chapman published 'The 5 Love Languages' in 1992 based on his couples therapy work."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT one of the five love languages?",
+      "options": ["Acts of service", "Financial security", "Words of affirmation", "Physical touch"],
+      "correctIndex": 1,
+      "explanation": "The five are words of affirmation, quality time, receiving gifts, acts of service, and physical touch."
+    },
+    {
+      "index": 2,
+      "question": "According to recent research, what most reliably predicts relationship satisfaction?",
+      "options": [
+        "Matching love languages exactly",
+        "Speaking only your partner's primary language",
+        "Perceived responsiveness to a partner's needs",
+        "Equal income"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 2022 meta-review highlighted perceived responsiveness — feeling understood and cared for — as the stronger predictor."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The 5 Love Languages: The Secret to Love That Lasts",
+      "publisher": "Gary Chapman, Northfield Publishing",
+      "year": 1992
+    },
+    {
+      "title": "Popular Psychology Through a Scientific Lens: Evaluating Love Languages From a Relationship Science Perspective",
+      "publisher": "Current Directions in Psychological Science",
+      "year": 2022
+    }
+  ],
+
+  "related": ["active-listening", "attachment-styles", "nonviolent-communication"]
+}

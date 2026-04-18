@@ -1,0 +1,141 @@
+{
+  "id": "inside-a-black-hole",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What's Inside a Black Hole?",
+    "teaser": "The deeper you fall, the weirder things get — until space and time themselves stop making sense.",
+    "category": "Astronomy",
+    "subcategories": ["Cosmology", "General Relativity"],
+    "tags": ["black holes", "relativity", "singularity", "gravity", "spacetime"],
+    "emoji": "🕳️",
+    "accentColor": "#2B1F5C",
+    "coverSymbol": {
+      "sfSymbol": "circle.hexagonpath.fill",
+      "fallbackEmoji": "🕳️"
+    },
+    "coverImagePrompt": "A spinning black hole with a glowing orange accretion disk warping light around it, cinematic astrophysical visualization, deep space background"
+  },
+
+  "meta": {
+    "difficulty": "advanced",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A destination without a return ticket",
+      "body": "Imagine falling feet-first into a black hole. At some invisible boundary — the event horizon — you cross a line from which no signal, no light, no scream can ever come back out. Outside, observers see you slow and redden until you freeze in time. From your own perspective, you keep falling. And it gets much stranger from there.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line.circle",
+        "imagePrompt": "A tiny astronaut silhouette falling toward a dark sphere with a thin bright halo, stars smeared around the edge"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the event horizon actually is",
+      "body": "The event horizon isn't a surface — it's a mathematical threshold where the escape velocity equals the speed of light. Outside, signals can still claw their way out. Inside, every direction — up, down, left, right — points toward the center. Moving away from the singularity becomes as impossible as moving backward through time.",
+      "keyTerms": [
+        { "term": "Event horizon", "definition": "The one-way boundary around a black hole from which nothing can escape" },
+        { "term": "Singularity", "definition": "The point at the center of a black hole where general relativity predicts infinite density" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.dashed",
+        "imagePrompt": "A diagram of a black hole with nested shells — photon sphere, event horizon, singularity — cleanly labeled"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Spaghettification and tidal shredding",
+      "body": "Gravity pulls harder on your feet than on your head, but around a small black hole the difference becomes extreme. You'd be stretched into a long thin noodle — astrophysicists actually call this spaghettification. For a supermassive black hole like the one in our galaxy, however, the tidal forces at the horizon are gentle enough that you'd cross without immediately noticing. The real chaos is deeper.",
+      "funFact": "The word 'spaghettification' appeared in a Stephen Hawking book and has since been used in peer-reviewed physics papers.",
+      "visual": {
+        "sfSymbol": "arrow.up.and.down",
+        "imagePrompt": "A human figure being stretched vertically into a thin strand of particles as it approaches a dark sphere, dramatic lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where physics gives up",
+      "body": "Inside the horizon, Einstein's equations predict a singularity — a point of infinite density and zero size. But 'infinite' is usually a sign that a theory has broken. Most physicists think general relativity is incomplete here and that a future theory of quantum gravity will replace the singularity with something stranger: a fuzzy region, a bounce into a new universe, or a structure hidden by 'firewalls.' We literally do not know.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "An abstract glowing mathematical equation dissolving into smoke at a point of infinity, moody cosmic colors"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The most honest answer in physics",
+      "body": "What's inside a black hole? We can describe the geometry down to a certain depth, but past that our best theories disagree and break down. That's not a failure of science — it's an invitation. Somewhere behind every event horizon is a clue to how gravity and quantum mechanics really fit together. We just can't go get it.",
+      "visual": {
+        "sfSymbol": "sparkle",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What defines a black hole's event horizon?",
+      "options": [
+        "The visible surface of the black hole",
+        "The boundary where escape velocity equals the speed of light",
+        "The point where gravity becomes infinite",
+        "The outer edge of the accretion disk"
+      ],
+      "correctIndex": 1,
+      "explanation": "The event horizon is the mathematical boundary where you'd need to travel faster than light to escape — so nothing can."
+    },
+    {
+      "index": 1,
+      "question": "Why do physicists call the stretching near a small black hole 'spaghettification'?",
+      "options": [
+        "Because the matter spins into noodle-shaped spirals",
+        "Because gravity pulls harder on the near side than the far side, stretching objects thin",
+        "Because the accretion disk looks like pasta",
+        "Because particles split into long chains"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tidal force — the difference in gravity between your feet and your head — stretches falling matter into long thin strands."
+    },
+    {
+      "index": 2,
+      "question": "What does 'singularity' really mean in the context of black holes?",
+      "options": [
+        "The exact moment a black hole forms",
+        "A single star orbiting the center",
+        "A point where general relativity predicts infinite density",
+        "The brightest point of the accretion disk"
+      ],
+      "correctIndex": 2,
+      "explanation": "A singularity is where general relativity's equations break down and predict impossible infinities — a sign a deeper theory is needed."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Brief History of Time",
+      "publisher": "Bantam",
+      "year": 1988
+    },
+    {
+      "title": "Black Hole Survival Guide",
+      "publisher": "Pantheon",
+      "year": 2020
+    }
+  ],
+
+  "related": ["great-attractor", "venus-evil-twin", "quantum-gravity"]
+}

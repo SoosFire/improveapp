@@ -1,0 +1,131 @@
+{
+  "id": "blue-zones-longevity",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Blue Zones: Where People Live Longest",
+    "teaser": "Five small corners of the planet have ten times more centenarians than average. What are they doing right?",
+    "category": "Health",
+    "subcategories": ["Longevity", "Lifestyle", "Epidemiology"],
+    "tags": ["longevity", "health", "blue zones", "lifestyle", "aging"],
+    "emoji": "🌿",
+    "accentColor": "#3F7D75",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🫒"
+    },
+    "coverImagePrompt": "A weathered 100-year-old Sardinian shepherd smiling in golden hour light, olive groves rolling behind him, cinematic portrait, warm earthy tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The island that forgot to die",
+      "body": "In the mountains of Sardinia there's a village called Seulo where men reach 100 at ten times the global rate. On the Japanese island of Okinawa, women at 90 look after their great-grandkids. In Loma Linda, California, a community lives a decade longer than their American neighbors. Five tiny places on five different continents — all quietly beating the odds of aging.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A world map with five glowing blue circles across Sardinia, Okinawa, Nicoya, Ikaria, and Loma Linda, elegant cartography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'Blue Zones' means",
+      "body": "Researcher Dan Buettner partnered with National Geographic to map pockets of exceptional longevity — places where people were measurably more likely to reach 100 in good health. On his first trip to Sardinia, a demographer drew blue circles on a map to mark the clusters. The name stuck. The five confirmed Blue Zones are Sardinia, Okinawa, Nicoya (Costa Rica), Ikaria (Greece), and Loma Linda (California).",
+      "keyTerms": [
+        { "term": "Centenarian", "definition": "A person who has reached 100 years of age" },
+        { "term": "Blue Zone", "definition": "A geographic region with unusually high rates of healthy centenarians" }
+      ],
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A vintage cartographer's desk with a paper map, blue pen circles, magnifying glass, warm library lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Power 9",
+      "body": "The Blue Zones are thousands of miles apart but share a startlingly similar way of life. People move naturally all day — walking, gardening, hauling firewood — rather than exercising. They eat mostly plants. They eat until they're 80% full. They have a clear sense of purpose (the Okinawans call it 'ikigai'). They belong to strong social networks. They drink moderately with friends, not alone. And crucially — they rarely retire from meaning.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "Elderly people tending a hillside garden together under a clear Mediterranean sky, laughing, grounded earth tones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It isn't the genes",
+      "body": "Danish twin studies suggest only about 20% of how long you live is genetic — the rest is lifestyle and environment. When Okinawans moved to Brazil and adopted a Western diet, their longevity advantage vanished within a generation. On Ikaria, even dementia rates are roughly 75% lower than in the U.S. The point isn't that these people won the genetic lottery. It's that their daily environment quietly makes the healthy choice the default.",
+      "funFact": "The average Okinawan centenarian eats sweet potatoes as roughly 60% of their diet. Not fish, not seaweed — humble purple sweet potatoes.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A long wooden table outdoors with an extended family of all ages sharing a simple Mediterranean meal, wine, warm evening light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Build your own Blue Zone",
+      "body": "You can't move to Sardinia tomorrow, but you can steal the design. Walk to the shop instead of driving. Eat dinner with the same friends twice a week. Plant something. Know why you get up in the morning. No single habit extends life dramatically — but stacked together, they tilt the odds by years. Longevity isn't a diet. It's a whole operating system.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of these is NOT one of the five Blue Zones?",
+      "options": ["Sardinia, Italy", "Okinawa, Japan", "Reykjavik, Iceland", "Ikaria, Greece"],
+      "correctIndex": 2,
+      "explanation": "Reykjavik isn't a Blue Zone. The five are Sardinia, Okinawa, Nicoya (Costa Rica), Ikaria, and Loma Linda (California)."
+    },
+    {
+      "index": 1,
+      "question": "Roughly what share of lifespan is genetic, according to twin studies?",
+      "options": ["About 20%", "About 50%", "About 75%", "Essentially 100%"],
+      "correctIndex": 0,
+      "explanation": "Danish twin studies suggest around 20% of lifespan is inherited — the rest is shaped by lifestyle and environment."
+    },
+    {
+      "index": 2,
+      "question": "What do most Blue Zone populations have in common?",
+      "options": [
+        "High-protein carnivore diets",
+        "Intense daily gym workouts",
+        "Plant-heavy diets and strong social ties",
+        "Total avoidance of alcohol"
+      ],
+      "correctIndex": 2,
+      "explanation": "Blue Zones cluster around mostly-plant diets, natural daily movement, strong community, and a sense of purpose."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Blue Zones: Lessons for Living Longer From the People Who've Lived the Longest",
+      "publisher": "National Geographic",
+      "year": 2008
+    },
+    {
+      "title": "Genetic influence on human lifespan and longevity",
+      "publisher": "Human Genetics",
+      "year": 2006
+    }
+  ],
+
+  "related": ["ikigai-purpose", "mediterranean-diet", "centenarian-genes"]
+}

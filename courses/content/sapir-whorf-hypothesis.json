@@ -1,0 +1,141 @@
+{
+  "id": "sapir-whorf-hypothesis",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Does Language Shape How You Think?",
+    "teaser": "Russians see more blues. The Kuuk Thaayorre always know which way is north. Is your mother tongue secretly rewiring your brain?",
+    "category": "Linguistics",
+    "subcategories": ["Cognitive Science", "Anthropology"],
+    "tags": ["sapir-whorf", "linguistics", "cognition", "language", "perception"],
+    "emoji": "🗣️",
+    "accentColor": "#6F4B9A",
+    "coverSymbol": {
+      "sfSymbol": "character.bubble.fill",
+      "fallbackEmoji": "💬"
+    },
+    "coverImagePrompt": "A translucent human head made of layered speech bubbles in dozens of languages and scripts, swirling thoughts in multiple colors, surreal editorial art"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A question worth a century of argument",
+      "body": "Ask a Russian speaker to sort shades of blue and they'll do it faster than you. Ask an Aboriginal Australian from the Kuuk Thaayorre community to point north and they'll do it on instinct — even indoors, even blindfolded. Could the language you speak actually change what your brain notices? Welcome to one of the most contested questions in modern science.",
+      "visual": {
+        "sfSymbol": "location.north.fill",
+        "imagePrompt": "An Aboriginal Australian elder standing on red desert earth, confidently pointing north beneath the Milky Way, cinematic night scene"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two linguists, one big idea",
+      "body": "In the 1930s, Edward Sapir and his student Benjamin Lee Whorf proposed that language doesn't just describe thought — it shapes it. The strong version ('linguistic determinism') says language literally determines what you can think. The weak version ('linguistic relativity') says language subtly influences habits of attention. The strong version is now discredited. The weak version keeps winning experiments.",
+      "keyTerms": [
+        { "term": "Linguistic relativity", "definition": "The idea that language influences (but doesn't dictate) thought and perception" },
+        { "term": "Linguistic determinism", "definition": "The stronger, now-rejected claim that language strictly limits what you can think" }
+      ],
+      "visual": {
+        "sfSymbol": "character.book.closed.fill",
+        "imagePrompt": "Twin vintage linguistics textbooks from the 1930s, leather-bound, one labeled Sapir and one Whorf, open on a desk with annotated pages"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Russian blue experiment",
+      "body": "Russian has no single word for 'blue.' It has 'goluboy' (light blue) and 'siniy' (dark blue) — two different colors, like red and pink in English. In a 2007 MIT study, Russian speakers distinguished between these shades measurably faster than English speakers. Neuroscientist Lera Boroditsky found the effect disappeared when participants did a verbal task at the same time — as if the words themselves were doing cognitive work.",
+      "funFact": "Ancient Greek had no word for 'blue' at all. Homer famously described the sea as 'wine-dark.' Linguists still argue whether Greeks literally saw blue differently.",
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "A gradient of blues from pale sky to deep ocean, subtly labeled in Cyrillic with 'goluboy' and 'siniy' boundaries, elegant color study"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The compass in your head",
+      "body": "The Kuuk Thaayorre language has no words for 'left' or 'right.' Instead, everything is described in cardinal directions: 'the cup is on your northwest shoulder.' To even greet someone, you have to know which way you're facing. Result? Speakers can orient themselves in unfamiliar places with uncanny accuracy. It's not magic — it's 10,000 hours of built-in practice, baked into every sentence.",
+      "visual": {
+        "sfSymbol": "safari.fill",
+        "imagePrompt": "A stylized compass rose overlaid on an overhead map of outback Australia, pointing crisply to N, S, E, W, vintage cartography aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Subtle, but real",
+      "body": "The modern answer is 'yes, but gently.' Your language won't stop you from thinking something — any translator proves that. But it biases what you notice, how you remember, and what feels natural to say. Learning a new language isn't just new vocabulary. It's borrowing someone else's lens for a while. And that, it turns out, can change what you see.",
+      "visual": {
+        "sfSymbol": "eyeglasses",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the 'weak' version of the Sapir-Whorf hypothesis?",
+      "options": [
+        "Language has no effect on thought",
+        "Language strictly determines what you can think",
+        "Language subtly influences habits of perception and memory",
+        "Only bilingual people think clearly"
+      ],
+      "correctIndex": 2,
+      "explanation": "Linguistic relativity — the weak version — is well-supported: language nudges cognition rather than dictating it."
+    },
+    {
+      "index": 1,
+      "question": "Why do Russian speakers distinguish shades of blue faster?",
+      "options": [
+        "Their eyes have more cones",
+        "Russian has distinct words for light and dark blue",
+        "It's a cultural myth with no data",
+        "Russian schools train color vision"
+      ],
+      "correctIndex": 1,
+      "explanation": "Having separate everyday words — 'goluboy' and 'siniy' — appears to boost quick perceptual categorization."
+    },
+    {
+      "index": 2,
+      "question": "What's unusual about the Kuuk Thaayorre language?",
+      "options": [
+        "It has no verbs",
+        "It uses cardinal directions instead of left/right",
+        "It has only ten words",
+        "It's written in pictograms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Every spatial reference uses north/south/east/west, giving speakers remarkable directional awareness."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "How Language Shapes Thought",
+      "publisher": "Scientific American",
+      "year": 2011
+    },
+    {
+      "title": "Russian blues reveal effects of language on color discrimination",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2007
+    }
+  ],
+
+  "related": ["bilingual-brain", "color-perception", "cognitive-linguistics"]
+}

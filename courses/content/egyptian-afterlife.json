@@ -1,0 +1,126 @@
+{
+  "id": "egyptian-afterlife",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Egyptian Journey to the Afterlife",
+    "teaser": "Your heart is weighed against a feather. If it's heavier — a crocodile-headed demon eats your soul.",
+    "category": "Religion & Mythology",
+    "subcategories": ["Egyptian Mythology", "Afterlife"],
+    "tags": ["egypt", "anubis", "osiris", "book-of-the-dead", "afterlife"],
+    "emoji": "🪶",
+    "accentColor": "#C9A24B",
+    "coverSymbol": {
+      "sfSymbol": "pyramid.fill",
+      "fallbackEmoji": "⚱️"
+    },
+    "coverImagePrompt": "A golden scale with a human heart on one side and a single white feather on the other, jackal-headed Anubis watching, hieroglyphs glowing in the background, cinematic, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The most dramatic job interview ever",
+      "body": "In ancient Egypt, death wasn't an ending — it was a long, terrifying road trip. Your soul had to navigate lakes of fire, pass through twelve gates each guarded by a demon, answer riddles correctly, and finally stand trial before 42 judges. Mess up any step and your soul was eaten — permanently erased from existence. And you only had one shot.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A lone figure walking into a dark torchlit corridor lined with massive jackal-headed statues, ancient Egyptian tomb painting style, dramatic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "You have five souls, apparently",
+      "body": "Egyptians believed a person wasn't just one soul but five distinct parts. The ka was your life force. The ba was your personality — shown as a bird with a human head. The akh was the transformed spirit that merged with the gods. There was also your name (ren) and your shadow (sheut). All five needed to survive death for you to reach the afterlife intact.",
+      "keyTerms": [
+        { "term": "Ka", "definition": "The vital life force; needed offerings of food and drink to survive" },
+        { "term": "Ba", "definition": "The personality-soul, depicted as a human-headed bird that could fly between worlds" }
+      ],
+      "visual": {
+        "sfSymbol": "bird.fill",
+        "imagePrompt": "An Egyptian wall painting of a human-headed bird (the Ba) hovering over a mummy inside a sarcophagus, vivid pigments on plaster"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The weighing of the heart",
+      "body": "At the end of the journey came the Hall of Ma'at. The jackal-headed god Anubis placed your heart on a golden scale opposite the feather of Ma'at — the goddess of truth and cosmic order. If your heart was heavier (weighed down by lies and cruelty), it was thrown to Ammit, the 'devourer' — part crocodile, part lion, part hippo. If the scales balanced, Osiris welcomed you into the Field of Reeds, an eternal paradise.",
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": "A close-up hieroglyphic scene of Anubis adjusting a golden scale, a heart on one side, a perfectly straight feather on the other, Ammit crouched hungrily nearby"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A cheat sheet for the dead",
+      "body": "To help souls pass the test, Egyptians buried the Book of the Dead with their mummies — roughly 200 spells, many including the exact words to say to each guardian. The most famous copy, the Papyrus of Ani from around 1250 BCE, is 78 feet long and lives in the British Museum. It even contains the 'negative confession,' 42 statements like 'I have not stolen' and 'I have not caused tears.'",
+      "funFact": "Some spells were literally cheat codes — they told the deceased the secret names of the demons guarding each gate, because knowing a demon's true name gave you power over it.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "An ornate Egyptian papyrus scroll unrolled across a stone table, vibrant illustrations of gods and hieroglyphs, museum lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it's oddly comforting",
+      "body": "The Egyptian afterlife was terrifying — but it was also fair. There was no predestination, no inherited damnation. You could prepare. You could live ethically, learn the spells, commission the right tomb art. Three thousand years before courtroom dramas, Egyptians imagined death itself as a trial you could study for. Pass it, and eternity was yours.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was your heart weighed against in the Hall of Ma'at?",
+      "options": ["A gold coin", "A feather of truth", "A scarab beetle", "A drop of Nile water"],
+      "correctIndex": 1,
+      "explanation": "The heart was weighed against the feather of Ma'at, goddess of truth and cosmic balance."
+    },
+    {
+      "index": 1,
+      "question": "What happened if your heart was heavier than the feather?",
+      "options": ["You were reincarnated", "You wandered the desert forever", "Ammit, the 'devourer,' ate your heart and your soul ceased to exist", "You were enslaved to Anubis"],
+      "correctIndex": 2,
+      "explanation": "Ammit — part crocodile, lion, and hippo — consumed heavy hearts, erasing the soul from existence."
+    },
+    {
+      "index": 2,
+      "question": "What was the Book of the Dead?",
+      "options": ["A royal genealogy", "A collection of spells buried with the dead to help them pass afterlife tests", "A list of pharaohs' tombs", "A medical text"],
+      "correctIndex": 1,
+      "explanation": "It was a customizable set of about 200 spells — essentially a guidebook placed in the tomb to help the soul navigate the afterlife."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Egyptian Book of the Dead: The Book of Going Forth by Day",
+      "publisher": "Chronicle Books (trans. Raymond Faulkner)",
+      "year": 2015
+    },
+    {
+      "title": "Death and Salvation in Ancient Egypt",
+      "publisher": "Cornell University Press (Jan Assmann)",
+      "year": 2005
+    }
+  ],
+
+  "related": ["pyramid-construction", "mummification-process", "rosetta-stone"]
+}

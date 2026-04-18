@@ -1,0 +1,136 @@
+{
+  "id": "caffeine-science",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Caffeine Hijacks Your Brain",
+    "teaser": "Your morning coffee doesn't give you energy. It just tricks your brain into forgetting it's tired.",
+    "category": "Nutrition",
+    "subcategories": ["Neuroscience", "Health"],
+    "tags": ["caffeine", "coffee", "brain", "sleep", "biochemistry"],
+    "emoji": "☕",
+    "accentColor": "#6F4E37",
+    "coverSymbol": {
+      "sfSymbol": "cup.and.saucer.fill",
+      "fallbackEmoji": "☕"
+    },
+    "coverImagePrompt": "A macro shot of steam curling off a dark espresso cup with neurotransmitter molecule diagrams faintly overlaid in the steam, warm morning light, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The most popular drug on Earth",
+      "body": "Around 80 percent of adults use it daily. It's unregulated, socially celebrated, and available on every street corner. And yet most of us have no idea how caffeine actually works. It doesn't add energy to your system. It blocks the chemical signals that tell you you're tired.",
+      "visual": {
+        "sfSymbol": "mug.fill",
+        "imagePrompt": "A vibrant overhead flat-lay of coffee cups, tea mugs, and energy drinks on a wooden table, lifestyle photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet your sleepiness molecule",
+      "body": "All day long, your brain produces a molecule called adenosine. As it accumulates, it binds to receptors that slow down neural activity — making you feel gradually more and more tired. By evening, your adenosine levels are high, and you want to sleep. Caffeine works because its shape is almost identical to adenosine.",
+      "keyTerms": [
+        { "term": "Adenosine", "definition": "A molecule that builds up in the brain during wakefulness and promotes sleepiness" },
+        { "term": "Receptor", "definition": "A protein on a cell surface that receives chemical signals from other molecules" }
+      ],
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A side-by-side molecular diagram of adenosine and caffeine showing their strikingly similar shapes, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The great molecular impersonation",
+      "body": "Caffeine sneaks into adenosine receptors and plugs them up without actually activating them. With adenosine locked out, your brain never gets the 'I'm tired' signal. Meanwhile, dopamine and glutamate — your wakefulness neurotransmitters — flow more freely. You feel alert, sharp, and focused. But the adenosine hasn't gone anywhere. It's just waiting outside the door.",
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": "A stylized illustration of a caffeine molecule blocking a receptor while adenosine molecules float nearby, unable to bind"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The inevitable crash",
+      "body": "Your liver breaks caffeine down with a half-life of about 5 to 6 hours. Once it clears, all that accumulated adenosine rushes in at once — hence the crash. Daily drinkers also grow more receptors to compensate, which is why the first cup stops feeling as magical. It takes roughly 10 days of abstinence to reset your baseline sensitivity.",
+      "funFact": "A cup of coffee consumed at 2 PM can still have a quarter of its caffeine in your system at midnight — even if you feel fine.",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": "An exhausted figure slumped at a desk with a cold empty mug, afternoon light streaming through blinds, relatable and moody"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A loan, not a gift",
+      "body": "Caffeine doesn't generate energy. It borrows it from your future self. Used wisely — early in the day, in moderate doses — it's one of humanity's great productivity tools. Used chronically, it becomes part of a cycle: poor sleep, morning grogginess, more caffeine, poorer sleep. The dose, and the timing, make the difference.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How does caffeine actually make you feel alert?",
+      "options": [
+        "It generates new energy in cells",
+        "It blocks adenosine receptors so you don't feel tired",
+        "It releases stored sugar",
+        "It speeds up breathing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Caffeine blocks adenosine — the sleepiness molecule — from binding to its receptors, masking fatigue rather than creating energy."
+    },
+    {
+      "index": 1,
+      "question": "What is the approximate half-life of caffeine in most adults?",
+      "options": ["About 30 minutes", "About 2 hours", "About 5-6 hours", "About 24 hours"],
+      "correctIndex": 2,
+      "explanation": "Caffeine has a half-life of roughly 5 to 6 hours, meaning an afternoon coffee can still affect sleep late at night."
+    },
+    {
+      "index": 2,
+      "question": "Why does daily caffeine use reduce its effects over time?",
+      "options": [
+        "The liver breaks it down faster",
+        "The brain grows more adenosine receptors",
+        "The stomach absorbs less",
+        "The molecule degrades in storage"
+      ],
+      "correctIndex": 1,
+      "explanation": "With regular exposure, the brain compensates by producing more adenosine receptors — so the same dose has less impact."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Why We Sleep",
+      "publisher": "Scribner",
+      "year": 2017
+    },
+    {
+      "title": "Caffeine: How Caffeine Created the Modern World",
+      "publisher": "Penguin Press",
+      "year": 2020
+    }
+  ],
+
+  "related": ["sleep-cycles", "dopamine-system", "coffee-history"]
+}

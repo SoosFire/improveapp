@@ -1,0 +1,141 @@
+{
+  "id": "why-we-dream",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Dream",
+    "teaser": "You spend about six years of your life dreaming. Nobody fully agrees on why — but the leading theories are wild.",
+    "category": "Neuroscience",
+    "subcategories": ["Sleep Science", "Cognition"],
+    "tags": ["sleep", "dreams", "REM", "memory", "brain"],
+    "emoji": "💭",
+    "accentColor": "#3B5BA5",
+    "coverSymbol": {
+      "sfSymbol": "moon.stars.fill",
+      "fallbackEmoji": "🌙"
+    },
+    "coverImagePrompt": "A sleeping face lit by soft blue moonlight, wisps of dreamlike imagery drifting upward from the pillow like smoke, surreal cinematic portrait"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The nightly hallucination",
+      "body": "Every night, your brain spins up a fully immersive sensory experience complete with plot twists, strangers you've never met, and emotions vivid enough to wake you up crying. And then forgets almost all of it by breakfast. Why would evolution bother with something so elaborate?",
+      "visual": {
+        "sfSymbol": "zzz",
+        "imagePrompt": "A surreal dreamscape with floating doors and impossible architecture, muted blue tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where dreams live: REM sleep",
+      "body": "Most vivid dreaming happens during REM sleep — rapid eye movement sleep — a stage that cycles roughly every 90 minutes through the night. During REM, your brain is nearly as active as when you're awake, but your body is paralyzed so you don't act dreams out. Brain scans show heavy activity in visual and emotional regions and near-shutdown of the prefrontal cortex, which handles logic and self-awareness. That's why dreams feel real even when they're absurd.",
+      "keyTerms": [
+        { "term": "REM sleep", "definition": "A sleep stage with rapid eye movements, vivid dreams, and muscle paralysis" },
+        { "term": "Prefrontal cortex", "definition": "Brain region for planning and judgment, largely offline during REM" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Close-up of closed eyelids with rapid eye movements visible beneath, softly lit"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three competing theories",
+      "body": "Nobody has fully cracked dreams, but three ideas dominate. Memory consolidation: the hippocampus replays the day and strengthens what matters. Threat simulation: dreams let you rehearse dangers in a zero-stakes sandbox — which would explain why so many dreams involve being chased. Emotional regulation: REM strips the raw emotional charge off tough memories, leaving behind the facts without the sting. These aren't mutually exclusive. Dreams might be doing all three at once.",
+      "visual": {
+        "sfSymbol": "rectangle.3.group.fill",
+        "imagePrompt": "Triptych illustration showing memory, threat, and emotion symbolized in three linked dream panels"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Rats run their mazes in their sleep",
+      "body": "In 2001, researchers at MIT recorded the brain activity of rats running a maze, then watched their hippocampal cells during sleep. The same cells fired in the same order — the rats were replaying the maze, sometimes at faster-than-real speed. When people are kept awake through REM specifically, they struggle to lock in new skills the next day. Dreaming seems to be part of how learning gets sealed in.",
+      "funFact": "People blind from birth dream in sound, touch, and emotion — but never in images. Congenitally deaf dreamers sometimes sign in their dreams.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A sleeping rat in a lab cage with overlaid brainwave traces, clinical and intimate"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Your brain is not resting",
+      "body": "Sleep isn't shutdown — it's night shift. Your brain is sorting, rehearsing, and reworking the day while you're unconscious, and dreams may be the surface ripple of that deeper processing. So when you wake up with a weird dream, it's not random noise. It's the visible tip of an iceberg of housekeeping.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do dreams often feel bizarre but not noticeably so while you're in them?",
+      "options": [
+        "The brain is entirely inactive during dreaming",
+        "The prefrontal cortex, which handles logic, is largely offline",
+        "Dreams only happen in deep non-REM sleep",
+        "You're actually awake during most dreams"
+      ],
+      "correctIndex": 1,
+      "explanation": "REM sleep quiets the prefrontal cortex, so the self-monitoring part of your brain isn't flagging the weirdness."
+    },
+    {
+      "index": 1,
+      "question": "What did MIT researchers find when recording sleeping rats?",
+      "options": [
+        "Their brains went completely silent",
+        "They replayed maze patterns in the same neural sequences",
+        "They only dreamed of food",
+        "Sleep erased maze memory entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hippocampal cells replayed the exact sequences from the waking maze run — evidence of memory consolidation."
+    },
+    {
+      "index": 2,
+      "question": "Which is NOT a leading theory of dreaming?",
+      "options": [
+        "Memory consolidation",
+        "Threat simulation",
+        "Emotional regulation",
+        "Random brainwave discharge with no function"
+      ],
+      "correctIndex": 3,
+      "explanation": "The older 'random noise' view has largely been displaced by evidence that dreaming serves real cognitive functions."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Replay of neuronal firing sequences in rat hippocampus during sleep",
+      "publisher": "Neuron",
+      "year": 2001
+    },
+    {
+      "title": "Why we dream: A new theory about how it protects our brain",
+      "publisher": "Trends in Cognitive Sciences",
+      "year": 2021
+    }
+  ],
+
+  "related": ["rem-sleep", "memory-consolidation", "lucid-dreaming"]
+}

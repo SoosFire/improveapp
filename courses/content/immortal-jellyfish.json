@@ -1,0 +1,141 @@
+{
+  "id": "immortal-jellyfish",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Immortal Jellyfish",
+    "teaser": "There's an animal no bigger than your fingernail that can hit the reset button on its own life — as many times as it wants.",
+    "category": "Biology",
+    "subcategories": ["Marine Biology", "Cellular Biology"],
+    "tags": ["jellyfish", "aging", "cells", "transdifferentiation", "ocean"],
+    "emoji": "🪼",
+    "accentColor": "#B46AC4",
+    "coverSymbol": {
+      "sfSymbol": "drop.halfgrid.1x2",
+      "fallbackEmoji": "🪼"
+    },
+    "coverImagePrompt": "A tiny translucent jellyfish drifting in dark ocean water, bioluminescent, glowing pink and violet, shot with cinematic backlight, macro underwater photography"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A creature that refuses to die",
+      "body": "Most animals follow a one-way arrow: birth, growth, aging, death. But a jellyfish the size of a pinhead seems to have discovered a back door. When it gets injured, starved, or simply old, it can melt back into a blob, reattach to a rock, and start over from infancy — potentially forever.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A small Turritopsis jellyfish slowly dissolving into a cocoon-like blob on a rock, otherworldly, deep sea aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet Turritopsis dohrnii",
+      "body": "Turritopsis dohrnii is a species of jellyfish barely 4.5 millimeters across, native to warm Mediterranean and Pacific waters. Most jellyfish reproduce, drift off, and die within a few months. Turritopsis cheats. When stressed, it performs a biological trick nicknamed 'transdifferentiation' — its adult cells actually rewind into younger cell types.",
+      "keyTerms": [
+        { "term": "Transdifferentiation", "definition": "When one type of mature cell transforms directly into a different mature cell type, skipping the usual stem-cell stage" },
+        { "term": "Polyp", "definition": "The juvenile, attached stage of a jellyfish's life cycle" }
+      ],
+      "visual": {
+        "sfSymbol": "camera.macro",
+        "imagePrompt": "A microscopic view of Turritopsis dohrnii showing its transparent bell and orange stomach visible inside"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How it rewinds",
+      "body": "When an adult Turritopsis is threatened, its bell collapses and its tentacles retract. Over a few days, the whole animal reabsorbs into a little cyst on the seafloor and reorganizes itself back into a polyp — the juvenile, plant-like stage. From that polyp, it can bud off new baby jellyfish that are genetically identical to the 'old' adult. It's the equivalent of a frog reverting into a tadpole and then re-hatching.",
+      "visual": {
+        "sfSymbol": "arrow.uturn.backward.circle.fill",
+        "imagePrompt": "Four-stage diagram of a jellyfish life cycle with an arrow looping backward from adult to polyp, scientific illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Discovered by accident",
+      "body": "In 1988, a marine biology student named Christian Sommer was raising Turritopsis in jars and noticed the adults kept disappearing — replaced by polyps he hadn't added. At first he assumed he'd mixed up the samples. It took nearly a decade for researchers to confirm that the same animals were turning themselves back into juveniles. A 2022 genome study identified dozens of genes involved in DNA repair and cellular rebooting that are ramped up during the transformation.",
+      "funFact": "The species has almost accidentally been spread worldwide in ballast tanks of cargo ships — a slow, quiet 'immortal' invasion.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A scientist peering into a beaker holding tiny pulsating jellyfish, warm lab light, intrigue on their face"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why 'immortal' has an asterisk",
+      "body": "Turritopsis is biologically immortal — not invincible. A fish can still eat it. But in terms of aging alone, it has cracked a problem that has baffled everything else in the animal kingdom. Understanding how its cells rewind may teach us something profound about our own aging — and why most animals have never found the same trick.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What unusual trick does Turritopsis dohrnii perform when stressed?",
+      "options": [
+        "It clones itself and dies",
+        "It reverts from an adult back into a juvenile polyp",
+        "It hibernates for decades",
+        "It regrows missing parts from a severed piece"
+      ],
+      "correctIndex": 1,
+      "explanation": "When injured or old, Turritopsis reabsorbs its adult body and reorganizes itself back into a polyp — the juvenile stage."
+    },
+    {
+      "index": 1,
+      "question": "What is 'transdifferentiation'?",
+      "options": [
+        "The process of eggs becoming fertilized",
+        "A mature cell turning directly into a different cell type",
+        "The merging of two species through breeding",
+        "The act of shedding old cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Transdifferentiation is when a fully mature, specialized cell changes into a different kind of specialized cell — skipping the usual stem-cell middle step."
+    },
+    {
+      "index": 2,
+      "question": "Why does 'immortal' have an asterisk for Turritopsis dohrnii?",
+      "options": [
+        "It only works three times",
+        "It requires freezing temperatures",
+        "The animal can still be eaten or killed",
+        "Only females can do it"
+      ],
+      "correctIndex": 2,
+      "explanation": "The jellyfish is biologically immortal — it doesn't age to death — but it can still be eaten by predators or destroyed by disease."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Reversing the Life Cycle: Medusae Transforming into Polyps and Cell Transdifferentiation in Turritopsis nutricula",
+      "publisher": "Biological Bulletin",
+      "year": 1996
+    },
+    {
+      "title": "Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation",
+      "publisher": "PNAS",
+      "year": 2022
+    }
+  ],
+
+  "related": ["tardigrades", "gut-brain-connection", "cellular-aging"]
+}

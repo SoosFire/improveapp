@@ -1,0 +1,136 @@
+{
+  "id": "why-soil-smells-after-rain",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Soil Smells After Rain (Petrichor)",
+    "teaser": "That earthy smell after the first rain? It's a bacterial molecule — and your nose is astonishingly good at catching it.",
+    "category": "Nature",
+    "subcategories": ["Biology", "Chemistry"],
+    "tags": ["petrichor", "geosmin", "bacteria", "smell", "soil-science"],
+    "emoji": "🌧️",
+    "accentColor": "#6D5E4F",
+    "coverSymbol": {
+      "sfSymbol": "cloud.heavyrain.fill",
+      "fallbackEmoji": "🪴"
+    },
+    "coverImagePrompt": "Raindrops hitting dry cracked earth, tiny aerosol bursts lifting off the ground, warm diffuse light filtering through a summer storm, macro cinematic shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The smell you can't name",
+      "body": "You know this smell. It hits when rain finally breaks a dry spell — clean, dusty, vegetal, somehow ancient. It doesn't really smell like water, or even like soil. It smells like a mood. The English-language name for it is only about 60 years old: petrichor. The stuff causing it is billions of years older.",
+      "visual": {
+        "sfSymbol": "cloud.drizzle.fill",
+        "imagePrompt": "Dry soil suddenly darkening as the first raindrops land, overhead macro shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet geosmin",
+      "body": "The headline molecule is geosmin — literally 'earth smell' in Greek. It's made by soil bacteria called Streptomyces, which produce it when they sporulate. Your nose can detect geosmin at around 5 parts per trillion — more sensitive than sharks are to blood. You are, biologically speaking, a geosmin detector.",
+      "keyTerms": [
+        { "term": "Geosmin", "definition": "An organic compound produced by soil bacteria that gives fresh earth its smell" },
+        { "term": "Petrichor", "definition": "The overall aroma of rain on dry earth — a mix of geosmin, plant oils, and ozone" }
+      ],
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A stylized molecular diagram of geosmin floating above dark soil"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How rain launches the smell",
+      "body": "When a raindrop hits dry, porous soil, it traps tiny air bubbles beneath it. Those bubbles race upward and burst at the surface, flinging microscopic aerosol droplets into the air — each carrying geosmin and plant oils from the soil. MIT researchers filmed this in slow motion in 2015. The 'smell of rain' is literally soil being aerosolized into your face.",
+      "funFact": "The aerosol-launching mechanism is nearly identical to how waterborne bacteria get airborne during storms — likely one way they spread.",
+      "visual": {
+        "sfSymbol": "drop.triangle.fill",
+        "imagePrompt": "High-speed macro photograph of a raindrop splashing, tiny aerosol droplets leaping upward"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why your brain cares",
+      "body": "Humans across every culture tested seem to love this smell. One hypothesis: our ancestors, who evolved in arid landscapes, had strong survival incentives to find moisture. Noticing 'rain is coming' could mean the difference between drinking and not. Camels appear to track geosmin across the desert to locate oases — we may be using the same ancient hardware.",
+      "visual": {
+        "sfSymbol": "nose.fill",
+        "imagePrompt": "A silhouette tilting its head upward to scent the air, faint rain clouds above"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A conversation between worlds",
+      "body": "That hit of petrichor isn't poetic fluff. It's bacteria you can't see, launched by physics you can't feel, being sniffed by a nose fine-tuned by evolution to find water. It's three kingdoms of life cooperating to deliver a single, very specific memory of childhood summers. The word for that is remarkable.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What molecule is mostly responsible for the smell of rain on soil?",
+      "options": ["Ozone", "Geosmin", "Methane", "Chlorophyll"],
+      "correctIndex": 1,
+      "explanation": "Geosmin, produced by Streptomyces bacteria, is the main source of that distinctive earthy aroma."
+    },
+    {
+      "index": 1,
+      "question": "How does a raindrop actually release the smell into the air?",
+      "options": [
+        "By evaporating immediately",
+        "By trapping air bubbles that burst and launch aerosols",
+        "By dissolving the soil",
+        "By vibrating the ground"
+      ],
+      "correctIndex": 1,
+      "explanation": "The drop traps air that rushes upward and bursts, flinging tiny scent-carrying droplets into the air."
+    },
+    {
+      "index": 2,
+      "question": "How sensitive is the human nose to geosmin?",
+      "options": [
+        "About as sensitive as to coffee",
+        "Parts per million",
+        "Around 5 parts per trillion",
+        "Only at very high doses"
+      ],
+      "correctIndex": 2,
+      "explanation": "We can detect geosmin at roughly 5 parts per trillion — remarkably sensitive for an organic molecule."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Rainfall generates aerosols via trapped air bubble collapse",
+      "publisher": "Nature Communications",
+      "year": 2015
+    },
+    {
+      "title": "Nature of argillaceous odour",
+      "publisher": "Nature (Bear & Thomas)",
+      "year": 1964
+    }
+  ],
+
+  "related": ["why-rainbows-appear", "soil-microbiome", "human-sense-of-smell"]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "turing-test",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Turing Test",
+    "teaser": "In 1950, a mathematician asked: can a machine fool you into thinking it's human? The answer is getting uncomfortable.",
+    "category": "Artificial Intelligence",
+    "subcategories": ["AI History", "Philosophy of Mind"],
+    "tags": ["turing", "ai", "philosophy", "history", "consciousness"],
+    "emoji": "🎭",
+    "accentColor": "#D97706",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A vintage teletype machine glowing warmly in a dim room, with two shadowy silhouettes — one human, one mechanical — typing on either side of a curtain, moody noir lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A party game that became philosophy",
+      "body": "In 1950, British mathematician Alan Turing wrote a paper asking a question so strange it's still haunting us: 'Can machines think?' He decided the question was too fuzzy to answer directly — so he replaced it with a game. If you're chatting with something through a wall, and you can't tell whether it's human or machine, does the distinction still matter?",
+      "visual": {
+        "sfSymbol": "questionmark.bubble.fill",
+        "imagePrompt": "A typewriter against a dark wall, a thin slit of light from the other side where an unseen conversationalist responds"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Imitation Game",
+      "body": "Here's how it works. A human judge exchanges typed messages with two hidden players — one human, one machine. Both try to convince the judge they're the human. If, after a reasonable conversation, the judge can't reliably tell them apart, the machine is said to have passed the Turing Test. Turing predicted this would happen by the year 2000. He was a little off.",
+      "keyTerms": [
+        { "term": "Imitation Game", "definition": "Turing's original name for what we now call the Turing Test" },
+        { "term": "Judge", "definition": "The human interrogator whose job is to tell human from machine" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Three chat bubbles in a row — a judge in the middle with question marks, two identical silhouettes on either side"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What the test actually measures",
+      "body": "The Turing Test is clever because it sidesteps the impossible question of whether a machine has an inner life. Turing argued: if behavior is indistinguishable from thinking, then for all practical purposes, it's thinking. Critics say this is a con — a sufficiently good parrot could pass without understanding a word. Philosopher John Searle's 'Chinese Room' argument famously claims you can manipulate symbols perfectly without knowing what any of them mean.",
+      "keyTerms": [
+        { "term": "Chinese Room", "definition": "Searle's thought experiment arguing symbol manipulation isn't genuine understanding" }
+      ],
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": "A balance scale — on one side a glowing human brain, on the other a circuit board — perfectly level"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The test is (sort of) broken now",
+      "body": "By 2023, modern chatbots were routinely fooling humans in controlled trials. One study found GPT-4 was judged human 54% of the time in 5-minute conversations — essentially passing. But here's the twist: nobody in AI actually cares anymore. The test was meant to be a horizon. We've crossed it, and the horizon keeps moving.",
+      "funFact": "In 2014, a chatbot called 'Eugene Goostman,' pretending to be a 13-year-old Ukrainian boy, was declared the first to pass — but many researchers called it a dodge, since broken English and childish replies made the bar much lower.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A graph line soaring past a dotted threshold labeled 'human,' receding into the distance"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The real lesson",
+      "body": "Turing wasn't trying to define intelligence — he was dodging a question philosophers had wrestled with for centuries. The deeper legacy isn't the test itself. It's the idea that the line between mind and machine is fuzzy, pragmatic, and maybe less important than we thought. We're not living in Turing's future. We're living in the mess it left behind.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What question was the Turing Test designed to replace?",
+      "options": [
+        "Can machines compute faster than humans?",
+        "Can machines think?",
+        "Can machines dream?",
+        "Can machines be programmed?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turing found 'Can machines think?' too vague, so he swapped it for a behavioral test."
+    },
+    {
+      "index": 1,
+      "question": "What does the Chinese Room argument claim?",
+      "options": [
+        "Machines will eventually learn Chinese",
+        "Passing symbol-based tests doesn't prove understanding",
+        "Only humans can learn languages",
+        "The Turing Test is culturally biased"
+      ],
+      "correctIndex": 1,
+      "explanation": "Searle argued you can shuffle symbols correctly without grasping their meaning — so behavior alone isn't proof of mind."
+    },
+    {
+      "index": 2,
+      "question": "Why do many AI researchers no longer focus on the Turing Test?",
+      "options": [
+        "It's too difficult to pass",
+        "Machines now routinely fool human judges, so the bar has moved",
+        "It was never widely accepted",
+        "It requires expensive hardware"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modern LLMs can pass the classic test in controlled settings — so the field has shifted to more meaningful benchmarks."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Computing Machinery and Intelligence",
+      "publisher": "Mind, Oxford University Press (Alan Turing)",
+      "year": 1950
+    },
+    {
+      "title": "Does GPT-4 Pass the Turing Test?",
+      "publisher": "arXiv / UC San Diego",
+      "year": 2024
+    }
+  ],
+
+  "related": ["how-llms-work", "chinese-room", "ai-history"]
+}

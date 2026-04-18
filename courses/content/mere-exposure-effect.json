@@ -1,0 +1,130 @@
+{
+  "id": "mere-exposure-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Familiarity Breeds Affection",
+    "teaser": "You're more likely to fall for the person sitting next to you in class than the most attractive stranger across the country.",
+    "category": "Relationships",
+    "subcategories": ["Attraction", "Social Psychology"],
+    "tags": ["psychology", "attraction", "zajonc", "proximity", "behavior"],
+    "emoji": "👋",
+    "accentColor": "#D98880",
+    "coverSymbol": {
+      "sfSymbol": "person.2.fill",
+      "fallbackEmoji": "🪞"
+    },
+    "coverImagePrompt": "Two strangers at adjacent café tables catching each other's reflection in a rain-speckled window, soft warm light, cinematic, painterly intimacy."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A silent experiment",
+      "body": "In 1968, psychologist Robert Zajonc planted four women in a college lecture hall. They looked similar, sat quietly, never spoke, and simply attended a different number of classes — one attended 15, another 10, another 5, and one didn't show up at all. At the end of the term, students rated photos of all four. The more classes a woman had silently attended, the more attractive and likeable students rated her. They weren't even sure they recognized her.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A lecture hall from the back, one empty seat among many, soft beam of light falling on it"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The mere exposure effect",
+      "body": "Zajonc's finding — that repeated exposure to something, even without interaction, makes us like it more — became known as the mere exposure effect. It works on faces, songs, words, shapes, even nonsense syllables. Evolutionarily, the logic is simple: things we've encountered before and survived are probably safe. Familiarity becomes a shortcut for 'good'.",
+      "keyTerms": [
+        { "term": "Mere exposure effect", "definition": "A tendency to develop a preference for things simply because we've been exposed to them repeatedly" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.clockwise.circle.fill",
+        "imagePrompt": "A face slowly coming into focus across four sequential frames, each clearer and warmer than the last"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Proximity beats perfection",
+      "body": "A 1950s MIT housing study by Festinger, Schachter, and Back found that residents of an apartment complex overwhelmingly befriended the neighbors closest to them — not the ones they had most in common with. Simply living two doors down versus five doubled your odds of becoming close friends. Decades of follow-up research show the same thing in workplaces, classrooms, and dating apps: proximity and repetition quietly shape who we love.",
+      "funFact": "One study found people rated their own mirror-image photo as more attractive than the real one — because that's the face they saw every morning.",
+      "visual": {
+        "sfSymbol": "house.fill",
+        "imagePrompt": "A 1950s apartment building seen from above, golden threads connecting neighboring doors but not distant ones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "The quiet design of your love life",
+      "body": "We like to believe attraction is driven by sparks, chemistry, and fate. The research says something humbler: most of the people we love, we love partly because they kept showing up. The practical implication? If you want more meaningful connections, optimize for repeated, low-pressure contact with the kinds of people you want in your life — communities, classes, regular places — rather than hunting for perfect strangers.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Zajonc's silent classroom experiment demonstrate?",
+      "options": [
+        "Attractive people get better grades",
+        "Repeated exposure alone increases liking",
+        "Interaction matters more than appearance",
+        "Students rarely notice new classmates"
+      ],
+      "correctIndex": 1,
+      "explanation": "The women never interacted with students — yet those seen more often were rated more likeable."
+    },
+    {
+      "index": 1,
+      "question": "What did the MIT housing study find to be the strongest predictor of friendship?",
+      "options": [
+        "Shared interests",
+        "Physical proximity",
+        "Similar ages",
+        "Political views"
+      ],
+      "correctIndex": 1,
+      "explanation": "How close neighbors lived to each other mattered more than almost any personal trait."
+    },
+    {
+      "index": 2,
+      "question": "Why might familiarity have evolved to feel attractive?",
+      "options": [
+        "Familiar things are usually safer",
+        "Our brains prefer novelty but fake it",
+        "It conserves memory space",
+        "It's unrelated to evolution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Things we've survived seeing before are statistically safer — familiarity becomes a rough proxy for safety."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Attitudinal effects of mere exposure",
+      "publisher": "Journal of Personality and Social Psychology Monographs",
+      "year": 1968
+    },
+    {
+      "title": "Social Pressures in Informal Groups: A Study of Human Factors in Housing",
+      "publisher": "Stanford University Press",
+      "year": 1950
+    }
+  ],
+
+  "related": ["gottman-four-horsemen", "arranged-vs-love-marriages", "proximity-principle"]
+}

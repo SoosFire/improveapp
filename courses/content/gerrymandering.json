@@ -1,0 +1,142 @@
+{
+  "id": "gerrymandering",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Gerrymandering Works",
+    "teaser": "How can 60% of voters lose a 'fair' election? By drawing the map first.",
+    "category": "Political Science",
+    "subcategories": ["Democracy", "Elections"],
+    "tags": ["voting", "politics", "usa", "districts"],
+    "emoji": "🗺️",
+    "accentColor": "#C44A4A",
+    "coverSymbol": {
+      "sfSymbol": "map.fill",
+      "fallbackEmoji": "🗺️"
+    },
+    "coverImagePrompt": "A U.S. state map being redrawn with red and blue ink, lines twisting into absurd salamander-like shapes, close-up of an ink pen mid-stroke, cinematic and ominous"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The salamander that started it",
+      "body": "In 1812, Massachusetts Governor Elbridge Gerry signed off on an election district so twisted it resembled a salamander. A Boston newspaper mashed his name with the creature — 'Gerry-mander' — and the term stuck for 200 years. The same trick Gerry used in 1812 is still reshaping democracies today, just with better software.",
+      "visual": {
+        "sfSymbol": "scribble.variable",
+        "imagePrompt": "A 19th-century political cartoon of the original 'Gerry-mander' district, drawn as a winged salamander with claws, sepia tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The two dirty tricks",
+      "body": "Gerrymandering has two main techniques: packing and cracking. Packing crams your opponents into a few districts so they win those by huge margins but lose everywhere else. Cracking splits them across many districts so they're always a minority. Either way, their votes get 'wasted.' Used together, a party that loses the popular vote can still win most seats.",
+      "keyTerms": [
+        { "term": "Packing", "definition": "Concentrating opposing voters into as few districts as possible" },
+        { "term": "Cracking", "definition": "Splitting opposing voters across many districts so they can't win any" },
+        { "term": "Wasted vote", "definition": "Any vote cast for a losing candidate, or beyond what a winner needed" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A grid of 50 red and blue dots sorted into three possible district maps showing different outcomes, minimalist infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The math of manipulation",
+      "body": "Picture a state with 50 voters: 30 blue, 20 red, divided into 5 districts of 10. Fair math says blue should win about 3 seats. But if red packs 10 blue voters into District 1 and cracks the remaining 20 across Districts 2–5 (5 blue vs 5 red each), red can win 4 of 5 seats with just 40% of the vote. Same voters. Different lines. Opposite result.",
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A side-by-side comparison of two district maps with identical voters producing opposite election outcomes, clean vector style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The efficiency gap",
+      "body": "In 2015, political scientists Nicholas Stephanopoulos and Eric McGhee proposed a measurable test called the 'efficiency gap' — the difference in wasted votes between parties, divided by total votes. North Carolina's 2016 congressional map produced an efficiency gap of around 20%, meaning Republicans won 10 of 13 seats with about 53% of the statewide vote. Courts later ruled the map an unconstitutional partisan gerrymander.",
+      "funFact": "Modern gerrymandering uses block-level demographic data and optimization algorithms — mapmakers can now tune a district to the nearest city block.",
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A detailed North Carolina congressional district map with thin tentacle-like boundaries, annotated with vote percentages"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The fix is possible",
+      "body": "Several countries and U.S. states have handed district-drawing to independent commissions instead of politicians — Canada, Australia, and states like California and Michigan. The results are measurably fairer maps and more competitive elections. Gerrymandering isn't a law of nature. It's a choice about who gets to hold the pen.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What are the two main techniques of partisan gerrymandering?",
+      "options": [
+        "Stacking and spreading",
+        "Packing and cracking",
+        "Folding and stretching",
+        "Merging and splitting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Packing concentrates opposing voters; cracking disperses them. Both waste opposition votes."
+    },
+    {
+      "index": 1,
+      "question": "Where does the word 'gerrymander' come from?",
+      "options": [
+        "A Greek geometry term",
+        "Governor Elbridge Gerry + salamander",
+        "A 19th-century French cartoonist",
+        "An old English hunting term"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1812 a Boston newspaper named a twisted district after Governor Gerry's signature and its salamander shape."
+    },
+    {
+      "index": 2,
+      "question": "What is one proven way to reduce gerrymandering?",
+      "options": [
+        "Letting the legislature draw maps faster",
+        "Using independent redistricting commissions",
+        "Requiring perfectly square districts",
+        "Holding elections more frequently"
+      ],
+      "correctIndex": 1,
+      "explanation": "Independent commissions in places like California, Michigan, and Canada tend to produce measurably fairer maps."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Partisan Gerrymandering and the Efficiency Gap",
+      "publisher": "University of Chicago Law Review",
+      "year": 2015
+    },
+    {
+      "title": "Rucho v. Common Cause",
+      "publisher": "U.S. Supreme Court",
+      "year": 2019
+    }
+  ],
+
+  "related": ["electoral-college", "voting-systems", "first-past-the-post"]
+}

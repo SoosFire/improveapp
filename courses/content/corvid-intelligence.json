@@ -1,0 +1,144 @@
+{
+  "id": "corvid-intelligence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Crows: The Einsteins of the Bird World",
+    "teaser": "They make tools. They hold grudges. They hand gifts to kids who feed them. A bird brain is not what you think.",
+    "category": "Wildlife",
+    "subcategories": ["Animal Cognition", "Birds"],
+    "tags": ["crows", "ravens", "corvids", "intelligence", "cognition"],
+    "emoji": "🐦‍⬛",
+    "accentColor": "#2C3E50",
+    "coverSymbol": {
+      "sfSymbol": "bird.fill",
+      "fallbackEmoji": "🪶"
+    },
+    "coverImagePrompt": "A glossy black New Caledonian crow holding a hooked twig tool in its beak on a mossy branch, dappled forest light, razor-sharp detail, intelligent glint in its eye"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The bird that passed a kids' puzzle",
+      "body": "In a 2014 study at the University of Auckland, a New Caledonian crow named 007 solved an eight-step puzzle to reach a piece of meat: pull a string, use a short stick to grab a longer stick, use the longer stick to extract stones, drop the stones in tubes, and use the released lever to reach the food. He'd never seen the setup before. He solved it in under three minutes.",
+      "visual": {
+        "sfSymbol": "puzzlepiece.fill",
+        "imagePrompt": "A lab scene with a wooden multi-compartment puzzle box, a glossy crow mid-action holding a stick, warm focused light on the bird"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Brains that don't play by the rules",
+      "body": "Corvids — the family including crows, ravens, jays, and magpies — have the highest density of neurons in their forebrain of any bird studied. A raven packs about twice as many forebrain neurons as a rhesus monkey, even though its brain is the size of a walnut. Their neural wiring skips the mammalian cortex entirely and still produces problem-solving that rivals great apes.",
+      "keyTerms": [
+        { "term": "Pallium", "definition": "The forebrain region in birds that handles complex cognition, analogous to the mammalian cortex" },
+        { "term": "Corvid", "definition": "The bird family including crows, ravens, jays, rooks, and magpies" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.filled.head.profile",
+        "imagePrompt": "A comparative scientific illustration of a raven brain and a monkey brain shown side by side with neuron density visualized as glowing dots"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Tools, faces, and grudges",
+      "body": "Corvid intelligence shows up in three especially striking ways. They manufacture tools — New Caledonian crows strip leaves into hooked probes to fish grubs from logs. They recognize individual human faces for years; a famous University of Washington study showed crows mobbing researchers who once wore a 'threatening' mask, even five years later. And they play social politics, remembering which birds share food and which don't.",
+      "keyTerms": [
+        { "term": "Tool manufacture", "definition": "Actively modifying an object to create a tool, as opposed to just using found objects" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.square.filled.and.at.rectangle.fill",
+        "imagePrompt": "A stylized scene of a researcher wearing a caveman mask walking through a park while dozens of crows swoop in from trees, dramatic and slightly ominous"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Gifts from the garden",
+      "body": "In Seattle, a young girl named Gabi Mann began feeding local crows in 2011. Within months, they started leaving objects on the empty feeder — beads, buttons, earrings, a tiny rusted screw, a pearl-colored heart-shaped bead. BBC coverage turned the story into a worldwide example of reciprocal exchange in wild birds. Researchers consider gift-giving behavior in urban crows rare but well-documented.",
+      "funFact": "Gabi's family once lost a lens cap while filming crows; a few days later, a crow returned it to the birdbath.",
+      "visual": {
+        "sfSymbol": "gift.fill",
+        "imagePrompt": "A close-up of a small wooden feeder covered in tiny offerings — colorful beads, a bottle cap, a bent piece of wire — a crow watching from a nearby branch"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Rethinking the 'bird brain'",
+      "body": "We use 'bird brain' as an insult. Corvids suggest the opposite. Evolution found a totally different way to build intelligence — smaller, denser, no cortex required — and ended up with creatures that can plan the future, recognize faces, and possibly hold a grudge longer than most of your coworkers.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did New Caledonian crows solve an eight-step puzzle in a 2014 Auckland study?",
+      "options": [
+        "By random pecking",
+        "By copying a trainer",
+        "By planning a multi-step tool sequence on their first attempt",
+        "They didn't solve it"
+      ],
+      "correctIndex": 2,
+      "explanation": "The crows solved a novel eight-step sequence with no training, demonstrating insight-like problem solving."
+    },
+    {
+      "index": 1,
+      "question": "What did the University of Washington mask experiment show?",
+      "options": [
+        "Crows can't tell faces apart",
+        "Crows remember specific human faces and treat them as threats for years",
+        "Crows prefer bright colors",
+        "Crows only respond to voices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crows learned to recognize a 'threatening' mask and mobbed anyone wearing it, even years later."
+    },
+    {
+      "index": 2,
+      "question": "Why are corvid brains remarkable despite being small?",
+      "options": [
+        "They use the same cortex as mammals",
+        "They have extremely high neuron density in the pallium",
+        "They operate at higher temperatures",
+        "They grow larger with age"
+      ],
+      "correctIndex": 1,
+      "explanation": "Corvid brains pack an unusually high number of neurons into the pallium, enabling complex cognition in a small package."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Birds have primate-like numbers of neurons in the forebrain",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2016
+    },
+    {
+      "title": "Using the Aesop's Fable paradigm to investigate causal understanding in New Caledonian crows",
+      "publisher": "PLOS ONE",
+      "year": 2014
+    }
+  ],
+
+  "related": ["parrot-intelligence", "tool-use-animals", "animal-face-recognition"]
+}

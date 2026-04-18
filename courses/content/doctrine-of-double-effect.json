@@ -1,0 +1,136 @@
+{
+  "id": "doctrine-of-double-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Doctrine of Double Effect",
+    "teaser": "Is there a moral difference between intending harm and merely foreseeing it? A 13th-century friar says yes.",
+    "category": "Ethics",
+    "subcategories": ["Moral Philosophy", "Applied Ethics"],
+    "tags": ["aquinas", "ethics", "intention", "war", "medicine"],
+    "emoji": "🕯️",
+    "accentColor": "#6B4E71",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🕯️"
+    },
+    "coverImagePrompt": "A single candle flame splitting into two shadows on a stone wall, one shadow shaped like a cross, the other like a sword, medieval monastery ambiance, deep chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A medieval puzzle that still runs hospitals",
+      "body": "A doctor gives a dying patient morphine to ease their pain, knowing the dose will also shorten their life. Is that murder, or mercy? For most modern ethics boards — and most courts — the answer depends on a single distinction made by Thomas Aquinas in the 1200s.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "Soft-lit hospital room at night, a hand setting down a small glass vial beside a sleeping patient, warm muted tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Intended vs. merely foreseen",
+      "body": "Aquinas noticed that a single action can have two effects: one that you aim at, and another that you don't want but can foresee. The Doctrine of Double Effect says an action with a bad side effect can be permissible if four conditions hold: the act itself isn't evil, you don't intend the bad effect, the good effect isn't caused by the bad one, and there's a proportionate reason for acting.",
+      "keyTerms": [
+        { "term": "Intended effect", "definition": "What you actually aim at — the goal driving the action" },
+        { "term": "Foreseen effect", "definition": "A consequence you know will happen but don't aim at" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A single arrow splitting into two divergent paths, one glowing gold, one shadowed, clean symbolic diagram"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the trolley problem splits people",
+      "body": "Pull the lever: one person dies so five can live. Push the large man off the bridge: one dies so five can live. Outcomes identical; intuitions wildly different. Double Effect explains why. In the lever case, the death is a foreseen side effect of the redirection. In the bridge case, the man's body is the means of stopping the trolley — his death is part of what you intend. Aquinas draws the moral line exactly where most people feel it.",
+      "visual": {
+        "sfSymbol": "tram.fill",
+        "imagePrompt": "Split illustration of the two trolley dilemmas side by side, with one labeled 'foreseen' and the other 'intended', clean textbook style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From scholastic logic to the Geneva Conventions",
+      "body": "Double Effect underlies the laws of war. Bombing an enemy munitions factory that happens to stand next to a school may be permissible; bombing the school to break enemy morale is a war crime. It also grounds medical doctrine: terminal sedation, palliative care, and even some cases of separating conjoined twins have been defended using Aquinas's four conditions, nearly a thousand years after he wrote them down.",
+      "funFact": "The doctrine was codified in the Summa Theologica in a discussion about whether it's lawful to kill in self-defense — Aquinas concluded it could be, as long as death wasn't the aim.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": "Faded military treaty document beside a medical caduceus and a medieval Latin manuscript, warm archival lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The line intention draws",
+      "body": "Critics argue the distinction is too slippery — you can always rephrase what you 'really' intended. Defenders argue it matches the moral structure most people already use, whether they know the Latin or not. Either way, the Doctrine of Double Effect is a rare example of a medieval argument still quietly shaping hospitals, courtrooms, and battlefields today.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who originally articulated the Doctrine of Double Effect?",
+      "options": ["Immanuel Kant", "Jeremy Bentham", "Thomas Aquinas", "Socrates"],
+      "correctIndex": 2,
+      "explanation": "Aquinas introduced the doctrine in the 13th-century Summa Theologica, discussing killing in self-defense."
+    },
+    {
+      "index": 1,
+      "question": "What's the key moral distinction at the heart of the doctrine?",
+      "options": [
+        "Between happiness and suffering",
+        "Between effects you intend and effects you merely foresee",
+        "Between divine law and human law",
+        "Between actions and omissions"
+      ],
+      "correctIndex": 1,
+      "explanation": "The doctrine hinges on whether a harm is aimed at (intended) or simply anticipated as a side effect (foreseen)."
+    },
+    {
+      "index": 2,
+      "question": "Why does Double Effect treat pushing the man off the bridge as worse than pulling the lever?",
+      "options": [
+        "Pulling the lever kills fewer people",
+        "In the bridge case, the man's death is the means — not a side effect",
+        "Pushing requires physical contact",
+        "The lever is anonymous and therefore ethical"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the man's body is what stops the trolley, his death is part of what you intend — not a merely foreseen consequence."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Summa Theologica, II-II, Q. 64, Art. 7",
+      "publisher": "Thomas Aquinas",
+      "year": 1274
+    },
+    {
+      "title": "The Doctrine of Double Effect",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "year": 2023
+    }
+  ],
+
+  "related": ["trolley-problem", "just-war-theory", "kantian-ethics"]
+}

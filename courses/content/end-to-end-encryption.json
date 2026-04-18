@@ -1,0 +1,141 @@
+{
+  "id": "end-to-end-encryption",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Is End-to-End Encryption?",
+    "teaser": "Even the company running the app can't read your message. Here's the math trick that makes that possible.",
+    "category": "Technology",
+    "subcategories": ["Cryptography", "Privacy"],
+    "tags": ["encryption", "privacy", "cryptography", "security", "keys"],
+    "emoji": "🔒",
+    "accentColor": "#1F9E5A",
+    "coverSymbol": {
+      "sfSymbol": "lock.fill",
+      "fallbackEmoji": "🔒"
+    },
+    "coverImagePrompt": "A glowing padlock formed from streams of binary code, held between two smartphone silhouettes, dramatic green-black cyberpunk lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A postcard vs. a locked box",
+      "body": "Most things you send online are postcards — anyone who handles them along the way can read them. End-to-end encryption turns them into locked boxes that only the intended recipient has the key to open. Not the company. Not their employees. Not even a court order can crack it — because the company itself literally doesn't have the key.",
+      "visual": {
+        "sfSymbol": "envelope.fill",
+        "imagePrompt": "Two letters side by side — one open postcard, one locked metal box — mailed between two phones, cinematic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The two-key trick",
+      "body": "Modern encryption uses two mathematically linked keys: a public key that anyone can see, and a private key that never leaves your device. Anything encrypted with your public key can only be unlocked by your private key. It's like handing out open padlocks — anyone can lock a box and send it to you, but only you have the key to open it.",
+      "keyTerms": [
+        { "term": "Public key", "definition": "A key you share openly, used by others to encrypt messages to you" },
+        { "term": "Private key", "definition": "A secret key that stays on your device and decrypts messages meant for you" }
+      ],
+      "visual": {
+        "sfSymbol": "key.fill",
+        "imagePrompt": "A split illustration of two keys — one glowing blue (public), floating above a crowd, one locked in a vault (private)"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the server can't peek",
+      "body": "In E2E encryption, your phone encrypts the message before it ever leaves. The server that relays it — WhatsApp's, Signal's, whoever — sees only scrambled gibberish. Even if hackers broke in, even if the government subpoenaed the company, there's nothing useful to hand over. The math is arranged so that only the intended receiver's device can decrypt it.",
+      "visual": {
+        "sfSymbol": "server.rack",
+        "imagePrompt": "A server room with glowing racks, a message shown on a screen as illegible random characters, security cameras watching"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why governments keep arguing about it",
+      "body": "E2E encryption protects journalists, dissidents, and domestic abuse survivors — and also criminals. That's why the FBI once took Apple to court over a locked iPhone, and why the UK keeps trying to pass laws requiring 'back doors' into encrypted apps. Cryptographers almost universally warn that a back door for good guys is a back door for bad guys too. There's no known way to make it one-sided.",
+      "funFact": "In the 1990s, the US government classified strong encryption as a weapon — exporting it abroad was legally the same as exporting a missile.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A courthouse and a smartphone facing each other, tension illustrated by red-blue split lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Trust by math, not by promise",
+      "body": "Privacy used to rely on companies promising not to look. End-to-end encryption replaces that promise with mathematics — the company literally can't look, even if it wanted to. When you use Signal, WhatsApp, or iMessage, you're trusting numbers, not people. And numbers don't have bad days.",
+      "visual": {
+        "sfSymbol": "checkmark.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In end-to-end encryption, who can read your message besides you?",
+      "options": [
+        "The app's company",
+        "Only the intended recipient",
+        "Any server along the way",
+        "Governments with a warrant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only the recipient's device has the private key needed to decrypt the message."
+    },
+    {
+      "index": 1,
+      "question": "What is the public key used for?",
+      "options": [
+        "Signing your identity",
+        "Unlocking your messages",
+        "Letting others encrypt messages to you",
+        "Tracking your location"
+      ],
+      "correctIndex": 2,
+      "explanation": "The public key is shared openly so others can encrypt messages that only your private key can decrypt."
+    },
+    {
+      "index": 2,
+      "question": "Why do cryptographers warn against 'encryption back doors'?",
+      "options": [
+        "They slow down the apps",
+        "They only work on iPhones",
+        "Any back door can be exploited by bad actors too",
+        "They require more battery power"
+      ],
+      "correctIndex": 2,
+      "explanation": "A back door for authorized access inevitably creates a vulnerability that criminals and hostile states can also exploit."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Applied Cryptography",
+      "publisher": "Wiley",
+      "year": 2015
+    },
+    {
+      "title": "The Code Book",
+      "publisher": "Anchor Books",
+      "year": 2000
+    }
+  ],
+
+  "related": ["how-internet-works", "public-key-cryptography", "digital-signatures"]
+}

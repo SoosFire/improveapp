@@ -1,0 +1,136 @@
+{
+  "id": "what-is-a-virus",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Are Viruses Actually Alive?",
+    "teaser": "They reproduce, they evolve, they outnumber us — but most biologists will tell you viruses aren't alive. Here's why it's complicated.",
+    "category": "Microbiology",
+    "subcategories": ["Virology", "Philosophy of Biology"],
+    "tags": ["viruses", "life", "evolution", "definition", "biology"],
+    "emoji": "🧬",
+    "accentColor": "#B34D8E",
+    "coverSymbol": {
+      "sfSymbol": "dna",
+      "fallbackEmoji": "🧬"
+    },
+    "coverImagePrompt": "An icosahedral virus particle suspended in a glowing liquid, spike proteins catching light like tiny antennas, on a border between crystalline inanimate form and organic motion, cinematic microscopy"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Alive, or just very busy?",
+      "body": "A virus can sit inert on a doorknob for days. Then it drifts into a cell, takes over the machinery, and launches thousands of copies of itself. Is that something that's alive — or just a very elegant chemical chain reaction?",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A single virus particle resting on a stainless steel surface, backlit, extreme macro photography with cinematic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What actually is a virus?",
+      "body": "At its simplest, a virus is a tiny package: a core of genetic material (DNA or RNA) wrapped in a protein shell called a capsid, sometimes with a fatty envelope around that. It has no metabolism, no mouth, no way to make energy. Without a host cell, it's as chemically lively as a grain of salt.",
+      "keyTerms": [
+        { "term": "Capsid", "definition": "The protein coat that protects a virus's genome" },
+        { "term": "Virion", "definition": "A complete, infectious virus particle outside of a cell" }
+      ],
+      "visual": {
+        "sfSymbol": "cube",
+        "imagePrompt": "Cross-section of a virus showing RNA strand coiled inside a geometric capsid, with surface spikes, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The 'life' checklist",
+      "body": "Biology textbooks usually list seven traits of life: organization, metabolism, growth, adaptation, response, reproduction, and homeostasis. Viruses clearly adapt (they evolve fast) and reproduce (spectacularly). But they don't metabolize or maintain internal balance on their own. By the textbook definition, they fail the test — and yet nothing in our ecosystem feels more active.",
+      "visual": {
+        "sfSymbol": "list.bullet.clipboard.fill",
+        "imagePrompt": "A checklist diagram comparing traits of life between a cell and a virus, with ticks and crosses, infographic style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The argument that keeps shifting",
+      "body": "In 2003, scientists discovered giant viruses — Mimiviruses — larger than some bacteria and carrying hundreds of genes once thought exclusive to cellular life. Suddenly the neat line didn't look so neat. Many virologists now argue viruses should be considered 'at the edge of life': real biological entities that just take a different route through the rules.",
+      "funFact": "About 8 percent of the human genome is leftover viral DNA — including genes that let a mother's immune system tolerate a pregnancy.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "An enormous mimivirus particle beside a standard bacterium for scale, electron microscope style, high contrast"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Maybe the wrong question",
+      "body": "Whether viruses are 'alive' says more about our definitions than about viruses. They've been evolving and shaping life for billions of years. The interesting question isn't yes-or-no — it's what counts as life, and why we expected a clean answer in the first place.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which structure protects a virus's genetic material?",
+      "options": ["Cell wall", "Capsid", "Mitochondrion", "Ribosome"],
+      "correctIndex": 1,
+      "explanation": "The capsid is a protein shell that encases the virus's DNA or RNA. Viruses don't have cells, walls, or organelles."
+    },
+    {
+      "index": 1,
+      "question": "Why do many biologists consider viruses NOT to be alive?",
+      "options": [
+        "They can't evolve",
+        "They have no metabolism of their own",
+        "They are too small to see",
+        "They have no genetic material"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viruses can't produce energy or maintain themselves without a host — they fail the metabolism and homeostasis criteria."
+    },
+    {
+      "index": 2,
+      "question": "What did the discovery of giant Mimiviruses in 2003 challenge?",
+      "options": [
+        "The idea that viruses were small and gene-poor",
+        "The existence of bacteria",
+        "The theory of evolution",
+        "The germ theory of disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mimiviruses were larger and carried more genes than anyone expected, blurring the line between virus and cell."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A giant virus in amoebae",
+      "publisher": "Science",
+      "year": 2003
+    },
+    {
+      "title": "Are viruses alive?",
+      "publisher": "Scientific American",
+      "year": 2008
+    }
+  ],
+
+  "related": ["bacteriophages", "human-microbiome", "penicillin-discovery"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "dam-engineering",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Giant Dams Hold Back Rivers",
+    "teaser": "A trillion gallons of water, pushing constantly. What stops it from crushing the wall in front of it?",
+    "category": "Engineering",
+    "subcategories": ["Civil Engineering", "Hydrology"],
+    "tags": ["dams", "concrete", "hydropower", "rivers", "structures"],
+    "emoji": "🌊",
+    "accentColor": "#3C6E71",
+    "coverSymbol": {
+      "sfSymbol": "drop.triangle.fill",
+      "fallbackEmoji": "🏞️"
+    },
+    "coverImagePrompt": "A massive concrete arch dam viewed from below, turbine mist swirling at its base, reservoir towering behind it like a still blue cliff, dramatic overcast lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A wall against the weight of a lake",
+      "body": "At the base of Hoover Dam, the water pressure reaches about 45 tons per square foot. Multiplied across the face of the dam, that's a horizontal force of several million tons trying to shove the wall downstream every second of every day. And yet the wall doesn't move. Why not?",
+      "visual": {
+        "sfSymbol": "arrow.right.square.fill",
+        "imagePrompt": "Hoover Dam seen from the downstream side, with faint red arrows representing water pressure pushing outward against the curved face"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three ways to hold back water",
+      "body": "Big dams solve the pressure problem in one of three ways. Gravity dams are so enormously heavy that their weight holds them in place against the push. Arch dams curve into the reservoir and transfer the force sideways into the canyon walls. Buttress dams use angled supports behind a thinner front wall to brace it like flying buttresses on a cathedral.",
+      "keyTerms": [
+        { "term": "Gravity dam", "definition": "A dam that resists water pressure using its own massive weight" },
+        { "term": "Arch dam", "definition": "A curved dam that transfers water load into the surrounding rock walls" }
+      ],
+      "visual": {
+        "sfSymbol": "square.3.layers.3d",
+        "imagePrompt": "Comparison illustration of gravity, arch, and buttress dams as three clean cutaway diagrams side by side"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Hoover is secretly both",
+      "body": "Hoover Dam is officially an 'arch-gravity' dam — it's too heavy to really need the arch, and too arched to really need the weight. The redundancy is deliberate. A dam failure would wipe out downstream cities in minutes, so engineers overbuild. Its concrete core is so thick that, had it been poured as a single block, the heat of curing would have taken 125 years to dissipate.",
+      "visual": {
+        "sfSymbol": "thermometer.high",
+        "imagePrompt": "Black-and-white 1930s photo style of workers pouring concrete into gridded blocks embedded with cooling pipes at Hoover Dam"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why dams fail (when they do)",
+      "body": "Most dam failures aren't from the wall snapping — they're from water finding a way around or underneath. This is called 'piping': water seeps through the foundation, carrying away soil grains one by one, until a hidden channel opens and the whole structure undermines itself. Italy's Vajont Dam held firm in 1963 when a massive landslide slid into the reservoir — but the wave that overtopped it killed nearly 2,000 people in the valley below.",
+      "funFact": "Hoover Dam's concrete is still gradually curing and getting stronger, nearly a century after it was poured.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "Aerial view of the gash left in Monte Toc above Italy's Vajont Dam, reservoir still intact, haunting grey lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The oldest engineering puzzle",
+      "body": "People have been building dams for at least 5,000 years — the Jawa Dam in Jordan dates to around 3000 BCE. The physics hasn't changed since. Gravity, arch action, and bracing are still the only three tricks in the book. What modern engineering added was the math to push those tricks to the very edge of what stone and concrete can do.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What keeps a gravity dam from being pushed downstream by water pressure?",
+      "options": ["Steel cables anchored to the canyon", "Its own enormous weight", "Interior water pumps", "Magnetic foundation plates"],
+      "correctIndex": 1,
+      "explanation": "A gravity dam is so massive that its weight — pressing straight down — is more than enough to resist being slid horizontally."
+    },
+    {
+      "index": 1,
+      "question": "What does an arch dam do with the water's force?",
+      "options": [
+        "Transfers it sideways into the canyon walls",
+        "Absorbs it with flexible steel beams",
+        "Routes it through internal pressure valves",
+        "Converts it directly into electricity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curve of an arch dam redirects horizontal water pressure outward into the rock of the canyon on either side."
+    },
+    {
+      "index": 2,
+      "question": "What's 'piping' in dam engineering?",
+      "options": [
+        "The turbine-feed water pipes",
+        "Water seeping through the foundation and eroding a hidden channel",
+        "A method of pouring concrete in thin layers",
+        "Decorative trim on the spillway"
+      ],
+      "correctIndex": 1,
+      "explanation": "Piping is the slow internal erosion of a dam's foundation. It's one of the leading causes of catastrophic dam failure."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Dams and Development: A New Framework for Decision-Making",
+      "publisher": "World Commission on Dams",
+      "year": 2000
+    },
+    {
+      "title": "Hoover Dam: An American Adventure",
+      "publisher": "University of Oklahoma Press (Joseph Stevens)",
+      "year": 1988
+    }
+  ],
+
+  "related": ["three-gorges-dam", "hydroelectric-power", "concrete-chemistry"]
+}

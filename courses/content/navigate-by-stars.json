@@ -1,0 +1,141 @@
+{
+  "id": "navigate-by-stars",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How to Navigate by the Stars",
+    "teaser": "Phone dead, GPS gone, no compass. Humans crossed oceans using nothing but the night sky. Here's how.",
+    "category": "Survival Skills",
+    "subcategories": ["Astronomy", "Wayfinding"],
+    "tags": ["navigation", "stars", "survival", "astronomy", "polaris"],
+    "emoji": "⭐",
+    "accentColor": "#0D1B3B",
+    "coverSymbol": {
+      "sfSymbol": "star.fill",
+      "fallbackEmoji": "✨"
+    },
+    "coverImagePrompt": "A lone traveler silhouetted on a mountain ridge at night, arm raised pointing to Polaris, the Milky Way glowing overhead, cinematic long exposure"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A map above your head",
+      "body": "Polynesian wayfinders crossed 2,500 miles of open Pacific in outrigger canoes — no instruments, no charts — and landed on dots of rock like Hawaii. Their primary compass wasn't on a desk. It was above them. For most of human history, the night sky was the oldest and most reliable map in the world.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A Polynesian double-hulled canoe cutting through dark ocean under a blazing canopy of stars, cinematic wide shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Find the unmoving star",
+      "body": "If you're anywhere in the northern hemisphere, one star barely moves all night: Polaris, the North Star. It sits almost directly above Earth's spin axis, so while every other star traces a circle around it, Polaris just sits there. Face it, and you're facing due north. That's it. That's the whole starting trick.",
+      "keyTerms": [
+        { "term": "Polaris", "definition": "The current North Star, located within about one degree of the celestial pole" },
+        { "term": "Celestial pole", "definition": "The point in the sky directly above Earth's rotational axis, which stars appear to rotate around" }
+      ],
+      "visual": {
+        "sfSymbol": "location.north.fill",
+        "imagePrompt": "A long-exposure night sky photo showing circular star trails around Polaris, elegant dark navy and silver tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Using the Big Dipper as an arrow",
+      "body": "Polaris isn't the brightest star in the sky — it's only medium bright. To find it, first find the Big Dipper (Ursa Major), a ladle-shaped cluster of seven stars most people recognize. The two stars at the outer edge of the dipper's 'cup,' called the Pointers, line up directly with Polaris. Trace an imaginary line through them and extend it about five times their distance. You'll hit Polaris almost exactly.",
+      "visual": {
+        "sfSymbol": "figure.arms.open",
+        "imagePrompt": "Night sky diagram of the Big Dipper with two bright pointer stars and a dashed line extending to Polaris, educational illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Southern skies, different trick",
+      "body": "South of the equator there's no bright pole star. Instead, sailors use the Southern Cross — a small kite-shaped constellation that only appears below the equator. Draw an imaginary line down the long axis of the cross and extend it roughly four and a half times its length. That point marks the south celestial pole. Drop straight down to the horizon from there and you're facing south.",
+      "funFact": "Thousands of years ago, the North Star was Thuban, not Polaris. Earth's axis slowly wobbles like a spinning top over a 26,000-year cycle — so the 'north star' keeps changing across civilizations.",
+      "visual": {
+        "sfSymbol": "seal.fill",
+        "imagePrompt": "The Southern Cross constellation glowing over a southern ocean horizon, with a dashed line pointing to the south celestial pole"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Latitude without instruments",
+      "body": "Once you can find Polaris, measure its height above the horizon with your fist — each fist-width is roughly ten degrees. That angle equals your latitude. At the North Pole, Polaris is straight overhead. At the equator, it sits on the horizon. You now know, without any gadget, which way is north and roughly where on Earth you are. It's not magic — it's geometry, and it's been waiting above your head the whole time.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why does Polaris stay almost still while other stars move?",
+      "options": [
+        "It's the brightest star in the sky",
+        "It sits nearly on Earth's rotational axis",
+        "It's actually the closest star to Earth",
+        "It emits a unique kind of light"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polaris lies within about one degree of the celestial pole — the point directly above Earth's axis — so it appears almost fixed."
+    },
+    {
+      "index": 1,
+      "question": "How do you locate Polaris using the Big Dipper?",
+      "options": [
+        "Follow the handle outward",
+        "Use the two pointer stars at the dipper's cup edge and extend about five times their distance",
+        "Look directly below the Dipper at the horizon",
+        "Find the brightest star in the Dipper itself"
+      ],
+      "correctIndex": 1,
+      "explanation": "The two outer stars of the Big Dipper's cup are called the Pointers — they line up with Polaris about five times their separation away."
+    },
+    {
+      "index": 2,
+      "question": "In the southern hemisphere, what do navigators use to find south?",
+      "options": [
+        "The North Star",
+        "The Southern Cross",
+        "The constellation Orion",
+        "The Moon's shadow"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Southern Cross points toward the south celestial pole — there's no bright southern equivalent of Polaris."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "We, the Navigators: The Ancient Art of Landfinding in the Pacific",
+      "publisher": "University of Hawaii Press",
+      "year": 1994
+    },
+    {
+      "title": "The Natural Navigator",
+      "publisher": "The Experiment",
+      "year": 2010
+    }
+  ],
+
+  "related": ["polynesian-wayfinding", "viking-sunstone", "reading-the-night-sky"]
+}

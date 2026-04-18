@@ -1,0 +1,121 @@
+{
+  "id": "ladder-angle-rule",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The 4:1 Rule for Safe Ladder Use",
+    "teaser": "One quick ratio keeps your ladder from turning into a catapult. Learn it before you climb one again.",
+    "category": "Home & DIY",
+    "subcategories": ["Safety", "Tools"],
+    "tags": ["ladders", "safety", "diy", "home", "osha"],
+    "emoji": "🪜",
+    "accentColor": "#EF6C00",
+    "coverSymbol": {
+      "sfSymbol": "ladder",
+      "fallbackEmoji": "🪜"
+    },
+    "coverImagePrompt": "An extension ladder leaning against a sunlit suburban house at a careful angle, fall leaves scattered at the base, long afternoon shadows, photorealistic warm tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why ladders fall",
+      "body": "Every year about 500,000 Americans land in the ER after a ladder accident. Most weren't doing anything reckless — they set the ladder too steep and it flipped backward, or too shallow and the feet shot out from under them. There's a shockingly simple ratio that prevents nearly all of this. It's been in safety codes for over a century.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A conceptual illustration showing two bad ladder angles (too vertical, too shallow) versus one correct angle, stick-figure style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The 4-to-1 rule",
+      "body": "For every 4 feet of ladder height you climb, the base should be 1 foot away from the wall. A ladder reaching a 12-foot gutter? Its feet go 3 feet out. Reaching 20 feet? 5 feet out. That ratio puts the ladder at roughly 75 degrees from the ground — the angle where your weight pushes straight down the rails instead of tipping you forward or sliding the feet out.",
+      "keyTerms": [
+        { "term": "4:1 rule", "definition": "For every 4 feet of vertical reach, place the ladder base 1 foot away from the wall" },
+        { "term": "75 degrees", "definition": "The ideal angle the ladder makes with the ground — a direct result of the 4:1 geometry" }
+      ],
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "Annotated geometric diagram: a ladder at a 75-degree angle with the 4:1 ratio labeled, wall on the left, ground on the bottom"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The body-check shortcut",
+      "body": "No measuring tape? There's a trick firefighters use: stand with your toes touching the ladder's feet, arms stretched straight out. If the ladder is at the correct angle, your palms will just barely touch a rung at shoulder height. If your arms are bent, it's too steep. If you can't reach, it's too shallow. Takes three seconds and works every time.",
+      "funFact": "The 4:1 angle also happens to be the most efficient for climbing — less energy spent fighting the angle, more spent actually moving up.",
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "A homeowner standing at the base of a ladder, arms stretched straight out touching a rung, demonstrating the body-check method"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Three extra rules worth knowing",
+      "body": "Once your angle is set, remember three more: (1) the ladder should extend at least 3 feet above any landing surface like a roof edge, (2) maintain three points of contact while climbing — two hands and a foot, or two feet and a hand, and (3) never stand on the top two rungs. Combined with 4:1, these rules eliminate the overwhelming majority of ladder accidents. OSHA has built entire construction safety programs around them.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Using the 4:1 rule, where should the base go for a ladder reaching a 16-foot gutter?",
+      "options": ["1 foot from the wall", "2 feet", "4 feet", "8 feet"],
+      "correctIndex": 2,
+      "explanation": "16 divided by 4 equals 4 — so place the base 4 feet away from the wall."
+    },
+    {
+      "index": 1,
+      "question": "What does the 4:1 rule approximately correspond to in angle terms?",
+      "options": ["45 degrees", "60 degrees", "75 degrees", "90 degrees"],
+      "correctIndex": 2,
+      "explanation": "A 4:1 height-to-base ratio creates an angle of roughly 75 degrees from the ground."
+    },
+    {
+      "index": 2,
+      "question": "What does 'three points of contact' mean while climbing a ladder?",
+      "options": [
+        "Three rungs above the base",
+        "Three different hand positions",
+        "Two hands and a foot, or two feet and a hand",
+        "Three-inch overlap of sections"
+      ],
+      "correctIndex": 2,
+      "explanation": "Maintain two hands and a foot, or two feet and a hand on the ladder at all times — this prevents falls if one slips."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Stairways and Ladders: A Guide to OSHA Rules",
+      "publisher": "U.S. Occupational Safety and Health Administration",
+      "year": 2019
+    },
+    {
+      "title": "Ladder-Related Injuries Treated in U.S. Emergency Departments",
+      "publisher": "American Journal of Preventive Medicine",
+      "year": 2014
+    }
+  ],
+
+  "related": ["home-safety-basics", "roof-safety", "osha-standards"]
+}

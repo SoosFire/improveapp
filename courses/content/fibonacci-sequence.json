@@ -1,0 +1,131 @@
+{
+  "id": "fibonacci-sequence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Fibonacci Sequence",
+    "teaser": "Why does the same string of numbers show up in sunflowers, pinecones, and galaxies?",
+    "category": "Mathematics",
+    "subcategories": ["Number Theory", "Nature"],
+    "tags": ["fibonacci", "golden ratio", "patterns", "numbers", "nature"],
+    "emoji": "🌻",
+    "accentColor": "#E6A817",
+    "coverSymbol": {
+      "sfSymbol": "number",
+      "fallbackEmoji": "🔢"
+    },
+    "coverImagePrompt": "A macro photograph of a sunflower head showing the spiraling seed pattern, warm golden light, numbers 1, 1, 2, 3, 5, 8, 13 subtly traced along the spirals, cinematic and painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A number that keeps showing up",
+      "body": "Count the spirals on a pinecone. You'll almost always get 8 one way and 13 the other. Count the petals on a daisy — 34, 55, or 89. These aren't random. They're all neighbors in a sequence a 13th-century Italian merchant wrote down while thinking about rabbits.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A close-up of a pinecone with its spirals highlighted in glowing lines, one set golden, one set teal"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The rule is absurdly simple",
+      "body": "Start with 0 and 1. Add them: 1. Add the last two: 2. Keep going: 3, 5, 8, 13, 21, 34, 55, 89. Each number is just the sum of the two before it. That's the whole rule — and yet it unlocks something weirdly universal.",
+      "keyTerms": [
+        { "term": "Fibonacci sequence", "definition": "A sequence where each number is the sum of the previous two, starting from 0 and 1" },
+        { "term": "Recurrence", "definition": "A rule where each term is defined using earlier terms" }
+      ],
+      "visual": {
+        "sfSymbol": "plus.forwardslash.minus",
+        "imagePrompt": "Chalkboard-style illustration of 0 + 1 = 1, 1 + 1 = 2, 1 + 2 = 3, stacked and elegant"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why plants love it",
+      "body": "Plants grow new leaves or seeds by rotating a fixed angle around a central stem. If that angle is 137.5° — the 'golden angle' — each new part lands in the biggest gap left by the ones before, never shadowing them. And that golden angle falls naturally out of dividing consecutive Fibonacci numbers. Evolution didn't pick Fibonacci on purpose; it picked 'don't waste sunlight,' and Fibonacci was the answer.",
+      "visual": {
+        "sfSymbol": "camera.macro",
+        "imagePrompt": "Top-down diagram of a plant stem adding leaves at 137.5°, each leaf perfectly spaced to catch light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The golden ratio hiding inside",
+      "body": "Divide any Fibonacci number by the one before it. 8÷5 = 1.6. 89÷55 ≈ 1.618. 144÷89 ≈ 1.618. The ratio zeroes in on a single irrational number — φ, the golden ratio. Architects, painters, and even cosmetic surgeons claim the human eye finds φ subtly pleasing, which is why you'll find it lurking in the Parthenon, the Mona Lisa, and Apple's old logo grid.",
+      "funFact": "Fibonacci didn't invent the sequence — Indian mathematicians had written about it 500 years earlier while studying Sanskrit poetry rhythms.",
+      "visual": {
+        "sfSymbol": "ruler",
+        "imagePrompt": "A classical sculpture overlaid with a golden spiral, ratios labeled, museum lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A simple rule, a vast echo",
+      "body": "Fibonacci is a lesson in how math works: a rule small enough to fit on a napkin can ripple out into flowers, seashells, hurricane arms, and galaxies. Nature doesn't 'know' arithmetic — but whenever the cheapest solution to a problem involves Fibonacci, nature finds it anyway.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What comes next in the sequence: 1, 1, 2, 3, 5, 8, 13, __?",
+      "options": ["18", "20", "21", "26"],
+      "correctIndex": 2,
+      "explanation": "Each term is the sum of the two before it: 8 + 13 = 21."
+    },
+    {
+      "index": 1,
+      "question": "Why do plants arrange leaves using the golden angle (~137.5°)?",
+      "options": [
+        "To attract more pollinators",
+        "To minimize shadowing between leaves",
+        "Because of soil chemistry",
+        "It's a coincidence with no function"
+      ],
+      "correctIndex": 1,
+      "explanation": "The golden angle gives each new leaf the largest unoccupied gap, so leaves don't overshadow each other."
+    },
+    {
+      "index": 2,
+      "question": "What irrational number do Fibonacci ratios approach?",
+      "options": ["π (pi)", "e (Euler's number)", "√2", "φ (the golden ratio)"],
+      "correctIndex": 3,
+      "explanation": "Dividing consecutive Fibonacci numbers converges on φ ≈ 1.618, the golden ratio."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Golden Ratio: The Story of Phi, the World's Most Astonishing Number",
+      "publisher": "Broadway Books",
+      "year": 2003
+    },
+    {
+      "title": "Phyllotaxis as a Dynamical Self Organizing Process",
+      "publisher": "Journal of Theoretical Biology",
+      "year": 1996
+    }
+  ],
+
+  "related": ["golden-ratio", "pascals-triangle", "patterns-in-nature"]
+}

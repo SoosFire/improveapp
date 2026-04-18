@@ -1,0 +1,145 @@
+{
+  "id": "vaccines-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Vaccines Teach the Immune System",
+    "teaser": "A vaccine is a flashcard for your immune system — a harmless preview of an enemy it might meet years from now.",
+    "category": "Medicine",
+    "subcategories": ["Immunology", "Public Health"],
+    "tags": ["vaccines", "immune-system", "antibodies", "mRNA", "medicine"],
+    "emoji": "💉",
+    "accentColor": "#2563EB",
+    "coverSymbol": {
+      "sfSymbol": "syringe.fill",
+      "fallbackEmoji": "💉"
+    },
+    "coverImagePrompt": "A syringe glowing with a radiant blue serum, tiny antibodies shaped like Y's orbiting the needle tip, medical macro cinematography, clean and hopeful"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Milkmaids and cowpox",
+      "body": "In 1796, a country doctor named Edward Jenner noticed something peculiar: milkmaids who had caught cowpox — a mild disease from cattle — seemed immune to smallpox, which killed one in three infected. He took pus from a milkmaid's cowpox sore and scratched it into a boy's arm. Weeks later he exposed the boy to smallpox. Nothing happened. That scratch, and the idea behind it, has since prevented more deaths than any single medical innovation in history.",
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "An 18th-century pastoral scene of a milkmaid with a dairy cow, golden sunlight, while a doctor looks on thoughtfully"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Your immune system keeps a photo album",
+      "body": "When a new pathogen invades, specialized cells called B cells make antibodies — Y-shaped proteins that latch onto the invader and mark it for destruction. It takes a week or two to mobilize. But afterward, memory cells save a 'photo' of the enemy's shape. If the same pathogen shows up again, the response is faster and fiercer — often before you even feel sick.",
+      "keyTerms": [
+        { "term": "Antibody", "definition": "A protein that recognizes and binds to a specific pathogen" },
+        { "term": "Memory cell", "definition": "An immune cell that remembers past invaders for decades" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.crop.square.stack.fill",
+        "imagePrompt": "A stack of labeled photo cards showing silhouettes of viruses and bacteria, each filed under a glowing B cell"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Teaching without the danger",
+      "body": "Vaccines hand your immune system the 'photo' without the fight. Some use a weakened version of the pathogen (MMR). Some use a killed version (flu shot). Some use just a protein subunit (HPV). The newer mRNA vaccines take yet another path: they deliver genetic instructions that make your own cells temporarily produce a tiny, harmless piece of the virus — just enough to train the immune system. No live virus is ever introduced.",
+      "keyTerms": [
+        { "term": "Attenuated vaccine", "definition": "A weakened live pathogen, unable to cause disease but still recognizable" },
+        { "term": "mRNA vaccine", "definition": "A vaccine using genetic instructions to make your cells produce a target protein" }
+      ],
+      "visual": {
+        "sfSymbol": "graduationcap.fill",
+        "imagePrompt": "A tiny lecture hall where immune cells are students, a chalkboard showing a drawing of a virus, no danger in sight"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A wiped-out disease",
+      "body": "Smallpox killed an estimated 300 million people in the 20th century alone. By 1980, after a global vaccination campaign, the World Health Organization declared it eradicated — the only human disease ever eliminated. Polio paralyzed hundreds of thousands of children each year in the 1950s; today, fewer than a hundred wild cases occur annually. Measles deaths have dropped by over 80% since 2000 thanks to vaccines.",
+      "funFact": "The last natural smallpox case was diagnosed in Somalia in 1977. The patient, Ali Maow Maalin, survived — and later spent decades helping eradicate polio in Africa.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A dramatic graph of smallpox deaths crashing to zero across the 20th century, labeled with milestones"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Herd immunity is a team sport",
+      "body": "Vaccines protect you — but they also protect people who can't be vaccinated: newborns, cancer patients, the elderly. When enough people are immune, the pathogen can't find enough hosts to keep spreading. That's herd immunity, and it's why a dip in vaccination rates can bring diseases roaring back. Your immune system learning a lesson is everyone's problem, in the best possible way.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What do vaccines give your immune system?",
+      "options": [
+        "Direct antibodies to fight infection",
+        "A safe preview of a pathogen so it can prepare memory cells",
+        "Antibiotics that kill germs",
+        "Replacement DNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vaccines expose the immune system to a harmless version or fragment of the pathogen, building memory."
+    },
+    {
+      "index": 1,
+      "question": "How does an mRNA vaccine differ from older vaccines?",
+      "options": [
+        "It uses live virus",
+        "It contains the whole killed virus",
+        "It delivers instructions so your own cells briefly make a harmless piece of the pathogen",
+        "It is applied to the skin"
+      ],
+      "correctIndex": 2,
+      "explanation": "mRNA vaccines carry genetic instructions — your cells produce a target protein, triggering immunity."
+    },
+    {
+      "index": 2,
+      "question": "What is herd immunity?",
+      "options": [
+        "When farm animals develop resistance",
+        "When enough of a population is immune that the pathogen can't spread effectively",
+        "A type of natural immunity only",
+        "An allergic reaction to vaccines"
+      ],
+      "correctIndex": 1,
+      "explanation": "High immunity in a group starves pathogens of new hosts, protecting vulnerable people indirectly."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Plotkin's Vaccines",
+      "publisher": "Elsevier (Plotkin, Orenstein, Offit)",
+      "year": 2023
+    },
+    {
+      "title": "Smallpox Eradication: Destruction of Variola Virus Stocks",
+      "publisher": "World Health Organization",
+      "year": 1980
+    }
+  ],
+
+  "related": ["antibiotic-resistance", "immune-system-basics", "mrna-technology"]
+}

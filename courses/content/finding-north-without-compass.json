@@ -1,0 +1,136 @@
+{
+  "id": "finding-north-without-compass",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How to Find North Without a Compass",
+    "teaser": "A wristwatch, a stick, a clear night — any one of them will point the way home.",
+    "category": "Survival Skills",
+    "subcategories": ["Navigation", "Bushcraft"],
+    "tags": ["navigation", "survival", "stars", "sun", "orientation"],
+    "emoji": "🧭",
+    "accentColor": "#415A77",
+    "coverSymbol": {
+      "sfSymbol": "location.north.line.fill",
+      "fallbackEmoji": "🌟"
+    },
+    "coverImagePrompt": "A dark silhouette kneeling on a bare ridge at twilight, one hand pointing a stick at the Big Dipper overhead, stars becoming faintly visible, moody blue-purple sky, cinematic wide"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Lost, not hopeless",
+      "body": "Most people who get turned around in the woods make one specific mistake: they trust their gut. Research on lost hikers shows the gut is wrong about half the time. A flat 50/50 coin flip would do better. But humans have navigated for 50,000 years without compasses — using nothing but the sky, a shadow, and a little geometry. Three techniques will almost always recover a bearing.",
+      "visual": {
+        "sfSymbol": "location.slash.fill",
+        "imagePrompt": "A hiker standing at a trail junction in deep forest, hands on hips, map dangling, afternoon light filtering through canopy"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The shadow-stick method",
+      "body": "Plant a straight stick vertically in sunlit ground. Mark the tip of its shadow with a pebble. Wait 15 minutes and mark the new tip. Draw a line between the two marks — that line runs roughly east-to-west. The first pebble is west, the second is east. Why? Because the sun tracks west across the sky, so shadows move east. Stand with your left hand on the first pebble and you're facing north (in the Northern Hemisphere).",
+      "keyTerms": [
+        { "term": "Shadow-tip method", "definition": "A navigation technique using the motion of a stick's shadow to derive an east-west line" },
+        { "term": "Celestial navigation", "definition": "Finding direction from the positions of the sun, moon, or stars" }
+      ],
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Overhead view of a stick planted in dirt with two small pebbles marking shadow tips, drawn line connecting them, compass rose faintly overlaid"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The analog-watch trick",
+      "body": "Got an analog watch on local time? Point the hour hand at the sun. In the Northern Hemisphere, south is the imaginary line bisecting the angle between the hour hand and the 12 o'clock mark. In the Southern Hemisphere, point the 12 at the sun and bisect to the hour hand for north. It's accurate to about 15 degrees — good enough to pick a direction and commit to it, which is half the battle when you're lost.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A vintage silver watch held in a hand with the face angled toward a setting sun, a diagram line bisecting the dial, warm light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Polaris, the fixed point",
+      "body": "At night, the single most reliable reference is Polaris — the North Star. It sits within one degree of true north and barely moves across the sky, because it happens to be aligned with Earth's rotational axis. To find it, locate the Big Dipper. The two stars on the outer edge of its 'bowl' are called the pointers. Draw a line through them, extend it five times that distance, and you'll hit a moderately bright star by itself: Polaris.",
+      "funFact": "Polaris hasn't always been the pole star. Earth's axis wobbles in a 26,000-year cycle; in Ancient Egypt, the pole star was Thuban in Draco.",
+      "visual": {
+        "sfSymbol": "star.fill",
+        "imagePrompt": "A clear night sky diagram showing the Big Dipper with a dotted line extending from its pointer stars to Polaris, labels in white on deep navy"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Pick a bearing and walk",
+      "body": "All three methods share a quiet lesson: you don't need a precise compass heading to self-rescue. You need any reliable direction. Most lost hikers are found within a few miles of their entry point, wandering in circles because they couldn't break the 50/50 fog. Pick north. Walk downhill if you can. Find water; follow it. The sky has been guiding people home since long before magnetism was understood.",
+      "visual": {
+        "sfSymbol": "arrow.up",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In the shadow-stick method, which direction does the first shadow tip mark?",
+      "options": ["North", "South", "East", "West"],
+      "correctIndex": 3,
+      "explanation": "The sun tracks westward across the sky, so shadows move eastward. The earlier mark is west; the later one is east."
+    },
+    {
+      "index": 1,
+      "question": "With an analog watch in the Northern Hemisphere, how do you find south?",
+      "options": [
+        "Point the 12 at the sun; south is halfway to the hour hand",
+        "Point the hour hand at the sun; south bisects the angle to 12",
+        "Align the minute hand with the sun and read the hour",
+        "Hold the watch face-down and point the crown at the sun"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the Northern Hemisphere, point the hour hand at the sun and south is the bisector between it and the 12."
+    },
+    {
+      "index": 2,
+      "question": "How do you locate Polaris using the Big Dipper?",
+      "options": [
+        "Follow the dipper's handle for five lengths",
+        "Extend a line through the pointer stars of the bowl five times",
+        "Find the star at the center of the bowl",
+        "Draw a line between the Big and Little Dipper"
+      ],
+      "correctIndex": 1,
+      "explanation": "The two pointer stars on the bowl's outer edge lead directly to Polaris when the line is extended five times their own spacing."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Natural Navigator",
+      "publisher": "The Experiment (Tristan Gooley)",
+      "year": 2010
+    },
+    {
+      "title": "U.S. Army Field Manual FM 3-25.26: Map Reading and Land Navigation",
+      "publisher": "U.S. Department of the Army",
+      "year": 2001
+    }
+  ],
+
+  "related": ["reading-maps", "dead-reckoning", "southern-cross"]
+}

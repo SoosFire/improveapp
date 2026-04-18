@@ -1,0 +1,141 @@
+{
+  "id": "occams-razor",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Occam's Razor",
+    "teaser": "A 14th-century friar's rule of thumb quietly runs modern science, detective work, and your everyday decisions.",
+    "category": "Critical Thinking",
+    "subcategories": ["Philosophy", "Scientific Method"],
+    "tags": ["occam", "parsimony", "philosophy", "scientific-method", "logic"],
+    "emoji": "🪒",
+    "accentColor": "#5E4B3C",
+    "coverSymbol": {
+      "sfSymbol": "scissors",
+      "fallbackEmoji": "🪒"
+    },
+    "coverImagePrompt": "A medieval monk's hand holding a gleaming straight razor over an unrolled parchment filled with tangled theories, candlelit scriptorium, chiaroscuro lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Hoofbeats in the night",
+      "body": "A medical student hears galloping outside the hospital window at 2 a.m. Her professor turns and says: 'When you hear hoofbeats, think horses, not zebras.' That's Occam's Razor in a single sentence. When competing explanations both fit the facts, bet on the simpler one. It's saved more lives, solved more mysteries, and refuted more conspiracy theories than almost any idea in history.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A cobblestone street at night, fog rising, the silhouette of a horse mid-gallop emerging through the mist, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Entities should not be multiplied",
+      "body": "The razor is named for William of Ockham, a 14th-century English Franciscan friar. His actual phrasing was in Latin: 'Entia non sunt multiplicanda praeter necessitatem' — 'entities should not be multiplied beyond necessity.' Translation: don't invent extra stuff to explain something if you don't have to. Shave away what isn't needed.",
+      "keyTerms": [
+        { "term": "Parsimony", "definition": "The principle of preferring the simplest explanation that fits the evidence" },
+        { "term": "William of Ockham", "definition": "English friar (c. 1287–1347) whose writings inspired the razor, though he didn't coin it exactly" }
+      ],
+      "visual": {
+        "sfSymbol": "minus.circle.fill",
+        "imagePrompt": "A Gothic manuscript page with extraneous flourishes being crossed out in red ink, leaving only clean Latin text"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Simpler, not sloppier",
+      "body": "Occam's Razor doesn't say the simplest answer is always correct. It says: given equal explanatory power, prefer simplicity. A theory that requires 10 assumptions is 10 chances to be wrong; a theory with 2 is just 2. Einstein reputedly sharpened it: 'Make things as simple as possible, but no simpler.' The razor cuts excess — not the truth.",
+      "visual": {
+        "sfSymbol": "slider.horizontal.below.rectangle",
+        "imagePrompt": "Two theoretical diagrams side by side: one tangled with arrows and labels, the other elegantly minimal, both pointing to the same conclusion"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The razor in action",
+      "body": "Copernicus used it to replace Ptolemy's dizzying 80+ epicycles with a simple sun-centered model. Doctors use it every day when they assume one diagnosis is more likely than three rare ones co-occurring. In 1996, Mars researchers debated whether meteorite ALH84001 contained Martian microfossils — or just contamination. The simpler explanation won. And in programming, 'keep it simple' is basically the razor in a hoodie.",
+      "funFact": "Sherlock Holmes actually violated Occam's Razor on purpose — his method ('once you eliminate the impossible...') deliberately kept weird options on the table.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": "Split illustration showing Ptolemy's tangled epicycle model versus Copernicus's clean heliocentric circles, vintage astronomical engraving style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Your built-in conspiracy detector",
+      "body": "Next time you hear a theory that requires dozens of coordinated liars, secret labs, and improbable coincidences — ask yourself: what's the simpler version? A bureaucratic screw-up? A misunderstanding? Random chance? Usually it is. The razor won't always give you the right answer. But it's a remarkably good way to stop being fooled by yourself.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does Occam's Razor essentially state?",
+      "options": [
+        "The more complex theory is usually right",
+        "Prefer the simpler explanation when multiple fit the evidence",
+        "Never trust any explanation",
+        "Always eliminate the impossible first"
+      ],
+      "correctIndex": 1,
+      "explanation": "The razor favors simplicity: don't add extra assumptions unless you need them."
+    },
+    {
+      "index": 1,
+      "question": "Who is the razor named after?",
+      "options": [
+        "Aristotle",
+        "Isaac Newton",
+        "William of Ockham",
+        "Thomas Aquinas"
+      ],
+      "correctIndex": 2,
+      "explanation": "William of Ockham was a 14th-century Franciscan friar whose writings inspired the principle."
+    },
+    {
+      "index": 2,
+      "question": "Which of these best captures Einstein's refinement of the razor?",
+      "options": [
+        "Always choose the simplest explanation",
+        "Make things as simple as possible, but no simpler",
+        "Complexity equals intelligence",
+        "Facts don't matter, only logic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Einstein warned that oversimplifying can be as dangerous as overcomplicating — strip only what's truly unnecessary."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "William of Ockham: Philosophy and Theology",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "year": 2015
+    },
+    {
+      "title": "Ockham's Razors: A User's Manual",
+      "publisher": "Cambridge University Press",
+      "year": 2015
+    }
+  ],
+
+  "related": ["scientific-method", "falsifiability", "critical-thinking"]
+}

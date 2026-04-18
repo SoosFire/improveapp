@@ -1,0 +1,136 @@
+{
+  "id": "castling-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Castling: Two Moves in One",
+    "teaser": "It's the only move in chess that lets you move two pieces at once — and it was invented to speed the game up.",
+    "category": "Chess",
+    "subcategories": ["Chess Rules", "Strategy"],
+    "tags": ["chess", "castling", "rules", "king-safety", "history"],
+    "emoji": "♜",
+    "accentColor": "#5A3E2B",
+    "coverSymbol": {
+      "sfSymbol": "shield.fill",
+      "fallbackEmoji": "♜"
+    },
+    "coverImagePrompt": "A white king and rook caught mid-castle on a walnut chessboard, warm library lamplight, stately old-world atmosphere, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The move that breaks its own rule",
+      "body": "In chess, you move one piece per turn. That's the first thing a beginner learns. But then — somewhere around move eight — something impossible happens: the king hops two squares sideways, a rook leaps over it, and suddenly both pieces are in brand-new homes. Castling is chess's lone rule-bender, and it exists for one reason: to save the king's life fast.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "A dramatic close-up of a white king skipping two squares over to tuck behind its rook"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How castling actually works",
+      "body": "There are two versions. In kingside (short) castling, the king moves two squares toward the h-rook, and that rook jumps over the king to land next to it. In queenside (long) castling, the king moves two squares toward the a-rook, which then hops over to its other side. Either way, king and rook end up shoulder to shoulder, tucked safely away from the center.",
+      "keyTerms": [
+        { "term": "Kingside castling", "definition": "Castling on the same side as the king; notated O-O" },
+        { "term": "Queenside castling", "definition": "Castling toward the queen's side of the board; notated O-O-O" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "Two side-by-side chess diagrams showing the king and rook positions before and after kingside castling"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The four forbidden conditions",
+      "body": "Castling has strict rules. You cannot castle if your king or the castling rook has already moved, if there are any pieces between them, if your king is currently in check, or if any square the king crosses — including its destination — is attacked by an enemy piece. Castling is not a panic button: it's earned.",
+      "funFact": "You can castle into check-adjacent danger with the rook, but never with the king: the rook is allowed to pass through an attacked square, the king is not.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A chess diagram highlighting squares the king must cross, with red warning markers on any attacked squares"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Invented to fix a slow game",
+      "body": "Before the 15th century, chess took forever. Kings plodded across the board one square at a time and games dragged. As Europe sped up chess by empowering the queen and bishop, they also introduced the 'king's leap' — the rule that eventually evolved into modern castling by about 1620. By the 17th century, castling as we know it was standardized. Today, roughly 85% of grandmaster games feature castling, almost always within the first 15 moves.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A medieval manuscript illustration of a knight moving a king piece on a board in a sunlit hall"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "One move, two ideas",
+      "body": "Castling does two strategic jobs at once: it hides the king behind a pawn shield and activates a rook that was doing nothing on the corner. That double-purpose is why beginners are taught to castle early — and why grandmasters sometimes delay it deliberately, weaponizing the decision itself.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.merge",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of these conditions does NOT prevent castling?",
+      "options": [
+        "Your king is currently in check",
+        "The castling rook has moved earlier in the game",
+        "The rook passes through an attacked square",
+        "The king passes through an attacked square"
+      ],
+      "correctIndex": 2,
+      "explanation": "Only the king's squares matter — the rook is allowed to pass through attacked squares during castling."
+    },
+    {
+      "index": 1,
+      "question": "What is the notation for queenside castling?",
+      "options": ["O-O", "O-O-O", "C-C", "KQ"],
+      "correctIndex": 1,
+      "explanation": "Kingside is O-O; queenside castling, the longer move, is written O-O-O."
+    },
+    {
+      "index": 2,
+      "question": "Why was castling introduced into chess?",
+      "options": [
+        "To make games longer and more strategic",
+        "To speed up the game and improve king safety",
+        "To celebrate royal weddings",
+        "To balance the queen's new power"
+      ],
+      "correctIndex": 1,
+      "explanation": "As European chess sped up in the late medieval era, castling evolved from the 'king's leap' to get the king to safety quickly."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A History of Chess",
+      "publisher": "Oxford University Press (H.J.R. Murray)",
+      "year": 1913
+    },
+    {
+      "title": "FIDE Laws of Chess",
+      "publisher": "Fédération Internationale des Échecs",
+      "year": 2023
+    }
+  ],
+
+  "related": ["chess-openings-basics", "king-safety", "fide-rules"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "moral-panic",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Moral Panic: The Satanic Panic Pattern",
+    "teaser": "For a decade, America convinced itself that preschool teachers were secret devil worshippers. How?",
+    "category": "Sociology",
+    "subcategories": ["Mass Hysteria", "Media Studies"],
+    "tags": ["moral panic", "satanic panic", "media", "memory", "1980s"],
+    "emoji": "🔥",
+    "accentColor": "#B23A48",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🕯️"
+    },
+    "coverImagePrompt": "A stack of 1980s VHS tapes and tabloid newspapers lit by a single flickering candle, shadows of horned figures thrown across wood-paneled wall, grainy analog aesthetic, ominous"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The McMartin trial",
+      "body": "In 1983, a mother in Manhattan Beach, California, told police that her son had been molested at the McMartin Preschool. By the time the case ended seven years later, children had described being flushed down toilets into secret chambers, watching witches fly, and being taken on airplane rides to slaughter babies. Not a single conviction held. The trial cost $15 million — and it was only the beginning.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A 1984 newspaper front page with headline 'RITUAL ABUSE AT PRESCHOOL?', black and white courtroom sketch below"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What is a moral panic?",
+      "body": "Sociologist Stanley Cohen coined 'moral panic' in 1972 to describe episodes where a condition, person, or group gets defined as a threat to societal values — and the reaction is wildly disproportionate to the actual risk. The pattern is always the same: a trigger event, media amplification, folk devils, moral entrepreneurs, and eventually new laws that long outlast the panic.",
+      "keyTerms": [
+        { "term": "Folk devils", "definition": "The scapegoat group blamed for society's anxieties during a moral panic" },
+        { "term": "Moral entrepreneurs", "definition": "Activists, experts, or officials who actively promote the panic narrative" }
+      ],
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "Silhouettes of a crowd pointing fingers at a shadowed figure, high-contrast editorial illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the stories grew",
+      "body": "The McMartin children were interviewed using leading techniques — puppets, repeated questioning, praise for 'right' answers. Kids are suggestible: tell a four-year-old enough times that something scary happened, and many will eventually 'remember' it. The therapists weren't lying. They genuinely believed they were uncovering repressed memories. That sincerity is what made the panic spread.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A child's hand holding a puppet across a small table from an adult's hand holding a notepad, soft pastel tones, unsettling intimacy"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A pattern that repeats",
+      "body": "Cohen originally studied 1960s British youth gangs. The satanic panic fit his template perfectly, and so did later episodes: the 1990s 'recovered memory' wave, fears of razor blades in Halloween candy (essentially zero confirmed cases), and the viral 'clown sightings' of 2016. Each cycle ends when journalists retrace the sources and find them empty — but the convictions, broken careers, and laws often remain.",
+      "funFact": "FBI agent Kenneth Lanning investigated over 300 alleged satanic ritual abuse cases in the 1980s. He found zero credible evidence of an organized cult.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A newspaper archive hallway with decades of headlines in rotating drums, each one featuring a different panic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to spot one in real time",
+      "body": "Three questions help. First: is the alleged threat growing in stories faster than in verified data? Second: does the evidence rely on interviews rather than physical proof? Third: are skeptics being framed as enablers of evil? When all three line up, the odds are you're inside a panic rather than uncovering one.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'moral panic'?",
+      "options": ["Émile Durkheim", "Stanley Cohen", "Erving Goffman", "Michel Foucault"],
+      "correctIndex": 1,
+      "explanation": "British sociologist Stanley Cohen introduced the concept in his 1972 book on 1960s youth subcultures."
+    },
+    {
+      "index": 1,
+      "question": "What did the FBI's 1992 report on satanic ritual abuse conclude?",
+      "options": [
+        "Widespread underground cults existed",
+        "Most cases were regionally isolated",
+        "No credible evidence of organized satanic cults was found",
+        "Evidence was inconclusive"
+      ],
+      "correctIndex": 2,
+      "explanation": "Agent Kenneth Lanning's report found hundreds of allegations but zero verified organized satanic networks."
+    },
+    {
+      "index": 2,
+      "question": "Which interview technique most contributed to false testimony at McMartin?",
+      "options": [
+        "Silent listening",
+        "Leading questions and repetition",
+        "Single-session interviews",
+        "Parents answering on behalf of the child"
+      ],
+      "correctIndex": 1,
+      "explanation": "Repeated, suggestive questioning with children produced increasingly fantastical 'memories' that had never happened."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Folk Devils and Moral Panics",
+      "publisher": "MacGibbon & Kee (Stanley Cohen)",
+      "year": 1972
+    },
+    {
+      "title": "Satanic Ritual Abuse: A Law Enforcement Perspective",
+      "publisher": "FBI Academy (Kenneth Lanning)",
+      "year": 1992
+    }
+  ],
+
+  "related": ["mass-hysteria", "false-memory", "media-framing"]
+}

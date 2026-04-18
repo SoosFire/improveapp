@@ -1,0 +1,141 @@
+{
+  "id": "greenhouse-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Greenhouse Effect",
+    "teaser": "Without it, Earth would be a frozen rock. With too much of it, we're in trouble. The physics hasn't changed since 1856.",
+    "category": "Climate Science",
+    "subcategories": ["Atmosphere", "Physics"],
+    "tags": ["climate", "atmosphere", "physics", "co2", "global-warming"],
+    "emoji": "🌡️",
+    "accentColor": "#5B9BD5",
+    "coverSymbol": {
+      "sfSymbol": "thermometer.sun.fill",
+      "fallbackEmoji": "🌡️"
+    },
+    "coverImagePrompt": "Earth seen from space with a soft luminous atmospheric glow, sunlight streaming toward it and warm infrared rays radiating back, dramatic cosmic lighting, scientific illustration"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An effect worth celebrating",
+      "body": "Here's something climate headlines rarely mention: the greenhouse effect is the reason you exist. Without it, the average temperature of Earth's surface would be around minus 18°C — a frozen wasteland. Thanks to the greenhouse effect, it's a comfortable 15°C. The issue isn't that the effect exists. It's that we've cranked it up too far.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": "Split-image of Earth: one half an icy frozen planet, the other half lush and green with warm atmosphere, photorealistic space view"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The name is a little wrong",
+      "body": "A greenhouse traps warm air by stopping it from escaping. The atmospheric 'greenhouse effect' is different — it traps heat through a chemistry trick. Certain gases (mostly water vapor, CO₂, and methane) let visible sunlight pass through freely, but absorb the infrared heat Earth radiates back out. The heat gets re-emitted in all directions, including back down to the surface.",
+      "keyTerms": [
+        { "term": "Greenhouse gas", "definition": "A gas that absorbs infrared radiation, trapping heat in the atmosphere — like CO₂, methane, and water vapor" },
+        { "term": "Infrared radiation", "definition": "Invisible heat energy emitted by warm objects, including the Earth's surface" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.circle.fill",
+        "imagePrompt": "Clean animated-style diagram: yellow sun rays entering Earth's atmosphere freely, red infrared rays partly bouncing back from greenhouse gas molecules"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Who figured it out",
+      "body": "In 1856, American scientist Eunice Newton Foote filled glass jars with different gases and set them in sunlight. The jar with CO₂ got hotter and stayed hot longer. She concluded that more CO₂ in the air would warm the planet — a century and a half before modern climate science confirmed it. Her paper was read aloud at a scientific meeting because women weren't allowed to present.",
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "A 19th-century laboratory bench with glass jars containing gases, mercury thermometers inside, afternoon sunlight streaming through a window, scientific painting style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The dial we're turning",
+      "body": "Before the Industrial Revolution, atmospheric CO₂ sat around 280 parts per million for thousands of years. By 2024 it had passed 420 ppm — higher than at any point in at least 800,000 years, according to ice core data. Every extra molecule of CO₂ strengthens the greenhouse effect slightly. Add up trillions of tons, and the whole planet warms.",
+      "funFact": "You can literally see Earth's infrared glow from space. Satellites like NASA's AIRS measure it, and the dimming at certain wavelengths is direct proof that CO₂ is absorbing heat in the atmosphere right now.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A rising graph showing atmospheric CO2 from 1850 to 2025, the 'Keeling Curve,' overlaid on a background of smokestacks at sunset"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Familiar physics, unfamiliar scale",
+      "body": "The greenhouse effect isn't a theory. It's the same physics that keeps Venus at 460°C and lets Mars, with its thin atmosphere, freeze at minus 60°C. Earth got lucky — a Goldilocks dose of greenhouse gases kept it habitable for billions of years. Climate change isn't about inventing new physics. It's about slowly moving the dial into territory human civilization has never experienced.",
+      "visual": {
+        "sfSymbol": "thermometer.medium",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What would Earth's average surface temperature be without any greenhouse effect?",
+      "options": [
+        "About the same as today",
+        "Around 0°C",
+        "Around minus 18°C",
+        "Around minus 80°C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Without greenhouse gases trapping infrared heat, Earth's surface would average about minus 18°C — too cold for liquid water or life as we know it."
+    },
+    {
+      "index": 1,
+      "question": "What type of radiation do greenhouse gases mainly absorb?",
+      "options": [
+        "Visible light from the sun",
+        "Infrared heat radiated by Earth",
+        "Ultraviolet radiation",
+        "X-rays from space"
+      ],
+      "correctIndex": 1,
+      "explanation": "Greenhouse gases let sunlight through but absorb the infrared heat Earth radiates back out, trapping it in the atmosphere."
+    },
+    {
+      "index": 2,
+      "question": "Who ran the first experiment showing CO₂ traps heat?",
+      "options": [
+        "Svante Arrhenius in 1896",
+        "Eunice Newton Foote in 1856",
+        "John Tyndall in 1859",
+        "Charles Keeling in 1958"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eunice Newton Foote published her CO₂-warming experiment in 1856 — three years before John Tyndall's more famous lab work."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Circumstances Affecting the Heat of the Sun's Rays",
+      "publisher": "American Journal of Science and Arts",
+      "year": 1856
+    },
+    {
+      "title": "IPCC Sixth Assessment Report: The Physical Science Basis",
+      "publisher": "Intergovernmental Panel on Climate Change",
+      "year": 2021
+    }
+  ],
+
+  "related": ["keeling-curve", "eunice-newton-foote", "venus-runaway-greenhouse"]
+}

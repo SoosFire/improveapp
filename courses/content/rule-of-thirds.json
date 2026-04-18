@@ -1,0 +1,131 @@
+{
+  "id": "rule-of-thirds",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Rule of Thirds",
+    "teaser": "The most famous rule in photography — and the one every great photographer eventually learns to break.",
+    "category": "Photography",
+    "subcategories": ["Composition", "Fundamentals"],
+    "tags": ["photography", "composition", "visual-design", "framing", "art"],
+    "emoji": "📸",
+    "accentColor": "#E6A756",
+    "coverSymbol": {
+      "sfSymbol": "camera.fill",
+      "fallbackEmoji": "📷"
+    },
+    "coverImagePrompt": "A landscape photograph of a lone cypress tree on a golden hillside with a faint 3x3 grid overlay, the tree placed precisely on the right vertical line, soft golden-hour light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The invisible grid",
+      "body": "Pull up almost any iconic photograph — Ansel Adams' mountains, a National Geographic cover, your favorite Instagram shot. Now imagine a tic-tac-toe grid laid over it. Chances are, the most important thing in the frame sits exactly where two lines cross. That's no accident. It's a 200-year-old rule your eyes already obey.",
+      "visual": {
+        "sfSymbol": "grid",
+        "imagePrompt": "A stunning sunset photograph with a subtle 3x3 grid overlay, horizon aligned with the lower third, sun positioned at a grid intersection"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Divide and conquer",
+      "body": "The rule is simple: mentally split your frame into nine equal rectangles using two horizontal and two vertical lines. Place your subject, or the strongest feature, along one of those lines — or better yet, at one of the four intersections. The viewer's eye naturally drifts to those 'power points,' so put what matters there.",
+      "keyTerms": [
+        { "term": "Power points", "definition": "The four intersections of the rule-of-thirds grid where the eye instinctively lands" },
+        { "term": "Negative space", "definition": "The empty area around a subject that gives it room to breathe" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3",
+        "imagePrompt": "A clean infographic showing the 3x3 grid with four red dots marking the power point intersections, minimalist educational style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why off-center wins",
+      "body": "Dead-center compositions feel static and posed — like a passport photo. When a subject sits off-center, the rest of the frame gets to tell the story: where the subject is looking, where they're going, what surrounds them. The rule of thirds trades symmetry for narrative. That's why landscapes put the horizon on the lower third (big sky) or upper third (big land). Each choice says something different.",
+      "visual": {
+        "sfSymbol": "arrow.left.and.right",
+        "imagePrompt": "Side-by-side comparison of two portraits: one with the subject dead center looking flat, another with the subject on the right third looking toward negative space, cinematic lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "A rule made to be broken",
+      "body": "The rule of thirds isn't a law — it's training wheels. Once your eye is educated, you'll find reasons to break it. Centered symmetry (think Wes Anderson) creates stillness and ceremony. Extreme edges create unease. The rule works because it reliably produces 'good.' Great takes knowing when good isn't what the moment needs. Learn the rule, then earn the right to ignore it.",
+      "funFact": "The 'rule' was first written down in 1797 by British engraver John Thomas Smith, long before cameras even existed. He was describing how to compose landscape paintings.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How do you divide the frame for the rule of thirds?",
+      "options": [
+        "Into four equal quadrants",
+        "Into nine equal rectangles using two horizontal and two vertical lines",
+        "Into a spiral of decreasing squares",
+        "Along a single diagonal line"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two horizontal and two vertical lines divide the frame into nine equal rectangles — hence 'thirds.'"
+    },
+    {
+      "index": 1,
+      "question": "Where do the 'power points' sit on the grid?",
+      "options": [
+        "At the exact center of the frame",
+        "Along the edges of the frame",
+        "At the four intersections of the grid lines",
+        "At the corners of the frame"
+      ],
+      "correctIndex": 2,
+      "explanation": "The four intersections of the grid lines are the spots where the eye naturally lands and should host your key subject."
+    },
+    {
+      "index": 2,
+      "question": "Who is credited with first writing down the rule of thirds?",
+      "options": [
+        "Ansel Adams in 1935",
+        "John Thomas Smith in 1797",
+        "Henri Cartier-Bresson in 1952",
+        "Leonardo da Vinci in 1495"
+      ],
+      "correctIndex": 1,
+      "explanation": "British engraver John Thomas Smith described the principle in 1797 as a guide for landscape painters."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Remarks on Rural Scenery",
+      "publisher": "Nathaniel Smith",
+      "year": 1797
+    },
+    {
+      "title": "The Photographer's Eye: Composition and Design for Better Digital Photos",
+      "publisher": "Focal Press",
+      "year": 2007
+    }
+  ],
+
+  "related": ["golden-ratio-composition", "leading-lines", "ansel-adams"]
+}

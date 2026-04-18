@@ -1,0 +1,131 @@
+{
+  "id": "survival-rule-of-threes",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Survival Rule of Threes",
+    "teaser": "Three minutes without air. Three hours without shelter. Three days without water. This simple rule has saved more lives than any gear.",
+    "category": "Survival Skills",
+    "subcategories": ["Wilderness Survival", "Emergency Response"],
+    "tags": ["survival", "wilderness", "first-aid", "outdoors", "emergency"],
+    "emoji": "🧭",
+    "accentColor": "#4C6B3F",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🔥"
+    },
+    "coverImagePrompt": "A lone figure at dusk tending a small fire in a forest clearing, pine trees in silhouette, orange firelight reflecting on the ground, cinematic survival mood"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A cheat sheet for staying alive",
+      "body": "Your car breaks down on a mountain road. It's getting dark. It's 20 degrees out. What do you do first? Panic is the enemy. Wilderness instructors teach a dead-simple mental framework called the Rule of Threes — and it gives you the answer instantly.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A snowy mountain road at twilight with a stalled car, headlights illuminating swirling snow, suspenseful"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three minutes, three hours, three days, three weeks",
+      "body": "You can survive roughly 3 minutes without air, 3 hours without shelter in harsh weather, 3 days without water, and 3 weeks without food. These numbers aren't exact — they depend on conditions — but they're close enough to drive priorities. Whatever kills you fastest is what you address first.",
+      "keyTerms": [
+        { "term": "Rule of Threes", "definition": "A survival priority framework: 3 min air, 3 hrs shelter, 3 days water, 3 weeks food" },
+        { "term": "Exposure", "definition": "Dangerous loss of body heat due to cold, wet, or windy conditions, also called hypothermia" }
+      ],
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "A clean infographic of four stacked icons — lungs, tent, water drop, and plate — with '3 minutes,' '3 hours,' '3 days,' and '3 weeks' beside them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why shelter usually comes first",
+      "body": "Most people assume food and water are the top priorities. They're not. In cold, wet, or windy weather, hypothermia can kill in under three hours — long before hunger or thirst become dangerous. That's why experienced survivalists preach 'shelter before fire, fire before water, water before food.' The order is counterintuitive, which is exactly why the rule matters.",
+      "visual": {
+        "sfSymbol": "tent.fill",
+        "imagePrompt": "A small tarp shelter built between two trees with a backpack and sleeping bag inside, practical and warm"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The mistake that killed Chris McCandless",
+      "body": "In 1992, Chris McCandless walked into the Alaskan wilderness with minimal gear. He survived 113 days — impressive until you realize he had food, shelter, and water the whole time. He eventually died from starvation and toxins, a slow-motion failure. Most fatal wilderness incidents are the opposite: fast deaths from exposure within hours of going missing, because people prioritized walking out over staying warm.",
+      "funFact": "Search-and-rescue data shows that lost hikers who stop and stay put are found alive 3 to 4 times more often than those who keep moving.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "An aerial shot of vast Alaskan wilderness — winding rivers, boreal forest, a tiny human figure nearly invisible in the scale"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Know the order, know what matters",
+      "body": "The Rule of Threes exists because stressed brains don't do nuanced triage. When your cortisol spikes, simple beats smart. Air, shelter, water, food — in that order. Memorize it once. If you ever need it, that tiny mental shortcut could be the thing that gets you home.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to the Rule of Threes, roughly how long can a person survive without water?",
+      "options": ["3 hours", "3 days", "3 weeks", "3 months"],
+      "correctIndex": 1,
+      "explanation": "The rule estimates survival without water at around 3 days, though this varies by temperature and activity."
+    },
+    {
+      "index": 1,
+      "question": "In a cold, wet wilderness emergency, what should you address first?",
+      "options": ["Food", "Water", "Shelter", "Signaling for rescue"],
+      "correctIndex": 2,
+      "explanation": "Hypothermia can kill within hours — faster than dehydration or starvation — so shelter usually takes priority in harsh conditions."
+    },
+    {
+      "index": 2,
+      "question": "Why is the Rule of Threes useful in emergencies?",
+      "options": [
+        "It lists exactly how much gear to carry",
+        "It gives a simple priority order for a panicked brain",
+        "It predicts weather changes",
+        "It tells you how to use a compass"
+      ],
+      "correctIndex": 1,
+      "explanation": "Under stress, complex decision-making breaks down. The rule provides a simple, memorable priority order that still works under panic."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Bushcraft 101: A Field Guide to the Art of Wilderness Survival",
+      "publisher": "Adams Media",
+      "year": 2014
+    },
+    {
+      "title": "SAS Survival Handbook",
+      "publisher": "William Morrow Paperbacks",
+      "year": 2016
+    }
+  ],
+
+  "related": ["hypothermia-prevention", "wilderness-first-aid", "fire-starting"]
+}

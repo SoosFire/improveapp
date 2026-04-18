@@ -1,0 +1,131 @@
+{
+  "id": "why-chess-developed-from-war",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Chess Was Invented as a War Game",
+    "teaser": "Long before grandmasters, kings played chess to rehearse battles. The board itself is a battlefield.",
+    "category": "Chess",
+    "subcategories": ["Chess History", "Origins"],
+    "tags": ["chess", "history", "india", "war", "persia"],
+    "emoji": "♟️",
+    "accentColor": "#8B6B3F",
+    "coverSymbol": {
+      "sfSymbol": "crown.fill",
+      "fallbackEmoji": "♚"
+    },
+    "coverImagePrompt": "Ancient carved ivory chess pieces on a weathered wooden board, candlelit medieval tent with maps in background, cinematic warm lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A game older than empires",
+      "body": "Before it was a gentleman's game, before it was played in smoky 19th-century Parisian cafés, chess was a tool for thinking like a general. Its earliest ancestor, chaturanga, was designed in 6th-century India to teach its players the four divisions of a royal army — and the first man to win was the first man to understand a battlefield.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "An ancient Indian miniature painting of nobles in a palace courtyard playing chaturanga on a cloth board"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The four arms of chaturanga",
+      "body": "The word 'chaturanga' literally means 'four limbs' in Sanskrit — a reference to the four classical divisions of the Gupta-era army: infantry, cavalry, elephants, and chariots. Those four branches became the ancestors of today's pawns, knights, bishops, and rooks. The king and counsellor rounded out the court.",
+      "keyTerms": [
+        { "term": "Chaturanga", "definition": "A 6th-century Indian war game, the earliest known ancestor of chess" },
+        { "term": "Shatranj", "definition": "The Persian adaptation of chaturanga that spread through the Islamic world" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.4x3.fill",
+        "imagePrompt": "An illustrated diagram showing the four arms of a historical Indian army with lines pointing to their modern chess counterparts"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "From battlefield to board",
+      "body": "Every rule mirrored reality. Cavalry jumped obstacles, so the knight moves in an L-shape that leaps over pieces. Chariots rolled down straight roads, so the rook moves in straight lines. Elephants plodded diagonally through uneven terrain, and the foot soldier — the pawn — only ever advanced, because retreat on a real battlefield was punishable by death.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A split illustration: on one side a medieval battlefield with cavalry, chariots, and elephants; on the other the matching chess pieces on a board"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How it spread",
+      "body": "When the Sasanian Empire of Persia adopted chaturanga around 600 CE, they renamed it chatrang — and the exclamation 'Shah Mat!' ('the king is helpless!') became 'checkmate'. After the Arab conquest of Persia in 651, Islamic scholars carried the game across North Africa into Moorish Spain, where it reached Europe by the 10th century. Queen Isabella of Castile in the 15th century is often credited with turning the weak 'counsellor' into the powerful modern queen — mirroring her own reign.",
+      "funFact": "The modern queen's sweeping move was such a radical upgrade that medieval writers nicknamed the new version 'mad queen's chess.'",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "An illuminated medieval map showing the spread of chess from India through Persia to Europe, with decorative trade routes"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why strategy still feels like war",
+      "body": "That military DNA is why chess still feels so visceral. Controlling the center, developing your pieces, pinning, sacrificing — every chess concept is a military one translated into wood. Fifteen hundred years later, we are still playing a simulation of a Gupta-era battlefield, one move at a time.",
+      "visual": {
+        "sfSymbol": "flag.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the word 'chaturanga' mean?",
+      "options": ["Strategy board", "Four limbs (referring to army divisions)", "King's game", "Eight squares"],
+      "correctIndex": 1,
+      "explanation": "Chaturanga is Sanskrit for 'four limbs' — the four divisions of the ancient Indian army."
+    },
+    {
+      "index": 1,
+      "question": "Which modern chess piece descended from the ancient chariot?",
+      "options": ["Knight", "Bishop", "Rook", "Pawn"],
+      "correctIndex": 2,
+      "explanation": "The rook moves in straight lines, mirroring the movement of the chariots it represents."
+    },
+    {
+      "index": 2,
+      "question": "Where does the word 'checkmate' come from?",
+      "options": [
+        "Latin 'ceco mato' meaning 'blind trap'",
+        "Persian 'Shah Mat' meaning 'the king is helpless'",
+        "Greek 'ekmate' meaning 'end of play'",
+        "Old English 'cheke mate' meaning 'trapped friend'"
+      ],
+      "correctIndex": 1,
+      "explanation": "It comes from the Persian exclamation 'Shah Mat' declared when the king had nowhere safe to go."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A History of Chess",
+      "publisher": "Oxford University Press (H.J.R. Murray)",
+      "year": 1913
+    },
+    {
+      "title": "Birth of the Chess Queen",
+      "publisher": "HarperCollins",
+      "year": 2004
+    }
+  ],
+
+  "related": ["shatranj-rules", "chess-queen-history", "medieval-games"]
+}

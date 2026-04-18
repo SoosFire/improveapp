@@ -1,0 +1,136 @@
+{
+  "id": "why-picasso-cubism",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Picasso Painted People Like Boxes",
+    "teaser": "Picasso could paint like Raphael at 14 — so why did he start making faces look like shattered glass?",
+    "category": "Art",
+    "subcategories": ["Modern Art", "Cubism"],
+    "tags": ["picasso", "cubism", "braque", "perspective", "20th-century"],
+    "emoji": "🎨",
+    "accentColor": "#B5651D",
+    "coverSymbol": {
+      "sfSymbol": "square.on.square.dashed",
+      "fallbackEmoji": "🟫"
+    },
+    "coverImagePrompt": "A fragmented portrait in muted ochres and greys, a single face split into angular geometric planes viewed from multiple angles at once, painterly and cinematic, lit like a dusty Paris studio"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The man who could draw anything",
+      "body": "By the age of 14, Pablo Picasso was already painting academic portraits good enough to fool a professor. Then, in his late twenties, he deliberately broke the rules he had mastered. His 1907 canvas 'Les Demoiselles d'Avignon' shocked even his closest friends — one called it a 'philosophical brothel.' What possessed a prodigy to abandon beauty for boxes?",
+      "visual": {
+        "sfSymbol": "paintbrush.pointed.fill",
+        "imagePrompt": "A young Picasso in his Montmartre studio, surrounded by both traditional academic sketches and jagged proto-cubist canvases, warm lamplight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Seeing everything at once",
+      "body": "Cubism tried to solve a frustration every painter knows: a canvas is flat, but reality is round. Instead of choosing one angle, Picasso and Georges Braque painted many angles simultaneously — the front of a nose, the side of a cheek, and the back of a head all on the same face. The goal wasn't distortion. It was honesty about the limits of a single viewpoint.",
+      "keyTerms": [
+        { "term": "Cubism", "definition": "An early 20th-century style that depicts subjects from multiple viewpoints at once" },
+        { "term": "Picture plane", "definition": "The flat surface of the canvas on which the illusion of depth is created" }
+      ],
+      "visual": {
+        "sfSymbol": "cube.transparent",
+        "imagePrompt": "A still life of a violin painted from above, below, and the side, all compressed into one composition, in the style of Braque"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The African mask moment",
+      "body": "In 1907, Picasso visited the ethnographic museum at the Trocadéro in Paris and encountered African and Iberian masks. He later said it was a kind of exorcism — the masks felt like weapons against the fear of the unknown. Their flattened, stylised features gave him permission to stop imitating nature. Faces could become signs, not photographs.",
+      "funFact": "Picasso repainted the two right-hand figures in 'Les Demoiselles d'Avignon' after the Trocadéro visit — their faces are essentially masks grafted onto bodies he had painted months earlier.",
+      "visual": {
+        "sfSymbol": "theatermasks.fill",
+        "imagePrompt": "Wooden African ceremonial masks lit from a single overhead bulb in a Parisian museum vitrine, dramatic shadows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Einstein in the air",
+      "body": "Cubism was born the same decade Einstein published relativity and the Wright brothers flew at Kitty Hawk. Ideas of simultaneous perspectives and shifting frames were bleeding into every discipline. Braque and Picasso weren't illustrating physics — they barely understood it — but they were breathing the same air. Art historian John Golding called their collaboration 'the most important partnership in modern art.'",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A split-screen collage of a 1910 Cubist painting beside a vintage photograph of an early biplane in flight, sepia tones"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still matters",
+      "body": "Cubism didn't last long as a movement — by 1914 the war scattered its inventors. But it cracked something open. Every subsequent abstraction, collage, and remix owes it a debt. Picasso didn't paint people like boxes because he couldn't paint them otherwise. He did it because he wanted to show you that a face has more than one side.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What core problem was Cubism trying to solve?",
+      "options": [
+        "How to paint faster than photography",
+        "How to show multiple viewpoints on a flat canvas",
+        "How to avoid using expensive pigments",
+        "How to copy classical Greek sculpture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cubism tried to represent objects from several angles at once, rejecting the single fixed viewpoint of Renaissance perspective."
+    },
+    {
+      "index": 1,
+      "question": "Which 1907 painting is often called the doorway to Cubism?",
+      "options": [
+        "Guernica",
+        "The Old Guitarist",
+        "Les Demoiselles d'Avignon",
+        "The Weeping Woman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Picasso reworked the faces of 'Les Demoiselles d'Avignon' after visiting the Trocadéro, and the painting became a rupture point for modern art."
+    },
+    {
+      "index": 2,
+      "question": "Who was Picasso's closest collaborator in developing Cubism?",
+      "options": ["Henri Matisse", "Marcel Duchamp", "Georges Braque", "Salvador Dalí"],
+      "correctIndex": 2,
+      "explanation": "Picasso and Braque worked so closely between 1908 and 1914 that Braque said they were 'roped together like mountaineers.'"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Cubism and Culture",
+      "publisher": "Thames & Hudson",
+      "year": 2001
+    },
+    {
+      "title": "A Life of Picasso: The Cubist Rebel",
+      "publisher": "Alfred A. Knopf",
+      "year": 2007
+    }
+  ],
+
+  "related": ["braque-and-picasso", "african-art-influence", "modernism-origins"]
+}

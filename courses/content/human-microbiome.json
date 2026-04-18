@@ -1,0 +1,136 @@
+{
+  "id": "human-microbiome",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "You Are Mostly Microbes",
+    "teaser": "You carry around 38 trillion bacteria — and without them, you couldn't digest breakfast or fight off a cold.",
+    "category": "Microbiology",
+    "subcategories": ["Human Biology", "Microbiome"],
+    "tags": ["bacteria", "gut", "immunity", "biology", "health"],
+    "emoji": "🦠",
+    "accentColor": "#6FAE7A",
+    "coverSymbol": {
+      "sfSymbol": "circle.grid.cross.fill",
+      "fallbackEmoji": "🦠"
+    },
+    "coverImagePrompt": "A translucent human silhouette filled with swirling, glowing bacterial colonies in greens and pinks, microscopic texture layered over anatomical form, cinematic scientific illustration"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "You are a walking ecosystem",
+      "body": "If you counted every cell in your body, only about half would be human. The rest — roughly 38 trillion of them — are bacteria, fungi, and viruses living on your skin, in your mouth, and packed tightest of all in your gut. By cell count, you are more microbe than person.",
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": "A human body outline glowing with faint swirling dots representing microbes, silhouette art, ethereal"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the microbiome",
+      "body": "The 'microbiome' is the collective community of microorganisms living in and on you. Your gut alone hosts over 1,000 different bacterial species, each with its own specialty — breaking down fiber, making vitamins, or training your immune cells. Together they carry about 150 times more genes than your own DNA.",
+      "keyTerms": [
+        { "term": "Microbiome", "definition": "The full community of microbes living in a specific environment, like your gut" },
+        { "term": "Commensal", "definition": "A microbe that lives with a host without harming it — often helping" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.pie.fill",
+        "imagePrompt": "A colorful pie chart of diverse bacterial species inside a stylized gut cross-section, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What they actually do for you",
+      "body": "Your gut microbes digest fibers your own enzymes can't touch, producing short-chain fatty acids that feed your intestinal cells. They synthesize vitamin K, several B vitamins, and chemicals that help regulate your mood. They also crowd out harmful invaders — simply by taking up the space and nutrients pathogens would need to gain a foothold.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "Stylized intestinal wall with bacteria breaking down plant fibers into molecules, vibrant diagram, annotated"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Change the microbes, change the body",
+      "body": "In 2013, researchers transplanted gut bacteria from obese humans into germ-free mice — and the mice gained fat. Bacteria from lean donors kept them lean. Fecal transplants are now a standard cure for stubborn C. difficile infections, with success rates above 90 percent. Your microbes aren't just passengers — they're co-drivers.",
+      "funFact": "About 70 percent of your immune cells live in the lining of your gut, in constant conversation with your microbes.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A scientist holding a test tube with glowing bacterial culture beside two contrasting mice silhouettes, lab setting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're never really alone",
+      "body": "The old idea of the body as a sterile machine is gone. You are a superorganism — a negotiation between your cells and trillions of partners you inherited at birth, picked up from food, and shaped with every meal. Taking care of you means taking care of them.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how many microbial cells does an average human body host?",
+      "options": ["3.8 billion", "38 billion", "38 trillion", "3.8 quadrillion"],
+      "correctIndex": 2,
+      "explanation": "Current estimates put the number near 38 trillion — roughly equal to the number of your own human cells."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT a known job of your gut microbiome?",
+      "options": [
+        "Producing certain vitamins",
+        "Training your immune system",
+        "Digesting dietary fiber",
+        "Pumping blood through arteries"
+      ],
+      "correctIndex": 3,
+      "explanation": "Blood circulation is the heart's job. The microbiome handles digestion, immunity, and vitamin synthesis."
+    },
+    {
+      "index": 2,
+      "question": "Fecal microbiota transplants are most famously used to treat what?",
+      "options": [
+        "High cholesterol",
+        "Recurrent C. difficile infections",
+        "Type 1 diabetes",
+        "Seasonal allergies"
+      ],
+      "correctIndex": 1,
+      "explanation": "FMT restores a healthy gut community and clears stubborn C. difficile infections in over 90 percent of cases."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Revised Estimates for the Number of Human and Bacteria Cells in the Body",
+      "publisher": "PLOS Biology",
+      "year": 2016
+    },
+    {
+      "title": "Gut microbiota from twins discordant for obesity modulate metabolism in mice",
+      "publisher": "Science",
+      "year": 2013
+    }
+  ],
+
+  "related": ["penicillin-discovery", "bacteriophages", "what-is-a-virus"]
+}

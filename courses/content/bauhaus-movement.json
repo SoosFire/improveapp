@@ -1,0 +1,141 @@
+{
+  "id": "bauhaus-movement",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Bauhaus: When Design Got Serious",
+    "teaser": "A tiny German school lasted just 14 years — and reshaped everything from your chair to your phone.",
+    "category": "Architecture",
+    "subcategories": ["Modernism", "Design History"],
+    "tags": ["bauhaus", "modernism", "design", "germany", "gropius"],
+    "emoji": "🏗️",
+    "accentColor": "#D94F3A",
+    "coverSymbol": {
+      "sfSymbol": "square.grid.3x3.fill",
+      "fallbackEmoji": "🏛️"
+    },
+    "coverImagePrompt": "The iconic Bauhaus Dessau building with its gridded glass curtain wall glowing at blue hour, primary color red, yellow, blue accents subtly visible, cinematic architectural photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A school that redesigned the world",
+      "body": "It opened in 1919 in Weimar, Germany, with no exams, no traditional classes, and no separation between art and craft. It was shut down by the Nazis in 1933. In between, the Bauhaus produced the chairs you sit on, the fonts on your phone, and the glass-and-steel buildings of every modern city. Fourteen years. Enormous footprint.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "Vintage black-and-white photo of the Bauhaus building in Dessau, 1926, sharp geometric lines"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Form follows function",
+      "body": "Founder Walter Gropius believed the industrial age demanded a new kind of artist — one who could design a teapot with the rigor of an architect. 'Art and technology: a new unity,' he declared. Bauhaus designers stripped away ornament and asked a radical question: what does this object need to do, and what's the simplest shape that does it? Everything else was clutter.",
+      "keyTerms": [
+        { "term": "Walter Gropius", "definition": "Architect who founded the Bauhaus in 1919" },
+        { "term": "Gesamtkunstwerk", "definition": "'Total work of art' — the Bauhaus ideal that design unifies all disciplines" }
+      ],
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "Still life of a Bauhaus-style teapot: cylindrical glass body, circle handle, stark geometric form on white background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The famous faculty",
+      "body": "The Bauhaus somehow gathered nearly every giant of 20th-century design onto one payroll. Paul Klee and Wassily Kandinsky taught painting. László Moholy-Nagy ran the metal workshop. Marcel Breuer invented the tubular-steel chair as a student there in 1925. Marianne Brandt designed a ball-shaped teapot that now lives in MoMA. No school before or since has concentrated so much talent for so little time.",
+      "funFact": "Students were required to complete a six-month 'preliminary course' in color theory and materials before they could choose a specialty — the origin of modern design school foundations.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Group portrait of Bauhaus masters on a rooftop in 1926, austere suits, geometric shadows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Shut down — and scattered",
+      "body": "The Nazis called the Bauhaus 'cosmopolitan' and 'degenerate.' They forced it from Weimar to Dessau to Berlin, then closed it in 1933. But the closure accidentally spread the movement globally. Gropius and Breuer went to Harvard. Mies van der Rohe went to Chicago. Moholy-Nagy founded a new school there too. What Germany expelled, America and the world absorbed.",
+      "visual": {
+        "sfSymbol": "airplane",
+        "imagePrompt": "Stylized world map showing arrows from Germany to the US, UK, and Israel, marked with Bauhaus symbols"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why your phone looks like it does",
+      "body": "Flat surfaces. Sans-serif fonts. Grids. Primary color accents. No ornament unless it serves a purpose. The design language of Apple, IKEA, and almost every modern office building traces straight back to a tiny art school in interwar Germany. When people say something looks 'modern,' they usually mean it looks Bauhaus.",
+      "visual": {
+        "sfSymbol": "rectangle.grid.2x2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who founded the Bauhaus?",
+      "options": [
+        "Le Corbusier",
+        "Walter Gropius",
+        "Frank Lloyd Wright",
+        "Mies van der Rohe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Architect Walter Gropius founded the Bauhaus in Weimar in 1919."
+    },
+    {
+      "index": 1,
+      "question": "Why did the Bauhaus close in 1933?",
+      "options": [
+        "It ran out of money",
+        "Its founder died",
+        "The Nazis forced it to shut down",
+        "Students lost interest"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Nazi regime labeled the Bauhaus 'degenerate' and pressured it to close, scattering its faculty worldwide."
+    },
+    {
+      "index": 2,
+      "question": "What was Marcel Breuer's famous 1925 student design?",
+      "options": [
+        "The Barcelona Chair",
+        "The tubular-steel chair",
+        "The Eames lounge chair",
+        "The bean bag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Breuer, inspired by bicycle handlebars, invented the tubular-steel chair while a student at the Bauhaus."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Bauhaus 1919–1933: Workshops for Modernity",
+      "publisher": "Barry Bergdoll & Leah Dickerman, MoMA",
+      "year": 2009
+    },
+    {
+      "title": "The Story of the Bauhaus",
+      "publisher": "Frances Ambler, Ilex Press",
+      "year": 2018
+    }
+  ],
+
+  "related": ["why-gothic-cathedrals-tall", "modernism-art", "industrial-design-history"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "anxiety-vs-fear",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Anxiety vs. Fear",
+    "teaser": "They feel identical in your chest — but your brain treats them as two completely different problems.",
+    "category": "Mental Health",
+    "subcategories": ["Emotions", "Neuroscience"],
+    "tags": ["anxiety", "fear", "emotions", "psychology", "brain"],
+    "emoji": "🌀",
+    "accentColor": "#7B6CA8",
+    "coverSymbol": {
+      "sfSymbol": "cloud.bolt.rain.fill",
+      "fallbackEmoji": "🌀"
+    },
+    "coverImagePrompt": "A person split in two mirrored halves — one facing a charging bear with sharp focus, the other staring at a blurry fog of question marks — cinematic, symbolic, moody blue-orange lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Same feeling, different beast",
+      "body": "Imagine your heart pounding as a bear charges you in the woods. Now imagine your heart pounding at 3 a.m. as you lie awake worrying about a meeting next Tuesday. The body feels almost identical. But neurologically? Those are two very different animals.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "A person lying awake in bed, moonlight through blinds, clock reading 3:17 AM, tense expression"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Fear has an address",
+      "body": "Fear is a response to something real and present. The bear. The turbulence. The speeding car. It's short, sharp, and ends when the threat ends. Anxiety is fear's abstract cousin — it's about what might happen. No bear in the room, just a forecast of possible bears. That's the crucial difference: fear has a target. Anxiety has a probability cloud.",
+      "keyTerms": [
+        { "term": "Fear", "definition": "An emotional response to a specific, present threat" },
+        { "term": "Anxiety", "definition": "A response to an anticipated, uncertain threat" }
+      ],
+      "visual": {
+        "sfSymbol": "scope",
+        "imagePrompt": "Split image: left side shows a crosshair locked on a clear target; right side shows a crosshair drifting through fog"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two circuits, two chemistries",
+      "body": "Fear lights up the amygdala and triggers a fast dump of adrenaline. You act, it resolves, the system resets within minutes. Anxiety recruits a different cast — the bed nucleus of the stria terminalis (BNST) — which keeps the stress system simmering for hours or days. It's why one real scare leaves you shaky for ten minutes, but a vague worry can ruin a whole week.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "Two overlapping heart rate graphs: one sharp spike and return (fear), one low sustained wave (anxiety)"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The lab proof",
+      "body": "In studies by neuroscientist Michael Davis, rats exposed to a brief predictable shock showed classic fear responses — quick startle, then recovery. Rats placed in an unpredictable environment where a shock might come showed prolonged anxiety-like behavior, with the BNST lit up instead of the amygdala. Damage the BNST and anxiety drops; damage the amygdala and fear drops. Two systems, two off-switches.",
+      "funFact": "The BNST is sometimes nicknamed the 'extended amygdala' — it was hiding in plain sight for decades before researchers realized it had its own job.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "Neuroscience lab setup with brain scan displays showing two distinct activation patterns"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why this actually helps",
+      "body": "If you're feeling anxious, fighting it like a bear rarely works — there's no bear. Naming it ('this is anxiety, not fear') helps the prefrontal cortex step in. Anxiety responds better to curiosity, exposure, and concrete next actions than to brute force. Knowing which animal is in the room is half the battle.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the core difference between fear and anxiety?",
+      "options": [
+        "Fear is stronger than anxiety",
+        "Fear targets a present threat; anxiety targets an uncertain future one",
+        "Anxiety happens only in adults",
+        "Fear is irrational; anxiety is rational"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fear has a specific present target. Anxiety is about anticipated, uncertain threats."
+    },
+    {
+      "index": 1,
+      "question": "Which brain region is most associated with sustained anxiety?",
+      "options": [
+        "The amygdala",
+        "The hippocampus",
+        "The bed nucleus of the stria terminalis (BNST)",
+        "The cerebellum"
+      ],
+      "correctIndex": 2,
+      "explanation": "The BNST — the 'extended amygdala' — keeps the stress response simmering when threats are vague."
+    },
+    {
+      "index": 2,
+      "question": "Which typically lasts longer?",
+      "options": [
+        "A fear response",
+        "An anxiety response",
+        "They last identically",
+        "Neither lasts more than seconds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fear resolves quickly once the threat is gone. Anxiety can simmer for hours or days."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Are Different Parts of the Extended Amygdala Involved in Fear versus Anxiety?",
+      "publisher": "Michael Davis et al., Biological Psychiatry",
+      "year": 1998
+    },
+    {
+      "title": "Anxious: Using the Brain to Understand and Treat Fear and Anxiety",
+      "publisher": "Joseph LeDoux, Viking",
+      "year": 2015
+    }
+  ],
+
+  "related": ["fight-flight-freeze", "cognitive-behavioral-therapy", "panic-attacks"]
+}

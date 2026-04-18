@@ -1,0 +1,142 @@
+{
+  "id": "leaves-change-color",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Leaves Change Color",
+    "teaser": "Those fiery reds and golds aren't painted on in fall — they were hiding in the leaf all summer.",
+    "category": "Nature",
+    "subcategories": ["Botany", "Seasons"],
+    "tags": ["autumn", "leaves", "chlorophyll", "biology", "trees"],
+    "emoji": "🍁",
+    "accentColor": "#D96C2C",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🍂"
+    },
+    "coverImagePrompt": "A single translucent maple leaf held up to autumn sunlight, veins glowing crimson and amber, shallow depth of field, cinematic warmth"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The paint was there all along",
+      "body": "Every autumn, forests put on a show that we pay to fly across the country to see. But here's the twist: trees don't turn yellow. They stop being green. Those gold and orange pigments have been inside every leaf since spring — just hidden behind something louder.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A single maple leaf morphing from green to gold to red in a time-lapse sequence against a soft gray backdrop"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Chlorophyll, the green tyrant",
+      "body": "Leaves are factories that run on sunlight. Their main machinery is chlorophyll, a pigment that absorbs red and blue light and reflects green — which is why plants look green to us. Alongside chlorophyll, leaves also contain carotenoids (yellows and oranges) and sometimes anthocyanins (reds). But chlorophyll is so overwhelmingly abundant during the growing season that it drowns the others out.",
+      "keyTerms": [
+        { "term": "Chlorophyll", "definition": "The green pigment that captures sunlight to power photosynthesis" },
+        { "term": "Carotenoid", "definition": "Yellow and orange pigments that also help absorb light — the same family that makes carrots orange" },
+        { "term": "Anthocyanin", "definition": "Red and purple pigments produced late in the season, responsible for brilliant fall reds" }
+      ],
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Cross-section diagram of a leaf showing green chlorophyll cells above hidden yellow and orange pigments, educational illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The tree pulls the plug",
+      "body": "As nights grow longer and colder, a tree does something clever: it starts building a corky layer at the base of each leaf stem, slowly choking off the flow of water and nutrients. Chlorophyll, which is expensive to make, breaks down and isn't replaced. The green fades. What's left is what was there all along — the yellow carotenoids. Meanwhile, some species crank out brand-new red anthocyanins like chemical sunscreen for the closing days.",
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "Macro shot of a leaf stem with a subtle corky abscission layer forming, warm golden-hour lighting, scientific beauty"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Weather paints the palette",
+      "body": "Not every autumn is spectacular. The brightest displays need a specific recipe: sunny days to make sugars, cool (but not freezing) nights to trap them in the leaves, and moderate moisture. Drought dulls the show; early frost kills it outright. That's why New England and Japan, with their sharp autumns, are color capitals — and why a mild fall can leave forests looking muddy brown.",
+      "funFact": "Aspens in Colorado are actually a single genetic organism connected underground — so thousands of 'trees' in a grove all turn gold on exactly the same day.",
+      "visual": {
+        "sfSymbol": "cloud.sun.fill",
+        "imagePrompt": "A vast New England forest in peak autumn color seen from a hilltop, low morning mist, cinematic landscape"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The art of letting go",
+      "body": "Fall color isn't decay — it's choreography. The tree is carefully recycling nitrogen back into its trunk, shielding itself from cold, and shedding leaves deliberately so it can survive winter. What looks like dying is actually a masterclass in budget cuts. The forest isn't showing off. It's getting ready.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do leaves look green in summer?",
+      "options": [
+        "Because they only contain green pigments",
+        "Because chlorophyll absorbs red and blue light and reflects green",
+        "Because they are reflecting grass color",
+        "Because carotenoids haven't formed yet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chlorophyll absorbs red and blue wavelengths of sunlight and reflects green — that's the color our eyes pick up."
+    },
+    {
+      "index": 1,
+      "question": "Where do the yellow and orange autumn colors come from?",
+      "options": [
+        "The tree manufactures them in September",
+        "They were present all year, hidden behind chlorophyll",
+        "They come from the soil through the roots",
+        "They are produced by falling temperatures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carotenoids are in the leaf throughout the growing season — we only see them when chlorophyll breaks down."
+    },
+    {
+      "index": 2,
+      "question": "What weather pattern produces the brightest fall foliage?",
+      "options": [
+        "Hot, humid days and warm nights",
+        "Sunny days, cool nights, and moderate moisture",
+        "Constant rain and fog",
+        "Early hard frosts every night"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sunny days build sugars, cool (not freezing) nights trap them, and moderate moisture keeps leaves healthy long enough to glow."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Autumn Leaves: A Guide to the Fall Colors of the Northwoods",
+      "publisher": "Kollath+Stensaas Publishing",
+      "year": 2006
+    },
+    {
+      "title": "Why leaves turn red in autumn: The role of anthocyanins in senescing leaves of red-osier dogwood",
+      "publisher": "Plant Physiology",
+      "year": 2001
+    }
+  ],
+
+  "related": ["photosynthesis-basics", "deciduous-vs-evergreen", "aspen-clonal-colonies"]
+}

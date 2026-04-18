@@ -1,0 +1,141 @@
+{
+  "id": "separation-of-powers",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Separation of Powers",
+    "teaser": "One room full of people making, enforcing, and judging the same laws is called a dictatorship. Here's why democracies split the job into three.",
+    "category": "Political Science",
+    "subcategories": ["Constitutional Theory", "Governance"],
+    "tags": ["government", "constitution", "democracy", "checks-and-balances", "Montesquieu"],
+    "emoji": "🏛️",
+    "accentColor": "#4A6FA5",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🏛️"
+    },
+    "coverImagePrompt": "Three marble columns of a classical building lit from below at dusk, each subtly different in height and shadow, cinematic architectural photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An old problem with a simple answer",
+      "body": "Every ruler in history has faced the same temptation: once you have the power to make a law, the power to enforce it, and the power to decide what it means, there's not much stopping you from becoming the law itself. The separation of powers was an attempt to break that combination on purpose.",
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A single golden crown dissolving into three fragments, dramatic lighting, symbolic illustration"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The three branches",
+      "body": "Most modern democracies split government into three functions. The legislature makes the laws. The executive carries them out. The judiciary interprets them and resolves disputes. Each branch has its own personnel, its own source of authority, and — in theory — the ability to block or check the other two. The idea isn't that government becomes weaker. It's that no single part becomes too strong.",
+      "keyTerms": [
+        { "term": "Legislature", "definition": "The branch that drafts and passes laws (e.g., Congress, Parliament)" },
+        { "term": "Judiciary", "definition": "The branch that interprets laws and resolves legal disputes" }
+      ],
+      "visual": {
+        "sfSymbol": "square.3.layers.3d",
+        "imagePrompt": "A clean infographic showing three interlocking gears labeled Legislature, Executive, and Judiciary"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Montesquieu's argument",
+      "body": "The canonical version of the idea comes from Baron de Montesquieu's 1748 book 'The Spirit of the Laws.' Liberty, he argued, dies the moment any single body holds more than one of these powers. Put lawmaking and enforcement together, and the ruler writes rules only for their enemies. Put judging and enforcement together, and the accuser is also the judge. The framers of the US Constitution read Montesquieu carefully — which is why Articles I, II, and III are structured the way they are.",
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "An old leather-bound copy of 'The Spirit of the Laws' open on a wooden desk, candlelight"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Checks and balances in action",
+      "body": "The separation only works when the branches actively restrain each other. In the US, Congress passes a bill, the President can veto it, and a two-thirds congressional vote can override the veto. The Supreme Court can strike down a law as unconstitutional. The legislature can impeach presidents and judges. In parliamentary systems like the UK, the executive emerges from the legislature — so the separation is weaker there, and the judiciary and media carry more of the load. When checks collapse — as in many 20th-century regimes — one branch swallows the others within a few years.",
+      "funFact": "Under the US Constitution's original design, a single senator can block virtually any legislation using the filibuster. Checks cut both ways — they also make action slow.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "Three hands meeting at a shared fulcrum, each pushing back against the others, conceptual illustration"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Slow, on purpose",
+      "body": "A three-branch government is deliberately clunky. That clunkiness is the feature. It's there to make concentrating power just annoying enough that would-be tyrants lose patience before citizens lose their rights. When you hear complaints that democracy is inefficient, remember: the alternative to inefficiency here is usually someone with a uniform telling you what to think.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which philosopher is most associated with articulating the separation of powers?",
+      "options": [
+        "John Locke",
+        "Baron de Montesquieu",
+        "Karl Marx",
+        "Plato"
+      ],
+      "correctIndex": 1,
+      "explanation": "Montesquieu's 1748 'The Spirit of the Laws' laid out the classic three-branch argument that shaped modern constitutions."
+    },
+    {
+      "index": 1,
+      "question": "Which branch interprets the law?",
+      "options": [
+        "The legislature",
+        "The executive",
+        "The judiciary",
+        "The military"
+      ],
+      "correctIndex": 2,
+      "explanation": "The judiciary is the branch responsible for interpreting laws and resolving legal disputes."
+    },
+    {
+      "index": 2,
+      "question": "Why is the US system sometimes criticized as slow?",
+      "options": [
+        "Judges move too quickly to rule",
+        "Checks and balances require multiple branches to agree or defer",
+        "Voters never get a say",
+        "The legislature rarely meets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Every branch can block or delay another — that's deliberate friction to prevent any one branch from dominating."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Spirit of the Laws",
+      "publisher": "Cambridge University Press (reissue)",
+      "year": 1989
+    },
+    {
+      "title": "The Federalist Papers, No. 47 & 51",
+      "publisher": "Public domain / various editions",
+      "year": 1788
+    }
+  ],
+
+  "related": ["checks-and-balances", "constitutional-design", "federalism"]
+}

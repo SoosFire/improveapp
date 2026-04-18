@@ -1,0 +1,145 @@
+{
+  "id": "why-skyscrapers-sway",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Skyscrapers Sway on Purpose",
+    "teaser": "The top of the Burj Khalifa can drift almost 2 meters in the wind. That's not a bug — that's the design.",
+    "category": "Engineering",
+    "subcategories": ["Civil Engineering", "Architecture"],
+    "tags": ["skyscrapers", "structural-engineering", "wind", "damping", "buildings"],
+    "emoji": "🏙️",
+    "accentColor": "#475569",
+    "coverSymbol": {
+      "sfSymbol": "building.2.fill",
+      "fallbackEmoji": "🏙️"
+    },
+    "coverImagePrompt": "A towering skyscraper under dramatic storm clouds, its tip visibly leaning with the wind, city lights glowing below, cinematic low angle, moody weather"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The floor is moving",
+      "body": "On a windy day in Dubai, someone on the 150th floor of the Burj Khalifa might see the chandelier swing gently in the lobby — because the tower itself is drifting nearly two meters sideways. That's a third of a school bus. And it's completely, deliberately fine. If the building couldn't sway, it would snap.",
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "A slow-motion shot of a chandelier swinging inside a skyscraper's penthouse, rain whipping against the windows"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Rigid things break",
+      "body": "A material's worst enemy isn't weight — it's brittleness. A steel beam bent a little and allowed to return is happy forever. The same beam forced to stay perfectly still while pressure builds will eventually crack. Engineers embrace flexibility. A skyscraper is less like a pillar and more like a very, very stiff blade of grass.",
+      "keyTerms": [
+        { "term": "Elastic deformation", "definition": "Bending that fully reverses when the load is removed" },
+        { "term": "Brittle failure", "definition": "Sudden cracking when a rigid material can't absorb stress" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A single tall blade of grass bending dramatically in wind, a skyscraper silhouette overlaid with the same arc"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The trouble with wind",
+      "body": "Wind doesn't just push a building — it creates swirling vortices behind it, tugging it side-to-side in a pattern called vortex shedding. If those tugs sync with the building's natural rhythm, the oscillations grow. To kill the resonance, engineers install tuned mass dampers: enormous pendulums, some weighing over 600 tons, that swing in the opposite direction to cancel the motion. Taipei 101's damper is a polished steel sphere visible to tourists.",
+      "keyTerms": [
+        { "term": "Vortex shedding", "definition": "Alternating air swirls behind a building that create side-to-side forces" },
+        { "term": "Tuned mass damper", "definition": "A huge weight that swings to counteract a building's sway" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.and.right.circle.fill",
+        "imagePrompt": "The iconic golden damper sphere inside Taipei 101, seen from below, swaying slowly against a glass-and-steel backdrop"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The Citicorp near-disaster",
+      "body": "In 1978, a student asked Manhattan architect William LeMessurier a question that ruined his year: what happens to the new Citicorp tower in a quartering wind? Running the numbers, he realized his 59-story building could topple in a storm strong enough to hit New York once every 16 years. Welders secretly reinforced the joints at night, floor by floor, while a hurricane crept up the coast. The city never knew until decades later.",
+      "funFact": "The repair crew worked through the night and left before office workers arrived. Residents below had no idea their building was being saved in real time.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A nighttime view of a Manhattan skyscraper with sparks of welding flashing on upper floors, helicopter shot"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Flexibility is strength",
+      "body": "A skyscraper that never moves is a skyscraper on borrowed time. The ability to give, absorb, and return is what lets steel and glass survive a century of storms. It's counterintuitive — but then, so is grass outlasting granite.",
+      "visual": {
+        "sfSymbol": "arrow.up.and.down.and.arrow.left.and.right",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do engineers want skyscrapers to sway?",
+      "options": [
+        "To impress tourists",
+        "Because rigid structures are prone to brittle failure",
+        "To save construction costs",
+        "Because sway reduces the building's weight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flex allows stress to dissipate. A truly rigid building would concentrate forces until something cracked."
+    },
+    {
+      "index": 1,
+      "question": "What is a tuned mass damper?",
+      "options": [
+        "A fire suppression system",
+        "A pump that circulates water to cool upper floors",
+        "A massive weight that swings to counteract a building's motion",
+        "A foundation reinforcement technique"
+      ],
+      "correctIndex": 2,
+      "explanation": "The damper acts like a pendulum, swinging opposite to the sway and canceling it out."
+    },
+    {
+      "index": 2,
+      "question": "What phenomenon causes side-to-side tugging on a tall building in wind?",
+      "options": [
+        "Coriolis effect",
+        "Vortex shedding",
+        "Bernoulli pressure",
+        "Thermal convection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alternating air vortices peel off each side of the structure, creating rhythmic lateral forces."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tall Buildings and the Effects of Wind",
+      "publisher": "Council on Tall Buildings and Urban Habitat",
+      "year": 2015
+    },
+    {
+      "title": "The Fifty-Nine-Story Crisis",
+      "publisher": "The New Yorker",
+      "year": 1995
+    }
+  ],
+
+  "related": ["tacoma-narrows-bridge", "resonance-in-structures", "wind-engineering"]
+}

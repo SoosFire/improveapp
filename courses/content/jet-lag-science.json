@@ -1,0 +1,141 @@
+{
+  "id": "jet-lag-science",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Jet Lag Is Real",
+    "teaser": "Your body isn't just tired — it's genuinely convinced it's 4 a.m. in another country.",
+    "category": "Travel",
+    "subcategories": ["Health", "Biology"],
+    "tags": ["jet-lag", "circadian", "sleep", "travel", "biology"],
+    "emoji": "🛬",
+    "accentColor": "#6A8CAF",
+    "coverSymbol": {
+      "sfSymbol": "airplane",
+      "fallbackEmoji": "✈️"
+    },
+    "coverImagePrompt": "A solitary traveler staring out a floor-to-ceiling airport window at dawn, planes taxiing under orange-pink sky, cinematic, melancholic, wide shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Your gut doesn't know the time zone",
+      "body": "You arrive in Tokyo at 9 a.m., step into blazing sunlight, and your body quietly insists it's 7 p.m. yesterday. You feel hungry at 2 a.m. You fall asleep in your ramen. Welcome to jet lag — one of the few everyday reminders that your body is a collection of clocks, and every one of them is stubborn.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A row of wall clocks showing different world times above an empty hotel check-in desk"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The master clock in your skull",
+      "body": "Deep in the hypothalamus sits a little cluster of about 20,000 neurons called the suprachiasmatic nucleus, or SCN. It runs a roughly 24-hour program based mostly on light hitting your eyes. It tells your body when to release melatonin, when to raise your temperature, when to be hungry. Jet lag is what happens when your SCN and your wristwatch disagree.",
+      "keyTerms": [
+        { "term": "Circadian rhythm", "definition": "An internal roughly 24-hour cycle that governs sleep, hormones, and metabolism" },
+        { "term": "SCN", "definition": "Suprachiasmatic nucleus — the brain's master clock, in the hypothalamus" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.filled.head.profile",
+        "imagePrompt": "A glowing cutaway illustration of the hypothalamus with the SCN highlighted, neon blue, clean medical style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why flying east is worse",
+      "body": "The SCN can shift about an hour a day, but it re-syncs faster when the day gets longer (flying west) than when it gets shorter (flying east). Your internal day is naturally a bit over 24 hours, so stretching is easier than compressing. That's why New York to Paris wrecks you more than Paris to New York — even though the flight is shorter.",
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right.circle.fill",
+        "imagePrompt": "A simple world map with two arrows looping over the Atlantic, one labeled 'easier' in green, the other 'harder' in red"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Light is the medicine",
+      "body": "A 2014 study in Neurobiology of Sleep and Circadian Rhythms found that properly timed bright light exposure could shift the SCN by up to two hours a day — far faster than natural adjustment. Melatonin supplements can help nudge the clock, but sunlight at the right window is more powerful. Get light in the morning to push east, avoid it to push west.",
+      "funFact": "Olympic athletes often arrive in host countries a full day per time zone crossed, specifically to let their SCN catch up before competing.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Warm morning sunlight cutting across a hotel room floor toward a half-made bed and open curtains"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Sync, don't suffer",
+      "body": "Jet lag isn't a personality flaw or a sign that you're getting old. It's a biological mismatch between 20,000 neurons and a time zone chart. The fix is blunt but real: sunlight at the destination's morning, dimmed screens at its night, and patience measured in days, not willpower. Your clocks will catch up — they just need the right cues.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which part of the brain is considered the body's master clock?",
+      "options": [
+        "Hippocampus",
+        "Amygdala",
+        "Suprachiasmatic nucleus",
+        "Cerebellum"
+      ],
+      "correctIndex": 2,
+      "explanation": "The suprachiasmatic nucleus (SCN) in the hypothalamus coordinates the body's circadian rhythm."
+    },
+    {
+      "index": 1,
+      "question": "Why is eastward travel usually worse for jet lag than westward?",
+      "options": [
+        "The flights are always longer",
+        "Cabin pressure is different on eastbound flights",
+        "The body finds shortening its day harder than lengthening it",
+        "There's less sunlight going east"
+      ],
+      "correctIndex": 2,
+      "explanation": "Your internal day runs slightly over 24 hours, so shortening it (eastward) is harder than stretching it (westward)."
+    },
+    {
+      "index": 2,
+      "question": "Which intervention most powerfully resets the SCN?",
+      "options": [
+        "Caffeine",
+        "Properly timed bright light",
+        "Ice baths",
+        "Eating high-protein meals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bright light at the right time can shift the SCN by up to two hours per day, outperforming most other cues."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Circadian misalignment and health",
+      "publisher": "Neurobiology of Sleep and Circadian Rhythms",
+      "year": 2014
+    },
+    {
+      "title": "Jet lag: trends and coping strategies",
+      "publisher": "The Lancet",
+      "year": 2007
+    }
+  ],
+
+  "related": ["circadian-rhythm", "melatonin-science", "sleep-debt"]
+}

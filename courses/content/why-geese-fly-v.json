@@ -1,0 +1,141 @@
+{
+  "id": "why-geese-fly-v",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Geese Fly in V Formation",
+    "teaser": "They're not just showing off — geese in a V can fly 70% farther than a single bird. Here's the physics behind it.",
+    "category": "Nature",
+    "subcategories": ["Animal Behavior", "Aerodynamics"],
+    "tags": ["birds", "migration", "flight", "physics", "biology"],
+    "emoji": "🦢",
+    "accentColor": "#6B8E4E",
+    "coverSymbol": {
+      "sfSymbol": "bird.fill",
+      "fallbackEmoji": "🪿"
+    },
+    "coverImagePrompt": "A perfect V of Canada geese silhouetted against a burning orange autumn sunset, wingtip vortices just barely visible as swirls of disturbed air, cinematic wide shot with telephoto compression"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The sky's oldest arrow",
+      "body": "Every autumn, thousands of miles above the ground, geese line up into those unmistakable V shapes and point themselves south. It's so iconic we barely question it. But evolution doesn't do decoration — every bird in that formation is there because the math works out. The V isn't aesthetic. It's engineering.",
+      "visual": {
+        "sfSymbol": "arrowshape.up.fill",
+        "imagePrompt": "Low-angle shot of a V formation of geese passing overhead at dusk, wings spread in sharp silhouette"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Wingtip vortices: the free elevator",
+      "body": "Whenever a wing generates lift, it leaves a spinning whirlpool of air trailing from each wingtip — a wingtip vortex. Air rushes downward directly behind the bird, but curls upward just off to the side. A trailing goose that positions itself in that upwash gets free lift, like standing on an invisible escalator.",
+      "keyTerms": [
+        { "term": "Wingtip vortex", "definition": "A spiraling column of air shed from the tip of a lifting wing" },
+        { "term": "Upwash", "definition": "The upward-moving air just outside a vortex, which other wings can ride" }
+      ],
+      "visual": {
+        "sfSymbol": "tornado",
+        "imagePrompt": "Fluid dynamics visualization of a bird wing with colored vortex trails curling off the tips, scientific illustration style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why a V, not a line",
+      "body": "If every bird just wants to sit in the next bird's upwash, you'd expect a staircase. That's exactly what a V is — a diagonal staircase seen from above. Each goose positions slightly behind and to the side of the one ahead, catching the rising air off its neighbor's wingtip. Heart-rate studies show trailing geese beat their wings less often and glide more. The lead bird has no one to ride, so flocks rotate the front position as it tires.",
+      "visual": {
+        "sfSymbol": "chevron.up",
+        "imagePrompt": "Overhead diagram of a V formation with annotated airflow arrows showing how each bird benefits from the vortex of the one ahead"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Ibises with heart monitors",
+      "body": "In 2014, researchers strapped tiny GPS and accelerometer loggers onto a flock of northern bald ibises being trained to migrate. The data was startling: the birds timed their wingbeats to catch upwash with millisecond precision, and flipped their timing when flying directly behind another bird to avoid the downwash. Energy savings for trailing birds reached an estimated 20–30%.",
+      "funFact": "The ibises weren't born knowing this — they figured out the optimal spacing within their first real migration, suggesting geese do too.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A northern bald ibis in flight with a small GPS logger visible on its back, close-up action shot"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A flock is a machine",
+      "body": "Thought of individually, a goose is just a goose. Thought of as a flock, it's a self-assembling aerodynamic structure that lets heavy birds cross continents on a diet of pond grass. Next time a V passes overhead, remember: you're watching physics that engineers are still trying to copy for passenger jets.",
+      "visual": {
+        "sfSymbol": "airplane",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What aerodynamic feature do trailing geese exploit?",
+      "options": [
+        "Downwash behind the lead bird",
+        "Upwash from the lead bird's wingtip vortex",
+        "Thermal columns of rising warm air",
+        "Reduced air density at altitude"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wingtip vortices create upward-moving air just outside each wingtip — trailing birds position themselves to ride it."
+    },
+    {
+      "index": 1,
+      "question": "Why do flocks rotate the lead position?",
+      "options": [
+        "To let every bird navigate",
+        "Because only the lead bird sees predators",
+        "The lead bird gets no drafting benefit and tires first",
+        "It's a social ritual unrelated to flight"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lead has nobody's vortex to ride, so it does the most work and is swapped out regularly."
+    },
+    {
+      "index": 2,
+      "question": "What did the 2014 ibis study find about wingbeat timing?",
+      "options": [
+        "Birds flapped randomly with no coordination",
+        "Trailing birds timed beats to catch upwash with high precision",
+        "Birds shared lift only during takeoff",
+        "Formation flight offered no measurable benefit"
+      ],
+      "correctIndex": 1,
+      "explanation": "GPS loggers revealed millisecond-scale timing to ride upwash, and inverted timing to avoid downwash directly behind."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Upwash exploitation and downwash avoidance by flap phasing in ibis formation flight",
+      "publisher": "Nature",
+      "year": 2014
+    },
+    {
+      "title": "Energy saving in flight formation",
+      "publisher": "Nature",
+      "year": 2001
+    }
+  ],
+
+  "related": ["bird-migration", "wingtip-vortex", "thermal-soaring"]
+}

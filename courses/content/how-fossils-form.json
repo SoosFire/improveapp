@@ -1,0 +1,136 @@
+{
+  "id": "how-fossils-form",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Fossils Actually Form",
+    "teaser": "Almost everything that's ever lived has vanished without a trace. Fossils are the lucky few — and even those are mostly rock, not bone.",
+    "category": "Paleontology",
+    "subcategories": ["Geology", "Fossilization"],
+    "tags": ["fossils", "geology", "paleontology", "sediment", "time"],
+    "emoji": "🦴",
+    "accentColor": "#A87D50",
+    "coverSymbol": {
+      "sfSymbol": "fossil",
+      "fallbackEmoji": "🦴"
+    },
+    "coverImagePrompt": "A cracked slab of sandstone split open on a desert floor revealing a perfectly preserved ammonite spiral, golden-hour light, cinematic field photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The lottery of preservation",
+      "body": "Paleontologists estimate that fewer than one in a million animals ever becomes a fossil. The rest are eaten, weathered, scattered, or decomposed to nothing. Every fossil you've seen in a museum is a winner of a very long, very cold lottery.",
+      "visual": {
+        "sfSymbol": "die.face.5.fill",
+        "imagePrompt": "A vast open riverbank scattered with countless tiny white bone fragments disappearing into mud, only one intact skeleton visible, wide cinematic shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Step one: rapid burial",
+      "body": "Fossilization almost always starts with a lucky burial. An animal dies in just the right place — the silt of a river delta, a volcanic ash fall, a tar pit, a beach under a storm. Sediment covers the body fast enough that scavengers, oxygen, and weather can't finish it off.",
+      "keyTerms": [
+        { "term": "Sediment", "definition": "Loose particles of mud, sand, or ash that settle and accumulate in layers" },
+        { "term": "Taphonomy", "definition": "The study of what happens to an organism between death and fossilization" }
+      ],
+      "visual": {
+        "sfSymbol": "layers.fill",
+        "imagePrompt": "Cross-section diagram of a dinosaur carcass buried under river sediment layers, labeled stages of burial, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Step two: stone by stone",
+      "body": "Once buried, soft tissues usually rot away, leaving bones, teeth, or shells. Over thousands of years, groundwater loaded with minerals — silica, calcite, pyrite — seeps into the tiny pores in the bone. Molecule by molecule, the original material is replaced by rock in a process called permineralization. What you hold in your hand isn't really bone anymore. It's a stone copy, down to the cell shape.",
+      "visual": {
+        "sfSymbol": "drop.halffull",
+        "imagePrompt": "Microscopic view of mineral-rich groundwater infiltrating bone cell structures, glowing crystals forming inside pores, technical illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Not just bones",
+      "body": "Fossils can preserve a surprising amount. Trackways record the gait of animals dead 200 million years. Coprolites — fossilized dung — reveal diet. In Liaoning, China, volcanic ash has preserved dinosaur feathers, skin pigments, and even stomach contents. In rare cases, researchers have extracted protein fragments from 80-million-year-old bones.",
+      "funFact": "The colour of some dinosaur feathers has been reconstructed by finding fossilized melanosomes — the same pigment structures that give modern birds their hues.",
+      "visual": {
+        "sfSymbol": "pawprint.fill",
+        "imagePrompt": "A fossilized dinosaur footprint in cracked red-brown mudstone beside a modern human boot for scale, warm desert lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A filtered window",
+      "body": "The fossil record is beautiful but biased. Hard-shelled marine creatures turn up often; soft-bodied forest dwellers almost never. When you stare at a museum dinosaur, remember you're seeing the rare survivors of an immense, almost-silent biography of life on Earth.",
+      "visual": {
+        "sfSymbol": "rectangle.split.3x1.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what fraction of ancient animals ever become fossils?",
+      "options": ["Most of them", "About 1 in 10", "About 1 in 10,000", "Fewer than 1 in a million"],
+      "correctIndex": 3,
+      "explanation": "Fossilization requires such a specific sequence of events that fewer than one in a million creatures ever leaves a trace."
+    },
+    {
+      "index": 1,
+      "question": "Why is rapid burial so important for fossilization?",
+      "options": [
+        "It keeps the body cold",
+        "It shields the body from scavengers, oxygen, and weathering",
+        "It forces the tissue to petrify immediately",
+        "It compresses the bones into rock"
+      ],
+      "correctIndex": 1,
+      "explanation": "Burial protects the remains long enough for the slow chemistry of mineralization to take over."
+    },
+    {
+      "index": 2,
+      "question": "In permineralization, what happens to the original bone?",
+      "options": [
+        "It stays chemically unchanged",
+        "It's slowly replaced by minerals in a stone copy",
+        "It shrinks to half its size",
+        "It burns into ash"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mineral-laden water fills the pores and replaces organic material, producing a rock replica with fine detail preserved."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Taphonomy: A Process Approach",
+      "publisher": "Cambridge University Press",
+      "year": 1996
+    },
+    {
+      "title": "Reconstruction of the original melanin colors in a 300-million-year-old pigmented soft tissue",
+      "publisher": "Nature Communications",
+      "year": 2014
+    }
+  ],
+
+  "related": ["life-in-amber", "feathered-dinosaurs", "permian-extinction"]
+}

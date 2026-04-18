@@ -1,0 +1,140 @@
+{
+  "id": "zeigarnik-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Zeigarnik Effect",
+    "teaser": "Your brain is haunted by the things you started and didn't finish. A Russian psychologist discovered why — in a Vienna café in 1927.",
+    "category": "Psychology",
+    "subcategories": ["Memory", "Motivation"],
+    "tags": ["memory", "zeigarnik", "motivation", "focus", "productivity"],
+    "emoji": "✍️",
+    "accentColor": "#C2553E",
+    "coverSymbol": {
+      "sfSymbol": "bookmark.fill",
+      "fallbackEmoji": "📌"
+    },
+    "coverImagePrompt": "A 1920s Vienna café scene with a waiter balancing stacks of plates, a young woman with a notebook watching intently, warm sepia tones, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The waiter who forgot",
+      "body": "In 1927, Lithuanian psychologist Bluma Zeigarnik was sitting in a Vienna café with her mentor when she noticed something strange. The waiter could remember every unpaid order with uncanny accuracy — but the moment a bill was settled, he forgot it completely. She went back to her lab. What she found became one of the most quietly influential findings in psychology.",
+      "visual": {
+        "sfSymbol": "fork.knife",
+        "imagePrompt": "A 1920s Viennese waiter in a white apron holding a tray, his face lit by low warm lamplight, busy café behind him slightly blurred"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Unfinished = unforgettable",
+      "body": "Zeigarnik gave volunteers a series of simple tasks — puzzles, math problems, small crafts. She let them finish some and interrupted them mid-way through others. When she asked them later what they'd worked on, they remembered the interrupted tasks roughly twice as well as the completed ones. The mind, it seemed, holds open tabs.",
+      "keyTerms": [
+        { "term": "Zeigarnik effect", "definition": "The tendency to remember incomplete or interrupted tasks better than completed ones" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.stack.fill",
+        "imagePrompt": "A stack of browser-tab-like paper cards, some stamped 'DONE' and fading, others glowing red labeled 'OPEN,' conceptual flat illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Cognitive cliffhangers",
+      "body": "Your brain treats unfinished tasks as unresolved tension. A low-level process keeps them active, periodically nudging you — 'don't forget the email,' 'the laundry is still in the washer.' It's why cliffhangers work in TV, why you can't stop thinking about an argument you didn't end, and why simply writing down a task often frees your mind from it. The nagging isn't the memory; it's the incompleteness.",
+      "funFact": "A 2011 Florida State University study found that students who were interrupted on a puzzle performed worse on a reading comprehension task afterward — the unfinished puzzle was stealing processing power.",
+      "visual": {
+        "sfSymbol": "circle.dotted",
+        "imagePrompt": "A dotted-line circle floating in midair, half complete, with soft glow suggesting unresolved tension"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Hacking the effect",
+      "body": "Once you know the effect, you can use it on purpose. Writers deliberately stop mid-sentence to make it easier to start again the next day — Hemingway swore by it. Students who study in short interrupted bursts retain more than those who finish everything in a single sitting. And the simple act of writing tomorrow's first task on paper tonight has been shown in several studies to help people fall asleep faster, because the brain releases its grip on the open loop.",
+      "visual": {
+        "sfSymbol": "pencil.line",
+        "imagePrompt": "A handwritten journal page with a sentence cut off mid-word, a pen resting beside it, warm desk-lamp light on aged paper"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Close the loops, or use them",
+      "body": "Every open task is a quiet tax on attention. You can pay it by finishing the thing, externalizing it onto a list, or using it deliberately — stopping mid-momentum so tomorrow's you is pulled back in. The Zeigarnik effect isn't a flaw. It's a tether your mind uses to drag you toward completion. Decide what you want it tied to.",
+      "visual": {
+        "sfSymbol": "checkmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Bluma Zeigarnik notice about the Vienna waiter?",
+      "options": [
+        "He never made mistakes",
+        "He remembered unpaid orders perfectly but forgot them once paid",
+        "He had a photographic memory",
+        "He wrote everything down"
+      ],
+      "correctIndex": 1,
+      "explanation": "The waiter recalled open bills vividly but forgot them once they were settled — inspiring Zeigarnik's lab experiments."
+    },
+    {
+      "index": 1,
+      "question": "What is the Zeigarnik effect?",
+      "options": [
+        "We remember completed tasks better than unfinished ones",
+        "We remember interrupted or unfinished tasks better than completed ones",
+        "We forget tasks we dislike",
+        "We remember only emotional events"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zeigarnik showed that incomplete tasks are held more readily in memory than completed ones."
+    },
+    {
+      "index": 2,
+      "question": "Why does writing down tomorrow's tasks tonight help some people sleep?",
+      "options": [
+        "It physically tires the hand",
+        "It externalizes open loops so the brain stops holding them active",
+        "It increases melatonin",
+        "It creates anxiety that tires the mind"
+      ],
+      "correctIndex": 1,
+      "explanation": "Externalizing unfinished tasks releases the brain's grip on them — a direct application of the Zeigarnik effect."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "On Finished and Unfinished Tasks",
+      "publisher": "Psychologische Forschung",
+      "year": 1927
+    },
+    {
+      "title": "Consider It Done! Plan Making Can Eliminate the Cognitive Effects of Unfulfilled Goals",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 2011
+    }
+  ],
+
+  "related": ["why-we-procrastinate", "how-memories-form", "flow-state"]
+}

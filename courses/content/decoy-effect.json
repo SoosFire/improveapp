@@ -1,0 +1,141 @@
+{
+  "id": "decoy-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Decoy Effect",
+    "teaser": "Why does adding a worse option secretly make you buy the expensive one?",
+    "category": "Marketing",
+    "subcategories": ["Behavioral Economics", "Pricing Strategy"],
+    "tags": ["pricing", "psychology", "nudges", "choice-architecture", "consumer-behavior"],
+    "emoji": "🍿",
+    "accentColor": "#C2452D",
+    "coverSymbol": {
+      "sfSymbol": "popcorn.fill",
+      "fallbackEmoji": "🎟️"
+    },
+    "coverImagePrompt": "Three popcorn buckets lined up on a glossy cinema counter — tiny, absurdly large, and identical large — lit with warm neon marquee light, cinematic, moody shallow depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The strange middle option",
+      "body": "You're at the movies. Small popcorn is $3. Large is $7. You almost pick small — until you spot a medium for $6.50. Suddenly the large feels like a steal. You didn't need the medium, and you didn't buy it. But it just quietly changed your mind.",
+      "visual": {
+        "sfSymbol": "popcorn.fill",
+        "imagePrompt": "A cinema menu board with three popcorn sizes, the middle one highlighted by a spotlight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the decoy is doing",
+      "body": "A decoy is a third option that no one is really supposed to pick. Its job is to make one of the other two look obviously better by comparison. Behavioral economists call this 'asymmetric dominance' — a choice that's clearly worse than one option but not the other, shifting preference toward the one that dominates it.",
+      "keyTerms": [
+        { "term": "Decoy", "definition": "An option designed to be rejected so another option looks better" },
+        { "term": "Asymmetric dominance", "definition": "When one option beats the decoy on every dimension, but a rival option doesn't" }
+      ],
+      "visual": {
+        "sfSymbol": "square.3.layers.3d",
+        "imagePrompt": "Three overlapping price tags on a dark background, the middle one dimmed"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The Economist experiment",
+      "body": "In a now-famous study, Dan Ariely offered MIT students three subscriptions: Web-only for $59, Print-only for $125, and Print + Web for $125. Only 16% picked Print-only — but its presence pushed 84% of people toward the combo. Remove the useless middle option, and most switched back to the cheap web plan. The Economist pocketed the difference.",
+      "funFact": "The Print-only option was real — pulled straight from The Economist's actual subscription page at the time.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A vintage subscription card with three options, the middle one crossed out in red ink"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why our brains fall for it",
+      "body": "Humans are terrible at judging value in a vacuum. We don't know what a magazine 'should' cost — so we compare. A decoy gives our brain an easy reference point: 'Print for $125 vs. Print + Web for $125? Obviously the combo.' We feel smart for spotting the deal, even though the deal was engineered for us to find.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A silhouette of a head with glowing comparison scales inside, leaning toward one side"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Spot it in the wild",
+      "body": "Once you know the pattern, you see it everywhere: streaming tiers with a weirdly bad middle plan, coffee sizes where 'medium' barely exists, real estate agents showing you a fixer-upper before the 'perfect' home. The decoy isn't always villainous — but it's almost never there by accident.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the main job of a decoy option?",
+      "options": [
+        "To be the most popular choice",
+        "To make another option look clearly better",
+        "To cover manufacturing costs",
+        "To confuse shoppers into leaving"
+      ],
+      "correctIndex": 1,
+      "explanation": "A decoy isn't meant to be chosen — it exists to nudge you toward a specific 'better' option by comparison."
+    },
+    {
+      "index": 1,
+      "question": "In The Economist study, what happened when the Print-only option was removed?",
+      "options": [
+        "Sales stayed the same",
+        "More people chose Print + Web",
+        "Most people switched to the cheaper Web-only plan",
+        "Everyone canceled"
+      ],
+      "correctIndex": 2,
+      "explanation": "Without the decoy to make the combo look like a bargain, most students picked the cheapest option."
+    },
+    {
+      "index": 2,
+      "question": "What cognitive tendency makes the decoy effect work?",
+      "options": [
+        "We judge value by comparison, not absolutely",
+        "We always pick the cheapest option",
+        "We remember past prices perfectly",
+        "We trust our first instinct"
+      ],
+      "correctIndex": 0,
+      "explanation": "Humans struggle to judge value in isolation, so we lean on whatever reference points are nearby."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Predictably Irrational",
+      "publisher": "Dan Ariely, HarperCollins",
+      "year": 2008
+    },
+    {
+      "title": "Adding Asymmetrically Dominated Alternatives",
+      "publisher": "Journal of Consumer Research",
+      "year": 1982
+    }
+  ],
+
+  "related": ["ikea-effect", "anchoring-bias", "price-psychology"]
+}

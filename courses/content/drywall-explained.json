@@ -1,0 +1,136 @@
+{
+  "id": "drywall-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Every Modern Wall Is Drywall",
+    "teaser": "The wall behind you is basically compressed rock powder wrapped in paper. So why did this weird sandwich conquer home construction?",
+    "category": "Home & DIY",
+    "subcategories": ["Construction", "Materials"],
+    "tags": ["drywall", "construction", "gypsum", "home", "diy"],
+    "emoji": "🧱",
+    "accentColor": "#A8A8A8",
+    "coverSymbol": {
+      "sfSymbol": "hammer.fill",
+      "fallbackEmoji": "🧱"
+    },
+    "coverImagePrompt": "A partly constructed room interior with exposed wooden studs and half-installed drywall panels, soft natural light through a window, architectural photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A wall that's mostly rock",
+      "body": "Knock on a modern interior wall. That hollow thud is telling you something: you're not knocking on concrete, brick, or wood. You're knocking on compressed gypsum — a soft, chalky mineral — glued between two sheets of heavy paper. Billions of square feet of it. It's the defining material of the modern home, and almost nobody knows what it is.",
+      "visual": {
+        "sfSymbol": "hand.tap.fill",
+        "imagePrompt": "A person's hand gently knocking on a freshly painted white interior wall, subtle paint texture visible"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Rock wrapped in paper",
+      "body": "Drywall — also called gypsum board, plasterboard, or Sheetrock — is a panel roughly a half-inch thick. At its core is gypsum, a naturally occurring mineral (calcium sulfate dihydrate). The gypsum is crushed, mixed with water into a slurry, poured between two sheets of recycled paper, and baked until it sets. The result: a flat, stable, fireproof wall panel that anyone can install.",
+      "keyTerms": [
+        { "term": "Gypsum", "definition": "A soft mineral (CaSO₄·2H₂O) used as the core of drywall" },
+        { "term": "Calcination", "definition": "The heating step that turns raw gypsum into usable plaster" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.3.group.fill",
+        "imagePrompt": "Cross-section illustration of a drywall panel showing white gypsum core sandwiched between heavy paper layers"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The fireproofing accident",
+      "body": "Here's the trick almost no one knows: gypsum contains about 20 percent water, chemically bound inside its crystals. When a fire hits a drywall panel, that water releases as steam — slowly, over 30 to 60 minutes — absorbing massive heat in the process. Your wall is literally evaporating to save you. That's why modern building codes rely on drywall as a basic fire barrier.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A stylized flame near a drywall panel, steam escaping through tiny cracks, protective glow around the wall"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How it replaced plaster",
+      "body": "Before drywall, walls were lath-and-plaster — thin wood strips nailed to studs, then coated with wet plaster in three layers, taking weeks to dry. The U.S. Gypsum Company patented Sheetrock in 1916, but it only took off after World War II, when soldiers came home and America needed to build millions of houses fast. A drywall room goes up in a day. A plaster room took two weeks. The math was brutal.",
+      "funFact": "The average American home contains about 7 metric tons of drywall — roughly the weight of a small elephant.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "Side-by-side comparison: a craftsman troweling plaster in vintage sepia vs. modern workers hanging drywall panels"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What this means for DIY",
+      "body": "Drywall's secret is that it's idiot-proof — which is great for patching a doorknob hole in 20 minutes with a kit from any hardware store. But watch for its weaknesses: it dissolves in water, crumbles if over-tightened, and can't hold heavy objects without an anchor finding a stud. Respect the rock sandwich and it will respect you.",
+      "visual": {
+        "sfSymbol": "wrench.and.screwdriver.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the core material inside drywall?",
+      "options": ["Cement", "Gypsum", "Foam insulation", "Ground glass"],
+      "correctIndex": 1,
+      "explanation": "Drywall is gypsum — calcium sulfate dihydrate — pressed between sheets of paper."
+    },
+    {
+      "index": 1,
+      "question": "Why does drywall act as a fire barrier?",
+      "options": [
+        "Gypsum reflects heat like a mirror",
+        "The paper is flame-retardant",
+        "Gypsum contains chemically bound water that turns to steam, absorbing heat",
+        "It's coated in a special fireproof paint"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roughly 20 percent of gypsum's weight is bound water; it slowly vaporizes under heat, stealing energy from the fire."
+    },
+    {
+      "index": 2,
+      "question": "Why did drywall explode in popularity after WWII?",
+      "options": [
+        "It was the only material available",
+        "Returning soldiers needed homes built fast, and drywall was far quicker than plaster",
+        "It was cheaper than wood",
+        "New laws banned plaster"
+      ],
+      "correctIndex": 1,
+      "explanation": "The post-war housing boom demanded speed. Drywall rooms went up in a day versus weeks for plaster."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The History of Gypsum Board",
+      "publisher": "Gypsum Association",
+      "year": 2019
+    },
+    {
+      "title": "Fire Resistance of Gypsum Board: Physics of Dehydration",
+      "publisher": "National Research Council of Canada",
+      "year": 2010
+    }
+  ],
+
+  "related": ["companion-planting", "home-electrical-basics", "insulation-types"]
+}

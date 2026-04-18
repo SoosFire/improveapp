@@ -1,0 +1,131 @@
+{
+  "id": "object-permanence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "When Babies Realize You Still Exist",
+    "teaser": "Why does peekaboo blow a baby's mind? Because for months, they genuinely think you vanished.",
+    "category": "Parenting",
+    "subcategories": ["Child Development", "Psychology"],
+    "tags": ["babies", "piaget", "cognition", "development", "psychology"],
+    "emoji": "👶",
+    "accentColor": "#F2B5A0",
+    "coverSymbol": {
+      "sfSymbol": "figure.and.child.holdinghands",
+      "fallbackEmoji": "👶"
+    },
+    "coverImagePrompt": "A laughing baby playing peekaboo with a parent's hands, soft golden morning light through a nursery window, warm cinematic tones, shallow depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The magic trick that isn't",
+      "body": "Hide your face behind your hands. For the first months of a baby's life, you haven't just disappeared from view — you have genuinely, truly, cosmically ceased to exist. Peekaboo isn't a cute game. To a young infant, it's watching someone wink in and out of reality.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A parent's hands covering their smiling face in front of a wide-eyed baby, domestic warm light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What Piaget called 'object permanence'",
+      "body": "In the 1950s, Swiss psychologist Jean Piaget noticed something strange: if you hide a toy under a blanket while a baby is watching, a very young baby won't look for it. Out of sight, out of mind — literally. The skill of knowing that things still exist when you can't see them is called object permanence, and it's one of the first great cognitive leaps of human life.",
+      "keyTerms": [
+        { "term": "Object permanence", "definition": "Understanding that objects and people continue to exist even when out of sight" },
+        { "term": "Sensorimotor stage", "definition": "Piaget's first stage of development, from birth to about age 2" }
+      ],
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A plush toy half-covered by a soft blanket on a wooden floor, a baby's hand reaching but hesitant"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the brain builds a permanent world",
+      "body": "Between roughly 4 and 8 months, babies start tracking hidden objects — but only briefly, like a mental afterimage. By 8 to 12 months, they'll pull a blanket off a toy to retrieve it. By around 18 months, they can picture an object moving through space they can't see at all. Each step requires the prefrontal cortex to hold a mental model in working memory while the eyes and hands act on it.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A soft illustrated diagram of a baby's brain with glowing paths connecting the eyes to the frontal lobe, pastel watercolor style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The A-not-B error",
+      "body": "Piaget found a telling glitch. Hide a toy under cloth A several times; the baby finds it. Now, in plain view, hide it under cloth B. Babies under about 12 months will still reach for A. Their memory of the object exists — but it's bound to the old location, not the new one. Modern neuroscience links this error to an immature prefrontal cortex, the brain's 'don't just repeat what worked last time' circuit.",
+      "funFact": "The A-not-B error is so reliable it's been replicated in over 2,000 studies and even observed in juvenile monkeys and corvids.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Two small colorful cloths on a table with a toy car peeking under one, overhead studio lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why peekaboo feels like magic",
+      "body": "When a baby finally giggles at peekaboo, they're not laughing because you disappeared. They're laughing because they predicted you'd come back — and you did. Peekaboo is the baby's first scientific experiment: a hypothesis confirmed, over and over, until the world becomes a place you can trust to stay put.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which psychologist is most associated with the concept of object permanence?",
+      "options": ["Sigmund Freud", "Jean Piaget", "B.F. Skinner", "Lev Vygotsky"],
+      "correctIndex": 1,
+      "explanation": "Jean Piaget identified object permanence as a key milestone of his sensorimotor stage of development."
+    },
+    {
+      "index": 1,
+      "question": "In the A-not-B error, where does a young baby reach for a hidden toy?",
+      "options": [
+        "The new hiding place they just saw",
+        "Neither place",
+        "The old hiding place where the toy was previously found",
+        "They refuse to reach at all"
+      ],
+      "correctIndex": 2,
+      "explanation": "Babies under about a year old reach for the original location, revealing that their prefrontal control is still developing."
+    },
+    {
+      "index": 2,
+      "question": "Roughly when do most babies start actively searching for a fully hidden object?",
+      "options": ["Around 2 months", "8–12 months", "18–24 months", "After age 2"],
+      "correctIndex": 1,
+      "explanation": "Most babies pull a blanket off a toy to retrieve it between 8 and 12 months of age."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Construction of Reality in the Child",
+      "publisher": "Jean Piaget, Basic Books",
+      "year": 1954
+    },
+    {
+      "title": "Development of the infant's object concept",
+      "publisher": "Annual Review of Psychology",
+      "year": 2004
+    }
+  ],
+
+  "related": ["theory-of-mind", "piaget-stages", "infant-memory"]
+}

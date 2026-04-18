@@ -1,0 +1,131 @@
+{
+  "id": "panama-canal-locks",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Panama Canal's Locks Work",
+    "teaser": "How do you lift a 100,000-ton ship 85 feet into the air — using nothing but water and gravity?",
+    "category": "Engineering",
+    "subcategories": ["Civil Engineering", "Hydraulics"],
+    "tags": ["canals", "locks", "gravity", "shipping", "panama"],
+    "emoji": "🚢",
+    "accentColor": "#1F6E8C",
+    "coverSymbol": {
+      "sfSymbol": "ferry.fill",
+      "fallbackEmoji": "🛳️"
+    },
+    "coverImagePrompt": "A colossal container ship wedged inside a narrow concrete lock chamber in Panama, steel gates closing behind it as turquoise water floods in, aerial cinematic view at golden hour"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A staircase for ships",
+      "body": "The Panama Canal isn't a flat ditch between two oceans. It's a staircase. Ships climb 85 feet up to a man-made lake in the middle of the country, then descend back down on the other side. And the only engine doing the lifting is gravity itself.",
+      "visual": {
+        "sfSymbol": "stairs",
+        "imagePrompt": "Cross-section illustration of the Panama Canal showing three locks stepping up to Gatun Lake and back down to the opposite ocean"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What a lock actually is",
+      "body": "A lock is a giant watertight box with gates at each end. A ship sails in, the gates close, and water is either let in or drained out — raising or lowering the ship with the water level. No pumps are needed for the lift itself. The water flows from higher ground, through culverts, and the ship simply floats up on it.",
+      "keyTerms": [
+        { "term": "Lock chamber", "definition": "The concrete basin that fills and drains to lift or lower a vessel" },
+        { "term": "Culvert", "definition": "A massive underground water channel that feeds a lock chamber" }
+      ],
+      "visual": {
+        "sfSymbol": "square.split.bottomrightquarter.fill",
+        "imagePrompt": "Cutaway diagram of a lock chamber with a ship inside, water flooding through side culverts"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why gravity is enough",
+      "body": "Gatun Lake sits 85 feet above sea level, held in place by the huge Gatun Dam. That elevated lake is essentially a giant reservoir of potential energy. Each time a lock fills, around 26 million gallons of freshwater flow downhill by gravity into the chamber. When the ship leaves, that water continues on to the sea. No pump could move that volume anywhere near as efficiently.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "Gatun Lake seen from above with arrows tracing water flowing downhill through three locks into the ocean"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Mules that aren't mules",
+      "body": "Ships don't motor through the locks under their own power — the clearance is too tight. Instead, small electric locomotives called 'mules' run on tracks along the canal walls, towing vessels with steel cables. The original mules, built in 1914, cost $13,000 each. Today's Panamax ships clear the chamber walls by as little as two feet on each side.",
+      "funFact": "A single transit uses about 52 million gallons of freshwater — equivalent to the daily drinking water for a mid-sized city.",
+      "visual": {
+        "sfSymbol": "tram.fill",
+        "imagePrompt": "Yellow electric mule locomotive on canal-side tracks, taut steel cable straining to guide an enormous container ship inside a lock"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An idea older than electricity",
+      "body": "Locks aren't new — Leonardo da Vinci sketched the mitered lock gate design in the 1490s, and Chinese engineers built pound locks on the Grand Canal as early as the 10th century. Panama's genius was doing it at impossible scale: moving mountains, damming a river, and then letting water do the rest. Sometimes the smartest engineering is the kind that lets nature do the work.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What actually lifts a ship in a lock?",
+      "options": ["Giant hydraulic pistons", "Electric pumps", "Water flowing in by gravity", "Compressed air"],
+      "correctIndex": 2,
+      "explanation": "The lock fills with water flowing downhill from Gatun Lake. The ship simply floats up with the rising water."
+    },
+    {
+      "index": 1,
+      "question": "Why don't ships motor through the locks under their own power?",
+      "options": [
+        "Panama bans engines in the canal",
+        "The chambers are too narrow for safe maneuvering",
+        "Their engines overheat at low speed",
+        "The water is too shallow for propellers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Panamax vessels have only a couple of feet of clearance on either side. Small electric 'mules' guide them through with cables."
+    },
+    {
+      "index": 2,
+      "question": "Where does the water used by the locks come from?",
+      "options": ["The Pacific Ocean", "Desalination plants", "Gatun Lake, a freshwater reservoir", "The Caribbean Sea"],
+      "correctIndex": 2,
+      "explanation": "Gatun Lake, created by damming the Chagres River, holds the water that feeds every lock transit — all of it fresh, not salt."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "How the Panama Canal Works",
+      "publisher": "Panama Canal Authority (ACP)",
+      "year": 2023
+    },
+    {
+      "title": "The Path Between the Seas",
+      "publisher": "Simon & Schuster (David McCullough)",
+      "year": 1977
+    }
+  ],
+
+  "related": ["suez-canal", "gatun-dam", "leonardo-lock-gates"]
+}

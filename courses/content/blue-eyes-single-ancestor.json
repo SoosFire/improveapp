@@ -1,0 +1,126 @@
+{
+  "id": "blue-eyes-single-ancestor",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Everyone With Blue Eyes Shares One Ancestor",
+    "teaser": "Somewhere between 6,000 and 10,000 years ago, one person's DNA stuttered — and blue eyes were born.",
+    "category": "Genetics",
+    "subcategories": ["Human Evolution", "Mutation"],
+    "tags": ["genetics", "mutation", "evolution", "ancestry", "eyes"],
+    "emoji": "👁️",
+    "accentColor": "#4C7BC8",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "An ultra-close-up of a human iris, deep cobalt-blue with golden flecks near the pupil, strands of DNA faintly overlaid, cinematic macro photography, moody light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "One person. One moment.",
+      "body": "If your eyes are blue, you're carrying a single genetic event that happened to one person thousands of years ago — probably somewhere near the Black Sea. Before them: no blue eyes on Earth. After them: every blue-eyed human who has ever lived. It's one of the cleanest family trees in human genetics.",
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": "A lone prehistoric silhouette on a windswept steppe at dusk, blue sky reflecting in a tiny pool of water at their feet, cinematic and mythic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The switch, not the paint",
+      "body": "Eye color comes from melanin — more pigment makes darker eyes. The blue-eye mutation doesn't add a new color. It sits in a regulatory region next to a gene called OCA2 and quietly dials down the amount of brown pigment the iris produces. Light bouncing off the low-pigment iris scatters blue, the same way the sky does.",
+      "keyTerms": [
+        { "term": "OCA2", "definition": "A gene involved in producing melanin, the pigment that colors eyes, hair, and skin" },
+        { "term": "HERC2", "definition": "A neighboring gene whose regulatory region contains the blue-eye mutation" }
+      ],
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "Split portrait showing one brown iris and one blue iris side by side, with a tiny DNA strand threading between them like a seam"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The 2008 tracing",
+      "body": "In 2008, a team at the University of Copenhagen sampled DNA from blue-eyed people across Denmark, Turkey, and Jordan. Everyone they tested carried the exact same mutation, on the exact same stretch of chromosome 15. Statistically, that only happens if the mutation arose once and spread. They estimated it originated 6,000 to 10,000 years ago, during the Neolithic.",
+      "funFact": "A 7,000-year-old hunter-gatherer skeleton from Spain — 'La Braña 1' — had dark skin but blue eyes, proving the mutation was already spreading across Europe in the Stone Age.",
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "A stylized family tree branching across a map of Eurasia, every leaf subtly blue, pen-and-ink style on aged parchment"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "A recent, accidental family",
+      "body": "Blue eyes are a tiny evolutionary newcomer. For most of our species' 300,000-year history, there weren't any. The fact that hundreds of millions of people now share one stretches how we think about 'family' — every blue-eyed person is, very literally, a cousin to every other.",
+      "visual": {
+        "sfSymbol": "figure.2.and.child.holdinghands",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the blue-eye mutation actually do?",
+      "options": [
+        "Adds blue pigment to the iris",
+        "Reduces production of brown pigment so light scatters blue",
+        "Changes the shape of the cornea",
+        "Destroys melanin entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mutation dials down melanin production. A low-pigment iris scatters short-wavelength blue light, just like the sky."
+    },
+    {
+      "index": 1,
+      "question": "How long ago did the blue-eye mutation likely arise?",
+      "options": ["About 500 years ago", "About 1,000 years ago", "6,000–10,000 years ago", "100,000 years ago"],
+      "correctIndex": 2,
+      "explanation": "Genetic dating places the mutation in the Neolithic period, somewhere around the Black Sea region."
+    },
+    {
+      "index": 2,
+      "question": "Why do scientists believe all blue-eyed people share one ancestor?",
+      "options": [
+        "They all look alike",
+        "Every sampled blue-eyed person carries the identical mutation at the identical spot",
+        "It was recorded in ancient documents",
+        "Eye color is controlled by mitochondrial DNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "An identical mutation at the exact same chromosomal position across the population is the signature of a single founder event."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Blue eye color in humans may be caused by a perfectly associated founder mutation",
+      "publisher": "Human Genetics",
+      "year": 2008
+    },
+    {
+      "title": "Derived immune and ancestral pigmentation alleles in a 7,000-year-old Mesolithic European",
+      "publisher": "Nature",
+      "year": 2014
+    }
+  ],
+
+  "related": ["skin-color-evolution", "neolithic-europe", "founder-effect"]
+}

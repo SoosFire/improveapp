@@ -1,0 +1,145 @@
+{
+  "id": "how-soap-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Soap Kills Germs",
+    "teaser": "A bar of soap doesn't poison germs — it rips them apart at the molecular level. Here's how.",
+    "category": "Chemistry",
+    "subcategories": ["Biochemistry", "Everyday Science"],
+    "tags": ["soap", "viruses", "molecules", "hygiene", "lipids"],
+    "emoji": "🧼",
+    "accentColor": "#7FB4D8",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "🫧"
+    },
+    "coverImagePrompt": "A macro close-up of translucent soap bubbles clustered on wet skin, iridescent, with a faint diagrammatic overlay of molecules, cinematic lighting, hyper-real"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The most powerful weapon in your bathroom",
+      "body": "A 5,000-year-old invention still out-performs most modern disinfectants against many viruses — including the one that caused COVID-19. It costs pennies and requires no electricity. The secret isn't that soap kills germs in the dramatic way bleach does. It physically dismantles them.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A bar of pale cream soap sitting on wet stone, dramatic side lighting, steam rising softly"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A molecule with two faces",
+      "body": "Every soap molecule is shaped like a tadpole. The head loves water (hydrophilic), and the long tail hates water and loves fat (hydrophobic). This split personality is the whole trick — it's called an amphiphile.",
+      "keyTerms": [
+        { "term": "Hydrophilic", "definition": "Water-loving; attracted to water molecules" },
+        { "term": "Hydrophobic", "definition": "Water-fearing; repelled by water, attracted to fats and oils" },
+        { "term": "Amphiphile", "definition": "A molecule with both water-loving and water-hating parts" }
+      ],
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A stylized soap molecule with a blue round head and a yellow tail, repeated across a grid, clean vector style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why germs are easy targets",
+      "body": "Many viruses and bacteria are wrapped in a thin coat of fat called a lipid envelope. When you lather up, the hydrophobic tails of the soap molecules jam themselves into that fatty shell like crowbars. The envelope pops open, spills its guts, and the virus dissolves into harmless fragments — which water then sweeps down the drain.",
+      "keyTerms": [
+        { "term": "Lipid envelope", "definition": "The fatty outer coat surrounding many viruses and bacteria" }
+      ],
+      "visual": {
+        "sfSymbol": "drop.triangle.fill",
+        "imagePrompt": "A coronavirus-like particle with its fatty envelope being pried open by soap molecules, dramatic 3D scientific illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why 20 seconds matters",
+      "body": "It takes time for soap molecules to find, surround, and crack open every germ on your hands — especially in the microscopic folds of fingerprints and under nails. Studies comparing 5-second and 20-second handwashes show roughly a tenfold drop in surviving bacteria. Alcohol sanitizer works faster but less reliably against grease, grime, and non-enveloped viruses like norovirus.",
+      "funFact": "The oldest known soap recipe was carved into a Sumerian clay tablet around 2800 BCE — water, ashes, and animal fat.",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "Hands lathering under warm water with a 20-second timer glowing in the steam, cinematic close-up"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Tiny crowbars, enormous impact",
+      "body": "Soap is one of humanity's quietest superpowers. Every time you wash your hands, you're deploying billions of molecular crowbars to physically tear apart invaders before they can reach your cells. It's not magic — it's just geometry, done at the scale of molecules.",
+      "visual": {
+        "sfSymbol": "hands.sparkles.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What makes a soap molecule so effective against germs?",
+      "options": [
+        "It poisons bacterial DNA",
+        "It has one end that loves water and one that loves fat",
+        "It generates heat that cooks germs",
+        "It changes the pH to acidic levels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Soap molecules are amphiphiles — the fat-loving tail rips open the lipid envelope of germs while the water-loving head carries the debris away."
+    },
+    {
+      "index": 1,
+      "question": "What part of many viruses does soap destroy?",
+      "options": [
+        "The genetic core",
+        "The protein spikes",
+        "The fatty outer envelope",
+        "The cell wall"
+      ],
+      "correctIndex": 2,
+      "explanation": "Many viruses, including coronaviruses, are wrapped in a lipid envelope. Soap pries that envelope apart, and the virus falls to pieces."
+    },
+    {
+      "index": 2,
+      "question": "Why are 20 seconds of handwashing recommended?",
+      "options": [
+        "To allow the water to reach body temperature",
+        "To give soap molecules time to find and disrupt every germ",
+        "To activate antibacterial agents",
+        "To rinse off residue completely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Soap needs time to work its way into every microscopic crevice of your skin and surround every germ — 20 seconds is roughly what it takes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Science of Soap — Here's How It Kills the Coronavirus",
+      "publisher": "The New York Times",
+      "year": 2020
+    },
+    {
+      "title": "Napoleon's Buttons: 17 Molecules That Changed History",
+      "publisher": "Tarcher/Penguin",
+      "year": 2003
+    }
+  ],
+
+  "related": ["maillard-reaction", "why-ice-floats", "antibiotic-resistance"]
+}

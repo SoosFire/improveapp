@@ -1,0 +1,136 @@
+{
+  "id": "fire-made-us-human",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Cooking Made Us Human",
+    "teaser": "Our brains tripled in size — but our stomachs shrank. The secret ingredient? Fire.",
+    "category": "Anthropology",
+    "subcategories": ["Human Evolution", "Paleoanthropology"],
+    "tags": ["fire", "evolution", "cooking", "brain", "hominins"],
+    "emoji": "🔥",
+    "accentColor": "#D9531E",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🔥"
+    },
+    "coverImagePrompt": "A circle of early hominins crouched around a crackling fire in a twilight savanna, glowing embers lighting their curious faces, sparks drifting into a starry sky, cinematic and painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The ape that learned to cook",
+      "body": "Two million years ago, our ancestors were wiry bipedal apes with brains only slightly larger than a chimpanzee's. Then something strange began happening: their brains ballooned, their teeth shrank, and their guts got smaller. Primatologist Richard Wrangham thinks one invention explains all of it — fire.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A silhouette of an early hominin silhouetted against a massive orange flame, sparks rising"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The cooking hypothesis",
+      "body": "Raw food is expensive. A chimpanzee spends up to six hours a day chewing. Cooking breaks down starches and denatures proteins before they ever reach your mouth — essentially pre-digesting food. That means more calories, faster, from less chewing. Wrangham argues cooking freed up the energy needed to grow the most metabolically expensive organ in the body: the brain.",
+      "keyTerms": [
+        { "term": "Gelatinization", "definition": "The way heat bursts starch granules, making them digestible" },
+        { "term": "Expensive tissue hypothesis", "definition": "The idea that a smaller gut allowed a bigger brain" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A glowing brain cross-section next to a shrinking digestive tract, anatomical diagram style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Burned bones in a South African cave",
+      "body": "At Wonderwerk Cave in South Africa, scientists found charred animal bones and ash from 1 million years ago — the oldest solid evidence of controlled fire use by Homo erectus. The ash wasn't blown in by wildfire; it was deep inside the cave, clustered with tools and bones.",
+      "funFact": "Wonderwerk means 'miracle' in Afrikaans — fitting, given what happened there.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "Archaeologists sifting ash and charred bone fragments inside a warmly lit South African cave, headlamps glinting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Bodies rewired by heat",
+      "body": "Around the same time fire use spread, Homo erectus's body transformed. Molars shrank by 20%. The gut got shorter. The rib cage narrowed. Meanwhile, the brain doubled in size across the next million years, hitting roughly 1,000 cubic centimeters. Our species evolved assuming that dinner would be cooked.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "Side-by-side anatomical comparison of an ape and Homo erectus, showing rib cage and skull differences"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "We are the cooked apes",
+      "body": "No other animal cooks. No modern human can thrive long-term on a fully raw wild diet. Fire didn't just warm our ancestors — it rewrote their biology. Every time you put a pan on a stove, you're running a two-million-year-old program that made you human.",
+      "visual": {
+        "sfSymbol": "frying.pan.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who proposed the 'cooking hypothesis' explaining human evolution?",
+      "options": ["Jane Goodall", "Richard Wrangham", "Louis Leakey", "Desmond Morris"],
+      "correctIndex": 1,
+      "explanation": "Harvard primatologist Richard Wrangham argued in 'Catching Fire' that cooking drove the evolution of our brains and bodies."
+    },
+    {
+      "index": 1,
+      "question": "Why does cooking give us more usable energy than raw food?",
+      "options": [
+        "It adds calories to the food",
+        "It kills bacteria that consume calories",
+        "It pre-digests starches and proteins before eating",
+        "It increases the food's mass"
+      ],
+      "correctIndex": 2,
+      "explanation": "Heat gelatinizes starch and denatures protein, so your body does less work to extract energy."
+    },
+    {
+      "index": 2,
+      "question": "What does Wonderwerk Cave provide evidence of?",
+      "options": [
+        "The first stone tools",
+        "Controlled fire use 1 million years ago",
+        "The oldest human burial",
+        "The invention of pottery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ash and burned bones inside the cave date to around 1 million years ago — among the earliest solid evidence of fire use by Homo erectus."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Catching Fire: How Cooking Made Us Human",
+      "publisher": "Richard Wrangham, Basic Books",
+      "year": 2009
+    },
+    {
+      "title": "Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2012
+    }
+  ],
+
+  "related": ["why-humans-walk-upright", "stone-tool-revolution", "homo-erectus"]
+}

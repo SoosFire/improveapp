@@ -1,0 +1,141 @@
+{
+  "id": "terracotta-army",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Terracotta Army",
+    "teaser": "A farmer digging a well in 1974 put his shovel through the face of a 2,200-year-old soldier.",
+    "category": "Archaeology",
+    "subcategories": ["Ancient China", "Imperial Burials"],
+    "tags": ["china", "qin shi huang", "terracotta", "emperor", "xi'an"],
+    "emoji": "🏯",
+    "accentColor": "#A45632",
+    "coverSymbol": {
+      "sfSymbol": "person.3.sequence.fill",
+      "fallbackEmoji": "🧱"
+    },
+    "coverImagePrompt": "Endless ranks of terracotta warriors filling a vast excavation pit, warm amber light casting long shadows, each face unique, cinematic wide shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A shovel hits history",
+      "body": "On a dry March morning in 1974, a farmer named Yang Zhifa was digging a well outside Xi'an, China. Three feet down, his spade struck something hard. He pulled out the head of a life-sized clay soldier. He had accidentally punched into the edge of the largest, most astonishing tomb complex ever built.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "A farmer kneeling in a dusty field, holding a terracotta head, pale morning light, his expression shocked"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "An army for the afterlife",
+      "body": "The soldiers were built for Qin Shi Huang — the man who in 221 BCE unified China and became its first emperor. He believed his rule should continue after death. So he commissioned roughly 8,000 life-sized warriors, 520 horses, 130 chariots, and full corps of archers, cavalry, and officers to guard him underground. The project took 38 years and 700,000 laborers.",
+      "keyTerms": [
+        { "term": "Qin Shi Huang", "definition": "First emperor of a unified China, reigned 221–210 BCE" },
+        { "term": "Mausoleum", "definition": "A large, built tomb or burial structure" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "Bronze bust of Emperor Qin Shi Huang in dramatic side-light, fierce expression"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "No two faces alike",
+      "body": "Every warrior's face is individual. Craftsmen mixed and matched eight basic head molds, then hand-sculpted unique features on top — noses, brows, mustaches, ear shapes, topknots. Rank shows in the clothing: generals stand taller, wear armored aprons, and tie their hair in distinctive double buns. It's less an army of clones than a portrait of the Qin military.",
+      "funFact": "Traces of pigment show the warriors were originally painted in vivid reds, greens, blues, and purples — but the color flakes off within minutes of exposure to dry air.",
+      "visual": {
+        "sfSymbol": "person.2.circle.fill",
+        "imagePrompt": "Extreme close-up of three different terracotta warrior faces side-by-side, each with unique features"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Weapons that still cut",
+      "body": "When excavated, many bronze swords were still razor-sharp — because they had been coated in chromium oxide, a corrosion-proofing technique rediscovered in Germany in 1937. The army was armed with over 40,000 real weapons, from crossbow bolts to halberds, standardized across the empire. Qin's engineers were doing metallurgy that modern archaeologists didn't understand until the 20th century.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "Glinting bronze sword resting on black cloth in a museum, reflective surface catching spotlight"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The emperor still hasn't been opened",
+      "body": "The warriors guard the outer rings. The emperor himself lies inside a massive unexcavated burial mound the size of 70 football fields. Ancient texts describe rivers of liquid mercury inside — and soil tests at the site show mercury levels up to 100 times normal. Chinese authorities refuse to open it until preservation technology is ready. The most famous tomb in the world is, in a sense, still sealed.",
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who was the Terracotta Army built for?",
+      "options": [
+        "Confucius",
+        "Emperor Qin Shi Huang",
+        "Kublai Khan",
+        "Emperor Wu of Han"
+      ],
+      "correctIndex": 1,
+      "explanation": "Qin Shi Huang, the first emperor of unified China, commissioned the army around 246 BCE to protect him in the afterlife."
+    },
+    {
+      "index": 1,
+      "question": "Why were the bronze weapons still sharp after 2,000 years?",
+      "options": [
+        "They were sealed in oil",
+        "They were coated in chromium oxide",
+        "They were made of stainless steel",
+        "The air in the pit was dry"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Qin-era chromium oxide coating prevented oxidation — a technique Western science only rediscovered in 1937."
+    },
+    {
+      "index": 2,
+      "question": "Why hasn't the emperor's central tomb been opened?",
+      "options": [
+        "It's lost and cannot be found",
+        "Preservation tech isn't good enough and it may contain mercury",
+        "Local law forbids excavating the Qin dynasty",
+        "It was already looted centuries ago"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chinese authorities are waiting for better preservation methods, and ancient texts plus mercury readings suggest toxic hazards inside."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The First Emperor: China's Terracotta Army",
+      "publisher": "Jane Portal, British Museum Press",
+      "year": 2007
+    },
+    {
+      "title": "The Terracotta Warriors: Exploring the Most Intriguing Puzzle in Chinese History",
+      "publisher": "Edward Burman, Weidenfeld & Nicolson",
+      "year": 2018
+    }
+  ],
+
+  "related": ["qin-dynasty-unification", "ancient-chinese-metallurgy", "great-wall-of-china"]
+}

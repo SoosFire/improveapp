@@ -1,0 +1,136 @@
+{
+  "id": "zipper-history",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Zipper Conquered the World",
+    "teaser": "It took 30 years, two near-bankruptcies, and a sailor's boot to turn a laughable invention into a global standard.",
+    "category": "Fashion",
+    "subcategories": ["Fashion History", "Design"],
+    "tags": ["zipper", "invention", "manufacturing", "menswear", "history"],
+    "emoji": "🤐",
+    "accentColor": "#5F4B8B",
+    "coverSymbol": {
+      "sfSymbol": "arrow.up.and.down",
+      "fallbackEmoji": "🤐"
+    },
+    "coverImagePrompt": "An extreme macro of a polished brass zipper half-closed on dark denim, tiny metal teeth interlocking in crisp focus, studio light, editorial still-life"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A solution nobody wanted",
+      "body": "In 1893, Chicago inventor Whitcomb Judson unveiled the 'clasp locker' at the World's Fair. It was an ugly contraption of hooks and eyes meant to replace the buttons on men's high boots. The public hated it: it jammed, popped open without warning, and looked vaguely industrial. Judson sold almost none — and his investors nearly went bankrupt trying again and again to fix it.",
+      "visual": {
+        "sfSymbol": "boot.fill",
+        "imagePrompt": "A Victorian-era leather boot with an early clumsy zipper mechanism, patent-drawing aesthetic, aged ink on yellowed paper"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Swedish engineer who cracked it",
+      "body": "Gideon Sundback, a Swedish-American engineer, joined the failing company in 1906 and spent seven years redesigning the whole idea. His breakthrough, patented in 1913, used tiny interlocking teeth instead of hooks. The teeth met cleanly, locked together with a sliding Y-shaped guide, and — for the first time — actually stayed closed. Sundback called it the 'Hookless Fastener №2'.",
+      "keyTerms": [
+        { "term": "Interlocking teeth", "definition": "The two rows of small metal or plastic scoops that mesh together when pulled by the slider" },
+        { "term": "Slider", "definition": "The Y-shaped mechanism that forces teeth together on one side and apart on the other" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.split.2x1.fill",
+        "imagePrompt": "A cutaway engineering diagram of a zipper slider, showing the Y-channel that forces teeth together and apart, blueprint style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "War, not fashion, made it succeed",
+      "body": "The breakthrough came during World War I. The US military ordered thousands of zippered money belts for sailors, who needed a fastening that would work with cold, wet, fumbling hands. By WWII, zippers were standard in flight suits, boots, and rescue gear. The onomatopoeic name 'zipper', meanwhile, came from the B.F. Goodrich Company, which in 1923 used it for the sound the closure made on their new rubber galoshes.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "A row of 1940s military uniforms on hangers with bold brass zippers gleaming, green-grey color palette, archival workshop"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The fly-zipper scandal",
+      "body": "Men's trousers kept their button fly until 1937, when French fashion designers declared the zipper fly 'the newest tailoring idea'. Esquire magazine ran an endorsement calling it 'the Newest Tailoring Idea for Men', and within a few years it was the standard. In 1954, Levi's finally replaced the button fly on their 501 jeans — though, famously, they never quite did on the original 501 model, which still uses buttons today.",
+      "funFact": "A 2017 study in the BJU International journal found zipper-related genital injuries are the single most common cause of emergency-room penile trauma in adult men.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "An elegant 1930s tailor's workshop, a half-stitched pair of trousers on a dummy, brass zipper being pinned in place, warm window light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A century of quiet dominance",
+      "body": "Today, one Japanese company — YKK — makes roughly half of all zippers on Earth, producing more than seven billion a year in over 70 countries. The zipper has become so basic that we only notice it when it fails: a jammed slider, a lost tooth, the sudden exposure of what was supposed to stay closed. Good design, it turns out, is design you forget is there.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who designed the modern interlocking-tooth zipper?",
+      "options": [
+        "Whitcomb Judson",
+        "Gideon Sundback",
+        "Elias Howe",
+        "B.F. Goodrich"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sundback's 1913 patent on the 'Hookless Fastener №2' introduced the tiny interlocking teeth used today."
+    },
+    {
+      "index": 1,
+      "question": "Where did the word 'zipper' originally come from?",
+      "options": [
+        "A military code name",
+        "A brand of rubber galoshes by B.F. Goodrich",
+        "A Swedish slang term",
+        "An early fashion magazine"
+      ],
+      "correctIndex": 1,
+      "explanation": "B.F. Goodrich coined 'Zipper' in 1923 for the sound the fastener made on their new overshoes."
+    },
+    {
+      "index": 2,
+      "question": "Roughly what share of the world's zippers are made by the Japanese company YKK?",
+      "options": ["About 10%", "About 25%", "About half", "Nearly all"],
+      "correctIndex": 2,
+      "explanation": "YKK produces roughly half of all zippers worldwide, around seven billion units per year."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Zipper: An Exploration in Novelty",
+      "publisher": "W. W. Norton",
+      "year": 1994
+    },
+    {
+      "title": "The Evolution of Useful Things",
+      "publisher": "Alfred A. Knopf",
+      "year": 1992
+    }
+  ],
+
+  "related": ["little-black-dress", "why-men-stopped-wearing-heels", "wedding-white-tradition"]
+}

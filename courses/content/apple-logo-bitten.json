@@ -1,0 +1,136 @@
+{
+  "id": "apple-logo-bitten",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Apple's Logo Has a Bite",
+    "teaser": "Is it a tribute to Alan Turing? A nod to Newton? Or just a trick to stop it looking like a cherry?",
+    "category": "Design",
+    "subcategories": ["Branding", "Logo Design"],
+    "tags": ["apple", "logo", "branding", "icons", "typography"],
+    "emoji": "🍎",
+    "accentColor": "#A2AAAD",
+    "coverSymbol": {
+      "sfSymbol": "applelogo",
+      "fallbackEmoji": "🍏"
+    },
+    "coverImagePrompt": "A sleek silver apple resting on a dark reflective surface, a single crisp bite taken from its right side, dramatic side lighting, minimalist product photography, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The internet's favorite urban legend",
+      "body": "For decades, one story has refused to die: the bite in the Apple logo is a tribute to Alan Turing, the gay computing pioneer who died in 1954 after eating a cyanide-laced apple. It's a beautiful, tragic story. There's just one problem — it isn't true. The real reason is far more pragmatic, and the designer himself has told us exactly what it was.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A silhouetted apple with a bite, backlit in rainbow colors fading to grayscale, soft mystery atmosphere"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the designer",
+      "body": "In 1977, Steve Jobs hired a young art director named Rob Janoff to design a logo for the new Apple II. Janoff sketched a clean silhouette of an apple — but something was off. Without the bite, the silhouette looked suspiciously like a cherry, or worse, a tomato. The logo needed to read as an apple instantly, even at postage-stamp size.",
+      "keyTerms": [
+        { "term": "Silhouette", "definition": "A solid shape representing an object's outline, recognizable at a glance" },
+        { "term": "Scale legibility", "definition": "Whether a design still reads clearly when shrunk very small" }
+      ],
+      "visual": {
+        "sfSymbol": "pencil.and.ruler.fill",
+        "imagePrompt": "A 1970s designer's desk with pencil sketches of fruit silhouettes on tracing paper, warm tungsten lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Bite, not byte",
+      "body": "Janoff added the bite so your eye would instantly know: this is an apple, and it's for eating. The pun on 'byte' was a happy accident — Janoff has said he didn't consciously intend it. The original 1977 logo was also rainbow-striped, which had nothing to do with gay pride. The colors were chosen to show off the Apple II's then-revolutionary ability to display color on a home screen.",
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "The original rainbow-striped Apple logo on the side of a beige 1977 Apple II computer, nostalgic retro tech setting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Straight from the designer",
+      "body": "Rob Janoff has been asked about the Turing theory countless times. In interviews he's been gracious but clear: 'I'm afraid it didn't have a thing to do with it.' Stephen Fry once asked Steve Jobs directly. Jobs replied that while the Turing story was a wonderful idea, 'God, we wish it were.' The truth is simpler — and more design-school than conspiracy.",
+      "funFact": "The rainbow logo was retired in 1998 when the translucent iMac launched — partly because rainbow stripes didn't survive the transition to flat, minimalist product shells.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "A designer being interviewed on a talk show set, friendly studio lighting, apple logo poster behind him"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the myth sticks anyway",
+      "body": "Good logos invite stories. The bitten apple is simple enough to remember, weird enough to ask about, and meaningful enough that people reach for deeper explanations. That's not a bug — it's the whole point of iconic branding. The real lesson? Great design solves a boring problem (is this a cherry?) in a way that lasts fifty years.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to designer Rob Janoff, why does the Apple logo have a bite?",
+      "options": [
+        "To honor Alan Turing",
+        "To pun on 'byte'",
+        "So it wouldn't look like a cherry",
+        "To reference the Garden of Eden"
+      ],
+      "correctIndex": 2,
+      "explanation": "Janoff added the bite purely so the silhouette would read as an apple rather than a cherry at small sizes."
+    },
+    {
+      "index": 1,
+      "question": "Why was the original 1977 Apple logo striped with rainbow colors?",
+      "options": [
+        "To symbolize LGBTQ+ pride",
+        "To show off the Apple II's color display",
+        "To match Pink Floyd's album cover",
+        "To reference the rainbow flag of peace"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Apple II was one of the first home computers with color graphics, and the logo showcased that capability."
+    },
+    {
+      "index": 2,
+      "question": "When did Apple retire the rainbow logo?",
+      "options": ["1984", "1991", "1998", "2007"],
+      "correctIndex": 2,
+      "explanation": "The rainbow logo was phased out in 1998 alongside the launch of the translucent iMac G3."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Interview with Rob Janoff, designer of the Apple logo",
+      "publisher": "CreativeBits",
+      "year": 2009
+    },
+    {
+      "title": "Stephen Fry on Steve Jobs and the Turing rumor",
+      "publisher": "The Independent",
+      "year": 2011
+    }
+  ],
+
+  "related": ["logo-design-history", "steve-jobs-apple", "alan-turing"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "osborne-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Osborne Effect",
+    "teaser": "How a CEO killed his own company by announcing a product too early — and gave the phenomenon a name.",
+    "category": "Business",
+    "subcategories": ["Marketing", "Tech History"],
+    "tags": ["business", "marketing", "strategy", "history"],
+    "emoji": "💼",
+    "accentColor": "#B3261E",
+    "coverSymbol": {
+      "sfSymbol": "briefcase.fill",
+      "fallbackEmoji": "💼"
+    },
+    "coverImagePrompt": "A dusty 1980s beige computer on a dealership showroom desk, empty chairs in the background, a clipboard with falling sales charts, melancholic amber lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 24-pound hit",
+      "body": "In 1981, Adam Osborne released the world's first mass-market portable computer. It weighed 24 pounds, looked like a sewing machine, and sold 10,000 units a month. By 1985, Osborne Computer Corporation was bankrupt. The story of how it fell became a cautionary tale every startup founder still quotes today.",
+      "visual": {
+        "sfSymbol": "laptopcomputer",
+        "imagePrompt": "The iconic 1981 Osborne 1 portable computer on a wooden desk, closed-box briefcase form, CRT and chiclet keyboard visible, nostalgic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the 'Osborne effect' means",
+      "body": "The term describes what happens when a company pre-announces a future product so enthusiastically that customers stop buying the current one. Sales of the old model collapse — but the new model isn't ready to ship. The company bleeds cash in the gap, and sometimes doesn't survive it.",
+      "keyTerms": [
+        { "term": "Osborne effect", "definition": "When premature announcement of a next product kills demand for the current product" },
+        { "term": "Preannouncement", "definition": "Publicly revealing a future product before it's ready for sale" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A sharp downward sales graph on a CRT monitor, red glowing numbers, 1980s office at dusk"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The actual story is messier",
+      "body": "Osborne is blamed for bragging about the upcoming 'Executive' model in early 1983, freezing customers in place. But the truth involves bigger wounds: IBM had entered the market, the company had ballooned its expenses, and compatibility with the IBM PC was the real standard customers wanted. Preannouncement was a contributing cause, not the whole one.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "A detective-style desk covered in old financial reports, a magnifying glass hovering over a 1983 memo, warm lamp light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The effect keeps reappearing",
+      "body": "Sega's early pivot to the Saturn cratered Genesis sales. Nokia's Symbian-to-Windows-Phone pivot in 2011 was dubbed the 'Elop effect' after CEO Stephen Elop's 'burning platform' memo — devices collapsed in anticipation of a product that wouldn't ship for months. Netflix's Qwikster reveal, Google's Stadia teasers, countless phone makers: the pattern is older than any one company.",
+      "funFact": "Osborne Computer's revenue dropped from over $100 million in 1982 to near zero by the end of 1983 — a faster collapse than most recessions.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A stylized 'burning platform' — an office floor on fire as executives stare at phones, editorial magazine illustration style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Timing is a weapon that cuts both ways",
+      "body": "Hype is oxygen for startups — but oxygen too early can suffocate the thing already keeping the lights on. The Osborne effect is really a rule about cash flow and trust: don't tell customers the future until you can sell it to them. Apple's 'one more thing' exists for exactly this reason.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the 'Osborne effect' describe?",
+      "options": [
+        "A marketing campaign that goes viral",
+        "When preannouncing a future product kills demand for the current one",
+        "A pricing strategy based on rarity",
+        "A legal term for false advertising"
+      ],
+      "correctIndex": 1,
+      "explanation": "It describes a collapse in current sales because customers wait for a promised future product that isn't shipping yet."
+    },
+    {
+      "index": 1,
+      "question": "According to historians, what else contributed to Osborne's bankruptcy?",
+      "options": [
+        "IBM entering the market and bloated company expenses",
+        "A typing injury epidemic",
+        "Sabotage by a rival company",
+        "A lawsuit from Apple"
+      ],
+      "correctIndex": 0,
+      "explanation": "IBM's PC set a new standard, and Osborne had scaled up costs aggressively — both were major factors besides the preannouncement."
+    },
+    {
+      "index": 2,
+      "question": "Which modern example is often compared to the Osborne effect?",
+      "options": [
+        "Apple's 'one more thing' reveals",
+        "Nokia's 'burning platform' memo in 2011",
+        "Amazon launching Prime",
+        "Facebook buying Instagram"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nokia's CEO publicly declared the Symbian platform doomed months before Windows Phone shipped — Symbian sales cratered in the interim."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Hypergrowth",
+      "publisher": "Avon Books (Adam Osborne & John Dvorak)",
+      "year": 1984
+    },
+    {
+      "title": "The Osborne Effect",
+      "publisher": "The Register (Andrew Orlowski)",
+      "year": 2005
+    }
+  ],
+
+  "related": ["product-launch-strategy", "innovators-dilemma", "preannouncement"]
+}

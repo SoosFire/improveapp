@@ -1,0 +1,146 @@
+{
+  "id": "otzi-the-iceman",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Ötzi: The 5,300-Year-Old Murder Victim",
+    "teaser": "Two hikers found a body in the Alps. It turned out to be a Copper Age man shot in the back — and still bleeding clues.",
+    "category": "Archaeology",
+    "subcategories": ["Prehistoric Europe", "Forensic Archaeology"],
+    "tags": ["otzi", "alps", "copper age", "mummy", "forensics"],
+    "emoji": "🏔️",
+    "accentColor": "#7A8B99",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "🧊"
+    },
+    "coverImagePrompt": "A body half-emerged from glacial ice high in the Ötztal Alps, sharp blue shadows at dawn, a weathered leather fragment poking from the snow, cinematic and haunting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A hiker's shocking find",
+      "body": "On September 19, 1991, two German tourists crossing a glacier on the Italian-Austrian border spotted a brown head and shoulders jutting from the ice. They thought it was a recent climbing accident. It turned out to be the best-preserved prehistoric human ever found — and the world's oldest known cold case.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "Two hikers in bright jackets kneeling beside a dark shape in the glacial ice, the Alps towering around them"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet Ötzi",
+      "body": "Ötzi — named after the Ötztal Alps — lived around 3300 BCE, making him older than the Great Pyramid of Giza. He was about 45 when he died, stood 5'2\", and had dark eyes, a beard, and 61 tattoos. His gear was a time capsule: a copper axe, a yew longbow, a birch-bark container, and shoes stuffed with grass for insulation.",
+      "keyTerms": [
+        { "term": "Chalcolithic", "definition": "The Copper Age — the transitional period between stone and bronze tools" },
+        { "term": "Natural mummy", "definition": "A body preserved without intentional embalming, usually by cold or dryness" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "Reconstructed wax figure of Ötzi in Copper Age clothing, museum lighting, soft shadows"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The arrow in his back",
+      "body": "For a decade, researchers thought Ötzi had frozen to death. Then, in 2001, a CT scan revealed a flint arrowhead lodged beneath his left shoulder. It had severed a major artery. Fresh blood from four different people was found on his weapons and clothing. Ötzi didn't die alone on a mountain — he died running from a fight.",
+      "funFact": "The arrow shaft had been snapped off and pulled out, possibly by the killer, to remove evidence.",
+      "visual": {
+        "sfSymbol": "xmark.octagon.fill",
+        "imagePrompt": "CT scan slice of Ötzi's shoulder showing the arrowhead, highlighted in bright color against bone"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "His last meal — an alibi clue",
+      "body": "Analysis of Ötzi's stomach contents revealed his final meal: ibex meat, einkorn wheat, and bracken fern, eaten just 30–60 minutes before death. He was not fleeing starved or exhausted. He had stopped, eaten well, and was ambushed. Pollen in his gut even narrowed the season: late spring or early summer.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Still life of ancient meal: strips of ibex meat, grains of einkorn wheat, and fern fronds on a flat stone"
+      }
+    },
+    {
+      "index": 4,
+      "type": "evidence",
+      "title": "Tattoos as medicine",
+      "body": "Ötzi's 61 tattoos are the oldest ever found on a human body. They aren't decorative — they cluster on his lower back, knees, and ankles, exactly where X-rays reveal arthritis and joint wear. Researchers think they may be an early form of acupuncture-like pain therapy, used 2,000 years before the earliest Chinese records of the practice.",
+      "visual": {
+        "sfSymbol": "scribble",
+        "imagePrompt": "Close-up photo of a preserved forearm with parallel line tattoos, faded brown against leathery skin"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "A stranger we can't stop studying",
+      "body": "More than 30 years after his discovery, Ötzi still gives up secrets. We know his last DNA relatives still live in the Alps, what parasites lived in his gut, and even that he was lactose intolerant. He is archaeology's closest thing to meeting a prehistoric human face to face — frozen mid-story.",
+      "visual": {
+        "sfSymbol": "person.crop.circle.badge.questionmark",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did Ötzi actually die?",
+      "options": [
+        "He froze to death in a blizzard",
+        "He was shot in the back with an arrow",
+        "He fell from a cliff",
+        "He starved to death"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 2001 CT scan revealed a flint arrowhead that severed a major artery in his left shoulder."
+    },
+    {
+      "index": 1,
+      "question": "What era did Ötzi live in?",
+      "options": ["Bronze Age", "Iron Age", "Copper Age (Chalcolithic)", "Neolithic"],
+      "correctIndex": 2,
+      "explanation": "He lived around 3300 BCE, during the Chalcolithic — the transitional Copper Age."
+    },
+    {
+      "index": 2,
+      "question": "Why are Ötzi's 61 tattoos remarkable?",
+      "options": [
+        "They depict detailed animal scenes",
+        "They cluster at sites of arthritis, suggesting medical use",
+        "They were made with bronze needles",
+        "They form a written language"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tattoos align with joints showing arthritis, hinting at a form of pain therapy millennia before known acupuncture."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Iceman: The Complete Findings on the Mummy from the Ötztal Alps",
+      "publisher": "Konrad Spindler, Weidenfeld & Nicolson",
+      "year": 2001
+    },
+    {
+      "title": "New radiological insights into the life and death of the Tyrolean Iceman",
+      "publisher": "Journal of Archaeological Science",
+      "year": 2018
+    }
+  ],
+
+  "related": ["pompeii-preserved", "copper-age-europe", "forensic-archaeology"]
+}

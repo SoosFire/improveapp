@@ -1,0 +1,121 @@
+{
+  "id": "box-breathing",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Box Breathing: A Navy SEAL Technique",
+    "teaser": "The same breathing trick that calms elite operators before a firefight can calm you before a presentation.",
+    "category": "Mindfulness & Meditation",
+    "subcategories": ["Breathwork", "Stress Reduction"],
+    "tags": ["breathing", "navy-seal", "stress", "vagus-nerve", "focus"],
+    "emoji": "🧘",
+    "accentColor": "#2F7A7F",
+    "coverSymbol": {
+      "sfSymbol": "wind",
+      "fallbackEmoji": "💨"
+    },
+    "coverImagePrompt": "A dark silhouette of a person in profile, mist curling from their lips in rhythmic bursts against a cool teal backdrop, cinematic, serene"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "What SEALs do before they breach a door",
+      "body": "Before a Navy SEAL kicks in a door or dives out of a helicopter, they're doing something surprisingly boring: counting. Four seconds in. Four seconds hold. Four seconds out. Four seconds hold. It's called box breathing, and it's the free, pocket-sized off-switch for panic — the same one taught to astronauts, ER nurses, and Olympic shooters.",
+      "visual": {
+        "sfSymbol": "square.dashed",
+        "imagePrompt": "A clean geometric square diagram with animated arrows labeled inhale, hold, exhale, hold — minimalist infographic style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The four-sided breath",
+      "body": "Picture tracing the edges of a square. Inhale slowly through your nose for 4 seconds. Hold your breath for 4. Exhale through your mouth for 4. Hold empty for 4. That's one cycle. Repeat for four minutes. It really is that simple — and that's part of why it works: there's nothing to screw up.",
+      "keyTerms": [
+        { "term": "Box breathing", "definition": "A 4-4-4-4 breathing pattern, also called square breathing or tactical breathing" },
+        { "term": "Apnea", "definition": "A deliberate pause in breathing — the 'holds' in the cycle" }
+      ],
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "A stopwatch face overlaid on a glowing square outline, each side of the square labeled with a number, soft blue tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it actually works",
+      "body": "Slow breathing — below about 6 breaths per minute — stimulates the vagus nerve, the long cable that tells your heart and gut to relax. Those breath-holds force a gentle rise in CO₂, which paradoxically calms the brain's alarm system. Within 90 seconds, heart rate drops, pupils shrink, and the prefrontal cortex — the part of you that thinks straight — comes back online.",
+      "funFact": "Former SEAL commander Mark Divine popularized the technique after using it on BUD/S training to stop his heart from 'jackhammering' before cold-water dives.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "A stylized cross-section of a torso showing the vagus nerve highlighted in glowing blue, anatomical illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Your 16-second reset",
+      "body": "You don't need an app, a cushion, or a quiet room. You need 16 seconds and the willingness to count. Try one cycle before your next hard conversation, before opening your inbox, before saying yes to something you'll regret. It's the oldest hack in the human toolkit — and it still works because you're still made of the same nervous system as a Viking, a monk, and a SEAL.",
+      "visual": {
+        "sfSymbol": "checkmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the timing pattern of box breathing?",
+      "options": ["4-7-8 seconds", "4-4-4-4 seconds", "6-2-6-2 seconds", "5-5-5 seconds"],
+      "correctIndex": 1,
+      "explanation": "Four seconds for each side of the box: inhale, hold, exhale, hold."
+    },
+    {
+      "index": 1,
+      "question": "Which nerve does slow breathing primarily stimulate to promote calm?",
+      "options": ["Sciatic nerve", "Optic nerve", "Vagus nerve", "Trigeminal nerve"],
+      "correctIndex": 2,
+      "explanation": "The vagus nerve is a key pathway of the parasympathetic ('rest and digest') system."
+    },
+    {
+      "index": 2,
+      "question": "Why do the breath-holds help calm the brain?",
+      "options": [
+        "They reduce oxygen to the brain",
+        "They cause a small CO₂ rise that calms the alarm system",
+        "They push blood away from the heart",
+        "They trigger adrenaline release"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mild CO₂ buildup during the holds has a counterintuitive calming effect on the limbic system."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Breath: The New Science of a Lost Art",
+      "publisher": "Riverhead Books",
+      "year": 2020
+    },
+    {
+      "title": "Effect of controlled breathing on heart rate variability",
+      "publisher": "Frontiers in Public Health",
+      "year": 2017
+    }
+  ],
+
+  "related": ["vagus-nerve", "wim-hof-method", "meditation-basics"]
+}

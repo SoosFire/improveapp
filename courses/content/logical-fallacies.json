@@ -1,0 +1,158 @@
+{
+  "id": "logical-fallacies",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "5 Logical Fallacies You've Heard This Week",
+    "teaser": "They hide in headlines, tweets, and family dinners. Once you know the names, you can't unsee them.",
+    "category": "Logic",
+    "subcategories": ["Critical Thinking", "Rhetoric"],
+    "tags": ["fallacies", "logic", "argumentation", "debate", "rhetoric"],
+    "emoji": "🤔",
+    "accentColor": "#8C3C4E",
+    "coverSymbol": {
+      "sfSymbol": "questionmark.diamond.fill",
+      "fallbackEmoji": "❓"
+    },
+    "coverImagePrompt": "A chessboard where the pieces are speech bubbles and question marks, locked in midgame tension, dramatic overhead lighting, editorial illustration style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The con artists of conversation",
+      "body": "Someone wins an argument they had no business winning. The logic felt slippery — you couldn't quite catch it — and suddenly you're the one apologizing. What just happened? Probably a logical fallacy. Philosophers have been cataloging these rhetorical sleights of hand for 2,400 years. Learn five of the most common ones, and your B.S. detector becomes nearly unbluffable.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "A magnifying glass hovering over a newspaper front page, revealing tiny hidden red arrows pointing to flawed logic, editorial illustration"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "#1 — The Straw Man",
+      "body": "You say: 'We should invest more in public transit.' They reply: 'So you want to ban cars entirely?' That's a straw man — distorting your argument into a weaker, scarier version so it's easier to knock down. The trick works because it's emotionally vivid. The defense: calmly restate what you actually said, and ask them to address the real version.",
+      "keyTerms": [
+        { "term": "Straw man", "definition": "Misrepresenting an argument to make it easier to attack" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "A literal straw scarecrow being knocked over by a boxing glove, comic editorial illustration, whimsical but pointed"
+      }
+    },
+    {
+      "index": 2,
+      "type": "concept",
+      "title": "#2 — Ad Hominem",
+      "body": "Instead of addressing the argument, attack the arguer. 'You can't talk about climate change — you flew here.' Maybe true. Maybe hypocritical. But it doesn't make the science wrong. Ad hominem turns the topic from 'is this claim correct?' into 'is this person likeable?' — and those are very different questions.",
+      "keyTerms": [
+        { "term": "Ad hominem", "definition": "Latin for 'to the person' — attacking the speaker instead of their argument" }
+      ],
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "Two cartoon debaters: one pointing at a complex diagram, the other pointing rudely at the first person's face, stark color contrast"
+      }
+    },
+    {
+      "index": 3,
+      "type": "concept",
+      "title": "#3 — The Slippery Slope",
+      "body": "'If we allow A, then B, then C, then the collapse of civilization.' Each step sounds a little plausible, but the chain multiplies small uncertainties into catastrophe. Sometimes slopes really are slippery — but often they're invoked to scare you out of a reasonable first step. Ask for actual evidence that step A causes step B, not just rhetoric.",
+      "keyTerms": [
+        { "term": "Slippery slope", "definition": "Assuming one small step leads inevitably to extreme consequences without evidence" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.right.circle.fill",
+        "imagePrompt": "A cartoon figure tumbling down a steep slope of increasingly dire consequences, each labeled with an imagined disaster"
+      }
+    },
+    {
+      "index": 4,
+      "type": "concept",
+      "title": "#4 — Appeal to Authority (when misused)",
+      "body": "'A Nobel laureate said so, therefore it's true.' Expertise matters — a cardiologist's view on heart surgery counts. But authority abused means citing someone outside their field, or an isolated opinion against a scientific consensus. A famous physicist's take on nutrition is just... a take. The argument still has to stand on evidence, not the nameplate behind it.",
+      "keyTerms": [
+        { "term": "Appeal to authority", "definition": "Using a source's status instead of actual evidence to prove a claim" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.circle.badge.checkmark",
+        "imagePrompt": "A formal portrait of a credentialed expert in a laboratory, subtly out of their depth discussing an unrelated field"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "#5 — False Dichotomy (and why all of this matters)",
+      "body": "'You're either with us or against us.' Reality usually offers more than two options. False dichotomies hide the middle ground to force a choice. Once you learn these five — straw man, ad hominem, slippery slope, misused authority, and false dichotomy — you'll catch at least one in every news hour you consume. You're not more cynical. You're just harder to trick.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a 'straw man' fallacy?",
+      "options": [
+        "Attacking the character of the speaker",
+        "Misrepresenting an argument to make it easier to attack",
+        "Assuming one step leads to catastrophe",
+        "Citing an unqualified expert"
+      ],
+      "correctIndex": 1,
+      "explanation": "You build a weaker, distorted version of the argument and attack that instead of the real one."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is a false dichotomy?",
+      "options": [
+        "'Experts say eggs are healthy.'",
+        "'You either support this bill or you hate freedom.'",
+        "'My opponent wants anarchy.'",
+        "'If we allow this, everything will collapse.'"
+      ],
+      "correctIndex": 1,
+      "explanation": "It presents only two extreme options when there are clearly more."
+    },
+    {
+      "index": 2,
+      "question": "When is an appeal to authority actually legitimate?",
+      "options": [
+        "Any time a famous person agrees",
+        "When the authority is a real expert in the relevant field and evidence supports them",
+        "Only during formal debates",
+        "Never — it's always a fallacy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Expert consensus in the right field, supported by evidence, is good reasoning. Name-dropping alone isn't."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Concise Introduction to Logic",
+      "publisher": "Cengage Learning",
+      "year": 2018
+    },
+    {
+      "title": "The Fallacy Detective",
+      "publisher": "Christian Logic",
+      "year": 2015
+    }
+  ],
+
+  "related": ["cognitive-biases", "rhetoric", "critical-thinking"]
+}

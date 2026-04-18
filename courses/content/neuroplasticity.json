@@ -1,0 +1,141 @@
+{
+  "id": "neuroplasticity",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Neuroplasticity: Your Brain Rewires Itself",
+    "teaser": "Your brain at 60 is not the brain you were born with — and not just because it's older. It's been physically rewiring all along.",
+    "category": "Neuroscience",
+    "subcategories": ["Brain Plasticity", "Learning"],
+    "tags": ["brain", "learning", "memory", "recovery", "neurons"],
+    "emoji": "🧩",
+    "accentColor": "#D36A4E",
+    "coverSymbol": {
+      "sfSymbol": "arrow.triangle.2.circlepath",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A glowing network of branching neurons rearranging themselves over time, time-lapse style with new connections sparking into existence, cinematic macro"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An old idea that turned out to be wrong",
+      "body": "For most of the 20th century, textbooks insisted the adult brain was fixed. Whatever you were born with, or developed as a child, was what you got. Then patients started recovering from strokes that should have been permanent. Blind people started 'seeing' through their tongues. The textbooks were wrong.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "An old medical textbook being dramatically rewritten by hand with fresh ink, close-up, moody lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'plasticity' actually means",
+      "body": "Neuroplasticity is the brain's ability to physically change in response to experience. That change happens at two scales. Structural plasticity: neurons grow new dendrites, form new synapses, and sometimes relocate entire functions from one brain region to another. Functional plasticity: existing connections get strengthened or weakened based on how often they fire. The brain isn't software on fixed hardware. The hardware itself is the software.",
+      "keyTerms": [
+        { "term": "Synapse", "definition": "The junction where one neuron passes a signal to another" },
+        { "term": "Long-term potentiation", "definition": "The strengthening of a synapse through repeated firing — the cellular basis of learning" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.connected.trianglepath.dotted",
+        "imagePrompt": "Two neurons with a glowing synapse between them, sparks visible across the gap"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Neurons that fire together, wire together",
+      "body": "The one-sentence summary comes from Donald Hebb in 1949: cells that repeatedly activate at the same time grow stronger connections. Practice a piano scale a thousand times and the neurons for those finger movements literally thicken their links. Stop practicing, and unused pathways get pruned — the brain is ruthless about real estate. This is why skills feel effortful at first and automatic later: they've moved from slow deliberate circuits to fast dedicated ones.",
+      "visual": {
+        "sfSymbol": "pianokeys",
+        "imagePrompt": "A pianist's hands in motion with faintly glowing nerve pathways extending from fingers up the arm"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "London cabbies and bigger brains",
+      "body": "A famous 2000 study scanned the brains of London taxi drivers, who must memorize 25,000 streets to pass 'The Knowledge' exam. Their posterior hippocampi — regions involved in spatial memory — were measurably larger than controls', and bigger still in drivers with more years on the job. Stroke rehabilitation tells a similar story: forcing patients to use a weakened limb can coax neighboring brain areas to take over lost function, sometimes recovering movement doctors once called impossible.",
+      "funFact": "When retired, cabbies' hippocampi start shrinking back toward normal size. The brain rents its real estate, it doesn't sell it.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A London black cab driving through foggy streets at night with an overlaid brain scan highlighting the hippocampus"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You are under construction",
+      "body": "Plasticity doesn't mean you can rewire yourself into anything — genes, age, and injury set real limits. But it does mean the brain you'll have tomorrow is partly a consequence of what you do today. Every practiced skill, every repeated thought pattern, leaves a fingerprint in physical tissue. That's a responsibility as much as a freedom.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which principle summarizes Hebbian learning?",
+      "options": [
+        "Use it or lose it",
+        "Neurons that fire together, wire together",
+        "One neuron, one memory",
+        "All learning happens in childhood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Donald Hebb proposed that repeated co-activation strengthens the connection between neurons — the foundation of learning."
+    },
+    {
+      "index": 1,
+      "question": "What did the London taxi driver study reveal?",
+      "options": [
+        "Cabbies have smaller hippocampi from stress",
+        "Their posterior hippocampi were enlarged, more so with experience",
+        "The adult brain cannot change in size",
+        "Driving shrinks the motor cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "Memorizing London's street network was associated with physical enlargement of spatial-memory regions."
+    },
+    {
+      "index": 2,
+      "question": "What happens to unused neural pathways over time?",
+      "options": [
+        "They stay identical forever",
+        "They grow stronger automatically",
+        "They get pruned back through lack of reinforcement",
+        "They migrate to other brain regions"
+      ],
+      "correctIndex": 2,
+      "explanation": "The brain prunes connections that aren't being used — a hallmark of how plasticity conserves resources."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Navigation-related structural change in the hippocampi of taxi drivers",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2000
+    },
+    {
+      "title": "The Organization of Behavior",
+      "publisher": "Wiley",
+      "year": 1949
+    }
+  ],
+
+  "related": ["hebbian-learning", "stroke-recovery", "critical-periods"]
+}

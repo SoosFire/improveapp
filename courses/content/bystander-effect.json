@@ -1,0 +1,141 @@
+{
+  "id": "bystander-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Bystander Effect",
+    "teaser": "Why do 38 witnesses watch a crime — and nobody calls the police?",
+    "category": "Sociology",
+    "subcategories": ["Social Psychology", "Group Behavior"],
+    "tags": ["psychology", "ethics", "groups", "classic-experiments"],
+    "emoji": "👥",
+    "accentColor": "#7A5FB5",
+    "coverSymbol": {
+      "sfSymbol": "person.3.fill",
+      "fallbackEmoji": "👥"
+    },
+    "coverImagePrompt": "A lone figure collapsed on a rainy city sidewalk at night, blurred silhouettes of passersby walking past, neon reflections in puddles, cinematic, moody, desaturated"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The murder nobody stopped",
+      "body": "In March 1964, a 28-year-old woman named Kitty Genovese was attacked outside her apartment in Queens, New York. The New York Times later reported that 38 neighbors heard her screams — and none called the police in time. The story horrified the country and sparked a question that still haunts psychology: why do people freeze when someone clearly needs help?",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "A dim 1960s Queens apartment window glowing at night, viewed from the street below"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The counterintuitive finding",
+      "body": "Two psychologists, John Darley and Bibb Latané, ran experiments at NYU in 1968 to test what seemed obvious: more people means more help. Instead, they found the opposite. When a participant thought they were the only witness to an emergency, 85% intervened. When they believed four others were also present, that dropped to 31%.",
+      "keyTerms": [
+        { "term": "Bystander effect", "definition": "The tendency for individuals to be less likely to help when others are present" },
+        { "term": "Diffusion of responsibility", "definition": "Each person feels less personally responsible because others could act" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A bar chart showing dramatic dropoff in helping behavior as group size increases, minimalist design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the crowd freezes",
+      "body": "Three forces stack against action. First, diffusion of responsibility: if ten people can help, why me? Second, pluralistic ignorance: you look at the calm faces around you and assume nothing is wrong. Third, evaluation apprehension: nobody wants to overreact and look foolish. In a crowd, everyone waits for someone else to move first — so nobody moves.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A diagram of arrows radiating outward, each person pointing responsibility to the next, minimalist illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The smoke-filled room",
+      "body": "In one chilling experiment, Latané and Darley had students fill out a survey while fake smoke seeped in under the door. Alone, 75% reported it within minutes. With two passive actors ignoring the smoke, only 10% said anything — some coughed through the haze rather than break the group's calm. The room filled with smoke and they sat there anyway.",
+      "funFact": "The original '38 witnesses' claim was later found to be exaggerated — but the psychology it inspired turned out to be painfully real.",
+      "visual": {
+        "sfSymbol": "smoke.fill",
+        "imagePrompt": "A small office room slowly filling with pale gray smoke, three figures hunched over paperwork, uneasy stillness"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to break the spell",
+      "body": "The antidote is specificity. If you ever need help in public, don't yell to the crowd — point at one person and say 'You, in the blue jacket, call 911.' Naming a single individual collapses diffusion of responsibility instantly. It's also why good first-aid training teaches you to assign tasks by finger-point. The bystander effect dissolves the moment someone is made personally accountable.",
+      "visual": {
+        "sfSymbol": "hand.point.up.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to Darley and Latané's experiments, what happens to helping behavior as group size increases?",
+      "options": [
+        "It increases proportionally",
+        "It stays roughly the same",
+        "It decreases sharply",
+        "It increases only for familiar groups"
+      ],
+      "correctIndex": 2,
+      "explanation": "Solo witnesses helped 85% of the time; in groups of five, that dropped to around 31%."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT a cause of the bystander effect?",
+      "options": [
+        "Diffusion of responsibility",
+        "Pluralistic ignorance",
+        "Evaluation apprehension",
+        "Sensory overload"
+      ],
+      "correctIndex": 3,
+      "explanation": "The three classic mechanisms are diffusion of responsibility, pluralistic ignorance, and evaluation apprehension."
+    },
+    {
+      "index": 2,
+      "question": "What's the most effective way to break the bystander effect when you need help?",
+      "options": [
+        "Shout loudly for help",
+        "Address one specific person directly",
+        "Wait for a group to gather",
+        "Apologize before asking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naming or pointing to a specific person assigns responsibility and bypasses the diffusion effect."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Bystander intervention in emergencies: Diffusion of responsibility",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 1968
+    },
+    {
+      "title": "The Witness Who Wasn't: The Kitty Genovese Story Revisited",
+      "publisher": "American Psychologist",
+      "year": 2007
+    }
+  ],
+
+  "related": ["conformity-asch", "milgram-experiment", "diffusion-of-responsibility"]
+}

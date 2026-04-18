@@ -1,0 +1,141 @@
+{
+  "id": "emergency-fund-math",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why You Need an Emergency Fund",
+    "teaser": "A broken car, a surprise bill, a lost job — what stands between you and a 22% APR credit card?",
+    "category": "Finance",
+    "subcategories": ["Personal Finance", "Budgeting"],
+    "tags": ["savings", "money", "risk", "debt", "planning"],
+    "emoji": "🛟",
+    "accentColor": "#2A9D8F",
+    "coverSymbol": {
+      "sfSymbol": "lifepreserver.fill",
+      "fallbackEmoji": "💰"
+    },
+    "coverImagePrompt": "A glass jar on a wooden table half-filled with neatly stacked banknotes and coins, soft window light, warm morning tones, shallow focus"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The $400 question",
+      "body": "The U.S. Federal Reserve regularly asks Americans a simple question: could you cover a $400 emergency expense without borrowing? For years, more than a third said no. That's not a story about poverty — it's a story about living with zero margin. And margin is the entire point of an emergency fund.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A cracked smartphone screen next to a coffee cup, with a printed repair quote showing $400"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What it actually is",
+      "body": "An emergency fund is a pile of cash you never spend on anything except genuine emergencies: job loss, surprise medical bills, a car you can't commute without. It doesn't earn glamorous returns — and that's the feature, not the bug. Its job is to be boring, liquid, and there.",
+      "keyTerms": [
+        { "term": "Liquid", "definition": "Easy to convert to cash without losing value" },
+        { "term": "Opportunity cost", "definition": "The return you give up by holding cash instead of investing" }
+      ],
+      "visual": {
+        "sfSymbol": "banknote.fill",
+        "imagePrompt": "A savings account statement with a highlighted balance, clean minimalist design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three to six months — and why",
+      "body": "The standard rule is three to six months of essential expenses. Not your full lifestyle — just rent, food, insurance, utilities, minimum debt payments. Three months if you have a stable salary and a partner with income. Six or more if you're self-employed, have dependents, or work in a cyclical industry. The fund buys you time to make decisions instead of panic-taking the first job offer.",
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A clean infographic showing three, six, and nine month 'buckets' of essential expenses"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The math of borrowing instead",
+      "body": "Say an AC unit dies and costs $3,000. Put it on a credit card at 22% APR and pay $100/month, and you'll end up paying back roughly $4,100 over three and a half years. With an emergency fund, the same repair costs $3,000. Flat. The fund isn't really about the emergency — it's about not paying a private interest tax on every bad day of your life.",
+      "funFact": "A 2023 Bankrate survey found that only 44% of Americans could cover a $1,000 surprise expense from savings alone.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A line chart showing two curves — flat cash vs rising credit card balance over 3 years"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Start ugly, start small",
+      "body": "The first $1,000 matters most. It covers the vast majority of real-world emergencies and breaks the borrow-to-survive cycle. Put it in a high-yield savings account in a bank separate from your checking — friction is a feature. Then build toward three months. The goal isn't perfection. It's never letting a bad week become a bad year.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the recommended size of a typical emergency fund?",
+      "options": [
+        "One week of income",
+        "One month of total spending",
+        "Three to six months of essential expenses",
+        "One full year of salary"
+      ],
+      "correctIndex": 2,
+      "explanation": "Three to six months of essential (not total) expenses is the standard target."
+    },
+    {
+      "index": 1,
+      "question": "Why should an emergency fund be held in a liquid account?",
+      "options": [
+        "To earn the highest possible return",
+        "So it can be accessed quickly without penalty",
+        "To avoid paying taxes",
+        "Because it grows faster that way"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emergencies don't wait — you need to access the money without selling investments or paying withdrawal penalties."
+    },
+    {
+      "index": 2,
+      "question": "What is the main financial cost of not having an emergency fund?",
+      "options": [
+        "Lower credit score from unused cards",
+        "Paying high interest on emergency borrowing",
+        "Higher insurance premiums",
+        "Missing out on stock market returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without cash on hand, emergencies get charged to high-interest debt — often at 20%+ APR."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Report on the Economic Well-Being of U.S. Households",
+      "publisher": "U.S. Federal Reserve",
+      "year": 2023
+    },
+    {
+      "title": "Emergency Savings Report",
+      "publisher": "Bankrate",
+      "year": 2023
+    }
+  ],
+
+  "related": ["index-funds-explained", "budgeting-50-30-20", "high-yield-savings"]
+}

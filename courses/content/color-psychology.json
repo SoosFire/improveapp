@@ -1,0 +1,144 @@
+{
+  "id": "color-psychology",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Colors Shape Feelings",
+    "teaser": "Red raises your heart rate. Blue slows your pulse. What's really going on between your eyes and your mood?",
+    "category": "Design",
+    "subcategories": ["Visual Design", "Psychology"],
+    "tags": ["color", "psychology", "perception", "branding", "emotion"],
+    "emoji": "🎨",
+    "accentColor": "#C8484A",
+    "coverSymbol": {
+      "sfSymbol": "paintpalette.fill",
+      "fallbackEmoji": "🌈"
+    },
+    "coverImagePrompt": "A split-screen portrait of the same face lit from one side by warm red light and the other by cool blue light, studio photography, emotionally charged cinematic mood"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The pink drunk tank",
+      "body": "In 1979, a Seattle naval corrections officer painted his holding cells a bubblegum shade of pink and reported that aggressive detainees visibly calmed down within minutes. Prisons across the country copied it. The shade became known as 'Baker-Miller pink' — and for a while, the US Navy believed it could defuse violence by paint alone. Color, it turns out, is not just decoration.",
+      "visual": {
+        "sfSymbol": "eyes.inverse",
+        "imagePrompt": "A stark concrete holding cell painted entirely bubblegum pink, harsh overhead lighting, documentary photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How color becomes feeling",
+      "body": "Light enters the eye, hits cone cells tuned to short, medium, and long wavelengths, and gets sent to the brain — where color signals branch off before they even become 'pictures' and brush past the amygdala and hypothalamus. These are the same structures that handle fear, arousal, and temperature regulation. That's why color can change your heart rate before you know you've seen it.",
+      "keyTerms": [
+        { "term": "Cones", "definition": "Photoreceptor cells in the retina responsible for color vision" },
+        { "term": "Amygdala", "definition": "A brain region that processes emotional significance, including color-linked reactions" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A cross-section diagram of the human eye and brain showing color signals branching to the amygdala, medical illustration style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Universal vs. cultural",
+      "body": "Some reactions are close to universal: red increases alertness and is easily associated with blood or ripe fruit; blue light suppresses melatonin production. But many meanings are learned. In China, red signals luck; in much of Europe, white signals purity; in Korea, it has traditionally signaled mourning. A good designer knows which layer of association they're working with.",
+      "keyTerms": [
+        { "term": "Melatonin", "definition": "The hormone that promotes sleep; its release is suppressed by blue wavelengths" }
+      ],
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": "Three wedding scenes side-by-side — a Western bride in white, a Chinese bride in red, a Korean mourning scene in white — soft documentary style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The red-shirt effect",
+      "body": "In a landmark 2005 Nature study, anthropologists Hill and Barton analyzed four combat sports at the Athens Olympics and found competitors assigned red uniforms won significantly more often than those assigned blue — even though the assignment was random. A later study found referees also award more points to competitors in red. Red doesn't just feel stronger; it reliably biases judgment.",
+      "funFact": "Facebook's core blue wasn't a strategic choice — Mark Zuckerberg is red-green colorblind, and blue is the color he sees most clearly.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "Two boxers in red and blue gear facing off under Olympic spotlights, motion blur, editorial photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Design with the whole brain",
+      "body": "Color isn't decoration sprinkled on top of a design — it's part of the message itself. Before you pick a palette, ask what you want the user's body to feel: calm, alert, trusted, warned. Then check what that palette means in their culture. The eye is fast. The brain is faster still.",
+      "visual": {
+        "sfSymbol": "swatchpalette.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why can color affect your heart rate before you consciously recognize it?",
+      "options": [
+        "Because cone cells regulate heart rhythm",
+        "Because color signals pass through emotion-processing brain regions",
+        "Because color changes blood pressure directly",
+        "Because the retina is connected to the heart"
+      ],
+      "correctIndex": 1,
+      "explanation": "Color information branches through regions like the amygdala and hypothalamus, which handle arousal before conscious perception completes."
+    },
+    {
+      "index": 1,
+      "question": "What did the Hill & Barton 2005 Olympic study find?",
+      "options": [
+        "Athletes in blue uniforms were stronger",
+        "Uniform color had no measurable effect",
+        "Athletes randomly assigned red won significantly more often",
+        "Spectators preferred blue uniforms"
+      ],
+      "correctIndex": 2,
+      "explanation": "Red-uniformed competitors won significantly more bouts even though color assignment was random."
+    },
+    {
+      "index": 2,
+      "question": "Which meaning of color is NOT universal across cultures?",
+      "options": [
+        "Red increases physiological arousal",
+        "Blue light suppresses melatonin",
+        "White signals purity in all cultures",
+        "Color perception depends on cone cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "White signals purity in many Western contexts, but mourning in several East Asian traditions."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Red enhances human performance in contests",
+      "publisher": "Nature (Hill & Barton)",
+      "year": 2005
+    },
+    {
+      "title": "Color Psychology: A Handbook of Theory and Practice",
+      "publisher": "Wiley-Blackwell (Andrew J. Elliot et al.)",
+      "year": 2015
+    }
+  ],
+
+  "related": ["dieter-rams-ten-principles", "fitts-law", "gestalt-principles"]
+}

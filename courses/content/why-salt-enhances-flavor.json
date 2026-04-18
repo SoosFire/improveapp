@@ -1,0 +1,136 @@
+{
+  "id": "why-salt-enhances-flavor",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Salt Makes Everything Taste Better",
+    "teaser": "Salt doesn't just taste salty — it hacks your tongue, your ingredients, and even suppresses bitterness. Here's how.",
+    "category": "Cooking",
+    "subcategories": ["Flavor Science", "Seasoning"],
+    "tags": ["salt", "flavor", "cooking", "chemistry", "taste"],
+    "emoji": "🧂",
+    "accentColor": "#F4A261",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "🧂"
+    },
+    "coverImagePrompt": "A dramatic shot of flaky sea salt crystals falling in slow motion over a steaming dish, warm golden kitchen light, macro cinematic style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The forgotten pinch",
+      "body": "You taste the soup. Something's off. Not bad, just... flat. Chef grabs a pinch of salt, flicks it in. You taste again — and suddenly the tomatoes taste more like tomatoes, the basil blooms, the whole bowl wakes up. Nothing was added in terms of flavor. So what actually happened?",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A chef's hand sprinkling salt over a steaming bowl of red soup, shallow depth of field, warm rustic kitchen"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Four jobs at once",
+      "body": "Salt doesn't just add a 'salty' note. It does four things simultaneously: amplifies existing flavors, suppresses bitterness, balances sweetness, and changes the texture of proteins. That's why a pinch of salt in chocolate chip cookies or coffee doesn't taste salty — it tastes more chocolatey, more coffee-ish. You're not adding flavor. You're tuning it.",
+      "keyTerms": [
+        { "term": "Sodium chloride", "definition": "The chemical name for table salt (NaCl), the active ingredient" },
+        { "term": "Flavor enhancer", "definition": "A substance that makes other flavors taste stronger without adding its own" }
+      ],
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "Four glowing dials on a chef's counter, each labeled with a different taste effect"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The bitterness trick",
+      "body": "Bitterness and saltiness compete for attention on your taste receptors. When salt shows up, it physically blocks some of the signals bitter compounds send to your brain. That's why salted grapefruit tastes less harsh, why a pinch of salt rescues over-steeped tea, and why chefs salt onions early — to tame the sharp bite while the sweetness stays. Less bitter equals more everything else.",
+      "visual": {
+        "sfSymbol": "mouth.fill",
+        "imagePrompt": "Stylized tongue map with receptor sites lighting up in different colors, salt crystals covering bitter zones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the studies show",
+      "body": "Research from Paul Breslin's lab at Monell Chemical Senses Center showed that adding salt to foods high in bitter compounds — like grapefruit juice or certain vegetables — significantly lowered perceived bitterness while increasing perceived sweetness. The effect wasn't just psychological. Salt ions directly interfere with bitter taste receptor signaling. It's chemistry, not preference.",
+      "funFact": "Victorian cooks sprinkled salt on cantaloupe on purpose — to suppress its subtle bitterness and bring out the sweet. We'd just call it 'odd' today, but they were on to something.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A scientific taste-test panel setup, cups of liquid on a white table with clipboards, clean lab aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Salt earlier, salt in layers",
+      "body": "The chef trick isn't salting more — it's salting sooner. A pinch at the start seasons the onions as they sweat. Another during the simmer seasons the broth. A finishing flake on top seasons your tongue directly. Each layer does a different job. Taste as you go. Salt is the volume knob on every other ingredient in the dish.",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Salt suppresses which taste most dramatically?",
+      "options": ["Sweetness", "Bitterness", "Sourness", "Umami"],
+      "correctIndex": 1,
+      "explanation": "Sodium ions interfere with bitter receptor signaling, letting sweetness and other flavors come forward."
+    },
+    {
+      "index": 1,
+      "question": "Why does a pinch of salt in chocolate chip cookies not taste salty?",
+      "options": [
+        "The sugar cancels it out chemically",
+        "It's too small a quantity to detect, so it only enhances other flavors",
+        "Cookies neutralize salt",
+        "Baking destroys sodium"
+      ],
+      "correctIndex": 1,
+      "explanation": "In small doses salt stays below the 'salty' threshold but still amplifies other flavors and tames bitterness."
+    },
+    {
+      "index": 2,
+      "question": "What's the key advantage of salting in layers throughout cooking?",
+      "options": [
+        "It makes food less healthy",
+        "Different ingredients absorb and interact with salt at different points",
+        "It changes the color of the food",
+        "It prevents sticking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Salting in stages lets each ingredient be seasoned as it cooks, creating depth rather than a single salty top note."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An epicurean's guide to the five senses: Sodium, bitterness, and taste",
+      "publisher": "Paul A. S. Breslin, Current Biology",
+      "year": 2013
+    },
+    {
+      "title": "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking",
+      "publisher": "Samin Nosrat, Simon & Schuster",
+      "year": 2017
+    }
+  ],
+
+  "related": ["umami-fifth-taste", "why-onions-make-you-cry", "maillard-reaction"]
+}

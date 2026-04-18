@@ -1,0 +1,144 @@
+{
+  "id": "whale-fall-ecosystems",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Whale Fall: How a Dead Whale Feeds a World",
+    "teaser": "When a whale dies and sinks, its body becomes a tropical island on the abyss floor — hosting creatures that exist nowhere else.",
+    "category": "Marine Life",
+    "subcategories": ["Deep Sea", "Ecology"],
+    "tags": ["whale-fall", "deep-sea", "ecosystem", "decomposition"],
+    "emoji": "🐋",
+    "accentColor": "#1F3A5F",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "🌊"
+    },
+    "coverImagePrompt": "A massive whale skeleton resting on the pitch-dark ocean floor, illuminated by a submersible's bluish light, swarming with pale deep-sea crabs and shimmering tube worms, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A gift from above",
+      "body": "The deep sea is mostly a starved desert. No sunlight reaches down there, no plants grow, and very little food drifts in. Then, maybe once a year for every few square kilometers, the sky suddenly delivers a 40-ton corpse. A dead whale, sinking slowly in free fall, eventually lands on the seabed — and becomes, overnight, the richest habitat for miles.",
+      "visual": {
+        "sfSymbol": "arrow.down",
+        "imagePrompt": "A whale silhouette slowly descending through increasingly dark blue depths, shafts of light dwindling above"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A single carcass, three ecosystems",
+      "body": "Biologists describe a whale fall as passing through three distinct stages. In the 'mobile scavenger' stage, sleeper sharks, hagfish, and amphipods tear through soft flesh in a matter of months. Next comes the 'enrichment opportunist' stage, where worms and crustaceans colonize the surrounding ooze, feeding on fragments. Finally, in the 'sulfophilic' stage — lasting decades — chemosynthetic bacteria feed on sulfur compounds leaking from decaying bones.",
+      "keyTerms": [
+        { "term": "Whale fall", "definition": "The carcass of a whale that has sunk to the deep seafloor, and the ecosystem that forms around it" },
+        { "term": "Chemosynthesis", "definition": "The process by which bacteria produce energy from chemical reactions instead of sunlight" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A stylized three-panel illustration showing the whale body in three successive decay stages"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Bones that feed a city",
+      "body": "A whale's skeleton can be 2,000 kilograms of lipid-rich bone. As those bones slowly break down, they leak hydrogen sulfide and methane. Specialized bacteria turn that chemistry into energy, just as they do at hydrothermal vents. A suite of animals — including bone-eating worms in the genus Osedax — has evolved to depend specifically on whale bones as their only food source. These species exist because whales do.",
+      "keyTerms": [
+        { "term": "Osedax", "definition": "A genus of deep-sea worms that bore into whale bones and extract lipids via symbiotic bacteria" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "An extreme close-up of feathery red Osedax worms blooming out of a yellowed whale rib like underwater flowers"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Stepping stones across the dark",
+      "body": "Scientists think whale falls act as biological stepping stones — each one a temporary oasis that lets deep-sea species disperse from one vent or seep to the next. Researchers using submersibles have catalogued over 60 species found only at whale falls. When commercial whaling wiped out 90% of large whales, ecologists now suspect we accidentally impoverished the abyss itself, cutting off a major subsidy the deep sea had evolved to depend on.",
+      "funFact": "A single large whale fall can deliver as much organic carbon to the deep seafloor as roughly 2,000 years of normal marine snow drifting down.",
+      "visual": {
+        "sfSymbol": "point.topleft.down.to.point.bottomright.curvepath",
+        "imagePrompt": "A dark seafloor map with glowing whale-shaped hotspots connected by faint dotted paths"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Even in death, connected",
+      "body": "A whale fall is a beautiful reminder that 'the ecosystem' doesn't end when an individual dies. A single life can feed a whole community for a century after it ends, in an environment most creatures never see. Every whale that swims the surface is also, quietly, someone's future home.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which is NOT one of the three classic stages of a whale fall?",
+      "options": [
+        "Mobile scavenger stage",
+        "Enrichment opportunist stage",
+        "Sulfophilic stage",
+        "Photosynthetic stage"
+      ],
+      "correctIndex": 3,
+      "explanation": "There's no sunlight at the deep seafloor — nothing photosynthesizes there. The actual final stage is sulfur-loving bacterial communities."
+    },
+    {
+      "index": 1,
+      "question": "What do Osedax worms specialize in?",
+      "options": [
+        "Eating jellyfish",
+        "Extracting lipids from whale bones",
+        "Catching shrimp",
+        "Filtering plankton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Osedax — 'bone-devourers' — burrow into whale bones using symbiotic bacteria to break down fats trapped inside."
+    },
+    {
+      "index": 2,
+      "question": "How do whale-fall bacteria get their energy in the absence of sunlight?",
+      "options": [
+        "From bioluminescence",
+        "From chemosynthesis using sulfur compounds",
+        "From moonlight",
+        "From filtered oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chemosynthetic bacteria convert hydrogen sulfide from the decaying bones into energy, much like at hydrothermal vents."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Ecology of Whale Falls at the Deep-Sea Floor",
+      "publisher": "Oceanography and Marine Biology (Smith & Baco)",
+      "year": 2003
+    },
+    {
+      "title": "Osedax: Bone-Eating Worms",
+      "publisher": "Monterey Bay Aquarium Research Institute (MBARI)",
+      "year": 2019
+    }
+  ],
+
+  "related": ["hydrothermal-vents", "marine-snow", "deep-sea-exploration"]
+}

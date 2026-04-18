@@ -1,0 +1,136 @@
+{
+  "id": "golden-hour-photography",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Photographers Chase Golden Hour",
+    "teaser": "For about 60 minutes a day, sunlight becomes a portrait lens. Here's the physics behind the world's prettiest light.",
+    "category": "Photography",
+    "subcategories": ["Lighting", "Landscape"],
+    "tags": ["golden hour", "light", "atmosphere", "landscape", "portraits"],
+    "emoji": "🌇",
+    "accentColor": "#E89B5A",
+    "coverSymbol": {
+      "sfSymbol": "sun.max.fill",
+      "fallbackEmoji": "🌇"
+    },
+    "coverImagePrompt": "A lone photographer silhouetted on a hilltop at sunset, long grass bending in honey-colored light, cinematic wide shot, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The hour that flatters everything",
+      "body": "There's a reason wedding photographers beg couples to get married in late afternoon. For roughly an hour after sunrise and before sunset, ordinary parking lots, faces, and tree trunks become cinematic. Skin glows. Shadows stretch like taffy. It doesn't just look better — it *is* better, in a precise, measurable way.",
+      "visual": {
+        "sfSymbol": "sunset.fill",
+        "imagePrompt": "A couple walking hand in hand through tall grass in late sunlight, golden rim-lit silhouettes, cinematic warmth"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why the sun turns warm",
+      "body": "When the sun is low on the horizon, its light travels through much more of Earth's atmosphere than at noon — up to 40 times more air. The atmosphere scatters short blue wavelengths away, leaving the long red and orange wavelengths to reach your camera. The same physics that paints sunsets paints everything beneath them.",
+      "keyTerms": [
+        { "term": "Rayleigh scattering", "definition": "The scattering of short wavelengths of light by atmospheric molecules" },
+        { "term": "Color temperature", "definition": "How 'warm' or 'cool' light looks, measured in Kelvin — golden hour is around 3,000 K" }
+      ],
+      "visual": {
+        "sfSymbol": "cloud.sun.fill",
+        "imagePrompt": "A diagram showing sunlight traveling through a thicker slice of atmosphere at sunset versus thinner at noon"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Soft light, long shadows",
+      "body": "Besides color, golden hour changes the *quality* of light. The lower sun acts like a massive softbox — the light hits subjects sideways, wrapping around faces and objects instead of slamming down from above. That's why portraits taken at noon look harsh and unflattering, while the same face at 6 p.m. suddenly looks like a magazine cover.",
+      "visual": {
+        "sfSymbol": "person.crop.rectangle",
+        "imagePrompt": "Side-by-side portraits of the same person at noon and at sunset, the difference in mood dramatic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Hollywood built an industry on it",
+      "body": "Cinematographers call it 'magic hour,' and films like Terrence Malick's *Days of Heaven* were shot almost entirely within that brief window — crews would race to set up each day. Modern directors from Roger Deakins to Emmanuel Lubezki plan entire shooting schedules around it. Instagram filters are, at their heart, trying to simulate this hour of light.",
+      "funFact": "*Days of Heaven* (1978) took two entire summers to shoot because director Terrence Malick refused to film outside magic hour — roughly 20 minutes of usable light per day.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "A vintage film set at sunset with a crew hurrying beside a large camera, warm backlight glow"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Don't fight the clock — use it",
+      "body": "You can buy better lenses, lights, and editing software, but the single biggest improvement most photographers can make is free: show up at the right time of day. Check a golden hour app, arrive 30 minutes early, and let physics do the heavy lifting. The best photographers aren't the ones with the best gear — they're the ones who care enough to wait for the light.",
+      "visual": {
+        "sfSymbol": "clock.badge.checkmark.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why is golden hour light warm in color?",
+      "options": [
+        "The sun is actually hotter at sunset",
+        "Blue wavelengths are scattered away by the atmosphere",
+        "Cameras adjust their white balance",
+        "The ozone layer turns orange"
+      ],
+      "correctIndex": 1,
+      "explanation": "At low angles, sunlight travels through more atmosphere, scattering blue light and leaving warmer reds and oranges."
+    },
+    {
+      "index": 1,
+      "question": "Approximately how long is 'golden hour'?",
+      "options": ["5–10 minutes", "About 1 hour", "Exactly 2 hours", "The entire afternoon"],
+      "correctIndex": 1,
+      "explanation": "Golden hour is roughly the hour after sunrise and before sunset, though the exact length varies by latitude and season."
+    },
+    {
+      "index": 2,
+      "question": "Why does golden hour light flatter faces so well?",
+      "options": [
+        "It's brighter than noon light",
+        "The sun acts like a massive sidelight softbox",
+        "It has more UV rays",
+        "It makes pupils dilate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low, angled sunlight wraps gently around faces, creating soft shadows rather than harsh overhead ones."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Light Science and Magic: An Introduction to Photographic Lighting",
+      "publisher": "Routledge",
+      "year": 2018
+    },
+    {
+      "title": "Masters of Light: Conversations with Contemporary Cinematographers",
+      "publisher": "University of California Press",
+      "year": 2013
+    }
+  ],
+
+  "related": ["exposure-triangle", "depth-of-field", "first-photograph"]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "how-trees-drink-water",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Trees Pull Water Up 100 Meters",
+    "teaser": "No pump, no heart, no moving parts — so how does a redwood lift a bathtub of water into the sky every day?",
+    "category": "Botany",
+    "subcategories": ["Plant Physiology", "Trees"],
+    "tags": ["trees", "water", "xylem", "physics", "botany"],
+    "emoji": "🌳",
+    "accentColor": "#2F5D3A",
+    "coverSymbol": {
+      "sfSymbol": "tree.fill",
+      "fallbackEmoji": "🌲"
+    },
+    "coverImagePrompt": "Looking straight up the trunk of a colossal redwood tree, sunlight piercing through mist in the canopy above, bark textures crisp, cinematic awe"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The tallest plumbing on Earth",
+      "body": "A mature coast redwood can stand 115 meters tall — the height of a 35-story building. Every day, it hauls hundreds of liters of water from its roots up to the highest needle. No heart beats inside it. No pump whirs. The whole system runs in complete silence. And yet pure physics says water shouldn't be able to climb that high at all.",
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "A cross-section illustration of a giant redwood with a thin continuous blue water thread running from roots to canopy"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why suction alone fails",
+      "body": "If you tried to suck water up a straw, atmospheric pressure limits you to about 10.3 meters. Above that height, the water column breaks — that's why there's a hard ceiling on how deep a well pump can pull from. Trees routinely beat this limit by a factor of ten. They're not sucking. They're pulling — with tension stronger than many metals.",
+      "keyTerms": [
+        { "term": "Xylem", "definition": "The network of tiny tubes inside a tree that carries water upward" },
+        { "term": "Transpiration", "definition": "The evaporation of water from leaf pores, which drives the upward pull" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.to.line",
+        "imagePrompt": "A comparison diagram showing a 10-meter limit for suction next to a 100-meter redwood, with annotations"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The cohesion-tension trick",
+      "body": "Inside a leaf, tiny pores called stomata release water vapor to the air. Each escaping molecule tugs on the one beneath it, and because water molecules cling together through hydrogen bonds, the whole column behaves like a single continuous thread — as tough as a steel wire of equal thickness. Sunlight on leaves is effectively lifting water a hundred meters up, one molecule at a time.",
+      "funFact": "A large oak can transpire around 150,000 liters of water per year — enough to fill a backyard swimming pool.",
+      "visual": {
+        "sfSymbol": "link",
+        "imagePrompt": "A molecular-scale illustration of water molecules linked by hydrogen bonds forming a continuous thread inside a xylem vessel"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "There is a ceiling",
+      "body": "In 2004, researchers climbing California's Hyperion tree — the tallest known living thing at 115.7 m — measured the water tension at the top and found leaves there were visibly smaller and more stressed. Their calculations suggested trees taller than about 122–130 meters would struggle to pull water at all. The xylem thread snaps. There is, in other words, a physical limit to how tall a tree can grow on Earth, and the redwoods are already touching it.",
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A botanist high in the canopy of a redwood measuring pressure with a specialized instrument"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Quiet miracles",
+      "body": "The tree in your backyard is running a pump powered entirely by sunlight and water's refusal to let go of itself. It's one of the most elegant pieces of natural engineering we know — and it sets the ceiling on how tall anything rooted in soil can ever be.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the maximum height a perfect suction pump can pull water at sea level?",
+      "options": ["About 1 meter", "About 10 meters", "About 50 meters", "About 100 meters"],
+      "correctIndex": 1,
+      "explanation": "Atmospheric pressure caps pure suction at roughly 10.3 meters — far below what trees routinely achieve."
+    },
+    {
+      "index": 1,
+      "question": "What keeps the water column in a tree unbroken as it rises?",
+      "options": [
+        "A tiny internal heart",
+        "Air pressure from the roots",
+        "Hydrogen bonds between water molecules (cohesion)",
+        "Capillary action in tiny hairs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Water molecules cling to each other with hydrogen bonds, letting the column behave like a single rope under tension."
+    },
+    {
+      "index": 2,
+      "question": "According to the 2004 Hyperion tree study, what is the approximate physical height limit for trees on Earth?",
+      "options": ["About 50 meters", "About 80 meters", "About 122–130 meters", "There is no limit"],
+      "correctIndex": 2,
+      "explanation": "The cohesion-tension system breaks somewhere above roughly 122–130 meters, which is why the tallest trees hover near that ceiling."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The limits to tree height",
+      "publisher": "Nature",
+      "year": 2004
+    },
+    {
+      "title": "Water transport in plants: Physical basis and ecological consequences",
+      "publisher": "Annual Review of Plant Biology",
+      "year": 2006
+    }
+  ],
+
+  "related": ["redwood-ecology", "transpiration", "plant-cell-structure"]
+}

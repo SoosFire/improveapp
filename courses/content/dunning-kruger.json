@@ -1,0 +1,141 @@
+{
+  "id": "dunning-kruger",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Dunning-Kruger Effect",
+    "teaser": "The less you know about a subject, the more confident you tend to be. And it all started with a bank robber covered in lemon juice.",
+    "category": "Psychology",
+    "subcategories": ["Cognitive Bias", "Self-Perception"],
+    "tags": ["bias", "metacognition", "confidence", "dunning-kruger", "self-awareness"],
+    "emoji": "📈",
+    "accentColor": "#E8A935",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.uptrend.xyaxis",
+      "fallbackEmoji": "📊"
+    },
+    "coverImagePrompt": "A confident figure standing atop a tiny hill labeled 'Mount Stupid,' a much taller mountain of true expertise looming behind in fog, editorial illustration style, warm muted colors"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The lemon-juice bandit",
+      "body": "In 1995, McArthur Wheeler walked into two Pittsburgh banks in broad daylight and robbed them — without a mask. He'd covered his face in lemon juice because he knew lemon juice is used as invisible ink. He was sure the cameras wouldn't see him. They did. Watching the news, a psychology professor named David Dunning had a thought: what if some people are so bad at something, they can't even tell they're bad at it?",
+      "visual": {
+        "sfSymbol": "camera.fill",
+        "imagePrompt": "Grainy black-and-white security footage of a man with his face glistening wet, looking directly up at a CCTV camera, 1990s aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A double curse",
+      "body": "Dunning and his student Justin Kruger tested this in 1999. They had people complete tests in logic, grammar, and humor, then asked them to estimate how well they'd done. Novices consistently rated themselves far better than they actually were. Experts, meanwhile, slightly underestimated themselves — assuming everyone else found it easy too. The skill you need to do something well is often the same skill you need to recognize you're doing it badly.",
+      "keyTerms": [
+        { "term": "Dunning-Kruger effect", "definition": "The cognitive bias where low-skill people overestimate their ability and high-skill people underestimate theirs" },
+        { "term": "Metacognition", "definition": "The ability to think about and evaluate your own thinking" }
+      ],
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two people side by side: one confidently holding a wonky sketch, the other anxiously holding a masterful painting, editorial illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why beginners can't see the cliff",
+      "body": "To judge your grammar, you have to understand grammar. To judge your logic, you have to understand logic. If you don't know the rules, you can't notice when you break them — so everything looks fine. This is why learning a topic often makes you feel dumber, not smarter: you finally acquire the instruments to measure how much you don't know.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A hiker walking confidently toward a cliff edge hidden by fog, crisp cinematic lighting, unsettling"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It's not just trivia",
+      "body": "The effect has been replicated in everything from firearm safety to medical diagnosis to driving ability. Roughly 80% of drivers rate themselves as above average — a statistical impossibility. In one study, surgeons with the worst outcomes were also the most confident in their skills. The pattern is remarkably consistent across cultures and domains.",
+      "funFact": "A recent re-analysis has argued the classic graph is partly a statistical artifact called 'regression toward the mean' — meaning the effect is real, but smaller and subtler than pop culture suggests.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "A stylized chart showing the famous 'confidence vs. competence' curve, rising sharply then crashing into a valley before slowly climbing again"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Doubt is a feature",
+      "body": "The Dunning-Kruger effect isn't about stupid people — it's about all of us, in every field we've just started. The cure isn't confidence; it's feedback. If you ever feel certain you've mastered something quickly, treat it as a signal to look harder. The people who are actually competent almost always feel a little uneasy.",
+      "visual": {
+        "sfSymbol": "questionmark.diamond.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What sparked David Dunning's research into the effect?",
+      "options": [
+        "A failed exam he gave his students",
+        "A bank robber who covered himself in lemon juice",
+        "His own driving test",
+        "A famous chess match"
+      ],
+      "correctIndex": 1,
+      "explanation": "McArthur Wheeler's 1995 bank robbery — where he believed lemon juice would make him invisible to cameras — inspired Dunning's research."
+    },
+    {
+      "index": 1,
+      "question": "Which statement best captures the Dunning-Kruger effect?",
+      "options": [
+        "Smart people are always confident",
+        "Low-skill people tend to overestimate their ability; experts sometimes underestimate theirs",
+        "Confidence improves skill",
+        "Everyone underestimates themselves equally"
+      ],
+      "correctIndex": 1,
+      "explanation": "Novices lack the metacognitive tools to see their errors, while experts assume tasks are easier than they are."
+    },
+    {
+      "index": 2,
+      "question": "Why do beginners struggle to notice they're wrong?",
+      "options": [
+        "They don't care",
+        "The same knowledge needed to perform well is needed to recognize poor performance",
+        "They're too nervous",
+        "They have bad memories"
+      ],
+      "correctIndex": 1,
+      "explanation": "You need the underlying knowledge to measure your own performance — without it, everything looks fine."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 1999
+    },
+    {
+      "title": "The Dunning-Kruger Effect Is Autocorrelation",
+      "publisher": "Economics from the Top Down",
+      "year": 2022
+    }
+  ],
+
+  "related": ["cognitive-biases", "imposter-syndrome", "metacognition"]
+}

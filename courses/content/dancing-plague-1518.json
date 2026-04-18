@@ -1,0 +1,135 @@
+{
+  "id": "dancing-plague-1518",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Dancing Plague of 1518",
+    "teaser": "In a hot July, hundreds of people danced until they dropped — some literally to death. Nobody knows why.",
+    "category": "History",
+    "subcategories": ["Medieval History", "Medical Mysteries"],
+    "tags": ["strasbourg", "mass hysteria", "medieval", "medicine", "mystery"],
+    "emoji": "💃",
+    "accentColor": "#9B2C4F",
+    "coverSymbol": {
+      "sfSymbol": "figure.dance",
+      "fallbackEmoji": "💃"
+    },
+    "coverImagePrompt": "A medieval cobblestone square at dusk filled with exhausted, frantic dancers, musicians playing in the background, candlelight and shadow, painterly and haunting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It started with one woman",
+      "body": "In July 1518, a woman named Frau Troffea stepped out onto a narrow street in Strasbourg and began to dance. No music. No celebration. Just dance — for hours, then days. Within a week, 34 people had joined her. Within a month, roughly 400. Some died of heart attacks, strokes, or sheer exhaustion. And no one could make them stop.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A single woman in medieval dress dancing alone in a narrow cobblestone alley, townspeople watching from doorways, warm dusk light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Not a metaphor — actually dancing",
+      "body": "Contemporary city records, physician notes, and church accounts agree on the basic facts: real people, in real numbers, dancing involuntarily for weeks. This wasn't a panic-attack shuffle. Eyewitnesses described jerking, leaping, foaming at the mouth, and expressions of terror on the dancers' faces. Many said they wanted to stop but couldn't.",
+      "keyTerms": [
+        { "term": "Choreomania", "definition": "Historical term for episodes of involuntary, sometimes fatal, group dancing" }
+      ],
+      "visual": {
+        "sfSymbol": "music.note",
+        "imagePrompt": "A page of a 16th-century chronicle with ink drawings of dancing figures, yellowed parchment"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The 'cure' that made it worse",
+      "body": "Strasbourg's city council decided the afflicted had a disease of 'hot blood' that had to dance itself out. So they built a stage, hired musicians, and cleared two guild halls for round-the-clock accompaniment. The result was a catastrophe: fresh onlookers joined in, and some danced themselves to death. Only when the council reversed course — banning music and sending sufferers to a mountain shrine — did the outbreak subside.",
+      "funFact": "At one point, Strasbourg officials issued a proclamation banning music in public, a decree unique in European legal history.",
+      "visual": {
+        "sfSymbol": "music.note.list",
+        "imagePrompt": "A medieval wooden stage in a town square with musicians playing, exhausted dancers slumping and others arriving, lit by torches"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "So what caused it?",
+      "body": "Scholars have floated three main theories. One: ergot — a hallucinogenic fungus on rye bread — but ergot causes seizures, not sustained coordinated movement. Two: a religious cult of St. Vitus, whose wrath was believed to cause compulsive dancing. Three, and most accepted today: mass psychogenic illness, triggered by extreme stress. 1518 Strasbourg was starving, plague-ridden, and terrified. Trauma can move through a crowd like a virus.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A split image: stalks of rye grain on one side, a medieval crowd in panic on the other, surreal composition"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The body is stranger than we think",
+      "body": "The dancing plague isn't a story about weird medieval superstition — it's a story about what humans under extreme duress can do without quite choosing to. Modern psychiatrists still document outbreaks of mass psychogenic illness in schools, factories, and workplaces. The costumes change. The mechanism may not have.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where and when did the dancing plague occur?",
+      "options": ["Paris, 1348", "Strasbourg, 1518", "Cologne, 1623", "Florence, 1427"],
+      "correctIndex": 1,
+      "explanation": "The best-documented outbreak struck the city of Strasbourg in July 1518."
+    },
+    {
+      "index": 1,
+      "question": "What did the city council initially do to 'cure' the dancers?",
+      "options": [
+        "Locked them in cellars",
+        "Hired musicians and built a stage to let them dance it out",
+        "Sent them directly to mountain shrines",
+        "Burned herbs in the streets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Believing the condition needed to dance itself out, the council set up stages and hired bands — making the crisis worse."
+    },
+    {
+      "index": 2,
+      "question": "Which cause is most widely accepted by modern historians?",
+      "options": [
+        "Ergot poisoning",
+        "Mass psychogenic illness triggered by severe stress",
+        "Deliberate religious protest",
+        "A viral infection of the brain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most historians today point to mass psychogenic illness, driven by the famine, plague, and fear that gripped Strasbourg that year."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Time to Dance, a Time to Die: The Extraordinary Story of the Dancing Plague of 1518",
+      "publisher": "Icon Books",
+      "year": 2009
+    },
+    {
+      "title": "In Search of the Vanished Middle Ages",
+      "publisher": "Cambridge University Press",
+      "year": 2005
+    }
+  ],
+
+  "related": ["mass-hysteria", "medieval-medicine", "saint-vitus"]
+}

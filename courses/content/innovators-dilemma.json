@@ -1,0 +1,146 @@
+{
+  "id": "innovators-dilemma",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Innovator's Dilemma",
+    "teaser": "Why good managers, doing everything right, get crushed by worse products.",
+    "category": "Business",
+    "subcategories": ["Strategy", "Disruption"],
+    "tags": ["christensen", "disruption", "innovation", "hard-drives", "management"],
+    "emoji": "📉",
+    "accentColor": "#2E4057",
+    "coverSymbol": {
+      "sfSymbol": "arrow.down.right.circle.fill",
+      "fallbackEmoji": "⚔️"
+    },
+    "coverImagePrompt": "A massive, polished corporate tower at dusk, its reflection distorted by a swarm of tiny paper boats sailing past it on a flooded boardroom floor, surreal cinematic, dramatic sidelight"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 6,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Listening to customers killed them",
+      "body": "In the 1980s, Digital Equipment Corporation was one of the most admired companies in America. Its minicomputers were magnificent. Its engineers were world-class. Its customers loved it. By 1998 it had been absorbed into a PC maker. Nothing about DEC's decline looked like incompetence — which is exactly what makes Clayton Christensen's diagnosis so unsettling.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "A giant beige mainframe computer in a darkened 1980s server room, a single small desktop PC glowing in a corner nearby"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Sustaining vs. disruptive",
+      "body": "Christensen separated innovations into two kinds. Sustaining innovations make an existing product better for its existing customers — a sharper TV, a faster chip. Disruptive innovations start out worse on the dimensions that matter to mainstream buyers, but better on some neglected dimension: cheaper, smaller, simpler. At first they only appeal to marginal customers. Then the margins grow.",
+      "keyTerms": [
+        { "term": "Sustaining innovation", "definition": "An improvement along dimensions valued by existing customers" },
+        { "term": "Disruptive innovation", "definition": "A simpler, cheaper, or more accessible offering that eventually displaces the mainstream product" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "Two curves on a performance graph — one steep blue line overshooting customer needs, one low red line rising toward them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The hard-drive evidence",
+      "body": "Christensen spent years mapping the hard-disk industry. Every single transition — from 14-inch drives to 8-inch, to 5.25-inch, to 3.5-inch — destroyed the leaders. Not because they missed the technology. They often invented it. The drives were simply too small and too low-margin to matter to their biggest customers, so rational planning pushed them to ignore it. Upstarts sold to new markets that didn't yet exist.",
+      "visual": {
+        "sfSymbol": "internaldrive.fill",
+        "imagePrompt": "A lineup of hard drives on a clean white background, each generation visibly smaller, like Russian nesting dolls of storage"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The overshoot trap",
+      "body": "Incumbents get in trouble because they keep improving beyond what most customers need. Steel mini-mills made low-grade rebar that integrated mills dismissed — then moved upmarket one steel grade at a time. Japanese carmakers started with cheap subcompacts in the 1970s and ended up dominating luxury by 2000. In each case, the incumbent couldn't respond because defending the low end meant shredding their own gross margins.",
+      "funFact": "Christensen found that the very financial metrics that made companies great — high gross margins, ROIC, 'serve your best customers' — were the exact metrics that made them vulnerable.",
+      "visual": {
+        "sfSymbol": "arrow.up.and.down",
+        "imagePrompt": "A staircase diagram showing a small competitor climbing from the bottom of a market toward the top while an incumbent perches on the highest stair"
+      }
+    },
+    {
+      "index": 4,
+      "type": "explanation",
+      "title": "Why it's a dilemma, not just a trap",
+      "body": "Christensen calls it a dilemma because good management is the problem. Listening to your best customers is supposed to be correct. Protecting your highest-margin business is supposed to be correct. His argument is that disruption requires running a separate, smaller, often uglier business unit with different metrics — essentially letting a part of your company behave like the upstart that's coming for you.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A corporate org chart with one tiny branch spun off into a scrappy garage-style office"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "The uncomfortable lesson",
+      "body": "The Innovator's Dilemma is not a book about complacency. It's a book about how rational, well-run organizations can walk calmly into extinction. Disruption doesn't punish the lazy — it punishes the focused. That's what makes it so hard to defend against, and so important to recognize.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a 'disruptive innovation' according to Christensen?",
+      "options": [
+        "Any radically new technology",
+        "A product that starts out worse on mainstream metrics but is cheaper or simpler",
+        "An innovation that comes from a startup",
+        "A breakthrough that cannibalises old revenue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Disruptive innovations typically underperform on the dimensions incumbent customers care about — but win on price, simplicity, or accessibility."
+    },
+    {
+      "index": 1,
+      "question": "Why do incumbents often ignore disruptive products early on?",
+      "options": [
+        "They can't afford the R&D",
+        "Their best customers don't want them and margins are low",
+        "Regulation blocks them",
+        "Their patents forbid it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Disruptors target non-consumers or low-end buyers — exactly the markets that incumbents' finance models tell them to ignore."
+    },
+    {
+      "index": 2,
+      "question": "Which industry did Christensen study most rigorously to derive the theory?",
+      "options": ["Airlines", "Hard-disk drives", "Pharmaceuticals", "Retail banking"],
+      "correctIndex": 1,
+      "explanation": "His hard-drive dataset showed leaders getting displaced at nearly every form-factor transition, which became the book's empirical backbone."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Innovator's Dilemma",
+      "publisher": "Harvard Business Review Press",
+      "year": 1997
+    },
+    {
+      "title": "The Innovator's Solution",
+      "publisher": "Harvard Business Review Press",
+      "year": 2003
+    }
+  ],
+
+  "related": ["blue-ocean-strategy", "kodak-missed-digital", "disruption-theory"]
+}

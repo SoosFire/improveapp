@@ -1,0 +1,141 @@
+{
+  "id": "vo2-max",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "VO₂ Max: The Fitness Number",
+    "teaser": "One number predicts how long you'll live better than blood pressure or cholesterol. Most people have never measured it.",
+    "category": "Fitness",
+    "subcategories": ["Cardio", "Physiology"],
+    "tags": ["vo2max", "cardio", "longevity", "endurance", "aerobic"],
+    "emoji": "🫁",
+    "accentColor": "#E76F51",
+    "coverSymbol": {
+      "sfSymbol": "figure.run",
+      "fallbackEmoji": "🏃"
+    },
+    "coverImagePrompt": "A runner on a treadmill wearing a breathing mask and electrodes in a sports lab, soft clinical lighting, data visualizations floating around them, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The number that outpredicts your doctor",
+      "body": "A 2018 study of 122,000 people found something startling: VO₂ max — a single fitness measurement — predicted all-cause mortality better than smoking, diabetes, or high blood pressure. The fittest group lived dramatically longer than the least fit. Yet most people have never heard the term.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "A dramatic chart showing a steep survival curve, dark background with glowing red line rising"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What you're actually measuring",
+      "body": "VO₂ max is the maximum amount of oxygen your body can pull from the air and use during hard exercise, measured in milliliters per kilogram per minute (ml/kg/min). Think of it as your aerobic ceiling — the top speed of your engine. A sedentary 40-year-old might score 30. An elite cross-country skier can hit 90.",
+      "keyTerms": [
+        { "term": "VO₂ max", "definition": "The maximum volume of oxygen your body can use per minute, per kilo" },
+        { "term": "Aerobic capacity", "definition": "Your body's total ability to produce energy using oxygen" }
+      ],
+      "visual": {
+        "sfSymbol": "gauge.with.needle.fill",
+        "imagePrompt": "A vintage pressure gauge labeled 'O₂ UTILIZATION,' needle pushed into the red zone"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it matters beyond running",
+      "body": "VO₂ max isn't about being a runner. It reflects how well your heart, lungs, blood, and muscles cooperate to deliver fuel. A higher number means everyday tasks — climbing stairs, chasing a toddler, hauling groceries — feel easier, because they take a smaller slice of your total capacity. It also means more spare room for your body to handle illness, surgery, or old age.",
+      "visual": {
+        "sfSymbol": "stairs",
+        "imagePrompt": "An older adult walking up a long outdoor staircase with surprising ease, golden hour lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How to move the needle",
+      "body": "The fastest-known way to raise VO₂ max is high-intensity interval training — the famous Norwegian '4x4' protocol: four minutes hard, three minutes easy, repeated four times, twice a week. Studies consistently show gains of 10 to 20 percent in 8 weeks for beginners. Zone 2 training (long easy sessions) builds the base beneath it. Most coaches mix both.",
+      "funFact": "Cross-country skier Bjørn Dæhlie reportedly tested at a VO₂ max of around 96 — among the highest ever recorded in a human.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "Interval training heart rate chart, spikes and recoveries forming a distinctive staircase pattern"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Trainable, not fixed",
+      "body": "Genetics set your ceiling, but almost everyone has huge headroom below it. Even improving from 'low' to 'below average' cuts mortality risk significantly. You don't need a lab — a smartwatch estimate plus a hard weekly workout is a decent start. Treat VO₂ max like a bank account: you're either making deposits or watching it drift down 10 percent per decade.",
+      "visual": {
+        "sfSymbol": "arrow.up.heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does VO₂ max measure?",
+      "options": [
+        "The maximum weight you can lift",
+        "The maximum oxygen your body can use during exercise",
+        "Your resting heart rate",
+        "Your body's lactic acid level"
+      ],
+      "correctIndex": 1,
+      "explanation": "VO₂ max is your aerobic ceiling — the most oxygen your body can pull in and put to work."
+    },
+    {
+      "index": 1,
+      "question": "Which training style most rapidly raises VO₂ max?",
+      "options": [
+        "Low-intensity stretching",
+        "Heavy powerlifting alone",
+        "High-intensity intervals like the 4x4 protocol",
+        "Walking at a steady pace"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Norwegian 4x4 interval protocol reliably boosts VO₂ max by 10–20 percent in weeks."
+    },
+    {
+      "index": 2,
+      "question": "Why is VO₂ max linked to longevity?",
+      "options": [
+        "It measures sleep quality",
+        "It reflects how well heart, lungs, blood, and muscles work together",
+        "It's the same thing as blood pressure",
+        "Only professional athletes have it"
+      ],
+      "correctIndex": 1,
+      "explanation": "A higher VO₂ max means healthier cardiovascular and metabolic systems — and more spare capacity for life's stresses."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults",
+      "publisher": "JAMA Network Open",
+      "year": 2018
+    },
+    {
+      "title": "Aerobic High-Intensity Intervals Improve VO2max More Than Moderate Training",
+      "publisher": "Medicine & Science in Sports & Exercise",
+      "year": 2007
+    }
+  ],
+
+  "related": ["muscle-memory", "zone-2-training", "heart-rate-zones"]
+}

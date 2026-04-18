@@ -1,0 +1,144 @@
+{
+  "id": "why-cats-purr",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Cats Purr (It's Not Just Happiness)",
+    "teaser": "They purr while being petted — and also while giving birth, while injured, while dying. The real reason is stranger.",
+    "category": "Wildlife",
+    "subcategories": ["Animal Behavior", "Physiology"],
+    "tags": ["cats", "purring", "felines", "biology", "vocalization"],
+    "emoji": "🐈",
+    "accentColor": "#B06C4C",
+    "coverSymbol": {
+      "sfSymbol": "waveform",
+      "fallbackEmoji": "🐾"
+    },
+    "coverImagePrompt": "A tabby cat curled in a sunbeam on a wooden floor, eyes half-closed, soft visible breath rising, warm honey-colored light, photographic and intimate"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A weird little engine",
+      "body": "You can hear a cat purr in the dark, feel it vibrate through your ribcage when it curls against you. But vets have also recorded cats purring while fractured, while being stitched up, and even while dying. If purring just meant 'happy,' none of that would make sense. The real mechanism is mechanical, strange, and probably medicinal.",
+      "visual": {
+        "sfSymbol": "pawprint.fill",
+        "imagePrompt": "A cat curled on a checkup table at a vet, gently purring, soft overhead lamp light, scene feeling both tender and clinical"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How a purr is even made",
+      "body": "A purr is produced by a neural oscillator in the brain that sends pulses — roughly 25 to 30 times per second — to the muscles of the larynx. Those muscles twitch, narrowing the glottis, and air passing through them on both inhale and exhale creates the continuous humming sound. Unlike meowing, purring doesn't require any exhalation pause, which is why it never stops for breath.",
+      "keyTerms": [
+        { "term": "Laryngeal muscle", "definition": "The small muscle in the voice box that vibrates to produce a purr" },
+        { "term": "Neural oscillator", "definition": "A brain circuit that sends rhythmic signals at a consistent frequency" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "A stylized diagram of a cat's head in cross-section showing the larynx with rhythmic pulse waves moving through it, soft anatomical illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The healing hypothesis",
+      "body": "In 2001, zoologist Elizabeth von Muggenthaler measured purr frequencies across dozens of cats and found they cluster between 25 and 150 Hz. That range happens to overlap with the vibrational frequencies physical therapists use to promote bone density and tissue repair in humans. The leading hypothesis: purring is a low-effort self-therapy, a way to stimulate healing during long rest periods.",
+      "keyTerms": [
+        { "term": "Vibrational therapy", "definition": "Low-frequency vibration used medically to stimulate bone growth and muscle repair" }
+      ],
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "A medical chart showing overlapping frequency bands — 'cat purr range' and 'vibrational healing range' — in warm translucent colors"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Two purrs, not one",
+      "body": "In 2009, researchers at the University of Sussex discovered that cats have a second kind of purr — a 'solicitation purr' — which they use specifically to demand food from humans. Acoustically, it hides a high-frequency cry (similar to a baby's) inside the low rumble. Humans consistently rate it as more urgent and harder to ignore. Cats, in other words, reverse-engineered the sound of a crying infant.",
+      "funFact": "Only housecats and a few wildcats purr continuously. Lions and tigers can't — their larynx is built for roaring instead.",
+      "visual": {
+        "sfSymbol": "speaker.wave.3.fill",
+        "imagePrompt": "An audio waveform overlay on a house cat's face as it meows insistently at a closed kitchen door, morning light, cinematic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Less a feeling, more a tool",
+      "body": "A purr isn't really a smile. It's closer to a little machine cats carry around — one that can soothe them, heal them, bond them to their kittens, or manipulate you into opening a can of tuna. That it happens to feel wonderful on a lap is a lucky bonus.",
+      "visual": {
+        "sfSymbol": "cat.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What produces the sound of a cat's purr?",
+      "options": [
+        "Vibrations in the chest muscles",
+        "Pulses from a neural oscillator making the larynx twitch",
+        "Air bubbles in the stomach",
+        "Resonance of the tongue"
+      ],
+      "correctIndex": 1,
+      "explanation": "A neural oscillator in the brain sends rhythmic pulses to laryngeal muscles, which narrow the glottis as air passes through."
+    },
+    {
+      "index": 1,
+      "question": "Why do scientists suspect purring has a healing function?",
+      "options": [
+        "Cats live longer than dogs",
+        "Purr frequencies overlap with therapeutic vibrational ranges used to stimulate bone and tissue repair",
+        "Purring releases adrenaline",
+        "Purring raises body temperature dramatically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Purr frequencies (25-150 Hz) fall within ranges known to promote bone density and tissue recovery."
+    },
+    {
+      "index": 2,
+      "question": "What's special about a 'solicitation purr'?",
+      "options": [
+        "It's silent",
+        "It contains a high-frequency cry that mimics a baby and is harder for humans to ignore",
+        "It's only used at night",
+        "It's used between cats, never toward humans"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Sussex study found cats embed an infant-cry-like frequency in this purr when asking humans for food."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Felid Purr: A Healing Mechanism?",
+      "publisher": "Journal of the Acoustical Society of America",
+      "year": 2001
+    },
+    {
+      "title": "The cry embedded within the purr",
+      "publisher": "Current Biology",
+      "year": 2009
+    }
+  ],
+
+  "related": ["why-cats-knead", "lion-roar-mechanics", "animal-communication"]
+}

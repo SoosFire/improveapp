@@ -1,0 +1,141 @@
+{
+  "id": "passport-color-meaning",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Passports Come in Only 4 Colors",
+    "teaser": "There's no rule. No treaty. Yet almost every passport in the world is red, blue, green, or black.",
+    "category": "Travel",
+    "subcategories": ["Geopolitics", "Design"],
+    "tags": ["passport", "travel", "history", "identity", "design"],
+    "emoji": "🛂",
+    "accentColor": "#8B1E3F",
+    "coverSymbol": {
+      "sfSymbol": "book.closed.fill",
+      "fallbackEmoji": "📘"
+    },
+    "coverImagePrompt": "A flat-lay composition of four passports — burgundy, navy, green, and black — fanned across a dark wood table, golden embossing catching light, editorial still-life, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A quiet conformity",
+      "body": "Go to any international airport and watch the passports slide across the counters. American navy. Canadian deep blue. British burgundy. Saudi green. South African dark green. New Zealand jet black. Out of nearly 200 nations, almost every passport cover falls into just four color families. Nobody ever passed a law requiring this. It just happened.",
+      "visual": {
+        "sfSymbol": "globe.asia.australia.fill",
+        "imagePrompt": "A world map illustration where each country is shaded in the color of its passport cover, creating unexpected continental patterns"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "ICAO says very little",
+      "body": "The International Civil Aviation Organization (ICAO), a UN agency, sets the technical standard for passports — document 9303. It specifies the size, the position of the photo, the machine-readable zone, the embedded chip requirements. It does not specify a color. Countries are theoretically free to print passports in hot pink. None do. The reason is cultural, not regulatory.",
+      "keyTerms": [
+        { "term": "ICAO 9303", "definition": "The UN standard governing machine-readable passport format and security features" },
+        { "term": "Biometric passport", "definition": "A passport containing an embedded chip with encrypted biometric data" }
+      ],
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "An open specification document on a desk next to a scattering of passport samples, technical diagrams highlighted in yellow, overhead shot"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What each color signals",
+      "body": "The patterns are loose but real. Red passports tend to belong to EU members, former communist states, and Switzerland — historically tied to either socialist symbolism or European integration. Blue signals the 'New World': the Americas and parts of the Caribbean. Green is common in Islamic countries (green is sacred in Islam) and West African nations. Black is rare — used by a handful of African states and New Zealand for its symbolic weight.",
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "A 2x2 color grid with sample country flags and passport covers inside each quadrant, clean design-magazine layout"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why the colors cluster",
+      "body": "Practical reasons reinforce the convention. Dark colors hide dirt and wear better than light ones — passports get beat up. Rich pigments reproduce consistently across print runs. And diplomatic alignment matters: when the EU standardized on burgundy in 1981, members fell into line to signal unity. Turkey switched its passport to burgundy in 2010 as part of its EU-accession hopes. Colors are soft power you can hold in your pocket.",
+      "funFact": "When a country shifts alignment, the color often follows. Venezuela's passport was blue until 1980; it's since been wine-red, reflecting changing political moods.",
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "A hand-held Pantone color swatch book opened to burgundy shades, stacked beside a pile of EU passports, warm museum lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The unwritten grammar",
+      "body": "So passport colors aren't regulated — they're a visual language that countries use to whisper about themselves. Which bloc they belong to, what they believe, who their friends are. When you hand one across a border, you're not just proving identity. You're handing over a small flag of allegiance, dyed into leatherette.",
+      "visual": {
+        "sfSymbol": "flag.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which international body sets passport standards — and does it require a specific color?",
+      "options": [
+        "The UN Security Council, which mandates blue",
+        "ICAO, which does not specify a color",
+        "The World Bank, which recommends green",
+        "WTO, which requires machine-readable red"
+      ],
+      "correctIndex": 1,
+      "explanation": "ICAO's document 9303 specifies technical requirements but leaves cover color up to each issuing country."
+    },
+    {
+      "index": 1,
+      "question": "Why is green a common passport color in Islamic countries?",
+      "options": [
+        "It's the most visible under airport lights",
+        "Green holds sacred meaning in Islam",
+        "It was required by a 1960s Arab League treaty",
+        "Green dye is cheaper in the region"
+      ],
+      "correctIndex": 1,
+      "explanation": "Green is strongly associated with Islam traditionally, and many Muslim-majority countries chose it for their covers."
+    },
+    {
+      "index": 2,
+      "question": "Why did Turkey change its passport color to burgundy in 2010?",
+      "options": [
+        "To reduce fraud",
+        "To signal alignment with the EU during accession efforts",
+        "To stand out from Middle Eastern neighbors",
+        "Because burgundy hides wear better"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turkey adopted EU-style burgundy as a diplomatic gesture during its EU accession negotiations."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Machine Readable Travel Documents, Doc 9303",
+      "publisher": "International Civil Aviation Organization",
+      "year": 2021
+    },
+    {
+      "title": "Why are passports only issued in 4 colors?",
+      "publisher": "The Economist",
+      "year": 2016
+    }
+  ],
+
+  "related": ["visa-free-travel", "biometric-passports", "diplomatic-passports"]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "bioluminescence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Deep-Sea Animals Make Their Own Light",
+    "teaser": "In the darkest water on Earth, nine out of ten creatures carry their own lanterns — and they grow them, not build them.",
+    "category": "Marine Life",
+    "subcategories": ["Deep Sea", "Biochemistry"],
+    "tags": ["bioluminescence", "deep-sea", "chemistry", "evolution", "light"],
+    "emoji": "✨",
+    "accentColor": "#1E6091",
+    "coverSymbol": {
+      "sfSymbol": "sparkles",
+      "fallbackEmoji": "✨"
+    },
+    "coverImagePrompt": "A translucent deep-sea jellyfish pulsing with ribbons of blue-green light in absolute black water, ethereal, cinematic, glowing plankton scattered around"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A world lit by its inhabitants",
+      "body": "Below 200 meters, sunlight vanishes. But the ocean doesn't go dark — it goes electric. Entire schools of fish pulse with blue-green light. Jellyfish trail sparks behind them. In this twilight zone, roughly 90% of animals make their own light. It's not a trick. It's chemistry.",
+      "visual": {
+        "sfSymbol": "moon.stars.fill",
+        "imagePrompt": "Dark ocean water alive with tiny blue pinpricks of light from plankton and fish, photographed from a submersible's viewport"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Luciferin meets luciferase",
+      "body": "Bioluminescence almost always comes from two ingredients: a molecule called luciferin and an enzyme called luciferase. When they meet in the presence of oxygen, the reaction releases energy — not as heat, but as light. It's called 'cold light' because nearly 100% of the energy becomes photons.",
+      "keyTerms": [
+        { "term": "Luciferin", "definition": "A light-emitting molecule that releases photons when oxidized" },
+        { "term": "Luciferase", "definition": "An enzyme that catalyzes the luciferin reaction" }
+      ],
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A glowing blue liquid in a test tube held in a gloved hand, dramatic dark background, scientific photography"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why blue, why here?",
+      "body": "Most deep-sea light is blue-green because that wavelength travels farthest through seawater. Red light gets absorbed within meters, but blue can shimmer for hundreds. One predator, the dragonfish, cheats the system: it emits red light invisible to its prey, and uses it like a sniper's night-vision scope.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A fanged dragonfish with a glowing red cheek patch, stalking prey in pitch-black water, macro photography"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Not just fish",
+      "body": "Bioluminescence has evolved independently more than 40 times — in bacteria, fungi, jellyfish, squid, worms, even sharks. Some animals don't make the chemistry themselves; they grow bacterial gardens in special pockets and turn their glow on and off by squeezing or releasing ink over them.",
+      "funFact": "The cookiecutter shark uses its glow to disguise its silhouette — except for a dark patch under its throat shaped exactly like a small fish. Predators bite at the bait, and the shark bites back.",
+      "visual": {
+        "sfSymbol": "fish.fill",
+        "imagePrompt": "A cookiecutter shark from below, belly glowing faintly, dark fish-shaped silhouette visible on its throat"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The dominant language of the deep",
+      "body": "On land, most animals communicate with sound or color. In the deep sea, the dominant language is light. Flashes can mean 'mate with me,' 'back off,' or 'dinner's served.' Understanding bioluminescence isn't optional — it's the alphabet of most of our planet's habitable space.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What two main ingredients produce bioluminescence?",
+      "options": [
+        "Chlorophyll and water",
+        "Luciferin and luciferase",
+        "Melanin and oxygen",
+        "ATP and calcium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Luciferin (the substrate) reacts with luciferase (the enzyme) and oxygen to emit light."
+    },
+    {
+      "index": 1,
+      "question": "Why is most deep-sea bioluminescence blue-green?",
+      "options": [
+        "Blue is the only color fish can see",
+        "Blue-green wavelengths travel farthest through seawater",
+        "It requires less energy to produce",
+        "It's the natural color of luciferin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blue-green light penetrates seawater best — red and yellow are absorbed within meters."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Prevalence of bioluminescence in the deep pelagic",
+      "publisher": "Scientific Reports",
+      "year": 2017
+    },
+    {
+      "title": "Bioluminescence in the ocean: origins of biological, chemical and ecological diversity",
+      "publisher": "Science",
+      "year": 2010
+    }
+  ],
+
+  "related": ["mariana-trench", "extremophiles", "deep-sea-predators"]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "fight-flight-freeze",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Fight, Flight, Freeze",
+    "teaser": "Your body makes a split-second decision before your mind even catches up. Here's who's really in charge.",
+    "category": "Mental Health",
+    "subcategories": ["Stress Response", "Neuroscience"],
+    "tags": ["anxiety", "stress", "nervous-system", "amygdala", "trauma"],
+    "emoji": "⚡",
+    "accentColor": "#E63946",
+    "coverSymbol": {
+      "sfSymbol": "bolt.heart.fill",
+      "fallbackEmoji": "⚡"
+    },
+    "coverImagePrompt": "A silhouetted human figure standing at a crossroads with three glowing paths — red for fight, blue for flight, white for freeze — surreal, cinematic, dramatic rim lighting against a stormy sky"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The car that almost hits you",
+      "body": "You step off the curb. Tires screech. Before your brain registers 'car,' you've already jumped back. Heart pounding. Hands shaking. Your body knew before you did — and it's been doing this trick for about 300 million years.",
+      "visual": {
+        "sfSymbol": "figure.walk.motion",
+        "imagePrompt": "A pedestrian mid-leap backward as a blurred car rushes past on a rainy street, motion-blur cinematic shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet your amygdala",
+      "body": "Deep in your brain sits a pair of almond-shaped clusters called the amygdala. Think of them as your personal smoke detector. They scan for threat 24/7 — and when something pings, they hijack the controls before your rational prefrontal cortex even gets a say. This hijack takes about 12 milliseconds. Conscious thought takes around 500.",
+      "keyTerms": [
+        { "term": "Amygdala", "definition": "Brain region that detects threat and triggers the stress response" },
+        { "term": "Prefrontal cortex", "definition": "The 'thinking' brain that plans and reasons — but reacts slowly" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "Cutaway brain illustration with the amygdala glowing red, neural pathways sparking outward"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three ancient doors",
+      "body": "Once the alarm fires, your body picks from a very old menu. Fight: adrenaline floods muscles, pupils dilate, you're ready to swing. Flight: same chemistry, but pointed at running. Freeze: the often-forgotten third option — heart rate drops, muscles lock, you go still like a rabbit in tall grass. Which door opens depends on the threat, your history, and sometimes dumb luck.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Three stylized doorways in a dark forest, each glowing a different color — fists, running legs, frozen statue"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why freezing isn't weakness",
+      "body": "For decades, researchers only talked about fight-or-flight. But studies on trauma survivors kept finding something else: people who went completely still, unable to move or speak. Polyvagal theory, developed by neuroscientist Stephen Porges, traces this to the ancient dorsal vagal nerve — a reflex older than mammals. Freezing isn't cowardice. It's a prey animal's last-ditch trick: play dead and hope the predator loses interest.",
+      "funFact": "Gazelles that 'freeze' when caught often survive — lions frequently drop limp prey, assuming it's already dead or diseased.",
+      "visual": {
+        "sfSymbol": "pause.circle.fill",
+        "imagePrompt": "A deer standing perfectly still in golden meadow grass, eyes wide, perfectly camouflaged"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're not broken — you're ancient",
+      "body": "Next time your heart races in a meeting, or you go blank in an argument, remember: that's a 300-million-year-old survival system doing exactly what it evolved to do. Your job isn't to shut it off. It's to notice it, name it, and gently remind your smoke detector that a spreadsheet is not a saber-toothed cat.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which brain structure triggers the fight-flight-freeze response?",
+      "options": ["Hippocampus", "Amygdala", "Cerebellum", "Thalamus"],
+      "correctIndex": 1,
+      "explanation": "The amygdala acts like a threat smoke detector, firing before conscious thought can catch up."
+    },
+    {
+      "index": 1,
+      "question": "Which response was missing from the original 'fight-or-flight' theory?",
+      "options": ["Fawn", "Freeze", "Faint", "Flee"],
+      "correctIndex": 1,
+      "explanation": "Freeze was long overlooked — it's tied to the ancient dorsal vagal system and is a prey animal's survival trick."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how fast does the amygdala react compared to conscious thought?",
+      "options": ["About the same speed", "Twice as fast", "Around 40 times faster", "100 times slower"],
+      "correctIndex": 2,
+      "explanation": "The amygdala can fire in about 12 milliseconds; conscious awareness takes closer to 500."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Polyvagal Theory: Neurophysiological Foundations of Emotions, Attachment, Communication, and Self-Regulation",
+      "publisher": "Stephen W. Porges, W. W. Norton & Company",
+      "year": 2011
+    },
+    {
+      "title": "The Emotional Brain: The Mysterious Underpinnings of Emotional Life",
+      "publisher": "Joseph LeDoux, Simon & Schuster",
+      "year": 1996
+    }
+  ],
+
+  "related": ["anxiety-vs-fear", "cognitive-behavioral-therapy", "vagus-nerve"]
+}

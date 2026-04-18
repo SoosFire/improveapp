@@ -1,0 +1,140 @@
+{
+  "id": "ball-lightning-mystery",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Ball Lightning: The Weather We Can't Explain",
+    "teaser": "Glowing orbs that drift through kitchens, phase through windows, and vanish with a pop. Real — and still unsolved.",
+    "category": "Weather",
+    "subcategories": ["Atmospheric Physics", "Unsolved Science"],
+    "tags": ["lightning", "plasma", "storms", "physics", "mystery"],
+    "emoji": "⚡",
+    "accentColor": "#E67E22",
+    "coverSymbol": {
+      "sfSymbol": "bolt.fill",
+      "fallbackEmoji": "🔆"
+    },
+    "coverImagePrompt": "A softly glowing orange plasma sphere the size of a grapefruit hovering inside a dim farmhouse kitchen during a thunderstorm, lightning flashing through the window, cinematic and eerie"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A glowing ball in the parlor",
+      "body": "In 1753, Russian physicist Georg Richmann was studying atmospheric electricity when a pale blue fireball the size of an apple drifted out of his lightning rod, crossed the room, and struck him dead. For 270 years, scientists have collected thousands of similar reports — and still can't agree on what ball lightning actually is.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "An 18th-century oil painting-style scene of a small glowing blue sphere hovering in a study beside a lightning rod, dramatic candlelit lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What witnesses consistently describe",
+      "body": "Despite being folklore for centuries, eyewitness accounts are surprisingly consistent. Ball lightning is usually the size of a grapefruit, glows orange, yellow, or blue, lasts a few seconds to a minute, and moves slowly — often drifting horizontally at walking speed. It can appear indoors during storms, pass through glass, and typically ends with either a soft fizzle or a sharp pop.",
+      "keyTerms": [
+        { "term": "Ball lightning", "definition": "A rare atmospheric phenomenon appearing as a glowing sphere, usually during thunderstorms" },
+        { "term": "Plasma", "definition": "An ionized gas where electrons are separated from their atoms, capable of glowing" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A photorealistic depiction of a glowing orange sphere floating past a rain-streaked window during a thunderstorm, slow-motion quality"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three theories, no winner",
+      "body": "The leading ideas are very different. The silicon theory (New Zealand, 2000) says a lightning strike vaporizes soil, launching a burning ball of silicon nanoparticles that oxidize as they drift. The microwave theory (Russia, 1955) says lightning traps electromagnetic waves inside a bubble of plasma. And a newer quantum theory proposes a tangled 'knot' of magnetic field lines stabilizing itself in the air. None has been fully confirmed.",
+      "keyTerms": [
+        { "term": "Silicon theory", "definition": "Abrahamson and Dinniss's 2000 proposal that ball lightning is burning vaporized soil" },
+        { "term": "Plasma bubble", "definition": "A self-contained region of ionized gas, theoretically held together by trapped electromagnetic energy" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.3.group.fill",
+        "imagePrompt": "A triptych illustration comparing three proposed mechanisms for ball lightning: burning soil particles, trapped microwaves, and magnetic field knots, scientific diagram style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Caught on a spectrometer",
+      "body": "In July 2012, scientists at Northwest Normal University in Lanzhou, China, were studying ordinary lightning when a luminous ball appeared after a strike — right in front of their spectrometer. The instrument captured the first-ever spectrum of ball lightning. It showed silicon, iron, and calcium — elements from the soil. That supports the silicon theory, at least for that particular event.",
+      "funFact": "The Lanzhou ball traveled about 15 meters horizontally before fading out — close to walking speed.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "Scientific equipment on a Chinese plateau at night capturing a glowing orb, spectrometer screen in the foreground showing colorful emission lines"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A reminder that weather is weird",
+      "body": "In an age of satellites and climate models, it's humbling that a phenomenon reported by thousands of people, including physicists and pilots, still doesn't have a settled explanation. Ball lightning is a reminder that the atmosphere hasn't finished surprising us yet.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What size is ball lightning most often reported to be?",
+      "options": ["A pinhead", "A grapefruit", "A beach ball", "A car"],
+      "correctIndex": 1,
+      "explanation": "Most eyewitness reports describe a glowing sphere roughly grapefruit-sized — about 10 to 20 centimeters across."
+    },
+    {
+      "index": 1,
+      "question": "What did the 2012 Lanzhou observation primarily detect in a ball lightning spectrum?",
+      "options": [
+        "Pure hydrogen",
+        "Silicon, iron, and calcium",
+        "Only oxygen",
+        "Radioactive elements"
+      ],
+      "correctIndex": 1,
+      "explanation": "The spectrum showed soil-derived elements — silicon, iron, and calcium — lending support to the silicon nanoparticle theory."
+    },
+    {
+      "index": 2,
+      "question": "Which is NOT one of the leading theories about ball lightning?",
+      "options": [
+        "Burning silicon nanoparticles",
+        "Trapped microwave energy",
+        "A stable magnetic field knot",
+        "Migrating swarms of fireflies"
+      ],
+      "correctIndex": 3,
+      "explanation": "The leading scientific theories involve silicon combustion, electromagnetic confinement, or magnetic field topology — not insects."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Observation of the Optical and Spectral Characteristics of Ball Lightning",
+      "publisher": "Physical Review Letters",
+      "year": 2014
+    },
+    {
+      "title": "Ball Lightning: An Unsolved Problem in Atmospheric Physics",
+      "publisher": "Nature",
+      "year": 2002
+    }
+  ],
+
+  "related": ["how-lightning-works", "st-elmos-fire", "plasma-physics"]
+}

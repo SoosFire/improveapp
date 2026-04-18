@@ -1,0 +1,136 @@
+{
+  "id": "miranda-rights",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Miranda Rights Actually Mean",
+    "teaser": "'You have the right to remain silent…' — four words from a 1966 case that quietly rewrote every TV arrest scene.",
+    "category": "Law",
+    "subcategories": ["Constitutional Law", "Criminal Procedure"],
+    "tags": ["law", "rights", "supreme-court", "criminal-procedure"],
+    "emoji": "⚖️",
+    "accentColor": "#1A3668",
+    "coverSymbol": {
+      "sfSymbol": "scroll.fill",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "A vintage manual typewriter on a wooden desk, a page reading 'You have the right to remain silent' half-typed, a folded police badge to the side, dramatic desk-lamp chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A courtroom speech you've heard a thousand times",
+      "body": "'You have the right to remain silent. Anything you say can and will be used against you.' You've heard it in movies since childhood. But those words didn't exist in American policing until 1966 — and they only exist now because of a petty thief named Ernesto Miranda, who never fully understood his own case.",
+      "visual": {
+        "sfSymbol": "handcuffs",
+        "imagePrompt": "A pair of police handcuffs on a dusty interrogation table, soft 1960s lamp light, cinematic noir tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the warning really says",
+      "body": "Miranda rights come from the Fifth and Sixth Amendments. You have the right to stay silent — because you can't be forced to incriminate yourself. Anything you say may be used as evidence. You have the right to a lawyer, free of charge if you can't afford one. These aren't suggestions; if police skip them during custodial interrogation, anything you say may be thrown out of court.",
+      "keyTerms": [
+        { "term": "Custodial interrogation", "definition": "Questioning by police while a suspect is not free to leave" },
+        { "term": "Fifth Amendment", "definition": "The U.S. constitutional right against self-incrimination" }
+      ],
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "A scrolled parchment-style document displaying the Bill of Rights, gold-trimmed lettering, dark background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why 1966 changed everything",
+      "body": "In Miranda v. Arizona, the Supreme Court ruled 5-4 that police had to warn suspects of these rights before custodial questioning. Before then, confessions obtained under pressure — including hours of isolated interrogation — were routinely used in court. The ruling didn't invent the rights. It invented the requirement to say them out loud.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "The U.S. Supreme Court building at dusk, long shadows from columns, American flag waving, editorial realism"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The twist in the story",
+      "body": "Miranda himself was convicted again at a retrial — this time without his original confession, but with testimony from an ex-girlfriend. He was later stabbed to death in a Phoenix bar in 1976. The suspect arrested for his murder was read his Miranda rights. He invoked them, stayed silent — and was never convicted.",
+      "funFact": "In 2010, the Supreme Court ruled that staying silent is not enough to invoke the right — you actually have to say, out loud, that you're invoking it.",
+      "visual": {
+        "sfSymbol": "person.fill.xmark",
+        "imagePrompt": "A faded Polaroid of a dim Phoenix bar at night, broken neon sign reflected in a rainy window"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The words you really should remember",
+      "body": "If you're ever in custody, two sentences matter more than the whole warning: 'I am invoking my right to remain silent' and 'I want a lawyer.' Say them clearly. Say them early. Then stop talking. Ernesto Miranda's legacy isn't the words police say — it's the words you're allowed to say back.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which U.S. Supreme Court case established the Miranda warning requirement?",
+      "options": [
+        "Brown v. Board of Education (1954)",
+        "Miranda v. Arizona (1966)",
+        "Gideon v. Wainwright (1963)",
+        "Escobedo v. Illinois (1964)"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1966 Miranda v. Arizona decision required police to inform suspects of their rights before custodial interrogation."
+    },
+    {
+      "index": 1,
+      "question": "Which amendment is the right against self-incrimination drawn from?",
+      "options": ["First Amendment", "Fourth Amendment", "Fifth Amendment", "Eighth Amendment"],
+      "correctIndex": 2,
+      "explanation": "The Fifth Amendment protects against being compelled to testify against oneself."
+    },
+    {
+      "index": 2,
+      "question": "According to a 2010 Supreme Court ruling, how must you invoke your right to remain silent?",
+      "options": [
+        "By simply staying quiet",
+        "By shaking your head",
+        "By saying clearly that you are invoking it",
+        "By writing a formal letter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berghuis v. Thompkins (2010) held that silence alone isn't enough — you must explicitly state you're invoking the right."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Miranda v. Arizona, 384 U.S. 436",
+      "publisher": "U.S. Supreme Court",
+      "year": 1966
+    },
+    {
+      "title": "Berghuis v. Thompkins, 560 U.S. 370",
+      "publisher": "U.S. Supreme Court",
+      "year": 2010
+    }
+  ],
+
+  "related": ["fifth-amendment", "habeas-corpus", "custodial-interrogation"]
+}

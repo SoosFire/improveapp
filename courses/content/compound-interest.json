@@ -1,0 +1,136 @@
+{
+  "id": "compound-interest",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Compound Interest: The 8th Wonder",
+    "teaser": "Einstein supposedly called it the most powerful force in the universe. Here's why a boring formula quietly mints millionaires.",
+    "category": "Finance",
+    "subcategories": ["Investing", "Personal Finance"],
+    "tags": ["compound interest", "investing", "savings", "exponential", "wealth"],
+    "emoji": "💰",
+    "accentColor": "#2EA56E",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.uptrend.xyaxis",
+      "fallbackEmoji": "📈"
+    },
+    "coverImagePrompt": "A golden coin multiplying into a towering stack that curves upward like an exponential graph, warm sunset light, cinematic and slightly surreal"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A penny that doubles",
+      "body": "Would you rather have a million dollars right now, or a single penny that doubles every day for 30 days? Most people pick the million. They're wrong. The penny becomes over $5 million. That's compound interest — and once it gets rolling, it's almost embarrassing how fast it grows.",
+      "visual": {
+        "sfSymbol": "dollarsign.circle.fill",
+        "imagePrompt": "A single penny on day 1 beside a mountain of coins on day 30, split-screen, dramatic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Interest earning interest",
+      "body": "Simple interest pays you a fixed amount each year based on your original deposit. Compound interest pays you interest on your interest — last year's gains join this year's principal, and the whole snowball grows. The longer it rolls, the bigger the snowball, the more snow it picks up.",
+      "keyTerms": [
+        { "term": "Principal", "definition": "The original amount of money deposited or invested" },
+        { "term": "Compounding", "definition": "Earning returns on both the principal and previously earned interest" }
+      ],
+      "visual": {
+        "sfSymbol": "snowflake",
+        "imagePrompt": "A small snowball rolling downhill, growing into a boulder, in a wintery pastel scene"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Rule of 72",
+      "body": "Here's a trick bankers have used for centuries. Divide 72 by your annual rate of return to find how many years it takes your money to double. At 6%, that's 12 years. At 8%, nine years. At 10%, just over seven. It's not exact, but it's close enough that you can run the math in your head at a dinner table.",
+      "visual": {
+        "sfSymbol": "divide.square.fill",
+        "imagePrompt": "A notebook page showing '72 / 8% = 9 years', with handwritten examples and a small abacus nearby"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Starting early beats investing more",
+      "body": "Imagine two people. Anna invests $200/month from age 25 to 35, then stops. Ben invests $200/month from 35 to 65 — three times as long. At a 7% return, who ends up richer at 65? Anna. Her early decade compounded for 40 years. Ben's money never got the same head start. Time matters more than the amount you contribute.",
+      "funFact": "Warren Buffett made roughly 99% of his wealth after his 50th birthday — not because he got better at investing, but because compounding had decades to work.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two silhouettes with growing money trees beside them, Anna's tree far taller despite her shorter watering time"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Time is the quiet ingredient",
+      "body": "You don't need a big paycheck or a stock-picking talent. You need time, patience, and the discipline to leave it alone. The ugliest truth about getting rich is that it's boring — compound interest rewards the willingness to wait longer than most people are willing to.",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the key difference between simple and compound interest?",
+      "options": [
+        "Simple interest is taxed, compound isn't",
+        "Compound interest pays interest on previously earned interest",
+        "Simple interest is only used by banks",
+        "Compound interest requires a larger deposit"
+      ],
+      "correctIndex": 1,
+      "explanation": "With compound interest, earned interest is added to the principal so future interest is calculated on the growing balance."
+    },
+    {
+      "index": 1,
+      "question": "Using the Rule of 72, roughly how long does it take for money to double at an 8% annual return?",
+      "options": ["5 years", "7 years", "9 years", "12 years"],
+      "correctIndex": 2,
+      "explanation": "72 divided by 8 equals 9 years."
+    },
+    {
+      "index": 2,
+      "question": "Why does starting to invest earlier often beat investing more later?",
+      "options": [
+        "Young people pay less tax",
+        "Older investments aren't allowed to compound",
+        "Early contributions have more years to compound",
+        "Interest rates rise over time"
+      ],
+      "correctIndex": 2,
+      "explanation": "The longer money has to compound, the more exponentially it grows — time is the biggest multiplier."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Psychology of Money",
+      "publisher": "Harriman House",
+      "year": 2020
+    },
+    {
+      "title": "A Random Walk Down Wall Street",
+      "publisher": "W. W. Norton & Company",
+      "year": 2019
+    }
+  ],
+
+  "related": ["financial-bubbles", "stock-market-basics", "inflation-explained"]
+}

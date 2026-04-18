@@ -1,0 +1,141 @@
+{
+  "id": "how-wifi-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Wi-Fi Actually Works",
+    "teaser": "Your router is basically a tiny radio station — and your laptop has been tuned in the whole time.",
+    "category": "Technology",
+    "subcategories": ["Networking", "Radio"],
+    "tags": ["wifi", "radio", "networking", "wireless", "signals"],
+    "emoji": "📶",
+    "accentColor": "#4EB1D8",
+    "coverSymbol": {
+      "sfSymbol": "wifi",
+      "fallbackEmoji": "📶"
+    },
+    "coverImagePrompt": "A stylized cross-section of a living room with visible radio waves rippling out from a router, soft teal glow, devices quietly listening, cinematic illustration"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It's just radio — but smarter",
+      "body": "Wi-Fi isn't magic. It's the same kind of radio wave that carried FM stations in the 1950s, just tuned to much higher frequencies and switching direction thousands of times a second. Your router is a tiny transmitter. Your laptop is a tiny receiver. And the whole apartment building is screaming over each other on a handful of channels.",
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": "A vintage radio and a modern Wi-Fi router side by side, radio waves shown pouring from both in warm-yellow versus cool-cyan"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two-way conversation in invisible light",
+      "body": "Wi-Fi uses electromagnetic waves — the same physics as visible light, but at frequencies your eyes can't see (usually 2.4 GHz or 5 GHz). Your router broadcasts tiny pulses encoding 1s and 0s. Your devices send pulses back. It's a two-way conversation happening millions of times faster than you can blink.",
+      "keyTerms": [
+        { "term": "Frequency", "definition": "How many wave cycles happen per second, measured in Hertz (Hz)" },
+        { "term": "Access point", "definition": "A device (usually your router) that bridges wireless devices to a wired network" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "An oscilloscope-style animation showing encoded binary pulses on a radio wave, glowing neon blue"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "2.4 vs. 5 GHz: the classic tradeoff",
+      "body": "The 2.4 GHz band travels farther and slips through walls more easily — but it's crowded. Microwaves, baby monitors, and your neighbor's router all share it. The 5 GHz band is faster and quieter but falls off quickly through walls. That's why your Wi-Fi can feel blazing fast next to the router and crawl in the back bedroom — you're switching bands whether you realize it or not.",
+      "visual": {
+        "sfSymbol": "wifi",
+        "imagePrompt": "Floor plan of an apartment showing two overlapping Wi-Fi coverage zones — 2.4 GHz wider and weaker, 5 GHz tighter and brighter"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why your microwave kills Netflix",
+      "body": "A microwave oven heats food using the same 2.4 GHz frequency Wi-Fi uses. The oven is shielded — but not perfectly. When you hit 'popcorn,' some energy leaks out and drowns your router's signal like someone shouting over a whisper. In 1999, Wi-Fi's inventors chose 2.4 GHz precisely because it was unlicensed — the trade-off was sharing it with appliances.",
+      "funFact": "Wi-Fi's backbone algorithm — how devices politely wait to avoid talking over each other — was inspired by aloha-net, a 1970s radio system used to network computers across Hawaiian islands.",
+      "visual": {
+        "sfSymbol": "microwave",
+        "imagePrompt": "A microwave oven glowing ominously as Wi-Fi bars nearby flicker and drop, playful but dramatic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A miracle hiding in plain sight",
+      "body": "Right now, invisible waves carrying billions of bits are passing through your body. Wi-Fi took a 19th-century discovery — electromagnetic waves — and turned it into the silent nervous system of modern life. Next time it drops, remember: the real miracle isn't that it glitches sometimes. It's that it ever works at all.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What kind of signal does Wi-Fi use?",
+      "options": [
+        "Ultrasonic sound",
+        "Radio waves",
+        "Infrared light",
+        "Magnetic induction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wi-Fi uses radio-frequency electromagnetic waves, typically at 2.4 GHz or 5 GHz."
+    },
+    {
+      "index": 1,
+      "question": "Why is 5 GHz Wi-Fi often faster but shorter-range than 2.4 GHz?",
+      "options": [
+        "Higher frequency carries more data but travels shorter distances and penetrates walls less",
+        "It uses a different type of wave",
+        "It's encrypted differently",
+        "It only works with newer routers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Higher-frequency waves can carry more data but are absorbed by walls and obstacles more easily."
+    },
+    {
+      "index": 2,
+      "question": "Why can a microwave oven interfere with Wi-Fi?",
+      "options": [
+        "It emits visible light",
+        "It uses the same 2.4 GHz frequency, and some energy leaks out",
+        "Its magnetic field blocks signals",
+        "It drains the router's power"
+      ],
+      "correctIndex": 1,
+      "explanation": "Microwaves operate at 2.4 GHz, the same band many Wi-Fi networks use, and imperfect shielding leaks interference."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Wi-Fi: The First Twenty-Five Years",
+      "publisher": "IEEE Communications Magazine",
+      "year": 2022
+    },
+    {
+      "title": "802.11 Wireless Networks: The Definitive Guide",
+      "publisher": "O'Reilly Media",
+      "year": 2005
+    }
+  ],
+
+  "related": ["how-internet-works", "radio-waves", "bluetooth-explained"]
+}

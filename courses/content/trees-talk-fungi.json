@@ -1,0 +1,141 @@
+{
+  "id": "trees-talk-fungi",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Trees Talk Through Fungi",
+    "teaser": "Beneath every old forest is a web of living cables — and the trees use it to send warnings, trade sugar, and feed their young.",
+    "category": "Biology",
+    "subcategories": ["Ecology", "Mycology"],
+    "tags": ["forests", "fungi", "mycorrhizae", "trees", "ecology"],
+    "emoji": "🌳",
+    "accentColor": "#4C7C3A",
+    "coverSymbol": {
+      "sfSymbol": "tree.fill",
+      "fallbackEmoji": "🍄"
+    },
+    "coverImagePrompt": "An old forest at dawn with glowing fungal threads visible beneath the soil, connecting tree roots in a luminous network, painterly and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The internet beneath your feet",
+      "body": "Walk into any old forest and you're standing on top of a hidden network — millions of kilometers of microscopic threads weaving between tree roots, carrying signals and nutrients between neighbors. Biologists sometimes call it the Wood Wide Web. And the 'cables' aren't part of the trees at all. They're fungi.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A cross-section of forest floor showing white fungal threads weaving between pine roots, dappled sunlight filtering from above"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A 400-million-year partnership",
+      "body": "Most land plants can't survive alone. Their roots are wrapped by specialized fungi called mycorrhizae, which extend far beyond what roots can reach on their own. The fungus pulls water and minerals from the soil; the tree pays in sugar, pumped down from its leaves. This deal is so old it may have been what allowed plants to colonize land in the first place.",
+      "keyTerms": [
+        { "term": "Mycorrhiza", "definition": "A symbiotic partnership between a fungus and a plant root" },
+        { "term": "Mycelium", "definition": "The thread-like body of a fungus, made of thin filaments called hyphae" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A single plant root in cross-section, with fungal hyphae visibly penetrating and branching out into the soil"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Mothers feeding their children",
+      "body": "Ecologist Suzanne Simard ran a now-famous experiment in British Columbia in the late 1990s. She injected old Douglas firs with radioactive carbon and tracked it moving through the fungal network into nearby seedlings — many of them her 'mother tree's' own offspring. The mother tree sent more carbon to her kin than to strangers. The forest, it turned out, had a family life.",
+      "funFact": "A single mother tree can be linked to hundreds of other trees — in one Oregon site, a mother fir shared the same fungal network with 47 neighbors.",
+      "visual": {
+        "sfSymbol": "figure.2.and.child.holdinghands",
+        "imagePrompt": "A huge ancient Douglas fir with glowing lines of carbon flowing through underground roots to smaller seedlings nearby"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Chemical alarms",
+      "body": "The network isn't just nutrient delivery. When a tree is attacked by aphids, it can release warning molecules into the fungal threads, and neighboring trees respond by ramping up their own chemical defenses. Scientists have recorded the signal arriving at distant trees within hours. The interpretation is still debated — some argue the fungi are not passive wires but active brokers, charging fees on the traffic they allow.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A tree under aphid attack with red pulses radiating through underground threads to distant trees that light up in response"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A forest isn't a crowd of individuals",
+      "body": "What looks like a collection of separate trees is more like a single, sprawling organism threaded together by fungi. When you cut down the oldest trees, you're not just removing wood — you're pulling the biggest servers out of the network. Understanding forests as communities, not stands, is changing how we think about conservation.",
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a mycorrhiza?",
+      "options": [
+        "A disease that attacks tree roots",
+        "A partnership between a fungus and a plant root",
+        "A type of moss that grows on bark",
+        "The outer layer of a fungal cap"
+      ],
+      "correctIndex": 1,
+      "explanation": "A mycorrhiza is a symbiotic relationship between a plant root and a fungus, which trades soil nutrients for sugars from photosynthesis."
+    },
+    {
+      "index": 1,
+      "question": "What did Suzanne Simard's experiments reveal about mother trees?",
+      "options": [
+        "They grow faster than neighboring trees",
+        "They share more carbon with their own seedlings",
+        "They produce toxins to kill competitors",
+        "They attract more pollinators"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simard showed that mother trees preferentially send carbon through the fungal network to their own kin seedlings — favoritism in the forest."
+    },
+    {
+      "index": 2,
+      "question": "What can travel across the fungal network besides nutrients?",
+      "options": [
+        "Electricity from photosynthesis",
+        "Water drops up through leaves",
+        "Chemical warnings about pests",
+        "Actual wood fibers"
+      ],
+      "correctIndex": 2,
+      "explanation": "When a tree is attacked, it can release chemical alarms into the network, prompting nearby trees to raise their defenses."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Finding the Mother Tree: Discovering the Wisdom of the Forest",
+      "publisher": "Knopf",
+      "year": 2021
+    },
+    {
+      "title": "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures",
+      "publisher": "Random House",
+      "year": 2020
+    }
+  ],
+
+  "related": ["gut-brain-connection", "tardigrades", "forest-ecology"]
+}

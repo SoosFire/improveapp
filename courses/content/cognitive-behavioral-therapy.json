@@ -1,0 +1,136 @@
+{
+  "id": "cognitive-behavioral-therapy",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What CBT Actually Does",
+    "teaser": "It's the most-researched therapy on Earth — and the trick at its core is almost absurdly simple.",
+    "category": "Mental Health",
+    "subcategories": ["Therapy", "Psychology"],
+    "tags": ["cbt", "therapy", "cognitive", "behavioral", "depression"],
+    "emoji": "🧠",
+    "accentColor": "#4D7EA8",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A person in a softly lit therapy room, thought bubbles above their head being gently rearranged by their own hand, warm painterly style, introspective mood"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A therapist's strange question",
+      "body": "You tell your therapist you're convinced you'll fail the presentation. Instead of asking how you feel, she asks something weird: 'What's the evidence?' You pause. You realize you've nailed the last three. Something shifts. That tiny move is the entire engine of Cognitive Behavioral Therapy.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "Two people in a sunlit therapy office, warm natural lighting, quiet moment of reflection"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The triangle that runs your life",
+      "body": "CBT is built on one idea: thoughts, feelings, and behaviors form a triangle, and each corner pulls on the others. A thought like 'I'm going to mess this up' creates anxiety, which makes you avoid practicing, which makes you actually mess up — confirming the thought. The loop closes. CBT looks for where to cut it.",
+      "keyTerms": [
+        { "term": "Cognitive triangle", "definition": "The interaction between thoughts, feelings, and behaviors" },
+        { "term": "Cognitive distortion", "definition": "A systematic thinking error that warps reality" }
+      ],
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "A glowing triangle with 'Thoughts,' 'Feelings,' and 'Behaviors' at its corners, arrows circulating between them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Catching the lies your brain tells",
+      "body": "Aaron Beck, a 1960s psychiatrist, noticed his depressed patients had thought patterns that weren't just sad — they were wrong. Catastrophizing ('this is a disaster'), mind-reading ('she hates me'), black-and-white thinking ('I'm a total failure'). CBT trains you to catch these distortions, write them down, and ask the therapist's magic question: what's the actual evidence?",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A journal page with handwritten thoughts, some crossed out and replaced with more balanced versions, pen resting beside it"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it keeps winning trials",
+      "body": "Hundreds of randomized controlled trials have put CBT up against other therapies, medication, and placebo. For depression, anxiety, insomnia, and PTSD, CBT consistently matches or outperforms antidepressants — and the effects last longer after treatment ends. A 2018 meta-analysis of over 400 studies found CBT worked across cultures, age groups, and delivery formats, including online.",
+      "funFact": "A single CBT course typically runs 8 to 20 sessions — far shorter than classical psychoanalysis, which could last for years.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "Abstract visualization of mood recovery curves rising over weeks, scientific chart aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You can steal the tools",
+      "body": "You don't need a therapist to try the core move. Next time you feel lousy, write down the exact thought behind it. Ask: is this a fact or a feeling dressed as one? What would I tell a friend who said this? That's it. That's the whole trick. Repeat it a few thousand times and you've rewired a habit. That's CBT in the wild.",
+      "visual": {
+        "sfSymbol": "pencil.and.outline",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which three elements form the CBT cognitive triangle?",
+      "options": [
+        "Thoughts, feelings, behaviors",
+        "Past, present, future",
+        "Id, ego, superego",
+        "Head, heart, gut"
+      ],
+      "correctIndex": 0,
+      "explanation": "CBT treats thoughts, feelings, and behaviors as a loop, each one influencing the others."
+    },
+    {
+      "index": 1,
+      "question": "Who is most associated with founding modern CBT?",
+      "options": ["Sigmund Freud", "Aaron Beck", "Carl Jung", "B. F. Skinner"],
+      "correctIndex": 1,
+      "explanation": "Aaron Beck developed cognitive therapy in the 1960s after noticing consistent thought patterns in depressed patients."
+    },
+    {
+      "index": 2,
+      "question": "What's a 'cognitive distortion'?",
+      "options": [
+        "A brain injury that warps vision",
+        "A systematic thinking error that misrepresents reality",
+        "A meditation technique",
+        "A type of dream"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cognitive distortions are predictable thinking errors like catastrophizing or mind-reading."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Cognitive Therapy of Depression",
+      "publisher": "Aaron T. Beck et al., Guilford Press",
+      "year": 1979
+    },
+    {
+      "title": "The Efficacy of Cognitive Behavioral Therapy: A Review of Meta-analyses",
+      "publisher": "Cognitive Therapy and Research",
+      "year": 2012
+    }
+  ],
+
+  "related": ["anxiety-vs-fear", "fight-flight-freeze", "mindfulness-basics"]
+}

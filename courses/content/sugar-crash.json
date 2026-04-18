@@ -1,0 +1,136 @@
+{
+  "id": "sugar-crash",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Sugar Makes You Crash",
+    "teaser": "Why does a donut feel amazing for 20 minutes — and then turn you into a zombie? Meet the hormonal rollercoaster.",
+    "category": "Nutrition",
+    "subcategories": ["Metabolism", "Endocrinology"],
+    "tags": ["sugar", "glucose", "insulin", "nutrition", "metabolism"],
+    "emoji": "🍩",
+    "accentColor": "#E85D75",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.downtrend.xyaxis",
+      "fallbackEmoji": "📉"
+    },
+    "coverImagePrompt": "A glossy pink-frosted donut casting a long jagged shadow that looks like a crashing stock chart, moody editorial food photography, dramatic side lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 3 PM zombie",
+      "body": "You grab a muffin and a latte at 2:30. Twenty minutes later, you feel on top of the world. By 3:30, you're staring at your keyboard, your brain replaced with warm pudding. What actually happened inside your body between those two moments? A very predictable hormonal ambush.",
+      "visual": {
+        "sfSymbol": "clock.badge.exclamationmark",
+        "imagePrompt": "An exhausted office worker slumped at a desk at 3pm, empty pastry bag and coffee cup, golden afternoon light, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet blood glucose",
+      "body": "Every carb you eat — bread, fruit, soda, even pasta — eventually becomes glucose, a simple sugar that travels in your blood to fuel your cells. Your body is obsessive about keeping blood glucose in a narrow range. Too low and your brain stalls. Too high and it damages tissues. The dial that keeps this balance is a hormone called insulin, made in the pancreas.",
+      "keyTerms": [
+        { "term": "Glucose", "definition": "The simple sugar that fuels nearly every cell in your body" },
+        { "term": "Insulin", "definition": "The hormone that tells cells to absorb glucose from the blood" }
+      ],
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "A microscopic view of red blood cells flowing past glowing glucose molecules, medical illustration, cool blue tones"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The spike and the overshoot",
+      "body": "A donut floods your bloodstream with glucose in minutes. Your pancreas panics and releases a big wave of insulin to clear it. But the body often overshoots — dumping in more insulin than strictly needed. Glucose drops fast, sometimes dipping below your pre-donut baseline. Your brain, which runs almost entirely on glucose, reads this as an emergency. That's the crash: foggy thinking, irritability, and a craving for more sugar.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A line graph showing blood glucose spiking sharply then crashing below baseline, elegant infographic, warm accent colors"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Fiber and fat are brakes",
+      "body": "Continuous glucose monitor studies show the same number of carbs produces wildly different spikes depending on what's with them. A slice of bread alone spikes blood sugar hard. The same bread with butter and avocado spikes it much less — fat and fiber slow digestion, so glucose trickles in instead of flooding. Even the order you eat food matters: eating vegetables before rice can cut the spike by roughly a third.",
+      "funFact": "A ripe banana spikes blood sugar more than a scoop of vanilla ice cream. The ice cream's fat dramatically slows sugar absorption.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A bowl of salad next to a bowl of rice with a small clock in the corner showing 'eat this first', clean lifestyle photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Smooth, not spiky",
+      "body": "Your afternoon energy isn't just willpower — it's chemistry. Eating carbs alongside protein, fat, or fiber transforms a jagged glucose spike into a gentle hill. You'll feel less hungry, think more clearly, and skip the 3 PM zombie entirely. You don't have to fear sugar. You just have to stop sending it in alone.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What hormone clears glucose from the blood?",
+      "options": ["Cortisol", "Insulin", "Glucagon", "Adrenaline"],
+      "correctIndex": 1,
+      "explanation": "Insulin, released by the pancreas, signals cells to absorb glucose from the bloodstream."
+    },
+    {
+      "index": 1,
+      "question": "Why does a 'sugar crash' leave you feeling foggy?",
+      "options": [
+        "Sugar damages neurons permanently",
+        "Insulin overshoots and drives glucose below baseline, starving your brain",
+        "Your stomach can't process sugar",
+        "Dopamine levels drop to zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "After a big sugar spike, the insulin response often overshoots, briefly dropping blood glucose below normal and leaving your brain underfueled."
+    },
+    {
+      "index": 2,
+      "question": "Which pairing causes the smallest glucose spike?",
+      "options": [
+        "Plain white rice",
+        "White rice with vegetables and protein",
+        "A sugary soda",
+        "A ripe banana on its own"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fat, fiber, and protein slow digestion, so the same carbs cause a gentler, longer glucose rise when eaten together."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Glucose Revolution",
+      "publisher": "Simon & Schuster",
+      "year": 2022
+    },
+    {
+      "title": "Personalized Nutrition by Prediction of Glycemic Responses",
+      "publisher": "Cell",
+      "year": 2015
+    }
+  ],
+
+  "related": ["glycemic-index", "insulin-resistance", "continuous-glucose-monitors"]
+}

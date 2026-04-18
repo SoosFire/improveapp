@@ -1,0 +1,137 @@
+{
+  "id": "greek-chorus",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Greek Chorus",
+    "teaser": "Why did ancient plays have a dozen people singing from the sidelines — and why does every modern musical still copy them?",
+    "category": "Theater & Drama",
+    "subcategories": ["Ancient Theater", "Dramatic Devices"],
+    "tags": ["greek theater", "chorus", "tragedy", "sophocles", "performance"],
+    "emoji": "🎭",
+    "accentColor": "#4A5D3A",
+    "coverSymbol": {
+      "sfSymbol": "person.3.fill",
+      "fallbackEmoji": "🎶"
+    },
+    "coverImagePrompt": "A semicircle of robed figures in matching ochre cloaks on a moonlit Greek amphitheater floor, arms raised in synchronized gesture, single protagonist standing apart on the steps, cinematic, haunting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A crowd with one voice",
+      "body": "Imagine sitting in a Greek amphitheater 2,500 years ago. The hero steps forward to deliver a tragic monologue. But he isn't alone — behind him, twelve to fifty masked performers sway in unison, chant in perfect rhythm, and interrupt the action to comment on it. They're the chorus. And without them, Greek drama wouldn't exist.",
+      "visual": {
+        "sfSymbol": "music.mic",
+        "imagePrompt": "A cluster of silhouetted figures chanting under stars in an ancient amphitheater, moonlight, mystical"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What exactly is a chorus?",
+      "body": "In classical Greek theater, the 'choros' was a group of performers who sang, danced, and spoke in unison — treated as a single character. They didn't participate in the main action. Instead, they danced in a flat circular space called the 'orchestra' (from the verb 'to dance'), between audience and stage. They played ordinary citizens, elders, or slaves — the social background against which the hero's choices played out.",
+      "keyTerms": [
+        { "term": "Choros", "definition": "The Greek word for both the group of performers and the dance they performed" },
+        { "term": "Orchestra", "definition": "The circular dance floor between audience and stage — not a group of musicians" },
+        { "term": "Strophe / Antistrophe", "definition": "Paired sections of a choral ode, sung while moving in opposite directions" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.dashed",
+        "imagePrompt": "A bird's-eye view of a Greek amphitheater showing the circular orchestra filled with a chorus, actors on the raised skene behind"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three jobs at once",
+      "body": "The chorus pulled triple duty. First: narration — they filled in backstory and offstage events the audience couldn't see. Second: emotion — they reacted to the hero's fate, essentially telling the audience how to feel. Third: moral framing — they voiced society's view, warning against hubris or mourning an injustice. Aristotle said a proper chorus should be treated 'as one of the actors,' not a decoration.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "A stylized diagram showing three arrows from a chorus group pointing to 'story,' 'feeling,' and 'meaning'"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The chorus shrinks",
+      "body": "When Aeschylus wrote in the 480s BCE, his choruses had fifty members. By Sophocles' time (around 440 BCE), he'd cut it to fifteen and added a third actor — shifting focus toward individual character. Euripides trimmed further, sometimes reducing the chorus to pure background music. The arc tells a story: as Greek culture grew more interested in the individual, the collective voice faded. The chorus never fully died, though — it morphed.",
+      "funFact": "The word 'choreography' literally means 'writing for the chorus' — the choral dance was what needed to be notated, long before solo ballet existed.",
+      "visual": {
+        "sfSymbol": "arrow.down.right",
+        "imagePrompt": "A timeline of shrinking chorus sizes illustrated with progressively smaller clusters of robed figures, aged parchment"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You've seen it this week",
+      "body": "The Greek chorus is everywhere in modern storytelling, just disguised. The singing villagers in Beauty and the Beast? Chorus. The narrators in Hamilton or Into the Woods? Chorus. Even the laugh track on a sitcom or the reaction shots of a reality-show confessional booth function as choruses — telling us how to interpret the main action. Whenever a story steps outside itself to comment, the ghost of Sophocles is in the room.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was the 'orchestra' in a Greek theater?",
+      "options": [
+        "A group of musicians",
+        "The circular floor where the chorus danced",
+        "The raised stage for the lead actors",
+        "The front row reserved for priests"
+      ],
+      "correctIndex": 1,
+      "explanation": "The orchestra was a flat circle between stage and audience — its name comes from 'orcheisthai,' to dance."
+    },
+    {
+      "index": 1,
+      "question": "Which playwright reduced the chorus size and added a third actor?",
+      "options": ["Aeschylus", "Sophocles", "Euripides", "Aristophanes"],
+      "correctIndex": 1,
+      "explanation": "Sophocles cut the chorus from 50 to 15 and added a third actor, shifting dramatic weight to individuals."
+    },
+    {
+      "index": 2,
+      "question": "Which of these is NOT a traditional job of the Greek chorus?",
+      "options": [
+        "Narrating offstage events",
+        "Voicing the community's moral perspective",
+        "Killing the protagonist at the climax",
+        "Cueing the audience's emotional response"
+      ],
+      "correctIndex": 2,
+      "explanation": "The chorus observed and commented — they almost never touched the main action. The hero's fate was delivered by other characters or gods."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Poetics",
+      "publisher": "Aristotle",
+      "year": -335
+    },
+    {
+      "title": "The Chorus in Greek Tragedy and Culture",
+      "publisher": "Oxford University Press",
+      "year": 2013
+    }
+  ],
+
+  "related": ["deus-ex-machina", "theater-masks-symbol", "three-act-structure"]
+}

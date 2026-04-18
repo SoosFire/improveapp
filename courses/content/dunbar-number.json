@@ -1,0 +1,126 @@
+{
+  "id": "dunbar-number",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Dunbar's Number: Why Groups Max Out at 150",
+    "teaser": "Your brain literally cannot maintain more than 150 real relationships. One anthropologist proved it with monkey brains.",
+    "category": "Anthropology",
+    "subcategories": ["Social Anthropology", "Evolutionary Psychology"],
+    "tags": ["dunbar", "social-groups", "brain", "relationships", "evolution"],
+    "emoji": "👥",
+    "accentColor": "#2E86AB",
+    "coverSymbol": {
+      "sfSymbol": "person.3.fill",
+      "fallbackEmoji": "👥"
+    },
+    "coverImagePrompt": "An overhead view of concentric circles of people — 5 at the center, then 15, 50, 150 — fading outward into a vast blurred crowd, cinematic infographic style"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "There's a ceiling on your social life",
+      "body": "Quick: how many people could you invite to a wedding and genuinely feel happy to see each one? Now count your neighbors, coworkers, college friends, extended family. If you landed somewhere around 150, you've stumbled onto Dunbar's Number — the theoretical maximum number of meaningful relationships a human brain can maintain. And it's the same whether you're a neolithic hunter or a modern software engineer.",
+      "visual": {
+        "sfSymbol": "person.3.sequence.fill",
+        "imagePrompt": "A warm crowded wedding reception photographed from above, 150 people visible at tables, a single guest outlined as if in search of a face"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The monkey-brain discovery",
+      "body": "In 1992, British anthropologist Robin Dunbar noticed that among primates, species with bigger neocortices live in bigger social groups. He plotted the ratio — neocortex size vs. group size — then extrapolated to humans. The predicted human group size? About 150. Specifically, 148 plus or minus a margin of error. Dunbar's bet: our brains are the size they are because we need them to keep track of each other.",
+      "keyTerms": [
+        { "term": "Neocortex", "definition": "The outer layer of the brain responsible for higher thought and social reasoning" },
+        { "term": "Dunbar's Number", "definition": "The estimated cognitive limit on stable social relationships, roughly 150" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A stylized diagram of a primate brain next to a human brain, a line plotting neocortex size against social group size, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The layers inside 150",
+      "body": "Dunbar didn't stop at one number — he found a whole hierarchy. Each layer is roughly 3x the one inside it. At the core: 5 intimate loved ones. Then 15 close friends you'd invite to a dinner party. Then 50 people for a big celebration. Then 150 — the casual acquaintances whose names you know and whose faces you'd recognize at an airport. Beyond 150, people become strangers your brain files under 'generic human.'",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A glowing concentric ring diagram labeled 5, 15, 50, 150, each ring densely populated with tiny figures, dark navy background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The number keeps showing up",
+      "body": "Dunbar found 150 everywhere he looked. Neolithic farming villages averaged around 150 residents. Roman military units (the maniple, later the centuria) hovered around 120–150 soldiers. Modern Hutterite religious communes split when they exceed 150 — members say larger groups 'lose their sense of community.' W.L. Gore, the company behind Gore-Tex, famously caps each factory at 150 employees before splitting off a new one. Even Christmas card lists average 150 recipients.",
+      "funFact": "Studies of Facebook and Twitter show that even people with 5,000 'friends' or followers actively interact with only about 150 of them — suggesting the cognitive ceiling holds even online.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "A wide cinematic shot of a small village from above with exactly 150 tiny figures moving between stone houses, golden-hour light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it matters in your life",
+      "body": "Dunbar's number isn't a strict law — some critics argue it varies more than he claimed. But the core insight is stubborn: keeping track of another person is expensive. You have to remember their preferences, their history, their relationships to others. Your social battery is finite. When you feel overwhelmed by the number of people in your life, that's not weakness. That's a Paleolithic brain hitting a very real ceiling.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is Dunbar's Number?",
+      "options": ["The IQ threshold for complex speech", "The cognitive limit on stable relationships, roughly 150", "The average number of words in a conversation", "The minimum group size for cooperation"],
+      "correctIndex": 1,
+      "explanation": "Robin Dunbar estimated humans can maintain about 150 stable social relationships before cognition runs out."
+    },
+    {
+      "index": 1,
+      "question": "What anatomical feature did Dunbar correlate with primate group size?",
+      "options": ["Body weight", "Lifespan", "Neocortex size", "Jaw strength"],
+      "correctIndex": 2,
+      "explanation": "Primate species with larger neocortices tend to live in larger social groups — the core of Dunbar's method."
+    },
+    {
+      "index": 2,
+      "question": "What are the approximate inner layers of Dunbar's hierarchy?",
+      "options": ["1, 3, 10, 30", "5, 15, 50, 150", "10, 20, 100, 1000", "2, 4, 8, 16"],
+      "correctIndex": 1,
+      "explanation": "Dunbar identified nested layers of roughly 5 intimates, 15 close friends, 50 friends, and 150 acquaintances."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Neocortex size as a constraint on group size in primates",
+      "publisher": "Journal of Human Evolution",
+      "year": 1992
+    },
+    {
+      "title": "How Many Friends Does One Person Need? Dunbar's Number and Other Evolutionary Quirks",
+      "publisher": "Harvard University Press (Robin Dunbar)",
+      "year": 2010
+    }
+  ],
+
+  "related": ["why-humans-gossip", "tribal-societies", "social-brain-hypothesis"]
+}

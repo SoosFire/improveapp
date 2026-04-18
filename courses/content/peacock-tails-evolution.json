@@ -1,0 +1,136 @@
+{
+  "id": "peacock-tails-evolution",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Peacocks Have Useless Tails",
+    "teaser": "The peacock's tail almost broke Darwin's theory. It doesn't help him fly, hide, or fight. So why did evolution build it?",
+    "category": "Evolutionary Biology",
+    "subcategories": ["Sexual Selection", "Animal Behavior"],
+    "tags": ["evolution", "darwin", "mating", "peacock", "sexual-selection"],
+    "emoji": "🦚",
+    "accentColor": "#0A6E7A",
+    "coverSymbol": {
+      "sfSymbol": "pawprint.fill",
+      "fallbackEmoji": "🦚"
+    },
+    "coverImagePrompt": "A male peacock mid-display with his iridescent fan fully spread, every eyespot shimmering emerald and gold, backlit golden hour sunlight, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The feather that made Darwin sick",
+      "body": "In 1860, Charles Darwin wrote to a friend: 'The sight of a feather in a peacock's tail, whenever I gaze at it, makes me sick!' The tail was a problem. Survival of the fittest should strip away anything wasteful. Yet here was a bird dragging around a meter and a half of gaudy, predator-attracting plumage — and it was winning.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A historical portrait of Darwin at his writing desk, a single peacock feather pinned to the wall, warm candlelight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A second force of evolution",
+      "body": "To resolve the puzzle, Darwin added a sister mechanism to natural selection: sexual selection. Traits don't have to help you survive — they have to help you reproduce. If peahens prefer flashy males, then flashy males have more chicks, and flashiness evolves even when it's literally costly. Dying a little earlier is fine, as long as you die a father.",
+      "keyTerms": [
+        { "term": "Sexual selection", "definition": "Evolution driven by mate preferences rather than survival advantages" },
+        { "term": "Handicap principle", "definition": "The idea that costly traits are honest signals of quality — only strong individuals can afford them" }
+      ],
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "A peahen calmly observing a displaying peacock, the male blurred in motion, ornithological illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why honesty hurts",
+      "body": "Israeli biologist Amotz Zahavi argued the tail's cost is the whole point. A scrawny, sickly male couldn't grow and haul such a display without collapsing. So the tail is a guarantee: 'I'm so healthy I can waste resources on this nonsense and still survive.' Peahens choosing the flashiest males get mates carrying the best genes. The runaway starts.",
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "An infographic showing a positive feedback loop between male ornament size and female preference, elegant minimal diagram"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The eyespot experiment",
+      "body": "In the 1990s, biologist Marion Petrie clipped eyespots off some males and left others alone. Peahens almost exclusively mated with the untrimmed males — and their chicks grew larger and survived better in the wild than chicks of trimmed fathers. The tail isn't just pretty; it really does track fitness.",
+      "funFact": "Peacocks also rattle their feathers at frequencies humans barely notice — around 26 Hz. Peahens feel the vibrations through their crests, which act like tiny tuning forks.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "Extreme close-up of an iridescent eyespot on a peacock feather, showing microscopic barbule structure"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Beauty with a bill attached",
+      "body": "Every extravagant ornament in nature — the bowerbird's blue collection, the stag's absurd antlers, the bird-of-paradise's impossible dance — is an answer to the same question Darwin's peacocks posed. Evolution doesn't only reward what keeps you alive. It rewards what gets chosen. And choice can build something as useless, and as dazzling, as a peacock's tail.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why did the peacock's tail bother Darwin?",
+      "options": [
+        "It was too small to see",
+        "It seemed to hurt survival yet still evolved",
+        "It contradicted genetics",
+        "He thought peacocks were fake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Natural selection should remove costly traits — but the peacock's tail clearly had not been removed."
+    },
+    {
+      "index": 1,
+      "question": "Which mechanism did Darwin propose to explain the tail?",
+      "options": ["Genetic drift", "Sexual selection", "Convergent evolution", "Natural immunity"],
+      "correctIndex": 1,
+      "explanation": "Darwin argued that mate choice can drive evolution of traits that don't improve survival."
+    },
+    {
+      "index": 2,
+      "question": "What did Marion Petrie's eyespot experiment show?",
+      "options": [
+        "Eyespots are just decoration",
+        "Peahens prefer males with more eyespots, and those males sire healthier chicks",
+        "Eyespot number doesn't affect mating",
+        "Peahens avoid flashy males"
+      ],
+      "correctIndex": 1,
+      "explanation": "Petrie showed both that peahens preferred flashier males and that their offspring had real survival advantages."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Peahens prefer peacocks with elaborate trains",
+      "publisher": "Animal Behaviour",
+      "year": 1991
+    },
+    {
+      "title": "Mate selection — A selection for a handicap",
+      "publisher": "Journal of Theoretical Biology",
+      "year": 1975
+    }
+  ],
+
+  "related": ["why-humans-cry", "bowerbird-architecture", "bird-of-paradise"]
+}

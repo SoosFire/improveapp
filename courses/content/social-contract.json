@@ -1,0 +1,141 @@
+{
+  "id": "social-contract",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Social Contract",
+    "teaser": "You never signed anything. So why do you have to obey the law?",
+    "category": "Political Science",
+    "subcategories": ["Political Philosophy", "Enlightenment"],
+    "tags": ["philosophy", "hobbes", "locke", "rousseau"],
+    "emoji": "📜",
+    "accentColor": "#3E5C76",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "📜"
+    },
+    "coverImagePrompt": "A weathered parchment scroll unrolled across a stone table, ink quill beside it, candlelight flickering in a 17th-century study, cinematic chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The contract you never signed",
+      "body": "You pay taxes. You stop at red lights. You'd probably hand a mugger your wallet before fighting back in the street. Somewhere along the way you agreed to obey the state — except you didn't. Nobody showed you a contract. The idea that you did, implicitly, is one of the most powerful and contested ideas in political philosophy: the social contract.",
+      "visual": {
+        "sfSymbol": "signature",
+        "imagePrompt": "A blank parchment with an invisible signature appearing in golden light, symbolic and ethereal"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Hobbes: life without a state",
+      "body": "In 1651, still rattled by the English Civil War, Thomas Hobbes published 'Leviathan.' Without government, he argued, humans exist in a 'state of nature' — a brutal war of all against all, where life is 'solitary, poor, nasty, brutish, and short.' To escape it, rational people surrender their freedom to an absolute sovereign. Safety in exchange for obedience. That trade, Hobbes said, is the social contract.",
+      "keyTerms": [
+        { "term": "State of nature", "definition": "A thought experiment imagining human life without any government" },
+        { "term": "Sovereign", "definition": "The supreme authority to whom people consent to obey" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "The famous Leviathan frontispiece — a giant crowned figure composed of tiny human bodies looming over a kingdom"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Locke and Rousseau fight back",
+      "body": "In 1689, John Locke flipped Hobbes. The state of nature wasn't hell, he said — it was mostly fine. People formed governments only to protect three natural rights: life, liberty, and property. If the state violates them, citizens have the right to overthrow it. Rousseau went further in 1762: true legitimacy comes not from a king but from the 'general will' of the people themselves. These ideas lit the fuse of the American and French Revolutions.",
+      "visual": {
+        "sfSymbol": "flag.2.crossed.fill",
+        "imagePrompt": "Side-by-side portraits of Hobbes, Locke, and Rousseau in period attire, each with symbols of their philosophy beside them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From paper to Philadelphia",
+      "body": "Locke's phrasing shows up almost verbatim in the U.S. Declaration of Independence: 'life, liberty and the pursuit of happiness.' Jefferson later admitted Locke was a direct influence. The French Declaration of the Rights of Man in 1789 echoed Rousseau's general will. Abstract 17th-century essays became the legal scaffolding of modern nation-states within a century.",
+      "funFact": "Jefferson originally drafted 'life, liberty, and property' — he swapped in 'pursuit of happiness' before signing.",
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "A candlelit 1776 writing desk with a quill drafting the Declaration of Independence, ink bottle and wax seal visible"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still matters",
+      "body": "The social contract isn't just history. Every tax debate, every civil disobedience movement, every argument over surveillance or border control is really a dispute about what you've agreed to by staying. When courts invoke 'the consent of the governed,' they're citing a handshake nobody ever made explicit — but one we're all, in some invisible sense, still negotiating today.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did Hobbes describe life in the state of nature?",
+      "options": [
+        "Peaceful and cooperative",
+        "Solitary, poor, nasty, brutish, and short",
+        "Equal and communal",
+        "Guided by divine law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hobbes's grim phrase from 'Leviathan' (1651) is one of the most quoted lines in political philosophy."
+    },
+    {
+      "index": 1,
+      "question": "Which three natural rights did Locke argue government exists to protect?",
+      "options": [
+        "Faith, family, fortune",
+        "Life, liberty, property",
+        "Equality, fraternity, honor",
+        "Safety, prosperity, glory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Locke's trio influenced the U.S. Declaration of Independence, which reworded 'property' as 'the pursuit of happiness.'"
+    },
+    {
+      "index": 2,
+      "question": "What concept did Rousseau introduce as the true source of political legitimacy?",
+      "options": [
+        "Divine right",
+        "The general will",
+        "The invisible hand",
+        "The veil of ignorance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rousseau argued sovereignty flows from the collective 'general will' of the people, not from any ruler."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Leviathan",
+      "publisher": "Andrew Crooke",
+      "year": 1651
+    },
+    {
+      "title": "Two Treatises of Government",
+      "publisher": "Awnsham Churchill",
+      "year": 1689
+    }
+  ],
+
+  "related": ["french-revolution", "enlightenment", "natural-rights"]
+}

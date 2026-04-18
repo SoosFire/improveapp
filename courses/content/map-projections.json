@@ -1,0 +1,137 @@
+{
+  "id": "map-projections",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Africa Looks Smaller on Most Maps",
+    "teaser": "Greenland looks as big as Africa. Africa is actually 14 times larger. So why does the map lie?",
+    "category": "Geography",
+    "subcategories": ["Cartography", "Mathematics"],
+    "tags": ["maps", "projections", "mercator", "cartography"],
+    "emoji": "🌍",
+    "accentColor": "#4C956C",
+    "coverSymbol": {
+      "sfSymbol": "globe.europe.africa.fill",
+      "fallbackEmoji": "🌍"
+    },
+    "coverImagePrompt": "A classic Mercator world map peeling off a flat surface to reveal a round globe underneath, showing Africa dramatically larger than expected, cinematic lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Greenland is a lie",
+      "body": "On most world maps, Greenland looks about the size of Africa. It isn't even close. Africa covers 30.4 million square kilometers. Greenland covers 2.2 million — 14 times smaller. You could fit the United States, China, India, Japan, and most of Europe inside Africa with room to spare. The classroom map you grew up with was distorting reality every time you glanced at it.",
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A true-scale outline of Greenland nested inside an outline of Africa, dramatic size contrast, clean infographic style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The impossible problem",
+      "body": "The Earth is a sphere. A map is flat. You can't flatten a sphere without tearing or stretching it — try peeling an orange and laying the skin perfectly flat. Cartographers face an impossible trade: any map projection must distort something. Area, angle, distance, or shape — pick your poison. You cannot preserve them all.",
+      "keyTerms": [
+        { "term": "Projection", "definition": "A mathematical method for mapping a sphere onto a flat plane" },
+        { "term": "Equal-area", "definition": "A projection that preserves relative size of regions at the cost of shape" },
+        { "term": "Conformal", "definition": "A projection that preserves local angles and shapes at the cost of size" }
+      ],
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": "A peeled orange skin laid flat, torn and overlapping, alongside a globe — simple illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why Mercator won",
+      "body": "In 1569, Flemish cartographer Gerardus Mercator invented a projection with one killer feature: any straight line on the map is a constant compass bearing. For sailors, this was revolutionary — draw a line, follow that heading, arrive alive. The trade-off was severe: areas near the poles get stretched to infinity. At 60° latitude, features appear twice their true size. That's why Greenland looks huge and Africa looks modest.",
+      "visual": {
+        "sfSymbol": "safari.fill",
+        "imagePrompt": "A Renaissance-era Mercator map with navigation rhumb lines, compass rose, parchment texture"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Alternatives you rarely see",
+      "body": "There are fairer options. The Gall-Peters projection (1855) keeps areas accurate but makes continents look oddly stretched vertically. The Winkel tripel, adopted by National Geographic in 1998, balances distortion evenly. The AuthaGraph, invented in 1999 by Hajime Narukawa, is the most accurate flat map ever made — and looks startlingly unfamiliar because your visual instincts are trained on Mercator.",
+      "funFact": "In 2017, Boston Public Schools officially switched to the Gall-Peters projection in classrooms, saying the Mercator map had 'distorted worldviews for generations.'",
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "Four world maps side by side — Mercator, Gall-Peters, Winkel tripel, and AuthaGraph — showing dramatically different shapes"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Every map has an agenda",
+      "body": "No map is neutral. Every projection reflects a choice about what matters — navigation, area, aesthetics, politics. Mercator didn't invent his map to shrink Africa, but the map shaped how the world imagined itself for 450 years. The next time you see a world map, check the projection. You're not just looking at geography. You're looking at someone's priorities.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How much larger is Africa than Greenland in actual area?",
+      "options": ["Roughly the same", "About 3x", "About 14x", "About 50x"],
+      "correctIndex": 2,
+      "explanation": "Africa is about 30.4 million km² vs Greenland's 2.2 million km² — roughly 14 times larger."
+    },
+    {
+      "index": 1,
+      "question": "Why did sailors historically prefer the Mercator projection?",
+      "options": [
+        "It was easier to print",
+        "Straight lines represent constant compass bearings",
+        "It accurately preserved areas",
+        "It showed ocean currents"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mercator's 1569 projection lets sailors draw a straight rhumb line and follow a single heading."
+    },
+    {
+      "index": 2,
+      "question": "What trade-off does every flat world map have to make?",
+      "options": [
+        "Color accuracy vs. paper size",
+        "Distorting at least one of area, shape, distance, or angle",
+        "Showing oceans or showing land",
+        "Using Latin or local names"
+      ],
+      "correctIndex": 1,
+      "explanation": "A sphere cannot be flattened without distortion — every projection sacrifices something."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Flattening the Earth: Two Thousand Years of Map Projections",
+      "publisher": "University of Chicago Press",
+      "year": 1993
+    },
+    {
+      "title": "How Maps Lie",
+      "publisher": "University of Chicago Press",
+      "year": 1991
+    }
+  ],
+
+  "related": ["gerardus-mercator", "cartography-history", "authagraph-projection"]
+}

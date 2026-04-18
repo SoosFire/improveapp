@@ -1,0 +1,141 @@
+{
+  "id": "why-rainbows-appear",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Rainbows Appear",
+    "teaser": "Every rainbow is a personal hallucination — made just for your eyes.",
+    "category": "Nature",
+    "subcategories": ["Optics", "Weather"],
+    "tags": ["rainbow", "light", "refraction", "physics", "weather"],
+    "emoji": "🌈",
+    "accentColor": "#6AA9C6",
+    "coverSymbol": {
+      "sfSymbol": "rainbow",
+      "fallbackEmoji": "🌦️"
+    },
+    "coverImagePrompt": "A vivid double rainbow arching over a wet meadow after a storm, droplets suspended in golden backlight from a low sun, cinematic, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "No two people see the same rainbow",
+      "body": "Here's a strange truth: if you and a friend stand side by side watching a rainbow, you are not seeing the same rainbow. Each of you is seeing a completely different set of raindrops. Step a meter to the left, and the rainbow steps with you. It's not out there in any fixed place. It's a geometric trick your eyes are catching mid-flight.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Two people on a hillside seeing slightly different angles of the same rainbow"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What each raindrop is doing",
+      "body": "White sunlight is a mix of every visible color. When it enters a raindrop, it slows down and bends — a process called refraction. Different colors bend by different amounts: red barely, violet the most. Inside the drop, the light bounces off the back wall, then bends again on the way out. One drop, two bends and a mirror: a tiny prism made of water.",
+      "keyTerms": [
+        { "term": "Refraction", "definition": "The bending of light as it passes from one material into another" },
+        { "term": "Dispersion", "definition": "The separation of white light into its component colors" }
+      ],
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "A magnified raindrop with a colorful spectrum fanning out as light passes through it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The 42-degree secret",
+      "body": "Every color leaves the raindrop at a very specific angle from the incoming sunlight — red around 42°, violet around 40°. For you to see a red band, raindrops at exactly 42° from the anti-solar point (the spot directly opposite the sun from your eyes) must be catching light right now. That's why a rainbow is always a circle centered on your shadow's head. You are always at the center of your rainbow.",
+      "visual": {
+        "sfSymbol": "circle.dashed",
+        "imagePrompt": "A diagram showing the sun behind a viewer casting their shadow, with a rainbow circle centered on the shadow's head"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Newton worked it out",
+      "body": "In 1666, Isaac Newton passed a beam of sunlight through a glass prism and showed that 'white' light was made of colors. Then he passed it through a *second* prism and recombined it into white again — proving the prism wasn't adding color but separating it. The same physics, scaled up to billions of falling drops, is what paints the arc across a post-storm sky.",
+      "funFact": "From a plane or mountaintop, rainbows can appear as complete circles — the ground normally cuts off the lower half.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A dim candlelit room with a prism splitting sunlight on an old wooden desk"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A collaboration, not an object",
+      "body": "A rainbow needs three things: water droplets, sunlight from behind you, and an observer at just the right angle. Remove any one, and the rainbow vanishes. It's less an object than a conversation — between a star, a storm, and a pair of eyes. Strange, lovely, and only visible to whoever's standing in exactly the right spot.",
+      "visual": {
+        "sfSymbol": "cloud.sun.rain.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do you and a friend standing next to each other see different rainbows?",
+      "options": [
+        "Rainbows change every second",
+        "The rainbow depends on the viewer's exact angle to the drops",
+        "Only one eye can see rainbows at a time",
+        "Rainbows rotate with the Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rainbow is defined by the angle between the viewer, the drops, and the sun — each viewer gets their own."
+    },
+    {
+      "index": 1,
+      "question": "What happens to light inside a raindrop?",
+      "options": [
+        "It refracts, reflects once, and refracts again",
+        "It passes through in a straight line",
+        "It absorbs completely",
+        "It splits into sound waves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sunlight bends entering the drop, bounces off the back, and bends again leaving — separating into colors."
+    },
+    {
+      "index": 2,
+      "question": "Where is the center of every rainbow from your perspective?",
+      "options": [
+        "The brightest cloud",
+        "The tallest mountain",
+        "Your own shadow's head (the anti-solar point)",
+        "The sun itself"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rainbows form a circle centered on the anti-solar point — the spot directly opposite the sun from your eyes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Opticks",
+      "publisher": "Isaac Newton",
+      "year": 1704
+    },
+    {
+      "title": "Color and Light in Nature",
+      "publisher": "David K. Lynch & William Livingston, Cambridge University Press",
+      "year": 2001
+    }
+  ],
+
+  "related": ["why-sky-is-blue", "why-soil-smells-after-rain", "prism-physics"]
+}

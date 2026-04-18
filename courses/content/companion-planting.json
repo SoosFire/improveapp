@@ -1,0 +1,141 @@
+{
+  "id": "companion-planting",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Plants That Protect Each Other",
+    "teaser": "Some plants, stuck in the ground, have learned to form alliances. Pair them right and your garden starts fighting its own battles.",
+    "category": "Gardening",
+    "subcategories": ["Vegetables", "Organic"],
+    "tags": ["gardening", "companion-planting", "organic", "vegetables", "pests"],
+    "emoji": "🌱",
+    "accentColor": "#588157",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌿"
+    },
+    "coverImagePrompt": "A sunlit vegetable garden with tomato, basil, and marigold growing together in a raised bed, bees in soft focus, golden afternoon light, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The oldest gardening trick",
+      "body": "1,200 years ago, Indigenous farmers in what's now the U.S. Southeast planted corn, beans, and squash together in the same mound. They called them the Three Sisters. Nobody had heard the word 'symbiosis' yet. But they knew something modern science is still catching up to: plants in the right company don't just survive — they thrive.",
+      "visual": {
+        "sfSymbol": "3.circle.fill",
+        "imagePrompt": "A traditional Three Sisters garden mound: tall corn stalk, climbing beans, sprawling squash at the base, golden light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'companion' actually means",
+      "body": "Companion planting is pairing two species so each benefits the other. One plant might repel a pest the other attracts. One fixes nitrogen into the soil a hungry neighbor craves. One provides shade; the other provides ground cover. It's cooperation forced by necessity — plants can't walk, so they trade services through chemistry, roots, and shadow.",
+      "keyTerms": [
+        { "term": "Allelopathy", "definition": "When a plant releases chemicals that affect neighboring plants" },
+        { "term": "Nitrogen fixation", "definition": "How legumes convert atmospheric nitrogen into soil fertilizer" }
+      ],
+      "visual": {
+        "sfSymbol": "link.circle.fill",
+        "imagePrompt": "Two plants with their root systems visible and intertwined beneath the soil, glowing exchange lines between them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three Sisters, three jobs",
+      "body": "In the classic trio: corn grows tall, acting as a natural pole. Beans climb the corn, and — being legumes — they pull nitrogen from the air and leave it in the soil where hungry corn can use it. Squash sprawls beneath, its big leaves shading weeds out and its prickly stems deterring raccoons. Three plants, one bed, doing the job of poles, fertilizer, mulch, and fencing combined.",
+      "visual": {
+        "sfSymbol": "square.3.layers.3d.top.filled",
+        "imagePrompt": "Diagrammatic layered illustration: tall corn at top, bean vines climbing middle, squash spreading across the ground"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Tomatoes, basil, and bug science",
+      "body": "Gardener folklore has long paired tomatoes with basil for flavor and health. Studies from the University of Wisconsin and elsewhere have shown basil actually repels thrips, a common tomato pest, through volatile oils. Marigolds produce a root-secreted compound that suppresses nematodes — tiny soil worms that attack roots. Not all folklore holds up, but the hits are real. These are chemical weapons, deployed at ankle height.",
+      "funFact": "In some trials, French marigolds have reduced root-knot nematode populations by over 90 percent the following growing season.",
+      "visual": {
+        "sfSymbol": "ladybug.fill",
+        "imagePrompt": "A close-up of marigold flowers next to tomato plants, a beneficial insect on a leaf, warm soft garden light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Start with three smart pairings",
+      "body": "You don't need a permaculture PhD. Try these: tomatoes with basil and marigolds, carrots with onions (the onion smell confuses carrot fly), lettuce under taller crops for shade. Avoid known bad pairs: beans near onions, or potatoes near tomatoes. Watch, adjust, plant what worked again next year. Your garden becomes a tiny ecosystem doing half the work for you.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why are beans crucial in the Three Sisters planting system?",
+      "options": [
+        "They taste best with corn",
+        "They fix atmospheric nitrogen into the soil",
+        "They attract pollinators no other crop attracts",
+        "They keep pests off squash"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beans are legumes — they pull nitrogen from the air into the soil, feeding hungry corn."
+    },
+    {
+      "index": 1,
+      "question": "What compound in marigold roots suppresses nematodes?",
+      "options": [
+        "A pheromone",
+        "A root-secreted chemical that's toxic to them",
+        "Added commercial pesticide",
+        "Iron filings in the soil"
+      ],
+      "correctIndex": 1,
+      "explanation": "French marigolds naturally release compounds from their roots that suppress root-knot nematodes."
+    },
+    {
+      "index": 2,
+      "question": "Which pairing is a widely recommended companion combo?",
+      "options": [
+        "Potatoes with tomatoes",
+        "Beans with onions",
+        "Carrots with onions",
+        "Cucumbers with sage"
+      ],
+      "correctIndex": 2,
+      "explanation": "The onion's scent helps mask carrots from carrot root fly, a classic working pair."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Three Sisters: An Overview of a Complex Agroecological System",
+      "publisher": "Cornell University Cooperative Extension",
+      "year": 2015
+    },
+    {
+      "title": "Effect of French Marigold on Root-Knot Nematodes",
+      "publisher": "Journal of Nematology",
+      "year": 1999
+    }
+  ],
+
+  "related": ["drywall-explained", "pollinator-gardens", "soil-microbiome"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "opportunity-cost",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Opportunity Cost: The Hidden Price of Everything",
+    "teaser": "Every yes is a no. Every hour spent here is an hour not spent there. Economists have a name for that invisible bill.",
+    "category": "Economics",
+    "subcategories": ["Microeconomics", "Decision Making"],
+    "tags": ["economics", "decision-making", "tradeoffs", "scarcity", "money"],
+    "emoji": "💰",
+    "accentColor": "#3E7C4F",
+    "coverSymbol": {
+      "sfSymbol": "dollarsign.circle.fill",
+      "fallbackEmoji": "💵"
+    },
+    "coverImagePrompt": "A forked road viewed from above where one path is paved with gold coins and the other with hourglass sand, dreamy and symbolic, twilight lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The price tag you don't see",
+      "body": "You spend Saturday afternoon binge-watching a show. It didn't cost a dollar. But what could you have done instead? Worked a freelance gig? Taken a hike? Called your mom? That thing you didn't do — that's the real cost. Economists call it opportunity cost, and it's hiding in every choice you make.",
+      "visual": {
+        "sfSymbol": "tag.fill",
+        "imagePrompt": "A hanging price tag showing a faded ghost image of alternatives — a hiking trail, a book, a friend — moody and nostalgic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The next best thing you gave up",
+      "body": "Opportunity cost is the value of the best alternative you didn't choose. Not every alternative — just the single best one. If you use $10 to buy a book, and the next thing you would've done was buy lunch, your opportunity cost isn't 'all possible purchases.' It's lunch.",
+      "keyTerms": [
+        { "term": "Opportunity cost", "definition": "The value of the next-best alternative foregone when making a choice" },
+        { "term": "Scarcity", "definition": "The condition that resources (time, money, attention) are limited, forcing tradeoffs" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Two items on a balance scale — a book tipping down, a sandwich fading on the other side, clean minimalist illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it runs your life",
+      "body": "Scarcity is the ground floor of economics. You only have 24 hours, one body, one life. So every decision about where to spend time, money, or attention automatically means not spending it elsewhere. The person who says 'I'd love to, but I can't' isn't being dramatic — they've already counted the cost of their yeses.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A glowing clock face dissolving into floating coins, symbolic of time equating to money, dreamlike"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The ignored billion-dollar mistake",
+      "body": "In 1976, Ronald Wayne sold his 10 percent stake in Apple for $800. That stake would be worth hundreds of billions today. Wayne says he doesn't regret it — he would have spent those decades anxious. Opportunity cost cuts both ways. Sometimes the alternative you rejected would've made you rich. Sometimes it would've wrecked your peace.",
+      "funFact": "Studies show shoppers who are reminded to think 'what else could this money buy?' spend up to 15% less.",
+      "visual": {
+        "sfSymbol": "apple.logo",
+        "imagePrompt": "A vintage 1970s garage with early Apple prototypes, nostalgic film grain, a thoughtful figure walking out the door"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The free thing that costs the most",
+      "body": "Opportunity cost is the reason 'free' is never really free. Free content costs attention. Free advice costs time. Every yes is a quiet no to something else. You can't escape the math — but you can get better at noticing it. The best decisions usually start with a simple question: what am I giving up to say yes to this?",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is opportunity cost?",
+      "options": [
+        "The total of all alternatives foregone",
+        "The value of the next-best alternative foregone",
+        "The price printed on a tag",
+        "The difference between cost and profit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opportunity cost refers only to the single best alternative you gave up — not the sum of everything you didn't choose."
+    },
+    {
+      "index": 1,
+      "question": "What economic condition makes opportunity cost unavoidable?",
+      "options": ["Inflation", "Scarcity", "Competition", "Taxation"],
+      "correctIndex": 1,
+      "explanation": "Because resources like time and money are scarce, every choice automatically rules out other uses."
+    },
+    {
+      "index": 2,
+      "question": "Why is 'free' never really free according to opportunity cost?",
+      "options": [
+        "Because taxes apply",
+        "Because it costs time, attention, or other resources",
+        "Because it's illegal",
+        "Because inflation erodes value"
+      ],
+      "correctIndex": 1,
+      "explanation": "Even when no money changes hands, you're still spending limited resources like attention or time — which could have gone elsewhere."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Naked Economics: Undressing the Dismal Science",
+      "publisher": "W. W. Norton & Company",
+      "year": 2010
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "publisher": "Farrar, Straus and Giroux",
+      "year": 2011
+    }
+  ],
+
+  "related": ["sunk-cost-fallacy", "time-value-of-money", "scarcity-mindset"]
+}

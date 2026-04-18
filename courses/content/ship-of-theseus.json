@@ -1,0 +1,141 @@
+{
+  "id": "ship-of-theseus",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Ship of Theseus",
+    "teaser": "If you replace every plank of a ship, one at a time, is it still the same ship? And what does that mean for you?",
+    "category": "Philosophy",
+    "subcategories": ["Metaphysics", "Identity"],
+    "tags": ["philosophy", "identity", "paradox", "metaphysics", "plutarch"],
+    "emoji": "⛵",
+    "accentColor": "#3F6D80",
+    "coverSymbol": {
+      "sfSymbol": "ferry.fill",
+      "fallbackEmoji": "⛵"
+    },
+    "coverImagePrompt": "An ancient wooden ship half-reconstructed on a sunlit Athenian harbor, old planks stacked beside new ones being fitted, golden Mediterranean light, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The ship the Athenians couldn't let go of",
+      "body": "According to the historian Plutarch, the Athenians preserved the ship of their hero Theseus in the harbor for nearly a thousand years. As planks rotted, they replaced them — one by one — with new timber. After centuries, not a single original piece remained. The question philosophers have argued about ever since: was it still Theseus's ship?",
+      "visual": {
+        "sfSymbol": "sailboat.fill",
+        "imagePrompt": "A weathered ancient wooden ship moored in an ancient Greek harbor, shipwrights replacing planks under a warm Mediterranean sun"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The paradox sharpens",
+      "body": "17th-century philosopher Thomas Hobbes made the puzzle worse. Imagine someone collected every discarded original plank as they came off, and reassembled them into a second ship. Now you have two: the continuously repaired one in the harbor, and the reassembled original, plank-for-plank. Which is the real Ship of Theseus? Continuity of form — or continuity of matter?",
+      "keyTerms": [
+        { "term": "Identity over time", "definition": "The philosophical question of what makes something the same thing at different points in time" },
+        { "term": "Numerical identity", "definition": "Being literally one and the same thing, not just similar" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "Two identical ancient ships side by side in a misty harbor, one gleaming and new, one made of visibly aged wood, symmetrical composition"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three serious answers",
+      "body": "Philosophers have proposed at least three ways out. The mereological view: an object just is the sum of its parts, so the reassembled one wins. The continuity view: identity is about unbroken persistence through time, so the repaired one wins. The functionalist view: a ship is defined by its role and form, so whichever one sails is Theseus's ship. Each answer costs something — and each tells a different story about what things actually are.",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "Three stylized chalkboards in a classroom, each showing a different diagram of the ship paradox, professor silhouette pointing"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "You are the ship",
+      "body": "This isn't a dry thought experiment. Your body replaces most of its cells every 7 to 10 years — red blood cells in months, skin in weeks. The atoms in your brain have almost completely turned over since childhood. By Hobbes's standard, you are arguably the reassembled original of no one. By the continuity standard, you're still you. Japan's Ise Grand Shrine has been ritually rebuilt from scratch every 20 years for over 1,300 years — and is considered the same shrine.",
+      "funFact": "The Hollywood studio where Casablanca was filmed was demolished and rebuilt so many times that by the 1990s, not a single original board remained — but it's still listed as the same historic soundstage.",
+      "visual": {
+        "sfSymbol": "figure",
+        "imagePrompt": "A human silhouette made of shifting particles, some glowing and new, some dimming and old, continuous but in flux, conceptual art"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Identity is a story, not a thing",
+      "body": "The Ship of Theseus doesn't have one correct answer because 'the same' isn't one question — it's several, hiding behind the same word. Whether something persists depends on which kind of sameness you care about: its atoms, its shape, its function, or its story. The ship is a mirror. What you decide about it is also a decision about yourself.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where does the original Ship of Theseus puzzle come from?",
+      "options": [
+        "The Bible",
+        "Plutarch's Life of Theseus",
+        "A Shakespeare play",
+        "A modern philosophy textbook"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ancient Greek biographer Plutarch described the ship in his Life of Theseus, raising the puzzle of gradual replacement."
+    },
+    {
+      "index": 1,
+      "question": "What twist did Thomas Hobbes add to the paradox?",
+      "options": [
+        "He suggested the ship should be burned",
+        "He imagined a second ship rebuilt from the original discarded planks",
+        "He argued the ship never existed",
+        "He claimed the ship was made of gold"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hobbes imagined the original planks being collected and reassembled, creating a rival 'same' ship."
+    },
+    {
+      "index": 2,
+      "question": "Why is this paradox relevant to human identity?",
+      "options": [
+        "Because humans also float",
+        "Because our cells and atoms gradually replace themselves over our lives",
+        "Because we own ships",
+        "Because Theseus was a real person"
+      ],
+      "correctIndex": 1,
+      "explanation": "Our bodies turn over most of their material components over years, raising the same continuity-versus-matter question."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Plutarch's Lives",
+      "publisher": "Harvard University Press (Loeb Classical Library)",
+      "year": 1914
+    },
+    {
+      "title": "Personal Identity",
+      "publisher": "University of California Press",
+      "year": 1975
+    }
+  ],
+
+  "related": ["trolley-problem", "stoicism-basics", "identity-philosophy"]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "mariana-trench",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Mariana Trench",
+    "teaser": "If you dropped Mount Everest into the ocean's deepest scar, its peak would still be buried under a mile of water.",
+    "category": "Marine Life",
+    "subcategories": ["Deep Sea", "Oceanography"],
+    "tags": ["ocean", "trench", "deep-sea", "extreme", "pressure"],
+    "emoji": "🌊",
+    "accentColor": "#0B3D61",
+    "coverSymbol": {
+      "sfSymbol": "water.waves",
+      "fallbackEmoji": "🌊"
+    },
+    "coverImagePrompt": "A lone submersible suspended in absolute blackness, tiny floodlights catching marine snow drifting upward, the curve of a trench wall looming behind, cinematic, eerie, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A wound in the planet",
+      "body": "Off the coast of Guam, the Pacific seafloor suddenly caves in. The Mariana Trench plunges nearly 11,000 meters down — deeper than Everest is tall. Only three people have ever touched its floor. More humans have walked on the Moon.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "A cross-section illustration comparing Everest's height to the depth of the Mariana Trench, to scale, moody color palette"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where two plates collide",
+      "body": "The trench isn't just deep — it's a scar from a slow-motion collision. Here, the Pacific Plate is being shoved beneath the smaller Mariana Plate, a process called subduction. As one slab dives under the other, it warps the seafloor into a long, narrow canyon stretching over 2,500 kilometers.",
+      "keyTerms": [
+        { "term": "Subduction", "definition": "When one tectonic plate slides beneath another, often forming deep trenches" },
+        { "term": "Challenger Deep", "definition": "The deepest known point of the Mariana Trench, about 10,935 meters down" }
+      ],
+      "visual": {
+        "sfSymbol": "square.stack.3d.down.right.fill",
+        "imagePrompt": "Geological cross-section of the Pacific Plate subducting under the Mariana Plate, glowing magma plumes, educational illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The weight of the world",
+      "body": "At the bottom, pressure reaches 1,086 bar — the equivalent of 100 elephants standing on your head. Styrofoam cups sent down there come back shrunken to the size of thimbles. Yet somehow, life thrives: translucent snailfish, ghostly amphipods, and microbes that munch on hydrocarbons seeping from the rock.",
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": "A crushed styrofoam cup next to a full-sized one, dramatic studio lighting, scientific still life"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The plastic at the bottom",
+      "body": "When explorer Victor Vescovo reached the Challenger Deep in 2019, he found something nobody wanted to see: a plastic bag and candy wrappers. Studies of trench amphipods later revealed microplastics in nearly every specimen. The deepest place on Earth is already part of our waste stream.",
+      "funFact": "The trench floor is so remote that sunlight has never reached it — but human-made chemicals have.",
+      "visual": {
+        "sfSymbol": "bag.fill",
+        "imagePrompt": "A lone plastic bag drifting near the seabed in pitch-black water, sub lights illuminating it, haunting, photorealistic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Closer than the Moon, farther than imagination",
+      "body": "The Mariana Trench is a reminder that Earth's most alien frontier isn't in space — it's right beneath our ships. We've mapped less than a quarter of the deep ocean floor in detail. The next great discoveries may be down, not up.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how deep is the Challenger Deep?",
+      "options": ["About 3,000 m", "About 6,500 m", "About 10,900 m", "About 15,000 m"],
+      "correctIndex": 2,
+      "explanation": "The Challenger Deep sits at roughly 10,935 meters — deeper than Mount Everest is tall."
+    },
+    {
+      "index": 1,
+      "question": "What geological process formed the Mariana Trench?",
+      "options": [
+        "Volcanic eruption",
+        "Glacial erosion",
+        "Subduction of one tectonic plate under another",
+        "Meteor impact"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Pacific Plate is subducting beneath the Mariana Plate, bending the seafloor into a deep trench."
+    },
+    {
+      "index": 2,
+      "question": "What surprising thing did explorers find at the trench's floor?",
+      "options": ["Ancient coins", "A plastic bag", "A sunken ship", "A coral reef"],
+      "correctIndex": 1,
+      "explanation": "In 2019, Victor Vescovo documented plastic debris at the very bottom of the Challenger Deep."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Discovery of the deepest fish in the ocean",
+      "publisher": "Marine Biology",
+      "year": 2017
+    },
+    {
+      "title": "Human pollution reaches the deepest ocean trenches",
+      "publisher": "Nature Ecology & Evolution",
+      "year": 2019
+    }
+  ],
+
+  "related": ["bioluminescence", "extremophiles", "deep-sea-vents"]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "epigenetics-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Epigenetics: Genes That Remember",
+    "teaser": "Your DNA is the script. Epigenetics is the director — deciding which lines get spoken, and when.",
+    "category": "Genetics",
+    "subcategories": ["Molecular Biology", "Inheritance"],
+    "tags": ["dna", "epigenetics", "methylation", "inheritance", "environment"],
+    "emoji": "🏷️",
+    "accentColor": "#8A5CA6",
+    "coverSymbol": {
+      "sfSymbol": "bookmark.fill",
+      "fallbackEmoji": "🏷️"
+    },
+    "coverImagePrompt": "A glowing DNA strand wrapped around spools of protein, with tiny paper tags and bookmarks attached to individual letters, macro-cinematic, violet lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Same book, different bookmarks",
+      "body": "Every cell in your body contains the same 3 billion letters of DNA. Yet your neurons fire, your liver detoxifies, and your skin heals — all using identical genetic code. How? Each cell reads only a fraction of the book. The chemical bookmarks and highlights that tell cells what to read are called epigenetics.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A thick leather-bound book lying open, with bright colored tabs and Post-it flags protruding from every other page, warm library lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Methyl groups and histones",
+      "body": "There are two main tools in the epigenetic kit. The first is DNA methylation: tiny chemical tags (methyl groups) clip onto the DNA itself, usually silencing a nearby gene. The second is histone modification: DNA is wound around spool-like proteins called histones, and changing how tightly it's wound decides whether a gene is readable or locked away.",
+      "keyTerms": [
+        { "term": "Methylation", "definition": "Attaching a methyl (CH₃) group to DNA, often silencing a gene" },
+        { "term": "Histone", "definition": "A protein that DNA wraps around, like thread around a spool" },
+        { "term": "Epigenome", "definition": "The complete set of epigenetic marks on a cell's DNA" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A microscopic view of DNA wrapping tightly around a purple histone spool, small methyl tags clipped along the strand"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Memory that the environment can write",
+      "body": "Unlike your DNA sequence, epigenetic marks can be added or erased during your lifetime. Diet, stress, exercise, toxins, and even social experiences can shift them. That's how identical twins slowly diverge as they age — the sequence stays the same, but the epigenome drifts apart, shaped by years of different lives.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two adult identical twins standing back to back against a neutral backdrop, faint chemical patterns glowing differently on each of their silhouettes"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The Dutch Hunger Winter",
+      "body": "In the brutal winter of 1944, the Nazis blockaded the western Netherlands and millions starved. Babies in the womb during that famine were born small — and decades later, showed higher rates of obesity, diabetes, and heart disease than siblings conceived before or after. Researchers traced it to altered methylation of a gene called IGF2. A few months of hunger left a chemical signature that lasted a lifetime.",
+      "funFact": "Some of those epigenetic changes appeared to carry into the NEXT generation — grandchildren who never experienced the famine still showed small differences in body composition.",
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A black-and-white historical photograph of a Dutch family in winter 1944, a bowl of tulip bulbs on the table, snow visible through the window"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Genes aren't destiny — quite",
+      "body": "Epigenetics doesn't rewrite what your genes are. It rewrites which ones get heard. That reframes a lot: cancer treatment, aging, memory, trauma. Your DNA is fixed at conception, but the story it tells is still being edited — every meal, every run, every sleepless night.",
+      "visual": {
+        "sfSymbol": "pencil.and.scribble",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is DNA methylation?",
+      "options": [
+        "A mutation that changes the DNA letters",
+        "A chemical tag added to DNA that usually silences genes",
+        "The process of copying DNA",
+        "Cutting DNA with enzymes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Methylation attaches a small chemical group to DNA, often turning off the nearby gene without changing the sequence."
+    },
+    {
+      "index": 1,
+      "question": "Why do identical twins gradually become epigenetically different?",
+      "options": [
+        "Their DNA mutates rapidly",
+        "They pick up different epigenetic marks from different life experiences",
+        "Their chromosomes rearrange",
+        "They lose genes over time"
+      ],
+      "correctIndex": 1,
+      "explanation": "The underlying DNA stays the same, but diet, stress, and environment shift the epigenome over decades."
+    },
+    {
+      "index": 2,
+      "question": "What did the Dutch Hunger Winter reveal?",
+      "options": [
+        "That famine causes random DNA mutations",
+        "That prenatal nutrition leaves lasting epigenetic marks linked to adult disease",
+        "That blue eyes evolved in the Netherlands",
+        "That famine improves longevity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Babies gestated during the famine showed altered methylation decades later, with higher rates of metabolic disease."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Persistent epigenetic differences associated with prenatal exposure to famine in humans",
+      "publisher": "PNAS",
+      "year": 2008
+    },
+    {
+      "title": "Epigenetic differences arise during the lifetime of monozygotic twins",
+      "publisher": "PNAS",
+      "year": 2005
+    }
+  ],
+
+  "related": ["junk-dna-isnt-junk", "twin-studies", "developmental-origins-disease"]
+}

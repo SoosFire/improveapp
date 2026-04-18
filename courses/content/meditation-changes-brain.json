@@ -1,0 +1,136 @@
+{
+  "id": "meditation-changes-brain",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Meditation Changes Your Brain",
+    "teaser": "Eight weeks of sitting still can physically reshape your brain. Here's what the scans show.",
+    "category": "Mindfulness & Meditation",
+    "subcategories": ["Neuroscience", "Mindfulness"],
+    "tags": ["meditation", "neuroplasticity", "mindfulness", "brain-science", "MBSR"],
+    "emoji": "🧘",
+    "accentColor": "#4B7F8C",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A softly glowing anatomical brain floating over a meditation cushion in a sunlit room, delicate light rays through linen curtains, calm and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A brain in training",
+      "body": "For a long time, scientists assumed adult brains were basically fixed hardware. Then neuroscientists slid experienced meditators into MRI machines — and found something unexpected. Their brains looked different. Not in a subtle, statistical way. In a visible, measurable, 'you can point at the scan' way.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A split-screen MRI scan of two brains side by side, one labeled 'beginner' and one 'long-term meditator'"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Neuroplasticity, the short version",
+      "body": "The brain rewires itself based on what you repeatedly do. Practice violin, and the parts controlling your fingers thicken. Practice anxious rumination, and the parts handling threat get louder. Meditation is essentially aimed repetition — training specific circuits of attention and emotion regulation the way a musician trains a scale.",
+      "keyTerms": [
+        { "term": "Neuroplasticity", "definition": "The brain's ability to physically change in response to experience" },
+        { "term": "Gray matter", "definition": "Brain tissue rich in neuron cell bodies — where most 'processing' happens" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Glowing neural pathways branching and thickening in a dark stylized brain"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The Harvard 8-week study",
+      "body": "In 2011, Sara Lazar's team at Harvard ran MRI scans on people before and after an 8-week Mindfulness-Based Stress Reduction program. They found thickened gray matter in the hippocampus (memory, learning) and posterior cingulate (self-awareness), and shrinkage in the amygdala — the region that fires when you feel threatened. Eight weeks. No drugs. Just daily sitting.",
+      "funFact": "Participants meditated about 27 minutes a day on average — less than the length of one sitcom episode.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A meditation cushion beside an hourglass, soft sunset light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why a quieter amygdala matters",
+      "body": "The amygdala is your brain's smoke alarm. Helpful when there's a real fire — exhausting when it fires over emails and small social awkwardnesses. A smaller, less reactive amygdala means less reflexive stress, more space between trigger and reaction. Meditators aren't avoiding difficult emotions — they're reshaping the hardware that processes them.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A dimmed red warning light inside a stylized brain silhouette"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Practice, not magic",
+      "body": "Meditation isn't mystical self-improvement — it's behavioral neuroscience in slow motion. The brain responds to what you repeatedly ask it to do. Ask it to pay attention, gently and often, and over weeks it gets better at it. The effects fade if you stop, like any other trained skill. The reps matter more than the vibes.",
+      "visual": {
+        "sfSymbol": "figure.mind.and.body",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does neuroplasticity mean?",
+      "options": [
+        "Brains are made of plastic fibers",
+        "The brain can rewire itself based on experience",
+        "Nerves regenerate faster than other tissue",
+        "All brains are structurally identical"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neuroplasticity is the brain's ability to physically change in response to what we repeatedly do."
+    },
+    {
+      "index": 1,
+      "question": "In the Harvard 8-week study, which brain region grew?",
+      "options": ["Amygdala", "Hippocampus", "Brainstem", "Cerebellum"],
+      "correctIndex": 1,
+      "explanation": "Gray matter density increased in the hippocampus, linked to memory and learning."
+    },
+    {
+      "index": 2,
+      "question": "Why does a less reactive amygdala matter for daily life?",
+      "options": [
+        "It improves eyesight",
+        "It prevents all emotions",
+        "It reduces reflexive stress responses",
+        "It speeds up breathing"
+      ],
+      "correctIndex": 2,
+      "explanation": "A quieter amygdala creates more space between a trigger and your response, reducing reflexive stress."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mindfulness practice leads to increases in regional brain gray matter density",
+      "publisher": "Psychiatry Research: Neuroimaging",
+      "year": 2011
+    },
+    {
+      "title": "Altered Traits: Science Reveals How Meditation Changes Your Mind, Brain, and Body",
+      "publisher": "Daniel Goleman & Richard Davidson, Avery",
+      "year": 2017
+    }
+  ],
+
+  "related": ["body-scan-meditation", "loving-kindness-meditation", "stress-response"]
+}

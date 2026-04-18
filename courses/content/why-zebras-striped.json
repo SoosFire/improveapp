@@ -1,0 +1,141 @@
+{
+  "id": "why-zebras-striped",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Zebras Are Striped",
+    "teaser": "Camouflage? Cooling? Confusing lions? Scientists argued for 150 years — and the answer turned out to be biting flies.",
+    "category": "Wildlife",
+    "subcategories": ["African Wildlife", "Evolution"],
+    "tags": ["zebra", "evolution", "camouflage", "africa", "biology"],
+    "emoji": "🦓",
+    "accentColor": "#2C2C2C",
+    "coverSymbol": {
+      "sfSymbol": "pawprint.fill",
+      "fallbackEmoji": "🦓"
+    },
+    "coverImagePrompt": "A single zebra standing in tall golden savanna grass at sunrise, its stark black-and-white stripes glowing in warm backlight, dust in the air, cinematic wildlife photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A 150-year-old argument",
+      "body": "Charles Darwin, Alfred Russel Wallace, and half the biologists of the 19th century all had theories about zebra stripes. Were they camouflage? A way to confuse predators? A cooling system for the savanna heat? A form of social recognition? Each idea had supporters, lab experiments, and passionate defenders. And then, in 2014, a quieter theory got some overwhelming evidence behind it — and the answer turned out to be embarrassingly small.",
+      "visual": {
+        "sfSymbol": "questionmark.bubble.fill",
+        "imagePrompt": "A herd of zebras grazing in the African savanna, their stripes creating a dazzling visual pattern, acacia trees silhouetted at dusk"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The losing theories",
+      "body": "Camouflage seems obvious — until you notice zebras live in open grasslands where stripes stand out like neon signs. Confusing predators during a stampede? Lions don't seem confused; they still pick off zebras regularly. Temperature regulation? Studies measuring skin heat found no meaningful cooling benefit. Social identification? Other herd animals recognize each other fine without stripes. One by one, the leading theories fell to careful experiments.",
+      "keyTerms": [
+        { "term": "Motion dazzle", "definition": "A once-popular idea that stripe patterns make it harder for predators to judge speed and direction" },
+        { "term": "Thermoregulation", "definition": "The process of maintaining a stable body temperature" }
+      ],
+      "visual": {
+        "sfSymbol": "xmark.circle.fill",
+        "imagePrompt": "A scientific chalkboard with several handwritten zebra-stripe theories crossed out — camouflage, cooling, confusion — next to a zebra sketch"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Enter the tsetse fly",
+      "body": "In 2014, biologist Tim Caro and colleagues looked at the geographic distribution of zebra populations and compared it to the ranges of biting flies — tsetse flies, horseflies, and their relatives. The overlap was striking. Wherever flies are worst, stripes are boldest. Follow-up experiments found that horseflies try to land on plain horses far more often than on zebra-striped ones. The high-contrast black-and-white pattern seems to confuse the flies' visual landing system.",
+      "visual": {
+        "sfSymbol": "ant.fill",
+        "imagePrompt": "Macro close-up of a horsefly landing on a plain brown horse's flank, while a nearby zebra's striped flank is ignored, scientific nature photography"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The painted-horse experiment",
+      "body": "In 2019, researchers at the University of Bristol painted black-and-white stripes onto plain horses and put them in fly-heavy pastures. The zebra-painted horses were landed on far less often than the solid-colored ones. The flies didn't avoid the stripes from a distance — they aborted the landing at the last second, as if the pattern scrambled their ability to decelerate. Malaria-like diseases carried by African biting flies can kill a horse. For a zebra ancestor, that selection pressure would be enormous.",
+      "funFact": "Each zebra's stripe pattern is unique, like a fingerprint. Foals recognize their own mothers by the specific arrangement of her stripes.",
+      "visual": {
+        "sfSymbol": "paintbrush.fill",
+        "imagePrompt": "A brown horse in a British field with hand-painted black stripes, researchers observing with clipboards, overcast summer lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not lions. Flies.",
+      "body": "The lesson is humbling. We spent a century and a half imagining grand dramatic reasons — predators, heat, kinship — because those felt worthy of such a striking animal. But evolution doesn't care about drama. It cares about what kills you. For a zebra, lions were always a risk, but parasitic diseases from biting flies were a near-certainty. The stripes were a solution to the boring, constant threat. Sometimes the smallest enemy shapes the grandest design.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to recent research, what is the leading explanation for zebra stripes?",
+      "options": [
+        "Camouflage from lions",
+        "Deterrence of biting flies",
+        "Cooling the body in the hot sun",
+        "Helping zebras recognize each other"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tim Caro's 2014 research and subsequent experiments strongly support that stripes confuse biting flies' landing behavior."
+    },
+    {
+      "index": 1,
+      "question": "What did the 2019 Bristol experiment do to test the fly-deterrence theory?",
+      "options": [
+        "Put real zebras into fly-heavy areas",
+        "Painted stripes onto plain horses",
+        "Released flies into a zebra enclosure",
+        "Used virtual-reality zebras with flies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Researchers painted zebra-like stripes on plain horses and compared how often flies successfully landed on them."
+    },
+    {
+      "index": 2,
+      "question": "Why is it unlikely that zebra stripes evolved primarily as camouflage?",
+      "options": [
+        "Lions can't see color anyway",
+        "Zebras live in open grasslands where stripes stand out",
+        "Stripes absorb too much heat in the sun",
+        "Zebras move too fast for camouflage to matter"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the open savanna where zebras live, the stark black-and-white pattern is actually highly visible, making camouflage an unlikely driver."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The function of zebra stripes",
+      "publisher": "Nature Communications",
+      "year": 2014
+    },
+    {
+      "title": "Benefits of zebra stripes: Behaviour of tabanid flies around zebras and horses",
+      "publisher": "PLOS ONE",
+      "year": 2019
+    }
+  ],
+
+  "related": ["tsetse-fly-africa", "convergent-evolution", "animal-camouflage"]
+}

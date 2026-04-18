@@ -1,0 +1,141 @@
+{
+  "id": "wim-hof-method",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Wim Hof Method",
+    "teaser": "A Dutch extreme athlete claims breathing and ice water can rewire your immune system. Does the science back him up?",
+    "category": "Self-improvement",
+    "subcategories": ["Physiology", "Wellness"],
+    "tags": ["breathwork", "cold-exposure", "wim-hof", "immune-system", "physiology"],
+    "emoji": "🧊",
+    "accentColor": "#1ABC9C",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "❄️"
+    },
+    "coverImagePrompt": "A shirtless figure standing waist-deep in a snow-rimmed alpine lake at dawn, steam rising from their shoulders against the cold. Cinematic, crisp, painterly."
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The Iceman's claim",
+      "body": "Wim Hof has climbed Everest in shorts, run a half marathon barefoot in the Arctic Circle, and sat in ice baths longer than a standard feature film. But his real claim isn't the stunts — it's that *anyone* can learn to do this with a simple combination of breathing and cold exposure, and that doing so will measurably change how your body responds to stress and infection.",
+      "visual": {
+        "sfSymbol": "figure.climbing",
+        "imagePrompt": "A climber in shorts ascending a snow-covered ridge, frost on his beard, massive peaks behind him"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The three pillars",
+      "body": "The Wim Hof Method has three components. First, a breathing protocol — 30-40 deep inhales followed by a full exhale and breath hold. Second, gradual cold exposure — cold showers, progressing to ice baths. Third, commitment: practicing daily so the first two can actually reshape your physiology. Skip any pillar and the system loses most of its effect.",
+      "keyTerms": [
+        { "term": "Hyperventilation protocol", "definition": "Rapid, deep breathing cycles used to shift blood chemistry temporarily" },
+        { "term": "Cold exposure", "definition": "Deliberate, controlled contact with cold water or air to trigger adaptive responses" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.3x3.fill",
+        "imagePrompt": "Three simple hand-drawn icons on a notebook page: a lung, a snowflake, and a clock"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What the breathing actually does",
+      "body": "The fast breathing temporarily lowers CO₂ in your blood, which shifts its pH toward alkaline and changes how oxygen binds and releases. During the breath hold that follows, your nervous system gets flooded with adrenaline — voluntarily, which is unusual. This cocktail is what lets practitioners stay calm in freezing water: they've essentially pre-loaded their body's stress response.",
+      "visual": {
+        "sfSymbol": "lungs.fill",
+        "imagePrompt": "A cross-section diagram of lungs with animated breath lines, glowing warmly at the edges"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Inflammation and the E. coli study",
+      "body": "In 2014, a landmark study at Radboud University gave trained Hof practitioners a standard dose of an E. coli endotoxin — normally a guaranteed way to induce flu-like inflammation for hours. The trained group released fewer inflammatory markers, more anti-inflammatory signals, and reported dramatically milder symptoms than controls. It was the first time humans had been shown to voluntarily influence their own immune response.",
+      "funFact": "Hof holds more than 20 Guinness World Records, including the longest time submerged in ice at just under two hours.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "A clinical setting with an IV line and petri dishes, soft focus, warm neutral tones"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Enthusiasm vs. evidence",
+      "body": "The method is genuinely intriguing, but it's also been over-sold. Most strong results come from small studies of highly motivated practitioners, and there have been tragic drownings from people doing the breathwork in water — a hard rule is 'never do it in or near water'. A reasonable read: it's a powerful tool for stress tolerance, with real but still-emerging evidence, best approached with caution and patience rather than as a miracle cure.",
+      "visual": {
+        "sfSymbol": "checkmark.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What are the three pillars of the Wim Hof Method?",
+      "options": [
+        "Yoga, meditation, diet",
+        "Breathing, cold exposure, commitment",
+        "Fasting, sleep, exercise",
+        "Sauna, stretching, supplements"
+      ],
+      "correctIndex": 1,
+      "explanation": "Breathwork, cold exposure, and consistent daily commitment are Hof's three pillars."
+    },
+    {
+      "index": 1,
+      "question": "What did the 2014 Radboud E. coli study demonstrate?",
+      "options": [
+        "Hof practitioners had stronger infections",
+        "Cold exposure alone blocked the endotoxin",
+        "Trained practitioners produced fewer inflammatory markers",
+        "There was no measurable difference"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trained practitioners showed blunted inflammatory response and milder symptoms — a first for voluntary immune control."
+    },
+    {
+      "index": 2,
+      "question": "What is the critical safety rule for Wim Hof breathing?",
+      "options": [
+        "Always do it after eating",
+        "Never do it in or near water",
+        "Only do it in cold rooms",
+        "Only practice with a coach"
+      ],
+      "correctIndex": 1,
+      "explanation": "The breathwork can induce blackouts — drownings have occurred when people practiced in bathtubs or pools."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2014
+    },
+    {
+      "title": "The Wim Hof Method: Activate Your Full Human Potential",
+      "publisher": "Sounds True",
+      "year": 2020
+    }
+  ],
+
+  "related": ["cold-therapy", "breathwork-basics", "stress-resilience"]
+}

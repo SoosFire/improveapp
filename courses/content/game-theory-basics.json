@@ -1,0 +1,142 @@
+{
+  "id": "game-theory-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Game Theory in 5 Minutes",
+    "teaser": "Why two prisoners who'd be better off cooperating almost always rat on each other — and what that says about almost everything.",
+    "category": "Games & Strategy",
+    "subcategories": ["Decision Theory", "Economics"],
+    "tags": ["game-theory", "strategy", "nash", "prisoners-dilemma", "economics"],
+    "emoji": "♟️",
+    "accentColor": "#2F4858",
+    "coverSymbol": {
+      "sfSymbol": "square.grid.2x2.fill",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A black and white chessboard with two pieces facing each other under a single spotlight, high contrast, dramatic mood, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Two suspects, two choices",
+      "body": "Imagine you and a partner are arrested. The police put you in separate rooms and offer each of you the same deal: rat on the other and you walk free, while your partner serves ten years. If you both stay silent, you each get one year. If you both rat, you each get five. You can't talk to each other. What do you do?",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two figures in separate dim interrogation rooms, split composition, cinematic noir lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Players, strategies, payoffs",
+      "body": "Game theory is the math of decision-making when outcomes depend on what everyone does. Every 'game' has three ingredients: the players, the strategies available to each, and the payoffs each combination leads to. The punchline is usually that good individual decisions can add up to a terrible group outcome.",
+      "keyTerms": [
+        { "term": "Strategy", "definition": "A rule for choosing what to do in a game" },
+        { "term": "Payoff", "definition": "The reward or loss a player receives from a given outcome" },
+        { "term": "Dominant strategy", "definition": "A choice that is best regardless of what others do" }
+      ],
+      "visual": {
+        "sfSymbol": "tablecells.fill",
+        "imagePrompt": "A clean 2x2 payoff matrix diagram with labeled rows and columns, minimalist design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Nash equilibrium",
+      "body": "Mathematician John Nash showed that nearly every game has a stable point — a combination of strategies where no player can improve their payoff by switching alone. That's the Nash equilibrium. In the prisoner's dilemma, mutual ratting is the equilibrium: given that your partner rats, you'd rather rat too. Both end up worse than if they'd both stayed silent, but neither can trust the other first.",
+      "visual": {
+        "sfSymbol": "equal.square.fill",
+        "imagePrompt": "A hand-drawn 2x2 payoff grid with the bottom-right corner circled, labeled 'Nash equilibrium'"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it shows up everywhere",
+      "body": "Countries in an arms race, companies slashing prices, neighbors over-fishing the same pond — all follow the same logic. Each player's individually rational move leads to a collectively bad outcome. Robert Axelrod's famous 1980 computer tournament tested dozens of strategies playing repeated prisoner's dilemma; the winner was 'Tit for Tat' — cooperate first, then copy whatever the opponent just did. Being nice, but not a pushover, beat every clever deception.",
+      "funFact": "Nash won the Nobel Prize in 1994 for work he did in a 27-page PhD thesis.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Two arrows forming a loop of cooperation and retaliation, clean infographic on dark background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Repetition changes everything",
+      "body": "The prisoner's dilemma is a horror story when it's played once. But play it over and over — like in trade, relationships, or reputation — and cooperation becomes the smart move. Game theory isn't really about distrust; it's about the structures that quietly push us toward trust or away from it. Change the rules, and you change the game.",
+      "visual": {
+        "sfSymbol": "repeat",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In the prisoner's dilemma, what is the Nash equilibrium?",
+      "options": [
+        "Both stay silent",
+        "Both rat",
+        "One rats, one stays silent",
+        "There is no equilibrium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Given that the other will rat, you'd rather rat too — so both ratting is the stable outcome, even though it's worse for them collectively."
+    },
+    {
+      "index": 1,
+      "question": "What is a dominant strategy?",
+      "options": [
+        "A strategy that works half the time",
+        "A choice that's best for you regardless of what others do",
+        "A strategy only the winner can use",
+        "Cooperating no matter what"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dominant strategy beats the alternatives no matter what other players choose."
+    },
+    {
+      "index": 2,
+      "question": "Which simple strategy won Axelrod's 1980 tournament?",
+      "options": [
+        "Always defect",
+        "Always cooperate",
+        "Tit for Tat",
+        "Random play"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tit for Tat — cooperate first, then copy the opponent's last move — beat more complicated strategies."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Evolution of Cooperation",
+      "publisher": "Basic Books",
+      "year": 1984
+    },
+    {
+      "title": "Non-Cooperative Games",
+      "publisher": "Annals of Mathematics",
+      "year": 1951
+    }
+  ],
+
+  "related": ["why-rock-paper-scissors-works", "chess-opening-principles", "auction-theory-basics"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "why-ice-floats",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Ice Floats",
+    "teaser": "Almost every solid sinks in its own liquid. Water breaks the rule — and that's why fish survive winter.",
+    "category": "Chemistry",
+    "subcategories": ["Physical Chemistry", "Everyday Science"],
+    "tags": ["water", "ice", "hydrogen bonds", "density", "phase change"],
+    "emoji": "🧊",
+    "accentColor": "#6AB7E4",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "❄️"
+    },
+    "coverImagePrompt": "A single hexagonal ice crystal floating in deep blue water, sunlight refracting through it, macro close-up, cinematic, crystalline"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A rule-breaker that saves life on Earth",
+      "body": "Drop a solid piece of almost anything into its own liquid — iron into molten iron, wax into molten wax — and it sinks. Water is the stubborn exception. If ice didn't float, lakes would freeze from the bottom up every winter, and fish, frogs, and turtles would have nowhere to hide.",
+      "visual": {
+        "sfSymbol": "water.waves",
+        "imagePrompt": "A sheet of thin ice covering a frozen lake at dusk, with murky green water visible underneath, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Water molecules hold hands",
+      "body": "A water molecule (H₂O) is shaped like a Mickey Mouse head: one big oxygen with two small hydrogens poking out. Oxygen hogs the electrons, so each hydrogen becomes slightly positive and the oxygen slightly negative. This lets neighboring molecules grab onto each other through weak links called hydrogen bonds.",
+      "keyTerms": [
+        { "term": "Hydrogen bond", "definition": "A weak attraction between a hydrogen atom in one molecule and a negatively-charged atom in another" },
+        { "term": "Polar molecule", "definition": "A molecule with a lopsided distribution of electric charge" }
+      ],
+      "visual": {
+        "sfSymbol": "link",
+        "imagePrompt": "A stylized cluster of water molecules linked by dashed hydrogen bonds, soft blue glow, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The empty rooms of ice",
+      "body": "In liquid water, molecules jostle and tumble, so hydrogen bonds constantly break and reform — the molecules end up packed relatively tightly. When water freezes, each molecule locks into a rigid hexagonal lattice that actually holds the neighbors further apart. Ice is roughly 9 percent less dense than liquid water because the crystal is full of empty space.",
+      "visual": {
+        "sfSymbol": "hexagon.fill",
+        "imagePrompt": "A 3D hexagonal lattice of water molecules showing the open spaces inside frozen ice, glowing pale blue"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Winter's invisible blanket",
+      "body": "Because ice floats, a frozen layer on top of a pond traps warmer water below. That warmer water can stay around 4°C — the temperature where water is densest — even through brutal cold snaps. Paleontologists point to this oddity as one of the conditions that let complex life survive on Earth through repeated ice ages.",
+      "funFact": "Water is densest not at freezing, but at about 4°C — which is why lake bottoms sit near that temperature year-round.",
+      "visual": {
+        "sfSymbol": "thermometer.snowflake",
+        "imagePrompt": "Cross-section of a frozen pond showing ice on top with fish and plants in dark water beneath, educational illustration"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A small quirk, a giant consequence",
+      "body": "The fact that frozen water floats comes down to the awkward geometry of a single molecule — and that awkwardness may be one of the reasons Earth is habitable. When something as weird as floating ice feels 'normal,' it's worth remembering how strange water really is.",
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why is ice less dense than liquid water?",
+      "options": [
+        "Because it contains trapped air bubbles",
+        "Because its molecules form an open hexagonal lattice",
+        "Because it expands when heat is added",
+        "Because it's colder than water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frozen water locks into a hexagonal crystal that actually spaces molecules further apart than they sit in liquid — so ice takes up more volume for the same mass."
+    },
+    {
+      "index": 1,
+      "question": "What kind of bond holds water molecules together in ice?",
+      "options": [
+        "Ionic bonds",
+        "Covalent bonds",
+        "Hydrogen bonds",
+        "Metallic bonds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Water molecules are polar, and the slight positive and negative charges let them form hydrogen bonds with their neighbors."
+    },
+    {
+      "index": 2,
+      "question": "At what temperature is liquid water at its densest?",
+      "options": [
+        "0°C",
+        "Around 4°C",
+        "Around 20°C",
+        "Around 100°C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water reaches peak density at about 4°C — colder than that, and the molecules start spreading out into the ice-like lattice structure."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "H2O: A Biography of Water",
+      "publisher": "Phoenix",
+      "year": 2000
+    },
+    {
+      "title": "The anomalous behavior of water",
+      "publisher": "Nature Chemistry",
+      "year": 2012
+    }
+  ],
+
+  "related": ["how-soap-works", "hydrogen-bonds", "snowflake-formation"]
+}

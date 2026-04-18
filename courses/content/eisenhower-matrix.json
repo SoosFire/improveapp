@@ -1,0 +1,131 @@
+{
+  "id": "eisenhower-matrix",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Eisenhower Urgency-Importance Matrix",
+    "teaser": "A five-star general's private trick for beating the tyranny of the urgent — now used by CEOs, parents, and presidents alike.",
+    "category": "Leadership",
+    "subcategories": ["Productivity", "Prioritization"],
+    "tags": ["eisenhower", "priorities", "time-management", "decisions", "focus"],
+    "emoji": "🗂️",
+    "accentColor": "#8B4513",
+    "coverSymbol": {
+      "sfSymbol": "calendar.badge.clock",
+      "fallbackEmoji": "📋"
+    },
+    "coverImagePrompt": "A general's wartime desk with a leather blotter, a mug of coffee, and a handwritten 2x2 grid on yellowed paper, warm amber light spilling through a tent flap, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A general's quiet confession",
+      "body": "In a 1954 speech, President Dwight Eisenhower quoted an unnamed university president: 'I have two kinds of problems, the urgent and the important. The urgent are not important, and the important are never urgent.' It was a throwaway line — but it captured the entire philosophy of how Eisenhower ran a war, then a country.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "A black-and-white photograph of Eisenhower at a podium, mid-speech, archival photojournalism style, slight film grain"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two axes, four boxes",
+      "body": "Stephen Covey popularized the general's insight as a simple 2x2 grid. One axis: urgent vs. not urgent. The other: important vs. not important. Every task drops into one quadrant. Quadrant 1: urgent and important — do it now. Quadrant 2: important but not urgent — schedule it. Quadrant 3: urgent but not important — delegate. Quadrant 4: neither — drop it.",
+      "keyTerms": [
+        { "term": "Urgent", "definition": "Demands immediate attention, often imposed by others" },
+        { "term": "Important", "definition": "Contributes to your long-term mission, values, or goals" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "A clean minimalist 2x2 matrix with hand-drawn labels: Do, Schedule, Delegate, Delete — warm paper texture"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The quadrant that runs your life",
+      "body": "Covey observed that people default to Quadrant 3 — urgent-but-not-important tasks like reactive emails and interruptions. It feels productive because it's busy. Meanwhile Quadrant 2 — strategic planning, learning, relationships — is where real leadership lives, and it gets squeezed out. The best operators protect Q2 time like it's sacred, because it is.",
+      "funFact": "Eisenhower was famous for leaving blank hours on his official calendar labeled simply 'thinking time.' His staff were forbidden to book into them.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A CEO's calendar with most slots filled except two large blocked-off rectangles labeled 'thinking time,' flat design"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Ask two questions, not a hundred",
+      "body": "Next time your inbox feels like chaos, don't write a to-do list — run the matrix. 'Is this urgent? Is this important?' Two yes-or-no answers narrow every item to one of four actions. The magic isn't in the grid; it's in the discipline of pausing long enough to ask. Leaders who skip the question live in Q3 forever.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which quadrant should you schedule rather than react to?",
+      "options": [
+        "Urgent + Important",
+        "Important + Not Urgent",
+        "Urgent + Not Important",
+        "Not Urgent + Not Important"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quadrant 2 — important but not urgent — is where strategic leadership lives. It requires deliberate scheduling because nothing forces it on you."
+    },
+    {
+      "index": 1,
+      "question": "Eisenhower credited the urgent/important distinction to:",
+      "options": [
+        "Winston Churchill",
+        "An unnamed university president",
+        "General MacArthur",
+        "His own wartime journal"
+      ],
+      "correctIndex": 1,
+      "explanation": "In his 1954 speech, Eisenhower attributed the line to an unnamed college president, though the idea became permanently associated with him."
+    },
+    {
+      "index": 2,
+      "question": "The trap most people fall into is living in:",
+      "options": [
+        "Quadrant 1 (urgent and important)",
+        "Quadrant 2 (important, not urgent)",
+        "Quadrant 3 (urgent, not important)",
+        "Quadrant 4 (neither)"
+      ],
+      "correctIndex": 2,
+      "explanation": "Q3 tasks feel productive because they're urgent, but they're not what actually moves the needle. They squeeze out Q2, where real progress happens."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Address at the Second Assembly of the World Council of Churches",
+      "publisher": "Dwight D. Eisenhower Presidential Library",
+      "year": 1954
+    },
+    {
+      "title": "The 7 Habits of Highly Effective People",
+      "publisher": "Free Press (Stephen Covey)",
+      "year": 1989
+    }
+  ],
+
+  "related": ["bikeshedding-law", "pareto-principle", "deep-work"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "venus-evil-twin",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Venus: Earth's Evil Twin",
+    "teaser": "Same size as Earth. Same rock. Same water, once. So why is Venus a 465°C hellscape that would crush you and cook you at the same time?",
+    "category": "Astronomy",
+    "subcategories": ["Planetary Science", "Comparative Planetology"],
+    "tags": ["venus", "greenhouse", "planets", "atmosphere", "solar system"],
+    "emoji": "♀️",
+    "accentColor": "#D97A33",
+    "coverSymbol": {
+      "sfSymbol": "globe.asia.australia.fill",
+      "fallbackEmoji": "🌋"
+    },
+    "coverImagePrompt": "A close-up of Venus glowing in thick swirling yellow-orange clouds, dramatic backlighting from the sun, moody and ominous, cinematic planetary art"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The planet that should have been habitable",
+      "body": "Venus and Earth are almost the same size, made of almost the same rock, and formed side by side. Early in the solar system, Venus may have even had oceans — some climate models suggest them lasting up to 2 billion years. Today, its surface is hotter than a pizza oven, coated in sulfuric acid clouds, and pressurized enough to crush a submarine. What went wrong?",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "Side-by-side views of Earth and Venus from space, Earth blue and cloud-streaked, Venus shrouded in sickly yellow clouds"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A runaway greenhouse",
+      "body": "On Earth, CO₂ mostly gets locked up in rocks and oceans through the carbon cycle. On Venus, scientists believe the young sun slowly warmed the oceans enough to evaporate them. Water vapor is itself a powerful greenhouse gas, so temperatures rose, releasing more CO₂ from the crust, which trapped more heat — a catastrophic feedback loop called a runaway greenhouse.",
+      "keyTerms": [
+        { "term": "Runaway greenhouse", "definition": "A climate feedback in which warming releases more greenhouse gases, which causes more warming" },
+        { "term": "Carbon cycle", "definition": "The planetary process by which carbon moves between atmosphere, oceans, and rocks" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath.circle.fill",
+        "imagePrompt": "A diagram of the runaway greenhouse: sun heats oceans, water evaporates, atmosphere thickens, surface heats more, arrows looping"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Life on the surface (not recommended)",
+      "body": "Stand on Venus and the atmosphere would press on you at 92 times Earth's pressure — equivalent to being a kilometer under the ocean. The temperature is around 465°C, hot enough to melt lead. Above, sulfuric acid clouds whip around the planet at 360 kilometers per hour, completing a full orbit of the sky every four Earth days. The surface itself, meanwhile, barely rotates: one Venus day lasts longer than one Venus year.",
+      "funFact": "On Venus, the sun rises in the west and sets in the east — the planet rotates backward compared to almost everything else in the solar system.",
+      "visual": {
+        "sfSymbol": "wind.snow",
+        "imagePrompt": "A Soviet Venera-style lander photograph of the Venusian surface — orange rocky plains under a hazy dark sky, dramatic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the probes told us",
+      "body": "We know this the hard way. The Soviet Venera probes were the first — and so far only — landers to survive long enough on Venus to send back photos, but even the toughest only lasted about two hours before being crushed or cooked. In 2020, astronomers briefly reported detecting phosphine in the clouds, a molecule sometimes associated with life. The claim is still disputed, but it's why NASA and ESA are sending new missions (DAVINCI, VERITAS, EnVision) later this decade.",
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": "A vintage Venera spacecraft descending through thick Venusian clouds with parachutes deploying, 1970s aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A cautionary neighbor",
+      "body": "Venus is a natural experiment in climate catastrophe. It shows that a planet at nearly the same distance from the sun, made of nearly the same stuff as Earth, can end up a scorched, poisonous wasteland when a greenhouse feedback goes unchecked. It's the reason many climate scientists stop and stare when they see it in the evening sky.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the leading explanation for why Venus became so hot?",
+      "options": [
+        "A giant asteroid impact ignited the atmosphere",
+        "A runaway greenhouse effect evaporated its oceans",
+        "The sun drifted closer to it over time",
+        "Its core produces excessive heat"
+      ],
+      "correctIndex": 1,
+      "explanation": "A runaway greenhouse effect is thought to have evaporated Venus's oceans, thickening the atmosphere and locking the planet into extreme heat."
+    },
+    {
+      "index": 1,
+      "question": "About how hot is the surface of Venus?",
+      "options": [
+        "Around 100°C",
+        "Around 200°C",
+        "Around 465°C",
+        "Around 1,200°C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Venus's surface averages around 465°C — hot enough to melt lead, and significantly hotter than the surface of Mercury."
+    },
+    {
+      "index": 2,
+      "question": "What made the Soviet Venera missions particularly notable?",
+      "options": [
+        "They were the first humans to orbit another planet",
+        "They were the only spacecraft to land and send photos from Venus's surface",
+        "They discovered water ice on Venus's poles",
+        "They recorded microbial life on the surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Soviet Venera landers are the only spacecraft that have successfully photographed Venus's surface — none survived more than a couple of hours."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Was Venus the first habitable world of our solar system?",
+      "publisher": "Geophysical Research Letters",
+      "year": 2016
+    },
+    {
+      "title": "The Planets",
+      "publisher": "Viking",
+      "year": 2005
+    }
+  ],
+
+  "related": ["inside-a-black-hole", "great-attractor", "climate-feedbacks"]
+}

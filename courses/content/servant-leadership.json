@@ -1,0 +1,136 @@
+{
+  "id": "servant-leadership",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Servant Leadership",
+    "teaser": "What if the best bosses don't command from the top — but serve from underneath?",
+    "category": "Leadership",
+    "subcategories": ["Management Philosophy", "Team Culture"],
+    "tags": ["leadership", "management", "teams", "greenleaf", "ethics"],
+    "emoji": "🤝",
+    "accentColor": "#2E7D5B",
+    "coverSymbol": {
+      "sfSymbol": "hand.raised.fill",
+      "fallbackEmoji": "🤲"
+    },
+    "coverImagePrompt": "A manager kneeling to help a junior colleague tie a running shoe before a race, warm morning light filtering through office blinds, cinematic, quiet intimacy, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An upside-down pyramid",
+      "body": "Most org charts put the CEO on top and the workers on the bottom. Servant leadership flips the pyramid. The leader's job isn't to be obeyed — it's to remove obstacles so the people actually doing the work can thrive. Sounds soft? Companies like Southwest Airlines and Starbucks have built their cultures on it.",
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "A traditional corporate pyramid org chart slowly rotating to become inverted, clean vector style, white background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Where the idea came from",
+      "body": "The term was coined in 1970 by Robert Greenleaf, a retired AT&T executive. He'd just read Hermann Hesse's novel 'Journey to the East' and noticed something: the group's humble servant was actually the one holding everyone together. Greenleaf realized true leaders serve first — and lead second.",
+      "keyTerms": [
+        { "term": "Servant leadership", "definition": "A philosophy where leaders prioritize the growth and well-being of their team above their own authority" },
+        { "term": "Stewardship", "definition": "Holding something in trust for others rather than owning or controlling it" }
+      ],
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "A vintage 1970s hardcover book titled 'The Servant as Leader' on a worn wooden desk next to a typewriter, warm tungsten lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What servant leaders actually do",
+      "body": "In practice, it looks mundane. Ask 'what do you need from me?' more than 'when will it be done?'. Give credit outward and absorb blame inward. Make decisions with the team rather than for them. The test Greenleaf proposed: do the people around you grow as persons — becoming healthier, wiser, more autonomous — because you lead them?",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A manager in a glass-walled conference room leaning forward, listening intently to a junior employee, notebook set aside, soft daylight"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Does it actually work?",
+      "body": "A 2019 meta-analysis in the Journal of Organizational Behavior pooled data from over 130 studies. Servant leadership correlated strongly with employee engagement, job satisfaction, and — surprisingly to skeptics — team performance. Employees working under servant leaders were also measurably less likely to quit.",
+      "funFact": "Herb Kelleher, Southwest Airlines' legendary CEO, once answered the company switchboard to help a customer find a lost bag. He believed no task was beneath leadership.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A clean data visualization showing rising curves for engagement and retention against a soft navy background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The quiet superpower",
+      "body": "Servant leadership isn't about being passive or avoiding hard calls. It's about recognizing that authority is a tool, not a trophy. The best leaders don't ask 'how can my team serve my vision?' — they ask 'how can I serve my team's mission?' The answer, over time, builds trust that formal power never can.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'servant leadership'?",
+      "options": ["Peter Drucker", "Robert Greenleaf", "Jim Collins", "Stephen Covey"],
+      "correctIndex": 1,
+      "explanation": "Robert Greenleaf, a former AT&T executive, introduced the term in his 1970 essay 'The Servant as Leader' after reading Hesse."
+    },
+    {
+      "index": 1,
+      "question": "According to Greenleaf, what is the best test of a servant leader?",
+      "options": [
+        "Do quarterly profits increase?",
+        "Do the people around them grow as persons?",
+        "Is the leader well-liked?",
+        "Does the team obey quickly?"
+      ],
+      "correctIndex": 1,
+      "explanation": "Greenleaf's test asks whether those being led become healthier, wiser, freer, and more likely to become servants themselves."
+    },
+    {
+      "index": 2,
+      "question": "What did the 2019 meta-analysis on servant leadership find?",
+      "options": [
+        "It reduces performance",
+        "It only affects morale, not outcomes",
+        "It correlates with engagement, satisfaction, and performance",
+        "Results were inconclusive"
+      ],
+      "correctIndex": 2,
+      "explanation": "The meta-analysis across 130+ studies found consistent positive links to engagement, satisfaction, retention, and team performance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Servant as Leader",
+      "publisher": "Robert K. Greenleaf Center",
+      "year": 1970
+    },
+    {
+      "title": "Servant Leadership: A Meta-Analytic Review",
+      "publisher": "Journal of Organizational Behavior",
+      "year": 2019
+    }
+  ],
+
+  "related": ["transformational-leadership", "psychological-safety", "eisenhower-matrix"]
+}

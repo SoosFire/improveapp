@@ -1,0 +1,141 @@
+{
+  "id": "survivorship-bias",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Survivorship Bias",
+    "teaser": "The planes that made it back had bullet holes everywhere — except the spots that actually mattered. Here's why you keep making the same mistake.",
+    "category": "Critical Thinking",
+    "subcategories": ["Cognitive Biases", "Statistics"],
+    "tags": ["bias", "wwii", "statistics", "logic", "wald"],
+    "emoji": "✈️",
+    "accentColor": "#4A4A4A",
+    "coverSymbol": {
+      "sfSymbol": "airplane",
+      "fallbackEmoji": "🎯"
+    },
+    "coverImagePrompt": "A vintage WWII bomber on a grassy airfield, fuselage peppered with red-marked bullet holes, a statistician in wartime uniform studying it thoughtfully, sepia tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Where should we add the armor?",
+      "body": "World War II. American bombers keep getting shot down over Europe. Military brass collect every returning plane and map the bullet holes. Wings: riddled. Tail: shredded. Fuselage: peppered. The conclusion seems obvious — reinforce those spots. Then a shy Jewish mathematician named Abraham Wald raises his hand and says: you've got it exactly backwards.",
+      "visual": {
+        "sfSymbol": "target",
+        "imagePrompt": "A schematic diagram of a WWII bomber, red dots clustered on the wings and tail, engine and cockpit suspiciously clean"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The planes that weren't there",
+      "body": "Wald pointed out that the military was only studying planes that came back. The ones shot through the engine or cockpit never made it home to be counted. So holes on returning planes marked the places a bomber could absorb damage and still fly. Armor belonged on the unscathed areas — precisely because the missing data was screaming at them.",
+      "keyTerms": [
+        { "term": "Survivorship bias", "definition": "A logical error from focusing only on the cases that 'made it' and ignoring those that didn't" },
+        { "term": "Selection effect", "definition": "When your data sample is systematically skewed by how it was gathered" }
+      ],
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "Two bomber silhouettes side by side: one covered in red bullet holes (survived), one fading to gray with clean outlines (didn't return), stark educational graphic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The trap everywhere in modern life",
+      "body": "Once you see it, you see it everywhere. 'Successful people wake up at 5 a.m.' — you're only hearing from the ones who succeeded. 'College dropouts built tech empires' — for every Zuckerberg, there are ten thousand dropouts waiting tables. 'Vintage products were built to last' — yes, because the cheap ones already broke. The graveyard of failure is silent, and silence is easy to ignore.",
+      "visual": {
+        "sfSymbol": "megaphone.fill",
+        "imagePrompt": "A single influencer on a glowing stage while a vast shadowy crowd of identical forgotten figures fades into darkness behind them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The mutual fund that beat everyone",
+      "body": "A classic example: mutual fund ads. Out of 100 funds, a handful will beat the market by chance alone. Those get advertised. The dozens that flopped get quietly closed and scrubbed from the historical record. Studies of 'fund graveyards' find that once you include dead funds, the average manager barely beats a coin flip — and often loses to a simple index.",
+      "funFact": "Wald's original 1943 memo was classified until 1980. His insight saved countless lives and launched the field of operations research.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A chart showing a jagged line of fund performance with failed funds fading out one by one, minimalist financial data viz"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The most important question to ask",
+      "body": "Before you copy any success story, ask: where are the people who did exactly the same thing and failed? If you can't find them, you're not looking at a lesson — you're looking at a lottery winner's biography. The absence of evidence is its own evidence. Train your eyes on the silent graveyard. That's where the truth usually lives.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was Abraham Wald's key insight about the damaged bombers?",
+      "options": [
+        "Reinforce the areas with the most holes",
+        "Reinforce the areas without holes, because those planes didn't return",
+        "Reinforce everywhere equally",
+        "Stop flying until the war was over"
+      ],
+      "correctIndex": 1,
+      "explanation": "Damage on returning planes showed survivable hits. The fatal hits were on planes that never came back — that's where armor was needed."
+    },
+    {
+      "index": 1,
+      "question": "Survivorship bias is an example of what broader statistical problem?",
+      "options": [
+        "Confirmation bias",
+        "Selection effect",
+        "Regression to the mean",
+        "Gambler's fallacy"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's a selection effect — your sample is skewed because of how it was collected, not what it represents."
+    },
+    {
+      "index": 2,
+      "question": "Why does 'they all woke up at 5 a.m.' fall into this trap?",
+      "options": [
+        "5 a.m. is scientifically optimal",
+        "You only hear from the ones who succeeded",
+        "Everyone wakes up at 5 a.m.",
+        "Sleep doesn't affect outcomes"
+      ],
+      "correctIndex": 1,
+      "explanation": "You never hear from the millions who also woke up at 5 a.m. and didn't become billionaires — so the 'pattern' is illusory."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Method of Estimating Plane Vulnerability Based on Damage of Survivors",
+      "publisher": "Statistical Research Group, Columbia University",
+      "year": 1943
+    },
+    {
+      "title": "How Not to Be Wrong: The Power of Mathematical Thinking",
+      "publisher": "Penguin Press",
+      "year": 2014
+    }
+  ],
+
+  "related": ["confirmation-bias", "base-rate-neglect", "operations-research"]
+}

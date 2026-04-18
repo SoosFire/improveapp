@@ -1,0 +1,126 @@
+{
+  "id": "unreliable-narrator",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Unreliable Narrator",
+    "teaser": "What if the person telling you the story is lying — and doesn't know it?",
+    "category": "Literature",
+    "subcategories": ["Narrative Technique", "Fiction"],
+    "tags": ["narrator", "point-of-view", "fiction", "craft", "perspective"],
+    "emoji": "📖",
+    "accentColor": "#4B3F72",
+    "coverSymbol": {
+      "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "A shadowed figure at a writing desk under a flickering lamp, their reflection in the window showing a completely different person, moody and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The narrator who wasn't telling you everything",
+      "body": "You finish a novel. You loved the narrator — funny, charming, a little sad. Then you close the book and realize: wait. He was the villain. This trick has a name. Literary critic Wayne C. Booth coined it in 1961: the unreliable narrator. A storyteller whose account you cannot — or should not — trust.",
+      "visual": {
+        "sfSymbol": "questionmark.bubble.fill",
+        "imagePrompt": "A hand closing a hardcover novel, a shocked reader's face half-lit in the glow of a lamp, crime scene tape visible in the background through a window"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three ways a narrator can fool you",
+      "body": "Not all unreliable narrators lie the same way. They can be uninformed (a child who doesn't understand what they're seeing, like Scout in To Kill a Mockingbird). They can be deluded (someone whose mental state distorts reality, like the narrator of Poe's The Tell-Tale Heart). Or they can be deceitful (actively lying to the reader, like Amy in Gone Girl). The last category is the scariest — and the most fun.",
+      "keyTerms": [
+        { "term": "Unreliable narrator", "definition": "A storyteller whose version of events the reader cannot fully trust" },
+        { "term": "Implied author", "definition": "Booth's term for the 'author behind the narrator' whose values reveal the narrator's distortions" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.circle.badge.questionmark.fill",
+        "imagePrompt": "Three silhouetted figures whispering into the ear of a reader, each with a subtly different expression, chiaroscuro lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How writers tip you off",
+      "body": "Good unreliable narration isn't random — the author plants clues. Humbert Humbert in Lolita uses lush, seductive prose to describe horrifying abuse, and that stylistic mismatch is the tell. In The Remains of the Day, butler Stevens keeps repeating phrases like 'one could say' and 'looking back now' — small hedges that suggest he's editing his own memory. The reader's job is to notice the gap between what's said and what happened.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "Open novel on a wooden table with certain phrases highlighted in red, a magnifying glass hovering over the text, warm library light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The trick goes back further than you'd think",
+      "body": "The unreliable narrator feels modern, but it's ancient. Critics point to the narrator of Agatha Christie's 1926 novel The Murder of Roger Ackroyd as the device's breakout moment — the reveal was so shocking that critics accused Christie of 'cheating.' She defended herself by noting every clue was there. Earlier still, Browning's 1842 poem 'My Last Duchess' is a 56-line monologue where a duke accidentally confesses to murdering his wife while bragging about a painting.",
+      "funFact": "The narrator of Nabokov's Pale Fire is a scholar writing footnotes to a dead poet's work — and the footnotes slowly reveal he might have murdered the poet, or might be completely insane, or both.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A stack of old novels on a leather chair — Lolita, Pale Fire, The Murder of Roger Ackroyd — warm reading-lamp glow, library atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it makes you a better reader",
+      "body": "Every narrator is unreliable to some degree — memory is faulty, self-interest is real, perspective is partial. Learning to spot the gap between a narrator's story and the truth isn't just a literary skill. It's how you read memoirs, news reports, and your own inner monologue. Unreliable narration teaches you that who tells the story always shapes it.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'unreliable narrator'?",
+      "options": ["Vladimir Nabokov", "Wayne C. Booth", "Roland Barthes", "Virginia Woolf"],
+      "correctIndex": 1,
+      "explanation": "Wayne C. Booth introduced the term in his 1961 book The Rhetoric of Fiction."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT a typical category of unreliable narrator?",
+      "options": ["Uninformed", "Deluded", "Omniscient", "Deceitful"],
+      "correctIndex": 2,
+      "explanation": "Omniscient narrators see everything — unreliability comes from being uninformed, deluded, or intentionally deceptive."
+    },
+    {
+      "index": 2,
+      "question": "Which 1926 Agatha Christie novel caused controversy with its unreliable narrator?",
+      "options": ["Murder on the Orient Express", "And Then There Were None", "The Murder of Roger Ackroyd", "The ABC Murders"],
+      "correctIndex": 2,
+      "explanation": "The Murder of Roger Ackroyd's narrator-reveal was so shocking that some critics accused Christie of cheating."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Rhetoric of Fiction",
+      "publisher": "University of Chicago Press (Wayne C. Booth)",
+      "year": 1961
+    },
+    {
+      "title": "Living to Tell the Tale: A Guide to Writing Memoir",
+      "publisher": "Penguin (Jane Taylor McDonnell)",
+      "year": 1998
+    }
+  ],
+
+  "related": ["heros-journey", "shakespeare-invented-words", "stream-of-consciousness"]
+}

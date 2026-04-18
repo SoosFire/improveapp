@@ -1,0 +1,136 @@
+{
+  "id": "curveball-physics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Physics of a Curveball",
+    "teaser": "How can a spinning baseball actually bend in mid-air — or is it just an optical illusion?",
+    "category": "Sports",
+    "subcategories": ["Baseball", "Physics"],
+    "tags": ["baseball", "physics", "aerodynamics", "magnus-effect"],
+    "emoji": "⚾",
+    "accentColor": "#C8102E",
+    "coverSymbol": {
+      "sfSymbol": "baseball.fill",
+      "fallbackEmoji": "⚾"
+    },
+    "coverImagePrompt": "A baseball mid-flight frozen in time, red stitches blurred from spin, streaks of air curling around it like ribbons, stadium lights streaking in the background, cinematic, hyper-detailed"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The pitch that broke the debate",
+      "body": "For decades, hitters swore the curveball 'dropped off the table' — and physicists insisted it was an illusion. Both were a little right and a lot wrong. The truth is stranger: the ball really does curve, but not the way your eyes tell you it does. So what's actually happening between the mound and home plate?",
+      "visual": {
+        "sfSymbol": "baseball.fill",
+        "imagePrompt": "A pitcher's hand releasing a baseball in slow motion, fingers snapping across the seams, stadium lights flaring"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the Magnus effect",
+      "body": "When a ball spins as it flies, one side drags air faster than the other. Faster-moving air means lower pressure, so the ball gets pushed sideways — from the high-pressure side toward the low-pressure side. This sideways shove is called the Magnus effect, and it's why footballs bend, golf balls slice, and curveballs curve.",
+      "keyTerms": [
+        { "term": "Magnus effect", "definition": "The sideways force on a spinning object moving through a fluid like air" },
+        { "term": "Topspin", "definition": "Forward-rolling spin that pushes a ball downward as it travels" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A diagram of a spinning sphere with arrows showing airflow, high-pressure and low-pressure zones labeled in red and blue"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the seams matter",
+      "body": "A smooth ball would barely curve at all. But a baseball's 108 raised stitches grab the air, dragging a thin layer of it around with the spin. A good curveball spins at 1,500–3,000 RPM — enough to push the ball almost a foot off a straight-line path. That's why pitchers obsess over grip: the seams are the ball's steering wheel.",
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "A close-up of a pitcher's fingers gripping a baseball across the horseshoe seams, tension in the knuckles"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The illusion inside the reality",
+      "body": "High-speed cameras show that a curveball follows a smooth arc — no sudden break. But to a batter tracking the ball in under 0.4 seconds, the late part of the curve happens in peripheral vision, where we see movement poorly. The brain interpolates a straight line, then plays catch-up when the ball clearly isn't where it 'should' be. Hence the famous 'drop.'",
+      "funFact": "Physicist Lyman Briggs built a baseball-sized wind tunnel in 1959 to settle the argument — and measured curves of up to 17 inches.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A batter's POV of an approaching baseball with motion-trail showing actual smooth arc vs. perceived break, cinematic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Spin is the secret",
+      "body": "A curveball isn't magic or myth — it's geometry written in air. The same physics steers soccer free kicks, tennis topspin, and table-tennis loops. Next time you see one bend, remember: half of the curve is real, and half is your brain finally catching up.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What force causes a spinning baseball to curve sideways in flight?",
+      "options": ["Gravity", "The Magnus effect", "The Coriolis effect", "Static electricity"],
+      "correctIndex": 1,
+      "explanation": "The Magnus effect describes how spin creates a pressure difference across a moving ball, pushing it sideways."
+    },
+    {
+      "index": 1,
+      "question": "Why do the ball's stitches matter so much?",
+      "options": [
+        "They make the ball heavier",
+        "They grab the air and amplify the spin's effect",
+        "They reflect sunlight for the batter",
+        "They reduce air resistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "The raised seams drag a thin layer of air around with the spin, strengthening the Magnus force."
+    },
+    {
+      "index": 2,
+      "question": "Is the classic 'late break' of a curveball real or illusion?",
+      "options": [
+        "Fully real — the ball changes direction suddenly",
+        "Fully illusion — the ball flies perfectly straight",
+        "A mix: a real smooth arc plus a perceptual late catch-up",
+        "Neither — it's caused by gusts of wind"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ball actually follows a smooth curve, but batters perceive the late part as a sudden break because of how peripheral vision works."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Effect of Spin and Speed on the Lateral Deflection (Curve) of a Baseball",
+      "publisher": "American Journal of Physics (Lyman Briggs)",
+      "year": 1959
+    },
+    {
+      "title": "The Physics of Baseball",
+      "publisher": "HarperCollins (Robert K. Adair)",
+      "year": 2002
+    }
+  ],
+
+  "related": ["magnus-effect", "knuckleball", "soccer-free-kick"]
+}

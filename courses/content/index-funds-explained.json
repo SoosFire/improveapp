@@ -1,0 +1,142 @@
+{
+  "id": "index-funds-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Index Funds Usually Win",
+    "teaser": "Warren Buffett bet a million dollars an index fund would beat the hedge funds. Guess who paid up?",
+    "category": "Finance",
+    "subcategories": ["Investing", "Passive Investing"],
+    "tags": ["index-funds", "stocks", "buffett", "passive", "etf"],
+    "emoji": "📈",
+    "accentColor": "#264653",
+    "coverSymbol": {
+      "sfSymbol": "chart.bar.xaxis",
+      "fallbackEmoji": "📊"
+    },
+    "coverImagePrompt": "A minimalist stock chart trending up over decades, rendered in clean sans-serif style against a deep navy background, subtle grid lines, cinematic composition"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The million-dollar bet",
+      "body": "In 2007, Warren Buffett bet a hedge fund manager one million dollars that a plain S&P 500 index fund would beat any basket of hedge funds over ten years. He picked Vanguard's most boring product. Ten years later, the index had returned about 125%. The hedge funds? Around 36%. Buffett donated the winnings to charity.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "A simple trophy next to a stack of index fund prospectuses, soft studio lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What an index fund actually is",
+      "body": "Instead of a manager picking winners, an index fund just owns everything in a list — say, the 500 biggest U.S. companies. No guessing. When Apple grows, your slice grows. When some tiny company goes bust, your exposure was tiny to begin with. The whole idea is to ride the market's average, not beat it.",
+      "keyTerms": [
+        { "term": "Index", "definition": "A list of companies used to measure a slice of the market (e.g., the S&P 500)" },
+        { "term": "Expense ratio", "definition": "The yearly fee charged by a fund, expressed as a percentage of assets" },
+        { "term": "Passive investing", "definition": "Buying the whole market rather than trying to pick winners" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A grid of 500 small company logos forming a mosaic representing the S&P 500"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The fee problem nobody talks about",
+      "body": "Actively managed funds charge around 1% a year. Index funds charge around 0.03%. Sounds tiny — it isn't. Compounded over 30 years on a $100,000 investment, that difference can eat more than a quarter of your final wealth. You don't have to beat the manager; the fees beat the manager for you.",
+      "visual": {
+        "sfSymbol": "percent",
+        "imagePrompt": "A bar chart comparing ending balances of two investors over 30 years — one with 1% fees, one with 0.03%"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "SPIVA: the scoreboard",
+      "body": "S&P publishes a report called SPIVA that tracks how active managers do against their benchmark. Over 15-year windows, roughly 90% of U.S. large-cap active funds underperform the index. It's not that managers are stupid — it's that after their fees, trading costs, and taxes, beating a cheap robot that just owns everything is almost mathematically impossible.",
+      "funFact": "John Bogle, who launched the first retail index fund in 1976, was called 'un-American' by Fidelity's chairman for the idea.",
+      "visual": {
+        "sfSymbol": "chart.pie.fill",
+        "imagePrompt": "A pie chart with a large 90% slice labeled 'underperformed' and a tiny sliver labeled 'beat the index'"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Boring is the edge",
+      "body": "Owning the market, keeping fees near zero, and staying invested for decades is — somehow — a winning strategy most professionals can't replicate. Not because they're dumb, but because their incentive is to look busy. Your advantage as a small investor is that you don't have to.",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does an S&P 500 index fund actually hold?",
+      "options": [
+        "Only the ten biggest tech stocks",
+        "A basket of roughly 500 large U.S. companies",
+        "Government bonds",
+        "A pool of foreign currencies"
+      ],
+      "correctIndex": 1,
+      "explanation": "It tracks an index of about 500 large U.S. companies — a wide slice of the market."
+    },
+    {
+      "index": 1,
+      "question": "Why do small differences in fees matter so much?",
+      "options": [
+        "Because of compound growth over decades",
+        "Because the SEC requires them",
+        "Because higher fees mean higher taxes",
+        "They don't actually matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "A 1% fee compounded over 30 years can eat over a quarter of your ending wealth."
+    },
+    {
+      "index": 2,
+      "question": "What does SPIVA research consistently show?",
+      "options": [
+        "Most active funds beat the index long-term",
+        "Active and passive funds perform identically",
+        "Most active funds underperform the index over long windows",
+        "Bond funds always outperform stocks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Over 15-year periods, roughly 90% of active funds fail to beat their index benchmark."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "SPIVA U.S. Scorecard",
+      "publisher": "S&P Dow Jones Indices",
+      "year": 2023
+    },
+    {
+      "title": "The Little Book of Common Sense Investing",
+      "publisher": "Wiley",
+      "year": 2017
+    }
+  ],
+
+  "related": ["emergency-fund-math", "inverted-yield-curve", "dollar-cost-averaging"]
+}

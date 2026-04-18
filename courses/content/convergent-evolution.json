@@ -1,0 +1,131 @@
+{
+  "id": "convergent-evolution",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Unrelated Species Look Alike",
+    "teaser": "Sharks and dolphins share a shape. Their last common ancestor looked like neither. So what keeps drawing life to the same design?",
+    "category": "Evolutionary Biology",
+    "subcategories": ["Evolution", "Comparative Biology"],
+    "tags": ["convergent-evolution", "adaptation", "sharks", "dolphins", "natural-selection"],
+    "emoji": "🦈",
+    "accentColor": "#2C7DA0",
+    "coverSymbol": {
+      "sfSymbol": "fish.fill",
+      "fallbackEmoji": "🐬"
+    },
+    "coverImagePrompt": "A shark and a dolphin cruising side by side through sunlit open ocean, nearly identical silhouettes despite vastly different biology, shafts of blue light from above"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The dolphin and the shark",
+      "body": "A dolphin is a mammal, warm-blooded, descended from hoofed land creatures. A great white shark is a cartilaginous fish whose ancestors never left the water. They sit on opposite sides of a 400-million-year evolutionary gulf. Yet they have almost identical torpedo-shaped bodies, crescent tail fins, and even subtly similar swimming strokes. Evolution keeps finding the same answer to the same question.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.merge",
+        "imagePrompt": "Family tree with the dolphin and shark on far-separated branches, both silhouettes converging to an identical streamlined body shape"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What convergent evolution is",
+      "body": "Convergent evolution is when unrelated lineages independently develop similar traits because they face similar problems. The ocean's challenges — drag, thermoregulation, fast prey — push almost any fast-swimming predator toward a streamlined fusiform body. The environment filters for shape, not ancestry. Similar pressures, similar answers.",
+      "keyTerms": [
+        { "term": "Convergent evolution", "definition": "The independent evolution of similar features in unrelated species" },
+        { "term": "Analogous structures", "definition": "Traits that look similar due to shared function, not shared ancestry" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Two evolutionary branches starting far apart then independently evolving toward the same leaf-shape, schematic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Wings invented four times",
+      "body": "Flight has evolved independently at least four separate times: in insects (~400 million years ago), pterosaurs, birds, and bats. Each time, a different group of creatures built a wing out of completely different raw materials — insect cuticle, elongated fingers, stiffened feathers, stretched skin. The shape converges because air behaves the same way for everyone, but the underlying anatomy tells four very different origin stories.",
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "Four side-by-side wing diagrams showing dragonfly, pterosaur, bird, and bat wings with underlying bone/structure clearly distinct"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Eyes, again and again",
+      "body": "Camera-type eyes with a lens focusing light onto a retina have evolved at least eight different times — in vertebrates, octopuses, certain jellyfish, some snails, and others. Remarkably, octopus eyes don't have the blind spot human eyes do because the retina is wired the opposite way. When a design is good enough, life will stumble onto it over and over, sometimes building it better than last time.",
+      "funFact": "The marsupial 'mole' of Australia and the placental mole of North America are only distantly related — yet both evolved shovel-like forelimbs, near-blind eyes, and identical tunneling lifestyles.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Macro photograph of an octopus eye next to a macro of a human eye, both staring straight at camera, mirrored symmetry"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Repeatable experiments in nature",
+      "body": "Convergent evolution is, in a sense, nature running the same experiment with different starting materials. It suggests that physics and ecology set real limits — and that, given similar conditions, life tends to find similar solutions. If we ever find life on another planet, convergence predicts some of it might look eerily familiar. Not because of kinship, but because some shapes just work.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do dolphins and sharks look so similar despite unrelated ancestry?",
+      "options": [
+        "They interbred in ancient times",
+        "Both face the same physical pressures of fast marine predation",
+        "They share a recent common ancestor",
+        "Dolphins imitate sharks to avoid being hunted"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ocean selects for similar streamlined shapes regardless of ancestry — classic convergent evolution."
+    },
+    {
+      "index": 1,
+      "question": "What term describes traits that look alike due to shared function rather than shared ancestry?",
+      "options": ["Homologous", "Analogous", "Vestigial", "Atavistic"],
+      "correctIndex": 1,
+      "explanation": "Analogous structures arise from convergence. Homologous structures come from a common ancestor."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many separate times have camera-type eyes evolved on Earth?",
+      "options": ["Once", "Twice", "At least eight times", "Only in vertebrates"],
+      "correctIndex": 2,
+      "explanation": "Complex eyes have evolved independently at least eight times — in groups as different as vertebrates and cephalopods."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Life's Solution: Inevitable Humans in a Lonely Universe",
+      "publisher": "Cambridge University Press (Simon Conway Morris)",
+      "year": 2003
+    },
+    {
+      "title": "Convergent Evolution: Limited Forms Most Beautiful",
+      "publisher": "MIT Press (George McGhee)",
+      "year": 2011
+    }
+  ],
+
+  "related": ["natural-selection", "analogous-homologous", "cephalopod-intelligence"]
+}

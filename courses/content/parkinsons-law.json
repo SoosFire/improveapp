@@ -1,0 +1,141 @@
+{
+  "id": "parkinsons-law",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Parkinson's Law",
+    "teaser": "A 1-hour task takes an hour. Give yourself a week and somehow — it takes a week. Why?",
+    "category": "Productivity",
+    "subcategories": ["Time Management", "Psychology"],
+    "tags": ["productivity", "work", "deadlines", "time", "psychology"],
+    "emoji": "⏳",
+    "accentColor": "#C28B3D",
+    "coverSymbol": {
+      "sfSymbol": "hourglass",
+      "fallbackEmoji": "⏰"
+    },
+    "coverImagePrompt": "A vintage brass hourglass on a cluttered wooden desk with papers expanding and spilling endlessly around it, warm library lighting, surreal editorial photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The deadline that never shrinks",
+      "body": "Ever noticed that a college paper takes exactly as long as you give it? Two weeks of notice — two weeks of work. One all-nighter — one all-nighter of work. Somehow, the same assignment fills whatever time you pour at it. A British historian named Cyril Northcote Parkinson noticed this in 1955 and wrote it down as a half-joke. It's been haunting offices ever since.",
+      "visual": {
+        "sfSymbol": "calendar.badge.clock",
+        "imagePrompt": "A stressed student at a desk at 3 AM surrounded by crumpled paper, a glowing laptop screen, candlelight and cold coffee"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The law, stated simply",
+      "body": "Parkinson's Law says: work expands to fill the time available for its completion. If a report is due Friday, it will take until Friday — no matter how simple the report actually is. Parkinson spotted this in the British civil service, where the workforce kept growing even as the British Empire shrank. Fewer colonies to administer, somehow more administrators needed.",
+      "keyTerms": [
+        { "term": "Parkinson's Law", "definition": "Work expands to fill the time available for its completion" },
+        { "term": "Scope creep", "definition": "The tendency for a project's goals and tasks to grow larger the longer it takes" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A vintage British government office with staff growing from 2 to 20 over the years, while a world map behind them loses colonies"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it actually happens",
+      "body": "Three forces conspire. First, perfectionism: if you have more time, you tinker more — fonts, rephrasing, second-guessing. Second, procrastination: humans discount future pain, so early in a long deadline the task feels abstract and easy to postpone. Third, scope creep: as you work, new ideas for what the task 'should' include keep appearing. The task doesn't take longer because it's harder. It takes longer because you keep feeding it.",
+      "visual": {
+        "sfSymbol": "arrow.trianglehead.swap",
+        "imagePrompt": "A simple paper list morphing into a sprawling mind map with branches and sub-branches, minimalist black ink on cream paper"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The shrinking deadline test",
+      "body": "Researchers have tested this in workplaces and classrooms. In one study, students given a short deadline for an essay produced work judged nearly as high-quality as those given triple the time — in a third of the hours. Amazon, famously, writes six-page memos in the room before the meeting starts, because giving them a week guarantees they take a week. The clock isn't a constraint. It's a collaborator.",
+      "funFact": "Parkinson's original article also included 'The Law of Triviality' — the observation that committees spend more time arguing about the color of a bike shed than about a nuclear reactor design, because everyone has an opinion on bike sheds.",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "A chess clock on a polished desk, one half already expired, a laptop open to a nearly-finished document"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Give yourself less",
+      "body": "If you want more done, don't add hours — subtract them. Set a deadline that feels slightly uncomfortable. Schedule a meeting to present the work before it's ready. Use a 25-minute timer for tasks you'd otherwise give all afternoon. The work you do in compressed time won't be worse; it'll just be less padded. And you'll get your evenings back.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does Parkinson's Law state?",
+      "options": [
+        "Work contracts to match available resources",
+        "Work expands to fill the time available for its completion",
+        "Meetings always run over schedule",
+        "Deadlines always get extended"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parkinson's Law, coined in 1955, states that work expands to fill the time available for its completion."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT a common cause of Parkinson's Law?",
+      "options": [
+        "Perfectionism and tinkering",
+        "Procrastination early in a long deadline",
+        "Scope creep — adding new tasks as you go",
+        "Falling asleep at your desk"
+      ],
+      "correctIndex": 3,
+      "explanation": "The three main drivers are perfectionism, procrastination, and scope creep — not fatigue."
+    },
+    {
+      "index": 2,
+      "question": "What practical tactic follows from Parkinson's Law?",
+      "options": [
+        "Always request more time on projects",
+        "Give yourself slightly uncomfortable deadlines",
+        "Work only when you feel inspired",
+        "Avoid timed work entirely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shortening deadlines forces focus, reduces tinkering, and often yields nearly equivalent quality in far less time."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Parkinson's Law, or The Pursuit of Progress",
+      "publisher": "John Murray",
+      "year": 1958
+    },
+    {
+      "title": "The Economist (November 19, 1955 issue)",
+      "publisher": "The Economist",
+      "year": 1955
+    }
+  ],
+
+  "related": ["pomodoro-technique", "eisenhower-matrix", "procrastination-psychology"]
+}

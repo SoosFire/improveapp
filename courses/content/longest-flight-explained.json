@@ -1,0 +1,139 @@
+{
+  "id": "longest-flight-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Longest Flights Take Weird Routes",
+    "teaser": "New York to Singapore in a straight line? Not quite — your plane is drawing a curve across the top of the planet.",
+    "category": "Travel",
+    "subcategories": ["Aviation", "Geography"],
+    "tags": ["flights", "great-circle", "geography", "aviation", "maps"],
+    "emoji": "✈️",
+    "accentColor": "#2F80ED",
+    "coverSymbol": {
+      "sfSymbol": "airplane",
+      "fallbackEmoji": "🛫"
+    },
+    "coverImagePrompt": "A widebody jet banking over a frozen Arctic landscape at high altitude, contrail curving against a dusky blue sky, the curvature of Earth visible on the horizon, cinematic, crisp morning light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The flight map lies",
+      "body": "Pull up a flight from New York to Tokyo on your seatback screen. You'll notice the little plane icon isn't flying across the Pacific in a tidy horizontal line — it's arcing north over Alaska and the Bering Sea. That's not a detour. On a real, round Earth, that arc is actually the shortest path.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A seatback entertainment screen showing a flight path arcing far north over Alaska between New York and Tokyo, warm cabin lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Great circles, not straight lines",
+      "body": "The shortest distance between any two points on a sphere is called a great circle — a slice that cuts the globe in half. On a flat map (which stretches the poles into a horizontal bar), a great circle looks curved. On a real globe, it's as straight as you can get. Pilots fly the globe, not the poster.",
+      "keyTerms": [
+        { "term": "Great circle", "definition": "The shortest path between two points on a sphere, lying on a circle that divides the sphere in half" },
+        { "term": "Mercator projection", "definition": "The common flat world map that distorts distances, especially near the poles" }
+      ],
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A globe with a string pulled taut between New York and Tokyo, clearly curving over the Arctic, soft studio lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Then the jet stream gets involved",
+      "body": "Great circles are the geometry. But the atmosphere has its own opinions. A river of wind called the jet stream rips west-to-east across the northern mid-latitudes at 100 to 250 mph. Eastbound flights happily ride it; westbound flights have to duck under or around it. That's why a flight from London to New York often takes an hour longer than the return.",
+      "keyTerms": [
+        { "term": "Jet stream", "definition": "A fast, narrow air current flowing from west to east, typically at cruising altitude" }
+      ],
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "A satellite-style visualization of the North Atlantic jet stream as glowing orange ribbons over a dark blue Earth at night"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The record-breaker",
+      "body": "Singapore Airlines flight SQ23 from Newark to Singapore runs around 9,500 miles and takes up to 19 hours. Its route doesn't go straight east across the Atlantic — it often swings north over Greenland, then south across Central Asia, chasing tailwinds and avoiding restricted airspace. Every mile costs fuel, so airlines re-plan the route daily based on that morning's winds.",
+      "funFact": "Flight plans for ultra-long-haul routes can vary by 300+ miles day to day, purely due to wind.",
+      "visual": {
+        "sfSymbol": "airplane.departure",
+        "imagePrompt": "A long-haul aircraft at a rainy gate at dusk with 'SINGAPORE' on the departures board, moody reflections on wet tarmac"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Geometry plus weather plus politics",
+      "body": "A flight path is never really 'drawn' — it's negotiated. Geometry says go over the pole. Weather says hug the jet stream. Politics says avoid certain airspace. The curve on your screen is the daily compromise between all three.",
+      "visual": {
+        "sfSymbol": "point.topleft.down.to.point.bottomright.curvepath.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do long flights appear to take a curved route on a flat map?",
+      "options": [
+        "To avoid turbulence zones",
+        "Because great circles look curved on flat projections",
+        "Because planes can't fly in straight lines",
+        "To stay near emergency airports"
+      ],
+      "correctIndex": 1,
+      "explanation": "The shortest path on a sphere is a great circle. Flat maps distort this into a curve, especially near the poles."
+    },
+    {
+      "index": 1,
+      "question": "Why is a London to New York flight often longer than New York to London?",
+      "options": [
+        "Earth spins against it",
+        "Air traffic is heavier westbound",
+        "The westbound flight fights a headwind from the jet stream",
+        "Older planes fly westbound"
+      ],
+      "correctIndex": 2,
+      "explanation": "The jet stream flows west-to-east, so flying west means fighting it while flying east means riding it."
+    },
+    {
+      "index": 2,
+      "question": "How often is an ultra-long-haul flight plan typically recalculated?",
+      "options": ["Once a month", "Once a year", "Daily, based on winds", "Only during storms"],
+      "correctIndex": 2,
+      "explanation": "Airlines re-plan the exact route every day to chase tailwinds, avoid headwinds, and save fuel."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Why Do Flight Paths Look Curved on a Map?",
+      "publisher": "NOAA SciJinks",
+      "year": 2022
+    },
+    {
+      "title": "Great Circle Routes and Jet Stream Effects on Commercial Aviation",
+      "publisher": "FAA Aviation Weather Handbook",
+      "year": 2023
+    }
+  ],
+
+  "related": ["jet-stream-explained", "mercator-projection", "why-planes-fly"]
+}

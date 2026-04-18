@@ -1,0 +1,136 @@
+{
+  "id": "antikythera-mechanism",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Antikythera Mechanism",
+    "teaser": "A 2,000-year-old analog computer that predicted eclipses — and we still aren't sure who built it.",
+    "category": "History",
+    "subcategories": ["Ancient History", "Ancient Technology"],
+    "tags": ["greek", "astronomy", "archaeology", "computing", "mystery"],
+    "emoji": "⚙️",
+    "accentColor": "#2E6E78",
+    "coverSymbol": {
+      "sfSymbol": "gearshape.2.fill",
+      "fallbackEmoji": "⚙️"
+    },
+    "coverImagePrompt": "A corroded bronze astronomical device with intricate interlocking gears resting on dark velvet, shafts of cold museum light highlighting green patina, cinematic macro photograph"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A lump of bronze with a secret",
+      "body": "In 1901, Greek sponge divers pulled a crusty, corroded lump off the seabed near the island of Antikythera. Nobody looked at it twice for decades. When scientists finally X-rayed it, they found something absurd: more than 30 interlocking bronze gears inside a shoebox-sized device from the 1st century BCE. Nothing else like it survives for another 1,500 years.",
+      "visual": {
+        "sfSymbol": "cube.transparent.fill",
+        "imagePrompt": "Divers silhouetted against deep blue Mediterranean water surrounding a sunken Roman-era shipwreck covered in coral"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Not a clock — a cosmos",
+      "body": "The Antikythera Mechanism wasn't telling time in hours. It was modeling the heavens. Turn the crank on the side, and dials on the front tracked the sun, moon, and five visible planets across the zodiac. A dial on the back predicted solar and lunar eclipses decades into the future — correctly.",
+      "keyTerms": [
+        { "term": "Epicycle", "definition": "A small circular motion superimposed on a larger orbit, used to model planetary motion" },
+        { "term": "Saros cycle", "definition": "A ~18-year pattern after which eclipses repeat" }
+      ],
+      "visual": {
+        "sfSymbol": "moon.stars.fill",
+        "imagePrompt": "A reconstruction of the Antikythera Mechanism with glowing engraved dials showing zodiac symbols, set against a starry night sky"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How it actually worked",
+      "body": "Inside the case, differential gearing turned a single hand crank into dozens of synchronized motions. One crucial train used a pin-and-slot mechanism to reproduce the moon's uneven speed across the sky — a clever hack for the fact that the moon's orbit isn't a perfect circle. This is 2,000 years before European clockmakers would rediscover the idea.",
+      "funFact": "The mechanism even adjusted the Olympic Games dial — letting its owner know which Greek city would host the next games.",
+      "visual": {
+        "sfSymbol": "gearshape.fill",
+        "imagePrompt": "Exploded diagram of a bronze gear train with 30 meshing wheels on a parchment-colored background, annotated in Greek letters"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the scans revealed",
+      "body": "Modern CT scans of the lump read engraved text that no human had seen for 2,000 years — more than 2,000 Greek letters of instructions, essentially a user manual cast onto the device itself. That engraving, combined with astronomical back-calculations, suggests the mechanism was built sometime between 205 and 60 BCE, possibly by an heir to the school of Archimedes.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A scientist peering at a glowing monitor displaying a 3D CT scan of bronze gears, lab bathed in blue light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "History has gaps",
+      "body": "The Antikythera Mechanism tells us something humbling: we dramatically underestimate the ancient world. Somewhere, someone built a pocket-sized analog computer — and it sat at the bottom of the sea for two millennia. What else did ancient engineers make that we'll never find? The artifact is a reminder that 'primitive past' is a bias, not a fact.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did the Antikythera Mechanism actually compute?",
+      "options": [
+        "Daily clock time",
+        "Tide tables",
+        "Positions of the sun, moon, planets, and eclipses",
+        "Calendar feast days only"
+      ],
+      "correctIndex": 2,
+      "explanation": "It was an astronomical calculator: sun, moon, planets, and future eclipses, all from a single hand crank."
+    },
+    {
+      "index": 1,
+      "question": "Roughly when was the device built?",
+      "options": ["800 BCE", "Between 205 and 60 BCE", "200 CE", "900 CE"],
+      "correctIndex": 1,
+      "explanation": "Engraving styles and astronomical data on the device point to the 2nd or 1st century BCE."
+    },
+    {
+      "index": 2,
+      "question": "What allowed the mechanism to model the moon's uneven speed?",
+      "options": [
+        "A steam-driven escapement",
+        "A pin-and-slot gear mechanism",
+        "A magnetic dial",
+        "A pendulum"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pin-and-slot design cleverly introduced variable speed into a clockwork gear train — an engineering idea 1,500 years ahead of its time."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Decoding the Heavens: A 2,000-Year-Old Computer and the Century-Long Search to Discover Its Secrets",
+      "publisher": "Da Capo Press",
+      "year": 2009
+    },
+    {
+      "title": "The Antikythera Mechanism: Decoding an Ancient Greek Mystery",
+      "publisher": "Nature",
+      "year": 2006
+    }
+  ],
+
+  "related": ["archimedes", "hellenistic-science", "greek-astronomy"]
+}

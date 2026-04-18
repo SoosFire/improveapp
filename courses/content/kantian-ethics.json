@@ -1,0 +1,141 @@
+{
+  "id": "kantian-ethics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Kant's Categorical Imperative",
+    "teaser": "What if the most important question in ethics isn't 'what will happen?' but 'what if everyone did this?'",
+    "category": "Ethics",
+    "subcategories": ["Moral Philosophy", "Deontology"],
+    "tags": ["kant", "ethics", "deontology", "duty", "moral-law"],
+    "emoji": "📜",
+    "accentColor": "#4D5C7D",
+    "coverSymbol": {
+      "sfSymbol": "text.book.closed.fill",
+      "fallbackEmoji": "📚"
+    },
+    "coverImagePrompt": "A leather-bound 18th-century German philosophy book open to a handwritten page, candle flickering beside it casting long shadows on stone wall, moody chiaroscuro lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Königsberg's clockwork philosopher",
+      "body": "Immanuel Kant's daily walk was so precise that the citizens of Königsberg reportedly set their watches by him. But his influence goes further than Prussian punctuality. Kant thought morality itself had a structure as rigorous as a mathematical proof — and one sentence, he claimed, could capture it all.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "Silhouette of Kant in tricorn hat walking past cobblestone townhouses at a precise hour, long shadow stretching behind, autumnal light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Categorical Imperative",
+      "body": "Kant's core rule: act only on a maxim you could, without contradiction, will to become a universal law. In plain terms — before you act, imagine everyone in your situation doing the same thing. If that universe makes coherent sense, the action is permissible. If it collapses into contradiction, it's forbidden.",
+      "keyTerms": [
+        { "term": "Maxim", "definition": "The personal rule or principle behind a specific action" },
+        { "term": "Universalizability", "definition": "The test of whether a maxim could coherently apply to everyone" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.3.trianglepath",
+        "imagePrompt": "A single person at center, mirrored outward into a ring of identical figures all performing the same action, circular diagram"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why lying fails the test",
+      "body": "Kant's classic example: imagine lying whenever it suits you. Try to universalize that — a world where everyone lies whenever convenient. In such a world, no one would believe statements, so the very practice of lying becomes impossible. You can't even tell a lie if no one expects the truth. The maxim eats itself. Therefore, Kant says, lying is always wrong — even to save a life.",
+      "visual": {
+        "sfSymbol": "xmark.octagon.fill",
+        "imagePrompt": "A speech bubble shattering into fragments as it floats above a crowded town square where no one is listening, surreal style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Humans as ends, not means",
+      "body": "Kant gave a second formulation of the same imperative: treat people always as ends in themselves, never merely as means to your own ends. Using someone — deceiving, manipulating, exploiting — violates their dignity as a rational being. This formulation has echoes in modern human rights law, medical ethics, and informed consent. It's one reason Kantian thinking survived long after his metaphysics fell out of fashion.",
+      "funFact": "Kant argued you must not lie to a murderer at your door asking where their victim is hiding. Most people find this conclusion appalling — and it's sparked philosophical debate for over 200 years.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "Two figures facing each other as equals, soft backlighting haloing both, symbolic composition of mutual respect"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still matters",
+      "body": "Kant offers a radically different answer from utilitarianism. Where the utilitarian asks 'what will produce the most good?', Kant asks 'could this rule govern a rational society?' Even when you disagree with his absolutism, his framework forces you to check whether your choices could survive being applied to everyone — including to you. That test is harder than it sounds.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does Kant's Categorical Imperative ask you to check before acting?",
+      "options": [
+        "Whether the action will maximize happiness",
+        "Whether you could coherently will everyone to act the same way",
+        "Whether a trusted authority approves",
+        "Whether the action feels right in the moment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kant's test is universalizability — if your maxim couldn't be a universal law without contradicting itself, don't act on it."
+    },
+    {
+      "index": 1,
+      "question": "Why, according to Kant, is lying always wrong?",
+      "options": [
+        "Because gods forbid it",
+        "Because a world of universal lying makes lying itself impossible",
+        "Because lies usually cause more harm than good",
+        "Because lies damage the liar's reputation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Universalized lying is self-defeating: if no one believed anyone, no statement could function as a lie in the first place."
+    },
+    {
+      "index": 2,
+      "question": "Kant's 'humanity formulation' says we must treat people as...",
+      "options": [
+        "Ends in themselves, never merely as means",
+        "Rational economic actors",
+        "Interchangeable units of utility",
+        "Subjects of a social contract"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using someone purely as a tool violates their dignity as a rational being — the second great formulation of Kant's imperative."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Groundwork of the Metaphysics of Morals",
+      "publisher": "Immanuel Kant (J.F. Hartknoch)",
+      "year": 1785
+    },
+    {
+      "title": "The Cambridge Companion to Kant and Modern Philosophy",
+      "publisher": "Cambridge University Press",
+      "year": 2006
+    }
+  ],
+
+  "related": ["utilitarianism-basics", "doctrine-of-double-effect", "moral-absolutism"]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "thunder-and-lightning",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why You See Lightning Before You Hear Thunder",
+    "teaser": "Light moves a million times faster than sound. That gap between flash and boom is physics you can count on your fingers.",
+    "category": "Weather",
+    "subcategories": ["Atmospheric Science", "Physics"],
+    "tags": ["lightning", "thunder", "weather", "physics", "storms"],
+    "emoji": "⛈️",
+    "accentColor": "#5B6DBF",
+    "coverSymbol": {
+      "sfSymbol": "cloud.bolt.rain.fill",
+      "fallbackEmoji": "⚡"
+    },
+    "coverImagePrompt": "A dramatic lightning bolt splitting a dark purple stormcloud over a rain-soaked prairie, high-speed photography, electric and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Flash. One. Two. Three. Boom.",
+      "body": "Watch a thunderstorm long enough and you'll notice: the flash always comes first, the rumble follows. Sometimes the gap is a second; sometimes ten. That gap isn't mystery. It's a mini physics lesson playing out across the sky, and once you know the trick, you can measure how far away the storm is just by counting.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A silhouetted child at a window watching lightning flash over distant hills, warm lamplight inside, quiet wonder"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two speeds, one event",
+      "body": "Lightning and thunder are the same event. When a bolt of lightning heats the air to roughly 30,000 degrees Celsius — five times hotter than the Sun's surface — the air explodes outward. That explosion sends out two signals: light and sound. But light travels at about 300,000 kilometers per second, while sound trudges along at 343 meters per second.",
+      "keyTerms": [
+        { "term": "Speed of light", "definition": "About 300,000 km per second — essentially instantaneous at everyday distances" },
+        { "term": "Speed of sound", "definition": "About 343 meters per second in air at sea level — roughly a million times slower than light" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A split-screen showing a light wave arriving instantly and a slower sound wave rippling outward from a lightning strike, infographic style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Counting the storm",
+      "body": "Because sound covers about 343 meters per second — or roughly one kilometer every three seconds — you can estimate a storm's distance with simple counting. See the flash, start counting. Hear the thunder, stop. Divide by three for kilometers, or by five for miles. A count of nine? The storm is about three kilometers away. A count of three? That's close enough to take shelter.",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "A stopwatch in the foreground with dark storm clouds looming behind, dramatic contrast lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "The sky's mail delivery",
+      "body": "Light arrives like a text message — instant. Sound arrives like a paper letter — in its own time. The gap between them is real, measurable, and has been the same since storms existed. Next time you see a flash, count. You're doing real physics, in real time, with nothing but your own heartbeat.",
+      "funFact": "If lightning strikes so close that the flash and thunder arrive together, you're within about 100 meters — dangerously close. Get indoors.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how far does sound travel in 3 seconds?",
+      "options": ["100 meters", "1 kilometer", "10 kilometers", "100 kilometers"],
+      "correctIndex": 1,
+      "explanation": "Sound travels about 343 meters per second, so in 3 seconds it covers roughly one kilometer."
+    },
+    {
+      "index": 1,
+      "question": "Why do you see lightning before hearing thunder?",
+      "options": [
+        "The lightning comes first",
+        "Light travels much faster than sound",
+        "Thunder starts later than the flash",
+        "Your brain processes sight first"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both happen at the same time, but light arrives almost instantly while sound takes several seconds per kilometer."
+    },
+    {
+      "index": 2,
+      "question": "If you count 15 seconds between flash and thunder, roughly how far is the storm?",
+      "options": ["About 1 km", "About 3 km", "About 5 km", "About 15 km"],
+      "correctIndex": 2,
+      "explanation": "Dividing 15 by 3 gives about 5 kilometers — a simple way to estimate a storm's distance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Lightning: Physics and Effects",
+      "publisher": "Cambridge University Press",
+      "year": 2003
+    },
+    {
+      "title": "NOAA National Severe Storms Laboratory: Lightning",
+      "publisher": "NOAA",
+      "year": 2020
+    }
+  ],
+
+  "related": ["thunderstorm-formation", "speed-of-light", "lightning-safety"]
+}

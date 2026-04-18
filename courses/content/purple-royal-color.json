@@ -1,0 +1,141 @@
+{
+  "id": "purple-royal-color",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Purple Became the Color of Royalty",
+    "teaser": "It took 12,000 rotting sea snails to dye one Roman toga. The color of kings was, for most of history, the color of luxury glue.",
+    "category": "Fashion",
+    "subcategories": ["Fashion History", "Color"],
+    "tags": ["purple", "royalty", "dye", "history", "Tyrian"],
+    "emoji": "🟣",
+    "accentColor": "#5D2A8E",
+    "coverSymbol": {
+      "sfSymbol": "crown.fill",
+      "fallbackEmoji": "🟣"
+    },
+    "coverImagePrompt": "A richly draped deep-violet silk robe on a marble pedestal with a golden laurel crown resting on top, warm Mediterranean light, Renaissance oil-painting aesthetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A color made of snails",
+      "body": "Around 1500 BCE, Phoenician dyers on the coast of modern Lebanon discovered that a tiny gland inside a sea snail — the murex — secreted a clear liquid that turned a deep, unfading purple when exposed to sunlight. There was just one problem: it took about 12,000 snails to dye the trim of a single Roman toga. Whole beaches reeked of rotting shells. The resulting color was worth more than gold.",
+      "visual": {
+        "sfSymbol": "seal.fill",
+        "imagePrompt": "A Phoenician workshop on a rocky shore, wooden vats bubbling with violet liquid, fishermen dumping nets of spiny murex shells, golden-hour Mediterranean light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Tyrian purple and Roman law",
+      "body": "The dye was called Tyrian purple, after the Phoenician city of Tyre. By the Roman Empire, wearing it was literally regulated by law. Emperor Nero decreed that anyone but himself caught wearing pure Tyrian purple could be executed. Later emperors softened the rules but kept purple-bordered togas as a badge of office — a senator's stripe, a general's triumph.",
+      "keyTerms": [
+        { "term": "Tyrian purple", "definition": "A long-lasting dye made from the mucus of murex sea snails" },
+        { "term": "Sumptuary law", "definition": "A legal code restricting which clothing, colors, and fabrics different social classes may wear" }
+      ],
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A Roman senator on the steps of the Forum in a toga with a brilliant purple stripe, citizens watching respectfully, dramatic marble architecture"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why purple alone?",
+      "body": "Unlike most ancient dyes, Tyrian purple actually got brighter with age and sunlight instead of fading. It resisted washing. It glowed in candlelight. Every other luxury color — safflower red, woad blue — dulled over time. So purple became a proof of wealth that you could literally see across a crowded hall. It was not just expensive; it was conspicuously, permanently expensive.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "A flowing length of deep purple silk under shafts of sunlight, richer and more saturated where the light falls, photo-realistic studio shot"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The chemist who killed the mystique",
+      "body": "In 1856, an 18-year-old British chemistry student named William Perkin was trying to synthesize malaria medicine. He failed — but the black sludge in his test tube turned out to dye silk a brilliant violet. He called it 'mauveine'. Within a few years, anyone with a shilling could wear purple. By 1860, even Queen Victoria was in a mauve gown, and the 2,500-year monopoly of royalty was over.",
+      "funFact": "Perkin's accidental discovery is considered the founding moment of the entire synthetic-dye and modern pharmaceutical industries.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A cluttered Victorian chemistry lab with beakers of glowing purple liquid, a young chemist staring in wonder at a violet-stained silk scrap, warm gaslight"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the association survives",
+      "body": "Even though purple is now cheap, its royal reputation still echoes: it appears in graduation regalia, high-church robes, Prince album covers, and premium brand logos. Thousands of years of scarcity etched an association into culture so deep that mere synthetic chemistry couldn't undo it in a generation. Some colors carry their history long after the history stops being true.",
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was Tyrian purple originally made from?",
+      "options": [
+        "Crushed violet flowers",
+        "Iron oxide pigments",
+        "A secretion from murex sea snails",
+        "Imported Indian lapis"
+      ],
+      "correctIndex": 2,
+      "explanation": "The dye was extracted from a gland inside murex sea snails — roughly 12,000 snails per toga's trim."
+    },
+    {
+      "index": 1,
+      "question": "Why did Tyrian purple stay prestigious for so long?",
+      "options": [
+        "It was pleasant-smelling",
+        "It resisted fading and actually brightened over time",
+        "It was painted on over other colors for free",
+        "It was the only dye allowed in Christianity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike most ancient dyes, Tyrian purple grew brighter with age — a permanent advertisement of wealth."
+    },
+    {
+      "index": 2,
+      "question": "How did purple eventually become affordable?",
+      "options": [
+        "New snail farms opened in Asia",
+        "William Perkin accidentally synthesized mauveine in 1856",
+        "The Catholic Church forbade natural dyes",
+        "Murex populations boomed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perkin's accidental 1856 discovery of mauveine launched synthetic dyes and broke royalty's monopoly on the color."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Color: A Natural History of the Palette",
+      "publisher": "Random House",
+      "year": 2002
+    },
+    {
+      "title": "Mauve: How One Man Invented a Color That Changed the World",
+      "publisher": "W. W. Norton",
+      "year": 2000
+    }
+  ],
+
+  "related": ["little-black-dress", "wedding-white-tradition", "why-men-stopped-wearing-heels"]
+}

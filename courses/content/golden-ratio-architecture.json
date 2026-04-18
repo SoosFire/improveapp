@@ -1,0 +1,141 @@
+{
+  "id": "golden-ratio-architecture",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Golden Ratio in Architecture",
+    "teaser": "The 'divine proportion' is everywhere in architecture — except maybe where you were told it was.",
+    "category": "Architecture",
+    "subcategories": ["Design", "Mathematics"],
+    "tags": ["golden-ratio", "phi", "proportion", "architecture", "design"],
+    "emoji": "📐",
+    "accentColor": "#B38B59",
+    "coverSymbol": {
+      "sfSymbol": "ruler.fill",
+      "fallbackEmoji": "📐"
+    },
+    "coverImagePrompt": "A luminous golden spiral overlaid on the façade of a classical marble temple at sunset, rays of honeyed light, elegant editorial illustration"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The number that won't leave design alone",
+      "body": "Divide a line so the whole is to the larger part as the larger part is to the smaller. You get a number: 1.618. It's been called 'the divine proportion,' 'phi,' and 'the golden ratio.' Painters, architects, and packaging designers have chased it for 2,500 years. Whether it actually looks more beautiful is one of the most argued questions in design.",
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A sleek golden spiral drawn over a grid, clean editorial vector style, soft gradient background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What phi actually is",
+      "body": "Phi (φ) is roughly 1.6180339..., an irrational number with a strange property: its square equals itself plus one. That means you can subdivide a 'golden rectangle' forever and keep getting smaller golden rectangles — the nested pattern that traces out the famous spiral. Nature uses it too, in sunflowers, pinecones, and nautilus shells.",
+      "keyTerms": [
+        { "term": "Phi (φ)", "definition": "The golden ratio, approximately 1.618, found when dividing a line so the whole is to the larger as the larger is to the smaller" },
+        { "term": "Golden rectangle", "definition": "A rectangle whose side ratio is phi to 1" }
+      ],
+      "visual": {
+        "sfSymbol": "square.on.square",
+        "imagePrompt": "A nested sequence of golden rectangles with a smooth spiral passing through them, dark elegant background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Classical and Renaissance obsession",
+      "body": "The Parthenon in Athens is often said to fit a golden rectangle — though archaeologists now suggest the match is generous. What's better documented is the Renaissance. Architects like Leon Battista Alberti and Andrea Palladio explicitly used phi and related proportions to design façades, rooms, and floor plans. For them, a building that matched celestial math was a building that matched God.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "The front façade of the Parthenon at dusk with a faint golden rectangle overlay, warm pink sky"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Le Corbusier's Modulor",
+      "body": "In 1948, architect Le Corbusier published 'The Modulor,' a proportion system based on the golden ratio and the human body. He used it to design everything from the Unité d'Habitation in Marseille to the United Nations building in New York. Modern perception studies, however, are skeptical: when researchers ask people to pick the 'most pleasing' rectangle, preferences cluster widely from 1.3 to 1.8, not precisely at 1.618.",
+      "funFact": "Le Corbusier was so convinced of the Modulor that he sent a copy of his book to Albert Einstein, who replied calling it 'a scale of proportions which makes the bad difficult and the good easy.'",
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "A stylized version of Le Corbusier's Modulor man silhouette beside a red and blue vertical scale, editorial"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A useful myth",
+      "body": "Whether or not phi is objectively beautiful, it's a genuinely useful design tool: a ready-made ratio that produces balanced rectangles, predictable hierarchies, and spaces that feel composed rather than arbitrary. The honest story isn't that the golden ratio is magical — it's that centuries of designers have used it until our eyes have learned to call it 'right.'",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Approximately what is the value of the golden ratio?",
+      "options": [
+        "1.414",
+        "1.618",
+        "2.718",
+        "3.141"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phi is approximately 1.618 — derived from dividing a line so the whole is to the larger as the larger is to the smaller."
+    },
+    {
+      "index": 1,
+      "question": "Whose 'Modulor' system adapts the golden ratio to the human body?",
+      "options": [
+        "Frank Lloyd Wright",
+        "Andrea Palladio",
+        "Le Corbusier",
+        "Mies van der Rohe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Corbusier's 'Modulor,' published in 1948, is a proportion system tying phi to human measurements."
+    },
+    {
+      "index": 2,
+      "question": "What do modern perception studies suggest about preferred rectangle ratios?",
+      "options": [
+        "People strongly prefer exactly 1.618",
+        "People prefer perfect squares",
+        "Preferences cluster widely, not precisely at 1.618",
+        "People consistently prefer 2:1 rectangles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Contemporary research finds preferred rectangle ratios spread from about 1.3 to 1.8, not a sharp peak at phi."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Modulor: A Harmonious Measure to the Human Scale",
+      "publisher": "Le Corbusier, Harvard University Press",
+      "year": 1954
+    },
+    {
+      "title": "Misconceptions about the Golden Ratio",
+      "publisher": "The College Mathematics Journal",
+      "year": 1992
+    }
+  ],
+
+  "related": ["flying-buttress", "fibonacci-sequence", "palladian-architecture"]
+}

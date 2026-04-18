@@ -1,0 +1,136 @@
+{
+  "id": "why-babies-cry-at-night",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Babies Cry More at Night",
+    "teaser": "Your baby's 3 a.m. protest might be evolutionary — and even a little bit sneaky.",
+    "category": "Parenting",
+    "subcategories": ["Infants", "Sleep"],
+    "tags": ["babies", "sleep", "evolution", "crying", "breastfeeding"],
+    "emoji": "🌙",
+    "accentColor": "#3B4A6B",
+    "coverSymbol": {
+      "sfSymbol": "moon.zzz.fill",
+      "fallbackEmoji": "🌙"
+    },
+    "coverImagePrompt": "A soft-lit nursery at 3 a.m., a crying infant in a crib with moonlight spilling through curtains, cinematic, tender melancholy"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 3 a.m. mystery",
+      "body": "Ask any new parent: babies seem to save their most ferocious crying for the darkest, quietest hours of the night. It's not random, and it's not just because you're exhausted. Evolutionary biologists have been circling a strange idea — that night-crying may be a tiny infant strategy millions of years old.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A close-up of a dimly lit analog clock showing 3:14 a.m., a faint cry visible as soundwaves in the dark"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the suppression hypothesis",
+      "body": "Harvard evolutionary biologist David Haig proposed that frequent night waking isn't a bug — it's a feature. Breastfeeding at night suppresses ovulation in the mother through a hormonal feedback loop. More nighttime nursing means a longer gap before the next pregnancy — and more resources for the current baby.",
+      "keyTerms": [
+        { "term": "Lactational amenorrhea", "definition": "The temporary pause in ovulation caused by frequent breastfeeding" },
+        { "term": "Parent-offspring conflict", "definition": "The evolutionary tension between what's best for a baby and what's best for a parent" }
+      ],
+      "visual": {
+        "sfSymbol": "dna",
+        "imagePrompt": "A stylized double-helix softly glowing over a silhouette of a nursing mother, warm moonlit palette"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Biology doesn't sleep through the night",
+      "body": "Human babies are born with immature circadian rhythms — they don't produce significant melatonin until around 3 months old. On top of that, their stomachs are tiny (about the size of a cherry at birth), so they wake frequently to feed. Add cortisol cycles that peak in the early morning hours, and 3 a.m. becomes a perfect storm.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A 24-hour cortisol and melatonin rhythm chart superimposed over a sleeping baby, glowing line graph style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The data is loud",
+      "body": "A large 2017 study across six countries found infant crying peaks around six weeks old, regardless of culture or parenting approach. Studies tracking crying across 24 hours consistently show a late-afternoon and late-night spike — the famous 'witching hour.' And babies who co-sleep with breastfeeding mothers actually wake *more* often, which neatly fits Haig's hypothesis.",
+      "funFact": "A newborn's cry registers around 100 decibels — roughly the volume of a chainsaw held arm's length away. Evolution designed it to be impossible to ignore.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A world map with pulsing sound icons over different countries showing infant cry peaks, infographic style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're not doing anything wrong",
+      "body": "Night crying peaks around 6 weeks and almost always fades by 5 months — not because you did the right sleep trick, but because your baby's brain finally matures. Until then, what feels like chaos may be an ancient bargain between parent and child: your lost sleep is literally their survival strategy.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to David Haig's hypothesis, what evolutionary benefit does nighttime nursing give a baby?",
+      "options": [
+        "Stronger bones",
+        "Delaying the next pregnancy",
+        "Better vision development",
+        "Faster language learning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frequent night nursing suppresses the mother's ovulation, delaying the next sibling and keeping more resources for the current baby."
+    },
+    {
+      "index": 1,
+      "question": "Around what age does infant crying typically peak?",
+      "options": ["2 weeks", "6 weeks", "4 months", "9 months"],
+      "correctIndex": 1,
+      "explanation": "Cross-cultural studies consistently show a crying peak around six weeks of age, regardless of country or parenting style."
+    },
+    {
+      "index": 2,
+      "question": "Why don't newborns have a normal day-night rhythm yet?",
+      "options": [
+        "They sleep too much",
+        "They produce very little melatonin until ~3 months",
+        "They only see in black and white",
+        "They haven't learned time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Melatonin production kicks in gradually around three months — before then, the circadian system is essentially offline."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Troubled sleep: Night waking, breastfeeding and parent–offspring conflict",
+      "publisher": "Evolution, Medicine, and Public Health",
+      "year": 2014
+    },
+    {
+      "title": "Crying patterns in the first 3 months of life",
+      "publisher": "The Journal of Pediatrics",
+      "year": 2017
+    }
+  ],
+
+  "related": ["attachment-theory", "terrible-twos-explained", "marshmallow-test"]
+}

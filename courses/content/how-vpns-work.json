@@ -1,0 +1,140 @@
+{
+  "id": "how-vpns-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How VPNs Actually Work",
+    "teaser": "Everyone sells them. Almost nobody explains them. What's really happening when you hit 'Connect'?",
+    "category": "Cybersecurity",
+    "subcategories": ["Networking", "Privacy"],
+    "tags": ["vpn", "encryption", "networking", "privacy", "tunneling"],
+    "emoji": "🔐",
+    "accentColor": "#2F6F9F",
+    "coverSymbol": {
+      "sfSymbol": "lock.shield.fill",
+      "fallbackEmoji": "🛡️"
+    },
+    "coverImagePrompt": "A glowing encrypted tunnel of blue light stretching through a dark data landscape, packets of light streaming through a shielded pipe above a cityscape, cinematic sci-fi aesthetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A postcard vs. a sealed envelope",
+      "body": "Every time you visit a website on an open Wi-Fi network, your request is a bit like a postcard — anyone on the same network can glance at the address. A VPN wraps that postcard in a sealed, armored envelope and routes it through a trusted post office before it reaches the internet. That's the idea. The mechanics are cleverer than the marketing.",
+      "visual": {
+        "sfSymbol": "envelope.badge.shield.half.filled",
+        "imagePrompt": "A postcard and a wax-sealed envelope side by side on a café table next to a laptop, moody lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The tunnel and the server",
+      "body": "A VPN does two things at once. First, it builds an encrypted 'tunnel' from your device to a VPN server somewhere in the world. Second, it uses that server as the new starting point for all your traffic. So the websites you visit see the VPN server's IP address — not yours — and anyone between you and the server sees only scrambled noise.",
+      "keyTerms": [
+        { "term": "Tunnel", "definition": "An encrypted channel that wraps your data between two endpoints" },
+        { "term": "IP address", "definition": "The numerical label every device uses to identify itself on the internet" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.connected.trianglepath.dotted",
+        "imagePrompt": "A stylized diagram of a laptop, an encrypted tunnel, a VPN server, and the open internet, flat infographic style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What 'encrypted' really means here",
+      "body": "Modern VPN protocols like WireGuard or OpenVPN use public-key cryptography to agree on a shared secret key, then use that key to encrypt every packet with a symmetric cipher such as AES-256 or ChaCha20. The result: even if someone captures every byte passing through the café router, they get gibberish that would take longer than the age of the universe to crack.",
+      "keyTerms": [
+        { "term": "WireGuard", "definition": "A modern, lean VPN protocol with about 4,000 lines of code" },
+        { "term": "AES-256", "definition": "A widely trusted symmetric encryption algorithm using a 256-bit key" }
+      ],
+      "visual": {
+        "sfSymbol": "key.fill",
+        "imagePrompt": "Two golden keys exchanging glowing mathematical symbols mid-air, abstract cryptography aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What a VPN does and doesn't hide",
+      "body": "Your ISP and local network can no longer see which sites you visit or what you send. Websites you visit see a VPN server's IP, not your home one. But the VPN provider itself now sees everything your ISP used to — which is why 'no-logs' audits matter. Reputable providers commission independent firms like Cure53 and KPMG to verify they store nothing.",
+      "funFact": "When a Turkish court seized an ExpressVPN server in 2017 during an investigation, investigators found no user logs at all — exactly what the company had promised.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "An auditor's hand checking off items on a clipboard in front of rows of dark server racks, cold blue server-room lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Trust shifts, it doesn't disappear",
+      "body": "A VPN doesn't make you anonymous — it moves your trust from your ISP to your VPN provider. That's a real upgrade on sketchy Wi-Fi, or under a censoring network. But pick your provider like you pick a bank: reputation, audits, and jurisdiction matter more than flashy ads.",
+      "visual": {
+        "sfSymbol": "checkmark.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does a VPN do to your internet traffic?",
+      "options": [
+        "Makes it travel faster by compressing data",
+        "Encrypts it and routes it through a remote server",
+        "Prevents all tracking by any party forever",
+        "Removes your device's IP address permanently"
+      ],
+      "correctIndex": 1,
+      "explanation": "A VPN creates an encrypted tunnel to a server, which then forwards your traffic — hiding it from your local network and ISP."
+    },
+    {
+      "index": 1,
+      "question": "Who can still potentially see your browsing activity when using a VPN?",
+      "options": [
+        "Your ISP",
+        "The coffee shop's Wi-Fi router",
+        "The VPN provider itself",
+        "Anyone on the same local network"
+      ],
+      "correctIndex": 2,
+      "explanation": "The VPN provider sits in the position your ISP used to — which is why independently audited no-logs policies matter."
+    },
+    {
+      "index": 2,
+      "question": "Which of these is a modern, deliberately minimal VPN protocol?",
+      "options": ["PPTP", "WireGuard", "Telnet", "FTP"],
+      "correctIndex": 1,
+      "explanation": "WireGuard is a modern protocol known for its small, auditable codebase and strong performance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "WireGuard: Next Generation Kernel Network Tunnel",
+      "publisher": "NDSS Symposium (Jason A. Donenfeld)",
+      "year": 2017
+    },
+    {
+      "title": "A Look at the Anatomy of a VPN",
+      "publisher": "Electronic Frontier Foundation",
+      "year": 2020
+    }
+  ],
+
+  "related": ["two-factor-authentication", "public-key-cryptography", "dns-explained"]
+}

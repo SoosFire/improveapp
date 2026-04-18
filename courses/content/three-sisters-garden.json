@@ -1,0 +1,144 @@
+{
+  "id": "three-sisters-garden",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Three Sisters: An Ancient Planting Trick",
+    "teaser": "Indigenous farmers figured out a way to grow three crops in the same hole — and each one makes the other two stronger.",
+    "category": "Gardening",
+    "subcategories": ["Permaculture", "Indigenous Agriculture"],
+    "tags": ["companion-planting", "corn", "beans", "squash", "indigenous", "permaculture"],
+    "emoji": "🌽",
+    "accentColor": "#D4A247",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌽"
+    },
+    "coverImagePrompt": "A lush garden mound at sunrise with tall corn stalks, climbing green bean vines spiraling up them, and broad squash leaves shading the soil below, painterly, warm naturalistic light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Three plants, one hole",
+      "body": "Walk into a traditional Haudenosaunee garden and you'll notice something strange — there are no neat rows. Instead, the whole plot is made of small mounds, each one containing corn, beans, and squash growing tangled together. It looks messy. It's actually one of the most elegant farming systems ever invented.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "Close-up of a soil mound with three seed sprouts emerging, corn in the center, bean and squash at the edges, morning dew"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the sisters",
+      "body": "The system originated with Indigenous peoples of North America, refined over 3,000+ years by the Haudenosaunee (Iroquois), Cherokee, and many others. Each plant plays a role: corn grows tall and straight, beans climb the corn stalks, and squash spreads across the ground with its huge prickly leaves.",
+      "keyTerms": [
+        { "term": "Haudenosaunee", "definition": "The Iroquois Confederacy, one of several Indigenous nations that perfected the Three Sisters system" },
+        { "term": "Companion planting", "definition": "Growing different crops together so they benefit each other" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A stylized triptych of corn, bean, and squash plants standing together like three sisters, warm illustrated style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why each one needs the others",
+      "body": "Corn gives the beans a living trellis to climb. Beans host rhizobium bacteria on their roots that pull nitrogen from the air and fix it into the soil — fertilizing the nitrogen-hungry corn. Squash's wide leaves shade the ground, keeping soil moist and smothering weeds, while its prickly vines deter raccoons. Each sister solves a problem the others would have alone.",
+      "keyTerms": [
+        { "term": "Nitrogen fixation", "definition": "The ability of legume roots to convert atmospheric nitrogen into plant-usable form" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.3.trianglepath",
+        "imagePrompt": "A cutaway diagram showing the root and leaf zones of the three sisters, with arrows illustrating nitrogen fixation and shade"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Nutritionally complete, too",
+      "body": "The genius goes beyond the garden. Corn is high in carbohydrates but low in two essential amino acids, lysine and tryptophan. Beans contain exactly those amino acids in abundance. Squash adds vitamins A and C plus healthy oils from its seeds. A 2008 Cornell study found that a diet of the three together provides complete protein and most essential nutrients — which is why they anchored Indigenous diets for millennia.",
+      "funFact": "Modern research on intercropping inspired by the Three Sisters has shown yields up to 30% higher than growing the same crops separately on the same land.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "Rustic wooden table with corn, beans, and squash arranged beside a nutritional infographic, warm kitchen lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Farming as a relationship",
+      "body": "European colonists often wrote off Indigenous gardens as 'unkempt' because they weren't planted in rows. In reality, they were a farming philosophy industrial agriculture is only now rediscovering — where the soil, the plants, and even the gardener are partners instead of tools. The Three Sisters wasn't a trick. It was a design.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What role do the beans play in the Three Sisters system?",
+      "options": [
+        "They shade the soil",
+        "They fix nitrogen into the soil",
+        "They deter deer with strong scent",
+        "They hold moisture in their stalks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beans host nitrogen-fixing bacteria on their roots, naturally fertilizing the corn."
+    },
+    {
+      "index": 1,
+      "question": "Why does squash belong in the system?",
+      "options": [
+        "Its leaves shade soil and suppress weeds",
+        "Its roots climb corn stalks",
+        "It repels nitrogen-fixing bacteria",
+        "It ripens fastest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Squash's wide leaves cover the ground, retain moisture, and block weeds from competing."
+    },
+    {
+      "index": 2,
+      "question": "Why are the three crops nutritionally complementary?",
+      "options": [
+        "They all contain the same nutrients",
+        "Beans supply amino acids missing in corn",
+        "Squash replaces the need for grains",
+        "Corn provides complete protein on its own"
+      ],
+      "correctIndex": 1,
+      "explanation": "Corn lacks lysine and tryptophan, which beans provide — together they form complete protein."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants",
+      "publisher": "Robin Wall Kimmerer / Milkweed Editions",
+      "year": 2013
+    },
+    {
+      "title": "The Three Sisters of Indigenous American Agriculture",
+      "publisher": "USDA National Agricultural Library",
+      "year": 2019
+    }
+  ],
+
+  "related": ["companion-planting", "permaculture-basics", "heirloom-corn"]
+}

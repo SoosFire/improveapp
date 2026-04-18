@@ -1,0 +1,141 @@
+{
+  "id": "ikigai",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Ikigai: The Japanese Reason to Get Up",
+    "teaser": "A Japanese word for the thing that makes you get out of bed — and probably adds years to your life.",
+    "category": "Self-improvement",
+    "subcategories": ["Philosophy", "Wellbeing"],
+    "tags": ["ikigai", "japan", "meaning", "longevity", "okinawa"],
+    "emoji": "🌅",
+    "accentColor": "#D97A66",
+    "coverSymbol": {
+      "sfSymbol": "sparkles",
+      "fallbackEmoji": "🌅"
+    },
+    "coverImagePrompt": "An elderly Japanese fisherman at dawn preparing his nets on a quiet Okinawan shore, soft pink sunrise, serene cinematic wide shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A word with no English equivalent",
+      "body": "Ask a 95-year-old farmer on the Japanese island of Okinawa why she still gets up before sunrise, and she might answer with one word: ikigai. It doesn't translate cleanly. The closest we have is 'the reason you bother.' And it might be the quiet difference between living and merely surviving.",
+      "visual": {
+        "sfSymbol": "sunrise.fill",
+        "imagePrompt": "Steam rising from a clay teacup in soft dawn light over a wooden porch looking out to misty hills"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What ikigai actually means",
+      "body": "The word combines 'iki' (to live) and 'gai' (worth or value). In Japan it rarely means your career or a grand mission. More often it's something small and specific: tending a garden, greeting your grandchildren, a particular bowl of miso soup at a particular window. Ikigai is the thing that makes this day, not your life, feel worth showing up for.",
+      "keyTerms": [
+        { "term": "Ikigai", "definition": "A sense of purpose or reason for living, often rooted in small daily pleasures" },
+        { "term": "Iki / gai", "definition": "Japanese roots meaning 'to live' and 'worth' or 'value'" }
+      ],
+      "visual": {
+        "sfSymbol": "character.book.closed.fill.ja",
+        "imagePrompt": "The kanji for ikigai hand-painted in ink on washi paper, single brushstroke, warm spotlight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Venn diagram you've seen is half wrong",
+      "body": "You've probably seen ikigai drawn as a four-circle Venn diagram: what you love, what you're good at, what the world needs, what you can be paid for. That diagram was invented by a Spanish author in 2017 — not in Japan. Japanese scholars gently point out that ikigai is usually much smaller and doesn't need to involve income or the world's needs at all.",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A crossed-out western ikigai Venn diagram next to a single small circle labeled 'one small thing,' minimal editorial style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The longevity link",
+      "body": "Okinawa has one of the world's highest concentrations of centenarians. In the Ohsaki prospective study, researchers tracked over 43,000 Japanese adults for seven years and found that those who reported having ikigai had significantly lower rates of cardiovascular mortality. Having a reason to get up in the morning, it turns out, seems to correlate with more mornings.",
+      "funFact": "Okinawan elders use the phrase 'hara hachi bu' — eat until you're 80% full — paired with ikigai as a pair of habits for a long life.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "An elderly woman laughing beside a stack of folded kimonos, soft sunlight through rice paper screens"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Find a small one first",
+      "body": "If the four-circle diagram has left you feeling worse about your life, start smaller. What's one tiny thing that makes tomorrow morning worth getting up for? A walk. A page. A conversation. Ikigai in its original sense is not a capstone you earn — it's a thread you already have. The task is just to notice it, and keep pulling.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the word 'ikigai' most literally mean?",
+      "options": [
+        "Inner peace",
+        "The worth of living",
+        "Life balance",
+        "Work-life harmony"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ikigai combines 'iki' (to live) and 'gai' (worth or value) — roughly, 'the worth of living.'"
+    },
+    {
+      "index": 1,
+      "question": "The popular four-circle ikigai Venn diagram was originally created:",
+      "options": [
+        "By a Japanese monk in the 1400s",
+        "By Okinawan centenarians",
+        "By a Spanish author in 2017",
+        "By the Japanese government in 1997"
+      ],
+      "correctIndex": 2,
+      "explanation": "The four-circle version was popularized by Spanish author Andrés Zuzunaga and is not the traditional Japanese meaning."
+    },
+    {
+      "index": 2,
+      "question": "According to the Ohsaki study, adults who reported having ikigai had lower rates of:",
+      "options": [
+        "Migraines",
+        "Cardiovascular mortality",
+        "Tooth decay",
+        "Vision loss"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ohsaki study linked ikigai to significantly lower cardiovascular mortality over a seven-year follow-up."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Sense of life worth living (ikigai) and mortality in Japan: Ohsaki Study",
+      "publisher": "Psychosomatic Medicine",
+      "year": 2008
+    },
+    {
+      "title": "Ikigai: The Japanese Secret to a Long and Happy Life",
+      "publisher": "Héctor García & Francesc Miralles, Penguin",
+      "year": 2017
+    }
+  ],
+
+  "related": ["atomic-habits-rule", "flow-state", "blue-zones"]
+}

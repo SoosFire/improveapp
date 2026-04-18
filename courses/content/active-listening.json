@@ -1,0 +1,136 @@
+{
+  "id": "active-listening",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Art of Active Listening",
+    "teaser": "Most of us listen to reply. Active listeners do the opposite — and people remember them forever.",
+    "category": "Relationships",
+    "subcategories": ["Communication", "Soft Skills"],
+    "tags": ["listening", "communication", "empathy", "rogers", "conversation"],
+    "emoji": "👂",
+    "accentColor": "#7BA892",
+    "coverSymbol": {
+      "sfSymbol": "ear.fill",
+      "fallbackEmoji": "👂"
+    },
+    "coverImagePrompt": "Two people in warm conversation across a café table, one leaning in attentively, steam rising from coffee, soft afternoon light, cinematic shallow focus"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The conversation you still remember",
+      "body": "Think of one conversation where you felt completely heard. Odds are you remember it years, maybe decades, later. Now think of the last time someone waited for you to finish so they could talk. You've probably already forgotten. The difference between the two isn't charisma — it's a skill with a name.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "A single illuminated thought bubble above a silhouette of two people on a park bench at golden hour"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Listening is not waiting",
+      "body": "Psychologist Carl Rogers coined 'active listening' in the 1950s to describe a specific thing: paying full attention, reflecting what you heard back in your own words, and checking for accuracy before responding. The point isn't to agree. It's to make the speaker feel so understood that they hear themselves more clearly.",
+      "keyTerms": [
+        { "term": "Active listening", "definition": "Full-attention listening that reflects meaning back before responding" },
+        { "term": "Reflective response", "definition": "Paraphrasing what the speaker said to confirm understanding" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.2.squarepath",
+        "imagePrompt": "A diagram of a simple loop between two faces with text bubbles passing back and forth, minimal flat design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The three moves",
+      "body": "First, clear your internal mic: stop rehearsing your reply. Second, reflect — 'It sounds like the deadline isn't the real problem, the lack of trust is' — and let them correct you. Third, ask an opening question rather than a closing one. 'What does that feel like?' keeps the door open. 'Have you tried X?' slams it shut.",
+      "visual": {
+        "sfSymbol": "3.circle.fill",
+        "imagePrompt": "Three stylized icons in a row: a silenced microphone, a mirror, a doorway — warm minimal illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the lab shows",
+      "body": "A 2014 experiment by Weger and colleagues compared three styles: simple acknowledgment, giving advice, and active listening. People who received active listening felt significantly more understood and judged the listener as more competent — even when no advice was given. In medical settings, training doctors in active listening cuts malpractice complaints dramatically, largely because patients feel taken seriously.",
+      "funFact": "Studies of couples' therapy tapes find that just 30 seconds of genuine reflective listening can de-escalate a conflict that was heading for a dead end.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A soft waveform crossing a dark background, dissolving into two overlapping silhouettes in profile"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The quiet superpower",
+      "body": "Active listening is unfashionable because it's slow, effortful, and you never look clever. But it's the single fastest way to deepen a relationship, disarm a conflict, or earn someone's trust. Do it once and the other person will come back for more. Do it habitually and you become the friend people can't imagine being without.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who popularized the term 'active listening'?",
+      "options": ["Daniel Kahneman", "Carl Rogers", "Dale Carnegie", "Marshall Rosenberg"],
+      "correctIndex": 1,
+      "explanation": "Psychologist Carl Rogers developed the concept as part of his person-centered therapy in the mid-20th century."
+    },
+    {
+      "index": 1,
+      "question": "Which of the following is NOT a core move in active listening?",
+      "options": [
+        "Reflecting back what you heard",
+        "Asking open-ended follow-up questions",
+        "Offering advice as quickly as possible",
+        "Pausing your own internal reply"
+      ],
+      "correctIndex": 2,
+      "explanation": "Active listening deliberately delays advice; the goal is understanding first, solutions later (if at all)."
+    },
+    {
+      "index": 2,
+      "question": "In Weger's 2014 study, how did people rate listeners who used active listening?",
+      "options": [
+        "Less competent but friendlier",
+        "More understood and more competent",
+        "Slightly more annoying",
+        "No different from advice-givers"
+      ],
+      "correctIndex": 1,
+      "explanation": "People rated active listeners as more understanding AND more competent, even without any advice being given."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Active Listening in Peer Interviews: The Influence of Message Paraphrasing on Perceptions of Listening Skill",
+      "publisher": "International Journal of Listening",
+      "year": 2014
+    },
+    {
+      "title": "Client-Centered Therapy",
+      "publisher": "Carl Rogers, Houghton Mifflin",
+      "year": 1951
+    }
+  ],
+
+  "related": ["love-languages", "nonviolent-communication", "emotional-intelligence"]
+}

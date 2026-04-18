@@ -1,0 +1,136 @@
+{
+  "id": "emu-war",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Great Emu War of 1932",
+    "teaser": "Australia deployed machine guns against a horde of giant birds. The birds won.",
+    "category": "History",
+    "subcategories": ["Australian History", "Military Oddities"],
+    "tags": ["australia", "emu", "1932", "military", "wildlife"],
+    "emoji": "🦤",
+    "accentColor": "#B56E2B",
+    "coverSymbol": {
+      "sfSymbol": "bird.fill",
+      "fallbackEmoji": "🦤"
+    },
+    "coverImagePrompt": "A vast Western Australian wheat field at sunset with hundreds of emus silhouetted against the horizon, a vintage army truck in the foreground, dust haze, cinematic wide angle"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The military lost",
+      "body": "In late 1932, the Royal Australian Artillery rolled two Lewis machine guns and 10,000 rounds of ammunition into the wheat fields of Western Australia to fight a war. Against birds. It did not go well. The operation was called off after the emus — a flightless cousin of the ostrich — proved effectively immune to machine-gun fire.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A rusting 1930s Australian army truck parked at the edge of a dusty wheat field, soldier in wide-brimmed hat looking across the empty horizon"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why they called in the army",
+      "body": "After World War I, Australia gave former soldiers farmland in the Wheatbelt region. They grew wheat. Unfortunately, 20,000 emus migrated to the same area every year to breed and drink. The birds flattened fences, ate crops, and let rabbits in through the gaps. Desperate farmers asked the federal government for help. The Minister of Defence sent soldiers.",
+      "keyTerms": [
+        { "term": "Emu", "definition": "A flightless Australian bird up to 1.9 m tall, capable of sprinting at 50 km/h" },
+        { "term": "Wheatbelt", "definition": "A region of Western Australia settled by ex-soldiers after WWI" }
+      ],
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A sepia-toned 1930s Australian map with the Wheatbelt region outlined in red, tiny emu silhouettes scattered across it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it didn't work",
+      "body": "Major G.P.W. Meredith led the operation. Problem one: emus are fast and zig-zag when chased. Problem two: emu flocks split into small groups when threatened, each with a lookout bird. Problem three: emus are, apparently, remarkably bullet-resistant. Meredith reportedly said of his foe, 'If we had a military division with the bullet-carrying capacity of these birds, it would face any army in the world.'",
+      "funFact": "One of the machine guns was mounted on a truck. The truck couldn't keep up with the emus.",
+      "visual": {
+        "sfSymbol": "figure.run",
+        "imagePrompt": "A blur of running emus kicking up dust, long legs stretched in mid-stride, sepia action shot"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The official casualty report",
+      "body": "After a week, the army had fired around 2,500 rounds and — by their own estimate — killed about 50 emus. (Journalists suggested fewer.) Parliament debated the operation as a national embarrassment. The military withdrew. The emus returned. A second operation later that year had marginally better luck but still failed to solve the problem.",
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "A typed 1932 military report on yellowed paper with handwritten notes in the margins, an emu feather resting on top"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Nature doesn't read the memo",
+      "body": "The Emu War is funny, but it's also a lesson: ecosystems resist brute force. Australia eventually controlled the emu problem the way it should've started — exclusion fences, bounty systems, and habitat management. Guns are a poor tool for wildlife, and emus are a poor target for guns.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which country 'declared war' on emus in 1932?",
+      "options": ["New Zealand", "South Africa", "Australia", "Argentina"],
+      "correctIndex": 2,
+      "explanation": "The Western Australian Wheatbelt was the stage, and the Royal Australian Artillery was the force sent in."
+    },
+    {
+      "index": 1,
+      "question": "Why did the operation fail?",
+      "options": [
+        "The ammunition turned out to be defective",
+        "Emus are fast, scatter when threatened, and hard to hit",
+        "A cyclone destroyed the equipment",
+        "Parliament cut off funding after one day"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emus routinely outran the trucks, split into small groups, and absorbed hits without dying, frustrating every tactic."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many rounds were fired, and how many emus were reportedly killed?",
+      "options": [
+        "500 rounds, 500 emus",
+        "2,500 rounds, about 50 emus",
+        "10,000 rounds, 10,000 emus",
+        "100 rounds, 2 emus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Official estimates put the tally at around 2,500 rounds for roughly 50 confirmed emu deaths."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Emu War: Australia's Worst Military Defeat",
+      "publisher": "The Guardian",
+      "year": 2017
+    },
+    {
+      "title": "Pests and People: The Emu War of 1932",
+      "publisher": "Australian Journal of Politics and History",
+      "year": 1979
+    }
+  ],
+
+  "related": ["australian-wildlife", "interwar-australia", "invasive-species"]
+}

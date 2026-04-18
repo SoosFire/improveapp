@@ -1,0 +1,141 @@
+{
+  "id": "ocean-currents",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Ocean Currents Control the Climate",
+    "teaser": "A slow-motion river in the Atlantic keeps London warmer than Labrador — and it's starting to falter.",
+    "category": "Climate Science",
+    "subcategories": ["Oceanography", "Climate Systems"],
+    "tags": ["amoc", "gulf-stream", "thermohaline", "climate", "oceans"],
+    "emoji": "🌊",
+    "accentColor": "#0E4D64",
+    "coverSymbol": {
+      "sfSymbol": "globe.europe.africa.fill",
+      "fallbackEmoji": "🌍"
+    },
+    "coverImagePrompt": "A satellite-style view of the North Atlantic with swirling blue and red temperature gradients tracing the Gulf Stream from Florida to Iceland, scientific visualisation aesthetic, deep cinematic blues"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Two cities, same latitude",
+      "body": "London sits at 51° north. So does the southern tip of Labrador, Canada. Labrador winters plunge below minus 20°C. London flirts with freezing. The difference isn't magic — it's water. A vast, invisible ocean conveyor carries tropical heat northeast across the Atlantic and exhales it over Europe. Without it, the British Isles would feel a lot more like Hudson Bay.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "Two cities side by side on a map at the same latitude — one snow-covered Labrador village, one mild green London scene, split-frame"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The thermohaline conveyor",
+      "body": "Ocean currents are driven by two engines: wind and density. The 'thermohaline' circulation — from 'thermo' (heat) and 'haline' (salt) — runs on the second. When warm salty water reaches the North Atlantic, it cools and sinks, pulling more warm water up behind it like a siphon. That descent feeds a deep, cold river that winds around the globe for roughly 1,000 years before resurfacing.",
+      "keyTerms": [
+        { "term": "AMOC", "definition": "The Atlantic Meridional Overturning Circulation, the engine of North Atlantic heat transport" },
+        { "term": "Thermohaline", "definition": "Circulation driven by differences in temperature and salt content" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.3.trianglepath",
+        "imagePrompt": "A cutaway diagram of the global ocean conveyor belt, warm red surface currents moving north, cold blue deep currents returning"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Heat, food, and weather",
+      "body": "Currents don't just move warmth. They move nutrients, oxygen, and eventually rainfall. Upwelling along the coast of Peru lifts cold nutrient-rich water to the surface, sustaining one of the world's richest fisheries. Shifts in that same current — an El Niño year — can crash the anchovy harvest, change monsoon patterns in India, and flood California within months.",
+      "visual": {
+        "sfSymbol": "fish.fill",
+        "imagePrompt": "A school of silver anchovies swarming near a Peruvian coastline, turquoise water, sunbeams breaking through the surface"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The conveyor is slowing",
+      "body": "As Arctic ice melts, freshwater floods the North Atlantic, making the water less dense and harder to sink. Measurements published in Nature in 2018 show the AMOC has weakened about 15% since the mid-20th century — the slowest it has been in at least a millennium. A 2023 study in Nature Communications warned of a potential collapse sometime between 2025 and 2095 if emissions stay high.",
+      "funFact": "The 2004 film 'The Day After Tomorrow' badly exaggerated the timing, but the underlying worry — a stalled AMOC triggering regional cooling in Europe — is taken seriously by oceanographers.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A stark scientific graph on dark background showing AMOC strength declining across decades, annotated with an arrow toward a 'tipping point'"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A slow lever on everything",
+      "body": "Currents are easy to ignore because they're invisible and slow. But they redistribute more heat than every weather system combined, and they respond to things we're doing now — melting ice, warming surfaces, changing salinity. A climate without its currents wouldn't be our climate at all.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does AMOC stand for?",
+      "options": [
+        "Arctic Meltwater Oceanic Cycle",
+        "Atlantic Meridional Overturning Circulation",
+        "Antarctic Marine Overflow Current",
+        "Atlantic Monsoon Ocean Conveyor"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Atlantic Meridional Overturning Circulation is the system that carries tropical heat northeast and returns cold deep water southward."
+    },
+    {
+      "index": 1,
+      "question": "What drives the 'thermohaline' part of ocean circulation?",
+      "options": [
+        "Tidal forces from the Moon",
+        "Differences in temperature and salinity",
+        "Wave action from storms",
+        "Earth's magnetic field"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thermohaline means heat plus salt — denser cold salty water sinks, pulling warmer water behind it."
+    },
+    {
+      "index": 2,
+      "question": "Why does melting Arctic ice threaten the AMOC?",
+      "options": [
+        "It cools the tropical oceans too quickly",
+        "It dumps freshwater that makes the North Atlantic less dense",
+        "It blocks shipping routes that influence wind",
+        "It raises the salinity of the Pacific"
+      ],
+      "correctIndex": 1,
+      "explanation": "Freshwater is less dense than salt water, so added meltwater resists sinking — which is the motor of the overturning circulation."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Observed fingerprint of a weakening Atlantic Ocean overturning circulation",
+      "publisher": "Nature",
+      "year": 2018
+    },
+    {
+      "title": "Warning of a forthcoming collapse of the Atlantic meridional overturning circulation",
+      "publisher": "Nature Communications",
+      "year": 2023
+    }
+  ],
+
+  "related": ["albedo-effect", "carbon-cycle", "el-nino"]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "load-bearing-walls",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How to Spot a Load-Bearing Wall",
+    "teaser": "Knock down the wrong wall and your second floor becomes your first. Four clues tell you which walls are holding the house up.",
+    "category": "Home & DIY",
+    "subcategories": ["Renovation", "Construction"],
+    "tags": ["renovation", "construction", "diy", "home", "framing"],
+    "emoji": "🏠",
+    "accentColor": "#8D6E63",
+    "coverSymbol": {
+      "sfSymbol": "house.fill",
+      "fallbackEmoji": "🧱"
+    },
+    "coverImagePrompt": "A cutaway architectural illustration of a two-story home revealing the internal wood framing, load-bearing walls highlighted in warm red, joists running perpendicular across them, cinematic lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The wall that can't go",
+      "body": "Open-concept renovations are often just one sledgehammer away from disaster. Every house has walls that are basically room dividers — and walls that are structurally holding up the floor, ceiling, or roof above you. Removing the wrong one can cause sagging, cracked drywall, or in the worst cases a partial collapse. Here's how pros tell them apart before they swing anything.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "A cautious homeowner standing in front of a wall in a half-demolished living room, holding a sledgehammer hesitantly, dust-filled sunlight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'load-bearing' means",
+      "body": "A load-bearing wall transfers weight from above — roof, ceiling joists, upper floors — down into the foundation. Non-bearing walls (often called 'partition walls') just divide space. You can remove partition walls almost freely. Load-bearing walls can be removed, but only by replacing their function with a properly sized beam supported on columns.",
+      "keyTerms": [
+        { "term": "Load-bearing wall", "definition": "A wall that supports weight from the structure above it" },
+        { "term": "Partition wall", "definition": "A non-structural wall that only divides rooms" },
+        { "term": "Joist", "definition": "A horizontal framing member that supports a floor or ceiling" }
+      ],
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "Simple 3D cutaway of a house showing loads traveling from roof down through specific interior walls to the foundation"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Four tells from the basement up",
+      "body": "First: look in the basement or crawlspace. Any wall sitting directly above a steel I-beam, girder, or row of columns is load-bearing. Second: check which direction the floor joists run above. Walls running perpendicular to joists usually bear weight; walls parallel to joists often don't. Third: exterior walls are almost always load-bearing in a stick-framed house. Fourth: interior walls that stack directly above each other floor-to-floor are almost always load-bearing.",
+      "keyTerms": [
+        { "term": "Perpendicular", "definition": "At a 90-degree angle — joists resting across a wall means that wall carries them" }
+      ],
+      "visual": {
+        "sfSymbol": "grid",
+        "imagePrompt": "Technical floor plan view showing joist direction with arrows, load-bearing walls shaded in red across the joists"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When in doubt, hire it out",
+      "body": "Residential codes like the International Residential Code (IRC) require a stamped engineer's approval before removing or modifying a load-bearing wall in most jurisdictions. A 2019 review by the National Association of Home Builders found that DIY structural mistakes — mostly improper beam sizing or forgotten point loads — are among the top causes of insurance-denied renovation damage. A $500 structural consult is vastly cheaper than jacking a sagging ceiling back into place.",
+      "funFact": "Even in fully load-bearing walls, about 70% of the material is non-structural. It's the vertical studs aligned with the loads above that actually carry the weight.",
+      "visual": {
+        "sfSymbol": "doc.text.magnifyingglass",
+        "imagePrompt": "A structural engineer in a hard hat inspecting a home's framing with a blueprint clipboard, afternoon light through unfinished studs"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Read the house before you open it",
+      "body": "Every wall tells you what it does if you know where to look. Basement beams, joist direction, exterior perimeter, and floor-to-floor alignment are free clues hiding in every home. Use them to plan your renovation — and when something looks load-bearing, treat it like it is until an engineer says otherwise. The wall doesn't care about your open-concept vision board.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which wall is most likely load-bearing?",
+      "options": [
+        "A wall running parallel to the floor joists above",
+        "A wall running perpendicular to the floor joists above",
+        "Any wall under 8 feet long",
+        "Any wall with a door in it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Walls running perpendicular to joists bear the weight of those joists. Parallel walls often don't."
+    },
+    {
+      "index": 1,
+      "question": "Why is the basement the best place to start investigating load paths?",
+      "options": [
+        "It's where most renovations happen",
+        "Steel beams or columns there reveal what's being supported above",
+        "It's required by local building codes",
+        "Joists are painted different colors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Visible beams, posts, or columns in the basement indicate load paths — walls directly above are usually load-bearing."
+    },
+    {
+      "index": 2,
+      "question": "What's the safer approach when a wall's status is unclear?",
+      "options": [
+        "Assume it's non-bearing and remove it",
+        "Remove it and watch for sagging over the next week",
+        "Consult a structural engineer before modifying it",
+        "Check online forums for similar homes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Structural changes require professional assessment — the cost is trivial compared to repairing a collapse."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "International Residential Code (IRC)",
+      "publisher": "International Code Council",
+      "year": 2021
+    },
+    {
+      "title": "Residential Structural Design Guide",
+      "publisher": "U.S. Department of Housing and Urban Development (HUD)",
+      "year": 2017
+    }
+  ],
+
+  "related": ["home-framing-basics", "beam-sizing", "renovation-permits"]
+}

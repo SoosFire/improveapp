@@ -1,0 +1,140 @@
+{
+  "id": "mona-lisa-fame",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Mona Lisa Is So Famous",
+    "teaser": "She wasn't always the most famous painting in the world. A 1911 heist made her a legend.",
+    "category": "Art",
+    "subcategories": ["Art History", "Renaissance"],
+    "tags": ["mona lisa", "leonardo da vinci", "art history", "louvre", "renaissance"],
+    "emoji": "🖼️",
+    "accentColor": "#8B5A3C",
+    "coverSymbol": {
+      "sfSymbol": "paintpalette.fill",
+      "fallbackEmoji": "🎨"
+    },
+    "coverImagePrompt": "The Mona Lisa mounted in an empty gilded frame spot, moody museum lighting, silhouettes of tourists crowding toward her, film noir atmosphere, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A painting no one talked about",
+      "body": "For 400 years, the Mona Lisa was just one more Renaissance portrait — admired by art historians, ignored by the public. She wasn't on postcards. She wasn't in pop songs. Then one August morning in 1911, she vanished from the Louvre. Within days, she became the most famous painting on Earth.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "An empty frame on the wall of the Louvre in 1911, a small placard beside it, dim morning light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The heist that made her a star",
+      "body": "An Italian handyman named Vincenzo Peruggia hid overnight in a Louvre closet, slipped out wearing a workman's smock, tucked the painting under his coat, and walked out the front door. The theft made global headlines for over two years. Crowds lined up to see the empty wall where she'd hung. Suddenly everyone knew her face.",
+      "keyTerms": [
+        { "term": "Louvre", "definition": "The vast Paris museum, once a royal palace, that has housed the Mona Lisa since 1797" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A 1911 newspaper front page screaming 'MONA LISA VOLÉE!' with a cinematic illustration of a man in a smock slipping through a back door"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What Leonardo actually did",
+      "body": "Once you look up close, the painting does have quiet technical magic. Leonardo used a technique called sfumato — layering translucent glazes until edges dissolve into soft haze. There are no hard outlines on her face. That's why her smile seems to shift depending on where you look. Your peripheral vision reads it differently from your central vision. Leonardo effectively painted an optical illusion.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A macro close-up of the corner of Mona Lisa's mouth, paint layers visible, soft candlelit study scene"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Fame feeds on fame",
+      "body": "After the 1911 recovery, reproductions flooded the world. Duchamp drew a mustache on her in 1919. Warhol silkscreened her in 1963. She became shorthand for 'Art' itself — which meant tourists came specifically to see 'the famous painting,' which made her more famous, which brought more tourists. Today around 30,000 people visit the Louvre every day and most head straight to her. She's protected behind bulletproof glass and rarely viewed for more than 15 seconds before the crowd pushes you along.",
+      "funFact": "Peruggia genuinely believed he was returning the Mona Lisa to her rightful home in Italy. He was caught two years later trying to sell her in Florence — and served only seven months in prison.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A chaotic crowd of phones and selfie sticks pointed at a tiny painting behind glass, flashes popping, museum atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Fame isn't proof of greatness",
+      "body": "The Mona Lisa is a masterwork — but there are a dozen similarly brilliant portraits in the Louvre that you can stand in front of alone, as long as you want. Her fame is partly about skill and partly about a lucky crime, a century of reproduction, and the strange way attention attracts more attention. The lesson isn't that she's overrated. It's that fame has its own gravity, separate from quality.",
+      "visual": {
+        "sfSymbol": "star.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What event dramatically boosted the Mona Lisa's worldwide fame?",
+      "options": [
+        "Leonardo's death in 1519",
+        "Napoleon placing her in the Louvre",
+        "Her theft from the Louvre in 1911",
+        "A 19th-century art auction"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 1911 theft made global headlines and turned the painting into a household name."
+    },
+    {
+      "index": 1,
+      "question": "What painting technique did Leonardo use to make her smile feel ambiguous?",
+      "options": [
+        "Chiaroscuro",
+        "Sfumato — soft, layered haze instead of hard edges",
+        "Fresco",
+        "Pointillism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sfumato blurs edges through translucent glazes, so the mouth reads differently in peripheral vs. direct vision."
+    },
+    {
+      "index": 2,
+      "question": "Why was the thief, Vincenzo Peruggia, eventually caught?",
+      "options": [
+        "A tip from a museum guard",
+        "He tried to sell the painting in Florence",
+        "Fingerprints on the frame",
+        "He confessed to a priest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peruggia was arrested in 1913 after offering the painting to a Florentine art dealer, believing he was repatriating it to Italy."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Vanished Smile: The Mysterious Theft of the Mona Lisa",
+      "publisher": "Knopf",
+      "year": 2009
+    },
+    {
+      "title": "Leonardo da Vinci",
+      "publisher": "Simon & Schuster",
+      "year": 2017
+    }
+  ],
+
+  "related": ["leonardo-da-vinci", "renaissance-art", "art-heists"]
+}

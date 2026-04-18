@@ -1,0 +1,141 @@
+{
+  "id": "fat-vs-sugar-villain",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Fat vs. Sugar: Which Is Really the Villain?",
+    "teaser": "For fifty years we blamed fat. Then we blamed sugar. The truth is sneakier than either — and it involves a sugar lobbyist.",
+    "category": "Nutrition",
+    "subcategories": ["Diet Science", "Food Policy"],
+    "tags": ["fat", "sugar", "diet", "heart-disease", "metabolism"],
+    "emoji": "⚖️",
+    "accentColor": "#E0727D",
+    "coverSymbol": {
+      "sfSymbol": "scale.3d",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "An old-fashioned brass balance scale with a pat of butter on one pan and a sugar cube on the other, dramatic spotlight, dark background, cinematic still life"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A fifty-year food fight",
+      "body": "Your grandparents were told butter would kill them. Your parents were told sugar would kill them. You've probably been told both. Somehow, through all of it, heart disease and obesity kept climbing. The real story isn't that one side was right. It's that the debate itself was rigged from the start.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A vintage 1970s newspaper headline warning against dietary fat, faded and wrinkled"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What each one actually does in your body",
+      "body": "Dietary fat is dense energy — 9 calories per gram — and a raw material for cell membranes and hormones. Saturated fat can raise LDL cholesterol in many people; unsaturated fats often lower it. Sugar, on the other hand, is rapid fuel. Added sugars like sucrose and high-fructose corn syrup spike blood glucose, provoke insulin surges, and — especially in liquid form — bypass the fullness signals that solid food triggers. So they play very different games in the body.",
+      "keyTerms": [
+        { "term": "LDL cholesterol", "definition": "A lipoprotein that delivers cholesterol to tissues; high levels raise heart-disease risk" },
+        { "term": "Insulin", "definition": "A hormone that lowers blood sugar by moving glucose into cells" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "Split illustration with an avocado on one side and a soda can on the other, each pouring into a stylized bloodstream"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How fat got framed",
+      "body": "Starting in the 1950s, researcher Ancel Keys pushed the hypothesis that saturated fat caused heart disease. Internal documents uncovered decades later showed that in the 1960s the Sugar Research Foundation paid Harvard scientists to publish a review downplaying sugar's role and steering attention toward fat. That narrative became official dietary policy in the US by 1980. Food companies replaced fat with sugar in 'low-fat' products to keep them palatable. Obesity rates promptly accelerated.",
+      "visual": {
+        "sfSymbol": "doc.text.magnifyingglass",
+        "imagePrompt": "Stacked vintage sugar industry documents with redacted sections, archival lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The modern verdict",
+      "body": "Current large-scale evidence points in a more nuanced direction than either camp preferred. Replacing saturated fat with unsaturated fat lowers cardiovascular risk. Replacing it with refined carbohydrates and added sugars does not, and may make things worse. The 2015 US Dietary Guidelines dropped the longtime cap on total fat and added a hard cap on added sugars at 10% of daily calories. The answer isn't fat OR sugar. It's that industrial refined carbohydrates and added sugars were the hidden half of the problem all along.",
+      "funFact": "The infamous 1967 Harvard review was cited for years as independent science. The funding disclosure didn't surface until a 2016 JAMA investigation.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "Stethoscope laid across a grocery receipt listing ultra-processed items, clinical still life"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The real villain was processing",
+      "body": "The fat-vs-sugar war let the biggest culprit slip offstage: ultra-processed food, which happens to be high in both refined carbs and industrial fats, low in fiber, and engineered to be irresistible. Swap those for whole foods, and the old argument mostly dissolves. Olive oil and apples aren't fighting each other. They're both on your side.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did a 2016 JAMA investigation reveal?",
+      "options": [
+        "Fat is harmless",
+        "The sugar industry paid Harvard scientists in the 1960s to downplay sugar's role",
+        "Sugar reduces heart disease",
+        "Ancel Keys never existed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Internal documents showed industry-funded authors wrote a 1967 review that shifted blame from sugar to fat without disclosing the funding."
+    },
+    {
+      "index": 1,
+      "question": "What did many 'low-fat' processed foods substitute for removed fat?",
+      "options": [
+        "Protein",
+        "Fiber",
+        "Added sugar",
+        "Water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Manufacturers added sugar to preserve taste, which contributed to rising obesity in the low-fat era."
+    },
+    {
+      "index": 2,
+      "question": "According to current large-scale evidence, replacing saturated fat with what lowers heart disease risk?",
+      "options": [
+        "Refined carbohydrates",
+        "Unsaturated fats",
+        "Added sugars",
+        "Trans fats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studies consistently find benefits from swapping saturated fats for unsaturated fats — not for refined carbs or sugar."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Sugar industry and coronary heart disease research: A historical analysis of internal industry documents",
+      "publisher": "JAMA Internal Medicine",
+      "year": 2016
+    },
+    {
+      "title": "2015–2020 Dietary Guidelines for Americans",
+      "publisher": "US Department of Health and Human Services",
+      "year": 2015
+    }
+  ],
+
+  "related": ["ultra-processed-food", "insulin-resistance", "mediterranean-diet"]
+}

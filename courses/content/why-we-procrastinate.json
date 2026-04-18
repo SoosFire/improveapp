@@ -1,0 +1,144 @@
+{
+  "id": "why-we-procrastinate",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Procrastinate",
+    "teaser": "Procrastination isn't a time-management problem. It's an emotion-management problem — and your brain is actively trying to protect you.",
+    "category": "Psychology",
+    "subcategories": ["Motivation", "Behavior"],
+    "tags": ["procrastination", "motivation", "self-control", "emotion", "habits"],
+    "emoji": "⏳",
+    "accentColor": "#D96F4F",
+    "coverSymbol": {
+      "sfSymbol": "hourglass",
+      "fallbackEmoji": "⏳"
+    },
+    "coverImagePrompt": "A desk covered in half-drunk coffee, crumpled notes, and an open laptop glowing past midnight, a window behind showing a sleeping city, warm amber tones, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "You already know you'll regret it",
+      "body": "It's 11pm. The thing is due tomorrow. You're reorganizing your desk, learning the life story of a 17th-century Dutch painter on Wikipedia, and somehow reading about the mating habits of cuttlefish. You know, with absolute clarity, that Future You will suffer for this. And you do it anyway. Why?",
+      "visual": {
+        "sfSymbol": "moon.zzz.fill",
+        "imagePrompt": "A young person at a desk late at night, phone glowing in their hand while a forgotten assignment sits open on the screen, moody blue light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "It's not laziness",
+      "body": "Psychologists now overwhelmingly agree: procrastination isn't a failure of time management, and it isn't laziness. It's a short-term mood repair strategy. When a task triggers anxiety, boredom, self-doubt, or frustration, your brain avoids the feeling — not the task. The scroll, the snack, the cleaning spree: all are ways to feel better right now, even at tomorrow's expense.",
+      "keyTerms": [
+        { "term": "Procrastination", "definition": "Voluntarily delaying an intended action despite expecting to be worse off for the delay" },
+        { "term": "Mood repair", "definition": "Behavior aimed at relieving a negative emotion in the short term" }
+      ],
+      "visual": {
+        "sfSymbol": "heart.slash.fill",
+        "imagePrompt": "A split illustration: on one side a looming dark cloud labeled 'task,' on the other a warm cozy bubble labeled 'distraction,' editorial style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The brain's tug-of-war",
+      "body": "Inside your head, two systems fight it out. Your limbic system — evolutionarily ancient and obsessed with right-now rewards — wants relief. Your prefrontal cortex, which handles planning, wants the long-term payoff. The limbic system is faster, louder, and older. The prefrontal cortex wins only when the future reward feels vivid and real, which is why distant deadlines lose so badly to TikTok.",
+      "keyTerms": [
+        { "term": "Temporal discounting", "definition": "The mental tendency to value immediate rewards far more than distant ones" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A stylized brain cross-section showing a small bright limbic core wrestling with a cooler, structured prefrontal cortex, clean medical infographic style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The self-compassion surprise",
+      "body": "A 2010 study by Carleton University psychologist Timothy Pychyl found that the strongest predictor of procrastinating again tomorrow isn't guilt about procrastinating today — it's how harshly you beat yourself up for it. Students who forgave themselves for procrastinating on the first exam were significantly less likely to procrastinate before the second. Self-criticism, it turns out, is its own trigger for mood repair.",
+      "funFact": "Chronic procrastinators have measurably larger amygdalae — the brain's threat-detection centers — than non-procrastinators, according to a 2018 Ruhr University study.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": "A hand gently resting on a shoulder, soft golden light, suggestion of self-forgiveness, warm and intimate composition"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Start tiny, start kind",
+      "body": "The fix isn't willpower, it's emotion. Shrink the task until it stops feeling threatening — 'open the document for two minutes.' Forgive yourself for last time. And notice the lie your brain tells you: 'I'll feel more like doing this later.' You almost never will. Action creates motivation, not the other way around.",
+      "visual": {
+        "sfSymbol": "play.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to modern research, procrastination is primarily a problem of:",
+      "options": [
+        "Time management",
+        "Laziness",
+        "Emotion regulation",
+        "Low intelligence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Procrastination is now understood as a mood repair strategy — avoiding uncomfortable feelings attached to a task."
+    },
+    {
+      "index": 1,
+      "question": "Which brain regions are locked in the procrastination 'tug of war'?",
+      "options": [
+        "Cerebellum and brainstem",
+        "Limbic system and prefrontal cortex",
+        "Hippocampus and visual cortex",
+        "Occipital lobe and amygdala"
+      ],
+      "correctIndex": 1,
+      "explanation": "The limbic system seeks immediate relief while the prefrontal cortex plans for long-term rewards."
+    },
+    {
+      "index": 2,
+      "question": "What did Pychyl's 2010 study find about self-forgiveness?",
+      "options": [
+        "It made procrastination worse",
+        "It had no effect",
+        "Forgiving yourself for procrastinating reduced future procrastination",
+        "Only punishment worked"
+      ],
+      "correctIndex": 2,
+      "explanation": "Students who forgave themselves after procrastinating were less likely to procrastinate again, because self-criticism itself fuels the cycle."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Solving the Procrastination Puzzle: A Concise Guide to Strategies for Change",
+      "publisher": "TarcherPerigee",
+      "year": 2013
+    },
+    {
+      "title": "I forgive myself, now I can study: How self-forgiveness for procrastinating can reduce future procrastination",
+      "publisher": "Personality and Individual Differences",
+      "year": 2010
+    }
+  ],
+
+  "related": ["zeigarnik-effect", "habit-loop", "self-compassion"]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "chekhovs-gun",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Chekhov's Gun",
+    "teaser": "If a rifle hangs on the wall in act one, it must go off by act three. A 130-year-old rule still running Hollywood.",
+    "category": "Film & Cinema",
+    "subcategories": ["Screenwriting", "Storytelling"],
+    "tags": ["storytelling", "chekhov", "screenwriting", "drama", "narrative"],
+    "emoji": "🔫",
+    "accentColor": "#8B0000",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A vintage hunting rifle mounted above a mantelpiece in a 19th-century Russian parlor, warm candlelight, ornate wallpaper, cinematic stage-lit composition"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The rifle on the wall",
+      "body": "Imagine watching a play. In the opening scene, the camera lingers on a rifle hanging above the fireplace. It's never mentioned. Then, in the final act, a character is shot with it. Satisfying, right? Now imagine if that rifle never fired. You'd feel cheated — and you'd be right. That instinct has a name, and it's been haunting writers for 130 years.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A character in a period drama glancing up at a rifle mounted on the wall during an intimate dinner scene, tension in the framing"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The man behind the rule",
+      "body": "Anton Chekhov was a Russian playwright and short story writer active in the late 1800s. In a letter to a fellow writer in 1889, he laid down a brutal principle: 'If in the first act you have hung a pistol on the wall, then in the following one it should be fired. Otherwise don't put it there.' He was arguing against clutter — every element in a story should earn its place.",
+      "keyTerms": [
+        { "term": "Chekhov's Gun", "definition": "The principle that every introduced element must pay off later in the story" },
+        { "term": "Narrative economy", "definition": "The art of including only what the story truly needs" }
+      ],
+      "visual": {
+        "sfSymbol": "person.fill",
+        "imagePrompt": "A black-and-white portrait of Anton Chekhov in a suit with pince-nez glasses, 1890s studio photograph, somber expression"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Promise and payoff",
+      "body": "Chekhov's rule works because audiences instinctively build a mental inventory. Every prop, every passing line of dialogue, every odd character — it all gets filed away as a potential payoff. If you introduce something emotionally loaded and never use it, the brain registers a broken promise. The reverse is also true: a sudden plot twist feels earned only if the writer planted the seed early.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A split-panel storyboard showing a clock being set in scene one, then dramatically chiming in scene three, hand-drawn style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The rule in the wild",
+      "body": "Pixar's screenwriters live by it. In 'Up,' a throwaway shot of grape soda bottle caps becomes the emotional climax. In 'Breaking Bad,' Walt's ricin cigarette is planted in season four and fires in the finale. Even Hitchcock leaned on it, though he called it his 'MacGuffin.' When the rule is broken, audiences notice. The final season of 'Game of Thrones' is a master class in unfired Chekhov's guns.",
+      "funFact": "J.K. Rowling hid so many Chekhov's guns across the Harry Potter series that readers still spot planted details a decade later — Harry's mother's eyes, the locket at Grimmauld Place, Dumbledore's blackened hand.",
+      "visual": {
+        "sfSymbol": "film.stack.fill",
+        "imagePrompt": "A storyboard wall covered in index cards connected by red string, each card showing a classic film prop — balloons, a cigarette, a locket"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the rule endures",
+      "body": "Chekhov wasn't just giving writing advice — he was describing how human attention works. We are pattern-hungry creatures. We look for meaning in every object on screen because our ancestors who noticed the rustle in the grass survived. A good story respects that instinct. A lazy one wastes it. Next time you watch a film, start counting the guns — and see if they all go off.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What nationality was Anton Chekhov?",
+      "options": ["Polish", "Russian", "Ukrainian", "German"],
+      "correctIndex": 1,
+      "explanation": "Chekhov was a 19th-century Russian playwright and short-story writer."
+    },
+    {
+      "index": 1,
+      "question": "What does 'Chekhov's Gun' mean in storytelling?",
+      "options": [
+        "Every story must include violence",
+        "Every element introduced must pay off later",
+        "The climax should always involve a weapon",
+        "Guns make for the most memorable plot devices"
+      ],
+      "correctIndex": 1,
+      "explanation": "The principle states that anything introduced in a story should serve a later purpose — otherwise it shouldn't be there."
+    },
+    {
+      "index": 2,
+      "question": "What term did Alfred Hitchcock use for a similar concept — an object that drives the plot?",
+      "options": ["The setup", "The red herring", "The MacGuffin", "The cold open"],
+      "correctIndex": 2,
+      "explanation": "Hitchcock's 'MacGuffin' was a plot-driving object, though it served a slightly different narrative function than Chekhov's Gun."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Letters of Anton Chekhov",
+      "publisher": "Macmillan",
+      "year": 1920
+    },
+    {
+      "title": "The Principles of Dramatic Writing",
+      "publisher": "Oxford University Press",
+      "year": 2003
+    }
+  ],
+
+  "related": ["macguffin-hitchcock", "three-act-structure", "anton-chekhov-biography"]
+}

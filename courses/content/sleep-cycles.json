@@ -1,0 +1,136 @@
+{
+  "id": "sleep-cycles",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Sleep Cycles Decoded",
+    "teaser": "Why do you wake up groggy after 9 hours but refreshed after 7? The answer is a 90-minute wave.",
+    "category": "Health",
+    "subcategories": ["Sleep Science", "Neuroscience"],
+    "tags": ["sleep", "brain", "REM", "circadian", "health"],
+    "emoji": "😴",
+    "accentColor": "#2E4E6F",
+    "coverSymbol": {
+      "sfSymbol": "moon.zzz.fill",
+      "fallbackEmoji": "🌙"
+    },
+    "coverImagePrompt": "A sleeping person in profile with soft, glowing wave patterns radiating from their head like an EEG reading, deep midnight blues and gentle purple, serene and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Sleep isn't a switch",
+      "body": "We talk about sleep like a light bulb — on or off. But your brain spends the night climbing a staircase, diving down, then sprinting into a dream state, over and over. Each full loop takes about 90 minutes. Whether you wake up refreshed or wrecked often comes down to where on that staircase your alarm catches you.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A stylized hypnogram wave rising and falling across a dark velvet background, small digital stars scattered like an EEG chart"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The four stages",
+      "body": "Each cycle has four stages. N1 is the drift-off — you're barely under, easily startled. N2 is light sleep; your heart rate drops and 'sleep spindles' flicker through your brain. N3 is deep sleep, when growth hormone is released and your body repairs itself. Then comes REM, where your eyes dart, your muscles go limp, and you dream in full color.",
+      "keyTerms": [
+        { "term": "NREM", "definition": "Non-rapid-eye-movement sleep — the quieter, physically restorative stages (N1-N3)" },
+        { "term": "REM", "definition": "Rapid-eye-movement sleep, when dreaming is most vivid and the brain is nearly as active as when awake" }
+      ],
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "Four stacked panels showing the same sleeping person in slightly different poses and brainwave patterns, moody blue lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the ratios flip",
+      "body": "Early in the night, your cycles are heavy on deep N3 sleep — the body-repair shift. By morning, the cycles tilt toward longer, richer REM — the memory-and-emotion shift. That's why cutting sleep short by a couple of hours doesn't just lose you time; it specifically robs you of dream sleep. And it's why a great night's sleep often ends with the most vivid dream you've had all week.",
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A graph showing sleep stage cycles across 8 hours, with deep sleep dominating early and REM expanding toward morning, elegant infographic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The grogginess trap",
+      "body": "That fog when your alarm rips you from deep sleep has a name: sleep inertia. Brain scans show that certain regions — especially the prefrontal cortex — take up to 30 minutes to fully switch on if you're yanked out of N3. Studies of shift workers find sleep inertia can impair decision-making more than being legally drunk. Waking during lighter N2 or end-of-REM feels almost effortless by comparison.",
+      "funFact": "Astronauts on the ISS have reported 'microdreaming' — bursts of REM-like imagery in weightless naps as short as ten minutes.",
+      "visual": {
+        "sfSymbol": "alarm.fill",
+        "imagePrompt": "A blurry bedroom at dawn through sleepy eyes, a digital alarm clock glowing 6:13 AM, soft grainy film look"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Protect the last cycle",
+      "body": "Skipping that final 90-minute loop isn't just 'an hour less sleep' — it's skipping the dream-heavy, memory-consolidating finale of the whole night. If you want to feel sharper, it often matters more to go to bed earlier than to wake up later. Your brain is composing a symphony. Don't cut the ending.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How long is a typical sleep cycle?",
+      "options": ["30 minutes", "60 minutes", "90 minutes", "2 hours"],
+      "correctIndex": 2,
+      "explanation": "A full sleep cycle — through all four stages — averages about 90 minutes, repeating four to six times per night."
+    },
+    {
+      "index": 1,
+      "question": "Which sleep stage dominates the second half of the night?",
+      "options": [
+        "N1 (drift-off)",
+        "N2 (light sleep)",
+        "N3 (deep sleep)",
+        "REM sleep"
+      ],
+      "correctIndex": 3,
+      "explanation": "As the night goes on, cycles shift toward longer stretches of REM sleep — so cutting sleep short mostly costs you REM."
+    },
+    {
+      "index": 2,
+      "question": "What is sleep inertia?",
+      "options": [
+        "The inability to fall asleep at night",
+        "The groggy impairment after being woken from deep sleep",
+        "The tendency to oversleep on weekends",
+        "A type of sleep paralysis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sleep inertia is the cognitive fog that can last up to 30 minutes after being pulled from deep N3 sleep."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+      "publisher": "Scribner",
+      "year": 2017
+    },
+    {
+      "title": "Principles and Practice of Sleep Medicine",
+      "publisher": "Elsevier",
+      "year": 2017
+    }
+  ],
+
+  "related": ["circadian-rhythm", "dreaming-science", "melatonin-basics"]
+}

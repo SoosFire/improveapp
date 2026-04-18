@@ -1,0 +1,141 @@
+{
+  "id": "albedo-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Albedo Effect",
+    "teaser": "Why wearing a dark t-shirt in summer and melting Arctic ice are the same physics problem.",
+    "category": "Climate Science",
+    "subcategories": ["Energy Balance", "Cryosphere"],
+    "tags": ["albedo", "ice", "feedback", "radiation", "climate"],
+    "emoji": "❄️",
+    "accentColor": "#A7D2E8",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "🧊"
+    },
+    "coverImagePrompt": "A satellite view of the Greenland ice sheet with a half-melted dark pond cutting a stark boundary across white snow, sun glinting off the wet meltwater, cinematic aerial photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why the Arctic acts like a mirror",
+      "body": "Freshly fallen snow reflects about 90% of the sunlight that hits it. Dark open ocean reflects about 6%. That enormous gap is doing silent, ferocious work on the planet's energy balance. When a patch of sea ice melts, the Earth swaps a mirror for a dark sponge — and the region starts running a fever that's hard to cool.",
+      "visual": {
+        "sfSymbol": "sun.max.trianglebadge.exclamationmark.fill",
+        "imagePrompt": "Aerial photograph of sea ice breaking apart into dark open ocean, sunlight hitting both surfaces at an angle"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'albedo' actually means",
+      "body": "Albedo is simply the fraction of incoming sunlight a surface bounces back. It's measured from 0 (perfectly black) to 1 (perfectly white). Earth's average albedo is roughly 0.30, but individual surfaces swing wildly: deep forests sit near 0.15, deserts near 0.40, sea ice around 0.60, fresh snow over 0.80. Change the surface, and you change how much solar energy the planet actually keeps.",
+      "keyTerms": [
+        { "term": "Albedo", "definition": "The proportion of sunlight a surface reflects, from 0 (black) to 1 (white)" },
+        { "term": "Cryosphere", "definition": "The frozen parts of Earth's surface, including ice, snow, and permafrost" }
+      ],
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "A clean colour-coded infographic of Earth surfaces — forest, desert, snow, ocean — each labelled with its albedo value"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A feedback loop that bites",
+      "body": "Albedo matters most where it can change. As Arctic summer temperatures rise, bright sea ice melts into dark water. The dark water absorbs more sunlight, warms further, and melts more surrounding ice. This is a positive feedback loop — the effect accelerates itself. Climate models show this is the single biggest reason the Arctic is warming three to four times faster than the global average.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A circular feedback loop diagram with icons for sunlight, melting ice, dark ocean, and rising temperature, educational style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It's not just ice",
+      "body": "Soot from wildfires and diesel engines darkens snow, dropping its albedo by up to 10%. Rooftops matter too — New York City estimated that painting enough urban roofs white could cool neighbourhoods by 1–3°C on a summer afternoon. Even the ocean itself is slowly darkening as algae blooms shift, though that effect is still being quantified.",
+      "funFact": "During the COVID-19 lockdowns, reduced soot deposition on Himalayan glaciers was measurable from satellites within weeks — a visible reminder that albedo responds quickly to what we emit.",
+      "visual": {
+        "sfSymbol": "house.fill",
+        "imagePrompt": "An aerial photograph of a Mediterranean city whose rooftops are painted bright white, set against surrounding dark terrain"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Earth's thermostat has a slider",
+      "body": "The albedo effect is one of the most intuitive pieces of climate physics. Change what colour the planet is, and you change how much sunlight it keeps. That's exactly why polar regions matter so much to climate: they're where the biggest, brightest mirrors live — and where the fastest feedback kicks in when they disappear.",
+      "visual": {
+        "sfSymbol": "thermometer.sun.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "A surface with an albedo of 0.85 would be most like…",
+      "options": [
+        "A freshly asphalted road",
+        "Green forest canopy",
+        "Fresh snow",
+        "Sandy desert"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fresh snow reflects more than 80% of incoming sunlight — close to the upper end of the albedo scale."
+    },
+    {
+      "index": 1,
+      "question": "Why is the albedo feedback loop described as 'positive'?",
+      "options": [
+        "Because it helps stabilise temperature",
+        "Because the effect amplifies itself over time",
+        "Because it mostly affects the Southern Hemisphere",
+        "Because it cancels out other greenhouse effects"
+      ],
+      "correctIndex": 1,
+      "explanation": "Positive feedback means the process amplifies its own cause — more melting leads to more absorbed heat, leading to more melting."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how much faster is the Arctic warming compared to the global average?",
+      "options": [
+        "About the same",
+        "Twice as fast",
+        "Three to four times as fast",
+        "Ten times as fast"
+      ],
+      "correctIndex": 2,
+      "explanation": "Recent studies show Arctic warming at roughly 3–4x the global rate, largely driven by the ice-albedo feedback."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Arctic has warmed nearly four times faster than the globe since 1979",
+      "publisher": "Communications Earth & Environment",
+      "year": 2022
+    },
+    {
+      "title": "IPCC AR6 Working Group I: Chapter on Cryosphere",
+      "publisher": "IPCC",
+      "year": 2021
+    }
+  ],
+
+  "related": ["ocean-currents", "carbon-cycle", "permafrost-thaw"]
+}

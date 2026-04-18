@@ -1,0 +1,141 @@
+{
+  "id": "why-we-crave-salt",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Crave Salt",
+    "teaser": "Nations have fought wars over salt. Your body will genuinely change its behavior to find some. Here's the ancient wiring behind the craving.",
+    "category": "Nutrition",
+    "subcategories": ["Biology of Taste", "Human Physiology"],
+    "tags": ["salt", "sodium", "taste", "evolution", "diet"],
+    "emoji": "🧂",
+    "accentColor": "#C2B280",
+    "coverSymbol": {
+      "sfSymbol": "drop.triangle.fill",
+      "fallbackEmoji": "🧂"
+    },
+    "coverImagePrompt": "A glistening pile of coarse sea salt crystals on dark stone, a single drop of water suspended above, dramatic side lighting with deep shadows, cinematic macro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A craving older than civilization",
+      "body": "Roman soldiers were partly paid in salt — the root of the word 'salary.' Deer will walk miles to lick a roadside mineral deposit. And when you've been sweating for hours, a bag of salty chips tastes like a religious experience. That craving isn't a modern snack-food trick. It's a survival circuit.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A deer licking a roadside salt lick at dawn, mist in the background, nature documentary style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why your body needs sodium",
+      "body": "Sodium is the main positively charged ion outside your cells, and it's indispensable. It sets the voltage that lets nerves fire and muscles contract, helps regulate blood volume and pressure, and controls how much water each tissue holds. Lose too much — through sweat, vomiting, or diarrhea — and nerve signals start misfiring. No other dietary mineral is quite so unforgiving when it runs low.",
+      "keyTerms": [
+        { "term": "Sodium (Na⁺)", "definition": "A positively charged ion critical for nerve signaling and fluid balance" },
+        { "term": "Electrolyte", "definition": "A mineral that carries charge in body fluids and controls basic cell function" }
+      ],
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "Stylized neuron firing with sodium ions visible as glowing particles crossing the membrane"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The brain has a salt hunger switch",
+      "body": "Deep in the brainstem and hypothalamus sit neurons that monitor the sodium concentration of your blood. When levels drop, they activate a dedicated 'sodium appetite' circuit. That circuit doesn't just make you hungry in general — it makes salty things taste better and everything else taste worse. Sheep and rats will literally ignore food they'd normally love if a salt-deprivation switch is flipped, and march straight for the saltiest option available.",
+      "visual": {
+        "sfSymbol": "switch.2",
+        "imagePrompt": "Cross-section brain diagram with the hypothalamus highlighted and salt crystals radiating outward"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "An ancient circuit hijacked by modern food",
+      "body": "Our ancestors on inland plains probably rarely got enough sodium, so a strong salt craving was a fitness advantage — those who sought it out survived. The problem is that the circuit evolved when salt was scarce. Today the average adult in an industrialized country eats roughly double the WHO's recommended ceiling of 5 grams a day, mostly from processed food. The craving that once saved lives now contributes to high blood pressure and cardiovascular disease.",
+      "funFact": "Strict vegetarians in preindustrial societies often prized salt most, because plant foods carry far less sodium than the blood and meat of animals.",
+      "visual": {
+        "sfSymbol": "heart.circle.fill",
+        "imagePrompt": "Aisle of a modern supermarket with shelves of processed food, subtle red hue suggesting blood pressure"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Listen, but don't obey",
+      "body": "Your salt craving is a genuine biological signal — just one calibrated for a world that no longer exists. After a hot hike or a stomach bug, trust it. At the bottom of a bag of chips at midnight, don't. Understanding why you want something is sometimes the only way to decide whether to give in.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why is sodium essential for the body?",
+      "options": [
+        "It provides most of our calories",
+        "It sets the voltage for nerve and muscle cells",
+        "It builds proteins",
+        "It produces vitamin D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sodium is the primary extracellular ion, critical for nerve signaling, muscle contraction, and fluid balance."
+    },
+    {
+      "index": 1,
+      "question": "What happens when specialized brain neurons detect low blood sodium?",
+      "options": [
+        "They suppress all appetite",
+        "They trigger a targeted sodium appetite that makes salt more appealing",
+        "They increase cravings for sugar instead",
+        "They initiate sleep"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dedicated circuit in the brainstem and hypothalamus boosts the appeal of salty foods specifically."
+    },
+    {
+      "index": 2,
+      "question": "Why does the ancient craving cause modern health problems?",
+      "options": [
+        "Salt has become less effective biologically",
+        "Our bodies produce more salt than before",
+        "Salt is now abundant in processed food, but the craving was calibrated for scarcity",
+        "Because modern humans need less sodium"
+      ],
+      "correctIndex": 2,
+      "explanation": "The circuit evolved when salt was rare; today's food supply provides far more than we need, contributing to hypertension."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The neurobiology of sodium appetite",
+      "publisher": "Physiology & Behavior",
+      "year": 2018
+    },
+    {
+      "title": "Sodium intake and cardiovascular health: A scientific statement",
+      "publisher": "American Heart Association / Circulation",
+      "year": 2013
+    }
+  ],
+
+  "related": ["electrolyte-balance", "blood-pressure", "evolutionary-diet"]
+}

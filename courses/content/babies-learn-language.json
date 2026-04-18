@@ -1,0 +1,141 @@
+{
+  "id": "babies-learn-language",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Babies Learn Language",
+    "teaser": "A newborn can't sit up — but is already doing statistics on the sounds of your voice. How?",
+    "category": "Language",
+    "subcategories": ["Linguistics", "Cognitive Science", "Child Development"],
+    "tags": ["language", "babies", "brain", "learning", "psychology"],
+    "emoji": "👶",
+    "accentColor": "#F4A2A2",
+    "coverSymbol": {
+      "sfSymbol": "mouth.fill",
+      "fallbackEmoji": "🗣️"
+    },
+    "coverImagePrompt": "Soft golden morning light on a baby's hand gripping an adult's finger, extreme close-up, tender warmth, faint sound wave patterns rippling in the background"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Listening in the womb",
+      "body": "Hours after birth, a French baby prefers to hear French. A Japanese baby prefers Japanese. That's not personality — it's memory. For the last trimester of pregnancy, babies were eavesdropping through amniotic fluid, picking up the rhythm and melody of their mother's language before they ever saw daylight.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "A soft silhouette of a pregnant woman with gentle sound waves wrapping around her belly, warm amber glow, painterly"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Statistical babies",
+      "body": "In the first year, babies are running what linguists call 'statistical learning.' They listen to the stream of sounds around them and quietly calculate which syllables tend to follow which. 'Pretty baby' comes up over and over; 'tyba' never does. From this, they figure out where one word ends and another begins — months before they can say a single one.",
+      "keyTerms": [
+        { "term": "Statistical learning", "definition": "Tracking how often certain sounds appear together to detect the boundaries of words" },
+        { "term": "Phoneme", "definition": "The smallest unit of sound that can distinguish one word from another — like the 'b' in bat vs. 'p' in pat" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A baby wearing tiny headphones in a laboratory, a researcher smiling behind a computer screen showing speech waveforms"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The sound window closes",
+      "body": "At six months old, a baby can distinguish every phoneme in every language on Earth — Hindi retroflex 't,' Japanese 'r/l,' Arabic pharyngeals, all of it. By their first birthday, they can only reliably hear the sounds of the languages spoken around them. The brain prunes what it doesn't need. It's brutal efficiency: specializing costs you versatility.",
+      "visual": {
+        "sfSymbol": "waveform.circle.fill",
+        "imagePrompt": "A baby's head in cross-section, neurons lighting up in patterns of color for different language sounds, scientific illustration style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The power of live humans",
+      "body": "Patricia Kuhl's famous experiment had American babies listen to Mandarin tones. Babies exposed to a real human tutor learned the sounds beautifully. Babies exposed to the exact same tutor through a TV screen learned nothing. Something about a living, responsive face — the eye contact, the turn-taking, the shared attention — was irreplaceable. Screens don't teach language; people do.",
+      "funFact": "Babies prefer 'parentese' — that high-pitched, sing-songy voice adults use with infants. Its exaggerated vowels make phonemes easier to pick out, like turning up the contrast on a photo.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": "A warm domestic scene — parent and baby face-to-face, both laughing, soft afternoon light through a window"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Wired to listen",
+      "body": "Every healthy baby on the planet masters one of the most complex systems humans have ever built — language — without a single lesson. They do it by being small scientists in pajamas, testing their environment millions of times. The real miracle isn't that they eventually say 'mama.' It's everything they've already figured out before that.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "When do babies start tuning into their native language?",
+      "options": [
+        "At three years old",
+        "Around the first birthday",
+        "In the last trimester of pregnancy",
+        "Only after they start talking"
+      ],
+      "correctIndex": 2,
+      "explanation": "Babies can hear their mother's voice in the womb during the last trimester and are born already preferring the rhythm of their native language."
+    },
+    {
+      "index": 1,
+      "question": "What does 'statistical learning' mean in infant language acquisition?",
+      "options": [
+        "Counting how many words a baby says",
+        "Tracking which sounds tend to appear together to find word boundaries",
+        "Calculating IQ in babies",
+        "Measuring the baby's vocabulary size"
+      ],
+      "correctIndex": 1,
+      "explanation": "Babies track the probability of sound combinations to figure out where words begin and end — before they can even speak."
+    },
+    {
+      "index": 2,
+      "question": "What did Patricia Kuhl's Mandarin study show?",
+      "options": [
+        "Babies learn better from TV than from people",
+        "Babies need a live human — not a screen — to learn new speech sounds",
+        "Babies can only learn one language at a time",
+        "Babies under 1 can't learn languages at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Babies only picked up Mandarin sounds when taught by a live human. The same content on video taught them nothing."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Scientist in the Crib: What Early Learning Tells Us About the Mind",
+      "publisher": "William Morrow",
+      "year": 1999
+    },
+    {
+      "title": "Foreign-language experience in infancy: Effects of short-term exposure and social interaction on phonetic learning",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2003
+    }
+  ],
+
+  "related": ["bilingual-brain", "critical-period-hypothesis", "parentese"]
+}

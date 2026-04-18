@@ -1,0 +1,136 @@
+{
+  "id": "how-venus-flytrap-snaps",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Venus Flytrap Snaps Shut",
+    "teaser": "A plant with no muscles, no nerves, and no brain can catch a fly in one-tenth of a second. How?",
+    "category": "Botany",
+    "subcategories": ["Carnivorous Plants", "Plant Movement"],
+    "tags": ["venus-flytrap", "plants", "biomechanics", "carnivorous", "biology"],
+    "emoji": "🪤",
+    "accentColor": "#8A1C3A",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🌿"
+    },
+    "coverImagePrompt": "Extreme macro shot of a Venus flytrap mid-snap, crimson interior illuminated, tiny trigger hairs bristling, water droplets in motion, cinematic dark background"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A hunter that can't move",
+      "body": "Plants don't have muscles. They don't have nerves. They can't chase prey. And yet in a swampy corner of North and South Carolina, a small green mouth closes on insects in about 100 milliseconds — faster than you can blink. How does the Venus flytrap pull off one of the fastest movements in the plant kingdom?",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A fly landing on the red inner surface of a Venus flytrap just before it snaps, dramatic nature-documentary lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The counting trap",
+      "body": "Inside each trap are six tiny trigger hairs, three per lobe. Touching one doesn't do anything — the plant needs two touches within about 20 seconds to snap. This simple rule lets it ignore raindrops and debris while still catching a genuinely moving insect.",
+      "keyTerms": [
+        { "term": "Trigger hair", "definition": "A sensitive bristle on the trap's inner surface that detects touch" },
+        { "term": "Action potential", "definition": "An electrical signal, similar to a nerve impulse, that travels across the plant's tissue" }
+      ],
+      "visual": {
+        "sfSymbol": "hand.point.up.left.fill",
+        "imagePrompt": "Close-up of the six delicate trigger hairs on the inner lobe of an open Venus flytrap"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A snap powered by geometry",
+      "body": "The real magic is mechanical. In its open state, each trap lobe is curved outward, storing elastic energy like a pressed contact lens. When the second touch fires an electrical signal, cells on the outer surface rapidly change their water pressure, and the lobes flip from convex to concave in about a tenth of a second. It's the same 'snap-through' instability that flips a jumping popper toy.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A physics diagram showing how a curved shell suddenly flips from one stable shape to another, arrows and stress lines annotated"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Yes, it can count to five",
+      "body": "A 2016 study by German biologist Rainer Hedrich showed the flytrap actually keeps a tally. Two touches close the trap. Three touches trigger the production of digestive enzymes. Five or more touches amp up the release of enzymes that break down proteins. Without a brain, the plant still distinguishes a worthwhile meal from a false alarm.",
+      "funFact": "Digesting a single insect can take up to 10 days — and using a trap costs so much energy that a flytrap can only snap about seven times before that trap dies.",
+      "visual": {
+        "sfSymbol": "number",
+        "imagePrompt": "A scientific illustration showing a trap closed around a cricket with digestive fluids filling the chamber"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Intelligence without a brain",
+      "body": "The Venus flytrap is a reminder that computation doesn't require neurons. Electrical signals, mechanical instability, and short-term chemical memory are enough to build a tiny, patient, counting predator — invented by evolution around 65 million years ago in the nutrient-starved bogs of the Carolinas.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many touches does the Venus flytrap need to snap shut?",
+      "options": ["One", "Two within 20 seconds", "Three in a row", "Any continuous pressure"],
+      "correctIndex": 1,
+      "explanation": "Two touches within roughly 20 seconds trigger the snap — one touch alone is ignored to avoid false alarms."
+    },
+    {
+      "index": 1,
+      "question": "What physical principle lets the trap close so quickly?",
+      "options": [
+        "Muscle contraction",
+        "Snap-through elastic instability",
+        "A sudden gust of internal air",
+        "Chemical combustion"
+      ],
+      "correctIndex": 1,
+      "explanation": "The curved lobes store elastic energy and release it by flipping from one stable shape to another — a snap-through buckling."
+    },
+    {
+      "index": 2,
+      "question": "Why does the flytrap 'count' the number of times trigger hairs are touched?",
+      "options": [
+        "To reject rain and debris and to decide whether to produce digestive enzymes",
+        "To communicate with other plants",
+        "To attract more prey",
+        "To reset after each catch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Counting lets it filter out false alarms and scale up enzyme production only when prey is genuinely present."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Venus Flytrap Dionaea muscipula Counts Prey-Induced Action Potentials to Induce Sodium Uptake",
+      "publisher": "Current Biology",
+      "year": 2016
+    },
+    {
+      "title": "How the Venus flytrap snaps",
+      "publisher": "Nature",
+      "year": 2005
+    }
+  ],
+
+  "related": ["carnivorous-plants", "plant-electrical-signals", "pitcher-plants"]
+}

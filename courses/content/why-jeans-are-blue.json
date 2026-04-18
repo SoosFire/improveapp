@@ -1,0 +1,141 @@
+{
+  "id": "why-jeans-are-blue",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Blue Jeans Are Blue",
+    "teaser": "The color of every pair of jeans you own traces back to a tropical plant and a tiny chemical quirk.",
+    "category": "Fashion",
+    "subcategories": ["Textiles", "History"],
+    "tags": ["denim", "indigo", "dye", "history", "textiles"],
+    "emoji": "👖",
+    "accentColor": "#2E4A7B",
+    "coverSymbol": {
+      "sfSymbol": "tshirt.fill",
+      "fallbackEmoji": "👖"
+    },
+    "coverImagePrompt": "Close-up of freshly dyed indigo denim hanging on a bamboo rack, deep blue droplets catching warm afternoon light, textured cinematic macro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Almost every pair, almost every color — blue",
+      "body": "Look inside your closet. Black jeans, gray jeans, maybe some raw selvedge. But the default, the canonical jean, is blue. It has been for over 150 years. That wasn't a design choice by Levi Strauss. It was a chemistry accident hiding inside a plant.",
+      "visual": {
+        "sfSymbol": "hanger",
+        "imagePrompt": "A row of blue jeans in slightly different washes hanging in golden afternoon light in a rustic workshop"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Indigo is not like other dyes",
+      "body": "Most natural dyes bond into fibers, soaking in all the way through. Indigo doesn't. It clings only to the surface of the cotton thread, like paint on a wire. That's why jeans fade exactly where your thighs rub, where you sit, where your wallet lives — the outer shell of blue wears off, revealing white cotton underneath.",
+      "keyTerms": [
+        { "term": "Indigo", "definition": "A deep blue dye originally extracted from plants of the Indigofera genus" },
+        { "term": "Ring-dyeing", "definition": "A pattern where dye coats only the outside of a thread, not its core" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.dashed.inset.filled",
+        "imagePrompt": "An extreme macro photo of a blue cotton thread cross-section, dark blue ring around a white core, scientific style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The workwear logic of a fading dye",
+      "body": "In the 1870s, American miners and cowboys needed trousers that could be worn for weeks without washing. Indigo's surface-only dye turned out to be perfect: dirt sat on top of the dye rather than sinking into the cloth, and each wash actually looked better, not worse. Blue jeans didn't hide wear — they celebrated it. Every crease became a signature.",
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "A 19th-century miner's hands resting on worn blue denim, dust on the fabric, warm tungsten tones"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From plants to petrochemicals",
+      "body": "Until 1897, every drop of indigo came from tropical plants — India alone produced so much that 'indigo' and 'Indian' share an etymology. Then German chemist Adolf von Baeyer cracked synthetic indigo, and his colleague Heumann scaled it. Today over 70,000 tons of synthetic indigo are made each year — enough to dye roughly 4 billion pairs of jeans, or one for every other person on Earth.",
+      "funFact": "Levi's patented copper rivets in 1873 for the same reason indigo was chosen — both solutions were answers to the same question: how do you make pants that refuse to give up?",
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "A laboratory flask of glowing deep blue liquid next to a sprig of real indigo plant, studio lighting, split composition"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Fading as a feature, not a flaw",
+      "body": "Jeans are the only garment in your closet designed to get better as they get worse. The color wears off because the chemistry meant it to. Every soft knee, every whiskered thigh, every lightened seat is a kind of autobiography written in pigment. Blue jeans are blue because the plant wouldn't let the dye go deeper — and that turned out to be the whole point.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do jeans fade in specific patterns like knees and seat?",
+      "options": [
+        "The cotton is thinner in those areas",
+        "Indigo dye only coats the outside of each thread",
+        "UV light hits those spots hardest",
+        "Detergent settles unevenly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Indigo is a ring-dye — it coats the surface of cotton threads but doesn't penetrate the core, so friction wears the blue off first."
+    },
+    {
+      "index": 1,
+      "question": "Who successfully synthesized indigo in 1897?",
+      "options": [
+        "Levi Strauss",
+        "Jacob Davis",
+        "Adolf von Baeyer and his collaborators",
+        "William Henry Perkin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adolf von Baeyer developed the chemistry for synthetic indigo; his collaborators later scaled it into industrial production."
+    },
+    {
+      "index": 2,
+      "question": "Before synthetic dye, where did most indigo in the world come from?",
+      "options": [
+        "South Africa",
+        "The British Midlands",
+        "India",
+        "Peru"
+      ],
+      "correctIndex": 2,
+      "explanation": "India was the dominant producer of natural indigo — so much so that the word itself derives from the country's name."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Indigo: In Search of the Color That Seduced the World",
+      "publisher": "Catherine E. McKinley, Bloomsbury",
+      "year": 2011
+    },
+    {
+      "title": "The history and chemistry of indigo dyeing",
+      "publisher": "Journal of Chemical Education",
+      "year": 2001
+    }
+  ],
+
+  "related": ["levis-history", "natural-dyes", "denim-weaving"]
+}

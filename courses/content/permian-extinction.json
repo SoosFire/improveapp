@@ -1,0 +1,136 @@
+{
+  "id": "permian-extinction",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Great Dying: Earth's Worst Extinction",
+    "teaser": "252 million years ago, 90% of all life on Earth vanished. The dinosaurs hadn't even arrived yet — and the planet nearly didn't recover.",
+    "category": "Paleontology",
+    "subcategories": ["Mass Extinctions", "Deep Time"],
+    "tags": ["permian", "extinction", "volcanism", "climate", "deep time"],
+    "emoji": "🌋",
+    "accentColor": "#8C2E1F",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🌋"
+    },
+    "coverImagePrompt": "A late Permian landscape with dying forests, choking ash-laden sky glowing orange, rivers tinted rust from acid rain, cinematic apocalyptic paleoart"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "When life nearly ended",
+      "body": "Everyone knows about the asteroid that killed the dinosaurs. Far fewer have heard of the event 187 million years earlier that makes it look almost gentle. At the end of the Permian, around 252 million years ago, roughly 96 percent of marine species and 70 percent of land vertebrates disappeared. Scientists call it simply 'the Great Dying.'",
+      "visual": {
+        "sfSymbol": "skull.fill",
+        "imagePrompt": "A vast empty Permian seafloor littered with shells and brachiopod remains, silt settling, desaturated cinematic underwater scene"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Siberian Traps",
+      "body": "The leading suspect is a volcanic event unlike anything in human history: the Siberian Traps. For hundreds of thousands of years, lava poured across an area larger than Western Europe, releasing seven million cubic kilometers of basalt and trillions of tons of greenhouse gases. It wasn't one eruption — it was a continent-sized, slow-motion chemical assault on the atmosphere.",
+      "keyTerms": [
+        { "term": "Large Igneous Province", "definition": "A massive emplacement of volcanic rock formed over a geologically short time" },
+        { "term": "Basalt", "definition": "A common volcanic rock formed from cooled lava" }
+      ],
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "A vast Permian landscape with fissures cracking open and rivers of glowing lava stretching to the horizon, painterly cinematic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Cascade of collapse",
+      "body": "The volcanism baked nearby coal beds, pumping even more CO2 and methane into the air. Global temperatures rose by roughly 10°C. Oceans warmed, absorbed less oxygen, and turned acidic enough to dissolve shells. In many regions, deep waters went anoxic — suffocating — and released toxic hydrogen sulfide. Land and sea collapsed together. Reef systems wouldn't reappear for 10 million years.",
+      "visual": {
+        "sfSymbol": "arrow.down.right.circle.fill",
+        "imagePrompt": "A flowchart diagram showing volcanism leading to CO2 rise, warming, ocean anoxia, and species collapse, infographic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Written in the rocks",
+      "body": "Geologists find the fingerprint around the world: a thin layer marking the Permian–Triassic boundary where fossil diversity drops off a cliff. Mercury spikes in those rocks point to massive volcanic emissions. Uranium–lead dating of Siberian crystals pins the main pulse of eruptions to within 60,000 years of the extinction — a blink, geologically speaking.",
+      "funFact": "It took life roughly 10 million years to bounce back — the longest recovery from any mass extinction on record.",
+      "visual": {
+        "sfSymbol": "line.diagonal",
+        "imagePrompt": "A close-up of layered rock strata showing the abrupt Permian-Triassic boundary, pen for scale, geological field photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A warning in deep time",
+      "body": "The Great Dying wasn't an asteroid from space. It was a slow release of greenhouse gases from Earth itself — and it almost ended everything. The modern rate of CO2 emission is, geologically, much faster. That comparison is why paleontologists watch the Permian so closely.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what percentage of marine species went extinct at the end of the Permian?",
+      "options": ["About 50%", "About 70%", "About 96%", "Nearly 100%"],
+      "correctIndex": 2,
+      "explanation": "Marine life was hit hardest, with roughly 96 percent of species disappearing."
+    },
+    {
+      "index": 1,
+      "question": "What is the leading physical cause proposed for the Great Dying?",
+      "options": [
+        "A large asteroid impact",
+        "Sustained volcanic activity from the Siberian Traps",
+        "A supernova shockwave",
+        "A sudden drop in sea level"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hundreds of thousands of years of Siberian Traps volcanism pumped greenhouse gases into the atmosphere, triggering cascading collapse."
+    },
+    {
+      "index": 2,
+      "question": "Which ocean condition made life especially hard to sustain?",
+      "options": [
+        "Freshwater dilution",
+        "Deep-water anoxia and acidification",
+        "A sudden fall in temperature",
+        "Increased tidal range"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warmer oceans held less oxygen and turned acidic, suffocating deep water and dissolving shelled organisms."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "High-precision timeline for Earth's most severe extinction",
+      "publisher": "PNAS",
+      "year": 2014
+    },
+    {
+      "title": "Lethally Hot Temperatures During the Early Triassic Greenhouse",
+      "publisher": "Science",
+      "year": 2012
+    }
+  ],
+
+  "related": ["how-fossils-form", "feathered-dinosaurs", "t-rex-tiny-arms"]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "antibiotic-resistance",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Bacteria Beat Antibiotics",
+    "teaser": "Every antibiotic on Earth is slowly losing to bacteria that evolve in 20 minutes what took us a century to invent.",
+    "category": "Medicine",
+    "subcategories": ["Microbiology", "Public Health"],
+    "tags": ["bacteria", "evolution", "antibiotics", "superbugs", "medicine"],
+    "emoji": "🦠",
+    "accentColor": "#16A34A",
+    "coverSymbol": {
+      "sfSymbol": "cross.case.fill",
+      "fallbackEmoji": "🦠"
+    },
+    "coverImagePrompt": "A Petri dish viewed from above, a white antibiotic disk at the center surrounded by a ring of clear agar and aggressive bacterial colonies crossing it, clinical macro photography, dramatic lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A miracle that's fading",
+      "body": "In 1928, Alexander Fleming noticed that mold had killed the bacteria in one of his Petri dishes. That mold became penicillin, and it turned once-fatal infections into minor inconveniences. But Fleming himself warned, in his 1945 Nobel lecture, that the drug would stop working if we used it carelessly. Eighty years later, we've proved him right.",
+      "visual": {
+        "sfSymbol": "cross.fill",
+        "imagePrompt": "An old black-and-white photo of Fleming peering into a Petri dish, bright color of mold contrasting against the sepia"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Evolution in fast-forward",
+      "body": "Bacteria divide every 20 minutes. A single cell can become a billion overnight. Inside every population, random mutations create a few individuals that happen to survive a given antibiotic — maybe because they tweak a target protein, or pump the drug out, or produce an enzyme that chews it up. Kill the rest, and those survivors inherit the world. Then they share their tricks.",
+      "keyTerms": [
+        { "term": "Mutation", "definition": "A random change in DNA that can grant new abilities, including resistance" },
+        { "term": "Selection pressure", "definition": "Environmental stress — like antibiotics — that favors some variants over others" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A time-lapse sequence showing a few glowing bacteria surviving among dying colonies, then multiplying to dominate the dish"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Bacteria share notes",
+      "body": "Here's the twist that makes bacterial resistance especially scary: bacteria don't just pass resistance genes to their daughters. They can hand them sideways to unrelated species through loops of DNA called plasmids. An E. coli in your gut might trade resistance genes with a harmless soil bacterium — and later, that same gene might turn up in the tuberculosis bug. It's open-source evolution.",
+      "keyTerms": [
+        { "term": "Plasmid", "definition": "A small ring of DNA bacteria can pass between cells, often carrying resistance genes" },
+        { "term": "Horizontal gene transfer", "definition": "Sharing genes between organisms without reproduction" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "Two bacteria connected by a glowing bridge of DNA, a ring of genetic code flowing between them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The numbers are terrifying",
+      "body": "Drug-resistant infections directly killed 1.27 million people in 2019 — more than HIV/AIDS or malaria. By 2050, the toll could reach 10 million a year if nothing changes. Some bacteria, like carbapenem-resistant Acinetobacter, are now resistant to nearly every antibiotic we have. Doctors are having to reach for decades-old drugs abandoned because they were too toxic.",
+      "funFact": "Researchers at MIT used AI to screen 100 million molecules and discovered halicin in 2020 — a potential new antibiotic unlike anything before. It's buying us time, not an exit.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A graph of effective antibiotics diminishing over time, overlaid with rising bacterial resistance curves"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Use less. Finish the course. Buy research time.",
+      "body": "Every unnecessary prescription — for a virus, or 'just in case' — trains the enemy. Livestock antibiotics used to fatten animals quietly breed resistance that crosses into humans. The fix is uncomfortable: prescribe sparingly, complete the course when you do, fund new drug discovery, and rethink how we farm. Bacteria aren't going to stop evolving. We need to stop making it easy.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do bacteria evolve resistance so quickly?",
+      "options": [
+        "They think strategically",
+        "They reproduce rapidly and mutate randomly, with antibiotics selecting survivors",
+        "They can sense antibiotic chemistry",
+        "Their DNA is less stable than human DNA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fast reproduction creates many random mutations — antibiotics then select the lucky survivors, which multiply."
+    },
+    {
+      "index": 1,
+      "question": "What are plasmids?",
+      "options": [
+        "Tiny viruses inside bacteria",
+        "Rings of DNA bacteria can transfer between each other, often carrying resistance genes",
+        "Proteins that break down antibiotics",
+        "Outer membranes that block drugs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plasmids let bacteria share resistance genes horizontally — even between unrelated species."
+    },
+    {
+      "index": 2,
+      "question": "Why does finishing a prescribed course of antibiotics matter?",
+      "options": [
+        "It ensures bacteria don't mutate from partial exposure",
+        "It stops the pill bottle from expiring",
+        "It activates the immune system",
+        "It prevents allergic reactions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stopping early can leave hardier bacteria behind, which then reproduce and spread resistance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Global burden of bacterial antimicrobial resistance in 2019",
+      "publisher": "The Lancet",
+      "year": 2022
+    },
+    {
+      "title": "A Deep Learning Approach to Antibiotic Discovery",
+      "publisher": "Cell (Stokes et al., MIT)",
+      "year": 2020
+    }
+  ],
+
+  "related": ["vaccines-basics", "evolution-basics", "penicillin-history"]
+}

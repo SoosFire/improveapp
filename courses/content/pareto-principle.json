@@ -1,0 +1,126 @@
+{
+  "id": "pareto-principle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Pareto Principle (80/20 Rule)",
+    "teaser": "Why 80% of your results come from just 20% of your effort — and how an Italian economist spotted it in pea pods.",
+    "category": "Productivity",
+    "subcategories": ["Mental Models", "Economics"],
+    "tags": ["pareto", "80-20", "prioritization", "economics", "statistics"],
+    "emoji": "📊",
+    "accentColor": "#E67E22",
+    "coverSymbol": {
+      "sfSymbol": "chart.pie.fill",
+      "fallbackEmoji": "🥧"
+    },
+    "coverImagePrompt": "An elegant pie chart rendered as stained glass, one dominant slice glowing warm gold while the rest fades into muted blues. Conceptual, painterly, cinematic lighting."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A gardener's strange observation",
+      "body": "In 1896, Italian economist Vilfredo Pareto was pacing his garden when he noticed something odd: roughly 20% of his pea pods were producing 80% of the peas. Curious, he checked Italy's tax records — and found that 20% of the population owned 80% of the land. The same ratio kept showing up everywhere he looked. He had stumbled onto one of the most durable patterns in nature and economics.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Close-up of an Italian garden with pea vines, some pods plump and overflowing, others sparse, golden afternoon light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The power law in plain English",
+      "body": "The Pareto Principle says that in many systems, a small number of inputs cause the majority of outputs. Twenty percent of customers generate 80% of revenue. Twenty percent of bugs cause 80% of crashes. It's not a law of nature — it's a pattern produced by 'power-law distributions', where outcomes are wildly unequal rather than clustered around an average.",
+      "keyTerms": [
+        { "term": "Power law", "definition": "A distribution where a few items dominate results, unlike a bell curve" },
+        { "term": "80/20 rule", "definition": "A rough heuristic that roughly 80% of outcomes come from 20% of causes" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A long-tail bar chart with one massive bar on the left and many tiny ones trailing off to the right"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "It keeps showing up",
+      "body": "The pattern is shockingly robust. Microsoft found that fixing the top 20% of reported bugs eliminated 80% of errors. Retailers regularly see 80% of revenue come from 20% of SKUs. Even Wikipedia — written by volunteers — was shaped by a tiny fraction of contributors writing the overwhelming majority of edits. The exact numbers vary, but the asymmetry is real.",
+      "funFact": "The principle wasn't named 'Pareto' until 1941, when quality engineer Joseph Juran applied it to manufacturing defects and gave it a catchy label.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A magnifying glass hovering over a spreadsheet, highlighting a handful of rows glowing orange while the rest stay grey"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Using it without obsessing over it",
+      "body": "The real value of 80/20 isn't the exact ratio — it's the habit of asking, 'Which small slice of what I'm doing is producing most of the results?' Identify that slice. Protect it. Then honestly consider whether the other 80% of your effort is worth keeping at all. Most people who try this for a week find at least one task they can quietly drop forever.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Vilfredo Pareto originally observe?",
+      "options": [
+        "That markets always return to equilibrium",
+        "That 20% of Italy's population owned 80% of the land",
+        "That inflation follows a yearly cycle",
+        "That productivity peaks at noon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pareto noticed the same 80/20 ratio in his pea pods and in Italian land ownership."
+    },
+    {
+      "index": 1,
+      "question": "The 80/20 rule is an example of what kind of distribution?",
+      "options": [
+        "Normal (bell-curve) distribution",
+        "Uniform distribution",
+        "Power-law distribution",
+        "Binomial distribution"
+      ],
+      "correctIndex": 2,
+      "explanation": "Power-law distributions produce extreme inequality in outcomes — exactly what 80/20 describes."
+    },
+    {
+      "index": 2,
+      "question": "Who coined the name 'Pareto Principle'?",
+      "options": ["Pareto himself", "Joseph Juran", "Peter Drucker", "Richard Koch"],
+      "correctIndex": 1,
+      "explanation": "Quality engineer Joseph Juran applied the pattern to defects in 1941 and gave it its modern name."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Cours d'économie politique",
+      "publisher": "University of Lausanne",
+      "year": 1896
+    },
+    {
+      "title": "The 80/20 Principle: The Secret to Achieving More with Less",
+      "publisher": "Crown Business",
+      "year": 1997
+    }
+  ],
+
+  "related": ["deep-work-concept", "eisenhower-matrix", "power-laws"]
+}

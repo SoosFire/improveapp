@@ -1,0 +1,144 @@
+{
+  "id": "spaced-repetition",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Spaced Repetition: The Learning Hack",
+    "teaser": "Why cramming guarantees you'll forget — and why quizzing yourself just before you forget makes knowledge almost impossible to lose.",
+    "category": "Self-improvement",
+    "subcategories": ["Learning", "Memory"],
+    "tags": ["memory", "learning", "ebbinghaus", "anki", "study"],
+    "emoji": "🧩",
+    "accentColor": "#8E44AD",
+    "coverSymbol": {
+      "sfSymbol": "square.stack.3d.up.fill",
+      "fallbackEmoji": "🗂️"
+    },
+    "coverImagePrompt": "A stack of flashcards mid-flip above a wooden desk, each card glowing softly against a dim study room. Cinematic, warm, painterly."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Ebbinghaus eats nonsense",
+      "body": "In 1885, German psychologist Hermann Ebbinghaus sat alone in a room and memorized thousands of meaningless three-letter syllables — 'zof', 'baj', 'dux' — just to measure how quickly he forgot them. The resulting 'forgetting curve' was brutal: he lost more than half of what he'd learned within an hour. But buried in his data was the insight that reshaped education: the *right* review, at the *right* moment, could almost completely flatten that curve.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg.rectangle.fill",
+        "imagePrompt": "A candlelit 19th-century desk with scattered cards of nonsense syllables and a hand-drawn descending curve"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The spacing effect",
+      "body": "The spacing effect is one of the most reliable findings in psychology: you learn more from the same amount of study time if you spread it out. Five one-hour sessions across a week beat one five-hour cram. Spaced repetition systems (SRS) go further — they schedule each individual piece of information to be reviewed at the exact moment you're about to forget it.",
+      "keyTerms": [
+        { "term": "Spacing effect", "definition": "The finding that spaced practice produces more durable learning than massed practice" },
+        { "term": "Spaced repetition system (SRS)", "definition": "An algorithm that schedules reviews at expanding intervals based on how well you remembered" }
+      ],
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A minimalist calendar page with review dots spaced at expanding intervals — day 1, day 3, day 7, day 16"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Desirable difficulty",
+      "body": "Why does waiting help? Psychologist Robert Bjork calls it 'desirable difficulty'. Retrieving a memory that's starting to fade is harder than glancing at a fresh one — but the effort is exactly what strengthens it. If you review too soon, the memory is too easy to access and no consolidation happens. If you review too late, it's already gone. The sweet spot is right at the edge of forgetting.",
+      "keyTerms": [
+        { "term": "Desirable difficulty", "definition": "A manageable struggle during learning that boosts long-term retention" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.and.right",
+        "imagePrompt": "A tightrope walker balancing at the midpoint of a rope, one side labelled 'too easy', the other 'forgotten'"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Medical schools quietly use it",
+      "body": "A 2007 study of medical residents by Kerfoot and colleagues found that spaced education nearly doubled long-term retention of clinical facts compared to traditional review. The effect is now widely used in language apps, law bar prep, and entire medical curricula. The free flashcard app Anki has been used by so many medical students that it's essentially become invisible infrastructure for the profession.",
+      "funFact": "One neuroscientist used spaced repetition to memorize over 100,000 facts — including a flashcard for every individual student he'd ever taught.",
+      "visual": {
+        "sfSymbol": "stethoscope",
+        "imagePrompt": "A medical student's desk covered in digital flashcards and anatomy diagrams, warm evening lamp"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Boring, effective, long-term",
+      "body": "Spaced repetition isn't glamorous. You don't feel brilliant doing it — the whole point is effortful retrieval. But a consistent 10-15 minutes a day will, over a year, bolt facts into your memory that cramming couldn't hold for a week. The people who swear by it aren't smarter than you. They just trust the curve.",
+      "visual": {
+        "sfSymbol": "clock.badge.checkmark.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Ebbinghaus's 'forgetting curve' show?",
+      "options": [
+        "Memory stays perfect until a critical threshold",
+        "Memory decays rapidly without review",
+        "Memory improves with sleep only",
+        "Memory is unrelated to time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ebbinghaus lost most of what he'd learned within hours — the curve drops steeply without reinforcement."
+    },
+    {
+      "index": 1,
+      "question": "What is 'desirable difficulty'?",
+      "options": [
+        "Studying when tired for resilience",
+        "Making content itself harder",
+        "A struggle during retrieval that strengthens memory",
+        "Forcing yourself to study longer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bjork's term for effortful retrieval that's hard enough to matter but not so hard you fail."
+    },
+    {
+      "index": 2,
+      "question": "When is the ideal moment to review something in spaced repetition?",
+      "options": [
+        "Immediately after learning it",
+        "After it's completely forgotten",
+        "Right as you're about to forget it",
+        "At fixed daily intervals"
+      ],
+      "correctIndex": 2,
+      "explanation": "Reviewing at the edge of forgetting maximizes consolidation without losing the memory entirely."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Memory: A Contribution to Experimental Psychology",
+      "publisher": "Teachers College, Columbia University",
+      "year": 1885
+    },
+    {
+      "title": "Interactive spaced-education to teach the physical examination",
+      "publisher": "Journal of General Internal Medicine",
+      "year": 2007
+    }
+  ],
+
+  "related": ["deep-work-concept", "growth-vs-fixed-mindset", "deliberate-practice"]
+}

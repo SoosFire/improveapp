@@ -1,0 +1,136 @@
+{
+  "id": "roman-concrete",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Roman Concrete Still Stands",
+    "teaser": "Modern concrete crumbles in 50 years. A Roman seawall has been healing itself for 2,000.",
+    "category": "History",
+    "subcategories": ["Ancient Rome", "Engineering History"],
+    "tags": ["rome", "concrete", "materials", "engineering", "pantheon"],
+    "emoji": "🏛️",
+    "accentColor": "#7F6147",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🏛️"
+    },
+    "coverImagePrompt": "The Pantheon's oculus at noon, a perfect circle of sunlight hitting the ancient concrete dome from inside, coffered ceiling in dramatic chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A building material that heals itself",
+      "body": "Roman harbors built in the 1st century BCE are still standing in seawater — the same seawater that eats modern concrete for breakfast. The Pantheon's dome in Rome is the largest unreinforced concrete dome on Earth, 1,900 years old and counting. Engineers have spent centuries asking a simple question: what did the Romans know that we forgot?",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "Ancient Roman harbor walls half-submerged in clear turquoise Mediterranean water, barnacles clinging to massive concrete blocks"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The secret ingredient: volcanic ash",
+      "body": "Romans mixed lime, seawater, and volcanic ash from the bay of Pozzuoli — a material called pozzolana. When seawater seeped into a Roman concrete wall, it didn't erode the material. It triggered new mineral crystals to grow inside the cracks. The concrete got stronger as it aged.",
+      "keyTerms": [
+        { "term": "Pozzolana", "definition": "Volcanic ash used by Romans as the reactive ingredient in concrete" },
+        { "term": "Aluminous tobermorite", "definition": "A rare mineral that grows inside Roman marine concrete over centuries" }
+      ],
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "Gray volcanic ash pouring from a workman's shovel into a wooden mixing trough, Roman construction site in warm late-afternoon light"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why modern concrete fails",
+      "body": "Modern Portland cement is designed to be chemically inert — we want it to stop reacting once it sets. But 'inert' also means 'brittle.' Cracks stay cracks. Water and salt creep in, corrode steel reinforcement, and the structure falls apart in decades. Roman concrete took the opposite approach: design a material that reacts with its environment forever.",
+      "visual": {
+        "sfSymbol": "xmark.octagon.fill",
+        "imagePrompt": "A cracked modern highway overpass with rusted rebar exposed, muted gray tones, contrasted against an ancient Roman arch in the background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The hot-mixing discovery",
+      "body": "In 2023, MIT researchers examining ancient Roman samples found chunks of unmixed lime — 'lime clasts' — which earlier scholars assumed were sloppy mixing errors. They weren't. The Romans used quicklime, mixed hot. When a crack formed and rain reached a lime clast, it dissolved, flowed into the crack, and recrystallized. The building effectively healed itself.",
+      "funFact": "The researchers recreated the recipe, cracked their sample, poured water through, and watched the cracks seal within two weeks.",
+      "visual": {
+        "sfSymbol": "bandage.fill",
+        "imagePrompt": "Close-up of a sliced Roman concrete sample showing white lime clasts embedded in gray aggregate, scientific microscope view"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Sometimes old is smarter",
+      "body": "We like to think ancient technology was a rougher draft of ours. Sometimes it's just different — and occasionally better. Roman concrete is a reminder that longevity can matter as much as strength, and that 'progress' sometimes means walking back to pick up something we dropped.",
+      "visual": {
+        "sfSymbol": "arrow.uturn.backward",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What volcanic ingredient made Roman concrete durable?",
+      "options": ["Obsidian", "Pozzolana (volcanic ash)", "Sulfur", "Granite dust"],
+      "correctIndex": 1,
+      "explanation": "Pozzolana — volcanic ash from around Naples — was the chemically reactive ingredient that made Roman concrete special."
+    },
+    {
+      "index": 1,
+      "question": "How does Roman marine concrete get stronger in seawater?",
+      "options": [
+        "Saltwater dries it out",
+        "New mineral crystals grow inside the cracks",
+        "The sun bakes it harder",
+        "Coral reinforces it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seawater triggers the growth of rare minerals like aluminous tobermorite inside the concrete, filling cracks as they form."
+    },
+    {
+      "index": 2,
+      "question": "What did 2023 MIT research reveal about those white 'clumps' in Roman samples?",
+      "options": [
+        "They were contamination",
+        "They were lime clasts designed to heal cracks",
+        "They were fossilized shells",
+        "They were a pigment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The clasts were deliberately made with hot-mixed quicklime, and they dissolve to seal cracks when water intrudes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Hot mixing: Mechanistic insights into the durability of ancient Roman concrete",
+      "publisher": "Science Advances",
+      "year": 2023
+    },
+    {
+      "title": "Material and elastic properties of Al-tobermorite in ancient Roman seawater concrete",
+      "publisher": "American Mineralogist",
+      "year": 2017
+    }
+  ],
+
+  "related": ["pantheon", "ancient-engineering", "volcanic-geology"]
+}

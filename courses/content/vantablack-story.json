@@ -1,0 +1,131 @@
+{
+  "id": "vantablack-story",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Vantablack: The Color You Can't Photograph",
+    "teaser": "It absorbs 99.965% of light — and one artist bought the exclusive right to use it.",
+    "category": "Art",
+    "subcategories": ["Material Science", "Contemporary Art"],
+    "tags": ["vantablack", "pigment", "nanotech", "kapoor", "color"],
+    "emoji": "⬛",
+    "accentColor": "#0A0A0A",
+    "coverSymbol": {
+      "sfSymbol": "circle.fill",
+      "fallbackEmoji": "⚫"
+    },
+    "coverImagePrompt": "A crumpled sheet of aluminium foil half-coated in Vantablack, the coated half looking like a hole cut through the image into pure void, cinematic macro lighting against a grey studio background"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A hole in the world",
+      "body": "In 2014, a British company unveiled a coating so dark that photographs of it looked broken — as if someone had cut a black shape out of the image with scissors. The human eye loses its ability to perceive contour on its surface. This is Vantablack, and when it was sprayed on a crumpled piece of foil, the wrinkles simply vanished.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A Vantablack-coated bust on a white plinth, appearing as a flat silhouette rather than a 3D object, gallery lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A forest of carbon",
+      "body": "Vantablack isn't really a paint — it's a forest. Under a microscope, its surface is a dense thicket of carbon nanotubes, each about 10,000 times thinner than a human hair. Light enters the gaps between the tubes and bounces around until almost all of its energy is absorbed as heat. Only 0.035% of visible light escapes back to your eye.",
+      "keyTerms": [
+        { "term": "Carbon nanotube", "definition": "A hollow cylinder of carbon atoms, roughly a nanometre wide, with extraordinary optical properties" },
+        { "term": "VANTA", "definition": "Short for 'Vertically Aligned NanoTube Array' — the original name of the coating" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Electron microscope view of vertically aligned carbon nanotubes resembling a dense black forest from above"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why cameras fail",
+      "body": "Cameras compute depth partly from subtle shading — highlights, shadows, gradients. Vantablack kills every gradient. Curved or crumpled objects coated in it read to sensors as pure flat black, a two-dimensional cut-out. Even the human brain, which is excellent at inferring shape, struggles. Observers sometimes reach out to touch the surface because their depth perception simply refuses to resolve.",
+      "visual": {
+        "sfSymbol": "camera.metering.none",
+        "imagePrompt": "A photographer's viewfinder looking at a Vantablack sphere on a grey tabletop, the sphere rendered as a flat black disc"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "An art-world feud",
+      "body": "In 2016, the sculptor Anish Kapoor bought the exclusive artistic rights to Vantablack, meaning no other artist could use it. The art world erupted. In protest, Stuart Semple released 'the pinkest pink' and banned Kapoor from buying it. Kapoor posted a photo of his middle finger dipped in the pigment. The feud pushed Semple to later release a less-toxic competitor called Black 3.0.",
+      "funFact": "BMW coated an entire X6 in Vantablack VBx2 in 2019. From the side, the car's bodywork looked like a silhouette cut from the sky.",
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "A raised finger dipped in bright fluorescent pink pigment against a dark gallery wall, defiant pose, dramatic lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Darker than dark",
+      "body": "Vantablack's spiritual successor, a MIT coating from 2019, absorbs 99.995% of light — ten times darker again. Beyond the art drama, these materials have serious uses: shrouding stray light in telescopes, improving satellite sensors, even hiding military optics. A colour so extreme it changes what your senses can trust is, it turns out, useful in places no gallery ever sees.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is Vantablack primarily made of?",
+      "options": [
+        "Ground obsidian",
+        "Vertically aligned carbon nanotubes",
+        "Iron oxide paste",
+        "Graphene sheets"
+      ],
+      "correctIndex": 1,
+      "explanation": "The name VANTA stands for Vertically Aligned NanoTube Array — a dense forest of carbon nanotubes that traps light."
+    },
+    {
+      "index": 1,
+      "question": "Approximately what percentage of visible light does Vantablack absorb?",
+      "options": ["About 90%", "About 95%", "About 99.9%", "Exactly 100%"],
+      "correctIndex": 2,
+      "explanation": "The original Vantablack absorbs 99.965% of visible light, which is why surfaces coated in it look like voids."
+    },
+    {
+      "index": 2,
+      "question": "Which artist acquired exclusive rights to use Vantablack in art?",
+      "options": ["Stuart Semple", "Damien Hirst", "Anish Kapoor", "Yayoi Kusama"],
+      "correctIndex": 2,
+      "explanation": "Anish Kapoor's 2016 exclusivity deal triggered a public feud with artist Stuart Semple."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Surrey NanoSystems: Vantablack Technical Overview",
+      "publisher": "Surrey NanoSystems",
+      "year": 2015
+    },
+    {
+      "title": "Ultra-Black Carbon Nanotube Coating Absorbs 99.995% of Incident Light",
+      "publisher": "ACS Applied Materials & Interfaces",
+      "year": 2019
+    }
+  ],
+
+  "related": ["black-pigment-history", "carbon-nanotubes", "color-and-perception"]
+}

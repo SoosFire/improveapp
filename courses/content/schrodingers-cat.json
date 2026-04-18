@@ -1,0 +1,141 @@
+{
+  "id": "schrodingers-cat",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Schrödinger's Cat, Actually Explained",
+    "teaser": "Schrödinger didn't believe the cat was both alive and dead. He invented it to mock the physicists who did.",
+    "category": "Physics",
+    "subcategories": ["Quantum Physics", "Philosophy of Science"],
+    "tags": ["quantum", "schrodinger", "superposition", "thought experiment"],
+    "emoji": "🐱",
+    "accentColor": "#6A4A8F",
+    "coverSymbol": {
+      "sfSymbol": "cat.fill",
+      "fallbackEmoji": "🐱"
+    },
+    "coverImagePrompt": "A translucent, ghost-like cat silhouette inside a steel box overlaid with glowing quantum wave patterns, half in light, half in shadow, surreal and moody"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A joke that became a meme",
+      "body": "In 1935, Erwin Schrödinger was grumpy. Colleagues were telling him that particles could exist in multiple states at once until someone looked at them. He responded with a sarcastic thought experiment: fine, then a cat could be both alive and dead at the same time. He meant it as a reductio ad absurdum. The universe has since refused to take the hint.",
+      "visual": {
+        "sfSymbol": "quote.bubble.fill",
+        "imagePrompt": "A black-and-white 1930s portrait of Erwin Schrödinger looking thoroughly unamused, smoke from a pipe curling around his face"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The setup in plain English",
+      "body": "Put a cat in a sealed steel box with a vial of poison. The poison is triggered by the decay of a single radioactive atom. Quantum mechanics says the atom is in a superposition — both decayed and not decayed — until observed. Schrödinger's point: if you take that literally, the cat inside must also be both alive and dead until someone opens the box. Absurd, right?",
+      "keyTerms": [
+        { "term": "Superposition", "definition": "A quantum state that's a combination of multiple classical outcomes at once" },
+        { "term": "Measurement", "definition": "Any interaction that forces a quantum system into a definite outcome" }
+      ],
+      "visual": {
+        "sfSymbol": "shippingbox.fill",
+        "imagePrompt": "Cross-section diagram of a sealed metal box containing a cat, a radioactive source, a Geiger counter, and a poison vial, 1930s schematic style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the thought experiment is actually good",
+      "body": "The point wasn't to declare that cats ARE both alive and dead. The point was to expose an awkward question: where does quantum weirdness stop and everyday reality start? An atom can be in superposition. A molecule can. A virus probably can. A cat? Nobody really thinks so. But nothing in the math tells us where to draw the line.",
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A blurred line across a diagram, atoms on one side, a cat on the other, question marks hovering above the middle"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What physics actually thinks today",
+      "body": "Modern physicists have several answers. The 'Copenhagen' view says measurement collapses superpositions — it just works, stop asking. The 'many-worlds' view says both outcomes happen, each in a different universe that branches off. 'Decoherence' adds a realistic detail: large objects like cats interact with their environment so fast that their superpositions vanish in trillionths of a second. So the cat picks one outcome before you ever open the box.",
+      "funFact": "The current record for a macroscopic quantum superposition is a tuning-fork-sized object vibrating in two states at once — far from a cat, but a long way from a single atom.",
+      "visual": {
+        "sfSymbol": "arrow.branch",
+        "imagePrompt": "A diagram showing a single timeline branching into many parallel worlds, each with a slightly different cat"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The joke's on us",
+      "body": "Schrödinger's cat endures because it captures the real scandal of quantum mechanics: we have equations that work beautifully and yet nobody agrees on what they mean. The thought experiment isn't a science fact. It's a very polite, century-long argument in disguise.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why did Schrödinger invent the cat thought experiment?",
+      "options": [
+        "To prove that superposition applies to large objects",
+        "As a sarcastic critique of quantum interpretation",
+        "To demonstrate radioactivity",
+        "As a classroom exercise for students"
+      ],
+      "correctIndex": 1,
+      "explanation": "He intended it as a reductio ad absurdum — if you take quantum interpretations literally, you get absurd consequences."
+    },
+    {
+      "index": 1,
+      "question": "What is a quantum superposition?",
+      "options": [
+        "A particle moving very fast",
+        "Two particles colliding",
+        "A state that is a combination of multiple classical outcomes",
+        "An electron jumping between orbits"
+      ],
+      "correctIndex": 2,
+      "explanation": "Superposition means the system's state is a mathematical combination of several possible classical outcomes at once."
+    },
+    {
+      "index": 2,
+      "question": "What does decoherence say about why we don't see cats in superposition?",
+      "options": [
+        "Cats are too heavy",
+        "Observation requires consciousness",
+        "Interactions with the environment destroy superpositions almost instantly for large objects",
+        "The math doesn't apply to biology"
+      ],
+      "correctIndex": 2,
+      "explanation": "Decoherence explains that large, warm objects couple to their environment so fast that quantum superpositions are effectively wiped out in tiny fractions of a second."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Present Situation in Quantum Mechanics",
+      "publisher": "Naturwissenschaften",
+      "year": 1935
+    },
+    {
+      "title": "Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime",
+      "publisher": "Dutton",
+      "year": 2019
+    }
+  ],
+
+  "related": ["quantum-entanglement", "wave-particle-duality", "many-worlds"]
+}

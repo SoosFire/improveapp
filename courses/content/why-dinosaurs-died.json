@@ -1,0 +1,136 @@
+{
+  "id": "why-dinosaurs-died",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Killed the Dinosaurs",
+    "teaser": "An asteroid the size of Mount Everest hit Mexico at 20 km/s. Within hours, the sky rained glass. Within a year, 75% of life was gone.",
+    "category": "Paleontology",
+    "subcategories": ["Extinction Events", "Earth History"],
+    "tags": ["dinosaurs", "asteroid", "extinction", "chicxulub", "cretaceous"],
+    "emoji": "🦖",
+    "accentColor": "#A23B1F",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "☄️"
+    },
+    "coverImagePrompt": "A massive asteroid streaking through a primordial sky toward a shoreline where dinosaurs flee, golden hour turning to blood-red, cinematic, painterly, dramatic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The day the sky fell",
+      "body": "Sixty-six million years ago, a Tuesday in the late Cretaceous, a rock 10 kilometers wide punched into the Yucatán at a shallow angle. The impact released more energy than every nuclear weapon on Earth detonated a billion times over. Within 24 hours, forests on the other side of the planet were burning.",
+      "visual": {
+        "sfSymbol": "burst.fill",
+        "imagePrompt": "A bright flash on the horizon seen from a Jurassic forest, ash drifting in from the sky, cinematic wide shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The iridium clue",
+      "body": "The smoking gun was found in 1980 by physicist Luis Alvarez and his son Walter. In rock layers worldwide dating to that exact moment, they found iridium — a metal vanishingly rare in Earth's crust but common in asteroids. A thin band of it stretched across every continent, as if a chef had dusted the whole planet.",
+      "keyTerms": [
+        { "term": "K-Pg boundary", "definition": "The thin rock layer marking the end of the Cretaceous period, 66 million years ago" },
+        { "term": "Iridium anomaly", "definition": "Unusually high iridium concentrations in that layer, pointing to an asteroid source" }
+      ],
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "A rock face showing a distinct dark layer sandwiched between lighter strata, a geologist's hammer for scale"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Finding the crater",
+      "body": "For a decade, no one could find the impact site. Then a geophysicist reviewed old oil-company surveys from the Gulf of Mexico and spotted a perfect 180-kilometer circular scar — half on land, half underwater, near the town of Chicxulub. When drilled, it matched the age of the extinction down to the thousand-year mark.",
+      "visual": {
+        "sfSymbol": "circle.dashed",
+        "imagePrompt": "Satellite view of the Yucatán peninsula with the faint circular outline of the Chicxulub crater overlaid, annotated with diameter"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Winter in summer",
+      "body": "The asteroid hit a rare patch of sulfur-rich rock. Vaporized sulfate droplets shot into the stratosphere and reflected sunlight for years. Global temperatures plunged more than 15°C. Photosynthesis collapsed. Plants died, then the plant-eaters, then the things that ate the plant-eaters. Only animals smaller than a cat, living in water or underground, tended to survive.",
+      "funFact": "A fossil site in North Dakota called Tanis captured the first hour of impact: fish with glass beads lodged in their gills, wind-blown into their bodies moments before a seiche wave buried everything.",
+      "visual": {
+        "sfSymbol": "snowflake",
+        "imagePrompt": "Grey-brown ashen landscape with skeletal dead trees, a small furry mammal peeking from a burrow, dim red sun"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not really extinct",
+      "body": "One lineage of feathered, bipedal dinosaurs slipped through the catastrophe. Their descendants weigh as little as two grams and learned to sing. You probably heard one this morning. Every bird alive today is a surviving dinosaur — the longest continuous success story on the planet.",
+      "visual": {
+        "sfSymbol": "bird.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What element in the K-Pg rock layer pointed to an asteroid impact?",
+      "options": ["Uranium", "Iridium", "Gold", "Mercury"],
+      "correctIndex": 1,
+      "explanation": "Iridium is rare in Earth's crust but common in asteroids. A worldwide spike gave the Alvarezes their clue."
+    },
+    {
+      "index": 1,
+      "question": "Where is the impact crater located?",
+      "options": [
+        "Off the coast of India",
+        "Under Antarctica",
+        "The Yucatán Peninsula, Mexico",
+        "Northern Siberia"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 180-km Chicxulub crater sits on and around the Yucatán and matches the extinction's age exactly."
+    },
+    {
+      "index": 2,
+      "question": "Why did global temperatures plunge after the impact?",
+      "options": [
+        "Earth's orbit shifted",
+        "Sulfate aerosols blocked sunlight for years",
+        "A new ice age had already started",
+        "Volcanic ash covered the sun"
+      ],
+      "correctIndex": 1,
+      "explanation": "The asteroid struck sulfur-rich rock; vaporized sulfates lofted into the stratosphere and triggered an impact winter."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Extraterrestrial cause for the Cretaceous-Tertiary extinction",
+      "publisher": "Science",
+      "year": 1980
+    },
+    {
+      "title": "The Chicxulub Asteroid Impact and Mass Extinction at the Cretaceous-Paleogene Boundary",
+      "publisher": "Science",
+      "year": 2010
+    }
+  ],
+
+  "related": ["feathered-dinosaurs", "mass-extinctions", "chicxulub-crater"]
+}

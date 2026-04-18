@@ -1,0 +1,137 @@
+{
+  "id": "circadian-rhythm",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Your Body's 24-Hour Clock",
+    "teaser": "Every cell you have keeps time. Break the clock, and almost everything — mood, weight, immunity — starts to drift.",
+    "category": "Health",
+    "subcategories": ["Sleep Science", "Chronobiology"],
+    "tags": ["circadian", "sleep", "melatonin", "light", "health"],
+    "emoji": "🕰️",
+    "accentColor": "#2E5B8E",
+    "coverSymbol": {
+      "sfSymbol": "clock.fill",
+      "fallbackEmoji": "🕰️"
+    },
+    "coverImagePrompt": "A silhouette of a person in profile, a softly glowing clock face embedded in their chest, sun rising on one side and moon setting on the other, cinematic dual-light composition"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It's not just sleep",
+      "body": "At 4 a.m., your core temperature bottoms out. At 6 a.m., your cortisol spikes to wake you up. At 2:30 p.m., your coordination peaks — which is why most world records in swimming are set in the afternoon. You don't just have a sleep schedule. You have an internal calendar that governs nearly every system in your body.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A 24-hour circular graph showing wave-like peaks for hormones, temperature, and alertness, glowing blue and orange on a dark background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The master clock",
+      "body": "Above the roof of your mouth, behind your eyes, sits a cluster of about 20,000 neurons called the suprachiasmatic nucleus — the SCN. It runs on a loop of about 24 hours and 11 minutes. Every other cell in your body keeps its own time too, but the SCN is the conductor, syncing them to the outside world using one main signal: light hitting your retina.",
+      "keyTerms": [
+        { "term": "SCN (suprachiasmatic nucleus)", "definition": "The master circadian clock in the brain, above the optic chiasm" },
+        { "term": "Zeitgeber", "definition": "A German word meaning 'time-giver' — any external cue that resets the clock, mainly light" },
+        { "term": "Melatonin", "definition": "A hormone released by the pineal gland in darkness, signaling night" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.filled.head.profile",
+        "imagePrompt": "A cross-section of the brain with the SCN region softly glowing blue, nerve pathways leading from the eyes highlighted"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why Nobel winners cared",
+      "body": "The 2017 Nobel Prize in Medicine went to three scientists — Hall, Rosbash, and Young — for finding the molecular gears of the clock. It turns out every cell has a feedback loop of proteins that build up during the day and break down at night, ticking once every ~24 hours. These genes are so ancient they're almost identical in humans and fruit flies.",
+      "visual": {
+        "sfSymbol": "gearshape.2.fill",
+        "imagePrompt": "A set of interlocking biochemical gears inside a single cell, labeled with tiny protein names, elegant scientific diagram style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When the clock misfires",
+      "body": "Night-shift workers have higher rates of obesity, diabetes, heart disease, and certain cancers — so much so that the World Health Organization classified long-term night shift work as a probable human carcinogen. Chronically mistimed light, meals, and sleep pull different body clocks out of sync, leaving organs running on different schedules.",
+      "funFact": "Social jet lag — staying up late and sleeping in on weekends — can push your clock hours out of sync by Monday morning. Many people fly to New York, biologically, every weekend.",
+      "visual": {
+        "sfSymbol": "moon.zzz.fill",
+        "imagePrompt": "A nurse in a hospital corridor at 3 a.m., overhead fluorescent lights harsh, clock on the wall showing late-night hour, cinematic shadow play"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Little shifts, big payoffs",
+      "body": "You can't escape your clock, but you can cooperate with it. Bright morning light strengthens it. Late-night screens and meals blur it. Keeping consistent sleep and mealtime windows — even on weekends — is one of the cheapest, most overlooked health interventions you have. Your body is begging for a regular schedule. Give it one.",
+      "visual": {
+        "sfSymbol": "sunrise.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where is the master circadian clock located?",
+      "options": [
+        "In the heart",
+        "In the pineal gland",
+        "In the suprachiasmatic nucleus of the brain",
+        "In the stomach lining"
+      ],
+      "correctIndex": 2,
+      "explanation": "The SCN, a small group of neurons above the optic chiasm, serves as the body's master clock."
+    },
+    {
+      "index": 1,
+      "question": "What is the primary cue that resets your circadian clock?",
+      "options": ["Food", "Light", "Temperature", "Exercise"],
+      "correctIndex": 1,
+      "explanation": "Light hitting specialized retinal cells is the dominant zeitgeber, though meals and exercise also help tune peripheral clocks."
+    },
+    {
+      "index": 2,
+      "question": "Why is night shift work linked to health problems?",
+      "options": [
+        "Nightworkers eat too little",
+        "It desynchronizes the body's internal clocks from external time",
+        "Artificial light burns the retina",
+        "Darkness causes vitamin D deficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chronic misalignment between external schedules and internal clocks is associated with metabolic, cardiovascular, and cancer risks."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Nobel Prize in Physiology or Medicine 2017",
+      "publisher": "Nobel Assembly at Karolinska Institutet",
+      "year": 2017
+    },
+    {
+      "title": "Carcinogenicity of shift-work, painting, and fire-fighting",
+      "publisher": "The Lancet Oncology (IARC)",
+      "year": 2007
+    }
+  ],
+
+  "related": ["why-we-sleep", "jet-lag-science", "blue-light-and-sleep"]
+}

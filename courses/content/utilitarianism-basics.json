@@ -1,0 +1,141 @@
+{
+  "id": "utilitarianism-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Utilitarianism",
+    "teaser": "One rule: do whatever creates the most happiness. It sounds simple. Then you actually try to live by it.",
+    "category": "Ethics",
+    "subcategories": ["Moral Philosophy", "Consequentialism"],
+    "tags": ["utilitarianism", "ethics", "bentham", "mill", "consequentialism"],
+    "emoji": "⚖️",
+    "accentColor": "#A44A3F",
+    "coverSymbol": {
+      "sfSymbol": "scalemass.fill",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "A classic brass balance scale on a weathered wooden desk, one side holding glowing gold coins of happiness, other side holding dim grey coins, warm library lamplight, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The simplest moral rule ever written",
+      "body": "In 1789, Jeremy Bentham published a single sentence that would ripple through the next two centuries of ethics: act so as to produce the greatest happiness for the greatest number. No gods, no duties, no sacred rights. Just add up the joy, subtract the suffering, and choose the option with the bigger number.",
+      "visual": {
+        "sfSymbol": "sum",
+        "imagePrompt": "A quill pen next to an 18th-century ledger, the page filled with hand-drawn pluses and minuses totaling up to a glowing number"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Consequences are all that matter",
+      "body": "Utilitarianism is a form of consequentialism: it judges actions purely by their outcomes. Motives don't count. Rules don't count. A lie that prevents a murder is better than a truth that enables one. What makes something good isn't what it is — it's what it causes.",
+      "keyTerms": [
+        { "term": "Consequentialism", "definition": "The view that the moral worth of an action depends only on its outcomes" },
+        { "term": "Utility", "definition": "A general term for well-being, happiness, or preference satisfaction" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A single action at the center branching into a forest of downstream consequences, some golden, some dark, like a decision tree"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Bentham vs. Mill",
+      "body": "Bentham treated all pleasures as equal — push-pin was as good as poetry, as long as you enjoyed it equally. His student John Stuart Mill disagreed. Mill argued that some pleasures are 'higher': the satisfaction of reading Shakespeare outranks the satisfaction of eating donuts, even if the donut-eater insists otherwise. 'Better Socrates dissatisfied than a pig satisfied,' Mill wrote.",
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "Split composition: left half shows a plate of donuts, right half an open volume of Shakespeare, a thin scale hovering between them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where the math breaks",
+      "body": "Pure utilitarianism can justify disturbing things. If harvesting one healthy patient's organs would save five dying ones, the numbers say do it. If a small lie about a reliable witness would convict a guilty murderer, the numbers say lie. Most people reject these conclusions — which suggests we care about rights, fairness, and honesty in ways that can't be reduced to a happiness total.",
+      "funFact": "Bentham left instructions to preserve his body as an 'auto-icon' — a seated display still wheeled into University College London meetings, where his presence is formally recorded as 'present but not voting.'",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "Hospital corridor with five beds glowing warmly, one bed shadowed ominously, tight cinematic framing"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A theory you can't escape",
+      "body": "Even people who reject utilitarianism think in utilitarian ways when stakes get big — public health officials rationing vaccines, militaries calculating acceptable losses, governments doing cost-benefit analyses on highway safety. The moral question isn't whether we should ever weigh consequences. It's whether consequences are the only thing we should weigh.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In utilitarian ethics, what makes an action right?",
+      "options": [
+        "That it follows a moral rule",
+        "That it produces the greatest overall happiness",
+        "That it respects rights regardless of outcomes",
+        "That it is done from a sense of duty"
+      ],
+      "correctIndex": 1,
+      "explanation": "Utilitarianism judges actions by the happiness (utility) they create — nothing else is morally relevant."
+    },
+    {
+      "index": 1,
+      "question": "Where did Mill disagree with Bentham?",
+      "options": [
+        "Mill believed in divine commands, Bentham didn't",
+        "Mill argued some pleasures are higher quality than others",
+        "Mill rejected consequentialism entirely",
+        "Mill only counted the pleasure of philosophers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mill introduced a qualitative distinction: intellectual or moral pleasures outrank mere physical ones, even if the latter are more intense."
+    },
+    {
+      "index": 2,
+      "question": "The 'transplant surgeon' thought experiment is meant to show that utilitarianism can seem to demand...",
+      "options": [
+        "Killing one person to save five",
+        "Always telling the truth",
+        "Respecting rights absolutely",
+        "Acting from duty alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "If only outcomes matter, sacrificing one life to save five looks justified — an unsettling conclusion most people reject."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An Introduction to the Principles of Morals and Legislation",
+      "publisher": "Jeremy Bentham",
+      "year": 1789
+    },
+    {
+      "title": "Utilitarianism",
+      "publisher": "John Stuart Mill (Parker, Son & Bourn)",
+      "year": 1863
+    }
+  ],
+
+  "related": ["kantian-ethics", "trolley-problem", "effective-altruism"]
+}

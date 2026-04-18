@@ -1,0 +1,141 @@
+{
+  "id": "why-we-yawn",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Yawn (and Why It's Contagious)",
+    "teaser": "Reading this sentence just made some of you yawn. Nobody knows exactly why — but we have very good guesses.",
+    "category": "Evolutionary Biology",
+    "subcategories": ["Animal Behavior", "Neuroscience"],
+    "tags": ["yawning", "empathy", "thermoregulation", "mirror-neurons", "primates"],
+    "emoji": "🥱",
+    "accentColor": "#C7A17A",
+    "coverSymbol": {
+      "sfSymbol": "mouth.fill",
+      "fallbackEmoji": "🥱"
+    },
+    "coverImagePrompt": "Close-up cinematic portrait of a lion in mid-yawn, teeth glinting in morning savanna light, dust particles drifting around its mane, shallow focus"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A 200-million-year-old tic",
+      "body": "Fish yawn. Snakes yawn. Parakeets, penguins, chimps, and unborn human babies in the womb all yawn. Whatever a yawn is for, it's so ancient it predates mammals. And yet, despite centuries of speculation, scientists still don't fully agree on what it does.",
+      "visual": {
+        "sfSymbol": "fossil.shell.fill",
+        "imagePrompt": "A crocodile at the edge of a sunlit river stretching its jaws in a wide yawn, water droplets catching light, nature documentary style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The brain-cooling hypothesis",
+      "body": "The current leading theory is that yawning cools the brain. A big inhalation floods the sinuses with cool air, the jaw stretch pumps blood out of the skull, and fresh blood rushes in. Brain temperature briefly drops. Studies have shown that people yawn less in very hot weather (when outside air would warm, not cool, the brain) and more when holding an ice pack to their forehead — exactly what the theory predicts.",
+      "keyTerms": [
+        { "term": "Thermoregulation", "definition": "The body's system for keeping internal temperature within a narrow range" },
+        { "term": "Cerebral temperature", "definition": "The working temperature of brain tissue, closely regulated for optimal function" }
+      ],
+      "visual": {
+        "sfSymbol": "thermometer.snowflake",
+        "imagePrompt": "Stylized anatomical illustration of a human head with cool blue air entering via nose and warm red blood leaving the skull during a yawn"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it spreads",
+      "body": "Contagious yawning is almost uniquely social. It's been documented in humans, chimpanzees, bonobos, wolves, dogs, and even some parrots — but not in strangers as readily as in close kin. The leading explanation ties it to mirror neurons: the same brain circuits that help you feel what another is feeling also make your jaw twitch when theirs does. It's a marker of social connection, strongest in beings who live in tight groups.",
+      "visual": {
+        "sfSymbol": "person.2.wave.2.fill",
+        "imagePrompt": "Chimpanzee troop in forest foliage, one mid-yawn, another beginning to yawn in response, soft green dappled light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The empathy connection",
+      "body": "In humans, susceptibility to contagious yawning correlates with scores on empathy tests. People on the autism spectrum yawn contagiously less often. Toddlers under four — whose empathy is still developing — rarely catch yawns at all. And dogs yawn back most frequently when the yawn comes from their owner, not a stranger. Yawning may not just reveal empathy; it may help build it.",
+      "funFact": "Reading or even just thinking about yawning triggers yawns in a majority of people — the only known reflex you can set off by imagining it.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "Split scene of a human and their golden retriever making eye contact as both yawn simultaneously, warm cozy interior"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An old reflex with new jobs",
+      "body": "Yawning likely started as a simple physiological maintenance trick — maybe cooling, maybe stretching the lungs, maybe resetting vigilance. Somewhere along the evolutionary line, social animals co-opted it for communication, too. Today's contagious yawn is a tiny fossil of both stories: an ancient reflex, repurposed as a silent ping between close companions.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which animals have been observed to yawn?",
+      "options": [
+        "Only mammals",
+        "Only primates",
+        "A huge range — from fish to humans",
+        "Only species that live in groups"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yawning appears across vertebrates, including fish, reptiles, and birds — suggesting it's very ancient."
+    },
+    {
+      "index": 1,
+      "question": "What does the leading modern theory say yawning does?",
+      "options": [
+        "Boosts blood oxygen levels",
+        "Cools the brain",
+        "Clears earwax",
+        "Signals submission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Evidence points to a thermoregulatory role: the stretch and deep inhale cool the brain slightly."
+    },
+    {
+      "index": 2,
+      "question": "Who is least likely to 'catch' a yawn from someone else?",
+      "options": [
+        "An adult with close friends in the room",
+        "A toddler under four years old",
+        "A dog watching its owner yawn",
+        "A chimpanzee in its own troop"
+      ],
+      "correctIndex": 1,
+      "explanation": "Contagious yawning tracks social and empathic development — and doesn't fully kick in until around age four."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Yawning as a Brain Cooling Mechanism",
+      "publisher": "Physiology & Behavior (Gallup & Gallup)",
+      "year": 2007
+    },
+    {
+      "title": "Contagious yawning and the frontal lobe",
+      "publisher": "Current Biology (Brown et al.)",
+      "year": 2017
+    }
+  ],
+
+  "related": ["mirror-neurons", "empathy-evolution", "sleep-regulation"]
+}

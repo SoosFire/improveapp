@@ -1,0 +1,131 @@
+{
+  "id": "why-airplane-food-tastes-bland",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Airplane Food Tastes Bland",
+    "teaser": "It's not the chef. It's your tongue losing 30% of its power at 35,000 feet.",
+    "category": "Travel",
+    "subcategories": ["Aviation", "Food Science"],
+    "tags": ["airplane", "taste", "cabin pressure", "umami", "flight"],
+    "emoji": "✈️",
+    "accentColor": "#5C7AE4",
+    "coverSymbol": {
+      "sfSymbol": "airplane",
+      "fallbackEmoji": "🍱"
+    },
+    "coverImagePrompt": "An overhead shot of a pale tray of airplane food on a fold-down tray table, small window beside it showing clouds glowing orange at sunset, subdued cabin lighting, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Not the chef's fault",
+      "body": "Here's a strange fact. When Lufthansa caterers serve their top tomato-juice recipe to a focus group in a restaurant, barely anyone orders it. Serve the exact same juice on a plane, and suddenly it's one of the most-requested drinks in the sky — around 1.8 million liters poured per year. The recipe didn't change. Your body did.",
+      "visual": {
+        "sfSymbol": "wineglass.fill",
+        "imagePrompt": "A glass of tomato juice on an airline tray table, condensation on the rim, soft window light, clean editorial product shot"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the cabin does to your senses",
+      "body": "Cruising cabins are pressurized to roughly 6,000–8,000 feet of altitude — about like standing on a Colorado mountain. Humidity drops to around 12%, drier than the Sahara. Ambient noise hovers around 85 decibels. Each of these changes individually nudges your perception of flavor. Stacked together, they rewire it.",
+      "keyTerms": [
+        { "term": "Cabin altitude", "definition": "The simulated elevation pressure of an aircraft cabin at cruise, typically 6,000–8,000 ft" },
+        { "term": "Umami", "definition": "The savory fifth taste, driven largely by glutamates in foods like tomato and cheese" }
+      ],
+      "visual": {
+        "sfSymbol": "gauge.with.needle",
+        "imagePrompt": "A stylized cross-section of an airliner cabin with annotated arrows for pressure, humidity, and noise, infographic style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why sweet and salty fade",
+      "body": "A 2010 Fraunhofer Institute study found that in simulated flight conditions, your sensitivity to sweet and salty tastes drops by about 30%. Dry air shrinks your mucous membranes, dulling the olfactory epithelium in the back of your nose where most of 'flavor' actually happens. Low pressure reduces aroma volatility. Noise further suppresses sweet perception through a phenomenon called sensory masking.",
+      "visual": {
+        "sfSymbol": "tongue",
+        "imagePrompt": "A cross-section of a tongue and nasal passage with glowing taste zones dimmed to 70% brightness, scientific illustration with soft gradients"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why umami wins",
+      "body": "Not every taste gets hammered equally. Umami and sour hold up remarkably well at altitude. That's why tomato juice — packed with glutamates — suddenly tastes brighter and more savory in the sky than on the ground. Airlines have exploited this for decades: they over-salt meals, load them with glutamate-rich ingredients, and lean on sharp, acidic dressings. A meal designed for altitude tastes aggressive at sea level.",
+      "funFact": "Composer Ben Houge has designed entire 'sonic seasonings' for airlines — specific sound frequencies piped through headphones that measurably enhance perceived sweetness and bitterness.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A bar chart of taste sensitivity at altitude with sweet and salty bars shortened and umami standing tall, minimal modern infographic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What to order, what to skip",
+      "body": "Next flight: skip the complex wine — tannins taste harsh and fruit notes disappear. Skip delicate desserts. Order the spicy pasta, the tomato-based dish, the strong cheese, anything salty or umami-heavy. And if you're packing snacks, aged cheddar beats chocolate. It's not just the food up there — it's a different body eating it.",
+      "visual": {
+        "sfSymbol": "fork.knife",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly how much does sensitivity to sweet and salty drop at cruising altitude?",
+      "options": ["5%", "15%", "30%", "60%"],
+      "correctIndex": 2,
+      "explanation": "The Fraunhofer study measured an approximate 30% reduction in both sweet and salty perception at simulated flight conditions."
+    },
+    {
+      "index": 1,
+      "question": "Which taste holds up best at cabin altitude?",
+      "options": ["Sweet", "Salty", "Umami", "Bitter"],
+      "correctIndex": 2,
+      "explanation": "Umami — the savory taste from glutamates — remains strong at altitude, which is why tomato juice is so popular on flights."
+    },
+    {
+      "index": 2,
+      "question": "Why does dry cabin air dull flavor?",
+      "options": [
+        "It dehydrates the tongue",
+        "It shrinks the olfactory membranes in the nose",
+        "It makes food cool faster",
+        "It evaporates the food's salt content"
+      ],
+      "correctIndex": 1,
+      "explanation": "About 80% of 'flavor' is actually smell. Dry air dries out nasal membranes, reducing aroma detection."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Effect of cabin conditions on food and beverage perception",
+      "publisher": "Fraunhofer Institute for Building Physics",
+      "year": 2010
+    },
+    {
+      "title": "The taste of airline food",
+      "publisher": "Flavour Journal (Charles Spence)",
+      "year": 2017
+    }
+  ],
+
+  "related": ["umami", "noise-and-taste", "cabin-pressure"]
+}

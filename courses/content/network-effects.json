@@ -1,0 +1,136 @@
+{
+  "id": "network-effects",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Network Effects: Why Winners Take All",
+    "teaser": "Why does everyone use the same messaging app — even when a better one exists two taps away?",
+    "category": "Business",
+    "subcategories": ["Economics", "Technology"],
+    "tags": ["network-effects", "platforms", "economics", "tech"],
+    "emoji": "🌐",
+    "accentColor": "#0071E3",
+    "coverSymbol": {
+      "sfSymbol": "network",
+      "fallbackEmoji": "🌐"
+    },
+    "coverImagePrompt": "A glowing web of interconnected nodes pulsing with light, some nodes massive and bright, others dim and drifting to the edges, dark background, cinematic tech aesthetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The app you can't replace",
+      "body": "Your country probably has one dominant messaging app that nobody really chose. It's just where everyone already is — so you're there too. You've hit the wall of a network effect: a product whose value comes less from the product itself than from everyone else using it.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A phone screen showing a single messaging app icon surrounded by gray, unused alternatives, soft glow on the chosen one"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Metcalfe's Law",
+      "body": "Computer scientist Robert Metcalfe proposed that a network's value scales with the square of its users. Two users = one connection. Ten users = 45 connections. A million users = half a trillion. Double the users, quadruple the value. The implications are brutal for second-place.",
+      "keyTerms": [
+        { "term": "Network effect", "definition": "When each additional user makes the product more valuable for everyone else" },
+        { "term": "Metcalfe's Law", "definition": "The idea that a network's value grows roughly with n² (n = number of users)" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A graph climbing a quadratic curve, the x-axis labeled 'users' and y-axis 'value', neon line glowing on a grid"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why losers disappear",
+      "body": "Network effects create flywheels. More users attract more users. The product improves faster. Competitors can't catch up just by being better — they have to be dramatically better to justify the switching cost. That's why telecoms, credit cards, and social networks tend toward monopoly: once a network pulls ahead, it pulls away.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Two competing networks visualized, one a bright dense cluster swallowing new dots, the other a dimming, fraying web"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The Fax paradox",
+      "body": "A single fax machine is useless. Ten are mildly useful. Ten thousand are indispensable. Businesses in the 1980s faced a painful decision: buy early, when almost no one had one, or buy late and be stuck phoning for a copy. Every platform since — from credit cards to Uber — has replayed this same bootstrap problem. Solving it is worth billions.",
+      "funFact": "Uber launched by flying black cars to tech conferences — manufacturing the illusion of density until real density followed.",
+      "visual": {
+        "sfSymbol": "scanner",
+        "imagePrompt": "A lone 1980s fax machine on an empty office desk, humming blue light, beside it a phone being held by a frustrated hand"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The moat made of people",
+      "body": "Network effects are the strongest moat in business, because they're built out of other people, not code or capital. They explain why old incumbents seem unstoppable — and why the rare collapse, like MySpace or Yahoo, feels so jarring. Once a network starts unraveling, the same math runs in reverse.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to Metcalfe's Law, how does a network's value grow with its users?",
+      "options": ["Linearly", "Proportional to n²", "Logarithmically", "Exponentially as 2^n"],
+      "correctIndex": 1,
+      "explanation": "Value scales roughly with the square of the number of users — the number of possible connections."
+    },
+    {
+      "index": 1,
+      "question": "What's the 'cold start' problem for a network product?",
+      "options": [
+        "The servers won't turn on",
+        "Nobody joins because nobody's there yet",
+        "The app takes too long to load",
+        "The founders can't agree on a name"
+      ],
+      "correctIndex": 1,
+      "explanation": "Networks are only valuable when others are on them, so early products face a chicken-and-egg bootstrapping problem."
+    },
+    {
+      "index": 2,
+      "question": "Why are network effects considered such a strong business moat?",
+      "options": [
+        "They're protected by patents",
+        "Value grows faster than competitors can catch up, and switching costs rise with size",
+        "They require expensive hardware",
+        "Governments always regulate them"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the network grows, it becomes exponentially more valuable and harder to leave, making competitors' uphill climb nearly vertical."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Information Rules: A Strategic Guide to the Network Economy",
+      "publisher": "Harvard Business School Press (Shapiro & Varian)",
+      "year": 1999
+    },
+    {
+      "title": "The Cold Start Problem",
+      "publisher": "HarperBusiness (Andrew Chen)",
+      "year": 2021
+    }
+  ],
+
+  "related": ["platform-economics", "winner-take-all", "metcalfes-law"]
+}

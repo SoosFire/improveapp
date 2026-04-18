@@ -1,0 +1,129 @@
+{
+  "id": "why-humans-cry",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Humans Are the Only Animals That Cry",
+    "teaser": "Dogs howl. Elephants grieve. But only humans produce tears from feeling. Nobody is quite sure why we do it.",
+    "category": "Evolutionary Biology",
+    "subcategories": ["Human Behavior", "Emotions"],
+    "tags": ["evolution", "emotions", "crying", "behavior", "humans"],
+    "emoji": "😢",
+    "accentColor": "#3C6E91",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "💧"
+    },
+    "coverImagePrompt": "A soft-focus close-up of a single tear tracing down a cheek, catching warm golden light, emotional, painterly, cinematic portrait"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Alone in the animal kingdom",
+      "body": "Many animals vocalize when distressed. Many have tear ducts. But no other species we know of produces tears in response to emotion. Elephants secrete eye fluid from stress, seals leak from reflex — neither one is sobbing at a sunset. Emotional crying appears to be a uniquely human invention, and scientists are still arguing about why.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A human face and an elephant face side by side in soft gallery lighting, both with glistening eyes, conceptual photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three kinds of tears",
+      "body": "Biologist William Frey divided tears into three categories: basal tears (constant lubrication), reflex tears (from onions, smoke, a poke), and emotional tears. Chemically, the third kind is different. Emotional tears contain higher levels of stress hormones like cortisol and a natural painkiller called leucine-enkephalin. Something unusual is getting flushed out.",
+      "keyTerms": [
+        { "term": "Basal tears", "definition": "The thin fluid film that keeps your eyes moist all day" },
+        { "term": "Emotional tears", "definition": "Tears triggered by feeling, with distinct hormonal content" }
+      ],
+      "visual": {
+        "sfSymbol": "drop.triangle.fill",
+        "imagePrompt": "Three small beakers labeled basal, reflex, emotional, each with a different colored liquid, clean studio infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A signal only we can read",
+      "body": "One leading theory: tears evolved as a social signal. A crying face is hard to fake convincingly and impossible to hide. Tears visibly soften the features, blur the eyes, and — crucially — silence aggression in onlookers. In one study, men shown images of women both dry-eyed and teary reported less sexual arousal and more sympathy toward the tearful faces. Tears may be a chemical white flag.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A mother comforting a crying child, photographed from a neutral onlooker's viewpoint, natural window light"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The chemistry of a smell-free smell",
+      "body": "In 2011, researcher Shani Gelstein collected women's emotional tears and let men sniff them. The men couldn't detect any odor — but their testosterone levels dropped and brain regions linked to arousal dimmed. The experiment was controlled against saline with the same trickle. Something in real tears, invisible to the nose, was doing chemical work.",
+      "funFact": "Human babies cry without tears until they're about a month old. Newborn wailing is pure sound — the tear plumbing takes a few weeks to come online.",
+      "visual": {
+        "sfSymbol": "nose.fill",
+        "imagePrompt": "A scientist holding a small vial of clear fluid up to the light, laboratory setting, documentary style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A superpower disguised as weakness",
+      "body": "Crying is embarrassing, slightly messy, and famously difficult to fake. That's probably why it works. In an ape species that lives or dies by its social bonds, an honest signal of need may be one of the most useful things a face can do. Tears aren't a glitch in our armor. They're part of the operating system.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is unique about emotional tears compared to reflex tears?",
+      "options": [
+        "They are saltier",
+        "They contain different hormones and proteins",
+        "They come from a different gland",
+        "They are colored slightly blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emotional tears contain more cortisol and natural painkillers like leucine-enkephalin."
+    },
+    {
+      "index": 1,
+      "question": "What did Gelstein's 2011 tear-sniffing study find?",
+      "options": [
+        "Tears contain pheromones that increase attraction",
+        "Men couldn't tell any difference from saline",
+        "Sniffing tears reduced men's testosterone and arousal",
+        "Tears stimulated aggression"
+      ],
+      "correctIndex": 2,
+      "explanation": "Real emotional tears — though odorless — lowered testosterone and arousal responses in men."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Human tears contain a chemosignal",
+      "publisher": "Science",
+      "year": 2011
+    },
+    {
+      "title": "Is crying a self-soothing behavior?",
+      "publisher": "Frontiers in Psychology",
+      "year": 2014
+    }
+  ],
+
+  "related": ["peacock-tails-evolution", "laughter-evolution", "human-emotions"]
+}

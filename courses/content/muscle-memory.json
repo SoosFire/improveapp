@@ -1,0 +1,136 @@
+{
+  "id": "muscle-memory",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Muscle Memory Really Is",
+    "teaser": "Your muscles remember. Literally. Scientists found cells that keep a permanent record of every workout you've ever done.",
+    "category": "Fitness",
+    "subcategories": ["Strength", "Physiology"],
+    "tags": ["muscle", "memory", "training", "myonuclei", "strength"],
+    "emoji": "💪",
+    "accentColor": "#2A9D8F",
+    "coverSymbol": {
+      "sfSymbol": "figure.strengthtraining.traditional",
+      "fallbackEmoji": "💪"
+    },
+    "coverImagePrompt": "Close-up of a bicep flexing with a translucent overlay showing muscle fibers and glowing nuclei, scientific illustration blended with dramatic studio lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The gym comeback cheat code",
+      "body": "You haven't lifted in two years. You walk back into the gym expecting to start from zero. Three weeks later, you're almost back where you left off. Meanwhile, your friend who's never lifted is still on pink dumbbells. That's not confidence. That's a biological trick stored inside your actual muscle cells.",
+      "visual": {
+        "sfSymbol": "dumbbell.fill",
+        "imagePrompt": "Two gym-goers lifting side by side, one confident and strong, one struggling with small weights, warm gym lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two kinds of memory",
+      "body": "When people say 'muscle memory' they usually mean two different things. One is neural — the motor patterns your brain and spinal cord have burned in, which is why you still ride a bike after 20 years. The other is cellular — something your muscle cells themselves hold onto. The second kind is newer, weirder, and far more interesting.",
+      "keyTerms": [
+        { "term": "Motor memory", "definition": "Skill patterns stored by the nervous system" },
+        { "term": "Myonuclei", "definition": "Nuclei inside muscle fibers that control protein production" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "Split illustration: left side brain with glowing neural pathways, right side muscle fiber with glowing nuclei"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Nuclei that never leave",
+      "body": "Muscle fibers are giant cells — so big they need many nuclei to run. When you train hard, fibers recruit new nuclei from nearby stem cells called satellite cells. Here's the surprise: when you stop training and muscles shrink, those extra nuclei don't disappear. They wait. When you return to the gym, your fibers already have the machinery to rebuild fast.",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "Microscopic view of muscle fiber with nuclei dotted along it, some glowing brighter than others"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The mouse experiment that proved it",
+      "body": "A 2010 study by Kristian Gundersen's team at the University of Oslo bulked up mouse muscles using a hormone, counted the added nuclei, then let the muscles atrophy. Even after the muscles shrank back, the extra nuclei remained for months — in mouse terms, effectively for life. Later human studies suggest the same mechanism works in us, and may be why people who trained young rebuild strength faster later on.",
+      "funFact": "This finding has raised uncomfortable questions about doping — athletes who used steroids years ago may still carry that 'nuclear bonus' long after the drugs cleared.",
+      "visual": {
+        "sfSymbol": "microbe.fill",
+        "imagePrompt": "Scientific lab illustration of muscle tissue samples under fluorescent microscopy, nuclei glowing blue"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Nothing you built is ever wasted",
+      "body": "Every set you've ever done — every push-up in college, every sport season — deposited something your body still owns. Life gets in the way; muscles shrink. But the foundation is still there, patient, waiting. That's not motivation fluff. It's cell biology. You're not starting over. You're waking something up.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What are myonuclei?",
+      "options": [
+        "Brain cells dedicated to balance",
+        "Nuclei inside muscle fibers that control protein production",
+        "A type of workout machine",
+        "Tiny muscles in the inner ear"
+      ],
+      "correctIndex": 1,
+      "explanation": "Myonuclei live inside muscle fibers and act as the command centers for growth."
+    },
+    {
+      "index": 1,
+      "question": "What happens to extra myonuclei when a trained muscle shrinks?",
+      "options": [
+        "They die off immediately",
+        "They turn into fat",
+        "They persist for a very long time",
+        "They migrate to the brain"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Oslo mouse studies showed extra nuclei stick around for months — effectively giving a long-term 'muscle memory.'"
+    },
+    {
+      "index": 2,
+      "question": "Which 'muscle memory' is responsible for still being able to ride a bike?",
+      "options": ["Cellular memory", "Motor (neural) memory", "Immune memory", "Genetic memory"],
+      "correctIndex": 1,
+      "explanation": "That's motor memory — skill patterns stored in the brain and spinal cord, not in the muscle itself."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Myonuclei Acquired by Overload Exercise Precede Hypertrophy and Are Not Lost on Detraining",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2010
+    },
+    {
+      "title": "Muscle memory and a new cellular model for muscle atrophy and hypertrophy",
+      "publisher": "Journal of Experimental Biology",
+      "year": 2016
+    }
+  ],
+
+  "related": ["vo2-max", "progressive-overload", "satellite-cells"]
+}

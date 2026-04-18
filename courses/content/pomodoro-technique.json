@@ -1,0 +1,126 @@
+{
+  "id": "pomodoro-technique",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Pomodoro Technique",
+    "teaser": "A 1980s Italian student set a tomato-shaped kitchen timer to 25 minutes — and accidentally invented the most famous focus hack on Earth.",
+    "category": "Productivity",
+    "subcategories": ["Focus", "Time Management"],
+    "tags": ["productivity", "focus", "time-management", "deep-work", "pomodoro"],
+    "emoji": "🍅",
+    "accentColor": "#D64545",
+    "coverSymbol": {
+      "sfSymbol": "hourglass",
+      "fallbackEmoji": "⏲️"
+    },
+    "coverImagePrompt": "A red tomato-shaped kitchen timer on a clean wooden desk next to an open notebook and a cup of coffee, warm daylight, minimalist and inviting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A tomato that runs the world",
+      "body": "In the late 1980s, an Italian university student named Francesco Cirillo was drowning in study material and couldn't focus. He grabbed the nearest kitchen timer — shaped like a tomato, 'pomodoro' in Italian — and made himself a deal: just 10 minutes of real focus. It worked. The technique he eventually codified now runs through workplaces, study halls, and apps worldwide.",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": "A close-up of a retro red tomato kitchen timer mid-tick, shallow depth of field, nostalgic feel"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The four-step rhythm",
+      "body": "The method is almost embarrassingly simple. Pick one task. Set a timer for 25 minutes. Work until it rings — no phone, no email, no tab-switching. Then take a 5-minute break. After four rounds, take a longer break of 15 to 30 minutes. That 25-minute block is one 'pomodoro.'",
+      "keyTerms": [
+        { "term": "Pomodoro", "definition": "A single 25-minute focused work block, named after the tomato-shaped kitchen timer" },
+        { "term": "Deep work", "definition": "Focused, uninterrupted cognitive effort on a demanding task" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "An infographic showing four 25-minute blocks with 5-minute gaps and a longer break at the end, clean flat design"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why 25 minutes hits different",
+      "body": "A pomodoro is short enough that starting feels painless — you can always survive 25 minutes. It's long enough that your brain has time to drop into deep focus. And because the end is visible and near, you're less tempted to check your phone 'just for a second.' The forced break afterward isn't a nicety; it's what prevents the burnout spiral that long unbroken work sessions cause.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A warmly lit illustration of a focused person at a desk with a clock face glowing above their head, suggesting flow state"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Protect the timer",
+      "body": "The rule most people break is the most important one: if you get interrupted during a pomodoro, it doesn't count. Start over. That small consequence teaches your brain that the block is sacred — and over weeks, your ability to focus for longer stretches grows. Start with one pomodoro a day. See what happens.",
+      "funFact": "Cirillo's original method required writing each pomodoro as a tick mark on paper — a ritual that research suggests reinforces the habit through physical feedback.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How long is a single pomodoro?",
+      "options": ["15 minutes", "25 minutes", "45 minutes", "60 minutes"],
+      "correctIndex": 1,
+      "explanation": "One pomodoro is a 25-minute focused work block, followed by a 5-minute break."
+    },
+    {
+      "index": 1,
+      "question": "What should you do after completing four pomodoros?",
+      "options": [
+        "Stop for the day",
+        "Take a longer 15-30 minute break",
+        "Start a new task without pause",
+        "Switch to a different timer length"
+      ],
+      "correctIndex": 1,
+      "explanation": "After four pomodoros, the method calls for a longer break of 15 to 30 minutes to allow deeper recovery."
+    },
+    {
+      "index": 2,
+      "question": "What happens if you get interrupted during a pomodoro?",
+      "options": [
+        "Pause the timer and resume later",
+        "Extend the block by 5 minutes",
+        "The pomodoro doesn't count — start over",
+        "Finish early"
+      ],
+      "correctIndex": 2,
+      "explanation": "The strict rule is that an interrupted pomodoro is void. Starting over teaches your brain to protect the focus block."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Pomodoro Technique: The Acclaimed Time-Management System",
+      "publisher": "Currency",
+      "year": 2018
+    },
+    {
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "publisher": "Grand Central Publishing",
+      "year": 2016
+    }
+  ],
+
+  "related": ["deep-work", "parkinsons-law", "time-blocking"]
+}

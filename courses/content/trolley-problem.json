@@ -1,0 +1,145 @@
+{
+  "id": "trolley-problem",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Trolley Problem",
+    "teaser": "One death to save five. Would you pull the lever? Would you push a stranger off a bridge? The difference might reveal how morality actually works.",
+    "category": "Philosophy",
+    "subcategories": ["Ethics", "Moral Philosophy"],
+    "tags": ["ethics", "trolley problem", "utilitarianism", "philippa foot", "moral psychology"],
+    "emoji": "🚋",
+    "accentColor": "#B23A48",
+    "coverSymbol": {
+      "sfSymbol": "tram.fill",
+      "fallbackEmoji": "🚋"
+    },
+    "coverImagePrompt": "A vintage trolley speeding down a set of tracks that split in two, a lone figure standing at a lever in dramatic late-afternoon light, cinematic, high tension"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Five lives or one",
+      "body": "A runaway trolley is speeding down the tracks toward five workers who can't hear it coming. You're standing beside a lever. Pull it, and the trolley diverts onto a side track — where it will kill one person instead. Do nothing, and five die. Do something, and you've killed a stranger. What's the right choice, and why?",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A tense aerial shot of trolley tracks splitting in a Y-shape, five workers on one branch, one worker on the other, a hand hovering over a lever"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Foot's original puzzle",
+      "body": "The thought experiment was invented in 1967 by British philosopher Philippa Foot, who used it to probe the ethics of abortion and the doctrine of double effect. A student named Judith Jarvis Thomson later added the now-famous twist: what if, instead of pulling a lever, you had to physically push a large stranger off a footbridge to stop the trolley? The math is identical — one death, five lives saved. But almost everyone who'd pull the lever refuses to push.",
+      "keyTerms": [
+        { "term": "Trolley problem", "definition": "A thought experiment comparing scenarios where sacrificing one life could save several" },
+        { "term": "Doctrine of double effect", "definition": "The ethical principle that harm caused as a side effect can be more permissible than harm intended as a means" }
+      ],
+      "visual": {
+        "sfSymbol": "questionmark.diamond.fill",
+        "imagePrompt": "Two illustrated panels side by side: one showing a person pulling a lever, one showing a person hesitating on a footbridge, stark comic-style art"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two moral traditions collide",
+      "body": "Utilitarians, following Jeremy Bentham, say the right act is whatever produces the best outcome. Five lives beats one — pull the lever, push the man, don't flinch. Deontologists, following Immanuel Kant, say some acts are forbidden regardless of outcome: you cannot use a person as a mere means to an end. The trolley problem exposes how deeply most of us hold both intuitions at once, and how uncomfortable it is when they disagree.",
+      "keyTerms": [
+        { "term": "Utilitarianism", "definition": "The ethical view that actions are right in proportion to how much well-being they produce" },
+        { "term": "Deontology", "definition": "The ethical view that certain acts are right or wrong independent of their consequences" }
+      ],
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": "An old brass scale with a tiny figure on one side and five figures on the other, philosophical portraits of Bentham and Kant watching from the background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Your brain has two answers",
+      "body": "Neuroscientist Joshua Greene ran fMRI studies of people working through both versions. The impersonal lever case activates regions associated with cool, deliberate reasoning. The push-from-the-bridge case lights up emotional centers — the same ones involved in direct harm. We seem to have two moral systems: a calculator and a conscience. The trolley problem forces them into the same room.",
+      "funFact": "Self-driving car engineers now face real trolley problems in code — how to program a vehicle choosing between unavoidable collisions. MIT's 'Moral Machine' project collected 40 million decisions across 233 countries.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A split-screen brain scan, one half showing cool blue activation in reasoning areas, the other showing vivid red activation in emotional regions"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The point isn't the answer",
+      "body": "There is no 'correct' answer to the trolley problem — that's the point. It's a stethoscope, not a quiz. It lets you listen to the different moral voices inside yourself and notice where they disagree. Every time you decide how much a stranger's life is worth, how much means justify ends, how much feelings should override logic, you're solving your own private trolley problem.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who first introduced the trolley problem?",
+      "options": [
+        "Immanuel Kant",
+        "Philippa Foot",
+        "Judith Jarvis Thomson",
+        "Jeremy Bentham"
+      ],
+      "correctIndex": 1,
+      "explanation": "Philippa Foot introduced the thought experiment in a 1967 paper; Thomson later extended it with the footbridge variant."
+    },
+    {
+      "index": 1,
+      "question": "Which ethical view says outcomes are what determine right action?",
+      "options": [
+        "Deontology",
+        "Virtue ethics",
+        "Utilitarianism",
+        "Existentialism"
+      ],
+      "correctIndex": 2,
+      "explanation": "Utilitarianism, rooted in Bentham, evaluates acts by the well-being they produce — making 'save five, lose one' the clear choice."
+    },
+    {
+      "index": 2,
+      "question": "Why do most people pull the lever but refuse to push a stranger off a bridge?",
+      "options": [
+        "The math is different",
+        "Direct physical harm engages emotional brain regions more strongly",
+        "The bridge version saves fewer lives",
+        "They can't reach the stranger"
+      ],
+      "correctIndex": 1,
+      "explanation": "Greene's fMRI studies show personal, direct harm activates emotional circuits more than impersonal, lever-based choices."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Problem of Abortion and the Doctrine of the Double Effect",
+      "publisher": "Oxford Review",
+      "year": 1967
+    },
+    {
+      "title": "Moral Tribes: Emotion, Reason, and the Gap Between Us and Them",
+      "publisher": "Penguin Press",
+      "year": 2013
+    }
+  ],
+
+  "related": ["stoicism-basics", "ship-of-theseus", "utilitarianism"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "t-rex-tiny-arms",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why T. Rex Had Such Tiny Arms",
+    "teaser": "The biggest land predator that ever walked had arms you couldn't touch your own face with. Paleontologists have a theory.",
+    "category": "Paleontology",
+    "subcategories": ["Dinosaurs", "Anatomy"],
+    "tags": ["t-rex", "dinosaurs", "evolution", "anatomy", "predator"],
+    "emoji": "🦖",
+    "accentColor": "#C44A3C",
+    "coverSymbol": {
+      "sfSymbol": "pawprint.fill",
+      "fallbackEmoji": "🦖"
+    },
+    "coverImagePrompt": "A Tyrannosaurus rex seen from a low angle with massive head and thighs, comically small arms tucked against its chest, dramatic overcast sky, cinematic paleoart"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A skull the size of a car",
+      "body": "A fully grown Tyrannosaurus rex was around 12 meters long and weighed as much as two elephants. Its head alone measured 1.5 meters, its bite could crush bone, and its thigh bone was the size of a park bench. And yet its arms? Barely longer than a human's — on a body 30 times heavier.",
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "Scale comparison of a T. rex skeleton next to a human figure, emphasizing the enormous skull and femur against its tiny forelimbs"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Small but not weak",
+      "body": "T. rex arms were about a meter long with just two clawed fingers. Looks can deceive: those arms had thick bone walls and large attachment points for biceps. Bite-mark studies and bone geometry suggest each arm could curl around 200 kilograms — strong enough to hold a struggling animal.",
+      "keyTerms": [
+        { "term": "Forelimb", "definition": "The front limbs of a four-limbed vertebrate; in dinosaurs, the equivalent of arms" },
+        { "term": "Vestigial", "definition": "A structure retained in an organism but reduced in size or function over evolution" }
+      ],
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "Close-up of a T. rex forelimb skeleton with two fingers, muscle attachment areas highlighted, annotated paleoart"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why not bigger?",
+      "body": "One widely discussed idea is that long arms would have been a liability. When multiple T. rex gathered to feed on a carcass, thrashing heads and crushing jaws flew in every direction. Short arms kept out of the way. Another factor is physics: a massive skull needed a counterweighted tail and a lean, fast-moving upper body. Heavy forelimbs would have wrecked the balance.",
+      "visual": {
+        "sfSymbol": "arrow.left.and.right",
+        "imagePrompt": "Diagram showing T. rex body plan with labeled center of gravity, powerful legs, heavy tail counterbalance, light forelimbs"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The family story",
+      "body": "T. rex wasn't the first in its line with shrinking arms — the trend started tens of millions of years earlier in smaller tyrannosaurs. Over time, as the head got bigger and bite force dominated the hunt, forelimbs quietly dwindled. Modern biomechanical models suggest T. rex used its jaws for nearly everything: grabbing, ripping, killing. The arms became a secondary tool, maybe for pinning small prey or helping the animal get up off the ground.",
+      "funFact": "In 2017, researchers proposed T. rex used its arms for 'vicious slashing' with its sharp claws — but the idea is debated, and most paleontologists think they were a leftover, not a weapon.",
+      "visual": {
+        "sfSymbol": "arrow.down.right.and.arrow.up.left",
+        "imagePrompt": "A phylogenetic tree of tyrannosaur species showing heads growing and arms shrinking over evolutionary time, infographic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Big heads, little hands",
+      "body": "Evolution doesn't polish creatures to perfection — it balances trade-offs. T. rex's arms look silly to us because they didn't need to impress us. They needed to stay out of the way of the most powerful jaw on land.",
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many functional fingers did a T. rex have on each hand?",
+      "options": ["One", "Two", "Three", "Four"],
+      "correctIndex": 1,
+      "explanation": "T. rex had just two clawed fingers on each forelimb — a further reduction from earlier dinosaurs with three."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is a leading hypothesis for the tiny arms?",
+      "options": [
+        "They were designed for flight",
+        "They kept out of the way during feeding and preserved balance",
+        "They housed an extra stomach",
+        "They never fully developed in the embryo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Short arms avoided damage during feeding frenzies, and a smaller front end kept the massive head balanced over the hips."
+    },
+    {
+      "index": 2,
+      "question": "When did tyrannosaur arms start shrinking?",
+      "options": [
+        "Only in T. rex itself",
+        "Millions of years before T. rex, in its ancestors",
+        "After the K-Pg extinction",
+        "During embryonic development only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arm reduction was a long evolutionary trend; earlier tyrannosaur species already showed smaller forelimbs."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tyrannosaurus rex Arms: A Functional Analysis",
+      "publisher": "Acta Palaeontologica Polonica",
+      "year": 2019
+    },
+    {
+      "title": "The Evolution of Tyrannosauroid Dinosaurs",
+      "publisher": "Science",
+      "year": 2012
+    }
+  ],
+
+  "related": ["feathered-dinosaurs", "permian-extinction", "how-fossils-form"]
+}

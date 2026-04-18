@@ -1,0 +1,132 @@
+{
+  "id": "exposure-triangle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Exposure Triangle",
+    "teaser": "Three dials. Endless photos. Master the triangle and your camera stops being a mystery box.",
+    "category": "Photography",
+    "subcategories": ["Fundamentals", "Technique"],
+    "tags": ["aperture", "shutter speed", "iso", "exposure", "basics"],
+    "emoji": "📷",
+    "accentColor": "#2F4858",
+    "coverSymbol": {
+      "sfSymbol": "camera.aperture",
+      "fallbackEmoji": "📷"
+    },
+    "coverImagePrompt": "A vintage film camera on a wooden desk with a glowing aperture iris, three dials labeled ISO, shutter, aperture softly lit from above, cinematic product shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why is my photo too dark?",
+      "body": "You point your camera at a sunset, press the shutter, and get a muddy black rectangle. Point it at a snowy field and everything glows like a nuclear blast. Your eyes had no problem. Your camera is confused. The reason is a beautiful little negotiation called the exposure triangle — and once you see it, you see it everywhere.",
+      "visual": {
+        "sfSymbol": "camera.fill",
+        "imagePrompt": "A split-screen photo: left side a pitch-black sunset, right side a blown-out snow scene, dramatic comparison"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three sliders, one bucket",
+      "body": "Imagine filling a bucket with light. You have three taps: aperture (how wide the opening is), shutter speed (how long the tap runs), and ISO (how sensitive the bucket is to what it catches). A 'correct' exposure is just the right amount of water. Changing one tap means adjusting the others — which is where the art begins.",
+      "keyTerms": [
+        { "term": "Aperture", "definition": "The size of the lens opening, measured in f-stops like f/2.8 or f/16" },
+        { "term": "Shutter speed", "definition": "How long the sensor is exposed to light, like 1/500 s or 1 s" },
+        { "term": "ISO", "definition": "The sensor's sensitivity to light — higher ISO brightens dark scenes but adds noise" }
+      ],
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "An elegant triangle diagram with aperture, shutter, and ISO at each corner, each icon gently glowing"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Each dial has a side effect",
+      "body": "The triangle isn't just about brightness — each dial trades one thing for another. A wide aperture (small f-number) brightens the photo but blurs the background. A slow shutter lets in more light but turns moving subjects into streaks. A high ISO salvages low light but sprinkles noisy grain across your image. Every photo you love made a choice about which trade-off mattered most.",
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "Three horizontal sliders labeled aperture, shutter, ISO with visual examples of each effect floating beside them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The same scene, three photos",
+      "body": "Imagine a coffee cup on a café table by a window. With a wide f/1.8, the cup is crisp and the window behind it melts into dreamy blur. Switch to f/16 and suddenly the entire café is in focus. Same scene, same light — just one dial. Pro photographers don't see camera settings; they see the emotional decision each dial makes.",
+      "funFact": "An f-stop is actually a ratio: f/2 means the aperture diameter equals the focal length divided by 2. That's why the numbers look weird — they're fractions in disguise.",
+      "visual": {
+        "sfSymbol": "photo.on.rectangle.angled",
+        "imagePrompt": "Three photos of the same coffee cup by a window, each with different depth of field, side by side"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You are the triangle",
+      "body": "Your camera's auto mode is just a committee deciding the triangle for you. Learning manual mode isn't about being a snob — it's about the moment you realize every image is a choice, and you start making it. Once the triangle clicks, you don't think about exposure anymore. You just take the picture you meant to take.",
+      "visual": {
+        "sfSymbol": "hand.tap.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which setting controls how long light hits the sensor?",
+      "options": ["Aperture", "Shutter speed", "ISO", "White balance"],
+      "correctIndex": 1,
+      "explanation": "Shutter speed controls the duration of light exposure — shorter freezes motion, longer captures it as blur."
+    },
+    {
+      "index": 1,
+      "question": "What is a common side effect of using a very high ISO?",
+      "options": [
+        "Darker photos",
+        "Motion blur",
+        "Grainy noise",
+        "Warmer colors"
+      ],
+      "correctIndex": 2,
+      "explanation": "Raising ISO amplifies the signal from the sensor — and amplifies its noise, giving photos a grainy look."
+    },
+    {
+      "index": 2,
+      "question": "Which aperture gives you the blurriest background?",
+      "options": ["f/1.8", "f/5.6", "f/11", "f/22"],
+      "correctIndex": 0,
+      "explanation": "A smaller f-number means a wider opening, shallower depth of field, and a creamier background blur."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Understanding Exposure, Fourth Edition",
+      "publisher": "Amphoto Books",
+      "year": 2016
+    },
+    {
+      "title": "The Digital Photography Book: Part 1",
+      "publisher": "Peachpit Press",
+      "year": 2013
+    }
+  ],
+
+  "related": ["depth-of-field", "golden-hour-photography", "first-photograph"]
+}

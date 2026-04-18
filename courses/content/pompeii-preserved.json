@@ -1,0 +1,136 @@
+{
+  "id": "pompeii-preserved",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Pompeii Was Frozen in Time",
+    "teaser": "A city of 20,000 vanished in 18 hours — and was preserved so perfectly that loaves of bread still sit in the ovens.",
+    "category": "Archaeology",
+    "subcategories": ["Roman Empire", "Volcanology"],
+    "tags": ["pompeii", "vesuvius", "roman", "volcano", "disaster"],
+    "emoji": "🌋",
+    "accentColor": "#8B3A2F",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🌋"
+    },
+    "coverImagePrompt": "Mount Vesuvius erupting behind the ruins of Pompeii at twilight, columns still standing, ash-laden wind bending cypress trees, dramatic cinematic light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A city eating lunch when the sky turned black",
+      "body": "In the autumn of 79 CE, Pompeii was a thriving Roman resort town of roughly 20,000 people. Bakers were pulling bread from ovens. A dog was chained in a courtyard. A family was finishing eggs and figs. Then Mount Vesuvius exploded with the force of 100,000 Hiroshima bombs — and everyday life stopped mid-bite.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A bustling Roman street market, sky darkening overhead as ash begins to fall on terracotta rooftops"
+      }
+    },
+    {
+      "index": 1,
+      "type": "explanation",
+      "title": "Two different killers",
+      "body": "Vesuvius didn't kill Pompeii with lava. First came an 18-hour hailstorm of pumice and ash, piling 9 feet deep and collapsing roofs. Then — around sunrise the next morning — pyroclastic surges arrived: waves of 250°C gas and ash moving at 450 mph. Nobody outdoors survived them. They killed in seconds.",
+      "keyTerms": [
+        { "term": "Pumice", "definition": "Light volcanic rock full of gas bubbles, rained down in the first phase" },
+        { "term": "Pyroclastic surge", "definition": "A fast-moving cloud of hot gas and ash from a volcanic eruption" }
+      ],
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "Diagram of a pyroclastic surge racing down Vesuvius toward Pompeii at dawn, glowing orange beneath black clouds"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Hollow ghosts in the ash",
+      "body": "As bodies decomposed inside the hardened ash, they left human-shaped voids behind. In 1863, archaeologist Giuseppe Fiorelli had a brilliant idea: pour liquid plaster into the cavities. When it dried, the ash was chipped away — revealing perfect casts of the dead, frozen in their final postures. A mother shielding her child. Two lovers embracing. A dog writhing against its leash.",
+      "funFact": "More than 100 casts have been made; modern versions use translucent epoxy so scientists can see the bones inside.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "Plaster cast of a Pompeii victim curled on their side, soft museum lighting on ashen texture"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A time capsule of Roman life",
+      "body": "Because Pompeii was buried so fast and so deep, we have things that shouldn't survive anywhere else: carbonized bread with the baker's stamp, graffiti insulting politicians, frescoes with paint still vivid, brothel menus, fish-sauce factories, political campaign posters. Pompeii is not mostly a city of the dead — it's a city of the everyday.",
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "A wall of ancient graffiti scratched into red plaster, Latin letters catching raking sunlight"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The volcano that gave us Rome",
+      "body": "Nearly everything we know about ordinary Roman life — what they ate, joked about, complained about — comes from Pompeii and its sister town Herculaneum. The disaster was catastrophic for the people of 79 CE. For historians, it's the closest thing to a live broadcast from the ancient world. And Vesuvius is still active.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What actually killed most of Pompeii's residents?",
+      "options": [
+        "Lava flows",
+        "Pyroclastic surges of hot gas and ash",
+        "Drowning in flood waters",
+        "Earthquakes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pyroclastic surges — 250°C clouds moving at highway speeds — killed everyone caught outside within seconds."
+    },
+    {
+      "index": 1,
+      "question": "How did Giuseppe Fiorelli create the famous casts of victims?",
+      "options": [
+        "He reconstructed them from bones",
+        "He poured plaster into voids left in the ash",
+        "He scanned them with X-rays",
+        "He sculpted them from descriptions"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1863, Fiorelli poured plaster into the cavities left by decomposed bodies, capturing their exact final postures."
+    },
+    {
+      "index": 2,
+      "question": "What year did Vesuvius bury Pompeii?",
+      "options": ["79 BCE", "79 CE", "179 CE", "279 CE"],
+      "correctIndex": 1,
+      "explanation": "The eruption occurred in autumn 79 CE, burying Pompeii and Herculaneum in pumice and ash."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Pompeii: The Life of a Roman Town",
+      "publisher": "Mary Beard, Profile Books",
+      "year": 2008
+    },
+    {
+      "title": "The AD 79 eruption at Mt. Vesuvius: a review of the last 300 years of research",
+      "publisher": "Earth-Science Reviews",
+      "year": 2019
+    }
+  ],
+
+  "related": ["herculaneum-papyri", "roman-daily-life", "volcano-science"]
+}

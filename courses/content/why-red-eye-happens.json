@@ -1,0 +1,131 @@
+{
+  "id": "why-red-eye-happens",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Flash Photos Give You Red Eyes",
+    "teaser": "That creepy glow in old birthday photos is literally a picture of the inside of your eyeball.",
+    "category": "Photography",
+    "subcategories": ["Optics", "Flash"],
+    "tags": ["flash", "anatomy", "optics", "retina", "physics"],
+    "emoji": "👁️",
+    "accentColor": "#B23B3B",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "A vintage 90s birthday party photograph with the subjects' eyes glowing bright red from camera flash, warm nostalgic tones, slight grain"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why does Grandma look possessed?",
+      "body": "Every family photo album has them — beloved relatives with glowing red demon eyes staring out from a birthday cake. It's not a haunting, a bad camera, or your lens. That eerie red glow is, quite literally, a photograph of the back of the inside of somebody's eye.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A vintage flash photo of three people around a birthday cake, all with glowing red pupils, faded color print"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The flash is a telescope",
+      "body": "When a camera fires a flash at someone's face, the pupil is the only way into a dark, wet chamber called the eyeball. Light races through the pupil, bounces off the highly vascular retina at the back, and exits the pupil straight back toward the camera. That blood-rich reflection is why the returning light glows red.",
+      "keyTerms": [
+        { "term": "Retina", "definition": "The light-sensitive layer at the back of the eye, filled with blood vessels" },
+        { "term": "Pupil", "definition": "The dark opening in the center of your iris that lets light in" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.circle.fill",
+        "imagePrompt": "An anatomical diagram of light entering a pupil, bouncing off a red retina, and exiting back toward a camera"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why only cheap flashes do it",
+      "body": "Red eye mostly happens when the flash is near the lens — exactly where compact cameras and phones put it. Professional photographers hold their flash off-camera, so the light enters the pupil at an angle and bounces away from the lens. Modern phones dodge the problem by firing a pre-flash: the pupil closes before the real photo. Less light gets in, less red comes back.",
+      "visual": {
+        "sfSymbol": "camera.badge.ellipsis",
+        "imagePrompt": "A diagram comparing on-camera flash (red eye bounces straight back) vs off-camera flash (bounce angled away)"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Cats glow for a different reason",
+      "body": "If you've ever seen a cat's eyes glow green or yellow in a photo, you've spotted something unusual: a *tapetum lucidum*, a mirror-like layer behind the retina that boosts night vision. Humans don't have one, so we just get the reddish hue of our own blood vessels. Red eye isn't a glitch — it's a tiny anatomy lesson printed in your photo.",
+      "funFact": "In some rare cases, a single eye glowing white instead of red in a photo can be an early sign of a serious eye condition called retinoblastoma — which is why pediatricians sometimes ask to see family snapshots.",
+      "visual": {
+        "sfSymbol": "cat.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why does red-eye appear red?",
+      "options": [
+        "Cameras add red color to bright spots",
+        "Light reflects off the blood-rich retina",
+        "The iris turns red in bright light",
+        "Human tears have red pigment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The flash passes through the pupil and bounces off the retina's blood-rich surface, tinting the returning light red."
+    },
+    {
+      "index": 1,
+      "question": "Why is red-eye more common with compact cameras and phones?",
+      "options": [
+        "Their sensors are too sensitive",
+        "The flash is very close to the lens",
+        "They use brighter flashes",
+        "Their shutters fire too slowly"
+      ],
+      "correctIndex": 1,
+      "explanation": "When the flash sits right next to the lens, reflected light comes straight back into the camera — causing red-eye."
+    },
+    {
+      "index": 2,
+      "question": "Why do cats' eyes glow in photos instead of going red?",
+      "options": [
+        "They have bigger pupils",
+        "Cats have a reflective layer called the tapetum lucidum",
+        "Their blood is a different color",
+        "They blink faster than the flash"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cats (and many nocturnal animals) have a reflective layer behind the retina that amplifies low light — and makes their eyes glow on camera."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Clinical Optics and Refraction",
+      "publisher": "Butterworth-Heinemann",
+      "year": 2008
+    },
+    {
+      "title": "Photograph Red Reflex Screening for Retinoblastoma",
+      "publisher": "JAMA Ophthalmology",
+      "year": 2013
+    }
+  ],
+
+  "related": ["exposure-triangle", "depth-of-field", "golden-hour-photography"]
+}

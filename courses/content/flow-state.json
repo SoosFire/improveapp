@@ -1,0 +1,141 @@
+{
+  "id": "flow-state",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Flow State",
+    "teaser": "That magic zone where hours vanish and you feel unstoppable — scientists have a name for it, and a recipe.",
+    "category": "Mindfulness & Meditation",
+    "subcategories": ["Psychology", "Performance"],
+    "tags": ["flow", "csikszentmihalyi", "focus", "performance", "dopamine"],
+    "emoji": "🎯",
+    "accentColor": "#C97B3E",
+    "coverSymbol": {
+      "sfSymbol": "figure.mind.and.body",
+      "fallbackEmoji": "🌊"
+    },
+    "coverImagePrompt": "A rock climber mid-move on a sunlit cliff face, every muscle taut with focus, golden hour light, world blurring at the edges, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The strange disappearance of time",
+      "body": "A painter looks up from her canvas and realizes it's dark outside. A climber reaches the top of a pitch with no memory of the moves. A programmer finishes a bug fix and wonders where lunch went. This peculiar state — total absorption, effortless focus, the self somehow dissolving — has a name. Psychologist Mihaly Csikszentmihalyi called it 'flow.'",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": "A painter's studio with the window shifting from daylight to dusk, canvas in foreground untouched by the passage of time"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The channel between boredom and anxiety",
+      "body": "Csikszentmihalyi mapped flow onto a simple diagram: challenge on one axis, skill on the other. Too much challenge for your skill? Anxiety. Too little? Boredom. But when the two rise together in a narrow channel — that's flow. You're stretched, but not torn.",
+      "keyTerms": [
+        { "term": "Flow", "definition": "A state of complete absorption in a challenging but manageable activity" },
+        { "term": "Autotelic", "definition": "An activity done for its own sake — flow's natural habitat" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "An elegant chart showing a diagonal flow channel between 'anxiety' and 'boredom' zones, minimalist data visualization"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What's happening in your brain",
+      "body": "During flow, the prefrontal cortex — your inner critic, your self-monitor — actually quiets down. Neuroscientists call this 'transient hypofrontality.' Meanwhile, a cocktail of dopamine, norepinephrine, endorphins, anandamide, and serotonin floods the brain. It's the single most potent neurochemical blend known to science. Which is why flow feels as good as it does.",
+      "funFact": "The same brain state happens to jazz musicians improvising, MRI scans reveal — their self-critical regions go dark while creativity centers light up.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A brain with glowing neural pathways, prefrontal cortex dimmed, cinematic scientific visualization"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The conditions you can actually engineer",
+      "body": "Flow isn't mystical — it has triggers. Clear goals (know exactly what 'done' looks like). Immediate feedback (so you can course-correct). Challenge slightly above your current skill (about 4% higher, according to one estimate). Uninterrupted focus — which is why notifications are flow's assassin. Surgeons, chess players, and rock climbers don't stumble into flow. They engineer it.",
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "A control panel with dials labeled 'challenge,' 'feedback,' and 'focus,' tuned to precise settings, warm analog aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The good news and the bad news",
+      "body": "The bad news: flow won't happen while you're half-watching a video and half-answering Slack. The good news: it's available to almost anyone, on almost any task, if you set the conditions. You don't need to be a SEAL or a surgeon. You need a real goal, real feedback, and a solid block of protected time. That's it. The rest is just practice.",
+      "visual": {
+        "sfSymbol": "arrow.up.forward.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'flow' in psychology?",
+      "options": [
+        "Abraham Maslow",
+        "Mihaly Csikszentmihalyi",
+        "Daniel Kahneman",
+        "Carl Jung"
+      ],
+      "correctIndex": 1,
+      "explanation": "Csikszentmihalyi introduced flow in his 1975 book 'Beyond Boredom and Anxiety' and his 1990 bestseller 'Flow.'"
+    },
+    {
+      "index": 1,
+      "question": "According to the flow model, what's needed to enter flow?",
+      "options": [
+        "Low challenge, high skill",
+        "High challenge, low skill",
+        "Challenge slightly above current skill",
+        "Perfect match between challenge and skill"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flow lives just above your comfort zone — challenging enough to stretch you, but not so hard that you spiral into anxiety."
+    },
+    {
+      "index": 2,
+      "question": "What brain change occurs during flow, called 'transient hypofrontality'?",
+      "options": [
+        "The whole brain becomes more active",
+        "The prefrontal cortex temporarily quiets down",
+        "The hippocampus shuts off",
+        "The brainstem takes over"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quieting the self-critical prefrontal cortex is why flow feels so effortless and timeless."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Flow: The Psychology of Optimal Experience",
+      "publisher": "Harper & Row",
+      "year": 1990
+    },
+    {
+      "title": "The Rise of Superman: Decoding the Science of Ultimate Human Performance",
+      "publisher": "New Harvest",
+      "year": 2014
+    }
+  ],
+
+  "related": ["deep-work", "dopamine-system", "deliberate-practice"]
+}

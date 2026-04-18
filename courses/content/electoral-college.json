@@ -1,0 +1,141 @@
+{
+  "id": "electoral-college",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the US Has an Electoral College",
+    "teaser": "Americans don't actually vote for president. They vote for 538 people you've never heard of, who then vote for president. Here's why.",
+    "category": "Political Science",
+    "subcategories": ["US Constitution", "Electoral Systems"],
+    "tags": ["electoral-college", "US-politics", "constitution", "elections", "federalism"],
+    "emoji": "🇺🇸",
+    "accentColor": "#1F3A68",
+    "coverSymbol": {
+      "sfSymbol": "flag.filled.and.flag.crossed",
+      "fallbackEmoji": "🗳️"
+    },
+    "coverImagePrompt": "An aged parchment map of the United States with glowing electoral vote numbers hovering over each state, candlelight, cinematic archival still"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Five times the loser won",
+      "body": "Five times in US history, a presidential candidate has lost the popular vote and still taken the White House. Twice in the last 25 years. The mechanism that makes this possible isn't a bug or a glitch. It's the system the founders specifically designed — and arguing about whether it still makes sense is an American tradition almost as old as the country.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "A presidential podium seen from low angle, spotlights crossing overhead, dramatic campaign photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How it actually works",
+      "body": "Each state gets a number of electors equal to its total members of Congress — two senators plus however many representatives. That's 538 electors in total (including three for DC), and 270 win. In 48 of the 50 states, whoever wins the state's popular vote wins all of that state's electors — a winner-take-all rule. Maine and Nebraska split theirs. Electors then formally cast the votes that officially choose the president.",
+      "keyTerms": [
+        { "term": "Elector", "definition": "A person formally appointed by a state to cast its electoral vote for president" },
+        { "term": "Winner-take-all", "definition": "The rule, used in 48 states, giving all a state's electors to its popular-vote winner" }
+      ],
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "Stylized US map with each state labeled by its electoral vote count, editorial infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the founders designed it that way",
+      "body": "At the 1787 Constitutional Convention, delegates were deadlocked. Some wanted Congress to pick the president. Others wanted a direct popular vote, but southern states feared they'd lose — their large enslaved populations couldn't vote but were counted (at three-fifths) for representation purposes, so an indirect system let that weight show up in the election. Smaller states wanted protection from domination by larger ones. The Electoral College was the compromise that bundled all of it: indirect election, state-by-state weighting, and a baseline of electors for every state regardless of size.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "Delegates in 18th-century dress debating around a long wooden table, candlelit room, painting style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What it does to modern elections",
+      "body": "Because most states reliably vote one way, campaigns now focus almost entirely on a handful of swing states — Pennsylvania, Michigan, Wisconsin, Arizona, Georgia, Nevada. Voters in California and Wyoming have wildly unequal weight: a Wyoming vote carries about 3.6 times the electoral weight of a California vote, because every state gets at least 3 electors regardless of population. Reform efforts, like the National Popular Vote Interstate Compact, have passed in states representing 209 electoral votes as of 2024 — but it only activates if enough states sign on to reach 270.",
+      "funFact": "The 12th Amendment was passed in 1804 specifically because the original design had a glaring flaw: in 1800, Thomas Jefferson and his running mate Aaron Burr tied, because there was no separate ballot for president and vice president.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis.ascending",
+        "imagePrompt": "Bar chart comparing voter weight across states, annotated with swing-state highlights"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not a glitch, but a choice",
+      "body": "The Electoral College survives because it advantages the states and parties that would need to agree to remove it. Whether you see it as a brilliant federalist safeguard or a broken relic of 1787, it's worth understanding clearly. Democracy's plumbing matters — and in America, the plumbing runs through 538 people meeting in 51 separate rooms.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many electoral votes are needed to win the presidency?",
+      "options": [
+        "218",
+        "270",
+        "435",
+        "538"
+      ],
+      "correctIndex": 1,
+      "explanation": "A majority of the 538 electors — 270 — is the threshold to win."
+    },
+    {
+      "index": 1,
+      "question": "What rule do 48 of the 50 states use to allocate electors?",
+      "options": [
+        "Proportional to vote share",
+        "Randomly assigned",
+        "Winner-take-all",
+        "By congressional district only"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 48 states plus DC, whoever wins the state's popular vote wins all of its electors; only Maine and Nebraska split theirs."
+    },
+    {
+      "index": 2,
+      "question": "Why did the 12th Amendment exist?",
+      "options": [
+        "To abolish the Electoral College",
+        "To fix the 1800 tie by creating separate ballots for president and vice president",
+        "To add DC to the count",
+        "To give each state 10 electors"
+      ],
+      "correctIndex": 1,
+      "explanation": "After the 1800 Jefferson–Burr tie exposed a flaw in the original design, the 12th Amendment separated the two offices on the ballot."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Federalist No. 68",
+      "publisher": "Public domain / various editions",
+      "year": 1788
+    },
+    {
+      "title": "The Electoral College: How It Works in Contemporary Presidential Elections",
+      "publisher": "Congressional Research Service",
+      "year": 2020
+    }
+  ],
+
+  "related": ["first-past-the-post", "national-popular-vote-compact", "constitutional-convention"]
+}

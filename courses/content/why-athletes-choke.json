@@ -1,0 +1,141 @@
+{
+  "id": "why-athletes-choke",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Elite Athletes Choke",
+    "teaser": "The better you are, the worse pressure hits you. The brain science behind the yips is strange.",
+    "category": "Sports",
+    "subcategories": ["Sports Psychology", "Neuroscience"],
+    "tags": ["choking", "pressure", "yips", "motor skills", "performance"],
+    "emoji": "🏌️",
+    "accentColor": "#2E8B57",
+    "coverSymbol": {
+      "sfSymbol": "figure.golf",
+      "fallbackEmoji": "⛳"
+    },
+    "coverImagePrompt": "A lone golfer standing over a three-foot putt at dusk, beads of sweat on the brow, crowd a blurred wall of colors behind, cinematic shallow focus, tension palpable"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Greg Norman, 1996 Masters",
+      "body": "Norman arrived at the final round of the Masters with a six-shot lead. By the back nine he was shaking. He shot a 78 — the worst final-round collapse in major championship history — and lost by five. Asked afterward what happened, he couldn't really say. His hands just wouldn't do what his hands had done a million times.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "A close-up of trembling hands gripping a golf club, green fairway blurred behind, late-afternoon golden hour"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two systems, one shot",
+      "body": "When you first learn a skill, your brain's explicit system runs the show — you consciously think through every step. Practice enough and the motion migrates to the implicit system in the basal ganglia and cerebellum, where it runs automatically and beautifully. Choking happens when pressure yanks the explicit system back into control of a skill that no longer needs it.",
+      "keyTerms": [
+        { "term": "Explicit system", "definition": "The conscious, step-by-step control of movement used by beginners" },
+        { "term": "Implicit system", "definition": "The automatic motor control that experts rely on, running below conscious awareness" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A stylized cross-section of a brain with two colored regions lighting up, labeled 'conscious' and 'automatic', scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Paralysis by analysis",
+      "body": "Psychologist Sian Beilock calls this 'explicit monitoring.' When the stakes rise, athletes start thinking about the mechanics — 'keep my left elbow straight, slow backswing, head down.' But those instructions are what you tell a novice. For an expert, micromanaging a skill you've automated is like trying to climb stairs while consciously directing each foot. You trip.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "Split-screen infographic: left side shows a smooth fluid swing motion, right side shows the same swing broken into fragmented joint angles"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The lab test",
+      "body": "Beilock's team had expert golfers putt under two conditions: once while paying attention to their stroke mechanics, once while counting random tones on a speaker. The tone-counters putted better. Distracting the explicit system actually freed the expert motion. Novices showed the opposite pattern — they needed conscious attention to do anything at all.",
+      "funFact": "Baseball's 'yips' have a name because the condition is so specific: established pros suddenly unable to throw the ball eighty feet to first base. Second basemen are hit hardest.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A laboratory with a golfer mid-putt wearing an EEG cap, researcher holding a clipboard behind translucent data graphs"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How pros trick themselves back",
+      "body": "The remedies are counterintuitive. Humming a single note, counting backwards, or focusing on a far-off target all occupy the explicit system enough that the automatic one can take over. Tiger Woods used to hum. Serena Williams bounced the ball a fixed number of times. The trick is giving your thinking brain just enough to do — so it stops meddling with the body's job.",
+      "visual": {
+        "sfSymbol": "music.note",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Under pressure, choking happens because which system hijacks the other?",
+      "options": [
+        "Implicit hijacks explicit",
+        "Explicit hijacks implicit",
+        "Both systems shut down simultaneously",
+        "Visual cortex overrides motor cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pressure drags the conscious explicit system back into control of a motor skill that has been successfully automated."
+    },
+    {
+      "index": 1,
+      "question": "In Sian Beilock's putting experiment, which expert group putted better?",
+      "options": [
+        "Those focusing on stroke mechanics",
+        "Those counting random tones",
+        "Those with eyes closed",
+        "Those verbally coached during the putt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distraction freed the implicit system — the counterintuitive result that has been replicated in multiple expert sports."
+    },
+    {
+      "index": 2,
+      "question": "Which is a documented on-course choking remedy?",
+      "options": [
+        "Listing every mechanic of the swing aloud",
+        "Humming or counting a simple tune",
+        "Staring directly at the ball for 30 seconds",
+        "Visualizing every possible miss"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simple rhythmic distractions occupy the explicit system enough to let automatic motor control execute unmolested."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Choke: What the Secrets of the Brain Reveal About Getting It Right When You Have To",
+      "publisher": "Free Press (Sian Beilock)",
+      "year": 2010
+    },
+    {
+      "title": "When paying attention becomes counterproductive",
+      "publisher": "Journal of Experimental Psychology: Applied",
+      "year": 2002
+    }
+  ],
+
+  "related": ["flow-state", "the-yips", "deliberate-practice"]
+}

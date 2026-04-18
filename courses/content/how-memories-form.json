@@ -1,0 +1,139 @@
+{
+  "id": "how-memories-form",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Memories Are Made",
+    "teaser": "Every memory you have is a pattern of proteins rebuilt from scratch — and rewritten a little every time you remember it.",
+    "category": "Neuroscience",
+    "subcategories": ["Memory", "Brain"],
+    "tags": ["memory", "hippocampus", "neurons", "synapses", "consolidation"],
+    "emoji": "🧠",
+    "accentColor": "#7A4FD9",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A glowing network of neurons inside a translucent human head, electric blue synapses firing in a cascading pattern, microscopic and cinematic, deep violet background"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The man with no new memories",
+      "body": "In 1953, a patient named Henry Molaison had parts of his brain removed to stop seizures. The surgery worked — but when he woke up, he could no longer form a single new long-term memory. He lived until 2008 forever stuck in the present, reintroducing himself to his doctors every day. His brain became the most studied organ in history, and it taught us almost everything we know about how memories are made.",
+      "visual": {
+        "sfSymbol": "clock.arrow.circlepath",
+        "imagePrompt": "A black-and-white medical portrait of a thoughtful middle-aged man in a 1960s hospital gown, soft window light, contemplative"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Memory isn't one thing",
+      "body": "Your brain keeps several types of memory in different places. Short-term memory lives in the prefrontal cortex — it holds a phone number for 30 seconds. Long-term facts and events pass through the hippocampus, a seahorse-shaped structure deep in the brain. Skills like riding a bike live in the cerebellum and basal ganglia, which is why you can still ride years later without consciously remembering how.",
+      "keyTerms": [
+        { "term": "Hippocampus", "definition": "A small structure deep in the brain critical for forming new long-term memories" },
+        { "term": "Consolidation", "definition": "The slow process of stabilizing a memory from short-term storage into long-term storage" }
+      ],
+      "visual": {
+        "sfSymbol": "brain",
+        "imagePrompt": "Anatomical cross-section of a brain with the hippocampus highlighted in vivid amber, other regions softly labeled"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Synapses that change",
+      "body": "At the cellular level, a memory is a physical change in the connections between neurons. When two neurons fire together repeatedly, the synapse between them gets stronger — neuroscientists call this long-term potentiation, or LTP. New receptors are built, new proteins are synthesized, and dendrites literally grow new spines. Your memory of your first kiss is, quite literally, a shape.",
+      "keyTerms": [
+        { "term": "Long-term potentiation (LTP)", "definition": "The lasting strengthening of a synapse after repeated activation — the cellular basis of learning" }
+      ],
+      "visual": {
+        "sfSymbol": "point.3.filled.connected.trianglepath.dotted",
+        "imagePrompt": "Two neurons with a glowing synapse between them, tiny new protein receptors building up in real time, electron-microscope aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Sleep is when it sticks",
+      "body": "While you sleep, your hippocampus replays the day at up to 20 times normal speed, firing the same neuron patterns that fired during experience. This 'replay' transfers memories into the cortex for long-term storage. Students who sleep after studying remember roughly 40% more than those who pull an all-nighter — and rats deprived of REM sleep lose newly learned mazes overnight.",
+      "funFact": "Every time you recall a memory, it becomes temporarily unstable and has to be re-saved — which means each recall slightly rewrites the original. Your oldest memories are the ones you've edited the most.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "A person sleeping with a soft glowing constellation of neurons firing above their head, dreamy pastel blues and purples"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Your past is a living document",
+      "body": "You don't 'store' memories like files on a hard drive. You rebuild them — fresh, every time — from fragments scattered across your brain. That's why memory is so personal, so vivid, and so unreliable. Remembering isn't playback. It's authorship.",
+      "visual": {
+        "sfSymbol": "pencil.and.scribble",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which brain region did Henry Molaison's surgery damage, preventing him from forming new memories?",
+      "options": ["Cerebellum", "Prefrontal cortex", "Hippocampus", "Amygdala"],
+      "correctIndex": 2,
+      "explanation": "Most of his hippocampus was removed, showing it's essential for forming new long-term declarative memories."
+    },
+    {
+      "index": 1,
+      "question": "What is long-term potentiation (LTP)?",
+      "options": [
+        "The brain's electrical background hum",
+        "The strengthening of synapses after repeated firing",
+        "A type of sleep stage",
+        "A memory-enhancing drug"
+      ],
+      "correctIndex": 1,
+      "explanation": "LTP is the cellular process where repeatedly active synapses become stronger — the biological basis of learning."
+    },
+    {
+      "index": 2,
+      "question": "What happens during sleep that helps memories 'stick'?",
+      "options": [
+        "The brain shuts off completely",
+        "The hippocampus replays the day's patterns, transferring them to the cortex",
+        "Synapses are pruned away",
+        "Neurons regenerate from scratch"
+      ],
+      "correctIndex": 1,
+      "explanation": "During sleep, especially slow-wave sleep, the hippocampus replays experiences, consolidating them into long-term cortical storage."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "In Search of Memory: The Emergence of a New Science of Mind",
+      "publisher": "W. W. Norton & Company",
+      "year": 2006
+    },
+    {
+      "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+      "publisher": "Scribner",
+      "year": 2017
+    }
+  ],
+
+  "related": ["deja-vu-science", "sleep-and-memory", "zeigarnik-effect"]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "inflation-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Inflation Actually Is",
+    "teaser": "Your grandparents bought coffee for a nickel. Same cup, same bean — so where did that nickel go?",
+    "category": "Economics",
+    "subcategories": ["Macroeconomics", "Money"],
+    "tags": ["inflation", "money", "economics", "central-banks", "prices"],
+    "emoji": "💸",
+    "accentColor": "#C49B3A",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.uptrend.xyaxis",
+      "fallbackEmoji": "📈"
+    },
+    "coverImagePrompt": "A dramatic close-up of a paper dollar bill curling and gently burning at one edge against a black background, warm cinematic lighting, symbolic financial photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The nickel coffee",
+      "body": "In 1920, a cup of coffee in a New York diner cost about five cents. Today that same cup runs close to five dollars. Is coffee a hundred times more useful, more delicious, more energy-giving than it was then? Of course not. The cup didn't change. The yardstick did. That slow shrinking of what a dollar buys is what economists call inflation.",
+      "visual": {
+        "sfSymbol": "cup.and.saucer.fill",
+        "imagePrompt": "A 1920s diner countertop with a nickel beside a steaming cup, dramatic lighting, sepia historical aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Too much money chasing too few goods",
+      "body": "Inflation is a general rise in the price level of an economy — not just one item, but a broad basket of them. The classic explanation is Milton Friedman's: 'Inflation is always and everywhere a monetary phenomenon.' If the amount of money in circulation grows faster than the goods and services available to buy, each unit of money is simply worth a little less.",
+      "keyTerms": [
+        { "term": "Inflation rate", "definition": "The annual percentage change in an index of consumer prices, usually the CPI" },
+        { "term": "CPI", "definition": "Consumer Price Index — a weighted basket of goods used to measure the cost of living" }
+      ],
+      "visual": {
+        "sfSymbol": "basket.fill",
+        "imagePrompt": "A shopping basket with everyday items — bread, milk, eggs — floating upward against price tags labelled CPI"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Demand-pull vs. cost-push",
+      "body": "Inflation comes from two sides. Demand-pull inflation happens when people want to buy more than the economy can produce — think of stimulus checks colliding with supply-chain shortages in 2021. Cost-push inflation happens when making things gets more expensive — a spike in oil prices, a bad harvest, a labor shortage. Central banks try to read which is which before they react.",
+      "keyTerms": [
+        { "term": "Demand-pull", "definition": "Inflation driven by spending growing faster than supply" },
+        { "term": "Cost-push", "definition": "Inflation driven by rising input costs like wages, fuel, or raw materials" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.arrow.down.circle.fill",
+        "imagePrompt": "A tug-of-war rope between two labeled teams — 'demand' and 'costs' — pulling on a giant dollar sign"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When inflation goes wild",
+      "body": "The Reichsbank printed so many marks during Weimar Germany's 1923 hyperinflation that prices doubled every three days; people carried cash in wheelbarrows and burned banknotes because firewood was more expensive. In 2008, Zimbabwe issued a hundred-trillion-dollar note that couldn't buy a loaf of bread. Both cases share the same root: governments printing money to pay bills they couldn't raise in taxes.",
+      "funFact": "A Zimbabwean hundred-trillion-dollar note, worthless in 2008, is now a collector's item that sells for more in US dollars than it was ever officially worth.",
+      "visual": {
+        "sfSymbol": "banknote.fill",
+        "imagePrompt": "A wheelbarrow overflowing with 1923 German Reichsmark banknotes on a cobblestone street, documentary-style photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why central banks obsess over 2%",
+      "body": "Most central banks target around 2% annual inflation — low enough that people don't feel their savings evaporating, high enough to give the economy room to grow and to keep the truly dangerous opposite — deflation — at bay. When inflation drifts, they raise or lower interest rates to cool or warm the economy. It's the thermostat of the modern financial world.",
+      "visual": {
+        "sfSymbol": "thermometer.medium",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of the following best defines inflation?",
+      "options": [
+        "A rise in the price of a single important good",
+        "A sustained general rise in prices across the economy",
+        "Any increase in a country's GDP",
+        "The growth rate of the stock market"
+      ],
+      "correctIndex": 1,
+      "explanation": "Inflation refers to a broad, sustained rise in the price level — not a single product."
+    },
+    {
+      "index": 1,
+      "question": "What kind of inflation happens when oil prices suddenly spike?",
+      "options": ["Demand-pull", "Cost-push", "Hyperinflation", "Deflation"],
+      "correctIndex": 1,
+      "explanation": "When the cost of inputs like fuel rises, producers pass that on as higher prices — classic cost-push inflation."
+    },
+    {
+      "index": 2,
+      "question": "Why do most central banks target about 2% inflation?",
+      "options": [
+        "To maximize government tax revenue",
+        "To keep deflation at bay while preserving savings",
+        "To match the rate of population growth",
+        "Because it matches historical average stock returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "A small positive rate keeps deflation risk low while letting savings hold most of their value."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Monetary History of the United States, 1867–1960",
+      "publisher": "Princeton University Press (Friedman & Schwartz)",
+      "year": 1963
+    },
+    {
+      "title": "World Economic Outlook: Inflation Report",
+      "publisher": "International Monetary Fund",
+      "year": 2023
+    }
+  ],
+
+  "related": ["comparative-advantage", "moral-hazard", "central-banks-explained"]
+}

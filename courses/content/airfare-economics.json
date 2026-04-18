@@ -1,0 +1,141 @@
+{
+  "id": "airfare-economics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Strange Economics of Airfare",
+    "teaser": "Why the person next to you paid $300 less for the same seat — and it has nothing to do with luck.",
+    "category": "Travel",
+    "subcategories": ["Economics", "Aviation"],
+    "tags": ["airfare", "pricing", "yield-management", "aviation", "economics"],
+    "emoji": "💸",
+    "accentColor": "#C29A56",
+    "coverSymbol": {
+      "sfSymbol": "dollarsign.circle.fill",
+      "fallbackEmoji": "💸"
+    },
+    "coverImagePrompt": "An airplane cabin cross-section with passengers in identical seats, glowing price tags above each head showing wildly different numbers, cinematic editorial illustration"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Same seat, same flight, seven prices",
+      "body": "You board a flight to London. The man in 14A paid $412. The woman in 14B paid $1,080. The kid in 14C, booked three months ago, paid $199. Nobody cheated anyone. Airlines just happen to run the most sophisticated price discrimination system ever built for a consumer product. It has a name: yield management.",
+      "visual": {
+        "sfSymbol": "seat.fill",
+        "imagePrompt": "A row of identical airline seats viewed from above, each with a floating animated price tag showing different amounts"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Every seat is a different product",
+      "body": "To an airline, seat 14B isn't a chair — it's a little expiring asset. The moment the plane doors close, every empty seat becomes worth exactly zero forever. So airlines sell the same physical seat in dozens of fare classes, each with different rules around refundability, change fees, and booking windows. You aren't buying a seat. You're buying a bundle of conditions.",
+      "keyTerms": [
+        { "term": "Yield management", "definition": "The science of dynamically pricing a perishable product to maximize total revenue" },
+        { "term": "Fare class", "definition": "A lettered category of ticket (e.g. Y, M, B, Q) with its own price and rules" }
+      ],
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "A stylized spreadsheet with rows of fare classes labeled Y, M, B, Q and changing price columns, editorial vector style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the algorithm reads you",
+      "body": "Airline pricing software now updates fares hundreds of times a day. It looks at how fast seats are filling, competitor prices on the same route, the day of the week, holidays, even how business-heavy the corridor is. Book a last-minute Tuesday flight on a major business route and the system correctly guesses you're a corporate traveler who won't negotiate. The price jumps.",
+      "visual": {
+        "sfSymbol": "server.rack",
+        "imagePrompt": "A humming data center with glowing server racks, streams of flight route data visualized as light trails"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The numbers behind the myth",
+      "body": "Researchers from Expedia and ARC analyzed billions of tickets and found the cheapest average fare window for international trips is 21 to 60 days out. The 'always book on a Tuesday' rule is mostly outdated — modern algorithms run 24/7. But booking weekend departures and midweek returns genuinely saves money, because airlines know leisure travelers cluster differently than business flyers.",
+      "funFact": "Some airlines deliberately leave a few seats unsold rather than discount them — an empty seat protects the perception that the flight is in demand.",
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A calendar grid with certain days highlighted in green and others in red, minimalist editorial style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're not being cheated — you're being measured",
+      "body": "The frustrating truth is that 'fair price' isn't really a concept airlines use. They want to charge each customer the maximum that customer will tolerate. The best you can do is give the algorithm less information: flexible dates, incognito searches, booking in the sweet-spot window, and resisting the urge to check obsessively. Sometimes the best hack is just waiting until Tuesday morning, coffee in hand, and committing.",
+      "visual": {
+        "sfSymbol": "wand.and.stars",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is yield management?",
+      "options": [
+        "A loyalty program for frequent flyers",
+        "A method of dynamically pricing perishable inventory to maximize revenue",
+        "The process of routing planes to minimize fuel use",
+        "An industry term for customer service quality"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yield management is the science of constantly adjusting prices on perishable inventory — like airline seats — to maximize total revenue."
+    },
+    {
+      "index": 1,
+      "question": "Why are empty seats especially costly for an airline?",
+      "options": [
+        "They still require full fuel to carry",
+        "Their value drops to zero the moment the plane door closes",
+        "They reduce the weight balance of the plane",
+        "They must be refunded to stockholders"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seats are perishable inventory: once the flight departs, any empty seat is worth zero revenue forever."
+    },
+    {
+      "index": 2,
+      "question": "Which booking window is generally cheapest for international flights?",
+      "options": [
+        "1–2 weeks before departure",
+        "21–60 days before departure",
+        "6 months before departure",
+        "The day of departure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large-scale ticket analyses consistently identify a 21–60 day window as the cheapest zone for international fares."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Air Travel Outlook Report",
+      "publisher": "Expedia Group & Airlines Reporting Corporation",
+      "year": 2023
+    },
+    {
+      "title": "Revenue Management: Hard-Core Tactics for Market Domination",
+      "publisher": "Robert Cross, Broadway Books",
+      "year": 1997
+    }
+  ],
+
+  "related": ["jet-lag-science", "dynamic-pricing", "airline-loyalty"]
+}

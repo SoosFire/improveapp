@@ -1,0 +1,131 @@
+{
+  "id": "viking-sunstone",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Viking Sunstone",
+    "teaser": "How did the Vikings navigate without a compass — even when the sun was hidden?",
+    "category": "History",
+    "subcategories": ["Viking Age", "Seafaring"],
+    "tags": ["vikings", "navigation", "optics", "medieval"],
+    "emoji": "🧭",
+    "accentColor": "#4A6FA5",
+    "coverSymbol": {
+      "sfSymbol": "sun.haze.fill",
+      "fallbackEmoji": "🌫️"
+    },
+    "coverImagePrompt": "A weathered Viking hand holding a translucent crystal up to an overcast Nordic sky, soft directional light beam refracting through the stone, cinematic, painterly, moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A mystery on the open sea",
+      "body": "For centuries, Vikings sailed from Norway to Greenland — across open ocean, without a compass, often through weeks of fog and overcast skies. So how did they find their way? The Icelandic sagas mention a mysterious 'sólarsteinn' — a sunstone — said to reveal the sun's position even when it was hidden.",
+      "visual": {
+        "sfSymbol": "cloud.fog.fill",
+        "imagePrompt": "A Viking longship cutting through thick North Atlantic fog at dawn"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What is a sunstone?",
+      "body": "Researchers believe the sunstone was most likely a crystal of calcite (Iceland spar) — a transparent mineral found naturally on Iceland. What makes calcite special is that it splits light into two rays through a phenomenon called double refraction.",
+      "keyTerms": [
+        { "term": "Calcite", "definition": "A clear mineral (CaCO₃) that splits light into two rays" },
+        { "term": "Double refraction", "definition": "When a material splits a single beam of light into two" }
+      ],
+      "visual": {
+        "sfSymbol": "diamond.fill",
+        "imagePrompt": "A transparent Iceland spar crystal on dark wood, showing double refraction of text beneath it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the trick works",
+      "body": "Even through clouds, sunlight in the sky is polarized in a pattern that points toward the sun. When you hold a calcite crystal up to the sky and rotate it, the two light rays inside appear equally bright at the exact moment the stone points toward the sun. That's how a navigator could locate the sun — and therefore south — without ever seeing it directly.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Diagram showing polarized light patterns in the sky pointing toward a hidden sun, annotated with arrows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Proof from a shipwreck",
+      "body": "In 2013, researchers found a transparent calcite crystal aboard an English shipwreck from 1592 — centuries after the Viking Age, but clear evidence that navigators kept using the technique. Modern experiments have shown the method can pinpoint the sun's position to within one degree of accuracy.",
+      "funFact": "The crystal was buried alongside bronze navigation instruments — close enough that magnetism could have thrown off a compass.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "Archaeologists carefully extracting a cloudy crystal from a 16th-century shipwreck, underwater scene, dramatic lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it's still impressive",
+      "body": "The Vikings were using optical physics hundreds of years before the concept of 'polarization' was discovered in the 1800s. They didn't know *why* it worked — only that it did. It's a beautiful example of how practical know-how can run ahead of scientific explanation.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which mineral is the sunstone believed to have been made of?",
+      "options": ["Quartz", "Calcite (Iceland spar)", "Obsidian", "Amber"],
+      "correctIndex": 1,
+      "explanation": "Calcite is transparent, found naturally on Iceland, and displays double refraction — exactly the properties needed."
+    },
+    {
+      "index": 1,
+      "question": "What does the sunstone reveal that the naked eye cannot see directly?",
+      "options": [
+        "Earth's magnetic field",
+        "The position of stars during the day",
+        "The polarization of sky light",
+        "The direction of ocean currents"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sky light is polarized in a pattern that points toward the sun — even when the sun is hidden by clouds."
+    },
+    {
+      "index": 2,
+      "question": "How accurately can the method pinpoint the sun's position?",
+      "options": ["About 10°", "About 5°", "Under 1°", "Only very roughly"],
+      "correctIndex": 2,
+      "explanation": "Modern experiments have demonstrated accuracy of under one degree — better than many early compasses."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A depolarizer as a possible precise sunstone for Viking navigation",
+      "publisher": "Proceedings of the Royal Society A",
+      "year": 2011
+    },
+    {
+      "title": "Chance of a Viking sunstone discovery",
+      "publisher": "Proceedings of the Royal Society A",
+      "year": 2013
+    }
+  ],
+
+  "related": ["viking-longship", "polarized-light", "medieval-navigation"]
+}

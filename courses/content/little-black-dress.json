@@ -1,0 +1,141 @@
+{
+  "id": "little-black-dress",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Birth of the Little Black Dress",
+    "teaser": "Black used to mean mourning. Then one page in Vogue, 1926, declared a simple black shift 'a sort of uniform' for all women.",
+    "category": "Fashion",
+    "subcategories": ["Fashion History", "Iconic Garments"],
+    "tags": ["LBD", "Chanel", "fashion history", "1920s", "style"],
+    "emoji": "👗",
+    "accentColor": "#1A1A1A",
+    "coverSymbol": {
+      "sfSymbol": "tshirt.fill",
+      "fallbackEmoji": "👗"
+    },
+    "coverImagePrompt": "A 1920s Parisian atelier mannequin wearing a sleek black crepe chemise dress, soft art-deco wall lamps, pearls draped over a chair, glossy editorial lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "One sketch that changed everything",
+      "body": "In October 1926, American Vogue published a small line drawing of a simple black dress with long sleeves and a dropped waist. The caption called it 'The Chanel 'Ford' — the frock that all the world will wear.' Vogue was comparing it to the Model T: a democratic, mass-produced object of perfect function. That one sketch launched a garment that is still in nearly every wardrobe a hundred years later.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "An aged page from 1926 Vogue magazine showing a delicate ink sketch of a black dress, captioned in period typography, sepia archival feel"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why black was radical",
+      "body": "Before the 1920s, black clothing in Western fashion meant one thing: you were in mourning. Widows wore it for up to two years; even servants wore it as a signal of rank. For a designer to propose black as glamorous daywear was a cultural provocation — like turning a hospital gown into eveningwear. Coco Chanel reportedly said, 'I imposed black; it's still going strong today.'",
+      "keyTerms": [
+        { "term": "Mourning dress", "definition": "The strict black wardrobe Victorian and Edwardian women wore after a family death" },
+        { "term": "Chemise silhouette", "definition": "A loose, straight 1920s cut that skimmed rather than cinched the body" }
+      ],
+      "visual": {
+        "sfSymbol": "clock.arrow.circlepath",
+        "imagePrompt": "A split illustration: a Victorian widow in heavy black mourning crepe beside a 1920s flapper in a chic short black dress, contrasting the same color, same century"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Recession-proof genius",
+      "body": "Chanel's design was almost shockingly simple — no corset, no excess fabric, just a clean shape anyone could copy. That was the point. When the Great Depression hit in 1929, women could buy one quality black dress, swap the accessories, and suddenly have a wardrobe. It was fashion designed for a world that was running out of money but not out of occasions.",
+      "visual": {
+        "sfSymbol": "hanger",
+        "imagePrompt": "A single black dress on a wooden hanger beside a row of belts, scarves, and pearl strands, minimalist boutique aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From Chanel to Givenchy to Audrey",
+      "body": "The little black dress was cemented as icon in 1961, when Hubert de Givenchy dressed Audrey Hepburn in a floor-length black Italian satin sheath for the opening of 'Breakfast at Tiffany's'. That single costume became the most photographed dress of the 20th century — the original sold at auction in 2006 for £467,200 to fund an Indian children's charity.",
+      "funFact": "Givenchy actually designed three versions of the dress; the Hollywood costume department replaced the original with a more modest copy because the slit was considered too high.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "An elegant woman with an updo and long gloves silhouetted outside a glittering Fifth Avenue jewelry window at dawn, cinematic mid-century colors"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it never dies",
+      "body": "The little black dress survives because it does something most fashion refuses to do: get out of the way. It hides dirt, flatters most figures, photographs well, and can be made to look cheap or priceless depending on context. In a century that has demolished almost every other dress code, the LBD is the rare garment still accepted almost everywhere — funerals included.",
+      "visual": {
+        "sfSymbol": "star.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Vogue nickname Chanel's 1926 black dress?",
+      "options": [
+        "The Chanel Classic",
+        "The Chanel 'Ford'",
+        "The Little Number",
+        "The Paris Shift"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vogue compared its universal appeal to Ford's Model T, calling it 'the frock that all the world will wear.'"
+    },
+    {
+      "index": 1,
+      "question": "Before the 1920s, what did a black dress usually signal in Western Europe?",
+      "options": [
+        "Wealth",
+        "Mourning",
+        "Royalty",
+        "Celebration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black was the strict color code of Victorian and Edwardian mourning, which made Chanel's daywear use of it scandalous."
+    },
+    {
+      "index": 2,
+      "question": "Who designed the iconic LBD worn by Audrey Hepburn in 'Breakfast at Tiffany's'?",
+      "options": [
+        "Coco Chanel",
+        "Christian Dior",
+        "Hubert de Givenchy",
+        "Yves Saint Laurent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Givenchy designed Hepburn's satin sheath; the original sold at Christie's in 2006 for over £460,000."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Little Black Dress",
+      "publisher": "Victoria and Albert Museum",
+      "year": 2015
+    },
+    {
+      "title": "The Gospel According to Coco Chanel",
+      "publisher": "skirt!",
+      "year": 2010
+    }
+  ],
+
+  "related": ["why-men-stopped-wearing-heels", "wedding-white-tradition", "purple-royal-color"]
+}

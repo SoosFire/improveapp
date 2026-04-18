@@ -1,0 +1,136 @@
+{
+  "id": "how-to-start-fire-without-matches",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How to Start a Fire Without Matches",
+    "teaser": "Your ancestors made fire for 400,000 years without a lighter. Here's the method that actually works.",
+    "category": "Survival Skills",
+    "subcategories": ["Bushcraft", "Primitive Skills"],
+    "tags": ["fire", "survival", "bow drill", "friction", "tinder"],
+    "emoji": "🔥",
+    "accentColor": "#C8552E",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🪵"
+    },
+    "coverImagePrompt": "Close-up of weathered hands working a wooden bow drill in a dim forest clearing, a tiny curl of brown smoke rising from the notch, golden dusk light, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The problem isn't heat",
+      "body": "Most people who try friction fire in the wild fail in the same place. They work up a sweat, generate visible smoke, and then — nothing. No flame. They conclude fire from sticks is a myth. It isn't. The problem is almost never heat. It's that the rest of the fire chain was never prepared.",
+      "visual": {
+        "sfSymbol": "smoke.fill",
+        "imagePrompt": "Two exhausted hands resting on a friction fire set, thin smoke still rising from a blackened notch but no flame, late afternoon forest floor"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The fire triangle, in order",
+      "body": "Every fire needs three things in sequence: an ember, a tinder nest to nurture that ember into flame, and dry kindling stepping up in size from pencil-lead to finger-thick. Miss any one and the chain breaks. Beginners obsess over making the ember, then try to blow it into damp leaves. The ember dies in seconds.",
+      "keyTerms": [
+        { "term": "Ember", "definition": "A small glowing coal produced by friction or spark, not yet flaming" },
+        { "term": "Tinder nest", "definition": "A bird's-nest of fibrous dry material that catches an ember and blooms into flame" }
+      ],
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "A neatly laid-out ground spread showing an ember, a tinder nest, and three graduated sizes of kindling, overhead shot, field-guide aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The bow drill, explained",
+      "body": "The most reliable primitive method is the bow drill. A curved stick strung with a shoelace becomes a bow; it spins a vertical wooden spindle against a flat fireboard. Friction grinds dark, hot dust into a notch cut into the board. When the dust pile reaches about the size of a pea and smokes on its own, you have an ember. Stop drilling. Cup it gently into your tinder nest.",
+      "visual": {
+        "sfSymbol": "scribble.variable",
+        "imagePrompt": "Labeled technical illustration of a bow drill set with arrows indicating bow motion and ember collection in the notch, warm pencil-sketch style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the wood matters",
+      "body": "Not all wood works. You want soft, dry, dead-but-not-rotten wood for both spindle and board — cedar, willow, cottonwood, aspen. A good field test: can you dent it with your thumbnail? Harder woods like oak will polish rather than grind. And moisture is the killer. Even wood that feels dry holds atmospheric water; survival instructors often split standing dead branches to reach the bone-dry core.",
+      "funFact": "The world record for bow drill fire is under 6 seconds, set by bushcraft instructor Alan 'Bones' Halbert. Most beginners are thrilled if they manage it in 20 minutes.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A split piece of cedar showing pale dry heartwood inside a weathered exterior, laid on moss, natural light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Before you ever touch the drill",
+      "body": "The single highest-leverage thing a beginner can do is gather the fuel first. Thirty minutes of collecting tinder, fine kindling, and bigger sticks — sorted into piles by size, close at hand — doubles your chance of success. Fire-making is 80% preparation and 20% friction. Bad fire-makers fight the wood. Good ones set the table so the ember can simply walk onto it.",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do most bow-drill attempts fail even when the user generates smoke?",
+      "options": [
+        "The wood is too hot",
+        "The tinder and kindling weren't ready",
+        "The ember produced too much oxygen",
+        "Friction wasn't sustained long enough"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fragile ember dies in seconds without a prepared tinder nest and graduated kindling to catch it."
+    },
+    {
+      "index": 1,
+      "question": "Which wood is a poor choice for a bow-drill set?",
+      "options": ["Cedar", "Willow", "Oak", "Cottonwood"],
+      "correctIndex": 2,
+      "explanation": "Hard woods like oak polish rather than grind into hot dust. Soft, dry woods such as cedar or cottonwood are the standard."
+    },
+    {
+      "index": 2,
+      "question": "What's the visual sign that an ember has formed in the notch?",
+      "options": [
+        "A dust pile about the size of a pea that smokes on its own",
+        "A visible flame in the notch",
+        "The board cracking",
+        "The spindle turning black"
+      ],
+      "correctIndex": 0,
+      "explanation": "Self-sustaining smoke from a small dust pile means the dust has coalesced into a glowing coal ready for the tinder nest."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Bushcraft: Outdoor Skills and Wilderness Survival",
+      "publisher": "Lyons Press (Mors Kochanski)",
+      "year": 1987
+    },
+    {
+      "title": "Primitive Technology: A Book of Earth Skills",
+      "publisher": "Gibbs Smith (David Wescott, ed.)",
+      "year": 1999
+    }
+  ],
+
+  "related": ["tinder-bundles", "flint-and-steel", "wet-weather-fire"]
+}

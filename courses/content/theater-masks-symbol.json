@@ -1,0 +1,122 @@
+{
+  "id": "theater-masks-symbol",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Theater's Symbol Is Two Masks",
+    "teaser": "One grins, one weeps — and they've been glued together for 2,500 years. Who are they, really?",
+    "category": "Theater & Drama",
+    "subcategories": ["History", "Symbolism"],
+    "tags": ["greek theater", "masks", "mythology", "symbolism", "ancient"],
+    "emoji": "🎭",
+    "accentColor": "#8B2E2E",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "😂"
+    },
+    "coverImagePrompt": "Two ancient Greek marble masks on weathered stone — one laughing, one weeping — bathed in honey-gold sunset, olive tree shadows, amphitheater silhouette in the distance, cinematic, mythic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The oldest logo in showbiz",
+      "body": "Look at any theater marquee, acting award, or drama club t-shirt — and there they are. Two faces, one laughing and one crying, forever paired. This is arguably the oldest continuous logo in Western culture, predating the Nike swoosh by about 2,400 years. But where did it come from, and why two?",
+      "visual": {
+        "sfSymbol": "theatermasks.fill",
+        "imagePrompt": "Extreme close-up of two carved theatrical masks leaning against each other on dark velvet"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet Thalia and Melpomene",
+      "body": "The masks represent two of the nine Muses from Greek mythology — daughters of Zeus and Mnemosyne (Memory). Thalia is the Muse of comedy; her name means 'the blooming one.' Melpomene is the Muse of tragedy; her name means 'the chanting one.' Over centuries, their full bodies were stripped away in art until only their theatrical masks remained — a visual shorthand for an entire art form.",
+      "keyTerms": [
+        { "term": "Thalia", "definition": "Muse of comedy, traditionally shown with a smiling mask and a shepherd's crook" },
+        { "term": "Melpomene", "definition": "Muse of tragedy, shown with a weeping mask and sometimes a bloody sword" },
+        { "term": "Mnemosyne", "definition": "The mother of all nine Muses — goddess of memory" }
+      ],
+      "visual": {
+        "sfSymbol": "face.smiling.fill",
+        "imagePrompt": "A Renaissance fresco of Thalia and Melpomene, two goddesses holding their respective masks in a pastoral scene"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A practical origin",
+      "body": "Ancient Greek theaters seated up to 17,000 people — the back rows were a football field away. Actors wore oversized masks made of linen, cork, and plaster so that facial expressions could be 'read' from hundreds of meters. A smiling mask meant comedy, a downturned one meant tragedy, and the audience instantly knew the genre. The exaggerated mouths even acted as small megaphones, helping the voice carry.",
+      "funFact": "The Greek word for actor is 'hypokrités' — literally 'one who answers from behind a mask.' It's the origin of our word 'hypocrite.'",
+      "visual": {
+        "sfSymbol": "amphitheater",
+        "imagePrompt": "A sun-drenched Greek amphitheater at Epidaurus with a lone masked actor on the stone stage, audience in tiers"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Why the pairing endures",
+      "body": "We could have ended up with a single mask as theater's symbol. Instead, the pairing survived because it captures something truer than any one emotion — that drama is the collision of joy and sorrow, not either alone. Aristotle called tragedy and comedy the 'two pillars' of serious art. Modern psychologists would say we pay attention to faces more than any other image. Two masks, one mirroring the full spectrum of being human. That's why it still works.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which Muse represents comedy?",
+      "options": ["Melpomene", "Thalia", "Calliope", "Terpsichore"],
+      "correctIndex": 1,
+      "explanation": "Thalia — 'the blooming one' — is the Muse of comedy. Her sister Melpomene represents tragedy."
+    },
+    {
+      "index": 1,
+      "question": "What practical purpose did oversized Greek masks serve?",
+      "options": [
+        "They prevented disease",
+        "They amplified voices and signaled genre to distant audiences",
+        "They protected actors from stage props",
+        "They were required by religious law"
+      ],
+      "correctIndex": 1,
+      "explanation": "In amphitheaters holding 17,000 people, the exaggerated mouths helped project voice and clearly communicated comedy vs. tragedy."
+    },
+    {
+      "index": 2,
+      "question": "Which modern English word comes from the Greek for 'masked actor'?",
+      "options": ["Drama", "Protagonist", "Hypocrite", "Theater"],
+      "correctIndex": 2,
+      "explanation": "'Hypokrités' meant 'one who answers from behind a mask' — a role-player — and eventually became 'hypocrite.'"
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Poetics",
+      "publisher": "Aristotle",
+      "year": -335
+    },
+    {
+      "title": "The Cambridge Companion to Greek and Roman Theatre",
+      "publisher": "Cambridge University Press",
+      "year": 2007
+    }
+  ],
+
+  "related": ["greek-chorus", "three-act-structure", "deus-ex-machina"]
+}

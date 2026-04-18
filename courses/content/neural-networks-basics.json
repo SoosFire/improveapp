@@ -1,0 +1,145 @@
+{
+  "id": "neural-networks-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Neural Networks Actually Learn",
+    "teaser": "They don't 'think.' They adjust millions of tiny knobs until the output stops being wrong.",
+    "category": "Artificial Intelligence",
+    "subcategories": ["Machine Learning", "Deep Learning"],
+    "tags": ["neural-networks", "deep-learning", "backpropagation", "ai", "math"],
+    "emoji": "🕸️",
+    "accentColor": "#0EA5E9",
+    "coverSymbol": {
+      "sfSymbol": "network",
+      "fallbackEmoji": "🕸️"
+    },
+    "coverImagePrompt": "A three-dimensional web of glowing blue nodes connected by thin pulsing lines, signals cascading from left to right, dark background, cinematic, technical"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A machine that learns by being wrong",
+      "body": "Show a neural network a million photos of cats and dogs, and at first, it guesses randomly. But every time it's wrong, something remarkable happens: it nudges its internal wiring, ever so slightly, in the direction of being less wrong. Do this billions of times, and suddenly it's beating dermatologists at spotting skin cancer.",
+      "visual": {
+        "sfSymbol": "brain",
+        "imagePrompt": "A child's sketchbook full of crossed-out cat drawings, each slightly better than the last, morphing into a perfect photograph"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Neurons made of math",
+      "body": "An artificial neuron is embarrassingly simple. It takes in numbers, multiplies each by a 'weight,' sums them up, and fires off a single number if the total crosses a threshold. Stack thousands of these in layers — each feeding the next — and you get a network. The first layers pick up edges and textures. The deeper layers assemble those into eyes, ears, faces. Nobody tells it what an 'ear' is. It figures that out.",
+      "keyTerms": [
+        { "term": "Neuron", "definition": "A tiny math unit: weighted sum of inputs, then a non-linear output" },
+        { "term": "Weight", "definition": "A number controlling how much one neuron's output influences the next" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A diagram of stacked hexagonal nodes, each layer more abstract than the last: edges, shapes, then recognizable objects"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Backpropagation: the blame game",
+      "body": "When the network guesses wrong, an algorithm called backpropagation runs the error backward through every layer, assigning blame to each weight. Weights that contributed to the mistake shrink. Weights that almost got it right get nudged up. It's calculus on a massive scale — tracing gradients through millions of parameters to answer the question: 'which knob should I turn, and by how much?'",
+      "keyTerms": [
+        { "term": "Backpropagation", "definition": "The algorithm that figures out how each weight contributed to an error" },
+        { "term": "Gradient descent", "definition": "The process of adjusting weights in the direction that reduces the error" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.uturn.backward",
+        "imagePrompt": "Red error signals rippling backward through a neural net, each connection glowing brighter where the blame is higher"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why it took decades to work",
+      "body": "The math for neural networks was worked out in the 1980s, but they didn't become useful until 2012, when a team at the University of Toronto crushed an image-recognition contest using a deep network trained on GPUs. What changed? Three things arrived at once: mountains of labeled data, graphics chips that could do the math fast, and a lot of patience. The field has been sprinting ever since.",
+      "funFact": "The 2012 AlexNet paper that kicked off the deep learning revolution was trained on two GPUs running in a Toronto dorm room.",
+      "visual": {
+        "sfSymbol": "cpu.fill",
+        "imagePrompt": "Two vintage GPUs glowing in a cluttered dorm room, cables everywhere, a shimmer of data flowing between them"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not magic. Just a lot of nudging.",
+      "body": "There's no reasoning, no understanding, no 'aha' moment in a neural network. Just a billion tiny adjustments, converging on patterns that happen to work. That's both humbling and astonishing. The most powerful software on Earth is, in the end, just math that got really good at being wrong a little less each time.",
+      "visual": {
+        "sfSymbol": "dial.medium.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does a single artificial neuron do?",
+      "options": [
+        "Stores a memory",
+        "Computes a weighted sum of its inputs and outputs a number",
+        "Runs a separate program",
+        "Makes a random choice"
+      ],
+      "correctIndex": 1,
+      "explanation": "An artificial neuron is essentially a weighted sum passed through a non-linear function — nothing fancier than that."
+    },
+    {
+      "index": 1,
+      "question": "What is backpropagation?",
+      "options": [
+        "A way to undo mistakes in code",
+        "An algorithm that distributes blame for errors back through the network's weights",
+        "A type of neural network architecture",
+        "A method for scrambling training data"
+      ],
+      "correctIndex": 1,
+      "explanation": "Backpropagation computes how much each weight contributed to the error, so each can be updated in the right direction."
+    },
+    {
+      "index": 2,
+      "question": "Why did deep neural networks take off around 2012?",
+      "options": [
+        "New math was discovered",
+        "Big data, GPUs, and patient researchers finally converged",
+        "Governments funded AI heavily",
+        "Humans gave up trying to program rules"
+      ],
+      "correctIndex": 1,
+      "explanation": "The theory was decades old. What was new: huge labeled datasets, GPU horsepower, and just enough persistence."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Learning representations by back-propagating errors",
+      "publisher": "Nature (Rumelhart, Hinton, Williams)",
+      "year": 1986
+    },
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "publisher": "NeurIPS (Krizhevsky, Sutskever, Hinton)",
+      "year": 2012
+    }
+  ],
+
+  "related": ["how-llms-work", "backpropagation-deep-dive", "convolutional-networks"]
+}

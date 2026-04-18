@@ -1,0 +1,141 @@
+{
+  "id": "aurora-borealis",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Northern Lights Work",
+    "teaser": "That dancing green curtain in the Arctic sky? It's actually particles from the Sun slamming into Earth at a million miles an hour.",
+    "category": "Nature",
+    "subcategories": ["Astronomy", "Atmospheric Science"],
+    "tags": ["aurora", "solar-wind", "physics", "arctic", "atmosphere"],
+    "emoji": "🌌",
+    "accentColor": "#4FA896",
+    "coverSymbol": {
+      "sfSymbol": "sparkles",
+      "fallbackEmoji": "✨"
+    },
+    "coverImagePrompt": "A wide-angle photo of emerald and magenta aurora ribbons swirling above a frozen Arctic lake, stars visible, long exposure, breathtakingly cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A sky that breathes",
+      "body": "On clear winter nights near the Arctic Circle, the sky doesn't just glow — it moves. Green and violet curtains shimmer and fold, sometimes rippling like silk, sometimes exploding in sudden bursts. Indigenous peoples have called it the dance of spirits. It turns out they were watching a battle between our planet and the Sun.",
+      "visual": {
+        "sfSymbol": "moon.stars.fill",
+        "imagePrompt": "A lone figure on a snowy ridge looking up at flowing green aurora above silhouetted pine trees, awe and silence"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A stream of charged particles",
+      "body": "The Sun doesn't just radiate light — it constantly hurls a stream of electrons and protons in every direction. This solar wind travels at speeds over a million miles per hour. When it reaches Earth, our planet's magnetic field deflects most of it. But near the poles, the field dips inward and lets some particles funnel down toward the atmosphere.",
+      "keyTerms": [
+        { "term": "Solar wind", "definition": "A continuous stream of charged particles (electrons and protons) flowing out from the Sun" },
+        { "term": "Magnetosphere", "definition": "The region around Earth dominated by its magnetic field, which shields us from solar radiation" }
+      ],
+      "visual": {
+        "sfSymbol": "sun.max.trianglebadge.exclamationmark",
+        "imagePrompt": "A stylized diagram of solar wind streaming from the Sun and bending around Earth's magnetic field, particles funneling toward the poles"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it glows — and in those colors",
+      "body": "When charged particles slam into gas molecules high in the atmosphere, they transfer energy to those molecules' electrons. The excited electrons then drop back down, releasing that extra energy as a photon of light. Oxygen glows green at around 100 kilometers up, and a rare red higher still. Nitrogen produces the blue and purple hues. Each color is literally a different molecule getting hit.",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A close-up illustration of an oxygen atom being struck by a glowing particle, releasing a burst of green light, scientifically inspired"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When the Sun throws a tantrum",
+      "body": "During solar storms, the Sun can fire off massive eruptions called coronal mass ejections. In 1859, the Carrington Event sent auroras as far south as Cuba and set telegraph wires on fire. Scientists now monitor the Sun constantly; a repeat today could knock out satellites, GPS, and power grids across entire continents.",
+      "funFact": "In 1859, telegraph operators reported sending messages with their batteries disconnected — the aurora-induced current was powering the lines on its own.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A massive solar flare erupting from the Sun's surface, dramatic orange plasma arcing into space, NASA-style imagery"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Earth's nightly light show",
+      "body": "Every aurora you see is a direct, real-time conversation with the Sun — particles that left its surface two or three days ago, just arriving. The beauty is also a reminder: Earth's magnetic field is a fragile shield, and we happen to live on the one planet in the neighborhood where it works.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the solar wind?",
+      "options": [
+        "Sunlight bouncing off the Moon",
+        "A stream of charged particles from the Sun",
+        "Hot air rising from the equator",
+        "Radio waves emitted by stars"
+      ],
+      "correctIndex": 1,
+      "explanation": "The solar wind is a constant flow of electrons and protons ejected from the Sun, traveling outward through the solar system."
+    },
+    {
+      "index": 1,
+      "question": "Why do auroras mostly appear near the poles?",
+      "options": [
+        "It's darker there",
+        "Earth's magnetic field funnels particles toward the poles",
+        "The atmosphere is thicker",
+        "The Sun shines directly on them"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth's magnetic field lines dip inward at the poles, allowing charged particles to stream down into the upper atmosphere."
+    },
+    {
+      "index": 2,
+      "question": "What causes the green color in most auroras?",
+      "options": [
+        "Nitrogen at low altitudes",
+        "Oxygen at roughly 100 km altitude",
+        "Ozone layer reflections",
+        "Water vapor freezing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Excited oxygen atoms around 100 kilometers up emit green light as their electrons relax back to lower energy states."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Northern Lights: Secrets of the Aurora Borealis",
+      "publisher": "Sasquatch Books",
+      "year": 2001
+    },
+    {
+      "title": "NASA: Aurora - Fabulous Light Show",
+      "publisher": "NASA Science",
+      "year": 2021
+    }
+  ],
+
+  "related": ["solar-flares", "earths-magnetic-field", "carrington-event"]
+}

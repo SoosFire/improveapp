@@ -1,0 +1,131 @@
+{
+  "id": "habeas-corpus",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Habeas Corpus: The 800-Year-Old Right",
+    "teaser": "A two-word Latin phrase that governments fear — and it's been protecting you since 1215.",
+    "category": "Law",
+    "subcategories": ["Constitutional Law", "Legal History"],
+    "tags": ["habeas-corpus", "magna-carta", "rights", "common-law", "liberty"],
+    "emoji": "⚖️",
+    "accentColor": "#6B4E3D",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🏛️"
+    },
+    "coverImagePrompt": "A heavy medieval parchment bound with a red wax seal, resting on dark oak beside an iron-barred prison window, shafts of golden afternoon light cutting through, painterly and somber"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The writ that kings couldn't ignore",
+      "body": "Imagine being thrown in a dungeon with no charge, no trial, no way out. For most of human history, that was simply life. Then a strange Latin phrase — 'habeas corpus' — began showing up in English courts, and suddenly kings had to explain themselves. Why is this dusty legal phrase still considered the most powerful safeguard of liberty ever invented?",
+      "visual": {
+        "sfSymbol": "lock.open.fill",
+        "imagePrompt": "A heavy iron-bound cell door slowly swinging open, warm torchlight spilling out onto cold stone"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the words actually mean",
+      "body": "'Habeas corpus' literally means 'you shall have the body.' It's a court order demanding that a jailer physically produce a prisoner and justify why they're being held. If the reasons don't hold up in court, the prisoner walks free. That's it. Simple — and revolutionary.",
+      "keyTerms": [
+        { "term": "Writ", "definition": "A formal written order issued by a court commanding someone to act" },
+        { "term": "Habeas corpus ad subjiciendum", "definition": "The full Latin — 'that you have the body to be subjected (to examination)'" }
+      ],
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "An ancient rolled parchment writ with ornate Latin calligraphy, illuminated by a single candle"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Born at Runnymede, 1215",
+      "body": "English barons cornered King John in a meadow and made him sign the Magna Carta. Clause 39 promised no free man would be imprisoned 'except by the lawful judgment of his peers.' It took centuries for that promise to grow teeth — specifically through the Habeas Corpus Act of 1679, which made it impossible for officials to quietly stash prisoners away. They now had to answer to a judge, in days, or let the person go.",
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "King John reluctantly pressing his seal onto the Magna Carta while armored barons look on, muddy medieval meadow, gray English sky"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When governments try to suspend it",
+      "body": "Lincoln suspended habeas corpus during the U.S. Civil War. Britain suspended it during WWI. After 9/11, the U.S. held Guantánamo detainees while arguing the writ didn't apply to them. In Boumediene v. Bush (2008), the Supreme Court disagreed — ruling that even foreign detainees on a U.S. military base could file for habeas corpus. The writ has a way of showing up exactly when governments wish it wouldn't.",
+      "funFact": "The U.S. Constitution mentions habeas corpus before it mentions free speech, guns, or religion — it's that foundational.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": "A marble courthouse pediment at dawn, engraved Latin inscription partially visible, dramatic lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it still matters",
+      "body": "Habeas corpus is almost absurdly simple: if you lock someone up, you must be able to explain why — to a judge, not just yourself. Every other right depends on it. Without habeas, free speech is meaningless if you can be disappeared for speaking. It's less a 'right' than the lock that keeps every other right from being stolen.",
+      "visual": {
+        "sfSymbol": "key.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'habeas corpus' literally mean?",
+      "options": ["Justice for all", "You shall have the body", "By the law of the land", "Let the evidence speak"],
+      "correctIndex": 1,
+      "explanation": "It's Latin for 'you shall have the body' — ordering a jailer to physically produce the prisoner before a judge."
+    },
+    {
+      "index": 1,
+      "question": "Which document first planted the seed of habeas corpus in English law?",
+      "options": ["The Bill of Rights 1689", "The Magna Carta (1215)", "The Habeas Corpus Act 1679", "The Act of Settlement 1701"],
+      "correctIndex": 1,
+      "explanation": "Clause 39 of the Magna Carta laid the groundwork, though the Habeas Corpus Act of 1679 gave it real procedural teeth."
+    },
+    {
+      "index": 2,
+      "question": "What must happen if a court grants a writ of habeas corpus?",
+      "options": [
+        "The prisoner is automatically freed",
+        "The jailer must produce the prisoner and justify the detention",
+        "The government pays damages",
+        "A new trial begins immediately"
+      ],
+      "correctIndex": 1,
+      "explanation": "The authority holding the person must bring them to court and show lawful cause for detention — otherwise they must release them."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Habeas Corpus: From England to Empire",
+      "publisher": "Harvard University Press",
+      "year": 2010
+    },
+    {
+      "title": "Boumediene v. Bush, 553 U.S. 723",
+      "publisher": "U.S. Supreme Court",
+      "year": 2008
+    }
+  ],
+
+  "related": ["magna-carta", "due-process", "rule-of-law"]
+}

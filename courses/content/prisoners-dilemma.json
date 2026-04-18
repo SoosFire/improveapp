@@ -1,0 +1,131 @@
+{
+  "id": "prisoners-dilemma",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Prisoner's Dilemma",
+    "teaser": "Two suspects, two cells, zero trust — and a puzzle that rewrites how we think about cooperation.",
+    "category": "Games & Strategy",
+    "subcategories": ["Game Theory", "Decision Making"],
+    "tags": ["game-theory", "cooperation", "nash-equilibrium", "psychology"],
+    "emoji": "🤝",
+    "accentColor": "#2E5C8A",
+    "coverSymbol": {
+      "sfSymbol": "person.2.fill",
+      "fallbackEmoji": "🧑‍⚖️"
+    },
+    "coverImagePrompt": "Two identical prison cells side by side, each with a lone figure facing a metal table, dim overhead bulbs, stark shadows, noir atmosphere, cinematic framing"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A deal neither of you can refuse",
+      "body": "You and your partner are arrested for a robbery. The prosecutor separates you and makes the same offer to both: rat out your partner and walk free — but if you both rat, you each get five years. Stay silent, and you both get just one. You can't communicate. What do you do?",
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": "Two empty interrogation rooms viewed from above, split-screen, single light over each table, papers and a pen waiting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The cruel math",
+      "body": "Look at it selfishly: if your partner stays silent, betraying them gets you 0 years instead of 1. If your partner betrays you, betraying them gets you 5 instead of 10. Either way, betrayal wins. So both rational players betray — and both serve 5 years, when silence would have given them 1.",
+      "keyTerms": [
+        { "term": "Dominant strategy", "definition": "A choice that is best regardless of what the other player does" },
+        { "term": "Nash equilibrium", "definition": "An outcome where no player can improve by unilaterally changing their choice" }
+      ],
+      "visual": {
+        "sfSymbol": "tablecells.fill",
+        "imagePrompt": "A clean 2x2 payoff matrix drawn on a dark chalkboard, numbers glowing, four quadrants highlighted"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it haunts economists",
+      "body": "The dilemma shows that individual rationality can produce collective disaster. It's not that the prisoners are dumb — each makes the locally smart move. The structure of the game itself punishes cooperation. This same shape appears in arms races, climate negotiations, price wars, and even why your office fridge is always a mess.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A stylized world map with small figures in suits at two podiums, invisible tension between them, chess-board overlay"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The tournament that changed minds",
+      "body": "In 1980, political scientist Robert Axelrod invited experts to submit strategies for a repeated version of the game. The winner, submitted by Anatol Rapoport, was four lines long: 'Tit-for-Tat' — start by cooperating, then copy whatever your opponent did last. When the game repeats, being nice, forgiving, and retaliating fast beats clever manipulation.",
+      "funFact": "The simplest strategy in the tournament beat every piece of sophisticated AI logic submitted against it.",
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "A retro green CRT monitor displaying two strategies playing against each other, numbers scrolling, 1980s computer aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Trust is infrastructure",
+      "body": "The dilemma's lesson isn't that people are bad — it's that cooperation is fragile unless something supports it. Repeated interactions, reputation, contracts, laws: these are all structures we invent to make 'staying silent' the winning move. Civilization is a very long game of Tit-for-Tat.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In a one-shot Prisoner's Dilemma, what is each player's dominant strategy?",
+      "options": ["Cooperate", "Betray (defect)", "Flip a coin", "Wait for the other to decide"],
+      "correctIndex": 1,
+      "explanation": "Betrayal is individually better no matter what the other player chooses — even though it leads to a worse joint outcome."
+    },
+    {
+      "index": 1,
+      "question": "Which winning strategy emerged from Axelrod's tournament?",
+      "options": ["Always defect", "Always cooperate", "Tit-for-Tat", "Random play"],
+      "correctIndex": 2,
+      "explanation": "Tit-for-Tat — start nice, then mirror the opponent — outperformed every more complex strategy submitted."
+    },
+    {
+      "index": 2,
+      "question": "What does the dilemma illustrate about rational choice?",
+      "options": [
+        "Rational players always reach the best outcome",
+        "Individually rational choices can produce collectively bad outcomes",
+        "Emotions always beat logic",
+        "Only cooperation is rational"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each player acts rationally, yet both end up worse off than if they had cooperated — the core paradox of the dilemma."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Evolution of Cooperation",
+      "publisher": "Basic Books (Robert Axelrod)",
+      "year": 1984
+    },
+    {
+      "title": "A Beautiful Math: John Nash, Game Theory, and the Modern Quest for a Code of Nature",
+      "publisher": "Joseph Henry Press (Tom Siegfried)",
+      "year": 2006
+    }
+  ],
+
+  "related": ["nash-equilibrium", "tit-for-tat", "tragedy-of-the-commons"]
+}

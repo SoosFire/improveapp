@@ -1,0 +1,141 @@
+{
+  "id": "composting-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Composting Actually Works",
+    "teaser": "Your kitchen scraps don't just rot — billions of microbes are running a controlled fire without flames.",
+    "category": "Gardening",
+    "subcategories": ["Soil Science", "Sustainability"],
+    "tags": ["composting", "microbes", "soil", "decomposition", "gardening"],
+    "emoji": "🌱",
+    "accentColor": "#6B8E23",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🍂"
+    },
+    "coverImagePrompt": "A cross-section of a steaming compost pile at golden hour, coffee grounds, eggshells, and autumn leaves layered in rich brown earth, faint wisps of steam rising, macro detail, warm cinematic lighting"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A pile that gets hot by itself",
+      "body": "Stick a thermometer into a working compost pile and you might read 140°F (60°C) — hotter than a cup of coffee. No one lit a match. The heat comes from trillions of microbes eating your banana peels and lawn clippings so fast that their metabolism cooks the pile from the inside.",
+      "visual": {
+        "sfSymbol": "thermometer.sun.fill",
+        "imagePrompt": "A gardener's hand holding a compost thermometer reading 140°F, steam rising from a dark pile of vegetable scraps"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Greens and browns",
+      "body": "Every successful compost pile balances two ingredients: 'greens' (nitrogen-rich stuff like vegetable scraps, coffee grounds, grass clippings) and 'browns' (carbon-rich stuff like dry leaves, cardboard, straw). Microbes need both — nitrogen to build proteins, carbon for energy. The sweet spot is roughly 25 to 30 parts carbon for every 1 part nitrogen.",
+      "keyTerms": [
+        { "term": "Greens", "definition": "Wet, nitrogen-rich materials like food scraps and grass" },
+        { "term": "Browns", "definition": "Dry, carbon-rich materials like leaves, straw, and cardboard" },
+        { "term": "C:N ratio", "definition": "The ratio of carbon to nitrogen that drives microbial activity" }
+      ],
+      "visual": {
+        "sfSymbol": "scalemass.fill",
+        "imagePrompt": "Split-screen: vibrant green vegetable scraps on one side, dry brown leaves and cardboard on the other, balanced on a rustic scale"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two shifts of microbes",
+      "body": "Composting happens in stages. First, mesophilic bacteria (active at 50–100°F) move in and start breaking down sugars and proteins. As they multiply, their heat drives the temperature up — and hands off the pile to thermophilic bacteria, which thrive at 100–160°F and demolish tougher materials like cellulose. Finally, as fuel runs out, the pile cools and fungi and worms finish the job.",
+      "keyTerms": [
+        { "term": "Mesophilic", "definition": "Microbes that thrive at moderate temperatures" },
+        { "term": "Thermophilic", "definition": "Heat-loving microbes active above 100°F" }
+      ],
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "Microscopic illustration of bacteria swarming food scraps, with a temperature gradient graph showing the hot composting phase"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The turn-it-or-lose-it rule",
+      "body": "Microbes need oxygen. When a pile goes untouched, the center runs out of air and anaerobic bacteria take over — producing methane and that rotten-egg smell. USDA studies show that turning a pile every 3–7 days can cut composting time from a year down to about 6 weeks while keeping it odor-free.",
+      "funFact": "A properly managed hot pile can kill most weed seeds and pathogens — which is why farmers compost manure before spreading it on crops.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A gardener mid-motion turning a steaming compost pile with a pitchfork, dark earthy mixture spilling over, late afternoon light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Rot is alive",
+      "body": "What looks like 'rotting garbage' is actually one of the most complex ecosystems you'll ever build. A spoonful of finished compost contains more microbes than there are humans on Earth. Composting isn't waste disposal — it's ranching invisible livestock that turn your trash into the best soil amendment money can't buy.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What roughly is the ideal carbon-to-nitrogen ratio for a compost pile?",
+      "options": ["1:1", "5:1", "25–30:1", "100:1"],
+      "correctIndex": 2,
+      "explanation": "Microbes work best when there's about 25–30 parts carbon (browns) for every 1 part nitrogen (greens)."
+    },
+    {
+      "index": 1,
+      "question": "Why does a healthy compost pile get hot?",
+      "options": [
+        "Sunlight trapped under the mulch",
+        "Chemical reactions in the food scraps themselves",
+        "Microbial metabolism releasing heat",
+        "Friction from turning it"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thermophilic bacteria eat so voraciously that their collective metabolism heats the pile to 140°F or more."
+    },
+    {
+      "index": 2,
+      "question": "Why do gardeners turn their compost?",
+      "options": [
+        "To keep it cool",
+        "To bring oxygen to the microbes",
+        "To add water",
+        "To attract worms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turning introduces oxygen so aerobic microbes can keep working — preventing smelly anaerobic decomposition."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Science of Composting",
+      "publisher": "Cornell Waste Management Institute",
+      "year": 2019
+    },
+    {
+      "title": "On-Farm Composting Handbook (NRAES-54)",
+      "publisher": "USDA / Natural Resource Agriculture and Engineering Service",
+      "year": 1992
+    }
+  ],
+
+  "related": ["soil-microbiome", "worm-composting", "no-till-gardening"]
+}

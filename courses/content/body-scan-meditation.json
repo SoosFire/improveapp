@@ -1,0 +1,136 @@
+{
+  "id": "body-scan-meditation",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Body Scan: A Starter Meditation",
+    "teaser": "The simplest meditation ever invented — and the one most therapists prescribe first.",
+    "category": "Mindfulness & Meditation",
+    "subcategories": ["Mindfulness", "Beginner Practice"],
+    "tags": ["body-scan", "mindfulness", "MBSR", "beginner", "stress-relief"],
+    "emoji": "🛌",
+    "accentColor": "#6B8E7F",
+    "coverSymbol": {
+      "sfSymbol": "figure.walk.motion",
+      "fallbackEmoji": "🧘‍♀️"
+    },
+    "coverImagePrompt": "A person lying on a pale wool blanket on a wooden floor, morning light falling across their body in soft stripes, calm atmosphere, overhead cinematic shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Meditation you do lying down",
+      "body": "Most people picture meditation as sitting cross-legged, ramrod straight, battling a runaway mind. The body scan is the opposite. You lie flat. You don't try to stop thinking. You just move your attention, slowly, from your feet to your head — noticing. That's it. And somehow, that's the whole trick.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "Overhead view of a person lying peacefully on a yoga mat with eyes closed"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Attention, moving slowly",
+      "body": "A body scan walks your awareness through the body piece by piece — toes, feet, ankles, calves, knees, and so on upward. At each spot, you pause. You notice whatever's there: warmth, tingling, tightness, boredom, nothing at all. You don't try to change it. You just confirm, gently, that you're here, this is what this feels like right now.",
+      "keyTerms": [
+        { "term": "Interoception", "definition": "The sense of what's happening inside your own body" },
+        { "term": "Nonjudgmental awareness", "definition": "Observing something without trying to fix or evaluate it" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "A silhouette of a body with a soft glowing light moving slowly from feet to head"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Why therapists prescribe it first",
+      "body": "Jon Kabat-Zinn built the body scan into the very first session of Mindfulness-Based Stress Reduction in 1979 — and it's still the starter practice in MBSR, MBCT, and most clinical mindfulness programs. Research links regular body scans to reduced chronic pain intensity, lower cortisol, and improved sleep onset in people with insomnia. It's boring on purpose. Boring is part of the medicine.",
+      "funFact": "The original MBSR body scan lasted 45 minutes. Most modern apps use 10–20 minute versions with no measurable loss of benefit.",
+      "visual": {
+        "sfSymbol": "heart.text.square",
+        "imagePrompt": "A doctor's prescription pad with 'body scan, 15 min daily' written in neat script"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "What your body has been saying",
+      "body": "Most of us spend the day living from the neck up — ignoring a tight jaw, a clenched shoulder, a stomach that's been quietly nervous for six hours. The body scan turns the volume up on those signals, which sounds unpleasant but is usually a relief. Noticing tension is the first step to it loosening. You can't process a feeling you've been outsourcing to your shoulders.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A stylized torso with soft signal waves emanating from different body parts"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Try a two-minute version",
+      "body": "You don't need an app or a cushion. Lie down. Close your eyes. Start at your feet. Notice whatever's there for three breaths. Move up. Knees, hips, belly, chest, shoulders, face. Two minutes, top to bottom. Done once, it's a curiosity. Done daily, it's genuinely one of the most grounding things your nervous system can be taught.",
+      "visual": {
+        "sfSymbol": "timer",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the main action of a body scan meditation?",
+      "options": [
+        "Chanting mantras silently",
+        "Visualizing a calm place",
+        "Moving attention slowly through parts of the body",
+        "Controlling your breathing pattern"
+      ],
+      "correctIndex": 2,
+      "explanation": "You move awareness systematically through the body, noticing sensations along the way."
+    },
+    {
+      "index": 1,
+      "question": "Who developed the body scan as part of MBSR?",
+      "options": ["Thich Nhat Hanh", "Jon Kabat-Zinn", "Sharon Salzberg", "Deepak Chopra"],
+      "correctIndex": 1,
+      "explanation": "Jon Kabat-Zinn introduced the body scan in the first MBSR program at UMass in 1979."
+    },
+    {
+      "index": 2,
+      "question": "What is interoception?",
+      "options": [
+        "A breathing technique",
+        "The sense of your internal body state",
+        "A form of visualization",
+        "An advanced yoga posture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interoception is the awareness of what's happening inside your body — heartbeat, tension, hunger, etc."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Full Catastrophe Living",
+      "publisher": "Jon Kabat-Zinn, Bantam",
+      "year": 1990
+    },
+    {
+      "title": "The efficacy of mindfulness-based interventions: A meta-analysis",
+      "publisher": "Clinical Psychology Review",
+      "year": 2013
+    }
+  ],
+
+  "related": ["meditation-changes-brain", "loving-kindness-meditation", "breath-awareness"]
+}

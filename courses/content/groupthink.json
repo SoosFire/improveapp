@@ -1,0 +1,136 @@
+{
+  "id": "groupthink",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Groupthink: When Smart Groups Get Dumb",
+    "teaser": "Put eight brilliant people in a room and they can still choose the worst answer. Here's why.",
+    "category": "Sociology",
+    "subcategories": ["Social Psychology", "Decision Making"],
+    "tags": ["groupthink", "psychology", "decisions", "conformity", "janis"],
+    "emoji": "🧠",
+    "accentColor": "#7A5FAE",
+    "coverSymbol": {
+      "sfSymbol": "person.3.fill",
+      "fallbackEmoji": "👥"
+    },
+    "coverImagePrompt": "A dim wood-paneled conference room where eight silhouetted figures nod in unison around an oval table, a single dissenting chair turned slightly away, cinematic side lighting, moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The smartest room in Washington",
+      "body": "In April 1961, John F. Kennedy sat with a circle of Ivy League advisors — men described by one journalist as 'the best and the brightest.' Together, they approved the Bay of Pigs invasion: 1,400 Cuban exiles landing on a defended beach with no air cover. Within three days the operation was in ruins. Kennedy later asked the question everyone asks: 'How could we have been so stupid?'",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A vintage 1960s White House situation room, men in dark suits leaning over a map of Cuba, cigarette smoke curling under a green banker's lamp"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Irving Janis names the disease",
+      "body": "Psychologist Irving Janis read the Bay of Pigs transcripts in the 1970s and noticed something strange: the advisors had private doubts, but almost none of them voiced them. He coined the term 'groupthink' for a mode of thinking where the desire for harmony overrides the realistic appraisal of alternatives. The smarter and more cohesive the group, he argued, the more vulnerable they often are.",
+      "keyTerms": [
+        { "term": "Groupthink", "definition": "A pattern where group cohesion suppresses dissent and leads to poor decisions" },
+        { "term": "Cohesion", "definition": "The degree to which members of a group feel bonded and want to stay united" }
+      ],
+      "visual": {
+        "sfSymbol": "text.book.closed.fill",
+        "imagePrompt": "A 1970s hardcover psychology book open on a desk, yellow highlighter strokes over the word 'groupthink'"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The symptoms",
+      "body": "Janis identified eight warning signs. A few stand out: an illusion of invulnerability ('we can't fail'), self-appointed 'mindguards' who shield the leader from inconvenient facts, and direct pressure on doubters ('don't rock the boat'). Individually each symptom is mild. Stacked together, they form a filter that lets only agreeable information reach the decision.",
+      "visual": {
+        "sfSymbol": "checklist",
+        "imagePrompt": "A chalkboard with eight handwritten symptoms in chalk, three underlined in red"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Challenger, 1986",
+      "body": "Twenty-five years after the Bay of Pigs, NASA engineers at Morton Thiokol warned that the shuttle's O-rings could fail in cold weather. Under pressure from management, they were asked to 'take off their engineering hat and put on their management hat.' The launch went ahead. Seventy-three seconds after liftoff, Challenger broke apart. The Rogers Commission report reads almost exactly like Janis's checklist.",
+      "funFact": "Engineer Roger Boisjoly kept every memo he wrote warning about the O-rings. He testified holding the stack of paper in his hand.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A 1986 Florida launch pad at dawn, frost visible on the shuttle's side boosters, steam rising into a cold blue sky"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to break the spell",
+      "body": "Janis's fix wasn't to add more experts — it was to add friction. Assign a designated devil's advocate. Have the leader speak last so subordinates don't echo them. Invite outside critics into the room. The goal isn't disagreement for its own sake; it's to protect the group from the quiet, polite, catastrophic 'yes.'",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the term 'groupthink'?",
+      "options": ["Stanley Milgram", "Solomon Asch", "Irving Janis", "Philip Zimbardo"],
+      "correctIndex": 2,
+      "explanation": "Irving Janis introduced the concept in the 1970s after analyzing U.S. foreign policy disasters, including the Bay of Pigs."
+    },
+    {
+      "index": 1,
+      "question": "Which is NOT one of Janis's classic symptoms of groupthink?",
+      "options": [
+        "Illusion of invulnerability",
+        "Self-appointed mindguards",
+        "Financial incentives for dissent",
+        "Direct pressure on doubters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rewarding dissent would actually counteract groupthink — it's the opposite of what happens in affected groups."
+    },
+    {
+      "index": 2,
+      "question": "What's the most practical remedy Janis recommended?",
+      "options": [
+        "Make groups smaller",
+        "Assign a devil's advocate and have leaders speak last",
+        "Remove the leader from the room",
+        "Vote by secret ballot only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Structural friction — a formal dissent role and holding back leader opinions — protects groups from premature consensus."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Victims of Groupthink",
+      "publisher": "Houghton Mifflin (Irving Janis)",
+      "year": 1972
+    },
+    {
+      "title": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+      "publisher": "U.S. Government Printing Office",
+      "year": 1986
+    }
+  ],
+
+  "related": ["asch-conformity", "milgram-obedience", "bystander-effect"]
+}

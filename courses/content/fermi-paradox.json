@@ -1,0 +1,136 @@
+{
+  "id": "fermi-paradox",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Fermi Paradox",
+    "teaser": "The universe is 13.8 billion years old and has trillions of stars. So where is everybody?",
+    "category": "Astronomy",
+    "subcategories": ["Cosmology", "Astrobiology"],
+    "tags": ["aliens", "seti", "cosmology", "drake equation", "great filter"],
+    "emoji": "🛸",
+    "accentColor": "#1B1F3A",
+    "coverSymbol": {
+      "sfSymbol": "moon.stars.fill",
+      "fallbackEmoji": "🌌"
+    },
+    "coverImagePrompt": "A lone physicist silhouetted against a vast starfield, looking up at an impossibly silent Milky Way arching overhead, cinematic, awe-inducing, deep blues and violets"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A question over lunch",
+      "body": "In the summer of 1950, physicist Enrico Fermi was having lunch at Los Alamos with a few colleagues. They were joking about a recent cartoon of aliens stealing trash cans. Fermi went quiet, did some math in his head, and then blurted out: 'But where is everybody?' That offhand question became one of the most haunting puzzles in science.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "Four physicists at a 1950s lunch table, one mid-sentence, chalkboard equations visible behind them, warm nostalgic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The numbers don't add up",
+      "body": "The Milky Way alone contains roughly 400 billion stars, and we now know most of them have planets. Even if only a tiny fraction develop life, and a tiny fraction of that develops intelligence, the galaxy should be teeming with civilizations — many of them billions of years older than us. A single civilization spreading at even 1% of lightspeed could colonize the galaxy in a few million years.",
+      "keyTerms": [
+        { "term": "Drake Equation", "definition": "A formula estimating the number of communicative civilizations in the galaxy" },
+        { "term": "Fermi Paradox", "definition": "The contradiction between high probability of alien life and the total lack of evidence for it" }
+      ],
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "Chalkboard filled with the Drake Equation and orbital diagrams, a single cup of coffee steaming beside it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Great Filter",
+      "body": "One chilling idea is the Great Filter: somewhere on the path from lifeless chemistry to galaxy-spanning civilization, there is a barrier almost nothing gets past. The scary part is we don't know if the filter is behind us — meaning life itself is a fluke — or ahead of us, meaning advanced civilizations tend to self-destruct before going interstellar.",
+      "funFact": "Philosopher Nick Bostrom has argued that finding fossil microbes on Mars would actually be terrible news: it would mean life is common, and the filter is probably still waiting for us.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A symbolic wall of light stretching across the galaxy, civilizations as tiny glowing dots unable to pass through, conceptual sci-fi art"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What silence sounds like",
+      "body": "Since 1960, projects like SETI have scanned billions of stars for signals. We've found pulsars, fast radio bursts, and strange dimming stars — but no signature that's unambiguously artificial. Even with Breakthrough Listen surveying a million nearby stars, the sky so far is cosmically quiet in every direction we point a dish.",
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": "A massive radio telescope dish at twilight under a star-dense sky, cold blue tones, sense of listening into an enormous emptiness"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the silence matters",
+      "body": "The Fermi Paradox isn't really about aliens — it's about us. Every proposed answer, from 'we're the first' to 'they're hiding' to 'they all blew themselves up,' tells us something about the fragility and strangeness of being a thinking species. The sky's silence is either the loneliest fact in the universe, or the biggest clue we've ever been handed.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who first posed the question that became the Fermi Paradox?",
+      "options": ["Carl Sagan", "Enrico Fermi", "Frank Drake", "Stephen Hawking"],
+      "correctIndex": 1,
+      "explanation": "Fermi asked 'Where is everybody?' during a casual lunch conversation at Los Alamos in 1950."
+    },
+    {
+      "index": 1,
+      "question": "What does the 'Great Filter' hypothesis propose?",
+      "options": [
+        "Aliens deliberately jam our signals",
+        "A barrier somewhere on the path from chemistry to interstellar civilization blocks almost all life",
+        "Light pollution on Earth hides alien signals",
+        "Dark matter absorbs alien transmissions"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Filter proposes some step in the evolution of intelligent life is so hard that almost nothing makes it past."
+    },
+    {
+      "index": 2,
+      "question": "Why is the Milky Way's size a puzzle for the paradox?",
+      "options": [
+        "It's too small to contain aliens",
+        "Even at slow speeds, a single civilization could colonize the galaxy in a few million years — far less than its age",
+        "It's expanding too fast for signals to reach us",
+        "Its center is too radioactive for life"
+      ],
+      "correctIndex": 1,
+      "explanation": "The galaxy is ~13 billion years old; a spreading civilization would need only a few million years to be everywhere."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Where Is Everybody? Fifty Solutions to the Fermi Paradox",
+      "publisher": "Springer",
+      "year": 2015
+    },
+    {
+      "title": "The Great Filter - Are We Almost Past It?",
+      "publisher": "Future of Humanity Institute, Oxford",
+      "year": 1998
+    }
+  ],
+
+  "related": ["drake-equation", "seti-history", "great-filter"]
+}

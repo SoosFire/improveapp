@@ -1,0 +1,141 @@
+{
+  "id": "why-airplanes-fly",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Airplanes Actually Fly",
+    "teaser": "The explanation you learned in school is mostly wrong. Here's what really holds 400 tons of metal in the air.",
+    "category": "Engineering",
+    "subcategories": ["Aerodynamics", "Physics of Flight"],
+    "tags": ["flight", "aerodynamics", "lift", "bernoulli", "newton"],
+    "emoji": "✈️",
+    "accentColor": "#2E86AB",
+    "coverSymbol": {
+      "sfSymbol": "airplane",
+      "fallbackEmoji": "🛫"
+    },
+    "coverImagePrompt": "A commercial airliner banking against an indigo dusk sky, wing-level close-up of a curved airfoil slicing through streaks of vapor, high-contrast cinematic photography"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The story you were told is wrong",
+      "body": "Most of us learned that air splits at the front of a wing, takes longer to travel over the curved top, and therefore moves faster — creating low pressure and lift. It's a clean story. It's also demonstrably false. Planes can fly upside down. Paper airplanes have flat wings. Something else is going on.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "Stunt plane flying inverted through blue sky with wingtip vapor trails, sun glinting off the underside-now-top of the wing"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Lift is Newton, not just Bernoulli",
+      "body": "A wing flies because it deflects air downward. By Newton's third law, pushing a mass of air down creates an equal upward reaction force on the wing. That's lift. Bernoulli's principle — faster air is lower pressure — is a real effect that also contributes, but the dominant cause is simply that the wing throws air at the ground.",
+      "keyTerms": [
+        { "term": "Angle of attack", "definition": "The tilt of the wing relative to oncoming air — the main control of how much air gets deflected" },
+        { "term": "Downwash", "definition": "The column of air a wing pushes downward as it moves forward" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.right",
+        "imagePrompt": "Airfoil diagram with bold red arrows showing air arriving horizontally and leaving with a strong downward tilt behind the wing"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How a flat board can fly",
+      "body": "Tilt any flat surface into the wind and it will generate lift — as long as it's moving fast enough and the tilt isn't extreme. This is why frisbees, paper airplanes, and kites work. The curved shape of an airliner wing isn't what creates lift; it's what makes lift efficient, reducing drag and delaying the stall at higher angles.",
+      "visual": {
+        "sfSymbol": "rectangle.portrait.on.rectangle.portrait.angled",
+        "imagePrompt": "Simple flat plate tilted into a wind tunnel's smoke streams, with air clearly curving downward behind it"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The math of a 747",
+      "body": "A fully loaded Boeing 747 weighs about 400 tons. To stay airborne, its wings must deflect roughly one ton of air straight down every second. You can feel a scaled-down version by sticking your hand out of a car window at 60 mph and tilting it up — the force pushing your palm up is your hand making lift.",
+      "funFact": "When a big jet lands, the swirl of deflected air behind it — called wake turbulence — can flip a small plane that follows too closely for several minutes.",
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "Condensation vortices spinning off the wingtips of a landing jumbo jet, captured in a dusty sunset beam"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Flight as a trade",
+      "body": "Flying is a bargain with the atmosphere: give the air momentum downward, and it gives you momentum upward. Everything else — the curved airfoil, the high-bypass engines, the sophisticated flaps — is just making that trade more efficient. The next time you're at 35,000 feet, remember that a couple of tons of air, every single second, is holding you up.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the dominant cause of lift on an airplane wing?",
+      "options": [
+        "Air moves faster over the top of the wing",
+        "The wing deflects air downward, pushing the wing up",
+        "Jet engines blow air under the wing",
+        "The wing is lighter than surrounding air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Newton's third law: deflecting air down produces an equal upward reaction on the wing. That's the main source of lift."
+    },
+    {
+      "index": 1,
+      "question": "How can a stunt plane fly upside down?",
+      "options": [
+        "The wing's curve is reversible",
+        "The pilot tilts the wing to keep deflecting air downward",
+        "Inverted flight uses only engine thrust, not wings",
+        "Air pressure reverses above a certain speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "By adjusting angle of attack, the pilot still forces air downward relative to the ground — so lift still points up."
+    },
+    {
+      "index": 2,
+      "question": "Why do airliners have curved (cambered) wings at all?",
+      "options": [
+        "Curvature is the only way to create lift",
+        "For efficiency and better stall behavior, not to create lift itself",
+        "To meet FAA styling rules",
+        "To reduce noise inside the cabin"
+      ],
+      "correctIndex": 1,
+      "explanation": "A flat plate can produce lift — the curve just makes it efficient and more forgiving at high angles of attack."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "No One Can Explain Why Planes Stay in the Air",
+      "publisher": "Scientific American",
+      "year": 2020
+    },
+    {
+      "title": "Understanding Flight (2nd ed.)",
+      "publisher": "McGraw-Hill (Anderson & Eberhardt)",
+      "year": 2009
+    }
+  ],
+
+  "related": ["bernoulli-principle", "stall-aerodynamics", "paper-airplane-physics"]
+}

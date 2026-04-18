@@ -1,0 +1,136 @@
+{
+  "id": "why-humans-gossip",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Humans Gossip",
+    "teaser": "Gossip isn't a flaw — it's the social technology that let our species dominate the planet.",
+    "category": "Anthropology",
+    "subcategories": ["Evolutionary Anthropology", "Social Behavior"],
+    "tags": ["gossip", "evolution", "language", "cooperation", "social"],
+    "emoji": "🗣️",
+    "accentColor": "#D16BA5",
+    "coverSymbol": {
+      "sfSymbol": "bubble.left.and.bubble.right.fill",
+      "fallbackEmoji": "🗣️"
+    },
+    "coverImagePrompt": "Two silhouetted figures leaning close and whispering around a flickering campfire under a starry prehistoric sky, cinematic, warm firelight, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Two-thirds of your conversations are gossip",
+      "body": "Here's an unflattering fact: when anthropologist Robin Dunbar recorded real human conversations in cafeterias, bars, and trains, he found that about 65% of talk was gossip — commentary about other people who weren't present. Not ideas. Not facts. Other people. Before you feel bad, consider this: gossip might be the single reason our species survived.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A cafe interior with multiple pairs of people leaning in close across small tables, speech bubbles floating above them, warm ambient light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Language evolved for this",
+      "body": "One leading theory — the 'social grooming hypothesis' — says language evolved not to share information about tools or food, but to share information about each other. Monkeys bond by physically grooming one another. Human groups got too big for that (you can only groom one monkey at a time). Gossip is verbal grooming: it lets you maintain dozens of relationships at once, just by talking.",
+      "keyTerms": [
+        { "term": "Social grooming hypothesis", "definition": "The theory that language evolved as a more efficient substitute for physical grooming" },
+        { "term": "Reputation", "definition": "The summary of a person's past behavior that gossip creates and circulates" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.sequence.fill",
+        "imagePrompt": "Side-by-side painterly illustration: chimpanzees grooming on one side, early humans sitting around a fire talking on the other, symbolic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What gossip actually does",
+      "body": "Gossip does three quiet but powerful jobs. First, it enforces norms — if you hear your coworker took credit for someone else's work, you know to watch your back around them. Second, it spreads reputation faster than direct experience ever could; you learn who's trustworthy without having to be burned yourself. Third, it builds alliances — sharing a juicy secret is a signal of trust and creates intimacy. Gossip is, in evolutionary terms, cheap and enormously useful.",
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A glowing network of connected nodes representing people, with colored threads of reputation data flowing between them, elegant data visualization"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The science of whispers",
+      "body": "A 2019 meta-analysis in Social Psychological and Personality Science looked at 467 participants and found people spent an average of 52 minutes per day gossiping — and only about 15% of it was negative. Most gossip was neutral information-sharing. A 2016 UC Berkeley study found that even hearing gossip about a cheater raised participants' heart rates — and made them more likely to warn others, suggesting gossip triggers a real prosocial response.",
+      "funFact": "In one experiment, groups that were allowed to gossip cooperated more in economic games than groups that couldn't. Silence, not gossip, was the anti-social behavior.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "A scientific lab setup with a volunteer wearing a heart rate monitor while headphones play audio, graph spiking on a screen, clean lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Before you feel guilty",
+      "body": "Gossip has a bad reputation — mostly thanks to a 2,000-year-old tradition of moral and religious texts calling it sinful. But anthropologists keep finding the opposite: small-scale societies without police, courts, or written contracts rely on gossip to keep people honest. It's the oldest justice system we have. Used cruelly, it destroys reputations. Used well, it's how humans built trust large enough to build civilizations.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what percentage of human conversation is devoted to gossip?",
+      "options": ["About 20%", "About 40%", "About 65%", "About 85%"],
+      "correctIndex": 2,
+      "explanation": "Dunbar's studies of everyday talk found about 65% of conversation involves absent third parties — gossip."
+    },
+    {
+      "index": 1,
+      "question": "What is the 'social grooming hypothesis'?",
+      "options": [
+        "That humans evolved hair for social signaling",
+        "That language replaced physical grooming as a way to bond large groups",
+        "That gossip is biologically hardwired into infants",
+        "That primates talk more than humans"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hypothesis proposes that language — including gossip — evolved as a more scalable substitute for one-on-one grooming."
+    },
+    {
+      "index": 2,
+      "question": "What did lab studies find about groups allowed to gossip?",
+      "options": [
+        "They cooperated less than silent groups",
+        "They cooperated more than groups that couldn't gossip",
+        "They experienced higher stress levels",
+        "They lost trust in each other faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Groups permitted to gossip cooperated more effectively — gossip acts as a reputation-enforcement mechanism."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Grooming, Gossip, and the Evolution of Language",
+      "publisher": "Harvard University Press (Robin Dunbar)",
+      "year": 1996
+    },
+    {
+      "title": "Who Gossips and How in Everyday Life?",
+      "publisher": "Social Psychological and Personality Science",
+      "year": 2019
+    }
+  ],
+
+  "related": ["dunbar-number", "origins-of-language", "social-norms"]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "modus-ponens",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Modus Ponens: Logic's Bedrock",
+    "teaser": "The world's shortest, oldest, and most unbreakable argument — taught by the Stoics, trusted by every mathematician alive.",
+    "category": "Logic",
+    "subcategories": ["Formal Logic", "Inference Rules"],
+    "tags": ["logic", "stoics", "proof", "reasoning", "if-then"],
+    "emoji": "➡️",
+    "accentColor": "#1F6FEB",
+    "coverSymbol": {
+      "sfSymbol": "arrow.right.circle.fill",
+      "fallbackEmoji": "➡️"
+    },
+    "coverImagePrompt": "A marble Stoic philosopher's bust in a sunlit colonnade, with a soft chalkboard overlay of 'P → Q' floating beside him, painterly, classical aesthetic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The three-line engine of proof",
+      "body": "If it's raining, the street is wet. It's raining. Therefore, the street is wet. Trivial? Sure. But this tiny pattern — called modus ponens — is the engine underneath nearly every mathematical proof, legal argument, and line of code ever written. You've used it a thousand times today without noticing.",
+      "visual": {
+        "sfSymbol": "cloud.rain.fill",
+        "imagePrompt": "A rain-slicked cobblestone street reflecting streetlamp light, droplets visible, subtle poetic mood, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Stoic formula",
+      "body": "Ancient Stoic logicians like Chrysippus, writing around 250 BCE, formalized it as: 'If the first, then the second. The first. Therefore, the second.' In modern notation: P → Q. P. ∴ Q. The Latin name, 'modus ponens,' means 'the way that affirms' — because you affirm the 'if' part to unlock the 'then' part.",
+      "keyTerms": [
+        { "term": "Modus ponens", "definition": "The inference rule: from (P → Q) and P, conclude Q" },
+        { "term": "Conditional", "definition": "An 'if P then Q' statement, the backbone of most logical proofs" }
+      ],
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A chalkboard showing 'P → Q, P ⊢ Q' in elegant handwritten mathematical notation, lit by a desk lamp"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The imposter that looks the same",
+      "body": "Watch out for modus ponens' evil twin: affirming the consequent. 'If it rains, the street is wet. The street is wet. Therefore it rained.' Wrong! The street might be wet because a truck sprayed it. Modus ponens goes from cause to effect. Affirming the consequent illegally runs the argument backwards — a fallacy that fools even sharp thinkers.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A street wet from a water truck instead of rain, the truck visible in the distance, clear blue sky overhead — gentle visual irony"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "Why this tiny rule matters",
+      "body": "Every formal system — Euclidean geometry, programming languages, mathematical proofs, court verdicts — relies on modus ponens as a trusted move. It's so obvious it feels empty, yet it's what allows long chains of reasoning to stay rigorous. Philosopher Lewis Carroll once wrote a puzzle suggesting you can't even talk someone into accepting modus ponens without using modus ponens. It's logic's unshakable floor.",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which is a valid modus ponens argument?",
+      "options": [
+        "If P then Q. Q. Therefore P.",
+        "If P then Q. Not P. Therefore not Q.",
+        "If P then Q. P. Therefore Q.",
+        "P or Q. Not P. Therefore Q."
+      ],
+      "correctIndex": 2,
+      "explanation": "Modus ponens: affirm the antecedent (P), and you may conclude the consequent (Q)."
+    },
+    {
+      "index": 1,
+      "question": "'The street is wet, so it must have rained' is an example of:",
+      "options": [
+        "Modus ponens",
+        "Affirming the consequent",
+        "Denying the antecedent",
+        "Modus tollens"
+      ],
+      "correctIndex": 1,
+      "explanation": "Running 'if P then Q' backwards — from Q to P — is the fallacy of affirming the consequent. The cause may not be what you think."
+    },
+    {
+      "index": 2,
+      "question": "Who is most associated with the earliest systematic treatment of modus ponens?",
+      "options": ["Aristotle", "Plato", "Chrysippus and the Stoics", "Euclid"],
+      "correctIndex": 2,
+      "explanation": "Chrysippus and the Stoic logicians developed propositional logic (including modus ponens) around 250 BCE — distinct from Aristotle's syllogistic logic."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Stoic Logic",
+      "publisher": "University of California Press (Benson Mates)",
+      "year": 1961
+    },
+    {
+      "title": "What the Tortoise Said to Achilles",
+      "publisher": "Mind (Lewis Carroll)",
+      "year": 1895
+    }
+  ],
+
+  "related": ["deductive-vs-inductive", "modus-tollens", "logical-fallacies"]
+}

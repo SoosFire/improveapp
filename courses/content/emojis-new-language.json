@@ -1,0 +1,142 @@
+{
+  "id": "emojis-new-language",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Are Emojis a New Language?",
+    "teaser": "Over 10 billion emojis are sent daily. Linguists say they're not a language — but they're doing something new.",
+    "category": "Language",
+    "subcategories": ["Digital Communication", "Semiotics"],
+    "tags": ["emoji", "linguistics", "communication", "internet", "writing"],
+    "emoji": "😀",
+    "accentColor": "#F2A93A",
+    "coverSymbol": {
+      "sfSymbol": "face.smiling.inverse",
+      "fallbackEmoji": "😀"
+    },
+    "coverImagePrompt": "A glowing smartphone screen cast against a dark room, streams of emoji spilling outward like sparks, reflecting in a person's eye, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "10 billion a day",
+      "body": "Every day, people send more than 10 billion emojis. The crying-laughing face 😂 was Oxford's 'word' of the year in 2015 — and dictionaries have been debating how to handle emojis ever since. If this many people use something this consistently, isn't that a language? Most linguists would say: almost, but no.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "A massive wall of chat bubbles in a night-lit city, each bubble filled with a single floating emoji, neon palette"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What makes something a language",
+      "body": "Linguists look for a few features: a productive grammar (rules that can generate infinite new sentences), stable meaning across speakers, and the ability to discuss abstract, unseen things. Emojis fail all three. The meaning of 🍆 depends heavily on context. There's no rule that lets you string emojis into novel 'sentences' the way words work.",
+      "keyTerms": [
+        { "term": "Grammar", "definition": "The system of rules that lets speakers build unlimited new meaningful sentences" },
+        { "term": "Semantics", "definition": "The study of meaning in language" },
+        { "term": "Pragmatics", "definition": "How context shapes meaning, like tone or sarcasm" }
+      ],
+      "visual": {
+        "sfSymbol": "doc.text.magnifyingglass",
+        "imagePrompt": "A linguistics textbook lying open on a cafe table, a latte beside it, annotations in colored pen across the margins"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What emojis actually do",
+      "body": "Instead of being a language, emojis work more like tone of voice or gesture. In speech, a raised eyebrow or a smirk carries as much meaning as the words. Typed text has always struggled to transmit that. Emojis plug the gap — 'I'm coming 🙃' feels different from 'I'm coming 😊' even though the words are identical. Linguists call this 'paralanguage'.",
+      "visual": {
+        "sfSymbol": "hand.wave.fill",
+        "imagePrompt": "Split illustration: on one side, a medieval scribe writing text in quill; on the other, a modern phone screen showing text plus emojis, thread linking them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Stable, sort of",
+      "body": "Studies have shown emoji meaning varies surprisingly widely. One 2016 project analyzed how people interpreted the same emoji across phones — the grinning face 😬, for example, was read as happy on some devices and anguished on others. Meanwhile emoji 'grammar' is still fragile: a string of emojis might tell a story, but only loosely, and only in certain cultures.",
+      "funFact": "The oldest known smiley-face :-) in print appeared in 1982, typed by computer scientist Scott Fahlman to help colleagues spot jokes on a Carnegie Mellon message board.",
+      "visual": {
+        "sfSymbol": "character.bubble.fill",
+        "imagePrompt": "A row of the same emoji rendered in different corporate styles — Apple, Google, Samsung — each looking subtly different, sterile studio lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Not a language — a layer",
+      "body": "Emojis are one of the biggest innovations in written communication since punctuation. They're not replacing words; they're doing the work words were never designed to do. Calling them a 'new language' oversells what they are, but undersells what they've done. They've made text, at last, a little more human.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do most linguists say emojis aren't a true language?",
+      "options": [
+        "Because they're too new",
+        "Because they lack a productive grammar and stable shared meaning",
+        "Because they're pictures, not writing",
+        "Because children can't learn them"
+      ],
+      "correctIndex": 1,
+      "explanation": "Languages require grammatical rules and stable meanings, which emojis largely don't have on their own."
+    },
+    {
+      "index": 1,
+      "question": "What role do emojis play in text communication?",
+      "options": [
+        "They replace nouns",
+        "They provide tone and nonverbal cues — paralanguage",
+        "They serve as punctuation only",
+        "They encode grammatical tense"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emojis mimic gestures, facial expressions, and tone — the nonverbal layer speech has but writing lacks."
+    },
+    {
+      "index": 2,
+      "question": "Why can the 'same' emoji mean different things on different phones?",
+      "options": [
+        "Emojis self-update based on context",
+        "Each vendor renders the same Unicode symbol with a slightly different image",
+        "Users choose their own meanings",
+        "Some emojis are randomized"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unicode defines the code point, but Apple, Google, and others design their own artwork — which can shift interpretation."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Variation in emoji interpretation across platforms",
+      "publisher": "GroupLens Research, University of Minnesota",
+      "year": 2016
+    },
+    {
+      "title": "Because Internet: Understanding the New Rules of Language",
+      "publisher": "Riverhead Books",
+      "year": 2019
+    }
+  ],
+
+  "related": ["origin-of-writing", "internet-linguistics", "unicode-history"]
+}

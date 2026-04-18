@@ -1,0 +1,145 @@
+{
+  "id": "phishing-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Phishing Actually Works",
+    "teaser": "The most devastating cyberattacks don't break software. They break people — with a convincing email and a fake login page.",
+    "category": "Cybersecurity",
+    "subcategories": ["Social Engineering", "Email Security"],
+    "tags": ["phishing", "social-engineering", "security", "email", "scams"],
+    "emoji": "🎣",
+    "accentColor": "#EA580C",
+    "coverSymbol": {
+      "sfSymbol": "envelope.badge.fill",
+      "fallbackEmoji": "✉️"
+    },
+    "coverImagePrompt": "A glowing email icon pierced by a fishing hook, dark background with subtle code raining behind it, moody cinematic lighting, orange and black tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The oldest trick that never stops working",
+      "body": "In 2016, a Gmail login page landed in the inbox of Hillary Clinton's campaign chairman. He forwarded it to IT, who replied 'this is a legitimate email.' They meant to type 'illegitimate.' Click. Typed password. And with that, tens of thousands of private emails ended up on WikiLeaks. Phishing doesn't need advanced code. It needs one tired person at the wrong moment.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A smartphone glowing in a dark office, an official-looking login screen on its face, shadow of a hand reaching toward it"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Phishing is theater",
+      "body": "A phishing attack is a miniature stage play. The attacker writes a script ('your account has been suspended'), dresses up in a costume (spoofed email, fake logo), and stages a setting (a lookalike website). You're cast as the protagonist who must act urgently to save yourself. The technical parts matter less than the emotional ones: fear, urgency, authority, curiosity. Good phishers are better playwrights than programmers.",
+      "keyTerms": [
+        { "term": "Spoofing", "definition": "Making an email or website appear to come from a trusted source" },
+        { "term": "Social engineering", "definition": "Manipulating humans rather than software to breach security" }
+      ],
+      "visual": {
+        "sfSymbol": "theatermasks.fill",
+        "imagePrompt": "Theater curtains parting to reveal a fake bank login page on a stage, spotlight on it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The anatomy of a real attack",
+      "body": "A typical campaign unfolds in four beats. First, reconnaissance: the attacker scrapes LinkedIn to learn who works where, who reports to whom. Second, the lure: an email from 'your CEO' asking for a wire transfer, or from 'IT' asking you to verify your password. Third, the landing page: a pixel-perfect clone of Microsoft 365 or Okta. Fourth, harvest: your credentials flow to the attacker's server, and often an automated script logs into your account within seconds.",
+      "keyTerms": [
+        { "term": "Spear phishing", "definition": "A targeted phishing attack personalized to a specific victim" },
+        { "term": "Business Email Compromise", "definition": "Phishing aimed at tricking employees into wiring money or sharing data" }
+      ],
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "A four-panel flow chart showing reconnaissance, email delivery, fake login page, and stolen credentials flowing to a hacker"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Industrial-scale success",
+      "body": "The FBI estimates Business Email Compromise alone cost organizations over $55 billion between 2013 and 2023. During the pandemic, phishing attempts exploded by more than 600% — fake shipping alerts, fake vaccine appointments, fake tax refunds. Attackers now use AI to clone voices for phone follow-ups, and to write flawless, personalized emails at scale. The grammar mistakes that used to give phishing away are disappearing.",
+      "funFact": "One Lithuanian man, posing as a hardware supplier, phished Google and Facebook out of $100 million between 2013 and 2015 using nothing but forged invoices.",
+      "visual": {
+        "sfSymbol": "dollarsign.circle.fill",
+        "imagePrompt": "A giant money counter ticking up rapidly, labels flashing 'WIRE TRANSFER COMPLETED' in the background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Slow down. Check the URL. Call back.",
+      "body": "The defense against phishing isn't paranoia — it's a small, deliberate pause. Hover over links before clicking. Type domains directly instead of following email links. When the email asks for urgent action, call the sender back on a number you looked up yourself. The attacker's biggest weapon is your rush. Take it away from them.",
+      "visual": {
+        "sfSymbol": "pause.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do phishing attacks succeed even against careful people?",
+      "options": [
+        "They exploit software bugs",
+        "They manipulate emotions like urgency and fear",
+        "They use quantum computing",
+        "They bypass encryption"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phishing targets human psychology, not technology — fear and urgency short-circuit careful thinking."
+    },
+    {
+      "index": 1,
+      "question": "What is spear phishing?",
+      "options": [
+        "A phishing email sent in bulk",
+        "A targeted phishing attack tailored to a specific person or organization",
+        "An attack on fishing websites",
+        "A phishing attempt via SMS"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spear phishing is personalized — names, job titles, and context make the attack far more convincing."
+    },
+    {
+      "index": 2,
+      "question": "Which habit most reliably helps avoid phishing?",
+      "options": [
+        "Deleting all emails you don't recognize",
+        "Pausing to verify senders and URLs before clicking",
+        "Using a virtual keyboard to type passwords",
+        "Clearing your browser cookies daily"
+      ],
+      "correctIndex": 1,
+      "explanation": "A deliberate pause — inspecting the URL, calling the sender back — defeats most phishing attempts."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Internet Crime Report",
+      "publisher": "FBI Internet Crime Complaint Center (IC3)",
+      "year": 2023
+    },
+    {
+      "title": "Data Breach Investigations Report",
+      "publisher": "Verizon",
+      "year": 2023
+    }
+  ],
+
+  "related": ["password-entropy", "social-engineering-101", "two-factor-authentication"]
+}

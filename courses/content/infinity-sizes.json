@@ -1,0 +1,141 @@
+{
+  "id": "infinity-sizes",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "There Are Different Sizes of Infinity",
+    "teaser": "Some infinities are literally larger than others. A 19th-century mathematician went mad proving it.",
+    "category": "Mathematics",
+    "subcategories": ["Set Theory", "Logic"],
+    "tags": ["infinity", "cantor", "set-theory", "proofs", "philosophy-of-math"],
+    "emoji": "♾️",
+    "accentColor": "#5B2C91",
+    "coverSymbol": {
+      "sfSymbol": "infinity",
+      "fallbackEmoji": "🔢"
+    },
+    "coverImagePrompt": "An endless spiral staircase made of numbers, fading into starry darkness above and below, purple cosmic haze, dreamlike cinematic painting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Bigger than endless",
+      "body": "For most of human history, infinity was one thing — vague, unreachable, either divine or forbidden. Then in the 1870s, a shy German mathematician named Georg Cantor showed something outrageous: some infinities are strictly larger than others. The backlash cost him his career, and nearly his sanity.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": "An old chalkboard covered in overlapping infinity symbols in faint white chalk"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "How do you compare endless piles?",
+      "body": "Cantor's trick: forget counting. Instead, try to pair things up one-to-one. If every item in pile A can be matched with exactly one item in pile B and nothing's left over, the piles are the same size — even if both are infinite. By this rule, there are as many even numbers as integers. Weird, but consistent.",
+      "keyTerms": [
+        { "term": "Bijection", "definition": "A perfect one-to-one pairing between two sets" },
+        { "term": "Cardinality", "definition": "The size of a set, even an infinite one" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "Two infinite rows of dots connected by arrows pairing them one to one"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The diagonal that broke math",
+      "body": "Cantor asked: can we pair every whole number with every real number between 0 and 1? He assumed yes, listed them, and then built a new number by changing the first digit of the first entry, the second digit of the second, and so on. The result differed from every number on the list — proving the list was incomplete. The reals are a bigger infinity than the counting numbers. Full stop.",
+      "visual": {
+        "sfSymbol": "list.number",
+        "imagePrompt": "A handwritten list of decimal numbers with a red diagonal line crossing through key digits"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A hierarchy without end",
+      "body": "Cantor went further. He proved that the set of all subsets of any infinite set is *itself* a larger infinity — and you can repeat this forever. Infinities of infinities. Most of his peers rejected it as pure nonsense. Henri Poincaré called it a 'grave disease.' Today his diagonal argument is a cornerstone of logic, computer science, and proofs of what computers can never do.",
+      "funFact": "Alan Turing adapted Cantor's diagonal trick to prove some problems are uncomputable — the foundation of modern computer science.",
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "Nested glowing cubes stacking upward into a starry void"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Infinity has shape",
+      "body": "The lesson isn't just that math hides wonders. It's that some true things are so strange they look wrong. Cantor's infinities broke an intuition humans had held for 2,500 years. He wasn't wrong — we were, and not a little. Next time something feels obviously impossible, ask: obvious to whom?",
+      "visual": {
+        "sfSymbol": "star.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did Cantor compare the sizes of infinite sets?",
+      "options": [
+        "By counting to the end",
+        "By pairing elements one-to-one",
+        "By measuring their length",
+        "By graphing them"
+      ],
+      "correctIndex": 1,
+      "explanation": "If every element of one set pairs perfectly with one element of the other, the sets are the same size."
+    },
+    {
+      "index": 1,
+      "question": "What did Cantor's diagonal argument prove?",
+      "options": [
+        "Even numbers are fewer than integers",
+        "Real numbers are a larger infinity than whole numbers",
+        "Infinity doesn't exist",
+        "Zero is a type of infinity"
+      ],
+      "correctIndex": 1,
+      "explanation": "By constructing a number different from every entry in any proposed list, Cantor showed the reals can't be listed."
+    },
+    {
+      "index": 2,
+      "question": "Why is Cantor's diagonal argument still important today?",
+      "options": [
+        "It's used in tax calculation",
+        "It underpins proofs in computer science about what's computable",
+        "It solved the Riemann hypothesis",
+        "It's used in GPS technology"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turing adapted it to show that some problems, like the halting problem, have no algorithmic solution."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Contributions to the Founding of the Theory of Transfinite Numbers",
+      "publisher": "Georg Cantor, Dover Publications",
+      "year": 1915
+    },
+    {
+      "title": "Everything and More: A Compact History of Infinity",
+      "publisher": "David Foster Wallace, W. W. Norton",
+      "year": 2003
+    }
+  ],
+
+  "related": ["birthday-paradox", "godel-incompleteness", "halting-problem"]
+}

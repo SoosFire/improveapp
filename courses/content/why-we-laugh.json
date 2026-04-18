@@ -1,0 +1,136 @@
+{
+  "id": "why-we-laugh",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Laugh",
+    "teaser": "Laughter isn't really about jokes. It's a 10-million-year-old social signal that predates language itself.",
+    "category": "Psychology",
+    "subcategories": ["Social Psychology", "Evolutionary Biology"],
+    "tags": ["laughter", "humor", "psychology", "evolution", "social-behavior"],
+    "emoji": "😂",
+    "accentColor": "#E8B84E",
+    "coverSymbol": {
+      "sfSymbol": "face.smiling.fill",
+      "fallbackEmoji": "😄"
+    },
+    "coverImagePrompt": "A candid overhead shot of friends around a dinner table mid-laugh, golden warm light, genuine joy on every face, documentary photography style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "What even is a laugh?",
+      "body": "Try to describe a laugh without using the word 'laugh.' Involuntary rhythmic vocalization, uncontrollable breath spasms, a face that contorts on its own. It's weird when you think about it. And yet babies start doing it around four months old, deaf children laugh even without ever hearing one, and we're still not entirely sure why.",
+      "visual": {
+        "sfSymbol": "face.smiling",
+        "imagePrompt": "A baby mid-laugh with bright eyes and wide open mouth, soft natural light, tender and joyful"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Laughter is older than jokes",
+      "body": "Chimpanzees, gorillas, and even rats produce laughter-like vocalizations when tickled or play-fighting. Primate researcher Marina Davila-Ross traced the family tree of ape laughter and concluded it evolved from shared breathing patterns during rough play — at least 10 to 16 million years ago. Humans inherited the behavior; we just later wrapped it around language.",
+      "keyTerms": [
+        { "term": "Duchenne laughter", "definition": "Spontaneous, genuine laughter involving muscles around the eyes — hard to fake" },
+        { "term": "Non-Duchenne laughter", "definition": "Voluntary, social laughter used to signal friendliness or agreement, not genuine amusement" }
+      ],
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "Two young chimpanzees tumbling together in play, mouths open in the classic ape 'play face,' warm jungle light"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A social glue, not a joke response",
+      "body": "Neuroscientist Robert Provine recorded 1,200 real-world laughs and made a startling discovery: only about 20 percent followed anything resembling a joke. Most laughter punctuates ordinary conversation — 'Hey!' 'Got to go.' 'See you later.' Laughter is primarily social signaling. It tells the other person: I'm safe. I'm with you. This is play, not threat.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "Two friends deep in conversation at a café, one laughing while the other speaks, warm candid photography"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The tickle paradox and contagious giggles",
+      "body": "You can't tickle yourself — your brain predicts your own touch and cancels the response. But another person's fingers trigger both surprise and safety cues at once, and the laughter follows. Laughter is also contagious: fMRI studies show that just hearing a laugh activates the motor regions that produce your own. Canned sitcom laughter works because evolution wired you to join in.",
+      "funFact": "A 2015 Oxford study found people who laugh together release measurable amounts of endorphins — literally painkillers — and bond more quickly than those who don't.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "An fMRI brain scan with motor and auditory regions glowing in warm colors, scientifically elegant"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An ancient language we still don't fully speak",
+      "body": "Laughter predates words, punctuates our speech, bonds strangers, and releases painkillers. It's one of the oldest things our bodies do and one of the least understood. Next time you're laughing with someone, notice: you're using a communication system that's older than humanity. The joke is almost beside the point.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what percentage of everyday laughter follows something resembling a joke?",
+      "options": ["About 20%", "About 50%", "About 75%", "Nearly 100%"],
+      "correctIndex": 0,
+      "explanation": "Provine's research showed that only about 20% of laughs follow jokes. Most punctuate ordinary conversation as social signaling."
+    },
+    {
+      "index": 1,
+      "question": "Why can't you tickle yourself?",
+      "options": [
+        "Your skin is less sensitive on your own hands",
+        "Your brain predicts your own touch and cancels the surprise response",
+        "Tickling requires two people by definition",
+        "Self-touch doesn't activate nerve endings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Your brain's cerebellum anticipates self-generated motion and dampens the surprise signal that triggers tickling."
+    },
+    {
+      "index": 2,
+      "question": "What is 'Duchenne laughter'?",
+      "options": [
+        "Laughter from a specific comedy style",
+        "Spontaneous genuine laughter involving muscles around the eyes",
+        "Laughter caused by tickling only",
+        "Laughter produced by machines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duchenne laughter is the genuine, involuntary kind — distinguished by the crinkling of eye muscles, which are very hard to fake."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Laughter: A Scientific Investigation",
+      "publisher": "Viking",
+      "year": 2000
+    },
+    {
+      "title": "Reconstructing the Evolution of Laughter in Great Apes and Humans",
+      "publisher": "Current Biology",
+      "year": 2009
+    }
+  ],
+
+  "related": ["social-bonding", "endorphins", "humor-theory"]
+}

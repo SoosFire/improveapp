@@ -1,0 +1,141 @@
+{
+  "id": "fiber-gut-health",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Fiber Matters More Than You Think",
+    "teaser": "You can't even digest it. So why is fiber the single most underrated nutrient in human diets? Meet the trillion roommates who can.",
+    "category": "Nutrition",
+    "subcategories": ["Gut Health", "Microbiome"],
+    "tags": ["fiber", "gut", "microbiome", "digestion", "health"],
+    "emoji": "🌾",
+    "accentColor": "#8FA874",
+    "coverSymbol": {
+      "sfSymbol": "leaf.circle.fill",
+      "fallbackEmoji": "🌾"
+    },
+    "coverImagePrompt": "A cross-section of whole-grain bread with visible seeds and bran, warm natural light, rustic still life, extreme close-up, soft cinematic depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The nutrient that isn't food for you",
+      "body": "Fiber is the one thing in your diet that passes through your small intestine essentially untouched. Your body has no enzymes to break it down. So why is it one of the nutrients most strongly tied to a longer life? Because it isn't really for you. It's for the 39 trillion microbes that live in your colon.",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A stylized cross-section of the human gut with glowing microbial communities, scientific-illustration style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two kinds of fiber, two jobs",
+      "body": "Soluble fiber — the kind in oats, beans, and apples — dissolves in water to form a gel that slows sugar absorption and binds cholesterol. Insoluble fiber — in wheat bran, nuts, and vegetable skins — keeps its shape, bulks up stool, and speeds transit time. Most whole plant foods contain both. Together they give food physical structure your gut can work with, and they feed the part of you that isn't quite you.",
+      "keyTerms": [
+        { "term": "Soluble fiber", "definition": "Fiber that dissolves into a gel in water; slows digestion and can lower cholesterol" },
+        { "term": "Insoluble fiber", "definition": "Fiber that retains its structure; adds bulk and speeds stool transit" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.split.2x1.fill",
+        "imagePrompt": "Split image of oats on one side and wheat bran on the other, studio lighting on white"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Your microbes throw a feast",
+      "body": "When fiber reaches your colon, the resident bacteria get to work. They ferment it and produce short-chain fatty acids — especially butyrate, propionate, and acetate. Butyrate is the preferred fuel for the cells lining your colon. It reinforces the gut barrier, damps inflammation, and helps regulate appetite and blood sugar. A fiber-rich gut is a well-fed gut, and a well-fed gut is a less leaky, less inflamed one.",
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "Microscopic view of gut bacteria fermenting fiber, colorful and dynamic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The numbers are blunt",
+      "body": "A 2019 Lancet meta-analysis of nearly 250 studies found that people eating 25 to 29 grams of fiber a day had roughly 15 to 30% lower rates of death from all causes, heart disease, type 2 diabetes, and colorectal cancer than people eating less. Higher intakes looked even better. And yet the typical adult in the US eats about 15 grams a day — roughly half the target.",
+      "funFact": "Hunter-gatherer societies like the Hadza of Tanzania routinely eat over 100 grams of fiber a day, and have microbiomes far more diverse than anyone in industrialized populations.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "Infographic showing fiber intake averages vs. disease-risk reduction bars"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Feed your other organ",
+      "body": "Your microbiome acts like an extra organ, and like any organ it needs specific fuel. Fiber is that fuel. You don't need a supplement — real food does it better. Beans, whole grains, fruit with the skin on, vegetables, nuts. Boring advice, maybe. But few nutrients carry this much evidence for this many outcomes.",
+      "visual": {
+        "sfSymbol": "fork.knife",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why is fiber still nutritionally important if we can't digest it?",
+      "options": [
+        "It provides direct calories",
+        "Gut bacteria ferment it into beneficial short-chain fatty acids",
+        "It contains protein humans absorb",
+        "It blocks all vitamin absorption"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gut microbes ferment fiber into butyrate and other short-chain fatty acids that support colon health and reduce inflammation."
+    },
+    {
+      "index": 1,
+      "question": "What's the main role of soluble fiber?",
+      "options": [
+        "Adds bulk and speeds stool transit",
+        "Forms a gel that slows sugar absorption and binds cholesterol",
+        "Replaces protein in the diet",
+        "Prevents iron absorption"
+      ],
+      "correctIndex": 1,
+      "explanation": "Soluble fiber dissolves into a gel — the property that makes it effective at moderating blood sugar and LDL cholesterol."
+    },
+    {
+      "index": 2,
+      "question": "What did the 2019 Lancet meta-analysis find about high fiber intake?",
+      "options": [
+        "No effect on mortality",
+        "Higher intake slightly increased heart disease",
+        "15–30% lower rates of death, heart disease, type 2 diabetes, and colorectal cancer",
+        "Benefits only in children"
+      ],
+      "correctIndex": 2,
+      "explanation": "People eating 25–29+ grams a day had substantially lower rates across multiple major disease outcomes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses",
+      "publisher": "The Lancet",
+      "year": 2019
+    },
+    {
+      "title": "The gut microbiota and host health: a new clinical frontier",
+      "publisher": "Gut (BMJ)",
+      "year": 2016
+    }
+  ],
+
+  "related": ["microbiome", "short-chain-fatty-acids", "whole-grains"]
+}

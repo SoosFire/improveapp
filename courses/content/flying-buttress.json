@@ -1,0 +1,141 @@
+{
+  "id": "flying-buttress",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Flying Buttress",
+    "teaser": "The medieval trick that let cathedrals have walls of glass — by pushing the building from the outside.",
+    "category": "Architecture",
+    "subcategories": ["Gothic Architecture", "Engineering"],
+    "tags": ["gothic", "cathedrals", "engineering", "medieval", "structure"],
+    "emoji": "⛪",
+    "accentColor": "#8A7E5C",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "⛪"
+    },
+    "coverImagePrompt": "Exterior of a Gothic cathedral at golden hour with dramatic flying buttresses arching outward, warm stone, dusty light beams through the arches, cinematic wide angle"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A problem made of stone",
+      "body": "Walk into a Gothic cathedral and tilt your head back. Ribbed ceilings vault eight stories above you, held up by walls that seem impossibly thin and full of colored glass. It shouldn't be standing. For most of human history, buildings like this weren't possible. Then, in about 1160, a few French masons did something clever: they moved the support to the outside.",
+      "visual": {
+        "sfSymbol": "arrow.up.heart.fill",
+        "imagePrompt": "A view up the interior nave of a Gothic cathedral, ribbed vault and stained glass windows bathed in jewel-toned light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The weight problem",
+      "body": "A stone vault wants to fall inward. Its weight pushes outward against the walls that hold it up, like an opening book pressing against your palms. The thicker the walls, the more they can resist the push — but thick walls can't have big windows. For Romanesque churches this meant gloom. Gothic builders wanted light.",
+      "keyTerms": [
+        { "term": "Thrust", "definition": "The outward horizontal force a vault or arch exerts on its supports" },
+        { "term": "Buttress", "definition": "A masonry structure that resists outward thrust, keeping a wall from leaning outward" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "A cross-section diagram showing a stone vault pushing outward on two walls with red arrows, architectural textbook style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The flying trick",
+      "body": "Instead of thickening the walls, Gothic engineers built separate piers standing away from the church and connected them to the wall with a sloped stone arch — the 'flying' part. The arch carries the vault's outward push down through the pier into the ground, bypassing the wall entirely. Now the wall only has to carry its own weight. It can be as thin as glass. So it was made of glass.",
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "A clean architectural diagram of a flying buttress: nave wall, sloped flying arch, outer pier, with load arrows traced in red"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Notre-Dame proved it",
+      "body": "Notre-Dame de Paris, begun in 1163, is often credited as the first cathedral to use flying buttresses at a monumental scale. The technique spread across Europe within a few decades: Chartres, Reims, Amiens, and eventually the towering 157-foot vaults of Beauvais — which actually collapsed twice in the 13th and 16th centuries, a reminder that every engineering trick has a limit.",
+      "funFact": "Gargoyles carved onto the tops of buttresses weren't just decoration — they were functional gutters that threw rainwater away from the stonework.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "Aerial exterior of Notre-Dame de Paris before sunset, flying buttresses fanning out along the nave, golden warm tones"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Solving inside by standing outside",
+      "body": "The flying buttress is a reminder that the best engineering answer is sometimes to move the problem somewhere else. The cathedral's soaring glass walls only exist because their real structural work is happening on the outside, in plain air. Next time you see one, you're not looking at decoration. You're looking at a force diagram made of limestone.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What problem do flying buttresses solve?",
+      "options": [
+        "Keeping rain off the roof",
+        "Counteracting the outward thrust of stone vaults",
+        "Supporting bell towers from wind",
+        "Distributing weight of statues"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flying buttresses redirect the outward push of heavy stone vaults away from the walls and down to exterior piers."
+    },
+    {
+      "index": 1,
+      "question": "Why did Gothic architects want thinner walls?",
+      "options": [
+        "To reduce construction cost",
+        "To allow larger windows and more light",
+        "To make churches lighter on their foundations",
+        "To conserve stone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thinner walls could hold enormous stained-glass windows, filling Gothic interiors with the colored light prized by the era."
+    },
+    {
+      "index": 2,
+      "question": "Which cathedral is most commonly credited as the first monumental use of flying buttresses?",
+      "options": [
+        "Chartres Cathedral",
+        "Cologne Cathedral",
+        "Notre-Dame de Paris",
+        "St. Peter's Basilica"
+      ],
+      "correctIndex": 2,
+      "explanation": "Notre-Dame de Paris, begun in 1163, is widely credited as the first cathedral to deploy flying buttresses at a monumental scale."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Gothic Architecture",
+      "publisher": "Paul Frankl (rev. Paul Crossley), Yale University Press",
+      "year": 2000
+    },
+    {
+      "title": "The Structural Behavior of Flying Buttresses",
+      "publisher": "Journal of the Society of Architectural Historians",
+      "year": 1961
+    }
+  ],
+
+  "related": ["golden-ratio-architecture", "gothic-cathedrals", "rib-vault"]
+}

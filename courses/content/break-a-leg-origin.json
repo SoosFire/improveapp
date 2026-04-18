@@ -1,0 +1,126 @@
+{
+  "id": "break-a-leg-origin",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Actors Say 'Break a Leg'",
+    "teaser": "Wishing someone 'good luck' in the theater is terrible luck. So where did this charmingly violent alternative come from?",
+    "category": "Theater & Drama",
+    "subcategories": ["Theater History", "Superstitions"],
+    "tags": ["theater", "superstition", "etymology", "performance", "history"],
+    "emoji": "🎭",
+    "accentColor": "#7D2941",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A velvet red theater curtain half-drawn, the side legs of the stage visible in warm spotlights, a single rose on the wooden floor, dramatic moody atmosphere"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 3,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Never say the G word",
+      "body": "Step backstage at any theater five minutes before curtain and try saying 'good luck' to an actor. You'll get a horrified look. Maybe a spitting ritual. Definitely a lecture. In theater culture, wishing someone good luck is a curse — so performers invented a workaround so absurd it became tradition: 'Break a leg.' But where did that phrase actually come from?",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A dimly lit backstage dressing room, an actor in Elizabethan costume nervously adjusting a ruff, mirror bulbs glowing, anticipation in the air"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The logic of reverse wishes",
+      "body": "Theater is drowning in superstition — no whistling onstage, never say 'Macbeth,' always leave a ghost light burning. The logic is old and almost sweet: mischievous spirits love to ruin performances, so you must trick them. If you wish good luck, the spirits will do the opposite. So you wish harm, and the spirits, being contrary, bring success. 'Break a leg' is protective magic dressed as violence.",
+      "keyTerms": [
+        { "term": "Theatrical superstition", "definition": "The folk beliefs and rituals performers follow to ward off bad fortune on stage" },
+        { "term": "Apotropaic", "definition": "Intended to ward off evil — literally 'turning away' bad luck" }
+      ],
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A single glowing ghost light standing center stage in an empty Victorian theater at night, dust motes drifting in the beam"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The 'legs' on stage",
+      "body": "The most compelling origin points to stage geography. The tall vertical curtains along the sides of the stage are called 'legs.' In vaudeville, performers were only paid if they actually appeared on stage — and sometimes dozens of acts would crowd the wings. To 'break the legs' meant to push through those side curtains and physically make it onto the stage, meaning the audience saw you, meaning you got paid.",
+      "visual": {
+        "sfSymbol": "curtains.closed",
+        "imagePrompt": "A view from the wings of an old vaudeville theater, vertical black 'leg' curtains framing the brightly lit stage beyond, performers waiting in the shadows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "A blessing in disguise",
+      "body": "Other theories compete: bowing so deeply you 'break' the line of your leg, a reference to the 19th-century actor David Garrick who reportedly didn't notice a broken leg during a performance, or even a twisted nod to John Wilkes Booth. None are definitively proven. What's certain is that by the 1930s, American theater folk were saying it to each other nightly. The phrase stuck because it does two jobs at once — it dodges the curse, and it wishes the person a paying gig.",
+      "funFact": "In opera, performers say 'toi toi toi' instead. In Italian theater, the phrase is 'in bocca al lupo' — 'into the wolf's mouth.' Every theatrical tradition has its own loving insult.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do theater people avoid saying 'good luck' before a performance?",
+      "options": [
+        "It's considered too casual and unprofessional",
+        "It's believed to invite bad luck from mischievous spirits",
+        "It's copyrighted by Broadway",
+        "It wastes valuable warm-up time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theatrical superstition holds that wishing good luck actually attracts bad luck, so performers use reversed blessings instead."
+    },
+    {
+      "index": 1,
+      "question": "In vaudeville theater, what are the 'legs'?",
+      "options": [
+        "The wooden supports under the stage",
+        "The vertical curtains that frame the sides of the stage",
+        "The actors' stilts used in some acts",
+        "The spotlight stands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'legs' are the tall vertical drapes along the sides of the stage — to 'break' them meant to get past them and onto the stage."
+    },
+    {
+      "index": 2,
+      "question": "What do opera performers say instead of 'break a leg'?",
+      "options": ["Bravo bravo bravo", "Toi toi toi", "Canta bene", "Buona fortuna"],
+      "correctIndex": 1,
+      "explanation": "Opera's equivalent is 'toi toi toi,' sometimes accompanied by a symbolic spit over the shoulder to ward off bad luck."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Oxford Dictionary of Phrase and Fable",
+      "publisher": "Oxford University Press",
+      "year": 2006
+    },
+    {
+      "title": "Theater Superstitions and Their Origins",
+      "publisher": "American Theatre Magazine",
+      "year": 2015
+    }
+  ],
+
+  "related": ["macbeth-curse", "ghost-light-tradition", "vaudeville-history"]
+}

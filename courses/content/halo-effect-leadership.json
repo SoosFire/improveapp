@@ -1,0 +1,136 @@
+{
+  "id": "halo-effect-leadership",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Halo Effect in the Workplace",
+    "teaser": "Why your most punctual colleague might be getting promoted for all the wrong reasons.",
+    "category": "Leadership",
+    "subcategories": ["Cognitive Bias", "Performance Reviews"],
+    "tags": ["bias", "psychology", "hiring", "promotions", "thorndike"],
+    "emoji": "😇",
+    "accentColor": "#D4A017",
+    "coverSymbol": {
+      "sfSymbol": "sun.and.horizon.fill",
+      "fallbackEmoji": "✨"
+    },
+    "coverImagePrompt": "A polished executive in a sharp suit standing in a shaft of golden sunlight in an open-plan office, while colleagues in shadow look on, cinematic, slightly ironic, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The trap of one good trait",
+      "body": "You've seen it happen. Someone speaks confidently in a meeting, and suddenly everyone assumes they're also smart, hardworking, and trustworthy. That leap — from one visible strength to a whole constellation of imagined virtues — is the halo effect. And it quietly shapes who gets hired, funded, and promoted.",
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "A silhouette of a person at a podium with a glowing halo of light behind them, their actual features blurred, dramatic stage lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A 1920s army experiment",
+      "body": "Psychologist Edward Thorndike asked army officers to rate their soldiers on specific traits — intelligence, physique, leadership, character. He expected varied ratings. Instead, the numbers clustered suspiciously: soldiers rated tall and handsome were also rated smarter and more loyal. Thorndike coined a name for it in 1920: the halo effect.",
+      "keyTerms": [
+        { "term": "Halo effect", "definition": "A cognitive bias where one positive trait colors our perception of unrelated traits" },
+        { "term": "Horn effect", "definition": "The inverse — one negative trait darkens our view of the whole person" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "A sepia-toned 1920s military lineup, officers with clipboards evaluating young soldiers, archival documentary style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why your brain cheats",
+      "body": "Evaluating a whole person is expensive — our brains crave shortcuts. So when we lack real data, we anchor on what's visible: good looks, a firm handshake, a confident tone. Then we fill in the rest to match. In performance reviews, this means one memorable success or failure can distort an entire year of feedback.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A stylized diagram of a brain with one bright bulb lit up, casting a glow that washes out everything else around it"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The boardroom blind spot",
+      "body": "Phil Rosenzweig's book 'The Halo Effect' showed how business journalism falls for the same trap: successful companies get praised for 'visionary leadership' and 'strong culture,' while failing ones with the exact same practices get blamed for 'arrogance' and 'dysfunction.' The data didn't change — only the halo did.",
+      "funFact": "A 2011 study found that candidates interviewing over Zoom were rated higher when they had good lighting and audio — completely independent of what they actually said.",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "Two identical glass corporate towers side by side, one bathed in warm golden light, the other in cold blue shadow, editorial photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to see past the halo",
+      "body": "You can't turn the bias off — but you can slow it down. Score traits independently before forming an overall impression. Use structured interviews with the same questions for every candidate. And the next time you're sure someone's 'just a natural leader,' ask yourself what specific evidence you actually have. The answer is usually thinner than the halo.",
+      "visual": {
+        "sfSymbol": "checkmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who first described the halo effect?",
+      "options": ["Sigmund Freud", "Edward Thorndike", "Daniel Kahneman", "B.F. Skinner"],
+      "correctIndex": 1,
+      "explanation": "Thorndike introduced the term in 1920 after noticing officers gave suspiciously correlated ratings across unrelated traits."
+    },
+    {
+      "index": 1,
+      "question": "What is the 'horn effect'?",
+      "options": [
+        "A bias toward loud people",
+        "The tendency to over-credit leaders",
+        "When one negative trait colors overall perception",
+        "A bias against short employees"
+      ],
+      "correctIndex": 2,
+      "explanation": "The horn effect is the halo's mirror: a single negative impression makes us judge unrelated traits harshly too."
+    },
+    {
+      "index": 2,
+      "question": "Which practice best reduces the halo effect in reviews?",
+      "options": [
+        "Giving an overall rating first, then filling in details",
+        "Letting managers rely on gut instinct",
+        "Scoring each trait separately before any summary",
+        "Using longer free-form narratives"
+      ],
+      "correctIndex": 2,
+      "explanation": "Evaluating traits one at a time — before forming a global impression — prevents one strong trait from bleeding into others."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Constant Error in Psychological Ratings",
+      "publisher": "Journal of Applied Psychology",
+      "year": 1920
+    },
+    {
+      "title": "The Halo Effect: How Managers Let Themselves Be Deceived",
+      "publisher": "Free Press (Rosenzweig)",
+      "year": 2007
+    }
+  ],
+
+  "related": ["confirmation-bias", "structured-interviews", "fundamental-attribution-error"]
+}

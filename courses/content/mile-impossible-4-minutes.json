@@ -1,0 +1,136 @@
+{
+  "id": "mile-impossible-4-minutes",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Breaking the 4-Minute Mile",
+    "teaser": "Doctors said the heart would burst. Then one man did it — and 46 days later, someone else did too.",
+    "category": "Sports",
+    "subcategories": ["Athletics History", "Human Performance"],
+    "tags": ["mile", "bannister", "athletics", "records", "mindset"],
+    "emoji": "🏃",
+    "accentColor": "#4B6CB7",
+    "coverSymbol": {
+      "sfSymbol": "figure.run",
+      "fallbackEmoji": "⏱️"
+    },
+    "coverImagePrompt": "A lone runner in a white singlet crossing a cinder-track finish line under grey 1954 Oxford skies, digital stopwatch frozen at 3:59, spectators blurred behind, vintage film grain"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A wall in time",
+      "body": "By the 1950s, the mile record had been creeping down for decades — 4:01.3, then 4:01.4 — but it had frozen just above four minutes for nine years. Sports writers called it the four-minute barrier, as if the number itself had physical thickness. A Danish physiologist calculated the human heart simply couldn't pump fast enough to sustain the pace. A British coach told his runners it would 'kill the man who tried it.'",
+      "visual": {
+        "sfSymbol": "stopwatch.fill",
+        "imagePrompt": "A 1950s analog stopwatch resting on a wooden lane divider, second hand stopped just past the 4:00 mark, sepia tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Roger Bannister's math",
+      "body": "Bannister was a medical student who trained only on his lunch breaks at St. Mary's Hospital. He approached the mile like a physiology problem. Four laps, each in 59 seconds. He recruited two pacemakers — Chris Brasher for the first two laps, Chris Chataway for the third — so he could focus on one thing: holding on. On May 6, 1954, at Iffley Road track in Oxford, he tried.",
+      "keyTerms": [
+        { "term": "Pacemaker", "definition": "A runner who sets a specific pace for the first part of a race, then drops out" },
+        { "term": "Splits", "definition": "The times recorded at intermediate points during a race, often each lap" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.2.and.child.holdinghands",
+        "imagePrompt": "Three runners in single file on a cinder track in black and white, the two in front drafting wind for the third, vintage athletic aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The 3:59.4",
+      "body": "Bannister's splits: 57.5, 60.7, 62.3, 58.9. The wind was 25 mph — he nearly postponed. Down the final straight Chataway faded and Bannister kicked alone for 250 meters. At the tape he collapsed into the arms of his friends. The stadium announcer drew out the word 'three' and the rest was lost in roar. Official time: 3:59.4.",
+      "visual": {
+        "sfSymbol": "flag.checkered",
+        "imagePrompt": "Black-and-white photo style: a collapsing runner caught by teammates at the finish line, blurred crowd cheering, dust kicking up from cinder"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The psychological dam",
+      "body": "Six weeks later — 46 days — John Landy ran 3:58.0 in Finland. By the end of the decade, a dozen runners had gone sub-four. Today over 1,700 have. Nothing about human physiology had changed. What changed was the belief that the thing was doable. Bannister himself was modest about this: 'It's the first time that matters. After that, the barrier is only mental.'",
+      "funFact": "The current world record (Hicham El Guerrouj, 1999) is 3:43.13 — fifteen seconds faster. High-school runners break four minutes regularly now.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A graph of the mile world record dropping steeply after 1954, annotated with dates and runner names"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What the barrier was made of",
+      "body": "The four-minute mile is sports' favorite example of a ceiling that turned out to be a doorway. Most 'impossible' feats aren't limits of the body — they're limits of imagination. Once someone proves the thing can be done, the path behind them becomes a trail, and the trail becomes a highway.",
+      "visual": {
+        "sfSymbol": "door.left.hand.open",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where and when did Bannister break the four-minute mile?",
+      "options": [
+        "London, August 1952",
+        "Oxford, May 1954",
+        "Helsinki, June 1954",
+        "Cambridge, April 1955"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bannister ran 3:59.4 at the Iffley Road track in Oxford on May 6, 1954."
+    },
+    {
+      "index": 1,
+      "question": "How long after Bannister did John Landy also run sub-four?",
+      "options": ["7 days", "46 days", "Six months", "Two years"],
+      "correctIndex": 1,
+      "explanation": "Landy went 3:58.0 just 46 days later in Finland — powerful evidence that the barrier was largely psychological."
+    },
+    {
+      "index": 2,
+      "question": "What role did Brasher and Chataway play in Bannister's race?",
+      "options": [
+        "Competitors trying to beat him",
+        "Pacemakers for the first three laps",
+        "Spectators who tracked split times",
+        "Coaches on the infield"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brasher set the pace for laps 1–2 and Chataway for lap 3, letting Bannister conserve mental energy for the final kick."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Four Minute Mile",
+      "publisher": "Dodd, Mead & Company (Roger Bannister)",
+      "year": 1955
+    },
+    {
+      "title": "The Perfect Mile: Three Athletes, One Goal, and Less Than Four Minutes to Achieve It",
+      "publisher": "Houghton Mifflin (Neal Bascomb)",
+      "year": 2004
+    }
+  ],
+
+  "related": ["marathon-record", "vo2-max", "mental-barriers"]
+}

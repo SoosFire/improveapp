@@ -1,0 +1,141 @@
+{
+  "id": "impressionism-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Impressionist Paintings Look Blurry",
+    "teaser": "Monet's haystacks look fuzzy up close — but magical from across the room. That's not accident. That's biology.",
+    "category": "Art",
+    "subcategories": ["Art History", "Visual Perception"],
+    "tags": ["impressionism", "monet", "optics", "art-history", "color-theory"],
+    "emoji": "🎨",
+    "accentColor": "#C98B6B",
+    "coverSymbol": {
+      "sfSymbol": "paintpalette.fill",
+      "fallbackEmoji": "🖼️"
+    },
+    "coverImagePrompt": "A close-up on an impressionist canvas showing thick daubs of violet, pink, and green paint, morphing into a sunlit haystack when viewed from distance, painterly split-view"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Step closer. Now step back.",
+      "body": "Stand six inches from a Monet and you'll see chaos — a storm of pink, blue, and yellow smudges that don't seem to represent anything. Step back ten feet, and suddenly: water lilies, light on the pond, a summer breeze. The painting didn't change. You did.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A museum-goer stepping back from a Monet painting, the brushstrokes resolving into a scene as the viewer retreats, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Painting with broken light",
+      "body": "The Impressionists — Monet, Renoir, Pissarro, and friends — were obsessed with capturing fleeting light. Instead of blending colors on the palette, they placed pure dabs of contrasting color side by side on the canvas. A shadow wasn't brown; it was blue next to orange. The viewer's eye would do the mixing.",
+      "keyTerms": [
+        { "term": "Optical mixing", "definition": "When separate colors blend in the viewer's eye rather than on the palette" },
+        { "term": "Broken color", "definition": "A technique of applying many small strokes of pure color instead of blended tones" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A macro shot of impressionist brushstrokes — distinct unmixed dabs of red, blue, and yellow on rough canvas texture"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why distance makes it work",
+      "body": "Your eye has limited resolution. When you're close, each brushstroke lands on its own cluster of photoreceptors and stays distinct. From farther away, those strokes shrink below your eye's resolving power — and your brain blends them automatically. Two dabs of yellow and blue become a shimmering green that feels alive in a way a flat mixed green never could.",
+      "visual": {
+        "sfSymbol": "eye",
+        "imagePrompt": "A scientific diagram of light rays from paint dabs converging on the retina, with a cutaway of photoreceptor cells"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Rejected, then revered",
+      "body": "When Monet's 'Impression, Sunrise' debuted in 1874, critics mocked it. One wrote that wallpaper in its embryonic state looked more finished. The very word 'Impressionism' began as an insult. Fifty years later, museums were building entire wings to display this supposedly unfinished work. Perception changed — both the paintings and the viewers.",
+      "funFact": "The name 'Impressionism' was coined sarcastically by critic Louis Leroy after seeing Monet's 'Impression, Sunrise'. The artists kept it anyway.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Monet's Impression Sunrise-style hazy harbor at dawn with orange sun and misty blue water, painterly"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The painting finishes in your head",
+      "body": "Impressionism was a quiet revolution. The artists handed part of the work over to the viewer — your eye, your brain, your distance from the canvas. Every color you see is a collaboration between paint and perception. The blurriness isn't a flaw. It's an invitation.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What technique did Impressionists use instead of blending colors on their palette?",
+      "options": [
+        "Glazing thin layers",
+        "Placing pure colors side by side for the eye to mix",
+        "Using only black and white",
+        "Airbrushing gradients"
+      ],
+      "correctIndex": 1,
+      "explanation": "They relied on optical mixing — letting the viewer's eye combine adjacent dabs of pure color at a distance."
+    },
+    {
+      "index": 1,
+      "question": "Where did the name 'Impressionism' originally come from?",
+      "options": [
+        "A royal decree",
+        "A sarcastic critic's review",
+        "Monet's diary",
+        "A museum catalog"
+      ],
+      "correctIndex": 1,
+      "explanation": "Critic Louis Leroy used it mockingly in 1874 after seeing Monet's 'Impression, Sunrise'. The group adopted it."
+    },
+    {
+      "index": 2,
+      "question": "Why do Impressionist paintings look clearer from a distance?",
+      "options": [
+        "The paint dries differently",
+        "Brushstrokes shrink below the eye's resolution and blend",
+        "Room lighting changes",
+        "The canvas reflects light at angles"
+      ],
+      "correctIndex": 1,
+      "explanation": "At a distance, individual strokes become too small to resolve separately, so the brain merges them into a unified image."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Private Lives of the Impressionists",
+      "publisher": "Harper Perennial",
+      "year": 2006
+    },
+    {
+      "title": "Vision and Art: The Biology of Seeing",
+      "publisher": "Harry N. Abrams",
+      "year": 2002
+    }
+  ],
+
+  "related": ["monet-water-lilies", "color-theory", "pointillism"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "maillard-reaction",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Maillard Reaction",
+    "teaser": "Why does seared steak taste like seared steak? The answer is a century-old chemical mystery that still isn't fully solved.",
+    "category": "Chemistry",
+    "subcategories": ["Food Chemistry", "Organic Chemistry"],
+    "tags": ["cooking", "browning", "flavor", "amino acids", "sugars"],
+    "emoji": "🥩",
+    "accentColor": "#B5632D",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🔥"
+    },
+    "coverImagePrompt": "A close-up of a cast-iron skillet with a steak searing, golden-brown crust forming, steam and flame kissing the edges, cinematic food photography"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A taste older than civilization",
+      "body": "The smell of toasted bread. The dark crust on roasted coffee beans. The browning on a seared steak. All of them come from a single chemical reaction so complex that chemists still haven't mapped every pathway — even though humans have been cooking with it for at least 780,000 years.",
+      "visual": {
+        "sfSymbol": "cup.and.saucer.fill",
+        "imagePrompt": "A golden-brown piece of toast with butter melting into its caramelized crust, extreme close-up, shallow depth of field"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet Louis-Camille Maillard",
+      "body": "In 1912, a young French physician named Louis-Camille Maillard was trying to understand how the body builds proteins. He mixed amino acids with simple sugars, heated them gently, and watched the liquid turn brown. He didn't realize it at the time, but he had just described the reaction that gives nearly every cooked food its flavor.",
+      "keyTerms": [
+        { "term": "Amino acid", "definition": "A small molecule that serves as the building block of proteins" },
+        { "term": "Reducing sugar", "definition": "A sugar that can chemically donate electrons — like glucose or fructose" }
+      ],
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A vintage chemistry lab with glass flasks containing amber liquid, soft afternoon light, 1910s aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "One reaction, a thousand flavors",
+      "body": "When amino acids meet reducing sugars above about 140°C, they start colliding and rearranging into a cascade of new molecules — hundreds of them, branching and recombining. These aren't just browning pigments; they're volatile aromatics that give roasted, nutty, meaty, bready flavors their character. The reaction speeds up in dry, slightly alkaline conditions, which is why patting a steak dry and using a hot pan matter so much.",
+      "funFact": "Over 1,000 distinct aroma compounds have been identified in a single roasted coffee bean — most born in Maillard chemistry.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "An abstract chemical cascade with amino acid and sugar molecules colliding into a cloud of aromatic compounds, glowing amber"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The boiling ceiling",
+      "body": "Here's why you can't get a sear on something you boiled: water tops out at 100°C, and Maillard chemistry barely gets going below around 140°C. That's why boiled chicken tastes bland and pan-fried chicken tastes like dinner. Chefs raise the temperature with dry heat, oil, or flame — and sometimes a pinch of baking soda, which nudges the pH higher and speeds browning dramatically.",
+      "visual": {
+        "sfSymbol": "thermometer.high",
+        "imagePrompt": "A thermometer diagram showing boiling point at 100°C and Maillard zone beginning near 140°C, annotated with food examples"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Flavor, as chemistry",
+      "body": "Every time you toast bread, sear a steak, or brew coffee, you're running a chemistry experiment that humans discovered long before chemistry existed as a field. The Maillard reaction is why cooking tastes like cooking — and why the same ingredient can be bland boiled and breathtaking roasted.",
+      "visual": {
+        "sfSymbol": "fork.knife",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What two ingredients drive the Maillard reaction?",
+      "options": [
+        "Fat and salt",
+        "Water and starch",
+        "Amino acids and reducing sugars",
+        "Acids and bases"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Maillard reaction begins when amino acids (the building blocks of protein) react with reducing sugars like glucose under heat."
+    },
+    {
+      "index": 1,
+      "question": "Why is it nearly impossible to get a Maillard-browned crust by boiling food?",
+      "options": [
+        "Water washes away the flavor compounds",
+        "Boiling water can't get hot enough",
+        "Boiling denatures the reaction too fast",
+        "Water blocks oxygen from the food"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water caps out at 100°C, but Maillard chemistry really kicks in around 140°C — which requires dry heat like a hot pan, oven, or grill."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how many aroma compounds can Maillard chemistry produce in a single roasted coffee bean?",
+      "options": [
+        "A few dozen",
+        "About 200",
+        "Over 1,000",
+        "Just one — caffeine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roasted coffee contains more than 1,000 identified aroma compounds, most of them born in the Maillard cascade."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "On Food and Cooking: The Science and Lore of the Kitchen",
+      "publisher": "Scribner",
+      "year": 2004
+    },
+    {
+      "title": "The Maillard Reaction: Chemistry, Biochemistry and Implications",
+      "publisher": "Royal Society of Chemistry",
+      "year": 2005
+    }
+  ],
+
+  "related": ["how-soap-works", "coffee-chemistry", "caramelization"]
+}

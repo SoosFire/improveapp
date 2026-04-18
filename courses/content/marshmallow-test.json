@@ -1,0 +1,141 @@
+{
+  "id": "marshmallow-test",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Marshmallow Test, Revisited",
+    "teaser": "A four-year-old, a single marshmallow, and a stopwatch — the famous willpower study isn't quite what you think.",
+    "category": "Parenting",
+    "subcategories": ["Child Development", "Psychology"],
+    "tags": ["self-control", "willpower", "development", "psychology", "research"],
+    "emoji": "🍬",
+    "accentColor": "#F2C4A0",
+    "coverSymbol": {
+      "sfSymbol": "hourglass",
+      "fallbackEmoji": "⏳"
+    },
+    "coverImagePrompt": "A single fluffy marshmallow on a small plate in front of an anxious four-year-old, warm natural light, painterly, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Fifteen minutes that shaped a life?",
+      "body": "A child sits alone at a table with a marshmallow. The grown-up says: 'I have to leave for a bit. If you wait until I come back, you can have two. If you ring the bell, you get just this one.' Then the door closes. For decades, what happened next was sold as a prophecy of your entire future.",
+      "visual": {
+        "sfSymbol": "bell.fill",
+        "imagePrompt": "A child's small hand hovering over a silver bell on a wooden table, marshmallow untouched, dramatic soft light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the original study claimed",
+      "body": "Walter Mischel ran the test at Stanford's Bing Nursery in the late 1960s and tracked the kids for years. Children who waited longer, his team reported, later had higher SAT scores, lower BMI, and better social skills as adults. Self-control, the headlines said, was destiny.",
+      "keyTerms": [
+        { "term": "Delayed gratification", "definition": "Choosing a larger later reward over a smaller immediate one" },
+        { "term": "Executive function", "definition": "Mental skills like planning, impulse control, and attention" }
+      ],
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A vintage 1970s psychology paper on a wooden desk with a marshmallow paperweight, moody amber lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The twist no one talked about",
+      "body": "Mischel's original sample was tiny — just 90 kids, mostly children of Stanford faculty. In 2018, NYU researchers reran the test with 900 children across a more diverse population. When they controlled for family income and maternal education, the link between waiting and later success almost entirely vanished.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A diverse group of children at small tables in a modern preschool, each with a single marshmallow, warm documentary style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It's about trust, not willpower",
+      "body": "Follow-up studies at the University of Rochester showed something even more striking. When an adult had broken a promise to a child right before the test, kids waited only 3 minutes on average. When the adult kept promises, they waited over 12. The 'marshmallow test' may mostly measure how much a child trusts adults to come back at all.",
+      "funFact": "In the Rochester study, kids who experienced reliable adults were four times more likely to last the full 15 minutes — even though the marshmallow was identical.",
+      "visual": {
+        "sfSymbol": "handshake",
+        "imagePrompt": "A warm handshake between an adult hand and a small child's hand against a soft pastel background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What to actually tell your kid",
+      "body": "If you want a child to practice patience, don't lecture — keep your word. Reliability from the adults around them is what makes waiting feel worth it. Self-control isn't a talent some kids are born with; it's a bet they place on the adults who've shown up before.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where was the original Marshmallow Test run?",
+      "options": [
+        "Harvard's preschool lab",
+        "Stanford's Bing Nursery",
+        "Yale's child center",
+        "MIT Early Learning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Walter Mischel conducted the original test at Stanford's Bing Nursery in the late 1960s."
+    },
+    {
+      "index": 1,
+      "question": "What did the 2018 NYU replication find after controlling for family background?",
+      "options": [
+        "The effect was larger than originally reported",
+        "The effect was nearly unchanged",
+        "The effect mostly disappeared",
+        "Children who waited did worse later"
+      ],
+      "correctIndex": 2,
+      "explanation": "Once family income and maternal education were accounted for, the predictive link between waiting and later outcomes largely vanished."
+    },
+    {
+      "index": 2,
+      "question": "In the Rochester study, what made kids wait longer for a second marshmallow?",
+      "options": [
+        "Giving them a timer",
+        "Adults who had just kept a promise",
+        "Promising money instead",
+        "Waiting with a sibling"
+      ],
+      "correctIndex": 1,
+      "explanation": "When adults had kept earlier promises, kids waited about four times longer — suggesting the test measures trust, not just willpower."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Rational snacking: Young children's decision-making on the marshmallow task",
+      "publisher": "Cognition",
+      "year": 2013
+    },
+    {
+      "title": "Revisiting the Marshmallow Test: A Conceptual Replication",
+      "publisher": "Psychological Science",
+      "year": 2018
+    }
+  ],
+
+  "related": ["attachment-theory", "terrible-twos-explained", "why-kids-ask-why"]
+}

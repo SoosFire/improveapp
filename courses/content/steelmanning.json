@@ -1,0 +1,136 @@
+{
+  "id": "steelmanning",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Steelmanning: Arguing Against Yourself",
+    "teaser": "The strongest way to win an argument? Make the other side's case better than they can.",
+    "category": "Critical Thinking",
+    "subcategories": ["Argumentation", "Epistemics"],
+    "tags": ["reasoning", "debate", "bias", "persuasion", "philosophy"],
+    "emoji": "🛡️",
+    "accentColor": "#6B8E9A",
+    "coverSymbol": {
+      "sfSymbol": "shield.lefthalf.filled",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "Two polished steel shields facing each other on a dark oak table, warm rim light tracing their edges, one shield slightly larger and more ornate — cinematic, painterly, moody chiaroscuro"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The opposite of a straw man",
+      "body": "Most of us, when we disagree with someone, quietly sharpen a caricature of their view — the weakest version, the one that's easy to knock over. That's a straw man. Steelmanning is the reverse: you deliberately build the strongest possible version of the argument you're about to oppose. It sounds masochistic. It's actually the shortcut to being less wrong.",
+      "visual": {
+        "sfSymbol": "figure.fencing",
+        "imagePrompt": "A straw scarecrow crumbling into dust next to a gleaming knight's armor, symbolic, dramatic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What steelmanning actually is",
+      "body": "To steelman, you restate your opponent's position until they nod and say, 'Yes — that's exactly what I mean, maybe even better.' You fill in gaps in their reasoning, grant their most sympathetic assumptions, and drop the weakest parts. Only then do you respond. The philosopher Daniel Dennett called this the 'Rapoport rule' after game theorist Anatol Rapoport.",
+      "keyTerms": [
+        { "term": "Steelman", "definition": "The strongest, most charitable version of an argument you disagree with" },
+        { "term": "Straw man", "definition": "A weakened or distorted version of an argument, easier to attack" }
+      ],
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "A blacksmith carefully hammering out an elegant steel blade, sparks flying, forge glow on the workbench"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it works",
+      "body": "Steelmanning forces you to actually understand the other side — not a cartoon of it. That means you stop wasting energy on objections nobody serious would make, and you start noticing which of your own beliefs are held together with duct tape. Counterintuitively, people also become more open to you, because being genuinely understood is disarming in a way that winning rarely is.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "Two silhouetted figures across a chess board, one mirroring the other's stance, warm lamp light between them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The research receipts",
+      "body": "Psychologists call a weaker version of this 'the illusion of explanatory depth' — when forced to explain an opposing view in detail, people rate their own certainty lower. In a 2013 study by Fernbach and colleagues, participants who had to mechanistically explain policies they opposed became measurably more moderate. Understanding, it turns out, leaks humility into you.",
+      "funFact": "Rapoport originally designed his rules for nuclear arms-race debates, where misunderstanding each other was a genuinely existential risk.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A line chart on aged paper showing certainty dropping after explanation, scientific journal aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The one-line rule",
+      "body": "Before you argue back, try this: summarize their view so well they'd thank you for it. If you can't, you don't understand it yet — and you probably shouldn't be arguing yet, either.",
+      "visual": {
+        "sfSymbol": "quote.opening",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What best describes a steelman?",
+      "options": [
+        "A clever rebuttal that undermines the opponent",
+        "The strongest, most charitable version of an opposing argument",
+        "A metaphor for ignoring criticism",
+        "A logical fallacy to avoid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Steelmanning means constructing the most charitable, strongest version of the view you disagree with — the opposite of a straw man."
+    },
+    {
+      "index": 1,
+      "question": "Whose rules of constructive disagreement did Dennett popularize as the basis for steelmanning?",
+      "options": ["Karl Popper's", "Anatol Rapoport's", "John Rawls's", "Bertrand Russell's"],
+      "correctIndex": 1,
+      "explanation": "Daniel Dennett credited the game theorist Anatol Rapoport for the charitable-restatement rule."
+    },
+    {
+      "index": 2,
+      "question": "What did the 'illusion of explanatory depth' research find?",
+      "options": [
+        "People become more certain after explaining their opponents' views",
+        "People become less certain after trying to explain mechanisms in detail",
+        "Steelmanning has no measurable psychological effect",
+        "Disagreement always hardens positions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forcing people to explain mechanisms tends to reveal gaps and lower their confidence in their own position."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Intuition Pumps And Other Tools for Thinking",
+      "publisher": "W. W. Norton (Daniel Dennett)",
+      "year": 2013
+    },
+    {
+      "title": "Political Extremism Is Supported by an Illusion of Understanding",
+      "publisher": "Psychological Science (Fernbach et al.)",
+      "year": 2013
+    }
+  ],
+
+  "related": ["straw-man-fallacy", "charitable-interpretation", "ideological-turing-test"]
+}

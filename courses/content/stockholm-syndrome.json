@@ -1,0 +1,136 @@
+{
+  "id": "stockholm-syndrome",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Stockholm Syndrome",
+    "teaser": "Six days in a bank vault. Four hostages who defended their captors. The name stuck — but was it ever really real?",
+    "category": "Criminology",
+    "subcategories": ["Psychology", "True Crime"],
+    "tags": ["psychology", "hostages", "trauma", "history", "stockholm"],
+    "emoji": "🏦",
+    "accentColor": "#8B3A3A",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🏦"
+    },
+    "coverImagePrompt": "A 1970s Stockholm bank interior seen through a rain-streaked window, stern police in trench coats outside, soft blurry figures huddled near the vault door, desaturated cinematic colors"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Six days in the vault",
+      "body": "On August 23, 1973, a man named Jan-Erik Olsson walked into Kreditbanken in downtown Stockholm, fired a submachine gun into the ceiling, and took four bank employees hostage. For 131 hours they were locked in a vault together. When it was over, the hostages hugged their captors, refused to testify against them, and reportedly helped pay their legal fees.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A tense crowd of Swedish police and journalists gathered outside a bank, 1970s cars and fashion, news cameras and microphones, gritty film grain"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Naming a paradox",
+      "body": "A Swedish criminologist named Nils Bejerot coined the term 'Norrmalmstorgssyndromet' — later softened to 'Stockholmssyndromet' — while consulting for the police during the standoff. The idea: captives, under extreme stress and total dependency, can bond with the people threatening their lives as a survival response.",
+      "keyTerms": [
+        { "term": "Traumatic bonding", "definition": "A strong emotional attachment formed between an abuser and their victim during cycles of threat and relief" },
+        { "term": "Cognitive dissonance", "definition": "The mental discomfort of holding two contradictory beliefs, which the mind resolves by shifting one" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "An abstract illustration of two human silhouettes connected by a glowing red thread inside a dark geometric vault, surreal psychological style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the mind does it",
+      "body": "When someone holds absolute power over whether you live or die, even small kindnesses — a blanket, a cigarette, being allowed to call home — land with massive emotional weight. Add isolation from the outside world and constant fear, and the brain starts reorganizing: the captor becomes a protector, and the rescuers outside start to feel like the real threat.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A split-screen illustration: a captive's perspective looking up at a shadowed figure with a gun versus armed police visible through a small window, both framed ominously"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Was it ever a real diagnosis?",
+      "body": "Stockholm Syndrome has never appeared in the DSM — the American psychiatric manual. The FBI's hostage database found that only about 8% of captives show any of its signs. Kristin Enmark, one of the original Kreditbanken hostages, later said she wasn't suffering from a syndrome at all: she was terrified of the trigger-happy police and had simply decided the robbers were a safer bet.",
+      "funFact": "Enmark actually called the Swedish prime minister from inside the vault to complain about the police response — he refused to help her.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A vintage rotary telephone on a bank desk, receiver off the hook, soft focus on a woman's hand reaching for it, 1970s aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A sticky myth",
+      "body": "Even though psychologists are skeptical, Stockholm Syndrome has become cultural shorthand for any confusing attachment to an abuser — from Patty Hearst to cult members to battered spouses. Critics argue the label often does more harm than good, shifting focus from the abuser's power onto the victim's 'weird' behavior. Survival is not pathology.",
+      "visual": {
+        "sfSymbol": "text.bubble.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where did Stockholm Syndrome get its name?",
+      "options": [
+        "A 1973 bank hostage standoff in Stockholm",
+        "A Swedish psychiatric hospital",
+        "A murder case in Malmö",
+        "A novel by August Strindberg"
+      ],
+      "correctIndex": 0,
+      "explanation": "The term came from the 131-hour Kreditbanken siege in Stockholm, during which hostages bonded with their captors."
+    },
+    {
+      "index": 1,
+      "question": "Is Stockholm Syndrome an officially recognized psychiatric diagnosis?",
+      "options": [
+        "Yes, in the DSM-5",
+        "Yes, in the ICD-11",
+        "No, it has never appeared in major diagnostic manuals",
+        "Only in Sweden"
+      ],
+      "correctIndex": 2,
+      "explanation": "It has never been listed in the DSM or ICD and remains a popular concept rather than a clinical diagnosis."
+    },
+    {
+      "index": 2,
+      "question": "According to FBI data, roughly what share of hostages show signs of the syndrome?",
+      "options": ["Around 8%", "About 30%", "About half", "Nearly all"],
+      "correctIndex": 0,
+      "explanation": "FBI analyses of thousands of hostage cases put the figure at roughly 8%, suggesting the phenomenon is far rarer than pop culture implies."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Stockholm syndrome: psychiatric diagnosis or urban myth?",
+      "publisher": "Acta Psychiatrica Scandinavica",
+      "year": 2008
+    },
+    {
+      "title": "The truth about Stockholm syndrome",
+      "publisher": "BBC News Magazine",
+      "year": 2013
+    }
+  ],
+
+  "related": ["eyewitness-testimony-psychology", "why-lie-detectors-dont-work", "dna-evidence"]
+}

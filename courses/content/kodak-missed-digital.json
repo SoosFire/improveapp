@@ -1,0 +1,146 @@
+{
+  "id": "kodak-missed-digital",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Kodak Invented and Ignored the Digital Camera",
+    "teaser": "They built the first digital camera in 1975. By 2012, the company that made it was bankrupt.",
+    "category": "Business",
+    "subcategories": ["Corporate History", "Disruption"],
+    "tags": ["kodak", "film", "digital", "photography", "disruption"],
+    "emoji": "📷",
+    "accentColor": "#C3A43A",
+    "coverSymbol": {
+      "sfSymbol": "camera.aperture",
+      "fallbackEmoji": "📸"
+    },
+    "coverImagePrompt": "A dusty 1970s prototype digital camera the size of a toaster sitting on an engineer's workbench, a yellow Kodak film box beside it, warm tungsten light, documentary photography style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 8-pound prototype",
+      "body": "In December 1975, a 24-year-old Kodak engineer named Steven Sasson stood in a lab in Rochester, New York, pointing a weird box at a colleague. The box weighed eight pounds and took 23 seconds to record a single black-and-white image to cassette tape. It was the world's first digital camera. His bosses' reaction, Sasson later recalled, was essentially: 'That's cute — but don't tell anyone about it.'",
+      "visual": {
+        "sfSymbol": "camera.fill",
+        "imagePrompt": "A young engineer in 1975 holding a bulky prototype camera in a fluorescent-lit industrial lab, period-accurate"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A company built on chemistry",
+      "body": "Kodak's business was not cameras. It was film. Every roll sold meant paper processing, chemical development, and prints — a razor-and-blades model of astonishing profitability. By 1976, Kodak controlled 90% of US film sales and 85% of cameras. Digital photography threatened to replace chemistry with electronics — a completely different margin structure and supply chain.",
+      "keyTerms": [
+        { "term": "Razor-and-blades model", "definition": "Selling a durable product cheaply to lock in high-margin consumables" },
+        { "term": "CCD sensor", "definition": "The light-capturing chip that made digital imaging possible" }
+      ],
+      "visual": {
+        "sfSymbol": "dollarsign.circle.fill",
+        "imagePrompt": "Rolling factory line of yellow Kodak film canisters being boxed in a vast industrial plant, fluorescent overhead lighting"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The internal 1981 memo",
+      "body": "In 1981, Kodak executive Vincent Barabba commissioned a detailed study of digital imaging. The verdict was precise: digital would eventually replace film, probably around 2010, giving Kodak roughly 30 years to prepare. The report was accurate. Kodak used the runway not to pivot but to extract more profit from film, because that's what their shareholders, factories, and managers were organized to do.",
+      "funFact": "Kodak did develop a digital SLR in 1991 — the DCS 100. It was built on a Nikon body and sold to professional journalists for around $13,000. The company treated it as a niche toy.",
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "A stack of confidential corporate reports on a dark wooden desk, the top one stamped '1981' in red, moody lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The collapse",
+      "body": "Film revenue peaked in 2000. By 2005 it had halved. By 2010 digital cameras were in every phone, making standalone cameras increasingly irrelevant too. Kodak filed for Chapter 11 bankruptcy protection in January 2012. At peak, it had employed 145,000 people. Ironically, its fiercest rival Fujifilm survived — by aggressively diversifying into cosmetics, LCD films, and medical imaging.",
+      "visual": {
+        "sfSymbol": "arrow.down.right.square.fill",
+        "imagePrompt": "A boarded-up Kodak factory building with a faded red 'K' logo, overcast sky, urban decay photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "explanation",
+      "title": "Not blindness — gravity",
+      "body": "The Kodak story is usually told as a parable about being blindsided. It wasn't. Kodak saw digital coming, funded digital research, even briefly sold cameras. The problem was corporate gravity. Every new digital dollar meant one fewer film dollar, and the film business had 10x the margins. Thousands of employees, hundreds of suppliers, and generations of muscle memory all pulled the company back toward chemistry.",
+      "visual": {
+        "sfSymbol": "arrow.counterclockwise",
+        "imagePrompt": "An executive pulled in two directions by ropes, one toward yellow film boxes, one toward digital screens, editorial illustration"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "Invention isn't the hard part",
+      "body": "Kodak's story is a painful demonstration of the Innovator's Dilemma: the hardest thing for a successful company isn't to invent the future — it's to organize itself to commercialize a future that destroys its present. Companies often have the technology, the talent, and even the data. What they usually lack is permission to cannibalize themselves.",
+      "visual": {
+        "sfSymbol": "hourglass",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "When did Kodak engineer Steven Sasson build the first digital camera?",
+      "options": ["1965", "1975", "1985", "1995"],
+      "correctIndex": 1,
+      "explanation": "Sasson's toaster-sized prototype was completed in December 1975, decades before digital went mainstream."
+    },
+    {
+      "index": 1,
+      "question": "Why was film so strategically important to Kodak?",
+      "options": [
+        "It was difficult to manufacture elsewhere",
+        "It was the high-margin consumable in a razor-and-blades model",
+        "It was protected by exclusive government contracts",
+        "Its patents blocked all competitors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cameras were cheap; film and processing were where Kodak made most of its profit — the classic razor-and-blades setup."
+    },
+    {
+      "index": 2,
+      "question": "What did Fujifilm do differently that helped it survive?",
+      "options": [
+        "It doubled down on film",
+        "It merged with Kodak",
+        "It diversified into cosmetics and medical imaging",
+        "It was bailed out by the Japanese government"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fujifilm used its chemical expertise to pivot into unrelated industries — famously including skincare — and outlived its American rival."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Last Days of Kodak Town",
+      "publisher": "The New York Times",
+      "year": 2012
+    },
+    {
+      "title": "Kodak's First Digital Moment",
+      "publisher": "The New York Times Lens Blog",
+      "year": 2015
+    }
+  ],
+
+  "related": ["innovators-dilemma", "blockbuster-netflix", "fujifilm-pivot"]
+}

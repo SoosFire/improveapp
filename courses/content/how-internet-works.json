@@ -1,0 +1,141 @@
+{
+  "id": "how-internet-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How the Internet Actually Works",
+    "teaser": "Your message to a friend in Tokyo gets chopped into pieces, routed through a dozen cities, and reassembled — in under a second.",
+    "category": "Technology",
+    "subcategories": ["Networking", "Infrastructure"],
+    "tags": ["internet", "networking", "packets", "tcp/ip", "dns"],
+    "emoji": "🌐",
+    "accentColor": "#2E7CD6",
+    "coverSymbol": {
+      "sfSymbol": "network",
+      "fallbackEmoji": "🌐"
+    },
+    "coverImagePrompt": "A glowing world map at night with undersea cables illuminated in blue, data packets flowing as tiny light pulses between continents, cinematic and futuristic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It's not a cloud",
+      "body": "When you send a text to a friend overseas, it doesn't float through the air on its way there. It travels as pulses of light through a physical cable — probably lying on the ocean floor next to a rotting shipwreck. The 'cloud' is, disappointingly, mostly fiber-optic cables and warehouses full of blinking lights.",
+      "visual": {
+        "sfSymbol": "cable.connector",
+        "imagePrompt": "An undersea fiber optic cable on the ocean floor, bioluminescent fish nearby, moody deep-sea lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Everything gets chopped up",
+      "body": "When you send an email or load a webpage, the data is sliced into tiny chunks called packets. Each packet is like a postcard with a 'to' address, a 'from' address, and a sequence number. They're sent independently, often taking different routes, then reassembled on the other end. If one gets lost, only that one gets re-sent — not the whole message.",
+      "keyTerms": [
+        { "term": "Packet", "definition": "A small chunk of data with address information, routed independently across the network" },
+        { "term": "IP address", "definition": "A unique numerical label that identifies a device on the network" }
+      ],
+      "visual": {
+        "sfSymbol": "shippingbox.fill",
+        "imagePrompt": "A digital envelope splitting into dozens of smaller numbered packets, each zooming off in a different direction"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Routers play traffic cop",
+      "body": "Every packet hops through a chain of routers — special computers that read the destination address and forward it toward its goal. There's no central map. Each router just knows 'the next best step' and trusts the next one to do the same. It's like asking for directions at every corner and still ending up at the right house.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "A glowing network graph with packets bouncing between router nodes, each node lighting up as the packet passes through"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "DNS: the internet's phonebook",
+      "body": "You typed 'google.com' — but computers don't speak English. Before anything else happens, your device asks a DNS server, 'what's the IP address for google.com?' The answer comes back as a number like 142.250.80.46. Only then does the real connection start. This lookup happens so fast you never notice — unless DNS goes down, which is why half the internet sometimes breaks at once.",
+      "funFact": "In 1983, the entire internet's name-to-address list fit in a single text file named HOSTS.TXT, maintained by one woman in California.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A futuristic holographic phonebook flipping to find 'google.com' with a glowing IP address next to it"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A miracle of agreed-upon rules",
+      "body": "The internet isn't owned by anyone. It works because millions of machines, built by thousands of companies, all follow the same protocols — TCP/IP, HTTP, DNS. Nobody is in charge. The whole thing is held together by rules that everyone chose to follow, and it somehow keeps working, trillions of packets a second, most days.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What happens to your data when you send it across the internet?",
+      "options": [
+        "It travels as one large stream",
+        "It's split into small packets sent independently",
+        "It's copied to every server in the world",
+        "It's encrypted and sent by satellite only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Data is chopped into packets that can take different routes and are reassembled at the destination."
+    },
+    {
+      "index": 1,
+      "question": "What is the job of DNS?",
+      "options": [
+        "Encrypting your data",
+        "Translating domain names into IP addresses",
+        "Blocking malware",
+        "Choosing which router to use"
+      ],
+      "correctIndex": 1,
+      "explanation": "DNS (Domain Name System) looks up the IP address for a human-readable domain name."
+    },
+    {
+      "index": 2,
+      "question": "Who owns and controls the internet as a whole?",
+      "options": [
+        "The US government",
+        "A coalition of tech giants",
+        "The United Nations",
+        "No single entity — it's coordinated by shared protocols"
+      ],
+      "correctIndex": 3,
+      "explanation": "The internet has no central owner; it operates through shared open protocols like TCP/IP."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Tubes: A Journey to the Center of the Internet",
+      "publisher": "Ecco",
+      "year": 2012
+    },
+    {
+      "title": "Computer Networking: A Top-Down Approach",
+      "publisher": "Pearson",
+      "year": 2020
+    }
+  ],
+
+  "related": ["how-wifi-works", "end-to-end-encryption", "dns-deep-dive"]
+}

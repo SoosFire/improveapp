@@ -1,0 +1,139 @@
+{
+  "id": "stoicism-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Stoicism in 5 Minutes",
+    "teaser": "A Roman emperor wrote a private journal to stop himself from losing his temper. Two thousand years later, it's still the best advice ever written.",
+    "category": "Philosophy",
+    "subcategories": ["Stoicism", "Ethics"],
+    "tags": ["stoicism", "philosophy", "marcus aurelius", "ethics", "resilience"],
+    "emoji": "🏛️",
+    "accentColor": "#8C7355",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "🏛️"
+    },
+    "coverImagePrompt": "A weathered marble bust of Marcus Aurelius at golden hour, warm cinematic light streaming across stone columns, subtle dust in the air, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An emperor's private notebook",
+      "body": "Sometime around 170 AD, the most powerful man in the world sat down in a cold military tent near the Danube and wrote notes to himself. Marcus Aurelius, ruler of the Roman Empire, was reminding himself not to be annoyed at his colleagues, not to fear death, and to stop being a jerk. He never meant anyone to read them. We've been reading them ever since.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A leather-bound journal open on a wooden campaign desk beside a flickering oil lamp, a Roman eagle standard just visible in shadow, candlelit"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What Stoicism actually is",
+      "body": "Stoicism was founded in Athens around 300 BC by Zeno of Citium, who taught on a painted porch — the 'stoa.' It isn't about suppressing emotion or being cold. It's a practical philosophy that asks one core question: what is actually up to you? The answer, according to the Stoics, is narrower than you think — and more freeing.",
+      "keyTerms": [
+        { "term": "Stoicism", "definition": "A Greek-Roman philosophy focused on virtue, reason, and distinguishing what we can and cannot control" },
+        { "term": "Stoa", "definition": "The painted Athenian colonnade where Zeno first taught, which gave Stoicism its name" }
+      ],
+      "visual": {
+        "sfSymbol": "figure.stand",
+        "imagePrompt": "An ancient Greek porch with faded fresco paintings, a philosopher in robes speaking to a small circle of students, morning light"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The one idea that changes everything",
+      "body": "Epictetus — a former Roman slave turned philosopher — put it bluntly: 'Some things are up to us, and some things are not.' Your opinions, choices, and actions are up to you. Your reputation, your body, the weather, other people's behavior are not. Nearly every source of misery, he argued, comes from trying to control the second category while neglecting the first. Peace begins when you stop mixing them up.",
+      "keyTerms": [
+        { "term": "Dichotomy of control", "definition": "The Stoic distinction between what is and isn't up to you" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.righthalf.filled",
+        "imagePrompt": "A clean diagram of two circles: one labeled with thoughts and actions, the other with weather, people, outcomes, calm minimalist illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Still working, 2000 years later",
+      "body": "The founder of cognitive behavioral therapy, Albert Ellis, credited Epictetus as his direct influence: 'It is not events that disturb us, but our opinions about them.' U.S. Navy pilot James Stockdale survived seven years in a Vietnamese POW camp by reciting Epictetus in his head. Today, Stoicism is the rare ancient philosophy that has seeped into therapy, sports psychology, boardrooms, and Navy SEAL training — because the ideas still pass the real-world test.",
+      "funFact": "Modern Stoic Week, a yearly online course run by philosophers, has measured that even seven days of Stoic practice produces significant increases in reported life satisfaction.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A quiet modern therapist's office with a dog-eared copy of Meditations on the desk, soft natural light through a window"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Stoicism in one line",
+      "body": "Focus on what you control. Accept what you don't. Act with virtue. That's it. You don't need to memorize Latin, take ice baths, or wear a toga. The whole philosophy fits in a single habit: the next time something upsets you, pause and ask — is this actually up to me? Most of the time, the answer is no, and you're already halfway free.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who founded Stoicism?",
+      "options": ["Aristotle", "Zeno of Citium", "Marcus Aurelius", "Socrates"],
+      "correctIndex": 1,
+      "explanation": "Zeno of Citium founded Stoicism in Athens around 300 BC, teaching at the Stoa Poikile — the painted porch."
+    },
+    {
+      "index": 1,
+      "question": "What is the 'dichotomy of control'?",
+      "options": [
+        "The distinction between good and evil",
+        "The idea that everything is fate",
+        "The distinction between what is up to us and what is not",
+        "The separation of mind and body"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epictetus taught that peace comes from focusing on what you can control — your thoughts and actions — and accepting the rest."
+    },
+    {
+      "index": 2,
+      "question": "Which modern field was directly influenced by Stoic ideas?",
+      "options": [
+        "Quantum physics",
+        "Cognitive behavioral therapy",
+        "Astrology",
+        "Linguistics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Albert Ellis credited Epictetus as a direct inspiration for CBT, which treats thoughts — not events — as the source of distress."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Meditations",
+      "publisher": "Penguin Classics",
+      "year": 2006
+    },
+    {
+      "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+      "publisher": "Oxford University Press",
+      "year": 2008
+    }
+  ],
+
+  "related": ["ship-of-theseus", "trolley-problem", "epictetus"]
+}

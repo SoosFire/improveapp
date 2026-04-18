@@ -1,0 +1,141 @@
+{
+  "id": "why-chords-sound-sad",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Some Chords Sound Sad",
+    "teaser": "Change one note by a tiny amount and a happy chord collapses into a melancholy one. Here's the physics and culture behind the feeling.",
+    "category": "Music",
+    "subcategories": ["Music Theory", "Psychoacoustics"],
+    "tags": ["music theory", "chords", "emotion", "minor", "major", "acoustics"],
+    "emoji": "🎵",
+    "accentColor": "#6A5ACD",
+    "coverSymbol": {
+      "sfSymbol": "music.note",
+      "fallbackEmoji": "🎶"
+    },
+    "coverImagePrompt": "A grand piano in a dimly lit room, a single beam of cool blue light illuminating two keys — one major, one minor — rain streaking down a window behind, cinematic and wistful"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A single note changes everything",
+      "body": "Play C, E, and G together — you get a major chord. Bright. Open. The sound of a sunrise. Now lower the middle note by a half step to E-flat. Same hand position, almost the same notes. But suddenly it's aching, nostalgic, heavy. One note slid down by a sliver — and a whole emotion has shifted.",
+      "visual": {
+        "sfSymbol": "pianokeys.inverse",
+        "imagePrompt": "A close-up of piano keys with the C-E-G triad highlighted in warm gold, and beside it C-Eb-G in cool blue"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Major vs. minor, in one sentence",
+      "body": "A major chord is built with a 'big' third above the root note. A minor chord uses a 'small' third — just one half step lower. That tiny distance is the emotional fulcrum of Western music. Swap big for small and every mood shifts with it.",
+      "keyTerms": [
+        { "term": "Interval", "definition": "The distance in pitch between two notes" },
+        { "term": "Third", "definition": "An interval of three scale steps — 'major' if wide, 'minor' if narrow" }
+      ],
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A clean diagram showing a major third (4 semitones) vs. a minor third (3 semitones) stacked on a piano keyboard"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The physics: rougher math",
+      "body": "Notes are just air vibrating at specific frequencies. Major intervals line up on simple ratios like 5:4 — the air pressure waves reinforce each other cleanly. Minor intervals lean on slightly messier ratios (6:5), creating subtle interference patterns your ear registers as 'tension' or 'darkness.' It's literal acoustics: your brain hears the math as mood.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "Two overlapping sine waves — one set smoothly reinforcing, the other producing faint rippling beats — on a black background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Culture adds the other half",
+      "body": "Physics alone doesn't make minor 'sad.' Indian ragas and Balkan folk songs use minor-like intervals for celebration. But in Western music, centuries of lullabies, funerals, and movie scores have linked minor to loss. We now hear that association before we're even taught it — studies show Western babies as young as nine months prefer major over minor. The feeling is partly acoustic, partly cultural muscle memory.",
+      "funFact": "Beethoven's 5th Symphony opens with four minor-key notes that became Hollywood's go-to signal for doom — used everywhere from horror films to 'Jaws'-style dread.",
+      "visual": {
+        "sfSymbol": "globe.asia.australia.fill",
+        "imagePrompt": "A collage of musicians worldwide — a violinist in Bulgaria, an Indian classical singer, a Western film composer — all connected by sheet music strands"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Emotions are tuned, not random",
+      "body": "The sadness in a minor chord isn't mystical. It's the product of overlapping sound waves, evolutionary pattern recognition, and a few centuries of cultural conditioning stacked on top. Music feels transcendent, but under the hood it's physics, neurology, and stories — and that makes it more impressive, not less.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the musical difference between a major and minor chord?",
+      "options": [
+        "A different root note",
+        "A third that's one half step lower in the minor chord",
+        "The minor chord uses four notes",
+        "The minor chord has a slower tempo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The third of the chord is lowered by one half step to turn major into minor."
+    },
+    {
+      "index": 1,
+      "question": "Why might a minor third sound 'tenser' on a purely physical level?",
+      "options": [
+        "It's louder",
+        "It uses slightly more complex frequency ratios",
+        "It's played only on lower instruments",
+        "It travels faster through air"
+      ],
+      "correctIndex": 1,
+      "explanation": "The ratio 6:5 creates more subtle interference between waves than the simpler 5:4 of a major third."
+    },
+    {
+      "index": 2,
+      "question": "Is the 'sadness' of a minor chord purely universal?",
+      "options": [
+        "Yes, it sounds sad in every culture",
+        "No, different musical cultures attach different emotions to minor-like intervals",
+        "Only for trained musicians",
+        "Only with lyrics"
+      ],
+      "correctIndex": 1,
+      "explanation": "The emotion of minor is partly cultural — other traditions use similar intervals for joyful or ceremonial music."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "This Is Your Brain on Music",
+      "publisher": "Dutton",
+      "year": 2006
+    },
+    {
+      "title": "Sweet Anticipation: Music and the Psychology of Expectation",
+      "publisher": "MIT Press",
+      "year": 2006
+    }
+  ],
+
+  "related": ["music-theory-basics", "perfect-pitch", "why-we-like-music"]
+}

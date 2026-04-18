@@ -1,0 +1,136 @@
+{
+  "id": "hydroponics-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Growing Plants Without Soil",
+    "teaser": "Turns out plants don't really need dirt — they just need what dirt delivers. Hydroponics skips the middleman.",
+    "category": "Gardening",
+    "subcategories": ["Hydroponics", "Modern Agriculture"],
+    "tags": ["hydroponics", "plants", "agriculture", "water", "urban-farming"],
+    "emoji": "💧",
+    "accentColor": "#1E88E5",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "💦"
+    },
+    "coverImagePrompt": "Rows of vibrant green lettuce growing in white PVC tubes with roots visible in clear flowing water, glowing purple LED grow lights overhead, sleek modern vertical farm interior, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A lettuce that never saw dirt",
+      "body": "In a warehouse outside Tokyo, thousands of heads of lettuce grow stacked 12 rows high — no sun, no soil, no seasons. They're fed by a thin film of water running over their roots. Each head uses 95% less water than a field-grown one and is ready to harvest in half the time. How are they growing without any earth?",
+      "visual": {
+        "sfSymbol": "building.2.fill",
+        "imagePrompt": "Wide shot of a vertical farm with floor-to-ceiling stacked shelves of lettuce under pink-purple LED lighting, workers in lab coats in background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What soil actually does",
+      "body": "Soil does three things for a plant: it holds roots in place, it delivers water, and it supplies dissolved nutrients like nitrogen, potassium, and phosphorus. The soil itself isn't food — it's a storage medium. If you can provide all three in another way, the plant doesn't care that the dirt is gone.",
+      "keyTerms": [
+        { "term": "Nutrient solution", "definition": "Water with dissolved minerals formulated to replace what soil normally provides" },
+        { "term": "Macronutrients", "definition": "Nitrogen (N), phosphorus (P), and potassium (K) — the 'big three' plants need in quantity" }
+      ],
+      "visual": {
+        "sfSymbol": "flask.fill",
+        "imagePrompt": "Split illustration showing a plant rooted in soil on the left and the same plant with bare roots in clear nutrient water on the right"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three popular systems",
+      "body": "In Deep Water Culture (DWC), roots dangle directly into oxygenated nutrient water. In Nutrient Film Technique (NFT), a thin stream of water constantly flows past the roots in a sloped channel. In aeroponics, roots hang in the air and are misted every few minutes. All three boost oxygen access to the roots, which is what makes hydroponic plants grow dramatically faster than soil-grown ones.",
+      "keyTerms": [
+        { "term": "DWC", "definition": "Deep Water Culture — roots fully submerged in aerated nutrient water" },
+        { "term": "NFT", "definition": "Nutrient Film Technique — a thin moving film of nutrient water over the roots" },
+        { "term": "Aeroponics", "definition": "Roots suspended in air and misted with nutrient solution" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.3.trianglepath",
+        "imagePrompt": "Cross-section diagrams of three hydroponic setups: DWC bucket, sloped NFT tube, and an aeroponic mist chamber, clean technical illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Older than you think",
+      "body": "Hydroponics isn't a modern invention. The Aztec chinampas — floating islands of Lake Texcoco around 1150 CE — were essentially giant hydroponic beds feeding up to 200,000 people. During WWII, the U.S. Army grew 8,000 tons of hydroponic vegetables on Pacific islands that had no arable soil. NASA has been running hydroponic experiments in orbit since the 1990s to figure out how astronauts will grow food on Mars.",
+      "funFact": "A hydroponic tomato plant at Epcot's 'Land Pavilion' produced over 32,000 tomatoes from a single vine during its 16-month lifespan.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "Historical illustration of Aztec chinampas in Lake Texcoco, green rafts of crops floating in blue water, mountain backdrop"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Farming, unbundled",
+      "body": "Hydroponics is what happens when you realize agriculture is a system of inputs, not a place. Take away the soil, the weather, the season — and you're left with light, water, and minerals. That flexibility is why vertical farms are sprouting in shipping containers, city basements, and space stations. The future of farming might not involve any farm at all.",
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What do hydroponic plants use instead of soil?",
+      "options": [
+        "Compost tea",
+        "Water mixed with dissolved minerals",
+        "Synthetic foam only",
+        "Pure distilled water"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 'nutrient solution' — water with dissolved macro- and micronutrients — replaces what soil would normally deliver."
+    },
+    {
+      "index": 1,
+      "question": "Which hydroponic technique suspends roots in the air and sprays them with mist?",
+      "options": ["NFT", "DWC", "Aeroponics", "Wick system"],
+      "correctIndex": 2,
+      "explanation": "Aeroponics uses misted nutrient solution on exposed roots, giving them maximum oxygen access."
+    },
+    {
+      "index": 2,
+      "question": "Roughly how much less water does hydroponic lettuce typically use compared to field-grown?",
+      "options": ["10% less", "30% less", "50% less", "Up to 95% less"],
+      "correctIndex": 3,
+      "explanation": "Because water is recirculated rather than lost to soil and evaporation, hydroponic systems can use up to 95% less water."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Hydroponic Food Production: A Definitive Guidebook",
+      "publisher": "Howard M. Resh / CRC Press",
+      "year": 2022
+    },
+    {
+      "title": "Comparison of Land, Water, and Energy Requirements of Lettuce Grown Using Hydroponic vs. Conventional Agricultural Methods",
+      "publisher": "International Journal of Environmental Research and Public Health",
+      "year": 2015
+    }
+  ],
+
+  "related": ["vertical-farming", "aquaponics", "urban-agriculture"]
+}

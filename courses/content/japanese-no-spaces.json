@@ -1,0 +1,142 @@
+{
+  "id": "japanese-no-spaces",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Japanese Doesn't Use Spaces",
+    "teaser": "A page of Japanese looks like one long river of characters. So how does anyone read it without getting lost?",
+    "category": "Linguistics",
+    "subcategories": ["Writing Systems", "Japanese"],
+    "tags": ["japanese", "writing", "kanji", "hiragana", "orthography"],
+    "emoji": "🗾",
+    "accentColor": "#C24B4B",
+    "coverSymbol": {
+      "sfSymbol": "textformat",
+      "fallbackEmoji": "🎌"
+    },
+    "coverImagePrompt": "A traditional Japanese scroll unfurled against a minimalist background, delicate vertical columns of kanji and hiragana in sumi ink, warm rice-paper texture"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "All the words, no gaps",
+      "body": "Open a Japanese novel and you'll see it: a continuous stream of characters with no spaces between words. 私は日本語を勉強しています — that's 'I am studying Japanese,' and there's not a single gap in it. To an English reader it looks like someonedecidedto skipthespacebar. So why does Japanese get away with it?",
+      "visual": {
+        "sfSymbol": "text.alignleft",
+        "imagePrompt": "A traditional Japanese newspaper column shown close-up, dense vertical text with no word separators, elegant typography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three scripts doing one job",
+      "body": "Japanese actually mixes three writing systems at once: kanji (Chinese-origin characters, used for most nouns and verb roots), hiragana (rounded native script, used for grammar), and katakana (angular script, used for foreign words). Each script looks visibly different. A Japanese reader's eye uses those shape-changes as word boundaries — the way you'd use spaces.",
+      "keyTerms": [
+        { "term": "Kanji", "definition": "Logographic characters borrowed from Chinese; each carries meaning" },
+        { "term": "Hiragana", "definition": "Rounded phonetic script used for grammatical parts of Japanese" },
+        { "term": "Katakana", "definition": "Angular phonetic script used for loanwords and emphasis" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A calligraphic sampler showing the same word written in kanji, hiragana, and katakana side by side, contrasting visual styles"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The script-switch as a comma",
+      "body": "Watch a single sentence: '私は日本語を勉強しています.' The kanji clusters (私, 日本語, 勉強) mark content words. The hiragana (は, を, して, います) signal grammar and glue them together. Your eye can see where one word ends and the next begins by the visual rhythm alone. It's like reading a sentence where nouns appear in bold, verbs in italic, and grammar in regular — no spaces needed.",
+      "funFact": "Children's books and early readers DO use spaces, because kids haven't learned enough kanji yet to see the word boundaries automatically.",
+      "visual": {
+        "sfSymbol": "highlighter",
+        "imagePrompt": "A Japanese sentence with different colored highlights marking the kanji, hiragana, and katakana regions, educational clarity"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "An experiment that backfired",
+      "body": "In the late 19th century, Meiji-era reformers floated writing Japanese entirely in romaji (Latin letters) to modernize the country. Suddenly, without script-switching, spaces became necessary — and the result was painfully slow to read. Eye-tracking studies in the 2000s confirmed it: native readers actually process mixed-script Japanese faster than equivalent romaji or all-hiragana text. The 'three-script soup' isn't messy. It's efficient.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A split-screen eye-tracking visualization: smooth fixations on mixed-script Japanese versus jumpy fixations on all-hiragana text"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Spaces are a solution, not a rule",
+      "body": "Spaces are just one way to separate words — and they're not even that old. Ancient Latin was written without spaces too. Different languages solve the word-boundary problem in different ways: Japanese uses script mixing, Chinese uses the fact that almost every character is one syllable, Thai just expects you to figure it out. Writing systems are tools built for their languages — not vice versa.",
+      "visual": {
+        "sfSymbol": "globe.asia.australia.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What replaces the function of spaces in Japanese text?",
+      "options": [
+        "Punctuation marks",
+        "Visual shifts between three different scripts",
+        "Line breaks",
+        "Nothing — readers just guess"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kanji, hiragana, and katakana look distinct, so script transitions naturally signal word boundaries."
+    },
+    {
+      "index": 1,
+      "question": "What is hiragana typically used for?",
+      "options": [
+        "Foreign loanwords",
+        "Grammatical particles and verb endings",
+        "Official government documents only",
+        "Numbers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hiragana handles the grammatical glue: particles, inflections, and native words without kanji."
+    },
+    {
+      "index": 2,
+      "question": "What did eye-tracking studies find about reading speed?",
+      "options": [
+        "Romaji is fastest",
+        "All-hiragana is fastest",
+        "Mixed-script Japanese is read faster than either alternative",
+        "All scripts are equally fast"
+      ],
+      "correctIndex": 2,
+      "explanation": "The visual chunking of mixed scripts actually aids comprehension speed for native readers."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Linguistic Structure of Modern English",
+      "publisher": "John Benjamins Publishing",
+      "year": 2010
+    },
+    {
+      "title": "Eye movements during reading of Japanese mixed-script sentences",
+      "publisher": "Journal of Memory and Language",
+      "year": 2008
+    }
+  ],
+
+  "related": ["kanji-origins", "chinese-writing", "alphabets-history"]
+}

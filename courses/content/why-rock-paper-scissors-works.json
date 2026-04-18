@@ -1,0 +1,141 @@
+{
+  "id": "why-rock-paper-scissors-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Math of Rock Paper Scissors",
+    "teaser": "A 'random' game that isn't random — and the reason you probably throw rock when it matters.",
+    "category": "Games & Strategy",
+    "subcategories": ["Game Theory", "Psychology"],
+    "tags": ["games", "probability", "strategy", "psychology", "patterns"],
+    "emoji": "✊",
+    "accentColor": "#F4A261",
+    "coverSymbol": {
+      "sfSymbol": "hand.raised.fill",
+      "fallbackEmoji": "✋"
+    },
+    "coverImagePrompt": "Three hands frozen mid-throw — rock, paper, and scissors — in a dramatic triangle composition, soft top light, studio backdrop, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The game that shouldn't have a winner",
+      "body": "On paper, rock paper scissors is the fairest game ever designed. Three choices, each beaten by one and beating another, no dominant move. If both players threw randomly, your win rate would be a boring 33%. But a 2014 study of 360 volunteers playing hundreds of rounds found something strange: humans don't throw randomly, and that's why some people consistently win.",
+      "visual": {
+        "sfSymbol": "dice.fill",
+        "imagePrompt": "Two hands frozen just before throwing, minimalist studio lighting, black background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The perfect mixed strategy",
+      "body": "Game theory says the unbeatable strategy is to throw each option with exactly one-third probability, independently, every single round. This is called a mixed Nash equilibrium — and it's the move a perfect random number generator would make. No pattern to exploit, no bias to predict. Try it for a minute. You'll notice it's weirdly hard.",
+      "keyTerms": [
+        { "term": "Mixed strategy", "definition": "A strategy that randomizes between multiple choices with specific probabilities" },
+        { "term": "Nash equilibrium", "definition": "A combination of strategies where no one can improve by changing alone" }
+      ],
+      "visual": {
+        "sfSymbol": "divide.circle.fill",
+        "imagePrompt": "A pie chart split into three equal slices labeled rock, paper, scissors, clean infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Win-stay, lose-shift",
+      "body": "Zhejiang University's 2014 study found a hidden rhythm in how people play. After winning, players tend to repeat the same move. After losing, they tend to cycle forward — rock becomes paper, paper becomes scissors. The researchers called it 'win-stay, lose-shift.' If you know your opponent just lost, you can often predict their next throw and counter it. That's a huge edge.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A cyclical diagram with arrows flowing from rock to paper to scissors, minimalist"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "And men throw rock",
+      "body": "Surveys of beginner players show rock is the most-thrown opening — especially by men and especially under pressure. Rock feels aggressive and solid. Knowing this, savvy players open with paper. The World RPS Society — yes, it existed — even published a guide to exploiting opening biases. At the highest competitive levels, players train themselves into genuine randomness using mental coin flips, and matches actually become close.",
+      "funFact": "A 2005 art auction was decided by a single round of rock paper scissors: Christie's won $20 million in commissions by throwing scissors after being tipped off that the CEO's kid always opened with rock.",
+      "visual": {
+        "sfSymbol": "hand.thumbsup.fill",
+        "imagePrompt": "A close-up of a clenched fist about to throw rock, dramatic contrast, cinematic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Beat a human, lose to a coin",
+      "body": "Against another person, randomness loses — exploitable patterns win. Against a coin, nothing works. That's the quiet punchline of the whole thing: humans are too predictable to play a 'random' game well. Next time you're asked to throw, pick what the last loser wouldn't — and you'll probably win more than a third of the time.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In theory, what is the unbeatable strategy in rock paper scissors?",
+      "options": [
+        "Always throw rock",
+        "Alternate between paper and scissors",
+        "Throw each option with exactly 1/3 probability, randomly each round",
+        "Throw the same as your opponent did"
+      ],
+      "correctIndex": 2,
+      "explanation": "A mixed strategy that's truly random and uniform across rock, paper, and scissors cannot be exploited."
+    },
+    {
+      "index": 1,
+      "question": "What pattern did the 2014 Zhejiang study uncover in human play?",
+      "options": [
+        "Players always repeat the same move",
+        "Win-stay, lose-shift",
+        "Players favor scissors when losing",
+        "Every round is perfectly random"
+      ],
+      "correctIndex": 1,
+      "explanation": "After wins, players tend to repeat; after losses, they tend to cycle to the next move."
+    },
+    {
+      "index": 2,
+      "question": "Based on opening-move statistics, which is a reasonable opener against a beginner?",
+      "options": [
+        "Rock — it beats paper",
+        "Paper — beginners (especially men) tend to open with rock",
+        "Scissors — it always wins first round",
+        "It doesn't matter at all"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rock is statistically the most common opener, so paper has a small edge as an opening counter."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Social cycling and conditional responses in the Rock-Paper-Scissors game",
+      "publisher": "Scientific Reports",
+      "year": 2014
+    },
+    {
+      "title": "The Official Rock Paper Scissors Strategy Guide",
+      "publisher": "Simon & Schuster",
+      "year": 2004
+    }
+  ],
+
+  "related": ["game-theory-basics", "probability-intuition", "poker-tells"]
+}

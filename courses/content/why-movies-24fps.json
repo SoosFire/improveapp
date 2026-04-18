@@ -1,0 +1,136 @@
+{
+  "id": "why-movies-24fps",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Movies Are 24 Frames Per Second",
+    "teaser": "Why does cinema look like cinema — and video look like soap opera? The answer is an old compromise between film, sound, and cost.",
+    "category": "Film & Cinema",
+    "subcategories": ["Cinematography", "Film History"],
+    "tags": ["film", "frame-rate", "cinema", "motion", "sound"],
+    "emoji": "🎬",
+    "accentColor": "#1A1A2E",
+    "coverSymbol": {
+      "sfSymbol": "film.fill",
+      "fallbackEmoji": "🎞️"
+    },
+    "coverImagePrompt": "A strip of 35mm film held up to warm projector light, individual frames visible, dust particles floating in the beam, nostalgic cinematic atmosphere, shallow depth of field"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The look you can feel",
+      "body": "Put a Hollywood movie next to a daytime soap opera. Both are drama. Both have actors, sets, lighting. But one feels like cinema and the other feels like a surveillance camera. That's not the writing — it's the frame rate. Movies run at 24 frames per second. Soap operas at 60. And somewhere in that gap, an entire emotional language lives.",
+      "visual": {
+        "sfSymbol": "tv.fill",
+        "imagePrompt": "Split-screen: left side a moody cinematic movie still in warm tones, right side a flat brightly-lit soap opera still, visual comparison"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The bare minimum for motion",
+      "body": "Our eyes fuse about 10–12 still images per second into smooth motion. So why not use that? Because smooth isn't the same as natural. Early silent films ran anywhere from 16 to 20 fps, and audiences accepted the jitter. The 24 fps number wasn't chosen by artists — it was chosen by accountants and sound engineers who did the math.",
+      "keyTerms": [
+        { "term": "Frame rate (fps)", "definition": "How many still images are shown every second to create motion" },
+        { "term": "Persistence of vision", "definition": "The eye's tendency to retain an image briefly, making sequential stills look continuous" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A zoetrope spinning with a running horse animation, blurred motion, museum lighting, educational still-life"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Sound fixed the number",
+      "body": "When talkies arrived in the late 1920s, the industry needed a standard. Audio synced to film required a steady, predictable speed. Studios tested rates and landed on 24 fps — fast enough to make dialogue sound clear, slow enough to save expensive celluloid. Any slower and voices turned chipmunk-shrill. Any faster and budgets exploded. Twenty-four was the cheapest frame rate that didn't ruin sound.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "Close-up of a vintage 1930s film projector running a reel, optical sound track visible on the edge, art deco color palette"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The 48 fps experiment",
+      "body": "In 2012, Peter Jackson released 'The Hobbit' at 48 fps — twice the cinema standard — hoping for a sharper, more immersive image. Audiences rebelled. Critics called it 'soap opera effect.' The hyper-smooth motion stripped the film of its dreamlike quality and made elaborate sets look like TV backlots. Jackson abandoned the experiment. The 24 fps 'flaw' turned out to be a feature.",
+      "funFact": "The motion blur you see at 24 fps is part of why movies feel dreamy. Each frame captures 1/48th of a second of continuous movement, smearing action just enough to feel expressive.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A grand Middle-earth set from behind the camera, crew and lights visible, the illusion half-broken, behind-the-scenes cinematic still"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An accident we chose to keep",
+      "body": "24 fps was born from penny-pinching engineers in 1927. But a hundred years later, it's become the visual fingerprint of cinema itself. Your brain has been trained since childhood to associate that specific stutter with 'story.' When filmmakers break the rule, we feel the magic leak out. Sometimes the cheapest option wins — and then it wins forever.",
+      "visual": {
+        "sfSymbol": "movieclapper",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why was 24 frames per second originally chosen as the cinema standard?",
+      "options": [
+        "It was the artistic preference of early directors",
+        "It was the cheapest rate that still allowed clear synced sound",
+        "The human eye can't detect motion above 24 fps",
+        "Early cameras couldn't run any faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studios settled on 24 fps as the minimum speed that made synced audio understandable without wasting expensive film stock."
+    },
+    {
+      "index": 1,
+      "question": "What negative nickname did audiences give to Peter Jackson's 48 fps 'Hobbit'?",
+      "options": [
+        "The stutter effect",
+        "The soap opera effect",
+        "The video-game effect",
+        "The news-broadcast effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "Critics and audiences said the hyper-smooth 48 fps motion made the film look like a daytime soap opera."
+    },
+    {
+      "index": 2,
+      "question": "At roughly how many frames per second does the human eye start perceiving continuous motion?",
+      "options": ["Around 5 fps", "Around 10–12 fps", "Around 30 fps", "Around 60 fps"],
+      "correctIndex": 1,
+      "explanation": "Persistence of vision kicks in around 10–12 fps, which is why even silent films at 16 fps looked like motion."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Why Do Movies Move at 24 Frames Per Second?",
+      "publisher": "American Cinematographer",
+      "year": 2018
+    },
+    {
+      "title": "The Hobbit at 48 fps: Peter Jackson's Bold Experiment",
+      "publisher": "Variety",
+      "year": 2012
+    }
+  ],
+
+  "related": ["persistence-of-vision", "talkies-history", "motion-blur-cinematography"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "wedding-white-tradition",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Wedding Dresses Are White",
+    "teaser": "For most of human history, brides wore their best dress in any color. Then a 20-year-old queen changed the rules in one afternoon.",
+    "category": "Fashion",
+    "subcategories": ["Fashion History", "Wedding"],
+    "tags": ["wedding", "Queen Victoria", "tradition", "fashion", "history"],
+    "emoji": "👰",
+    "accentColor": "#E8E4DC",
+    "coverSymbol": {
+      "sfSymbol": "heart.fill",
+      "fallbackEmoji": "👰"
+    },
+    "coverImagePrompt": "A regal Victorian-era oil portrait of a young bride in a pure white satin gown with long lace veil, standing in a cathedral nave, soft stained-glass light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The dress that started it all",
+      "body": "On February 10, 1840, Queen Victoria walked down the aisle to marry Prince Albert in a white silk-satin gown trimmed with handmade Honiton lace. Nobody had asked her to wear white — it wasn't tradition, and most brides still wore their best colored dress. Newspapers worldwide gasped. Within a decade, white had become aspirational for any bride with the means to afford it.",
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A black-and-white 1840s engraving of Queen Victoria in her wedding gown, crowd of royals in color behind her, crisp ink detail"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why white used to be a terrible choice",
+      "body": "Before cheap washing machines and modern detergents, white fabric was a nightmare. It stained instantly, showed every smudge, and needed hours of hand-washing to stay clean. For most women, a wedding dress was also their best dress for years afterward — so they picked practical colors: blues, browns, greens, even black. A white gown you'd wear once was pure extravagance.",
+      "keyTerms": [
+        { "term": "Best dress", "definition": "A woman's finest garment, typically worn for many special occasions including her wedding" },
+        { "term": "Trousseau", "definition": "The clothes, linens, and household goods a bride brought into marriage" }
+      ],
+      "visual": {
+        "sfSymbol": "washer.fill",
+        "imagePrompt": "A 1830s washerwoman scrubbing white lace over a wooden basin, soap bubbles catching afternoon light, moody Dutch-painter tone"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What white actually meant to Victoria",
+      "body": "Victoria's choice wasn't about virginity — that myth came later. She chose white partly to show off the struggling Honiton lace industry in Devon, which was losing work to machine-made imports. The white silk let the lace stand out. It was a political statement wrapped in a fashion statement: a young queen using her wedding to boost British handcraft exports.",
+      "visual": {
+        "sfSymbol": "handbag.fill",
+        "imagePrompt": "Close-up of intricate handmade Honiton lace being pinned on a gown form, skilled hands, soft window light, craft documentary style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Purity came later",
+      "body": "The link between white dresses and virginity became prominent only in the late Victorian era, when fashion magazines began marketing white as the color of 'innocence'. A now-infamous 1849 column in Godey's Lady's Book claimed white had 'from the remotest ages' been 'the fittest hue' — which was simply false. The 'ancient tradition' was barely a decade old.",
+      "funFact": "Victoria's own daughters mostly wore gold or silver for their weddings — the strict white rule became a middle-class obsession long after the royals had moved on.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A 19th-century women's fashion magazine page illustrating an idealized white-clad bride, ornate borders, sepia tones"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A very modern tradition",
+      "body": "The white wedding dress is sometimes presented as timeless. It isn't. It's a mid-19th-century invention that became affordable mass tradition only after electric washing machines, commercial dry-cleaning, and rising middle-class incomes made one-use finery thinkable. Most 'ancient wedding traditions' are about 150 years old — which is about as deep as most traditions ever really go.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Whose 1840 wedding popularized the white dress?",
+      "options": [
+        "Empress Eugénie of France",
+        "Queen Victoria of Britain",
+        "Queen Isabella II of Spain",
+        "Princess Alexandra of Denmark"
+      ],
+      "correctIndex": 1,
+      "explanation": "Victoria's white silk-satin gown, trimmed with Honiton lace, launched the fashion worldwide."
+    },
+    {
+      "index": 1,
+      "question": "Before 1840, what color was a typical Western bride's wedding dress?",
+      "options": [
+        "Always white",
+        "Always black",
+        "Whatever her best dress happened to be",
+        "Red, by Church rule"
+      ],
+      "correctIndex": 2,
+      "explanation": "Brides typically wore their finest existing dress, which was most often a practical color like blue, brown, or green."
+    },
+    {
+      "index": 2,
+      "question": "Why did Victoria specifically choose white?",
+      "options": [
+        "To symbolize virginity",
+        "Because church rules required it",
+        "To showcase and support the British Honiton lace industry",
+        "Because no other color was available"
+      ],
+      "correctIndex": 2,
+      "explanation": "White let the handmade Honiton lace stand out — a deliberate boost to a British craft industry in decline."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Wedding Dresses 1775–2014",
+      "publisher": "Victoria and Albert Museum",
+      "year": 2014
+    },
+    {
+      "title": "Queen Victoria: A Personal History",
+      "publisher": "HarperCollins",
+      "year": 2000
+    }
+  ],
+
+  "related": ["little-black-dress", "purple-royal-color", "why-men-stopped-wearing-heels"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "gottman-four-horsemen",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Four Horsemen of Relationships",
+    "teaser": "A psychologist can predict divorce with 90% accuracy in 15 minutes — by watching for just four behaviors.",
+    "category": "Relationships",
+    "subcategories": ["Communication", "Psychology"],
+    "tags": ["gottman", "marriage", "communication", "conflict", "psychology"],
+    "emoji": "💔",
+    "accentColor": "#B03A48",
+    "coverSymbol": {
+      "sfSymbol": "heart.slash.fill",
+      "fallbackEmoji": "🐎"
+    },
+    "coverImagePrompt": "Four silhouetted horses galloping across a stormy sunset sky over a distant, empty dinner table with two untouched chairs. Cinematic, dramatic, painterly."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The Love Lab",
+      "body": "In the 1980s, psychologist John Gottman built an apartment-sized research lab in Seattle and invited real couples to spend weekends there while he filmed them. After watching thousands of hours of ordinary arguments — about dishes, money, in-laws — he claimed he could predict with over 90% accuracy which couples would divorce. The tell wasn't how much they fought. It was *how*.",
+      "visual": {
+        "sfSymbol": "video.fill",
+        "imagePrompt": "A cozy studio apartment with hidden cameras in the corners, a couple having a quiet dinner unaware of being observed"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the Four Horsemen",
+      "body": "Gottman named the four toxic behaviors after the biblical heralds of doom: Criticism (attacking your partner's character, not their behavior), Contempt (mockery, eye-rolling, moral superiority), Defensiveness (deflecting blame instead of taking responsibility), and Stonewalling (shutting down and going silent). On their own, each is manageable. Together, they corrode trust faster than any single fight could.",
+      "keyTerms": [
+        { "term": "Criticism", "definition": "Framing a complaint as a flaw in your partner's character" },
+        { "term": "Contempt", "definition": "Expressing disgust or superiority — the single strongest divorce predictor" }
+      ],
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "Four tarot-style cards laid on dark velvet, each showing one of the four horsemen: accusation, mockery, shield, and wall"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why contempt is the worst",
+      "body": "Of the four, contempt is the sharpest predictor of divorce. Criticism attacks what you did; contempt attacks who you are. Gottman's lab found that couples with frequent contempt also had suppressed immune systems and got sick more often — the stress was measurable in their blood. The fix isn't fake politeness; it's building a 'culture of appreciation' so small irritations don't curdle into disgust.",
+      "visual": {
+        "sfSymbol": "thermometer.high",
+        "imagePrompt": "Close-up of a rolling eye, reflected in a cracked mirror, cool tones, unsettling"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The 5-to-1 ratio",
+      "body": "Alongside the Horsemen, Gottman identified what he calls the 'magic ratio': stable couples have at least five positive interactions for every negative one during conflict — a glance, a touch, a joke, even just nodding. Couples heading for divorce had ratios closer to 0.8-to-1. The happy couples weren't the ones who never argued. They were the ones who kept reaching for each other while arguing.",
+      "funFact": "Gottman's 'Love Lab' recordings were so detailed that he could code 16 different emotions from a couple's facial muscles alone.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": "An old-fashioned brass balance scale, one side stacked with five warm golden stones, the other with one dark stone"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The antidotes",
+      "body": "Each horseman has a practical counter. Criticism's antidote is a 'soft start-up' — a complaint about a behavior, not a person. Contempt's is deliberate appreciation. Defensiveness's is taking even 2% responsibility. Stonewalling's is the self-soothing break: step away for 20 minutes, then come back. You can't eliminate conflict. You can change the way it ends.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of the Four Horsemen is the strongest single predictor of divorce?",
+      "options": ["Criticism", "Contempt", "Defensiveness", "Stonewalling"],
+      "correctIndex": 1,
+      "explanation": "Contempt — mockery and moral superiority — is the most corrosive and the single strongest predictor."
+    },
+    {
+      "index": 1,
+      "question": "What is Gottman's 'magic ratio' for stable couples during conflict?",
+      "options": [
+        "At least 2 positive interactions for every negative one",
+        "At least 5 positive for every negative one",
+        "At least 10 positive for every negative one",
+        "Equal positive and negative"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stable couples maintain at least 5 positive interactions for every negative one, even mid-argument."
+    },
+    {
+      "index": 2,
+      "question": "What is the recommended antidote to stonewalling?",
+      "options": [
+        "Pushing through until resolution",
+        "A self-soothing break of around 20 minutes",
+        "Changing the subject",
+        "Ending the relationship"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stonewalling comes from physiological overwhelm — a 20-minute break lets the nervous system reset."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Seven Principles for Making Marriage Work",
+      "publisher": "Harmony Books",
+      "year": 1999
+    },
+    {
+      "title": "Predicting marital happiness and stability from newlywed interactions",
+      "publisher": "Journal of Marriage and the Family",
+      "year": 1998
+    }
+  ],
+
+  "related": ["mere-exposure-effect", "attachment-theory", "active-listening"]
+}

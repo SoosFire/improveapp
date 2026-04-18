@@ -1,0 +1,141 @@
+{
+  "id": "broken-windows-theory",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Broken Windows Theory",
+    "teaser": "Can a single shattered window really turn a neighborhood into a crime scene? The evidence is wilder than you'd think.",
+    "category": "Criminology",
+    "subcategories": ["Policing", "Urban Sociology"],
+    "tags": ["crime", "policing", "new-york", "sociology", "urban"],
+    "emoji": "🪟",
+    "accentColor": "#3E5A7C",
+    "coverSymbol": {
+      "sfSymbol": "building.2.crop.circle.fill",
+      "fallbackEmoji": "🏙️"
+    },
+    "coverImagePrompt": "A dimly lit urban alley at dusk, a single shattered tenement window with jagged glass catching the last orange light, graffiti on the brick, cinematic and moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An abandoned car, two cities, one experiment",
+      "body": "In 1969, psychologist Philip Zimbardo parked two identical cars — hood up, plates removed — one in the Bronx, one in Palo Alto. The Bronx car was stripped in ten minutes. The Palo Alto car sat untouched for a week. Then Zimbardo smashed its window with a sledgehammer. Within hours, locals joined in. Why did a single break turn quiet Californians into vandals?",
+      "visual": {
+        "sfSymbol": "car.fill",
+        "imagePrompt": "A battered 1960s sedan on an empty suburban street, one window freshly smashed, scattered glass glittering on the asphalt"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The theory in one line",
+      "body": "In 1982, criminologists James Q. Wilson and George Kelling argued that visible signs of disorder — broken windows, graffiti, litter — signal that nobody's watching. That invitation, they claimed, emboldens bigger crimes. Fix the little stuff, they said, and the serious stuff fades.",
+      "keyTerms": [
+        { "term": "Disorder", "definition": "Visible cues that social norms aren't being enforced — vandalism, trash, loitering" },
+        { "term": "Order-maintenance policing", "definition": "Focusing police effort on minor offenses to prevent major ones" }
+      ],
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "A graffiti-covered subway car interior with flickering fluorescent light, 1980s aesthetic, grainy film texture"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "New York's grand experiment",
+      "body": "In the 1990s, NYPD Commissioner Bill Bratton took the theory literally. Officers cracked down on subway fare-jumpers, graffiti artists, and windshield-washers — the small stuff. Over the decade, NYC's murder rate fell by roughly 70%. Supporters called it a miracle. Critics pointed out that crime was falling nationwide — in cities that never embraced the theory at all.",
+      "visual": {
+        "sfSymbol": "figure.walk.motion",
+        "imagePrompt": "NYPD officers in 1990s uniforms walking a graffiti-scrubbed subway platform, steam rising, gritty urban realism"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What the research actually shows",
+      "body": "A clever 2008 Dutch study by Kees Keizer found that people were twice as likely to litter or steal in an alley strewn with graffiti than in a clean one. Powerful evidence that disorder is contagious. But sociologist Robert Sampson's Chicago research found that what really predicts crime isn't broken windows — it's concentrated poverty and weak community ties. The windows, he argues, are a symptom, not the cause.",
+      "funFact": "The Dutch experiment involved a fake envelope with a visible €5 note poking out of a mailbox. Near graffiti, 27% of passersby stole it. Near a clean mailbox, only 13% did.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A side-by-side split image: pristine Amsterdam alley on left, same alley covered in graffiti on right, overhead perspective"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The uncomfortable legacy",
+      "body": "Broken windows reshaped cities — but it also became the intellectual foundation for 'stop-and-frisk,' which disproportionately targeted Black and Latino New Yorkers and was ruled unconstitutional in 2013. The theory's lesson is double-edged: small cues really do shape behavior, but deciding what counts as 'disorder' — and who gets policed for it — is a deeply political choice.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who introduced the Broken Windows Theory in their 1982 Atlantic article?",
+      "options": [
+        "Philip Zimbardo and Stanley Milgram",
+        "James Q. Wilson and George Kelling",
+        "Robert Sampson and William Julius Wilson",
+        "Malcolm Gladwell and Steven Pinker"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wilson and Kelling published 'Broken Windows' in The Atlantic Monthly in March 1982."
+    },
+    {
+      "index": 1,
+      "question": "What did the 2008 Dutch study by Kees Keizer demonstrate?",
+      "options": [
+        "Graffiti has no effect on behavior",
+        "People litter and steal more in disordered environments",
+        "Police presence prevents vandalism",
+        "Broken windows are purely cosmetic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The experiment showed measurable jumps in littering and theft near graffiti — evidence that visible disorder does influence behavior."
+    },
+    {
+      "index": 2,
+      "question": "Which major criticism challenges the theory's role in 1990s NYC?",
+      "options": [
+        "Crime actually rose during that period",
+        "Crime fell nationwide, even in cities that didn't use the theory",
+        "The NYPD never adopted it",
+        "It only worked in the Bronx"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cities like San Diego saw similar drops without order-maintenance policing, suggesting broader forces were at work."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Broken Windows: The Police and Neighborhood Safety",
+      "publisher": "The Atlantic Monthly",
+      "year": 1982
+    },
+    {
+      "title": "The Spreading of Disorder",
+      "publisher": "Science",
+      "year": 2008
+    }
+  ],
+
+  "related": ["stop-and-frisk", "community-policing", "social-norms"]
+}

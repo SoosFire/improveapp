@@ -1,0 +1,146 @@
+{
+  "id": "godels-incompleteness",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Gödel's Incompleteness: The Unprovable Truth",
+    "teaser": "At 25, an Austrian logician proved that mathematics itself can never be complete. It changed philosophy forever.",
+    "category": "Logic",
+    "subcategories": ["Foundations of Math", "Metamathematics"],
+    "tags": ["godel", "incompleteness", "logic", "hilbert", "truth"],
+    "emoji": "🌀",
+    "accentColor": "#5E3A8A",
+    "coverSymbol": {
+      "sfSymbol": "infinity",
+      "fallbackEmoji": "♾️"
+    },
+    "coverImagePrompt": "A chalkboard covered in dense mathematical notation spiraling inward, a single handwritten sentence reading 'This statement is not provable,' warm tungsten lighting, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "advanced",
+    "estimatedMinutes": 6,
+    "lessonCount": 6,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Hilbert's impossible dream",
+      "body": "In 1900, the mathematician David Hilbert laid out a grand program: find a set of axioms from which every mathematical truth could be proved, and prove that the system itself is consistent. It was a confident, modern vision — a mathematics that could explain all of itself. Thirty years later, a quiet 25-year-old named Kurt Gödel politely proved it impossible.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A 1920s Göttingen lecture hall with chalk equations on a massive blackboard, Hilbert gesturing confidently, archival sepia photographic aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two theorems, one earthquake",
+      "body": "Gödel's 1931 paper contained two results. First incompleteness: any consistent formal system powerful enough to describe arithmetic will contain true statements it cannot prove. Second incompleteness: such a system cannot even prove its own consistency. Together, they didn't just dent Hilbert's program — they buried it.",
+      "keyTerms": [
+        { "term": "Formal system", "definition": "A set of axioms plus rules for deriving new statements from them" },
+        { "term": "Consistency", "definition": "The property that a system cannot prove both P and not-P" }
+      ],
+      "visual": {
+        "sfSymbol": "doc.text.fill",
+        "imagePrompt": "A German-language academic paper from 1931 with neat printed title 'Über formal unentscheidbare Sätze,' cracked yellowed edges"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The self-referential trick",
+      "body": "Gödel's genius was encoding mathematical statements as numbers — what we now call Gödel numbering. This let him build a statement G that, translated, effectively says: 'G cannot be proved within this system.' If G were provable, the system would be inconsistent. If G is unprovable, then G is true — but unprovable. Truth has outrun proof.",
+      "visual": {
+        "sfSymbol": "number.square.fill",
+        "imagePrompt": "A diagram showing letters and symbols being transformed into long strings of numbers via a coding key, blueprint aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Not a loophole — a law",
+      "body": "For years, optimistic mathematicians hoped Gödel's theorem was a quirk — maybe a richer system could escape it. Alan Turing's 1936 work on computable functions, and later Tarski's work on truth, confirmed the ceiling is general. Any system strong enough to handle basic arithmetic inherits the same limits. You can't wriggle out by adding more axioms; the new system just has new unprovable truths.",
+      "funFact": "Gödel was reportedly so precise that when he applied for US citizenship in 1948, he informed the judge he'd found a logical contradiction in the Constitution that could allow a dictatorship. Einstein, his sponsor, told him to keep quiet.",
+      "visual": {
+        "sfSymbol": "lock.shield.fill",
+        "imagePrompt": "A vault door whose hinges are made of mathematical symbols, closed tight, dim crypto-mathematical mood"
+      }
+    },
+    {
+      "index": 4,
+      "type": "evidence",
+      "title": "Echoes beyond math",
+      "body": "The theorems ripple far outside mathematics. They inspired Turing's proof that no program can decide, in general, whether another program halts — the seed of computer science. They shaped philosophy of mind debates about whether human reasoning exceeds mechanical computation. And they remain a sober reminder that 'truth' and 'provable' are not the same thing, anywhere.",
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A web of connected glowing nodes — labeled 'computability,' 'AI,' 'philosophy,' 'logic' — radiating outward from a central point"
+      }
+    },
+    {
+      "index": 5,
+      "type": "takeaway",
+      "title": "A humbler kind of certainty",
+      "body": "Gödel didn't destroy mathematics — mathematicians still prove things every day. He showed that no formal system can be a complete, closed universe of truth. There will always be something real, something true, that slips outside the net. For anyone who thinks hard enough, it's oddly freeing: certainty is not the measure of knowledge.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does Gödel's first incompleteness theorem state?",
+      "options": [
+        "All mathematical statements are true",
+        "Any sufficiently strong consistent system contains true but unprovable statements",
+        "Mathematics is wrong",
+        "Only simple systems are consistent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first theorem shows that any consistent formal system capable of expressing arithmetic has true statements it cannot prove."
+    },
+    {
+      "index": 1,
+      "question": "What clever technique made Gödel's proof possible?",
+      "options": [
+        "Geometric visualization",
+        "Infinite descent",
+        "Gödel numbering — encoding statements as numbers",
+        "Probability theory"
+      ],
+      "correctIndex": 2,
+      "explanation": "By encoding statements and proofs as integers, Gödel let mathematics make statements about itself — enabling self-reference."
+    },
+    {
+      "index": 2,
+      "question": "Whose program did Gödel's theorems undermine?",
+      "options": ["Russell's", "Hilbert's", "Cantor's", "Peano's"],
+      "correctIndex": 1,
+      "explanation": "Hilbert's program sought a complete, consistent, and decidable foundation for all mathematics. Gödel proved it impossible."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I",
+      "publisher": "Monatshefte für Mathematik",
+      "year": 1931
+    },
+    {
+      "title": "Gödel's Proof (revised edition)",
+      "publisher": "NYU Press (Nagel & Newman)",
+      "year": 2001
+    }
+  ],
+
+  "related": ["russells-paradox", "turing-halting-problem", "tarski-truth"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "why-men-stopped-wearing-heels",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Men Stopped Wearing High Heels",
+    "teaser": "Louis XIV wore four-inch red heels. Cowboys wore them to grip stirrups. So when did heels become a women-only thing?",
+    "category": "Fashion",
+    "subcategories": ["Fashion History", "Gender"],
+    "tags": ["heels", "menswear", "history", "fashion", "gender"],
+    "emoji": "👠",
+    "accentColor": "#8B1E3F",
+    "coverSymbol": {
+      "sfSymbol": "figure.walk",
+      "fallbackEmoji": "👠"
+    },
+    "coverImagePrompt": "A pair of 17th-century crimson-red men's heels with ornate buckles on a polished marble floor, soft candlelight, baroque oil-painting style"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Heels started on horseback",
+      "body": "The earliest high heels weren't fashion — they were equipment. Persian cavalry in the 10th century wore heeled boots because the raised shape locked the foot into a stirrup while they fired arrows from horseback. When Persian diplomats arrived at European courts in the late 1500s, aristocrats saw the heel as exotic, military, and masculine, and copied it almost overnight.",
+      "visual": {
+        "sfSymbol": "figure.equestrian.sports",
+        "imagePrompt": "A Persian horseman in ornate armor, heeled boots locked into ornate stirrups, drawing a bow at full gallop, golden desert light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Louis XIV and the red heel",
+      "body": "By the mid-1600s, heels at the French court had become a status symbol. Louis XIV, who was only about 5'4\", issued a decree that only members of his inner circle could wear heels dyed red — the famous 'talons rouges'. Red dye was expensive, the shape was impractical for any work, and that was the point: the heel announced you did not have to walk anywhere you didn't want to.",
+      "keyTerms": [
+        { "term": "Talons rouges", "definition": "The red-heeled shoes Louis XIV reserved for his aristocratic favorites" },
+        { "term": "Sumptuary law", "definition": "Rules dictating which clothes, colors, and materials different social ranks could wear" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A grand Versailles hall with aristocrats in silk breeches and red-heeled shoes, gold-leaf ornamentation, soft chandelier reflections"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Enlightenment kills the heel",
+      "body": "In the late 1700s, ideas from the Enlightenment reshaped masculine dress. Men were supposed to be rational, useful, and sober — not peacocks. Rousseau sneered at aristocratic excess. After the French Revolution, wearing red heels could literally get your head cut off. By 1800, men's shoes had become flat, dark, and practical, and heels were left to women as one more thing marking them as 'decorative'.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "A revolutionary pamphlet engraving showing a torn aristocratic red heel beside a simple buckled flat shoe, bold ink lines"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Heels never fully left menswear",
+      "body": "Cowboys kept the heel — it grips a stirrup, exactly the original Persian reason. Cuban-heeled boots were staples of 1950s rockers; Prince, David Bowie, and Harry Styles have all performed in towering heels. Fashion writers keep predicting a male-heel revival, and every few years it flickers back on runways, then retreats. The taboo, it turns out, is newer than we think.",
+      "funFact": "Elton John once owned a pair of 7-inch platform boots so tall he could barely walk — they're now in the Victoria and Albert Museum.",
+      "visual": {
+        "sfSymbol": "music.microphone",
+        "imagePrompt": "A 1970s rock star in glittery platform heels and a satin suit caught mid-pose under stage lights, lens flares and smoke"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What 'masculine' even means",
+      "body": "The history of the high heel is a reminder that almost nothing about 'masculine' or 'feminine' clothing is biological. Heels were once cavalry gear, then royal flex, then revolutionary crime, then exclusively feminine, then pop-star costume — all in a few centuries. The clothes themselves don't know anything. We decide what they mean, and we keep changing our minds.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why did Persian cavalry originally wear heeled boots?",
+      "options": [
+        "To look taller on parade",
+        "To lock their foot into a stirrup while shooting arrows",
+        "To walk more easily in the desert",
+        "As religious symbols"
+      ],
+      "correctIndex": 1,
+      "explanation": "The heel was practical cavalry gear — it stabilized the foot in the stirrup for mounted archery."
+    },
+    {
+      "index": 1,
+      "question": "What was special about Louis XIV's red heels?",
+      "options": [
+        "They were the world's first platforms",
+        "Only his inner circle at court was allowed to wear them",
+        "They were painted with royal portraits",
+        "They were reserved for military victories"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Talons rouges' were a visual marker of royal favor, restricted to Louis XIV's chosen aristocrats."
+    },
+    {
+      "index": 2,
+      "question": "Which cultural shift pushed men out of heels?",
+      "options": [
+        "The Industrial Revolution",
+        "The Enlightenment and French Revolution",
+        "The rise of Christianity",
+        "World War I"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enlightenment ideals of rational, useful masculinity — and post-revolutionary suspicion of aristocratic fashion — flattened men's shoes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Shoes: Pleasure and Pain",
+      "publisher": "Victoria and Albert Museum",
+      "year": 2015
+    },
+    {
+      "title": "Heights of Fashion: A History of the Elevated Shoe",
+      "publisher": "Bata Shoe Museum",
+      "year": 2008
+    }
+  ],
+
+  "related": ["little-black-dress", "purple-royal-color", "wedding-white-tradition"]
+}

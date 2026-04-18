@@ -1,0 +1,142 @@
+{
+  "id": "color-grading-magic",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Color Grading Changes a Movie",
+    "teaser": "Why does every Hollywood blockbuster look teal and orange — and what is it doing to your brain?",
+    "category": "Film & Cinema",
+    "subcategories": ["Cinematography", "Post-Production"],
+    "tags": ["color", "cinema", "editing", "visual-language", "dop"],
+    "emoji": "🎨",
+    "accentColor": "#E07A5F",
+    "coverSymbol": {
+      "sfSymbol": "paintpalette.fill",
+      "fallbackEmoji": "🎬"
+    },
+    "coverImagePrompt": "A split-screen film still of the same dramatic scene, one side washed in cold steel blue and the other drenched in warm amber firelight, cinematic, shallow depth of field, moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The same shot, two movies",
+      "body": "Take a single frame of an actor's face. Push it toward cool blue and suddenly the scene feels lonely, clinical, almost dangerous. Warm it up with amber and gold, and the same face feels safe, nostalgic, loved. Nothing changed except the color — and that's the whole secret of grading.",
+      "visual": {
+        "sfSymbol": "rectangle.on.rectangle",
+        "imagePrompt": "Side-by-side film stills of the same actor's face, one side cool cyan, the other warm orange, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Color correction vs color grading",
+      "body": "These two get mixed up constantly, but they're different jobs. Color correction is the cleanup pass — matching shots so skin tones look human and whites look white. Color grading is the art layer on top: the mood, the signature look, the reason a Fincher film feels nothing like a Wes Anderson one.",
+      "keyTerms": [
+        { "term": "Color correction", "definition": "Technical fixes to balance exposure, white balance, and match shots" },
+        { "term": "Color grading", "definition": "Creative color choices that shape emotion and style" },
+        { "term": "LUT", "definition": "A lookup table that maps input colors to a new graded look" }
+      ],
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "A colorist's control surface with large trackballs glowing under a dark monitor showing a film frame"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why teal and orange took over",
+      "body": "Human skin sits in the orange part of the spectrum. Teal is its complement on the color wheel — directly across. Pushing shadows toward teal while keeping skin warm makes actors pop off the background like cutouts. Digital grading tools made this one-click easy in the 2000s, and Hollywood never looked back.",
+      "visual": {
+        "sfSymbol": "circle.hexagongrid.fill",
+        "imagePrompt": "A color wheel diagram with orange and teal marked as complements, overlaid on a dim cinema frame"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The Matrix and the green world",
+      "body": "When a character is inside the Matrix, everything carries a sickly green cast — like looking through an old CRT monitor. Scenes in the real world shift to cold blue. Nothing in the dialogue tells you where you are; the grade does. Studies of viewer reaction show audiences correctly identify scene location within a second, just from the color wash.",
+      "funFact": "Roger Deakins has said he fights colorists who try to crush blacks too hard — he wants detail in the shadow, not a pit.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Two moody frames — one tinted sickly green like old computer screens, one steely blue — stacked vertically"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're reading color without knowing it",
+      "body": "Every time a film cuts to a flashback and your gut says 'this is the past,' chances are a colorist nudged the saturation down and warmed the highlights. Grading is the quiet director whispering mood into your eyes — so quiet you don't notice you're being directed.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the main difference between color correction and color grading?",
+      "options": [
+        "Correction is done on film, grading on digital",
+        "Correction fixes technical issues, grading creates mood",
+        "Correction is for TV, grading is for cinema",
+        "They are the same thing with different names"
+      ],
+      "correctIndex": 1,
+      "explanation": "Correction is the technical cleanup pass; grading is the creative, stylistic layer on top."
+    },
+    {
+      "index": 1,
+      "question": "Why is teal often paired with orange in blockbusters?",
+      "options": [
+        "Teal is the cheapest color to render",
+        "Orange and teal sit across from each other on the color wheel, so skin pops",
+        "Cameras can't capture red without adding teal",
+        "It's a copyright requirement"
+      ],
+      "correctIndex": 1,
+      "explanation": "They're complementary colors — skin is orange, so a teal background maximizes contrast and separation."
+    },
+    {
+      "index": 2,
+      "question": "In The Matrix, what does the green color wash signal?",
+      "options": [
+        "Danger is coming",
+        "The character is dreaming",
+        "The scene takes place inside the Matrix",
+        "A costume change"
+      ],
+      "correctIndex": 2,
+      "explanation": "Green scenes are inside the simulation; blue tones mark the real world."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Filmmaker's Eye: Learning (and Breaking) the Rules of Cinematic Composition",
+      "publisher": "Focal Press",
+      "year": 2011
+    },
+    {
+      "title": "The Science and Craft of Color Grading",
+      "publisher": "American Cinematographer",
+      "year": 2019
+    }
+  ],
+
+  "related": ["why-the-wilhelm-scream", "cinematic-aspect-ratios", "film-stock-vs-digital"]
+}

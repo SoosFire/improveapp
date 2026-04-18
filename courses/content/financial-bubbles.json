@@ -1,0 +1,141 @@
+{
+  "id": "financial-bubbles",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Financial Bubbles Happen",
+    "teaser": "Tulips. Houses. Dot-coms. Crypto. Every generation swears 'this time it's different.' It never is.",
+    "category": "Finance",
+    "subcategories": ["Markets", "Behavioral Economics"],
+    "tags": ["bubbles", "markets", "psychology", "crashes", "speculation"],
+    "emoji": "🫧",
+    "accentColor": "#D4675C",
+    "coverSymbol": {
+      "sfSymbol": "chart.line.uptrend.xyaxis",
+      "fallbackEmoji": "📉"
+    },
+    "coverImagePrompt": "A shimmering soap bubble shaped like a rising stock chart, moments from popping, dramatic backlit sunset, financial news tickers reflected on its surface"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A tulip bulb for the price of a house",
+      "body": "In 1637 Holland, a single rare tulip bulb could trade for more than a canalside mansion in Amsterdam. People mortgaged their homes to buy flowers they'd never actually plant. Then, in a matter of days, prices collapsed by 99%. The first financial bubble in recorded history set the template every bubble has followed since.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A Dutch Golden Age painting of a single tulip on a table beside stacks of gold coins and a house deed, candlelight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A bubble has a recipe",
+      "body": "Every bubble follows the same five phases: a real innovation ignites excitement, prices rise, a feedback loop pulls in new buyers, euphoria detaches prices from fundamentals, then reality reasserts itself and the whole thing implodes. Economist Hyman Minsky mapped it decades ago, and it keeps happening because the ingredients — novelty, cheap money, and fear of missing out — keep reappearing.",
+      "keyTerms": [
+        { "term": "Fundamental value", "definition": "What an asset is actually worth based on its underlying earnings or utility" },
+        { "term": "Minsky moment", "definition": "The sudden point when asset prices collapse after a long period of speculation" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A classic Minsky bubble curve with five labeled phases: stealth, awareness, mania, blow-off, crash — clean modern infographic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why smart people get swept in",
+      "body": "When your neighbor makes $50,000 flipping a condo or a Bored Ape, sitting out feels irrational. The bubble doesn't fool only the naive — it exploits a deeply rational instinct called the 'greater fool theory': even if the price is crazy, I can sell it to someone crazier. That works until it suddenly doesn't, and everyone realizes they were the greater fool.",
+      "visual": {
+        "sfSymbol": "person.3.sequence.fill",
+        "imagePrompt": "A queue of people passing a glowing, inflating orb to each other, each more excited than the last, the last person holding a deflated husk"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Four centuries, same story",
+      "body": "1637 tulips. 1720 South Sea Company. 1929 stock market. 1990s Japanese real estate. 2000 dot-coms. 2008 US housing. 2021 meme stocks and crypto. Different assets, same graph. Each time, experts cited unique new reasons — this time was powered by radio! By the internet! By blockchain! — and each time, the same math of leverage, greed, and herd behavior reassembled itself.",
+      "funFact": "At the peak of the 1929 bubble, shoe-shiners were giving stock tips to clients. Banker Joseph Kennedy later said that's exactly when he sold everything — 'when even the shoeshine boy is giving advice, it's time to get out.'",
+      "visual": {
+        "sfSymbol": "calendar.badge.clock",
+        "imagePrompt": "A timeline of stylized bubble charts, each labeled by year and asset, stretching from 1637 to the present"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The bubble you're in is invisible",
+      "body": "Bubbles are easy to see in retrospect and almost impossible to recognize from inside. The warning signs — euphoria, 'new era' thinking, borrowing to buy — always look different while they're happening. The best financial defense isn't predicting crashes; it's refusing to let the fear of missing out override the math of what something is actually worth.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the 'greater fool theory' in a nutshell?",
+      "options": [
+        "Markets always return to fair value",
+        "You can buy an overpriced asset if you believe someone else will pay more later",
+        "Smart investors avoid bubbles",
+        "Bubbles last longer than most expect"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'greater fool theory' describes betting that someone even more reckless will bail you out at a higher price."
+    },
+    {
+      "index": 1,
+      "question": "Which phase typically comes just before a bubble's crash?",
+      "options": [
+        "Stealth accumulation",
+        "Awareness",
+        "Euphoria / mania",
+        "Recovery"
+      ],
+      "correctIndex": 2,
+      "explanation": "Euphoria or mania is the final runaway phase, marked by widespread speculation before reality reasserts itself."
+    },
+    {
+      "index": 2,
+      "question": "Which of these was NOT a historical financial bubble?",
+      "options": [
+        "Dutch tulip mania, 1637",
+        "South Sea Company, 1720",
+        "Great Depression crash, 1929",
+        "Y2K bug, 2000"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Y2K bug was a software concern, not a speculative asset bubble; the 1929 crash followed a classic stock market bubble."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Manias, Panics, and Crashes: A History of Financial Crises",
+      "publisher": "Palgrave Macmillan",
+      "year": 2015
+    },
+    {
+      "title": "Extraordinary Popular Delusions and the Madness of Crowds",
+      "publisher": "Harriman House",
+      "year": 2003
+    }
+  ],
+
+  "related": ["compound-interest", "behavioral-economics", "stock-market-basics"]
+}

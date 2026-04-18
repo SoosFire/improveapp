@@ -1,0 +1,136 @@
+{
+  "id": "marathon-distance-origin",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Marathons Are Exactly 26.2 Miles",
+    "teaser": "The strangely precise marathon distance wasn't set in ancient Greece. It was set by the British royal family — so the kids could see the finish.",
+    "category": "Sports",
+    "subcategories": ["Running", "Olympic History"],
+    "tags": ["marathon", "running", "olympics", "history", "sports"],
+    "emoji": "🏃",
+    "accentColor": "#1E5B3A",
+    "coverSymbol": {
+      "sfSymbol": "figure.run",
+      "fallbackEmoji": "🏃"
+    },
+    "coverImagePrompt": "A lone marathon runner crossing a finish line under a stone archway at dusk, crowd in soft focus, warm golden light, cinematic sports photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why that weirdly specific number?",
+      "body": "Most race distances are round: the 5K, the 10K, the half marathon. Then there's 26 miles and 385 yards — 42.195 kilometers — the full marathon. It sounds like a mistake. It basically is. The answer runs straight through ancient Greece, Edwardian London, and a queen who wanted a better view.",
+      "visual": {
+        "sfSymbol": "questionmark.app.fill",
+        "imagePrompt": "A close-up of a race bib with '26.2' printed boldly, safety-pinned to a runner's shirt, macro photograph"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The legend of Pheidippides",
+      "body": "In 490 BCE, Greek forces beat a Persian army at the battlefield of Marathon. According to the story, a messenger named Pheidippides ran all the way to Athens to announce the victory — shouted 'Nikē!' (victory) — and promptly died. When the modern Olympics were revived in 1896, organizers built a race to honor him. The distance was roughly 40 kilometers, chosen to trace his supposed route.",
+      "keyTerms": [
+        { "term": "Pheidippides", "definition": "The Greek messenger said to have run from Marathon to Athens" },
+        { "term": "Panathenaic Stadium", "definition": "The Athens stadium where the first modern Olympic marathon finished" }
+      ],
+      "visual": {
+        "sfSymbol": "laurel.leading",
+        "imagePrompt": "A classical illustration of Pheidippides running through a sun-bleached Greek landscape, olive trees lining the road"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Enter the British royal family",
+      "body": "The distance stayed wobbly for three Olympics — 40.0 km in 1896, 40.26 in 1900, 40.0 in 1904. Then came London 1908. Organizers planned a route starting at Windsor Castle so royal children could watch the beginning, and finishing in front of the royal box at White City Stadium so Queen Alexandra could see the end. The total tape measure: 26 miles, 385 yards. Not convenient. Not round. Just royal.",
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "Windsor Castle viewed across a long garden path at dawn, hinting at the start of a historic race"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A standard born from controversy",
+      "body": "That 1908 race turned chaotic. Italian runner Dorando Pietri entered the stadium first but collapsed five times and was helped across the line — then disqualified for receiving aid. His dramatic finish made the London distance legendary. By 1921, the International Amateur Athletic Federation officially standardized the marathon at exactly 26 miles and 385 yards, or 42.195 km.",
+      "funFact": "Pheidippides probably didn't run from Marathon to Athens. Ancient sources actually say he ran from Athens to Sparta — about 240 km — to beg for backup. He might have run that in two days. The 26.2 route is a 19th-century simplification.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "A black-and-white photograph style image of Dorando Pietri staggering on the track at White City Stadium, officials rushing toward him"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An oddity, fossilized",
+      "body": "Athletic records are now broken by seconds over that exact distance. Million-dollar shoe R&D is tuned to it. Thousands of runners train for years to cover precisely 42.195 km. All because one hundred years ago, a queen wanted a good seat. The marathon is a monument to royal convenience, frozen in stone by tradition.",
+      "visual": {
+        "sfSymbol": "medal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How long is a modern marathon exactly?",
+      "options": [
+        "25 miles / 40 km",
+        "26 miles 385 yards / 42.195 km",
+        "30 miles / 48 km",
+        "20 miles / 32 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "The standardized distance is 26 miles and 385 yards, equal to 42.195 kilometers."
+    },
+    {
+      "index": 1,
+      "question": "Why is the marathon distance so oddly specific?",
+      "options": [
+        "It matches Pheidippides' exact ancient route",
+        "It was set to suit the British royal family's viewing in 1908",
+        "Early runners averaged this distance before collapsing",
+        "It was chosen to match a Roman mile system"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1908 London course was laid out for royal convenience — start at Windsor, finish in front of Queen Alexandra."
+    },
+    {
+      "index": 2,
+      "question": "When was the marathon distance officially standardized?",
+      "options": ["1896", "1908", "1921", "1960"],
+      "correctIndex": 2,
+      "explanation": "The IAAF officially fixed the marathon at 42.195 km in 1921, adopting the 1908 London distance."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Marathon: 2500 Years and Counting",
+      "publisher": "International Olympic Committee Research",
+      "year": 2010
+    },
+    {
+      "title": "Dorando Pietri and the 1908 Olympic Marathon",
+      "publisher": "Journal of Olympic History",
+      "year": 2008
+    }
+  ],
+
+  "related": ["olympic-origins", "running-biomechanics", "endurance-evolution"]
+}

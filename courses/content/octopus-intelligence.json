@@ -1,0 +1,136 @@
+{
+  "id": "octopus-intelligence",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Smart Is an Octopus?",
+    "teaser": "An octopus has nine brains, three hearts, and can solve puzzles — possibly the closest thing to alien intelligence on Earth.",
+    "category": "Wildlife",
+    "subcategories": ["Marine Biology", "Animal Cognition"],
+    "tags": ["octopus", "cephalopod", "intelligence", "neuroscience", "ocean"],
+    "emoji": "🐙",
+    "accentColor": "#9B4DCA",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "🐙"
+    },
+    "coverImagePrompt": "A curious octopus with one eye visible peering through a glass aquarium wall, tentacles draped over the edge, iridescent skin patterns shifting, studio-lit macro photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The escape artist of Aotearoa",
+      "body": "In 2016, an octopus named Inky lived at New Zealand's National Aquarium. One night, a staff member left his tank lid slightly ajar. Inky climbed out, slithered across the floor, found a 50-meter drainpipe that led to the sea, squeezed through it, and vanished into the Pacific Ocean. He was never seen again. His great-escape made global news — and reminded us that octopuses think about the world very differently than we do.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A dark aquarium at night, wet trail across the floor leading to a drain, a single suction-cup print glistening under emergency lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Nine brains, three hearts",
+      "body": "An octopus has a central brain between its eyes. But two-thirds of its neurons aren't there — they're spread along its eight arms. Each arm effectively has its own 'mini-brain' and can taste, touch, and decide things semi-independently. Add two pumping hearts for the gills and one for the body, and the octopus looks less like a fish and more like a distributed alien intelligence wearing a squishy suit.",
+      "keyTerms": [
+        { "term": "Distributed cognition", "definition": "When thinking is spread across multiple parts of a body rather than centralized in one brain" },
+        { "term": "Cephalopod", "definition": "A class of mollusks including octopuses, squid, and cuttlefish, known for their large brains" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A cutaway scientific illustration of an octopus showing the central brain glowing blue and neurons branching down each of the eight arms"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Tests, tricks, and tools",
+      "body": "In labs, octopuses have unscrewed jars from the inside, picked individual locks, and remembered the faces of specific human caretakers — including which ones teased them, whom they then sprayed with water. Wild octopuses collect coconut shell halves and carry them under their bodies to use as portable shelters — a rare example of tool use in an invertebrate. They also appear to dream, cycling through color-changing patterns while asleep.",
+      "visual": {
+        "sfSymbol": "puzzlepiece.fill",
+        "imagePrompt": "An octopus in a clear aquarium tank unscrewing a jar to reach a shrimp inside, underwater research setting with soft blue lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Intelligence without us",
+      "body": "Here's the stunning part: our last common ancestor with octopuses lived roughly 600 million years ago — before brains, spines, or even proper eyes evolved. That means octopuses developed intelligence completely independently. Neuroscientist Peter Godfrey-Smith calls them 'the closest we can come to meeting an intelligent alien.' Two minds from two separate evolutionary experiments, both arriving at problem-solving.",
+      "funFact": "Octopuses can 'see' color through their skin. Their bodies contain the same photoreceptor proteins as their eyes — despite the fact that their actual eyes are colorblind.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "An evolutionary tree splitting into two branches 600 million years ago, one leading to humans and one to an octopus, surreal ocean background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A different kind of mind",
+      "body": "If intelligence can evolve twice on one planet — from creatures as different as us and octopuses — it's probably not a rare accident. It might be something life stumbles onto whenever a body needs to solve hard problems. The next time you meet an octopus, at an aquarium or on a plate, remember: you're looking at 600 million years of parallel thinking, compressed into a creature the size of a cat.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many hearts does an octopus have?",
+      "options": ["One", "Two", "Three", "Eight"],
+      "correctIndex": 2,
+      "explanation": "Two hearts pump blood through the gills, and one central heart pumps it to the rest of the body."
+    },
+    {
+      "index": 1,
+      "question": "Where are most of an octopus's neurons located?",
+      "options": [
+        "In its central brain",
+        "In its eyes",
+        "In its eight arms",
+        "In its three hearts"
+      ],
+      "correctIndex": 2,
+      "explanation": "About two-thirds of an octopus's neurons are distributed along its arms, giving each arm a degree of independent control."
+    },
+    {
+      "index": 2,
+      "question": "How long ago did octopuses and humans share a common ancestor?",
+      "options": [
+        "Around 1 million years",
+        "Around 10 million years",
+        "Around 100 million years",
+        "Around 600 million years"
+      ],
+      "correctIndex": 3,
+      "explanation": "The common ancestor of octopuses and humans lived roughly 600 million years ago, meaning our intelligences evolved independently."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness",
+      "publisher": "Farrar, Straus and Giroux",
+      "year": 2016
+    },
+    {
+      "title": "Tool use in coconut-carrying octopuses",
+      "publisher": "Current Biology",
+      "year": 2009
+    }
+  ],
+
+  "related": ["cephalopod-camouflage", "animal-consciousness", "convergent-evolution"]
+}

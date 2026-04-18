@@ -1,0 +1,136 @@
+{
+  "id": "feathered-dinosaurs",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "When We Realized Dinosaurs Had Feathers",
+    "teaser": "For a century, we drew dinosaurs as scaly lizards. Then a farmer in China split open a rock — and changed everything.",
+    "category": "Paleontology",
+    "subcategories": ["Dinosaurs", "Evolution"],
+    "tags": ["dinosaurs", "feathers", "birds", "china", "evolution"],
+    "emoji": "🪶",
+    "accentColor": "#6B8E5A",
+    "coverSymbol": {
+      "sfSymbol": "bird.fill",
+      "fallbackEmoji": "🪶"
+    },
+    "coverImagePrompt": "A small feathered theropod dinosaur crouched in a Cretaceous forest, iridescent plumage catching dappled sunlight, photorealistic paleoart"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The picture was wrong",
+      "body": "For generations, every kid's book showed dinosaurs as giant green lizards with pebbly skin. Jurassic Park reinforced it. Then, in 1996, Chinese farmers in the Liaoning Province split a slab of shale — and inside was a small dinosaur with a clear halo of dark fuzz around its body. We had been drawing them naked the whole time.",
+      "visual": {
+        "sfSymbol": "photo.fill",
+        "imagePrompt": "A split slab of grey shale revealing the fossilized outline of a small theropod with a visible halo of dark fuzz around its body, archival photograph style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Sinosauropteryx and the fuzz",
+      "body": "The fossil was named Sinosauropteryx — 'Chinese dragon wing' — though it couldn't fly. What covered it were simple filaments: proto-feathers, hollow structures resembling the down on a modern chick. Sinosauropteryx wasn't a bird. It was a small meat-eating dinosaur. Feathers, it turned out, came long before flight.",
+      "keyTerms": [
+        { "term": "Proto-feather", "definition": "An early, simple filament-like feather ancestor, lacking the complex branching of modern flight feathers" },
+        { "term": "Theropod", "definition": "A group of mostly meat-eating dinosaurs that includes birds and T. rex" }
+      ],
+      "visual": {
+        "sfSymbol": "scribble.variable",
+        "imagePrompt": "Labeled diagram showing a theropod dinosaur body outline covered in simple filamentous proto-feathers, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why grow feathers you can't fly with?",
+      "body": "Feathers likely started as insulation — small, warm-blooded dinosaurs needed to hold body heat. From there, evolution repurposed them: for display, for camouflage, for shielding eggs. Flight came much later, as a lucky remix of structures that already existed for other reasons. By the late Cretaceous, entire lineages of theropods were feathered, and birds were quietly emerging as one branch of the dinosaur family.",
+      "visual": {
+        "sfSymbol": "thermometer.sun.fill",
+        "imagePrompt": "A small dinosaur huddled in a nest during snowfall, feathery down keeping it warm, painterly cinematic paleoart"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Color, pattern, even stripes",
+      "body": "Liaoning's volcanic ash preserved fossils so finely that researchers could find melanosomes — tiny pigment organelles. In 2010, a team reconstructed Sinosauropteryx with a striped, reddish-brown tail and a darker face. Other specimens revealed iridescent black feathers. For the first time, paleontology added color to animals dead for 130 million years.",
+      "funFact": "The feathered dinosaur Microraptor had four wings — two on its arms and two on its legs — and was probably an excellent glider.",
+      "visual": {
+        "sfSymbol": "paintpalette.fill",
+        "imagePrompt": "A reconstruction of Sinosauropteryx with a striped russet tail and dark bandit mask, standing in a fern forest, vivid paleoart"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Birds are still here",
+      "body": "When you watch a sparrow, you're watching a living theropod dinosaur — a direct descendant of the same family tree as T. rex. The dinosaurs didn't fully die out 66 million years ago. Most of them did. But feathers, the oldest invention in that family, are still flying over your head.",
+      "visual": {
+        "sfSymbol": "bird.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where was the first clearly feathered non-avian dinosaur found?",
+      "options": ["Montana, USA", "Patagonia, Argentina", "Liaoning, China", "the Gobi Desert"],
+      "correctIndex": 2,
+      "explanation": "Sinosauropteryx was discovered in 1996 in the Liaoning fossil beds of northeastern China."
+    },
+    {
+      "index": 1,
+      "question": "What is the leading explanation for why feathers first evolved?",
+      "options": [
+        "For powered flight",
+        "For insulation and heat retention",
+        "For swimming",
+        "For digging"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early proto-feathers were simple and downy — useful for keeping small dinosaurs warm long before flight was possible."
+    },
+    {
+      "index": 2,
+      "question": "How did scientists figure out some feathered dinosaurs' colors?",
+      "options": [
+        "By testing ancient DNA",
+        "By studying preserved melanosome pigment structures",
+        "By extracting ancient proteins",
+        "By comparing to living reptiles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Melanosomes preserved in fine-grained fossils reveal pigment patterns, allowing researchers to reconstruct likely colors."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A new small theropod dinosaur from the Yixian Formation of Liaoning",
+      "publisher": "Nature",
+      "year": 1998
+    },
+    {
+      "title": "Plumage color patterns of an extinct dinosaur",
+      "publisher": "Science",
+      "year": 2010
+    }
+  ],
+
+  "related": ["t-rex-tiny-arms", "how-fossils-form", "life-in-amber"]
+}

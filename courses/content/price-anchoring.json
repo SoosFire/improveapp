@@ -1,0 +1,144 @@
+{
+  "id": "price-anchoring",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Price Anchoring: Why $9.99 Works",
+    "teaser": "Your brain doesn't judge price by value — it judges by the first number it saw. Here's how retailers weaponize that.",
+    "category": "Marketing",
+    "subcategories": ["Pricing Strategy", "Behavioral Economics"],
+    "tags": ["pricing", "psychology", "anchoring", "consumer-behavior"],
+    "emoji": "💰",
+    "accentColor": "#3F7D5A",
+    "coverSymbol": {
+      "sfSymbol": "dollarsign.circle.fill",
+      "fallbackEmoji": "💲"
+    },
+    "coverImagePrompt": "A gleaming retail price tag showing $9.99 with a faint crossed-out $19.99 beside it, dramatic overhead spotlight on black velvet, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A number you can't unsee",
+      "body": "Walk into a store. The first watch you look at costs $4,500. The second is $300 — and suddenly the $300 watch feels like a bargain, even though you came in wanting to spend $80. That $4,500 tag did its job, and you never had any intention of buying it. Welcome to the quiet science of price anchoring, probably the most weaponized bias in retail.",
+      "visual": {
+        "sfSymbol": "tag.fill",
+        "imagePrompt": "A display window with a luxury watch at center, other items fading into soft focus around it, warm neon glow"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What anchoring is",
+      "body": "Anchoring is the tendency to rely too heavily on the first piece of information you see when making a judgment. Amos Tversky and Daniel Kahneman demonstrated this in a famous 1974 experiment: they spun a wheel showing a random number, then asked participants what percentage of African countries were in the UN. People who saw a high number guessed much higher than people who saw a low one — even though the wheel was obviously random.",
+      "keyTerms": [
+        { "term": "Anchor", "definition": "A reference number that influences subsequent judgments, even if it's irrelevant" },
+        { "term": "Reference price", "definition": "The price shoppers mentally expect for a product based on prior exposure" }
+      ],
+      "visual": {
+        "sfSymbol": "scalemass",
+        "imagePrompt": "A spinning roulette wheel with numbers blurring, a thought bubble above it showing percentage guesses"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why $9.99 beats $10.00",
+      "body": "There are two forces at play. First, left-digit bias: your brain reads the leftmost digit first and treats it as roughly the whole number. $9.99 registers as 'nine something,' not 'basically ten.' Second, the crossed-out anchor: if a shirt's tag says 'was $40, now $24.99,' the 24.99 feels cheap — but shown alone, most people would rate 24.99 as a normal full price. Both tricks exploit the same underlying wiring: we compare, we don't compute.",
+      "keyTerms": [
+        { "term": "Left-digit bias", "definition": "The tendency to weight the leftmost digit of a price more heavily than it deserves" }
+      ],
+      "visual": {
+        "sfSymbol": "number.square.fill",
+        "imagePrompt": "A giant glowing $9.99 split so the '9' towers over the '.99,' minimalist retail poster aesthetic"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The decoy effect seals the deal",
+      "body": "Anchoring has a close cousin. A classic Economist subscription experiment by Dan Ariely offered three options: web-only at $59, print-only at $125, and print-plus-web at $125. Almost nobody picked print-only — but its mere presence as a decoy made the $125 combo feel like an amazing deal, and subscriptions surged toward it. Remove the decoy, and most people chose the cheaper web-only option. The irrelevant option did the selling.",
+      "funFact": "Prices ending in .99 are so universal that some luxury brands deliberately use round numbers — $2,000, not $1,999 — to signal 'we're above that trick.'",
+      "visual": {
+        "sfSymbol": "list.bullet.rectangle.fill",
+        "imagePrompt": "Three subscription tiers printed on a magazine ad, with the middle option subtly dimmed as a decoy"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The first number wins",
+      "body": "Price anchoring works because the mind is lazy in useful ways — we don't recalculate fair value from scratch every time we see a price. We scan nearby numbers and compare. Once you notice the trick, you see it everywhere: menus, mortgages, car lots, SaaS pricing pages. You can't turn off the bias, but you can at least ask yourself the sober question behind the chatter: what's this actually worth to me?",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the anchoring effect?",
+      "options": [
+        "Preferring round numbers",
+        "Relying too heavily on the first number you see when making a judgment",
+        "Always choosing the cheapest option",
+        "Ignoring sale signs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anchoring means later judgments drift toward the initial reference number, even when that number is irrelevant."
+    },
+    {
+      "index": 1,
+      "question": "Why does $9.99 feel meaningfully cheaper than $10.00?",
+      "options": [
+        "It saves one cent",
+        "Left-digit bias makes us read the price as 'nine-something'",
+        "Taxes work out better",
+        "It's easier to count change"
+      ],
+      "correctIndex": 1,
+      "explanation": "The leftmost digit dominates the quick mental read, so $9.99 registers closer to $9 than to $10."
+    },
+    {
+      "index": 2,
+      "question": "What's the point of a 'decoy' option in pricing?",
+      "options": [
+        "To give variety",
+        "To make another option look like a better deal",
+        "To test demand",
+        "To satisfy legal requirements"
+      ],
+      "correctIndex": 1,
+      "explanation": "A decoy is designed not to be chosen — its job is to make the target option look disproportionately attractive."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "publisher": "Science (Tversky & Kahneman)",
+      "year": 1974
+    },
+    {
+      "title": "Predictably Irrational",
+      "publisher": "HarperCollins (Dan Ariely)",
+      "year": 2008
+    }
+  ],
+
+  "related": ["decoy-effect", "loss-aversion", "behavioral-economics"]
+}

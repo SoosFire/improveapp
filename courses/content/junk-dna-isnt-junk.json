@@ -1,0 +1,137 @@
+{
+  "id": "junk-dna-isnt-junk",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why 'Junk DNA' Isn't Junk",
+    "teaser": "98% of your DNA doesn't code for proteins. For decades scientists called it junk. They were wrong.",
+    "category": "Genetics",
+    "subcategories": ["Molecular Biology", "Genomics"],
+    "tags": ["dna", "genome", "evolution", "regulation", "encode"],
+    "emoji": "🧬",
+    "accentColor": "#3A8A7A",
+    "coverSymbol": {
+      "sfSymbol": "helm",
+      "fallbackEmoji": "🧬"
+    },
+    "coverImagePrompt": "A luminous double helix unraveling against deep navy space, most strands glowing gold instead of the usual blue, tiny regulatory switches visible at intervals, cinematic microscopic detail"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 98% problem",
+      "body": "When scientists finished sequencing the human genome in 2003, they found something strange: only about 2% of our DNA codes for proteins — the classical definition of a 'gene'. The other 98% was written off as evolutionary leftovers. For decades, textbooks called it 'junk DNA'. Then biologists took a closer look.",
+      "visual": {
+        "sfSymbol": "trash.slash.fill",
+        "imagePrompt": "A golden DNA strand being pulled out of a trash bin against a clean white lab background, dramatic lighting, metaphorical"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What's actually in there",
+      "body": "That so-called junk is a sprawling control room. It contains promoters that switch genes on, enhancers that crank them louder, insulators that block neighboring genes from interfering, and long non-coding RNAs that shuttle signals around the cell. There are also viral relics called transposons — bits of ancient infections stitched permanently into your chromosomes.",
+      "keyTerms": [
+        { "term": "Non-coding DNA", "definition": "DNA that doesn't directly produce a protein but often has regulatory roles" },
+        { "term": "Enhancer", "definition": "A short sequence that boosts the expression of a distant gene" },
+        { "term": "Transposon", "definition": "A 'jumping gene' that can copy itself across the genome; many come from ancient viruses" }
+      ],
+      "visual": {
+        "sfSymbol": "slider.horizontal.3",
+        "imagePrompt": "A sci-fi control panel with glowing sliders and dials, each labeled as a gene, with a DNA strand threading through the background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Regulation is where the action is",
+      "body": "Every cell in your body has the same DNA — but a liver cell and a neuron look and act nothing alike. The difference isn't which genes they have; it's which genes are turned on, when, and how loudly. Most of that choreography is directed by non-coding DNA. Roughly 80% of the genome shows signs of being biochemically active, according to the ENCODE project.",
+      "visual": {
+        "sfSymbol": "music.note.list",
+        "imagePrompt": "A conductor's baton raised over an orchestra pit, where each musician is a glowing cell, sheet music spelled out in DNA letters"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When the junk goes wrong",
+      "body": "Mutations in non-coding regions are linked to schizophrenia, autoimmune disease, heart conditions, and dozens of cancers. In 2013, researchers traced a stubborn type of melanoma to a single mutation sitting in the promoter of a gene — a spot that would have been dismissed as junk in 1995. The mutation didn't change any protein. It just turned the volume up.",
+      "funFact": "About 8% of your genome is old viral DNA. Some of it has been repurposed — one viral gene is now essential for building the placenta that kept you alive before birth.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A single red-highlighted letter in a long blue strand of DNA code, magnifying glass zooming in, clinical and precise"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A vocabulary problem",
+      "body": "Calling something 'junk' tells you more about the namer than the thing named. The genome isn't mostly garbage with a little software — it's mostly software, with a little hardware. Biologists now mostly avoid the term 'junk DNA' altogether. It turns out naming something useless is a great way to stop looking at it.",
+      "visual": {
+        "sfSymbol": "text.magnifyingglass",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what percentage of human DNA directly codes for proteins?",
+      "options": ["About 2%", "About 25%", "About 50%", "About 98%"],
+      "correctIndex": 0,
+      "explanation": "Protein-coding sequences make up only about 1-2% of the genome. The rest is mostly regulatory and structural DNA."
+    },
+    {
+      "index": 1,
+      "question": "What does an enhancer do?",
+      "options": [
+        "Codes for a protein",
+        "Destroys viral DNA",
+        "Boosts the expression of a gene, sometimes far away on the chromosome",
+        "Copies itself to new locations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Enhancers are short regulatory sequences that turn up the volume on distant genes."
+    },
+    {
+      "index": 2,
+      "question": "Why do different cell types look so different despite identical DNA?",
+      "options": [
+        "They have different genes",
+        "They express different subsets of the same genes, largely via non-coding DNA",
+        "They gain new DNA as they develop",
+        "Mutations accumulate uniquely in each cell type"
+      ],
+      "correctIndex": 1,
+      "explanation": "The genome is the same; the regulatory program reading it is what differs. That program is mostly written in non-coding DNA."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An integrated encyclopedia of DNA elements in the human genome",
+      "publisher": "Nature (ENCODE Project Consortium)",
+      "year": 2012
+    },
+    {
+      "title": "Highly Recurrent TERT Promoter Mutations in Human Melanoma",
+      "publisher": "Science",
+      "year": 2013
+    }
+  ],
+
+  "related": ["epigenetics-basics", "human-genome-project", "endogenous-retroviruses"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "arranged-vs-love-marriages",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Arranged Marriages vs. Love Marriages: The Data",
+    "teaser": "Which kind of marriage lasts longer — the one built on passion, or the one that starts with a handshake between families?",
+    "category": "Relationships",
+    "subcategories": ["Culture", "Psychology"],
+    "tags": ["marriage", "culture", "sociology", "divorce", "love"],
+    "emoji": "💍",
+    "accentColor": "#A93226",
+    "coverSymbol": {
+      "sfSymbol": "heart.text.square.fill",
+      "fallbackEmoji": "🤝"
+    },
+    "coverImagePrompt": "Two ornate wedding rings resting on an old world map, one positioned over India, one over Europe, warm candlelight, cinematic, painterly."
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An uncomfortable statistic",
+      "body": "For most of human history, marriage wasn't about love. It was about alliances, property, and grandchildren. 'Love marriage' — choosing your partner based on romantic feeling — only became the global default in the last century or two. Which raises an awkward question for anyone raised on rom-coms: do arranged marriages actually do worse? The data is more complicated than either side wants to admit.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A vintage globe with glowing pins marking different marriage traditions across continents"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two different starting lines",
+      "body": "Researchers frame them as different emotional curves. Love marriages typically start with high passion that gradually cools — what psychologists call the 'hedonic adaptation' of romance. Arranged marriages, by design, begin with lower passion but are scaffolded by family, shared goals, and long time horizons, and tend to rise over time. The two curves often cross somewhere around year five.",
+      "keyTerms": [
+        { "term": "Arranged marriage", "definition": "A marriage where families play a significant role in partner selection, usually with both parties' consent" },
+        { "term": "Hedonic adaptation", "definition": "The tendency to return to a baseline level of happiness after positive events, including romance" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "Two curves on a minimalist graph — one starting high and sloping down, one starting low and sloping up, crossing in the middle"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "What studies actually show",
+      "body": "A widely cited 1982 Jaipur study by Gupta and Singh found that couples in arranged marriages reported lower love in year one but higher love after ten years, while love marriages showed the reverse. A larger 2012 review by Regan and colleagues compared arranged and love marriages in the US Indian diaspora and found — surprisingly — no significant difference in marital satisfaction. The simple 'arranged beats love' narrative didn't hold up under a more diverse sample.",
+      "funFact": "Globally, an estimated 55% of marriages are still arranged to some degree, from India to parts of Africa, the Middle East, and Central Asia.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "An open journal page with hand-drawn line charts and scribbled notes in blue ink"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why the comparison is tricky",
+      "body": "Divorce rates alone don't settle the debate. In many countries with high arranged-marriage rates, divorce is harder, more stigmatized, or financially ruinous — meaning unhappy couples stay together rather than separate. 'Stable' is not the same as 'satisfied'. Any honest comparison has to account for social pressure, women's economic independence, and the right to leave.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble",
+        "imagePrompt": "A balance scale with one side holding a heart, the other holding a stack of legal papers"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "What both kinds share",
+      "body": "What shows up across studies isn't that one system beats the other — it's that the *ingredients* of lasting marriage are strikingly universal: shared values, commitment as a skill rather than a feeling, respectful conflict, and the freedom to leave if things turn abusive. The delivery mechanism matters less than whether those ingredients are actually there.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What emotional pattern did Gupta and Singh's 1982 study find in arranged marriages?",
+      "options": [
+        "Love stayed constant throughout",
+        "Love declined over time",
+        "Love started lower but grew over years",
+        "Love peaked at year one then collapsed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Arranged couples started with less love but reported more after a decade — the opposite of love marriages in that study."
+    },
+    {
+      "index": 1,
+      "question": "Why are divorce rates alone a poor comparison tool?",
+      "options": [
+        "Divorce is underreported everywhere equally",
+        "Social stigma and economics vary widely",
+        "Arranged marriages are never legally recognized",
+        "Love marriages aren't tracked by governments"
+      ],
+      "correctIndex": 1,
+      "explanation": "In many societies unhappy couples stay together due to stigma or financial dependency — inflating stability numbers."
+    },
+    {
+      "index": 2,
+      "question": "Roughly what share of global marriages are still arranged to some degree?",
+      "options": ["Under 10%", "About 25%", "About 55%", "Over 90%"],
+      "correctIndex": 2,
+      "explanation": "Estimates commonly place arranged marriages at around 55% of global unions, mostly in South Asia, the Middle East, and Africa."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "An exploratory study of love and liking and type of marriages",
+      "publisher": "Indian Journal of Applied Psychology",
+      "year": 1982
+    },
+    {
+      "title": "Relationship outcomes in Indian-American love-based and arranged marriages",
+      "publisher": "Psychological Reports",
+      "year": 2012
+    }
+  ],
+
+  "related": ["gottman-four-horsemen", "mere-exposure-effect", "attachment-theory"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "penicillin-discovery",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Accidental Discovery of Penicillin",
+    "teaser": "A messy lab, a forgotten petri dish, and a draft from an open window — the mistake that saved hundreds of millions of lives.",
+    "category": "Microbiology",
+    "subcategories": ["History of Science", "Antibiotics"],
+    "tags": ["penicillin", "fleming", "antibiotics", "medicine", "serendipity"],
+    "emoji": "🧫",
+    "accentColor": "#D4A24E",
+    "coverSymbol": {
+      "sfSymbol": "allergens",
+      "fallbackEmoji": "🧫"
+    },
+    "coverImagePrompt": "A glass petri dish on a cluttered 1928 laboratory bench, fuzzy blue-green mold ringed by a clear halo against yellow bacterial lawn, shaft of afternoon window light, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A messy desk changes history",
+      "body": "In September 1928, a Scottish bacteriologist named Alexander Fleming came back from a two-week holiday to find his London lab bench in disarray — stacks of petri dishes left out, some already growing mold. Most scientists would have tossed them. Fleming paused over one, and noticed something strange.",
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A 1928 London laboratory with stacked glass petri dishes, a scientist in a white coat peering down, warm tungsten light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The halo of no bacteria",
+      "body": "On one dish, a blob of blue-green mold had contaminated the Staphylococcus colony he was growing. But all around the mold, in a clean ring, the bacteria had dissolved away. Something seeping out of the fungus was killing them. Fleming identified the mold as Penicillium notatum and named its mysterious juice 'penicillin.'",
+      "keyTerms": [
+        { "term": "Penicillium", "definition": "A genus of fungi that produces the antibiotic compound penicillin" },
+        { "term": "Antibiotic", "definition": "A substance that kills or stops the growth of bacteria" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.circle",
+        "imagePrompt": "A close-up petri dish with a fuzzy mold colony surrounded by a perfect clear halo, bacterial lawn beyond, macro photography"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it worked",
+      "body": "Penicillin attacks a molecule called peptidoglycan — the mesh that gives bacterial cell walls their strength. Without it, the cell swells with water and bursts. Because human cells don't have walls at all, the drug sails past us harmlessly. For the first time in history, you could kill a bacterial infection inside a patient without killing the patient.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": "A cutaway diagram of a bacterium bursting as penicillin molecules attack its cell wall, annotated illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From curiosity to mass cure",
+      "body": "Fleming couldn't purify enough penicillin to be useful, and for a decade it sat as a footnote. Then in 1940, Oxford researchers Howard Florey and Ernst Chain figured out how to isolate it at scale. The first human patient, a police officer dying of a scratch infection in 1941, improved dramatically — until the tiny supply ran out and he relapsed. By D-Day in 1944, Allied factories were producing enough to treat 100,000 soldiers.",
+      "funFact": "Fleming, Florey, and Chain shared the 1945 Nobel Prize — and Fleming warned in his acceptance speech that misuse would breed resistance.",
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "Wartime production line with rows of glass bioreactors producing golden penicillin liquid, 1940s industrial photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Serendipity prepared",
+      "body": "Fleming liked to joke that he 'did not invent penicillin — nature did.' But thousands of people had seen moldy plates before. It took his trained eye to recognize what the halo meant. Great discoveries often look like luck, then feel inevitable in hindsight.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What species of mold produced the original penicillin?",
+      "options": ["Aspergillus niger", "Penicillium notatum", "Rhizopus stolonifer", "Candida albicans"],
+      "correctIndex": 1,
+      "explanation": "Fleming identified the contaminant as Penicillium notatum, which he then grew in broth to extract the active compound."
+    },
+    {
+      "index": 1,
+      "question": "How does penicillin kill bacteria without harming us?",
+      "options": [
+        "It targets bacterial DNA, which differs from ours",
+        "It disrupts the peptidoglycan cell wall, which human cells don't have",
+        "It boils bacteria from within",
+        "It dissolves bacterial membranes using acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Penicillin blocks construction of peptidoglycan. Human cells lack cell walls entirely, so the drug has nothing to attack in us."
+    },
+    {
+      "index": 2,
+      "question": "Who turned Fleming's curiosity into a mass-producible drug?",
+      "options": [
+        "Marie Curie and Louis Pasteur",
+        "Jonas Salk and Albert Sabin",
+        "Howard Florey and Ernst Chain",
+        "James Watson and Francis Crick"
+      ],
+      "correctIndex": 2,
+      "explanation": "Florey and Chain's Oxford team solved the purification problem in 1940, and shared the 1945 Nobel Prize with Fleming."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "On the Antibacterial Action of Cultures of a Penicillium",
+      "publisher": "British Journal of Experimental Pathology",
+      "year": 1929
+    },
+    {
+      "title": "The Mold in Dr. Florey's Coat: The Story of the Penicillin Miracle",
+      "publisher": "Henry Holt and Co.",
+      "year": 2004
+    }
+  ],
+
+  "related": ["bacteriophages", "human-microbiome", "pasteur-spontaneous-generation"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "why-onions-make-you-cry",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Onions Make You Cry",
+    "teaser": "That onion isn't just releasing a smell — it's firing a tiny chemical weapon at your face, on purpose.",
+    "category": "Cooking",
+    "subcategories": ["Food Science", "Vegetables"],
+    "tags": ["onion", "chemistry", "cooking", "tears", "plants"],
+    "emoji": "🧅",
+    "accentColor": "#B08968",
+    "coverSymbol": {
+      "sfSymbol": "drop.triangle.fill",
+      "fallbackEmoji": "😢"
+    },
+    "coverImagePrompt": "Close-up of a sliced onion on a wooden cutting board, single tear rolling down a blurred cheek in the background, warm kitchen light, macro cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A vegetable that attacks you",
+      "body": "You pick up the knife. You make the first cut. Within seconds, your eyes sting, your nose runs, and tears blur the cutting board. You're not sad — you're under chemical attack. Every time you slice an onion, it releases a compound evolution specifically designed to punish anyone eating it. Including you.",
+      "visual": {
+        "sfSymbol": "knife.fill",
+        "imagePrompt": "A chef's knife cutting through a white onion, visible wispy vapor rising from the cut, dramatic backlight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A weapon that doesn't exist yet",
+      "body": "Inside an intact onion, the tear-causing chemical doesn't exist. The onion keeps its ingredients in two separate rooms: harmless sulfur compounds in the cells, and an enzyme called alliinase locked away elsewhere. Slice the onion and you break the walls. The ingredients meet, the enzyme goes to work, and a new molecule is born: syn-propanethial-S-oxide. The lachrymatory factor.",
+      "keyTerms": [
+        { "term": "Alliinase", "definition": "An enzyme that triggers onion's chemical reaction once cells are damaged" },
+        { "term": "Lachrymatory factor", "definition": "The specific gas that causes eyes to water" }
+      ],
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "Scientific diagram showing two compartments inside an onion cell, walls breaking open and molecules combining"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why your eyes, not your nose",
+      "body": "The gas drifts up. It hits the moisture on your eyeballs and reacts with the water to form a weak sulfuric acid. Your eyes — not dumb — sense the acid and fire nerves that trigger your tear glands to flush the area. That's why you cry: your body is washing the acid out. It happens faster in eyes than noses because eyes are wetter and more exposed.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Close-up of a human eye with tiny animated molecules drifting toward it, tear welling at the corner"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The 'no-tears' onion proof",
+      "body": "In 2008, a team at Japan's House Foods discovered the specific enzyme responsible — lachrymatory-factor synthase — and showed it wasn't necessary for flavor. By silencing that one enzyme, researchers at New Zealand's Plant & Food Research created a real 'no-tears' onion that still tastes like onion. It's commercially available in some countries under the brand 'Sunions.' Proof that the crying is a specific, removable feature.",
+      "funFact": "Onions evolved this defense because they grow underground — it's a deterrent against chewing grubs and burrowing animals that damage the bulb.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A row of bright purple and white onions in a research greenhouse, labels visible, scientific atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Tricks that actually work",
+      "body": "Want to cry less? Chill the onion first — cold slows the enzyme. Cut near a running fan or open flame — the gas disperses or burns off. Sharper knives damage fewer cells, which releases less enzyme. Goggles work, but you'll look ridiculous. Or, honestly: lean in. A few tears is small tribute for something that's seasoned human dinners for 7,000 years.",
+      "visual": {
+        "sfSymbol": "fan.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why doesn't an uncut onion make you cry?",
+      "options": [
+        "The tear-causing chemical is sealed inside",
+        "The tear-causing chemical doesn't exist until cells are damaged",
+        "The skin absorbs the gas",
+        "Onions only cry when they're sad"
+      ],
+      "correctIndex": 1,
+      "explanation": "The lachrymatory factor only forms after cutting, when enzymes mix with sulfur compounds."
+    },
+    {
+      "index": 1,
+      "question": "Why specifically do your eyes react — not just your nose?",
+      "options": [
+        "The gas is magnetically attracted to eyes",
+        "Your eyes' moisture turns the gas into a mild acid",
+        "Eyes have more receptors than noses",
+        "The gas only rises upward"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gas combines with tear fluid to form a weak sulfuric acid, which triggers flushing."
+    },
+    {
+      "index": 2,
+      "question": "Which trick actually reduces tears when cutting onions?",
+      "options": [
+        "Holding your breath",
+        "Chilling the onion first",
+        "Thinking of something happy",
+        "Cutting faster with a dull knife"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cold slows the enzyme reaction, so fewer tear-producing molecules form."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Plant biochemistry: an onion enzyme that makes the eyes water",
+      "publisher": "Nature",
+      "year": 2002
+    },
+    {
+      "title": "Tearless and Other Onion Breakthroughs",
+      "publisher": "New Zealand Institute for Plant & Food Research",
+      "year": 2008
+    }
+  ],
+
+  "related": ["why-salt-enhances-flavor", "umami-fifth-taste", "maillard-reaction"]
+}

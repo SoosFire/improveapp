@@ -1,0 +1,141 @@
+{
+  "id": "mirror-neurons",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Mirror Neurons: The Empathy Cells",
+    "teaser": "Your brain fires the same neurons when you watch someone eat an apple as when you eat one yourself. Welcome to the strangest neurons we've found.",
+    "category": "Neuroscience",
+    "subcategories": ["Cognitive Neuroscience", "Social Brain"],
+    "tags": ["brain", "empathy", "neurons", "learning", "psychology"],
+    "emoji": "🪞",
+    "accentColor": "#7A5FBF",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "Two faces in profile mirroring each other across a reflective surface, neural pathways glowing softly between them in deep violet and cyan, cinematic macro portrait"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A monkey, a peanut, and an accident",
+      "body": "In the early 1990s, a team in Parma was recording from a macaque's brain as the monkey reached for food. A researcher walked in, picked up a peanut — and the monkey's motor neurons fired as if it were the one reaching. The monkey hadn't moved a muscle. That accidental recording broke open a new corner of neuroscience.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A macaque in a research lab watching intently as a hand reaches for a peanut, subtle brain activity overlay"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What exactly is a mirror neuron?",
+      "body": "A mirror neuron is a cell that fires both when you perform an action and when you watch someone else perform the same action. It blurs the line between doing and observing. The first ones found were in area F5 of the macaque premotor cortex — a region that plans hand movements.",
+      "keyTerms": [
+        { "term": "Mirror neuron", "definition": "A neuron active both during an action and during the observation of that action" },
+        { "term": "Premotor cortex", "definition": "A brain region that plans and selects movements before they are executed" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "Stylized diagram of two brains side by side with matching regions illuminated in identical colors"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why they matter for being human",
+      "body": "Mirror neurons may be how we understand other people from the inside. Rather than reasoning out what someone feels, your brain may be quietly simulating it — running a lightweight copy of their action or expression. This is part of why yawns are contagious, why you flinch when a stranger stubs their toe, and why babies start imitating facial expressions within hours of being born. If the theory holds, empathy isn't just feeling for someone. It's literally your neurons mirroring theirs.",
+      "visual": {
+        "sfSymbol": "figure.2.arms.open",
+        "imagePrompt": "Two people across a table, one wincing as the other describes pain, warm documentary lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The human evidence is messier",
+      "body": "In humans, we can't easily record single neurons, so most evidence comes from fMRI scans showing overlapping brain activity during action and observation. One rare 2010 study recorded from 21 patients with electrodes already implanted for epilepsy — and found individual neurons in human hippocampus and supplementary motor area that behaved like mirror neurons. But the exact role they play in empathy is still fiercely debated.",
+      "funFact": "Some researchers argue mirror neurons are a consequence of learning, not a hardwired system — the cells that fire together when you watch and do simply get wired together over time.",
+      "visual": {
+        "sfSymbol": "brain",
+        "imagePrompt": "Close-up of an fMRI scan with bright activation patches in frontal and parietal cortex, clinical tone"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A mirror, not a window",
+      "body": "Mirror neurons don't give you telepathy. They give you something subtler: a body that rehearses other bodies automatically, without asking permission. Whether or not they're the whole story of empathy, they're a reminder that your brain is a profoundly social organ — wired to blur the edges between self and other.",
+      "visual": {
+        "sfSymbol": "person.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What defines a mirror neuron?",
+      "options": [
+        "It only fires during sleep",
+        "It fires during action and during observation of that action",
+        "It mirrors signals between hemispheres",
+        "It reflects light in the retina"
+      ],
+      "correctIndex": 1,
+      "explanation": "The defining feature is firing both when performing an action and when watching someone else perform it."
+    },
+    {
+      "index": 1,
+      "question": "Where were mirror neurons first discovered?",
+      "options": [
+        "In the human visual cortex",
+        "In the macaque premotor area F5",
+        "In the rat hippocampus",
+        "In octopus arm ganglia"
+      ],
+      "correctIndex": 1,
+      "explanation": "They were first recorded in the premotor cortex of macaque monkeys in Parma, Italy."
+    },
+    {
+      "index": 2,
+      "question": "Why is human mirror neuron research harder?",
+      "options": [
+        "Human neurons don't mirror",
+        "Single-neuron recording in humans is rare and mostly limited to clinical cases",
+        "fMRI cannot show overlapping activity",
+        "Humans lack premotor cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "We typically can only record single human neurons in patients with electrodes implanted for medical reasons."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Action recognition in the premotor cortex",
+      "publisher": "Brain",
+      "year": 1996
+    },
+    {
+      "title": "Single-neuron responses in humans during execution and observation of actions",
+      "publisher": "Current Biology",
+      "year": 2010
+    }
+  ],
+
+  "related": ["empathy-biology", "theory-of-mind", "infant-imitation"]
+}

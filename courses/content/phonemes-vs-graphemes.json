@@ -1,0 +1,144 @@
+{
+  "id": "phonemes-vs-graphemes",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Phonemes: The Sound Atoms of Language",
+    "teaser": "The difference between 'ship' and 'sip' is a single tiny sound. That sound is a phoneme — and your brain is a phoneme machine.",
+    "category": "Linguistics",
+    "subcategories": ["Phonetics", "Phonology"],
+    "tags": ["phonemes", "graphemes", "sounds", "writing-systems"],
+    "emoji": "🗣️",
+    "accentColor": "#7A4E8C",
+    "coverSymbol": {
+      "sfSymbol": "waveform",
+      "fallbackEmoji": "🔊"
+    },
+    "coverImagePrompt": "Glowing translucent sound waves splitting into tiny crystalline particles around a parted pair of lips, cinematic close-up, deep purples and electric blues"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "One sound, whole new word",
+      "body": "Say 'pat.' Now say 'bat.' The only thing that changed was your vocal cords vibrating a fraction of a second earlier. That microscopic timing difference — unhearable to anyone not paying attention — is enough to flip the word's meaning entirely. Languages are built out of these tiny sonic switches, and linguists call them phonemes.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "A spectrogram showing the acoustic difference between the words 'pat' and 'bat,' dark background, neon traces"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Phonemes versus graphemes",
+      "body": "A phoneme is a unit of sound that can change a word's meaning. A grapheme is a unit of writing — a letter or cluster of letters that stands for a sound. The two don't line up neatly. English has about 44 phonemes but only 26 letters, which is why 'ough' can represent five different sounds (cough, through, bough, though, tough).",
+      "keyTerms": [
+        { "term": "Phoneme", "definition": "The smallest unit of sound that can distinguish meaning in a language" },
+        { "term": "Grapheme", "definition": "The smallest unit of a writing system — a letter or letter combo" }
+      ],
+      "visual": {
+        "sfSymbol": "textformat.abc",
+        "imagePrompt": "The letters 'ough' glowing gold in the center of a constellation of the five different words containing them"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How linguists test for phonemes",
+      "body": "To find a phoneme, you look for a 'minimal pair' — two words that differ by exactly one sound and have different meanings. 'Pat' and 'bat' prove /p/ and /b/ are separate phonemes in English. In some languages, sounds that matter in English don't matter at all. Arabic speakers distinguish two 'k'-like sounds English ears fuse together. Japanese lumps English /r/ and /l/ into a single phoneme — which is why they can be brutally hard for adult learners to tell apart.",
+      "keyTerms": [
+        { "term": "Minimal pair", "definition": "Two words that differ by only one sound and have different meanings" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "A clean infographic showing 'pat/bat,' 'rice/lice,' and 'pin/bin' as minimal pairs with arrows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Your brain was built to filter",
+      "body": "Babies under six months can tell apart almost every phoneme in every human language. By their first birthday, they've quietly lost the ability to hear contrasts their native language doesn't use. Japanese infants can distinguish /r/ from /l/ at six months. By ten months, they often can't. The brain is literally rewiring itself to ignore sonic distinctions that don't pay off — efficient, but hard to undo later.",
+      "funFact": "Some Khoisan languages of southern Africa have over 100 phonemes, including clicks — among the largest phoneme inventories on Earth.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A translucent infant's head in profile with delicate neural connections lighting up in response to speech waveforms"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The alphabet lied to you",
+      "body": "Your written language gives you the comforting illusion that sounds are neat, countable letters. They aren't. Spoken language is a flowing analog signal your brain slices into phonemes using rules it built before you could walk. That's why reading is hard to teach — you're asking a child to map graphemes onto phonemes they already know but have never consciously noticed.",
+      "visual": {
+        "sfSymbol": "character.book.closed.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a phoneme?",
+      "options": [
+        "A written letter",
+        "A smallest unit of sound that changes meaning",
+        "A syllable",
+        "A whole word"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phonemes are distinctive sound units — swap one for another and the word's meaning can change."
+    },
+    {
+      "index": 1,
+      "question": "Why are 'pat' and 'bat' called a minimal pair?",
+      "options": [
+        "They rhyme",
+        "They have the same number of letters",
+        "They differ by exactly one sound and have different meanings",
+        "They come from the same root"
+      ],
+      "correctIndex": 2,
+      "explanation": "Minimal pairs isolate one sound contrast, proving the two sounds are distinct phonemes."
+    },
+    {
+      "index": 2,
+      "question": "Why do adult Japanese speakers often struggle with English /r/ and /l/?",
+      "options": [
+        "Japanese doesn't have consonants",
+        "Japanese treats them as the same phoneme, so the brain stopped distinguishing them",
+        "They're physically impossible to pronounce",
+        "They're regional dialect sounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Infants prune phoneme contrasts their native language doesn't use, making the distinction hard to recover later."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Handbook of Phonetic Sciences",
+      "publisher": "Wiley-Blackwell",
+      "year": 2010
+    },
+    {
+      "title": "Linguistic experience alters phonetic perception in infants",
+      "publisher": "Science (Kuhl et al.)",
+      "year": 1992
+    }
+  ],
+
+  "related": ["ipa-alphabet", "language-acquisition", "minimal-pairs"]
+}

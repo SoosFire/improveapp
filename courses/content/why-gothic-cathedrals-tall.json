@@ -1,0 +1,141 @@
+{
+  "id": "why-gothic-cathedrals-tall",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Gothic Cathedrals Reach for the Sky",
+    "teaser": "Medieval builders were racing upward — until Beauvais Cathedral collapsed and physics finally said 'enough.'",
+    "category": "Architecture",
+    "subcategories": ["Medieval Architecture", "Structural Engineering"],
+    "tags": ["gothic", "cathedrals", "medieval", "engineering", "flying buttress"],
+    "emoji": "⛪",
+    "accentColor": "#5D4A78",
+    "coverSymbol": {
+      "sfSymbol": "building.columns.fill",
+      "fallbackEmoji": "⛪"
+    },
+    "coverImagePrompt": "A soaring Gothic cathedral nave seen from below, ribbed vaults disappearing into luminous stained-glass light, dust particles floating in colored beams, cinematic and awe-inspiring"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The skyscraper race of 1150",
+      "body": "Eight hundred years before steel, medieval masons in France were competing to build the tallest buildings in human history. Chartres hit 121 feet. Reims topped it at 125. Amiens reached 139. Beauvais aimed for 157 — and in 1284, part of it came crashing down. Why were they so obsessed with height?",
+      "visual": {
+        "sfSymbol": "arrow.up",
+        "imagePrompt": "Comparison silhouettes of Chartres, Reims, Amiens, and Beauvais cathedrals rising against a golden sky"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Reaching for God",
+      "body": "Gothic height was theology in stone. Abbot Suger, who pioneered the style at Saint-Denis outside Paris in 1144, believed that light and verticality lifted the soul toward the divine. 'The dull mind rises to truth through material things,' he wrote. Taller walls meant bigger windows. Bigger windows meant more light. More light meant more God.",
+      "keyTerms": [
+        { "term": "Abbot Suger", "definition": "12th-century French abbot credited with starting Gothic architecture" },
+        { "term": "Lux nova", "definition": "The 'new light' that Gothic windows flooded into cathedrals" }
+      ],
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "Stained glass rose window glowing from within, cascading colored light onto stone floor"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three inventions that made it possible",
+      "body": "Three pieces of medieval engineering let walls fly higher than ever before. The pointed arch directed weight downward instead of outward. The ribbed vault let thin stone webs span huge spaces. And the flying buttress — stone arms reaching from the building like spider legs — caught the outward thrust of the roof and shot it to the ground. Together, they turned walls from load-bearers into glass curtains.",
+      "visual": {
+        "sfSymbol": "triangle.fill",
+        "imagePrompt": "Architectural cross-section of a Gothic cathedral, arrows showing how flying buttresses redirect force"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Beauvais: when ambition broke",
+      "body": "Bishop Miles of Nanteuil wanted the tallest cathedral in Christendom. Beauvais Cathedral's choir vault was pushed to 157 feet in 1272 — roughly a 15-story building. Twelve years later, on November 29, 1284, the vault collapsed. They rebuilt. Then in 1573, the central spire — briefly the tallest structure on Earth — fell too. Beauvais was never finished. It remains a cautionary half-cathedral.",
+      "funFact": "Beauvais is so unstable it has been held up with temporary wooden braces for most of the last 500 years.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "Interior of Beauvais Cathedral showing massive wooden braces propping up the stone vault, dramatic light"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The original skyscrapers",
+      "body": "Gothic cathedrals were the tallest buildings in Europe for over 500 years — only surpassed by the Washington Monument in 1884. They weren't just churches. They were medieval moon shots: public, collective, technology-pushing gambles. Every time you crane your neck inside one, you're standing under physics running at its absolute edge.",
+      "visual": {
+        "sfSymbol": "building.columns",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who is credited with starting the Gothic style?",
+      "options": [
+        "Michelangelo",
+        "Abbot Suger of Saint-Denis",
+        "Leon Battista Alberti",
+        "Pope Urban II"
+      ],
+      "correctIndex": 1,
+      "explanation": "Abbot Suger rebuilt the abbey of Saint-Denis starting in 1144 and invented many of the features that define Gothic architecture."
+    },
+    {
+      "index": 1,
+      "question": "Which feature redirects the outward thrust of a Gothic roof to the ground?",
+      "options": [
+        "The pointed arch",
+        "The ribbed vault",
+        "The flying buttress",
+        "The clerestory"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flying buttresses reach from the outer walls and carry thrust away from the building — freeing the walls for windows."
+    },
+    {
+      "index": 2,
+      "question": "What happened at Beauvais Cathedral in 1284?",
+      "options": [
+        "It was struck by lightning",
+        "Its 157-foot vault collapsed",
+        "It was destroyed in a war",
+        "Its windows were shattered by an earthquake"
+      ],
+      "correctIndex": 1,
+      "explanation": "Beauvais was pushed beyond structural limits; part of its ambitious vault collapsed in 1284, ending the height race."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Gothic Enterprise: A Guide to Understanding the Medieval Cathedral",
+      "publisher": "Robert A. Scott, University of California Press",
+      "year": 2003
+    },
+    {
+      "title": "Gothic Cathedrals: A Guide to the History, Places, Art, and Symbolism",
+      "publisher": "Karen Ralls, Paraview Press",
+      "year": 2015
+    }
+  ],
+
+  "related": ["pyramid-construction-mystery", "bauhaus-movement", "stained-glass-making"]
+}

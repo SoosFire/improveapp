@@ -1,0 +1,145 @@
+{
+  "id": "ransomware-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Ransomware Holds Files Hostage",
+    "teaser": "One click. Minutes later, every file on the network is unreadable — and a countdown timer appears.",
+    "category": "Cybersecurity",
+    "subcategories": ["Malware", "Threats"],
+    "tags": ["ransomware", "malware", "encryption", "cybercrime", "incident-response"],
+    "emoji": "💀",
+    "accentColor": "#8B2E2E",
+    "coverSymbol": {
+      "sfSymbol": "lock.trianglebadge.exclamationmark.fill",
+      "fallbackEmoji": "🔒"
+    },
+    "coverImagePrompt": "A hospital hallway at night with every screen showing a red ransom note and a glowing countdown, flickering fluorescent lights, tense cinematic atmosphere"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A $4.4 million click",
+      "body": "In May 2021, a single compromised password let attackers into Colonial Pipeline, the artery carrying 45% of the East Coast's fuel. Within hours, their ransomware had encrypted the billing systems; within days, gas stations were running dry from Atlanta to New Jersey. Colonial paid the ransom — about $4.4 million in Bitcoin — to get its own files back.",
+      "visual": {
+        "sfSymbol": "fuelpump.fill",
+        "imagePrompt": "Empty gas station pumps wrapped in 'out of order' tape at sunset, news helicopters visible in the distance"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Encryption turned against you",
+      "body": "Ransomware is malicious software that uses the same kind of strong encryption banks rely on — but backwards. It scrambles your files with a key only the attacker holds, then demands payment for that key. The math is legitimate; the theft is real. Without the right key, decrypting a file with modern ransomware is computationally impossible within a human lifetime.",
+      "keyTerms": [
+        { "term": "Ransomware", "definition": "Malware that encrypts a victim's data and demands payment to restore access" },
+        { "term": "Symmetric key", "definition": "A single secret value used to both encrypt and decrypt data" }
+      ],
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": "A stylized padlock forming over a folder of documents, chains of binary wrapping around it"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The anatomy of an attack",
+      "body": "Most modern attacks follow a pattern. Attackers get in through a phishing email, a weak remote-desktop password, or an unpatched server. They spend days mapping the network and stealing data. Only then do they launch the encryption — usually after-hours — and immediately exfiltrate copies of sensitive files. The ransom note threatens double: pay to decrypt, and pay again to prevent a public leak.",
+      "keyTerms": [
+        { "term": "Double extortion", "definition": "Demanding payment both to decrypt files and to not publish stolen data" },
+        { "term": "RDP", "definition": "Remote Desktop Protocol — a frequent entry point for attackers when poorly secured" }
+      ],
+      "visual": {
+        "sfSymbol": "list.bullet.rectangle.fill",
+        "imagePrompt": "A numbered timeline showing phishing, lateral movement, exfiltration, and detonation, cyber-noir infographic style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A criminal economy at scale",
+      "body": "Ransomware isn't a lone-hacker hobby anymore. It's a franchise model: 'affiliates' rent ransomware-as-a-service from groups like LockBit or Conti, attack victims, and share the proceeds. Chainalysis tracked over $1.1 billion in ransom payments in 2023 alone — and the true cost, including downtime and recovery, runs an order of magnitude higher.",
+      "funFact": "The WannaCry worm of 2017 spread to over 200,000 computers in 150 countries within a day — until a 22-year-old researcher accidentally stopped it by registering a single domain name hidden in the code.",
+      "visual": {
+        "sfSymbol": "globe.americas.fill",
+        "imagePrompt": "A world map glowing with red infection points spreading outward, dark cybersecurity dashboard aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The only real defense is layers",
+      "body": "No single trick stops ransomware — it's patches plus 2FA plus offline backups plus employee training plus network segmentation. Of those, offline, tested backups are the single most important. You can survive an encrypted network if you can rebuild it; you can't negotiate with attackers who've already been paid once.",
+      "visual": {
+        "sfSymbol": "externaldrive.fill.badge.timemachine",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does ransomware do to a victim's files?",
+      "options": [
+        "Deletes them permanently",
+        "Encrypts them and demands payment for the key",
+        "Copies them to a public website automatically",
+        "Corrupts random bits to make them unreadable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ransomware encrypts files with strong cryptography and holds the decryption key for ransom."
+    },
+    {
+      "index": 1,
+      "question": "What is 'double extortion' in ransomware?",
+      "options": [
+        "Attacking two companies at once",
+        "Demanding two separate ransoms from the same victim",
+        "Demanding payment both to decrypt and to not leak stolen data",
+        "Encrypting files twice for extra security"
+      ],
+      "correctIndex": 2,
+      "explanation": "Modern attackers steal copies of data before encrypting, then threaten to publish it if the victim doesn't pay — often on top of a decryption fee."
+    },
+    {
+      "index": 2,
+      "question": "Which defense is most critical for surviving a ransomware attack?",
+      "options": [
+        "A strong antivirus program",
+        "Offline, tested backups",
+        "Paying the attackers quickly",
+        "Renaming sensitive files"
+      ],
+      "correctIndex": 1,
+      "explanation": "Backups that attackers can't reach or encrypt are the single best way to recover without paying."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Crypto Crime Report",
+      "publisher": "Chainalysis",
+      "year": 2024
+    },
+    {
+      "title": "Colonial Pipeline Cyber Incident",
+      "publisher": "U.S. Cybersecurity and Infrastructure Security Agency (CISA)",
+      "year": 2021
+    }
+  ],
+
+  "related": ["two-factor-authentication", "phishing-attacks", "backup-strategies"]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "time-near-black-hole",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Time Slows Near a Black Hole",
+    "teaser": "If you orbited a black hole for an hour, your friends back home might have aged seven years. Here's why.",
+    "category": "Physics",
+    "subcategories": ["Relativity", "Astrophysics"],
+    "tags": ["relativity", "black hole", "einstein", "time dilation", "gravity"],
+    "emoji": "🕳️",
+    "accentColor": "#1F2937",
+    "coverSymbol": {
+      "sfSymbol": "circle.dotted",
+      "fallbackEmoji": "🕳️"
+    },
+    "coverImagePrompt": "A massive black hole warping nearby starlight into a glowing Einstein ring, accretion disk blazing orange and violet, a tiny spacecraft silhouetted in the distance, cinematic cosmic scale"
+  },
+
+  "meta": {
+    "difficulty": "advanced",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Time isn't what you think it is",
+      "body": "We like to imagine time as a universal river — one second, everywhere, equal. It isn't. Gravity bends time. A clock at the bottom of a mountain ticks slightly slower than the one at the summit. Near a black hole, that effect goes wild: one minute for you might be years on Earth. This isn't science fiction. Your phone's GPS literally corrects for it.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "Two clocks floating in space, one near a massive swirling black hole, the other far away, their hands moving at different speeds"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Gravity is geometry",
+      "body": "Einstein's breakthrough in 1915: gravity isn't a force reaching out through space. It's the shape of spacetime itself. A massive object like a star or a black hole warps the geometry around it, the way a bowling ball sags a trampoline. Objects (and light, and even time itself) follow the curves.",
+      "keyTerms": [
+        { "term": "Spacetime", "definition": "The unified four-dimensional stage of space plus time that gravity curves" },
+        { "term": "General relativity", "definition": "Einstein's 1915 theory explaining gravity as curvature of spacetime" }
+      ],
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": "A grid of spacetime warped into a deep funnel by a black sphere at the center, smaller objects rolling around the bowl"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why deeper means slower",
+      "body": "Inside a gravitational well, spacetime isn't just curved in space — it's stretched in time. A clock near a strong gravitational source ticks slower, measured against a clock far away. Near a black hole's event horizon, that stretching goes toward infinity. Fall in, and from your ship's perspective you'd pass through normally; from a distant observer's view, you'd appear to freeze and redshift into invisibility.",
+      "keyTerms": [
+        { "term": "Gravitational time dilation", "definition": "The slowing of clocks in stronger gravitational fields" },
+        { "term": "Event horizon", "definition": "The boundary around a black hole beyond which nothing — not even light — can escape" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.down.circle.fill",
+        "imagePrompt": "A spaceship plunging toward a black hole's event horizon, its image stretching and reddening as time dilates"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The proof runs in your pocket",
+      "body": "This isn't theory for theory's sake. GPS satellites orbit ~20,000 km up, where gravity is weaker. Their atomic clocks tick faster than ground clocks by about 38 microseconds per day. Unaccounted for, GPS would drift by kilometers within hours. And in 2010, physicists measured time dilation between two atomic clocks just one foot apart in height. The universe really is this strict.",
+      "funFact": "In the 2014 film 'Interstellar', the planet near a supermassive black hole where one hour equals seven years on Earth is mathematically consistent with Einstein's equations — vetted by physicist Kip Thorne.",
+      "visual": {
+        "sfSymbol": "satellite",
+        "imagePrompt": "A GPS satellite in orbit above a glowing Earth, small atomic clock icon ticking faster than one on the ground, technical illustration"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "There is no 'universal now'",
+      "body": "The idea that time flows at a single, shared rate — that what's happening now on Earth is also 'now' on Mars — turns out to be an illusion our small, slow lives hide from us. Time is local. It depends on where you are and how fast you're moving. A black hole just shows it in the starkest possible form.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to general relativity, what causes gravity?",
+      "options": [
+        "Magnetism between masses",
+        "The curvature of spacetime by mass and energy",
+        "Invisible particles called gravitons",
+        "Electric attraction between atoms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Einstein reinterpreted gravity as the curvature of spacetime caused by the presence of mass and energy."
+    },
+    {
+      "index": 1,
+      "question": "What happens to a clock in a stronger gravitational field?",
+      "options": [
+        "It ticks faster",
+        "It stops completely",
+        "It ticks slower relative to a clock in weaker gravity",
+        "It shows no change at all"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gravitational time dilation: clocks deeper in a gravity well tick slower than those farther out."
+    },
+    {
+      "index": 2,
+      "question": "Why does GPS have to account for relativity?",
+      "options": [
+        "Because satellites orbit faster than sound",
+        "Because satellite clocks tick faster than ground clocks due to weaker gravity",
+        "Because of air friction",
+        "Because of solar flares"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without correcting for gravitational (and kinematic) time dilation, GPS positions would drift by kilometers within hours."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Science of Interstellar",
+      "publisher": "W.W. Norton",
+      "year": 2014
+    },
+    {
+      "title": "Optical Clocks and Relativity",
+      "publisher": "Science",
+      "year": 2010
+    }
+  ],
+
+  "related": ["general-relativity", "event-horizon", "time-dilation"]
+}

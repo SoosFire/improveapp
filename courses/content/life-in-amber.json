@@ -1,0 +1,141 @@
+{
+  "id": "life-in-amber",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Ancient Life Trapped in Amber",
+    "teaser": "A droplet of tree sap, hardened over 100 million years, can preserve a mosquito's last meal — or a dinosaur's feather.",
+    "category": "Paleontology",
+    "subcategories": ["Fossilization", "Biology"],
+    "tags": ["amber", "fossils", "resin", "preservation", "insects"],
+    "emoji": "🟡",
+    "accentColor": "#E6A23C",
+    "coverSymbol": {
+      "sfSymbol": "diamond.fill",
+      "fallbackEmoji": "🟡"
+    },
+    "coverImagePrompt": "A polished golden amber nugget on dark velvet, a perfectly preserved ancient mosquito suspended inside, light streaming through to reveal fine wing details, cinematic macro photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A time capsule the size of a marble",
+      "body": "Most fossils are flattened, crushed, or chemically rearranged. Amber is different. Inside a golden bead from a Cretaceous forest, you can find an ant mid-stride, a flower in bloom, or a gecko's foot — sealed so quickly they kept their color, their body hair, and sometimes even the microbes in their gut.",
+      "visual": {
+        "sfSymbol": "sparkle",
+        "imagePrompt": "A macro shot of an insect frozen in amber with legs mid-motion, backlit so fine body hairs glow, museum-quality photography"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Sap becomes stone",
+      "body": "Amber begins as resin — a sticky, aromatic fluid that certain conifers ooze to seal wounds. When insects or debris get trapped, the resin keeps flowing over them. Over millions of years, as buried resin loses its volatile oils and its molecules knit together, it hardens into true amber: tough, lightweight, and chemically inert.",
+      "keyTerms": [
+        { "term": "Resin", "definition": "A sticky, aromatic secretion produced by certain trees, the raw material of amber" },
+        { "term": "Inclusion", "definition": "Any organism, bubble, or debris trapped inside a piece of amber" }
+      ],
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "A cross-section illustration showing amber resin oozing down a tree trunk, trapping an ant, then gradually fossilizing over geological time"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it preserves so well",
+      "body": "The resin's chemistry does the work. It drains away moisture, locks out oxygen, and has antimicrobial compounds that kill bacteria that would otherwise decompose tissue. The specimen is effectively embalmed and sealed in a transparent tomb. That's why amber inclusions can preserve feather barbs, scale patterns, and even soft tissue at microscopic detail.",
+      "visual": {
+        "sfSymbol": "shield.fill",
+        "imagePrompt": "A cutaway microscopic view of an insect within amber showing resin molecules sealing cellular structures, scientific illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Feathers, frogs, and a dinosaur tail",
+      "body": "In 2016, paleontologist Lida Xing bought a piece of Burmese amber at a market in Myanmar and found, stunningly, a 99-million-year-old dinosaur tail trapped inside — complete with feathers. Other amber finds include ancient frogs, a baby snake, a hummingbird-sized bird, spider-crab relatives, and pollen stuck to bee legs. Amber turns paleontology into something close to three-dimensional photography.",
+      "funFact": "Despite Jurassic Park, no viable dinosaur DNA has ever been extracted from amber. DNA simply doesn't survive that long — even in the best conditions, it breaks down in under a million years.",
+      "visual": {
+        "sfSymbol": "bird.fill",
+        "imagePrompt": "A piece of Burmese amber held up to the light revealing a tiny feathered dinosaur tail suspended inside, museum display photography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Frozen in tree sap",
+      "body": "Amber doesn't tell us about giants — it tells us about the small, delicate, usually-invisible lives around them: the insects, flowers, and young animals that normal fossils erase. Each golden drop is a close-up portrait of a moment 100 million years ago, preserved by pure luck of getting stuck.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is amber originally made from?",
+      "options": [
+        "Volcanic glass",
+        "Tree resin",
+        "Compressed leaves",
+        "Coral skeletons"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amber starts as resin, the sticky sap that certain conifers exude, which hardens and fossilizes over millions of years."
+    },
+    {
+      "index": 1,
+      "question": "Why does amber preserve soft tissue so well?",
+      "options": [
+        "Its high heat kills bacteria",
+        "It seals out oxygen and moisture, and has antimicrobial compounds",
+        "It contains radioactive elements that sterilize specimens",
+        "It freezes whatever it catches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Resin's chemistry drains moisture, blocks oxygen, and contains natural antibacterials — an excellent embalming combination."
+    },
+    {
+      "index": 2,
+      "question": "Can we extract viable dinosaur DNA from amber-trapped insects, as in Jurassic Park?",
+      "options": [
+        "Yes, it's routine now",
+        "Yes, but only from certain species",
+        "No, DNA decays too quickly to survive that long",
+        "No, because amber destroys DNA"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even in ideal conditions, DNA molecules break down in under a million years — far short of the dinosaur era."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Feathered Dinosaur Tail with Primitive Plumage Trapped in Mid-Cretaceous Amber",
+      "publisher": "Current Biology",
+      "year": 2016
+    },
+    {
+      "title": "The half-life of DNA in bone: measuring decay kinetics in 158 dated fossils",
+      "publisher": "Proceedings of the Royal Society B",
+      "year": 2012
+    }
+  ],
+
+  "related": ["how-fossils-form", "feathered-dinosaurs", "permian-extinction"]
+}

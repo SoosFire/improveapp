@@ -1,0 +1,141 @@
+{
+  "id": "foreign-accents-hard-to-lose",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Foreign Accents Are So Hard to Lose",
+    "teaser": "Why can a five-year-old sound native in a new country, but a twenty-five-year-old almost never can?",
+    "category": "Linguistics",
+    "subcategories": ["Phonetics", "Second Language Acquisition"],
+    "tags": ["accent", "critical-period", "phonology", "pronunciation"],
+    "emoji": "🌐",
+    "accentColor": "#3B6E8F",
+    "coverSymbol": {
+      "sfSymbol": "person.wave.2.fill",
+      "fallbackEmoji": "🗨️"
+    },
+    "coverImagePrompt": "A close-up profile of a woman speaking into a microphone, soundwaves curling out in different colors representing different language patterns, warm backlit studio light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The fingerprint in your voice",
+      "body": "Henry Kissinger moved to the U.S. at fifteen, served as Secretary of State, and talked politics on American TV for sixty years. He kept his German accent the entire time. His younger brother Walter moved with him — and lost his almost completely. Same family, same country, same language exposure. Just a few years of age difference. What's going on?",
+      "visual": {
+        "sfSymbol": "person.crop.square.filled.and.at.rectangle.fill",
+        "imagePrompt": "Split-screen portrait of two brothers from the 1940s side by side, subtle soundwaves emerging from each, slightly different shapes"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The critical period for accent",
+      "body": "There's robust evidence that the window for acquiring a native accent closes much earlier than the window for grammar or vocabulary. Large studies suggest a near-native accent is reliably achievable only if you're immersed before about age 6 or 7. After puberty, almost no one — no matter how smart, how motivated, how many hours they practice — sounds truly native. Grammar, by contrast, stays fairly learnable into adulthood.",
+      "keyTerms": [
+        { "term": "Critical period", "definition": "A developmental window during which certain language skills are most easily acquired" },
+        { "term": "Phonological tuning", "definition": "The brain's early calibration to the specific sound contrasts of a native language" }
+      ],
+      "visual": {
+        "sfSymbol": "clock.arrow.circlepath",
+        "imagePrompt": "A graph curve falling sharply around age seven, overlaid on a soft silhouette of a child's profile"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Your ears are the bottleneck",
+      "body": "Pronouncing a foreign sound requires first being able to hear it clearly, and your auditory system pruned itself for your native language in infancy. A native Japanese speaker learning English doesn't 'fail' to say /l/ and /r/ — they often can't reliably hear the difference, so they have nothing to aim at. Motor skills also matter: the subtle timing of your lips, tongue, and vocal cords is automated in childhood and resists rewiring later.",
+      "visual": {
+        "sfSymbol": "ear.fill",
+        "imagePrompt": "A cross-section of an ear with tiny neural pathways rewiring, one pathway glowing active, another dimmed"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Identity gets in the way too",
+      "body": "Age isn't everything. Some adults do nearly lose their accent — often actors, spies, and voice performers who train intensely. But many adult speakers unconsciously keep their accent because it signals who they are, where they come from, the community they belong to. Studies show people who emotionally identify strongly with the new culture tend to have lighter accents. The accent isn't just a motor skill — it's a social flag.",
+      "funFact": "People who report dreaming in their second language tend to have markedly better accents, suggesting deep immersion reshapes phonology.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "Two flags woven together as threads forming a single vocal cord, symbolic and clean design"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Your accent is a biography",
+      "body": "An accent isn't a flaw to be fixed. It's a record of when you arrived, who raised you, which sounds your brain decided mattered. The reason it's stubborn is the same reason it exists — it's built deep into your perceptual and motor systems, and sometimes into your sense of self. Losing it isn't really about effort; it's about rewriting a part of who you are.",
+      "visual": {
+        "sfSymbol": "signature",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly when does the critical period for acquiring a native accent close?",
+      "options": [
+        "Around age 2",
+        "Around age 6-7",
+        "Around age 18",
+        "There is no such period"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studies suggest reliably native-like accents are only achieved when immersion begins before around age 6 or 7."
+    },
+    {
+      "index": 1,
+      "question": "Why might a Japanese speaker struggle to say English /l/ and /r/?",
+      "options": [
+        "They don't know enough vocabulary",
+        "Their brains often can't clearly hear the distinction to begin with",
+        "English /r/ is physically impossible",
+        "Japanese spelling forbids it"
+      ],
+      "correctIndex": 1,
+      "explanation": "If the auditory system doesn't distinguish two sounds, the speaker has no internal target to aim at when producing them."
+    },
+    {
+      "index": 2,
+      "question": "What besides age influences how strong a foreign accent remains?",
+      "options": [
+        "Shoe size",
+        "Social identification with the new culture",
+        "How many languages you can read",
+        "Your handedness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Speakers who identify strongly with the new culture tend to develop lighter accents, because accent is also a social signal."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Critical period effects in second language learning",
+      "publisher": "Cognitive Psychology (Johnson & Newport)",
+      "year": 1989
+    },
+    {
+      "title": "The Influence of Age on Second Language Acquisition",
+      "publisher": "Annual Review of Applied Linguistics",
+      "year": 2020
+    }
+  ],
+
+  "related": ["phonemes-vs-graphemes", "critical-period-hypothesis", "bilingualism"]
+}

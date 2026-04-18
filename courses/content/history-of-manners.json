@@ -1,0 +1,136 @@
+{
+  "id": "history-of-manners",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Where Modern Manners Came From",
+    "teaser": "Why is it rude to blow your nose on the tablecloth? Someone had to invent that rule.",
+    "category": "Sociology",
+    "subcategories": ["Cultural History", "Etiquette"],
+    "tags": ["manners", "history", "civilization", "europe"],
+    "emoji": "🍴",
+    "accentColor": "#B57F4A",
+    "coverSymbol": {
+      "sfSymbol": "fork.knife",
+      "fallbackEmoji": "🍴"
+    },
+    "coverImagePrompt": "An elaborate 16th-century banquet table lit by candlelight, silver cutlery gleaming, painted in the style of a Dutch still life, warm and intimate"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A medieval dinner you'd hate",
+      "body": "Imagine a 13th-century feast. Everyone eats from a shared pot with their hands. People spit on the floor, blow their noses into their sleeves, and — if they're polite — wipe their fingers on the tablecloth instead of their clothes. Hosts remind guests not to scratch themselves at the table. None of this was considered gross. It was just dinner.",
+      "visual": {
+        "sfSymbol": "clock.arrow.circlepath",
+        "imagePrompt": "A boisterous medieval peasant feast, hands reaching into a communal stew pot, candlelight, unkempt but warm"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The man who changed dinner",
+      "body": "In 1530, the Dutch scholar Erasmus of Rotterdam published 'De civilitate morum puerilium' — 'On Civility in Children.' It was a slim manual of how to behave: don't pick your nose at the table, don't wipe your mouth on the tablecloth, don't offer someone food you've already chewed. It became a runaway bestseller, translated across Europe, reprinted over 130 times in his lifetime.",
+      "keyTerms": [
+        { "term": "Civility", "definition": "Originally meaning the outward conduct of a civilized person; from Latin 'civilis'" },
+        { "term": "Courtesy", "definition": "Literally 'behavior fit for a court' — the manners of nobility" }
+      ],
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "An open 16th-century printed book with woodcut illustrations of table manners, aged paper, warm lamplight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why manners spread",
+      "body": "The sociologist Norbert Elias traced this in his 1939 book 'The Civilizing Process.' As absolute monarchies centralized power in the 1500s and 1600s, the nobility had to compete for royal favor through refinement rather than brute force. Court etiquette became a weapon: who knew the right bow, the right fork, the right tone. Then the rising middle class copied the nobles to signal status — and the rules trickled down.",
+      "visual": {
+        "sfSymbol": "arrow.down.to.line",
+        "imagePrompt": "A stylized pyramid of society with refinement flowing downward from a crowned figure, elegant ink illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The fork as a weapon of class",
+      "body": "The dinner fork, now universal, was once scandalous. When a Byzantine princess used one in Venice around 1075, clergy called her decadent and said her death from plague was divine punishment. It took until the 1600s for forks to catch on in France, and even Louis XIV reportedly preferred fingers. By 1800, using a fork had become a marker of being civilized — and eating with hands a marker of being 'primitive.'",
+      "funFact": "Erasmus also advised: 'If you cannot swallow a piece of food, turn round discreetly and throw it somewhere.' Progress comes slowly.",
+      "visual": {
+        "sfSymbol": "fork.knife.circle.fill",
+        "imagePrompt": "An ornate silver fork from the 1700s resting on embroidered linen, close-up, museum lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Manners are invented",
+      "body": "What feels like basic decency — covering your mouth, using cutlery, not discussing certain bodily functions — is mostly a few centuries old. Every rule was once someone's opinion, pushed into law by status competition, then hardened into instinct. That's why 'rude' varies so wildly across cultures: slurping soup in Japan, burping in parts of the Middle East, eating with the left hand in India. Manners aren't natural. They're a history lesson you perform three times a day.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who wrote the 1530 bestseller that codified modern Western table manners?",
+      "options": ["Machiavelli", "Erasmus of Rotterdam", "Castiglione", "Montaigne"],
+      "correctIndex": 1,
+      "explanation": "Erasmus's 'On Civility in Children' was reprinted over 130 times in his lifetime alone."
+    },
+    {
+      "index": 1,
+      "question": "According to Norbert Elias, what drove the spread of refined manners in early modern Europe?",
+      "options": [
+        "Religious reform",
+        "Plague survivors' trauma",
+        "Court competition and middle-class imitation",
+        "Technological change in kitchens"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elias argued that courtly refinement became a status weapon, then spread downward as the middle class copied it."
+    },
+    {
+      "index": 2,
+      "question": "How was the fork initially received in Western Europe?",
+      "options": [
+        "Immediately universal",
+        "Scandalous and decadent",
+        "Limited to children",
+        "Banned by the Pope"
+      ],
+      "correctIndex": 1,
+      "explanation": "An 11th-century Byzantine princess was condemned for using one in Venice; forks didn't catch on widely until the 1600s."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Civilizing Process",
+      "publisher": "Blackwell Publishers",
+      "year": 1939
+    },
+    {
+      "title": "De civilitate morum puerilium",
+      "publisher": "Basel",
+      "year": 1530
+    }
+  ],
+
+  "related": ["versailles-court", "renaissance-humanism", "cutlery-history"]
+}

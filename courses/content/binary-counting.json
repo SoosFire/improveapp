@@ -1,0 +1,136 @@
+{
+  "id": "binary-counting",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Counting to 31 on One Hand (Binary)",
+    "teaser": "You have 10 fingers. Computers would say that's enough to count to 1,023.",
+    "category": "Computer Science",
+    "subcategories": ["Number Systems", "Fundamentals"],
+    "tags": ["binary", "numbers", "computers", "math"],
+    "emoji": "🖐️",
+    "accentColor": "#5F9EA0",
+    "coverSymbol": {
+      "sfSymbol": "number",
+      "fallbackEmoji": "🖐️"
+    },
+    "coverImagePrompt": "A close-up of a hand with fingers raised in a specific binary pattern, glowing 1s and 0s floating above each finger, cinematic and clean"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The limits of fingers",
+      "body": "Every kid learns to count to 10 on their fingers — one finger, one number. Stop there and your hand can do 10 things. But there's another way to use those same fingers: treat each one as either up or down, and the 10 states suddenly become 1,024 different combinations. One hand alone takes you from 0 to 31. Same fingers, different rules.",
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "A hand raised with each finger subtly labeled with a power of 2, glowing numbers hovering near each fingertip"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why computers count in 2s",
+      "body": "Our usual decimal system has 10 digits (0–9) because we have 10 fingers. Binary has only 2 digits: 0 and 1. Each binary position represents a power of 2, not 10. From right to left: 1, 2, 4, 8, 16, 32, 64... Computers love binary because transistors have only two reliable states — on and off, 1 and 0. A single binary digit is called a 'bit,' short for 'binary digit,' coined by statistician John Tukey in 1947.",
+      "keyTerms": [
+        { "term": "Bit", "definition": "A single binary digit — either 0 or 1" },
+        { "term": "Byte", "definition": "Eight bits, able to represent 256 different values" }
+      ],
+      "visual": {
+        "sfSymbol": "switch.2",
+        "imagePrompt": "A row of simple on/off light switches, some flipped up and some down, labeled with powers of 2"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Your hand, as a counter",
+      "body": "Hold out your right hand, palm up. Assign: thumb = 1, index = 2, middle = 4, ring = 8, pinky = 16. Every number from 0 to 31 is a unique combination of these five fingers up or down. Three? Thumb and index (1 + 2). Ten? Index and ring (2 + 8). Seventeen? Thumb and pinky (1 + 16). The secret is that every natural number has exactly one binary representation — no ambiguity.",
+      "visual": {
+        "sfSymbol": "hand.point.up.fill",
+        "imagePrompt": "A step-by-step visual chart showing hand positions for the numbers 0, 1, 2, 5, 10, and 31, minimalist diagram"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why 31 is such a big deal",
+      "body": "Decimal counting on one hand: 5 numbers. Binary counting on one hand: 32 numbers (0 through 31) — a 6x improvement with no extra fingers. Use both hands and you hit 1,024 combinations. Add your toes and you're at over a million. Every byte of text on your screen is stored as exactly 8 such on/off switches. The letter 'A' in ASCII is 01000001 — that's 65 in decimal, and exactly one way to raise 8 tiny fingers.",
+      "funFact": "In binary, the number 4 uses the same finger gesture widely considered rude in many countries — middle finger up, others down. Proceed carefully.",
+      "visual": {
+        "sfSymbol": "textformat.abc",
+        "imagePrompt": "The ASCII binary for the word 'HELLO' displayed as rows of filled and empty circles, each row a letter"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The same math, better packed",
+      "body": "Nothing in nature made decimal better than binary — we picked decimal because of fingers, and we picked binary because switches don't like being half-on. Once you see numbers as positions rather than symbols, the whole digital world makes sense. Every pixel, every song, every message you send travels as some extremely fast version of raising and lowering fingers. Your hand isn't just a counter. It's a tiny computer.",
+      "visual": {
+        "sfSymbol": "cpu.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How many distinct numbers can you represent using five fingers in binary?",
+      "options": ["5", "10", "32", "100"],
+      "correctIndex": 2,
+      "explanation": "Each finger is either up or down, giving 2⁵ = 32 combinations — the numbers 0 through 31."
+    },
+    {
+      "index": 1,
+      "question": "What is a 'bit' short for?",
+      "options": [
+        "Boolean iteration tool",
+        "Binary digit",
+        "Basic integer type",
+        "Byte increment token"
+      ],
+      "correctIndex": 1,
+      "explanation": "The term was coined by statistician John Tukey in 1947."
+    },
+    {
+      "index": 2,
+      "question": "Why do computers use binary rather than decimal?",
+      "options": [
+        "Binary is mathematically more accurate",
+        "Transistors reliably represent only two states (on/off)",
+        "Binary numbers are smaller",
+        "Humans can read binary faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electronics naturally handle two states reliably, making 0/1 the most robust representation."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Mathematical Theory of Communication",
+      "publisher": "Bell System Technical Journal",
+      "year": 1948
+    },
+    {
+      "title": "Code: The Hidden Language of Computer Hardware and Software",
+      "publisher": "Microsoft Press",
+      "year": 1999
+    }
+  ],
+
+  "related": ["boolean-algebra", "ascii-encoding", "number-systems"]
+}

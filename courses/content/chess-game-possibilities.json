@@ -1,0 +1,131 @@
+{
+  "id": "chess-game-possibilities",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Many Chess Games Are Possible?",
+    "teaser": "The number of possible chess games is bigger than the number of atoms in the observable universe. Seriously.",
+    "category": "Games & Strategy",
+    "subcategories": ["Chess", "Mathematics"],
+    "tags": ["chess", "combinatorics", "mathematics", "infinity"],
+    "emoji": "♟️",
+    "accentColor": "#3D2B1F",
+    "coverSymbol": {
+      "sfSymbol": "checkerboard.rectangle",
+      "fallbackEmoji": "♟️"
+    },
+    "coverImagePrompt": "A wooden chessboard in mid-game viewed from a low angle, pieces glowing faintly, a galaxy of stars swirling above the board like a ceiling of possibilities, surreal, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A board, 32 pieces, and more games than atoms",
+      "body": "Chess starts with a boring-looking grid. Sixteen pieces each. A few dozen legal first moves. But keep going, and the tree of possibilities explodes so fast that no computer — not even every computer ever built — could hope to tally them all. How big are we talking?",
+      "visual": {
+        "sfSymbol": "checkerboard.rectangle",
+        "imagePrompt": "A chessboard seen from directly above at the starting position, soft rim lighting, pieces casting long shadows"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Shannon number",
+      "body": "In 1950, mathematician Claude Shannon estimated the number of possible chess games at around 10^120. That's a 1 followed by 120 zeros. To put it in perspective: the observable universe contains roughly 10^80 atoms. Chess games outnumber atoms by a factor of ten-to-the-fortieth-power.",
+      "keyTerms": [
+        { "term": "Shannon number", "definition": "An estimate — about 10^120 — of the possible 40-move chess games" },
+        { "term": "Game tree", "definition": "The branching structure of every possible sequence of moves from a position" }
+      ],
+      "visual": {
+        "sfSymbol": "number",
+        "imagePrompt": "The number 10^120 rendered as glowing text floating in deep space, stars streaming past, cinematic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it grows so fast",
+      "body": "On the first move, White has 20 options. Black has 20 replies. Already 400 positions after one exchange. By move four, there are over 288 billion possible sequences. Every turn multiplies the branches, and the branching factor — around 35 per move — is what makes chess effectively uncomputable.",
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "A fractal tree growing upward out of a chess pawn, each branch splitting into dozens more, glowing against a dark background"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Positions vs. games",
+      "body": "There's a subtler number too: legal chess positions. In 2021, researchers calculated there are about 10^44 legal positions — still unimaginably large, but smaller than the games, because many games pass through the same positions. Even so, a full 'solution' to chess is considered physically impossible. You'd need more energy than the sun produces in its lifetime just to store it.",
+      "funFact": "A simplified 7-piece endgame has been fully solved and stored in 140 terabytes of 'tablebase' data. Humans still lose to it.",
+      "visual": {
+        "sfSymbol": "externaldrive.fill",
+        "imagePrompt": "A rack of glowing server drives inside a cold storage facility, blue light, condensation on the metal"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why chess will never be 'solved'",
+      "body": "Computers beat grandmasters not by memorizing every game, but by pruning billions of them cleverly. The game's true vastness is what keeps it endlessly creative — every serious game you play is almost certainly unique in the history of the universe.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is the approximate Shannon number — the estimated count of possible chess games?",
+      "options": ["10^40", "10^80", "10^120", "10^200"],
+      "correctIndex": 2,
+      "explanation": "Claude Shannon estimated roughly 10^120 possible 40-move games — far more than atoms in the observable universe."
+    },
+    {
+      "index": 1,
+      "question": "Why does the number of possible games grow so explosively?",
+      "options": [
+        "Because the board is very large",
+        "Because of a roughly 35-option branching factor per move",
+        "Because pieces can teleport",
+        "Because of castling"
+      ],
+      "correctIndex": 1,
+      "explanation": "At each move there are roughly 35 legal options, so the tree multiplies by 35 at every ply — rapid exponential growth."
+    },
+    {
+      "index": 2,
+      "question": "What's the largest chess endgame fully 'solved' by tablebases?",
+      "options": ["3 pieces", "5 pieces", "7 pieces", "All endgames"],
+      "correctIndex": 2,
+      "explanation": "7-piece endgames have been fully solved and take around 140 terabytes to store."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Programming a Computer for Playing Chess",
+      "publisher": "Philosophical Magazine (Claude Shannon)",
+      "year": 1950
+    },
+    {
+      "title": "Counting the number of legal chess positions",
+      "publisher": "arXiv preprint (Gourion)",
+      "year": 2021
+    }
+  ],
+
+  "related": ["game-tree-search", "alphazero", "combinatorial-explosion"]
+}

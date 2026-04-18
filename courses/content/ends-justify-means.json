@@ -1,0 +1,131 @@
+{
+  "id": "ends-justify-means",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Do the Ends Justify the Means?",
+    "teaser": "Is it ever okay to do something wrong if the outcome is good? Philosophers have wrestled with this for centuries.",
+    "category": "Ethics",
+    "subcategories": ["Moral Philosophy", "Decision Making"],
+    "tags": ["ethics", "philosophy", "utilitarianism", "morality", "consequentialism"],
+    "emoji": "⚖️",
+    "accentColor": "#8B5A3C",
+    "coverSymbol": {
+      "sfSymbol": "scalemass.fill",
+      "fallbackEmoji": "⚖️"
+    },
+    "coverImagePrompt": "A dramatic chiaroscuro painting of an old brass scale balancing a glowing outcome on one side and dark shadowy hands on the other, candlelit, Rembrandt-style, philosophical mood"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The trolley is coming",
+      "body": "A runaway trolley is speeding toward five workers. You can pull a lever to divert it onto a side track — but one person is standing there. Do you pull the lever? Most people say yes. Now imagine you have to push someone off a bridge to stop it instead. Same math. Suddenly, almost everyone refuses. Why?",
+      "visual": {
+        "sfSymbol": "tram.fill",
+        "imagePrompt": "A stylized illustration of a trolley on tracks splitting in two directions, with silhouetted figures on each path, tense atmosphere"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Two ways to judge an action",
+      "body": "Philosophers have long split into two camps. Consequentialists judge actions by their outcomes — if the result is good, the act was right. Deontologists judge actions by their nature — some acts are wrong no matter what they produce. Lying to save a life? A consequentialist says yes. A strict deontologist says no.",
+      "keyTerms": [
+        { "term": "Consequentialism", "definition": "The view that an action's morality is determined by its outcomes" },
+        { "term": "Deontology", "definition": "The view that actions are right or wrong based on rules or duties, not results" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Two contrasting paths diverging — one paved with golden outcomes, the other with stone tablets of rules, symbolic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The appeal — and the trap — of 'ends justify means'",
+      "body": "The phrase traces back to Machiavelli, who argued a prince must sometimes do ugly things to secure the state. Utilitarians later refined the idea: maximize happiness, minimize suffering. But critics point out that once you accept this logic, you can justify almost anything — torture, betrayal, even murder — as long as you believe the math works out.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A weathered copy of Machiavelli's The Prince on a dark wooden desk, quill and ink beside it, moody Renaissance lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What real people actually do",
+      "body": "Psychologist Joshua Greene scanned brains during trolley-style dilemmas. When people imagined pulling a lever, cold analytical regions lit up. When they imagined physically pushing someone, emotional regions took over — and they refused. Our moral intuitions aren't one system. They're two systems in tension, often disagreeing with each other.",
+      "funFact": "In surveys, most people endorse utilitarian thinking in the abstract — then reject it the moment the scenario gets personal.",
+      "visual": {
+        "sfSymbol": "brain.head.profile",
+        "imagePrompt": "A glowing fMRI brain scan with two regions highlighted in contrasting colors, scientific and mysterious"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Living with the tension",
+      "body": "There's no clean answer, and maybe that's the point. Purely consequentialist thinking can excuse monstrous acts. Purely deontological thinking can let the world burn for the sake of principle. Most thoughtful people navigate in between — using rules as guardrails but letting outcomes matter when the stakes are real.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which philosophical view says outcomes determine an action's morality?",
+      "options": ["Deontology", "Consequentialism", "Stoicism", "Existentialism"],
+      "correctIndex": 1,
+      "explanation": "Consequentialism judges actions by their results. Utilitarianism is its most famous version."
+    },
+    {
+      "index": 1,
+      "question": "Whose writing most famously associates with the phrase 'the ends justify the means'?",
+      "options": ["Aristotle", "Machiavelli", "Kant", "Nietzsche"],
+      "correctIndex": 1,
+      "explanation": "Machiavelli's The Prince argued that rulers must sometimes do morally ugly things to maintain power and order."
+    },
+    {
+      "index": 2,
+      "question": "What did Joshua Greene's brain scans reveal about moral dilemmas?",
+      "options": [
+        "Everyone uses the same brain region",
+        "Emotional and analytical regions often disagree",
+        "Morality is purely rational",
+        "People have no consistent moral intuitions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Greene found that personal, physical moral choices activate emotional regions, while impersonal ones activate analytical regions — sometimes leading to conflicting judgments."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Moral Tribes: Emotion, Reason, and the Gap Between Us and Them",
+      "publisher": "Penguin Press",
+      "year": 2013
+    },
+    {
+      "title": "The Prince",
+      "publisher": "Niccolò Machiavelli",
+      "year": 1532
+    }
+  ],
+
+  "related": ["trolley-problem", "utilitarianism", "kantian-ethics"]
+}

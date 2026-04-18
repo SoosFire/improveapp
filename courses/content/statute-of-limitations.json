@@ -1,0 +1,136 @@
+{
+  "id": "statute-of-limitations",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Some Crimes Expire",
+    "teaser": "Steal a bike in 2015 and confess in 2026 — in many places, the law can't touch you anymore. Why?",
+    "category": "Law",
+    "subcategories": ["Criminal Law", "Civil Procedure"],
+    "tags": ["statute-of-limitations", "criminal-law", "time-limits", "evidence"],
+    "emoji": "⏳",
+    "accentColor": "#5C3B2E",
+    "coverSymbol": {
+      "sfSymbol": "hourglass",
+      "fallbackEmoji": "⏳"
+    },
+    "coverImagePrompt": "A sand-filled hourglass on a polished wooden desk beside a leather-bound lawbook, warm directional lamp light, cinematic noir mood"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A confession that changes nothing",
+      "body": "A man stands up at a bar and admits he robbed a convenience store eight years ago. A cop hears him. Nothing happens. Not because the cop doesn't care — but because the clock already ran out. In most legal systems, most crimes come with an expiration date, and once it passes, prosecutors lose the power to charge you at all.",
+      "visual": {
+        "sfSymbol": "clock.badge.exclamationmark",
+        "imagePrompt": "A dimly lit bar at night, one man leaning in to tell a story, another figure in a uniform listening in the background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What a statute of limitations is",
+      "body": "A statute of limitations is a law that sets a maximum window between when an offense happens and when a case can be filed. For a petty theft, it might be one or two years. For a serious felony, ten or twenty. The clock usually starts ticking the day the crime is committed — though sometimes it pauses, or 'tolls,' when the suspect flees the jurisdiction or the victim is a minor.",
+      "keyTerms": [
+        { "term": "Statute of limitations", "definition": "A legal deadline for starting a prosecution or lawsuit" },
+        { "term": "Tolling", "definition": "A pause in the running of the limitations clock, for reasons like fugitive status" }
+      ],
+      "visual": {
+        "sfSymbol": "calendar.badge.clock",
+        "imagePrompt": "A calendar with dates being crossed off in red ink, edges of pages curling, moody lamplight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why bother with a deadline",
+      "body": "Evidence rots. Memories fade, witnesses die, surveillance tapes get overwritten. A trial twenty years after the fact is a trial built on ghosts, and ghosts make terrible witnesses. Time limits also protect people from living forever under the shadow of possible prosecution. Finally, they nudge investigators to do their work now, not someday. The deeper principle: old cases produce bad verdicts.",
+      "visual": {
+        "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+        "imagePrompt": "An old police evidence box in a dusty storage room, label faded, light filtering through warehouse rafters"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The crimes that never expire",
+      "body": "Not every crime gets a clock. In the U.S., murder has no statute of limitations in any state — and neither do most terrorism offenses at the federal level. Internationally, the 1968 UN Convention declared that war crimes and crimes against humanity can never expire, which is how Nazi guards were still being tried in Germany in the 2020s, in their late nineties. The reasoning: some harms are so grave that society's interest in justice outweighs the risk of stale evidence.",
+      "funFact": "In 2020, 93-year-old former concentration camp guard Bruno Dey was convicted for actions from 1944 — 76 years after the fact.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": "A set of scales with an hourglass on one side and a small golden star on the other, tipped toward the star"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A deadline on justice",
+      "body": "Time limits look like they let bad people off the hook — and sometimes they do. But they also reflect a deep truth about fairness: the older a case, the more likely an innocent person gets wrongly convicted on memory alone. So the law draws a line, grim as it is, and says: past this point, we choose the risk of no trial over the risk of a bad one.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which crime has no statute of limitations in any U.S. state?",
+      "options": ["Arson", "Murder", "Fraud over $10,000", "Kidnapping"],
+      "correctIndex": 1,
+      "explanation": "Murder is universally exempt in the U.S.; prosecutors can file charges decades after the fact."
+    },
+    {
+      "index": 1,
+      "question": "What does it mean for a statute of limitations to be 'tolled'?",
+      "options": [
+        "It expires immediately",
+        "It's shortened by a judge",
+        "The clock is paused for a specific reason",
+        "It doubles in length"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tolling pauses the limitations clock — for example, while a suspect is a fugitive or a victim is still a minor."
+    },
+    {
+      "index": 2,
+      "question": "What is the main practical reason courts enforce time limits?",
+      "options": [
+        "To reduce court budgets",
+        "Because old evidence is unreliable",
+        "To reward well-behaved defendants",
+        "To punish slow police work"
+      ],
+      "correctIndex": 1,
+      "explanation": "Memories fade and physical evidence degrades, so trials decades later risk convicting the innocent."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Statute of Limitations",
+      "publisher": "Cornell Legal Information Institute",
+      "year": 2023
+    },
+    {
+      "title": "Convention on the Non-Applicability of Statutory Limitations to War Crimes",
+      "publisher": "United Nations",
+      "year": 1968
+    }
+  ],
+
+  "related": ["double-jeopardy", "cold-case-investigations", "international-criminal-law"]
+}

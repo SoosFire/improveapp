@@ -1,0 +1,136 @@
+{
+  "id": "blue-ocean-strategy",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Blue Ocean Strategy",
+    "teaser": "Stop fighting sharks. Find water no one else is swimming in.",
+    "category": "Business",
+    "subcategories": ["Strategy", "Innovation"],
+    "tags": ["strategy", "competition", "innovation", "market-creation", "kim-mauborgne"],
+    "emoji": "🌊",
+    "accentColor": "#1F6FB2",
+    "coverSymbol": {
+      "sfSymbol": "water.waves",
+      "fallbackEmoji": "🐟"
+    },
+    "coverImagePrompt": "An overhead cinematic shot of a single bright sailboat crossing a vast turquoise ocean, while in the distance a cluster of boats crowd a blood-red patch of water, aerial photography, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Red water, blue water",
+      "body": "Most companies fight in what strategists W. Chan Kim and Renée Mauborgne call red oceans — markets already full of rivals, slowly turning the water bloody with cutthroat competition. A blue ocean is the opposite: uncontested space, where the competition is irrelevant because you're alone there. The trick, of course, is finding one.",
+      "visual": {
+        "sfSymbol": "drop.fill",
+        "imagePrompt": "A split-colour ocean: one side churning red with dozens of fishing boats, the other smooth and empty blue, bird's-eye view"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Cirque du Soleil didn't fight the circus",
+      "body": "In 1984, the circus industry was dying — animal rights protests, high costs, bored children. A Canadian troupe called Cirque du Soleil didn't try to be a better circus. They dropped the animals, added theatrical narrative, raised ticket prices, and targeted adults. They weren't competing with Ringling Bros. They had created a different product that didn't exist yet.",
+      "keyTerms": [
+        { "term": "Blue ocean", "definition": "An untapped market space where competition is irrelevant" },
+        { "term": "Red ocean", "definition": "An existing, crowded market defined by known boundaries and rivals" }
+      ],
+      "visual": {
+        "sfSymbol": "theatermasks.circle.fill",
+        "imagePrompt": "A single spotlit acrobat mid-flip inside a dark blue tent, no animals, dreamlike stage production"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The four actions framework",
+      "body": "Kim and Mauborgne's core tool is disarmingly simple. Ask four questions about your industry's assumptions: What should be eliminated? What should be reduced below the standard? What should be raised above it? What should be created that the industry has never offered? Cirque eliminated animals, reduced stars, raised venue artistry, and created theatrical storylines. Each answer reshapes the value curve.",
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "A clean infographic showing the four-action grid — Eliminate, Reduce, Raise, Create — with icons in each quadrant"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Does it actually work?",
+      "body": "The authors studied 108 business launches and found that 14% were blue ocean moves — but those 14% generated 38% of revenue and 61% of profits. The lesson is uncomfortable for incumbents: the biggest wins aren't in beating rivals on existing dimensions, but in making those dimensions stop mattering. Nintendo Wii, Yellow Tail wine, and Southwest Airlines all followed a version of this playbook.",
+      "funFact": "Yellow Tail wine famously removed the technical wine vocabulary, added a bright kangaroo label, and sold to beer drinkers. It became the fastest-growing imported wine in US history.",
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "A bar chart with one startlingly tall bright blue column next to many small red ones, corporate infographic style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why most firms stay red",
+      "body": "Blue ocean moves feel risky because they ignore the obvious competitors and customers. Most executives are rewarded for small, defensible wins — not for abandoning the battlefield. The strategy's real insight isn't 'be creative.' It's that competition itself can be a trap, and sometimes the smartest move on the chessboard is to leave the board.",
+      "visual": {
+        "sfSymbol": "sailboat.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a 'red ocean' in Kim and Mauborgne's framework?",
+      "options": [
+        "A new, fast-growing market",
+        "A crowded, competitive existing market",
+        "A market in an emerging economy",
+        "A highly regulated industry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red oceans are known market spaces where competitors fight over shrinking profit pools — the 'blood' is competitive, not literal."
+    },
+    {
+      "index": 1,
+      "question": "Which of these is NOT part of the Four Actions Framework?",
+      "options": ["Eliminate", "Reduce", "Raise", "Replicate"],
+      "correctIndex": 3,
+      "explanation": "The four actions are Eliminate, Reduce, Raise, and Create — replicating competitors is the opposite of blue ocean thinking."
+    },
+    {
+      "index": 2,
+      "question": "What did Cirque du Soleil do to escape a dying industry?",
+      "options": [
+        "Cut ticket prices to undercut rivals",
+        "Added more exotic animals to differentiate",
+        "Combined circus and theatre to target adults",
+        "Franchised their tent to smaller towns"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cirque dropped animals and stars, added theatrical narrative, and sold to adults — creating a category that didn't previously exist."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Blue Ocean Strategy",
+      "publisher": "Harvard Business Review Press",
+      "year": 2005
+    },
+    {
+      "title": "Blue Ocean Shift",
+      "publisher": "Hachette Books",
+      "year": 2017
+    }
+  ],
+
+  "related": ["innovators-dilemma", "porter-five-forces", "value-innovation"]
+}

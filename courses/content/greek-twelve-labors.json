@@ -1,0 +1,126 @@
+{
+  "id": "greek-twelve-labors",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The 12 Labors of Hercules",
+    "teaser": "He killed his own family in a rage — and had to complete 12 impossible tasks to atone.",
+    "category": "Religion & Mythology",
+    "subcategories": ["Greek Mythology", "Heroes"],
+    "tags": ["hercules", "heracles", "greek-myth", "heroes", "labors"],
+    "emoji": "🦁",
+    "accentColor": "#8B5E3C",
+    "coverSymbol": {
+      "sfSymbol": "pawprint.fill",
+      "fallbackEmoji": "🦁"
+    },
+    "coverImagePrompt": "A muscled ancient Greek hero wearing a tawny lion skin as a cloak, club in hand, standing before a cave mouth in dramatic Mediterranean light, cinematic, painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The darkest hero origin story",
+      "body": "You probably know Hercules as a Disney hero. The Greeks knew him as something else: a man driven temporarily insane by the goddess Hera, who murdered his own wife and children in a fit of madness. The Twelve Labors weren't adventures. They were penance — impossible tasks assigned by the oracle at Delphi to cleanse his soul.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A dark silhouette of a powerful man kneeling in despair outside a burning Greek house at night, moonlit, tragic and cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Why twelve, and who set them?",
+      "body": "The oracle sent Herakles (his Greek name) to serve King Eurystheus of Tiryns for twelve years. Eurystheus, a cousin who feared him, designed the tasks to be fatal. Originally there were ten — but Eurystheus disqualified two for rule-breaking, so two more were added. Each required Herakles to kill, capture, or fetch something beyond mortal reach.",
+      "keyTerms": [
+        { "term": "Herakles", "definition": "The Greek name of the hero; 'Hercules' is the Roman version" },
+        { "term": "Eurystheus", "definition": "The cowardly king who assigned and judged the labors" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "A small, nervous king hiding inside a large bronze jar while a shadowy hero approaches, ancient Greek palace, torchlight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The greatest hits",
+      "body": "The first task was the Nemean Lion — a beast whose hide no weapon could pierce. Herakles strangled it with his bare hands and wore its skin forever after. Then the Hydra, which grew two heads for every one cut off; he solved it by cauterizing each stump. Later labors grew stranger: cleaning the Augean stables (rerouting two rivers through them in a day), and stealing the three-headed dog Cerberus from the underworld itself.",
+      "visual": {
+        "sfSymbol": "pawprint.fill",
+        "imagePrompt": "Hercules wrestling the Nemean lion, muscles straining, dust swirling, ancient Greek landscape with distant cypress trees"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Carved into the Parthenon's cousin",
+      "body": "The canonical list of twelve comes to us from the metopes — sculpted marble panels — of the Temple of Zeus at Olympia, built around 460 BCE. Each of the temple's twelve metopes depicted one labor, which locked the count at twelve and cemented the order. Pausanias, a Greek traveler writing around 150 CE, described them in detail, and fragments survive today in the Louvre and at Olympia.",
+      "funFact": "The Farnese Hercules statue, a 3rd-century Roman copy of a Greek original, shows Hercules exhausted and leaning on his club — holding the golden apples of the Hesperides behind his back.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A weathered marble metope panel showing Hercules fighting the Cretan bull, classical Greek sculpture, warm museum lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the story stuck",
+      "body": "The labors are a pattern you'll recognize everywhere now: the flawed hero, the impossible quest list, the redemption through suffering. From Joseph Campbell's hero's journey to video game side-quests, the twelve-task structure keeps showing up. Hercules didn't just kill monsters — he gave storytelling its first great checklist.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why was Hercules forced to perform the Twelve Labors?",
+      "options": ["To win Athena's favor", "As penance for killing his wife and children in a madness sent by Hera", "To earn the throne of Thebes", "To prove his divinity to Zeus"],
+      "correctIndex": 1,
+      "explanation": "The oracle at Delphi ordered the labors as atonement after Hera drove him to kill his family."
+    },
+    {
+      "index": 1,
+      "question": "How did Hercules kill the Nemean Lion?",
+      "options": ["With a poisoned arrow", "By drowning it", "By strangling it with his bare hands", "By setting its cave on fire"],
+      "correctIndex": 2,
+      "explanation": "The lion's hide was impenetrable, so Hercules had to strangle it — and afterward wore its skin as armor."
+    },
+    {
+      "index": 2,
+      "question": "Where did the canonical list of exactly twelve labors come from?",
+      "options": ["Homer's Odyssey", "The metopes of the Temple of Zeus at Olympia", "A lost play by Sophocles", "The Library of Alexandria"],
+      "correctIndex": 1,
+      "explanation": "The Temple of Zeus at Olympia had twelve metopes, one per labor, which locked in the count and order around 460 BCE."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Library of Greek Mythology (Apollodorus)",
+      "publisher": "Oxford World's Classics (trans. Robin Hard)",
+      "year": 1997
+    },
+    {
+      "title": "Description of Greece",
+      "publisher": "Loeb Classical Library (Pausanias, trans. W.H.S. Jones)",
+      "year": 1918
+    }
+  ],
+
+  "related": ["greek-oracle-delphi", "heros-journey", "odyssey-summary"]
+}

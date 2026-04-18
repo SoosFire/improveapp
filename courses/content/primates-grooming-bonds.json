@@ -1,0 +1,136 @@
+{
+  "id": "primates-grooming-bonds",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Primates Groom Each Other for Hours",
+    "teaser": "It's not really about cleanliness. Grooming is primate Facebook — and it may have given us language.",
+    "category": "Anthropology",
+    "subcategories": ["Primatology", "Social Evolution"],
+    "tags": ["primates", "grooming", "social bonds", "language", "chimpanzees"],
+    "emoji": "🐒",
+    "accentColor": "#8B5E3C",
+    "coverSymbol": {
+      "sfSymbol": "hand.raised.fingers.spread.fill",
+      "fallbackEmoji": "🙌"
+    },
+    "coverImagePrompt": "Two chimpanzees sit back-to-back on a mossy forest branch at golden hour, one carefully picking through the other's fur, eyes half closed in contentment, dappled jungle light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Six hours of hand-combing",
+      "body": "A wild baboon can spend nearly a fifth of its waking life picking through another baboon's fur. That's hours every day — far more than any parasite problem could possibly require. Biologists asked: what is all this actually for? The answer rewrites how we think about friendship itself.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A troop of baboons on a warm rock at sunrise, several pairs grooming each other, soft golden light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "More social than hygienic",
+      "body": "In the 1980s, primatologist Robin Dunbar noticed something odd. Primates in larger groups spent more time grooming — but not because they had more fleas. They groomed more because they had more relationships to maintain. Grooming was the currency of primate politics.",
+      "keyTerms": [
+        { "term": "Allogrooming", "definition": "Grooming performed on another individual, not oneself" },
+        { "term": "Dunbar's number", "definition": "The cognitive limit of about 150 stable social relationships" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Graph showing group size vs grooming time across primate species, overlaid on soft jungle background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The chemistry of trust",
+      "body": "When a monkey grooms another, both animals' brains flood with beta-endorphins — the same opioid chemicals released by runner's high and hugs. Heart rates drop. Stress hormones fall. Grooming partners are more likely to share food, defend each other in fights, and back each other in coalitions. It literally buys loyalty.",
+      "funFact": "Macaques will 'pay' with grooming minutes to sit near a high-ranking female — the cost rises with her status, like a social commodity market.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "Close-up of two macaques, one grooming the other, with a faint glowing brain diagram overlay showing endorphin release"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why humans talk instead",
+      "body": "Dunbar went further: as human ancestors lived in bigger and bigger groups, there weren't enough hours in the day to groom everyone. So we evolved a shortcut that bonds multiple people at once — gossip. Casual conversation, he argues, is 'vocal grooming.' Roughly two-thirds of everyday human talk is still about other people.",
+      "visual": {
+        "sfSymbol": "bubble.left.and.bubble.right.fill",
+        "imagePrompt": "Split image: left side chimpanzees grooming, right side humans chatting over coffee, stylized and warm"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're grooming right now",
+      "body": "Every text, laugh, and piece of small talk taps into the same ancient circuitry that kept baboon troops together. Language didn't replace grooming — it scaled it up. Next time you're chatting about nothing in particular, remember: you're running the oldest social technology in the primate world.",
+      "visual": {
+        "sfSymbol": "message.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to Robin Dunbar, what best explains how much time primates spend grooming?",
+      "options": [
+        "How dirty their fur gets",
+        "How hot their climate is",
+        "How large their social group is",
+        "How many predators they face"
+      ],
+      "correctIndex": 2,
+      "explanation": "Larger groups mean more relationships to maintain — and more grooming time."
+    },
+    {
+      "index": 1,
+      "question": "Which brain chemicals are released during grooming?",
+      "options": ["Adrenaline", "Beta-endorphins", "Melatonin", "Cortisol"],
+      "correctIndex": 1,
+      "explanation": "Grooming triggers a release of beta-endorphins — the same feel-good opioids linked to hugs and runner's high."
+    },
+    {
+      "index": 2,
+      "question": "What is Dunbar's 'vocal grooming' theory?",
+      "options": [
+        "That primates sing to each other to establish rank",
+        "That humans replaced grooming with gossip to bond larger groups",
+        "That babies learn language by imitating grooming sounds",
+        "That whale songs are a form of grooming"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dunbar argued language, especially social gossip, let humans bond many people at once — scaling up what grooming does one-on-one."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Grooming, Gossip, and the Evolution of Language",
+      "publisher": "Robin Dunbar, Harvard University Press",
+      "year": 1996
+    },
+    {
+      "title": "Social grooming in primates: functions and adaptive significance",
+      "publisher": "Behavioral Ecology and Sociobiology",
+      "year": 2007
+    }
+  ],
+
+  "related": ["dunbars-number", "chimpanzee-politics", "evolution-of-language"]
+}

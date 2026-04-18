@@ -1,0 +1,136 @@
+{
+  "id": "depth-of-field",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Magic of Depth of Field",
+    "teaser": "Why does one photo feel like a movie and another like a snapshot? Usually it's a thin sliver of focus doing all the work.",
+    "category": "Photography",
+    "subcategories": ["Composition", "Optics"],
+    "tags": ["bokeh", "focus", "aperture", "portraits", "optics"],
+    "emoji": "🎞️",
+    "accentColor": "#6D5B7B",
+    "coverSymbol": {
+      "sfSymbol": "camera.aperture",
+      "fallbackEmoji": "🎞️"
+    },
+    "coverImagePrompt": "A sharp rose in the foreground melting into soft circular bokeh of city lights at night, cinematic, moody, painterly shallow focus"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The photo that feels like a dream",
+      "body": "You've seen it: a portrait where the person pops off the page and the background melts into a creamy wash of color. It looks expensive. It looks cinematic. It looks like a skill you don't have. But it's not magic, and it's not just an expensive camera — it's a centuries-old optical trick called depth of field.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A portrait of an older man with kind eyes, perfectly sharp, with a blurred festival of lights behind him"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'in focus' really means",
+      "body": "A camera technically can only render a single plane in perfect focus at a time. Depth of field is the narrow zone in front of and behind that plane that still looks sharp to human eyes. Outside that zone, points of light smear into soft discs — the creamy blur photographers call *bokeh*.",
+      "keyTerms": [
+        { "term": "Depth of field", "definition": "The range of distance in a scene that appears acceptably sharp" },
+        { "term": "Bokeh", "definition": "From Japanese 'boke' (blur) — the aesthetic quality of out-of-focus areas in a photo" }
+      ],
+      "visual": {
+        "sfSymbol": "scope",
+        "imagePrompt": "A diagram showing a photographer's focus plane with a 'zone of sharpness' extending in front and behind"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three dials that slice the world",
+      "body": "Depth of field is controlled by three things working together: aperture (wider = shallower), distance to subject (closer = shallower), and focal length (longer lens = shallower). That's why a macro shot of a bee has a millimeter of focus, while a smartphone shot of a mountain has everything in focus from your shoes to the horizon.",
+      "visual": {
+        "sfSymbol": "slider.vertical.3",
+        "imagePrompt": "An elegant three-panel illustration: aperture, distance, focal length, each with a tiny example image beside it"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why your phone cheats",
+      "body": "A smartphone sensor is tiny — about the size of a pea — which means natural depth of field is nearly infinite. To fake the look of a 'real' camera, phones invented Portrait Mode: AI estimates depth from multiple lenses, then algorithmically blurs the background. When it messes up, you get ears out of focus and hair that looks cut out. Real optics don't make those mistakes.",
+      "funFact": "A full-frame lens at f/1.4 from 3 feet away can have a depth of field of just 3 centimeters. At f/1.2 on a medium-format camera, even an eyelash can be out of focus while an iris is pin-sharp.",
+      "visual": {
+        "sfSymbol": "iphone",
+        "imagePrompt": "A photo showing a phone's Portrait Mode edge-detection error around curly hair, with small red markers"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Focus is a storytelling tool",
+      "body": "Depth of field isn't just a technical setting — it's the photographer telling you where to look. A shallow plane screams 'this face, this moment, right here.' A deep plane whispers 'the whole world matters.' When you notice how your favorite photos use focus, you'll stop taking pictures and start making them.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which aperture gives the shallowest depth of field?",
+      "options": ["f/22", "f/11", "f/5.6", "f/1.8"],
+      "correctIndex": 3,
+      "explanation": "Smaller f-numbers mean wider apertures and shallower depth of field — more dramatic background blur."
+    },
+    {
+      "index": 1,
+      "question": "What does the Japanese word 'bokeh' describe?",
+      "options": [
+        "The sharpest part of a photo",
+        "The quality of out-of-focus blur",
+        "A photo's color tone",
+        "A type of lens coating"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bokeh refers to the aesthetic character of the blurry, out-of-focus parts of an image."
+    },
+    {
+      "index": 2,
+      "question": "Why is natural depth of field so deep on smartphone cameras?",
+      "options": [
+        "Their lenses are plastic",
+        "Their sensors are very small",
+        "They only work in bright light",
+        "They have no aperture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tiny sensors naturally have huge depth of field, which is why phones need software 'Portrait Mode' to fake blur."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Applied Photographic Optics",
+      "publisher": "Focal Press",
+      "year": 2002
+    },
+    {
+      "title": "The Manual of Photography",
+      "publisher": "Focal Press",
+      "year": 2011
+    }
+  ],
+
+  "related": ["exposure-triangle", "golden-hour-photography", "why-red-eye-happens"]
+}

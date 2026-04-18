@@ -1,0 +1,144 @@
+{
+  "id": "placebo-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Placebo Effect",
+    "teaser": "A sugar pill can ease real pain. A saline injection can boost real performance. Your brain, it turns out, is a pharmacy.",
+    "category": "Medicine",
+    "subcategories": ["Neuroscience", "Clinical Research"],
+    "tags": ["placebo", "brain", "pain", "medicine", "psychology"],
+    "emoji": "💊",
+    "accentColor": "#EC4899",
+    "coverSymbol": {
+      "sfSymbol": "pills.fill",
+      "fallbackEmoji": "💊"
+    },
+    "coverImagePrompt": "A single white pill glowing on a dark reflective surface, soft pink light wrapping around it, delicate medical aesthetic, cinematic macro shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The pill that isn't a pill",
+      "body": "Give a patient a sugar tablet and tell them it's a powerful painkiller. In roughly a third of cases, their pain actually eases — measured not by self-report alone, but by brain scans showing reduced activity in regions that process pain. No drug ever touched them. Their expectation did the work. This isn't imagination. It's neurochemistry.",
+      "visual": {
+        "sfSymbol": "brain.fill",
+        "imagePrompt": "An MRI brain scan glowing with pain regions going dim, a pill on a prescription pad beside it"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Expectation as medicine",
+      "body": "The placebo effect is what happens when the belief that you're receiving treatment produces a real, measurable improvement. It's not 'feeling better.' It's actual physiological change: endorphin release, altered immune markers, shifts in heart rate. Your prefrontal cortex, expecting relief, tells your brain to produce it — and your body often complies.",
+      "keyTerms": [
+        { "term": "Placebo", "definition": "An inert substance or sham treatment given without active ingredients" },
+        { "term": "Endogenous opioids", "definition": "Painkillers your body produces naturally, including endorphins" }
+      ],
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "A glowing pathway from the forehead down through the body, warm gold light spreading from the brain to the torso"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Ritual matters more than you'd think",
+      "body": "The form of the placebo changes how well it works. A large pill beats a small one. A colored capsule beats a white one. Two pills beat one. An injection beats a pill. A procedure performed by a confident doctor in a white coat beats the same procedure from a hurried clinic. Even the price on the label matters: in one trial, a $2.50 'painkiller' outperformed the identical pill marked at 10 cents.",
+      "keyTerms": [
+        { "term": "Context effect", "definition": "How surrounding cues shape the size of a placebo response" }
+      ],
+      "visual": {
+        "sfSymbol": "cross.case.fill",
+        "imagePrompt": "A collage showing a glowing red capsule, a large syringe, a doctor in a white coat, each with an equal sign between them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Even knowing it's fake can work",
+      "body": "In a landmark 2010 Harvard study, patients with irritable bowel syndrome were given pills openly labeled 'placebo' and told, in plain language, that they contained no active ingredient. Their symptoms still improved — nearly twice as much as those given nothing. The ritual alone, performed honestly, seemed enough to activate the body's healing machinery.",
+      "funFact": "Fake surgery — where the surgeon makes an incision but performs no actual procedure — has shown benefits rivaling real knee surgeries for some types of pain.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": "A pill bottle labeled 'PLACEBO' in bold letters, a patient smiling as they take a dose"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The mind and body aren't separate",
+      "body": "The placebo effect isn't a nuisance to be controlled for — it's a window into how deeply the brain shapes the body. Modern medicine increasingly tries to harness it alongside real drugs: better bedside manner, clear rituals, patient confidence. The pill isn't all that's healing you. The story around the pill is part of the treatment.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is a placebo?",
+      "options": [
+        "A generic version of a drug",
+        "An inert substance or sham procedure given in place of active treatment",
+        "A type of painkiller",
+        "Any drug given in a pill form"
+      ],
+      "correctIndex": 1,
+      "explanation": "Placebos contain no active ingredients — their effects come entirely from expectation and context."
+    },
+    {
+      "index": 1,
+      "question": "What surprised researchers in the 2010 IBS study?",
+      "options": [
+        "Patients improved even when told the pills were placebos",
+        "The pills turned out to contain active ingredients",
+        "No placebo effect was observed",
+        "Placebo pills caused severe side effects"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open-label placebos — honestly identified as fake — still produced significant symptom improvement."
+    },
+    {
+      "index": 2,
+      "question": "Why does a more elaborate ritual amplify the placebo response?",
+      "options": [
+        "It increases the dose",
+        "Context cues like authority and procedure strengthen expectation",
+        "It extends the drug's half-life",
+        "It bypasses the blood-brain barrier"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stronger cues — injections over pills, white coats, higher 'price' — produce larger effects via expectation."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Placebos without Deception",
+      "publisher": "PLOS ONE (Kaptchuk et al.)",
+      "year": 2010
+    },
+    {
+      "title": "The Powerful Placebo Effect: Is It Real?",
+      "publisher": "Annual Review of Medicine",
+      "year": 2019
+    }
+  ],
+
+  "related": ["nocebo-effect", "pain-neuroscience", "clinical-trial-design"]
+}

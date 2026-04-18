@@ -1,0 +1,145 @@
+{
+  "id": "two-factor-authentication",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Two-Factor Authentication Matters",
+    "teaser": "Passwords leak. A lot. Here's the little six-digit trick that stops 99% of account takeovers cold.",
+    "category": "Cybersecurity",
+    "subcategories": ["Authentication", "Personal Security"],
+    "tags": ["2fa", "passwords", "security", "phishing", "identity"],
+    "emoji": "🔑",
+    "accentColor": "#B8593B",
+    "coverSymbol": {
+      "sfSymbol": "lock.rotation",
+      "fallbackEmoji": "🗝️"
+    },
+    "coverImagePrompt": "A glowing six-digit authenticator code floating beside a brass key on dark slate, shallow depth of field, cinematic amber light leaking from the edges"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Your password has probably already leaked",
+      "body": "Have I Been Pwned currently tracks more than 13 billion compromised account records. If you've had an email address for five years, odds are overwhelming that at least one of your passwords is already floating around a hacker forum. Two-factor authentication — 2FA — is the rule that says: a password alone is no longer enough to get in.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A cracked padlock on a dimly lit keyboard with lines of leaked credentials scrolling behind it, noir cyber aesthetic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Something you know, something you have",
+      "body": "Security people classify authentication into three categories: something you know (a password), something you have (a phone or hardware key), and something you are (a fingerprint). 2FA means combining at least two categories. A password plus a code from your phone beats two passwords, because an attacker now needs to steal two very different kinds of things.",
+      "keyTerms": [
+        { "term": "Factor", "definition": "A category of evidence used to prove identity — knowledge, possession, or inherence" },
+        { "term": "TOTP", "definition": "Time-based One-Time Password — a six-digit code that changes every 30 seconds" }
+      ],
+      "visual": {
+        "sfSymbol": "lock.square.stack.fill",
+        "imagePrompt": "Three icons — a brain, a smartphone, a fingerprint — arranged in a clean triangle, flat infographic style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Not all 2FA is equal",
+      "body": "SMS codes are the weakest flavor — attackers can hijack your phone number via a SIM swap. Authenticator apps like Authy or Google Authenticator are better: they generate codes on your device with no carrier involved. Strongest of all are hardware security keys like YubiKey, which use public-key cryptography tied to the exact website, making phishing physically impossible.",
+      "keyTerms": [
+        { "term": "SIM swap", "definition": "When an attacker tricks a carrier into moving your phone number to their SIM card" },
+        { "term": "Passkey", "definition": "A modern hardware-backed credential that replaces passwords entirely" }
+      ],
+      "visual": {
+        "sfSymbol": "key.radiowaves.forward.fill",
+        "imagePrompt": "A YubiKey, a smartphone with authenticator app, and a paper with an SMS code — arranged on a desk from strongest to weakest"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The 99% number",
+      "body": "In 2019, Google ran an internal study of real account-takeover attempts. Adding a device-based second factor blocked 100% of automated bots, 99% of bulk phishing attacks, and 90% of targeted attacks. Microsoft's data tells the same story: accounts with any MFA enabled are 99.9% less likely to be compromised.",
+      "funFact": "After Google mandated hardware keys for all 85,000 employees in 2017, reported employee phishing account takeovers dropped to effectively zero.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A dramatic bar chart showing a towering 'no 2FA' bar next to a nearly invisible 'with 2FA' bar, clean editorial style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Turn it on today, everywhere you can",
+      "body": "Start with your email — whoever controls your inbox can reset every other password you own. Then your bank, your password manager, and your social accounts. An authenticator app takes two minutes to set up and will likely save you from the worst day of your digital life.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does two-factor authentication require?",
+      "options": [
+        "Two different passwords",
+        "A password and a fingerprint, always",
+        "Evidence from at least two different categories",
+        "Logging in from two different devices"
+      ],
+      "correctIndex": 2,
+      "explanation": "2FA combines at least two categories of evidence — typically something you know plus something you have."
+    },
+    {
+      "index": 1,
+      "question": "Which form of 2FA is generally considered the weakest?",
+      "options": [
+        "Hardware security keys",
+        "SMS text message codes",
+        "Authenticator apps",
+        "Passkeys"
+      ],
+      "correctIndex": 1,
+      "explanation": "SMS is vulnerable to SIM-swap attacks and should be upgraded to an app or hardware key when possible."
+    },
+    {
+      "index": 2,
+      "question": "What did Google's 2019 study find about device-based second factors?",
+      "options": [
+        "They slowed down login but had no security benefit",
+        "They blocked 100% of automated bot attacks",
+        "They only worked for corporate accounts",
+        "They were less effective than strong passwords"
+      ],
+      "correctIndex": 1,
+      "explanation": "Google reported a device-based second factor stopped 100% of automated bots and 99% of bulk phishing attempts."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "New research: How effective is basic account hygiene at preventing hijacking",
+      "publisher": "Google Security Blog",
+      "year": 2019
+    },
+    {
+      "title": "Your Pa$$word doesn't matter",
+      "publisher": "Microsoft Identity Security (Alex Weinert)",
+      "year": 2019
+    }
+  ],
+
+  "related": ["how-vpns-work", "phishing-attacks", "password-managers"]
+}

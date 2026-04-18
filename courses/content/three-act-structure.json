@@ -1,0 +1,137 @@
+{
+  "id": "three-act-structure",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Three-Act Structure",
+    "teaser": "Why does almost every movie you love follow the same hidden shape?",
+    "category": "Theater & Drama",
+    "subcategories": ["Storytelling", "Dramaturgy"],
+    "tags": ["theater", "screenwriting", "narrative", "structure", "aristotle"],
+    "emoji": "🎭",
+    "accentColor": "#C44536",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎬"
+    },
+    "coverImagePrompt": "A dramatic three-panel stage curtain pulled back in three progressive reveals, warm amber footlights casting long shadows, chalk diagram of rising action arc sketched on wooden floorboards, cinematic, theatrical"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The invisible skeleton",
+      "body": "Star Wars, Toy Story, Hamlet, Breaking Bad — wildly different stories, but dissect them and you'll find the same bones underneath. A setup, a mess, a resolution. This three-part shape is so common we stop noticing it, like the beat of our own heart. But why does it work so reliably on human brains?",
+      "visual": {
+        "sfSymbol": "skew",
+        "imagePrompt": "An x-ray style diagram overlaying a rising-falling dramatic arc onto a movie poster, glowing lines"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Setup, Confrontation, Resolution",
+      "body": "The three-act structure divides a story into three chunks of unequal length. Act 1 (about 25%) establishes who, where, and what's wrong. Act 2 (about 50%) throws the protagonist into escalating trouble. Act 3 (about 25%) forces a climax and lands the plane. The hinges between acts are called 'plot points' — moments that pivot the whole story in a new direction.",
+      "keyTerms": [
+        { "term": "Inciting Incident", "definition": "The event in Act 1 that kicks the protagonist out of their ordinary world" },
+        { "term": "Plot Point", "definition": "A turn that shoves the story into the next act" },
+        { "term": "Climax", "definition": "The peak of conflict near the end of Act 3" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A clean three-act diagram with a gentle rise, steep middle climb, and sharp peak, annotated with 'Setup / Confrontation / Resolution'"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why three, not four or seven?",
+      "body": "Aristotle argued in the Poetics (around 335 BCE) that a story needs only a beginning, middle, and end — the simplest possible unit of completeness. Screenwriter Syd Field modernized this in 1979 with his book 'Screenplay,' mapping Aristotle's idea onto the 120-page Hollywood script. Three acts survive because our memory naturally chunks experience into starts, struggles, and finishes — any fewer feels abrupt, any more feels like homework.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "An old parchment copy of Aristotle's Poetics beside a modern screenplay bound with brass brads, warm desk lamp"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The midpoint trick",
+      "body": "Watch any Pixar film and pause at exactly the halfway mark. You'll almost always find a moment where everything flips — the character's goal, their ally, or their understanding of the problem. In Finding Nemo, it's Marlin being swallowed by the whale. In Toy Story, it's Woody realizing Buzz genuinely believes he's a space ranger. This 'midpoint reversal' is the secret engine that keeps Act 2 from sagging.",
+      "funFact": "Script doctors often diagnose a broken screenplay by asking one question: 'What happens at page 60?' If nothing does, the whole middle collapses.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A split screen showing a character smiling on the left and the same character horrified on the right, dramatic lighting flip"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A shape, not a cage",
+      "body": "The three-act structure isn't a law — it's a shape that matches how humans process stakes. Great writers bend it, compress it, invert it. But even Tarantino's scrambled timelines and Christopher Nolan's puzzle plots usually reassemble into three acts when you untangle them. Learn the shape, and you'll see it everywhere — including in the way you tell stories about your own day.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Roughly what fraction of a three-act story is Act 2?",
+      "options": ["About one quarter", "About one third", "About one half", "About two thirds"],
+      "correctIndex": 2,
+      "explanation": "Act 2 typically fills the middle 50% — it's the long confrontation sandwiched between the setup and resolution."
+    },
+    {
+      "index": 1,
+      "question": "Which ancient text first articulated the beginning-middle-end idea?",
+      "options": [
+        "Plato's Republic",
+        "Aristotle's Poetics",
+        "Homer's Iliad",
+        "Horace's Ars Poetica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aristotle's Poetics (~335 BCE) laid out the argument that a complete story needs exactly those three parts."
+    },
+    {
+      "index": 2,
+      "question": "What is a 'midpoint reversal'?",
+      "options": [
+        "The opening hook of Act 1",
+        "A flip in the protagonist's goal or situation at the halfway mark",
+        "The final plot twist of Act 3",
+        "A subplot that runs backward"
+      ],
+      "correctIndex": 1,
+      "explanation": "The midpoint reversal lands near page 60 of a standard screenplay and reorients the entire story."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Poetics",
+      "publisher": "Aristotle",
+      "year": -335
+    },
+    {
+      "title": "Screenplay: The Foundations of Screenwriting",
+      "publisher": "Syd Field / Delta",
+      "year": 1979
+    }
+  ],
+
+  "related": ["heros-journey", "chekhovs-gun", "method-acting"]
+}

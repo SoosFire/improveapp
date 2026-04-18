@@ -1,0 +1,131 @@
+{
+  "id": "corpse-flower",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Flower That Smells Like Death",
+    "teaser": "It blooms once a decade, stands taller than a person, and smells like a week-old corpse. Meet the titan arum.",
+    "category": "Botany",
+    "subcategories": ["Flowering Plants", "Plant Ecology"],
+    "tags": ["corpse-flower", "titan-arum", "pollination", "plants", "sumatra"],
+    "emoji": "🌺",
+    "accentColor": "#6B2A44",
+    "coverSymbol": {
+      "sfSymbol": "flame.fill",
+      "fallbackEmoji": "🌸"
+    },
+    "coverImagePrompt": "A colossal blooming titan arum glowing in deep burgundy red under misty greenhouse lights at night, huge spike rising from a frilled cup, cinematic moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The bloom that draws crowds",
+      "body": "Every few years, botanical gardens around the world put out the same strange announcement: 'Come quickly — the corpse flower is opening.' Lines stretch around the block. People travel hundreds of miles. And when they finally reach the flower, many of them gag. The titan arum, Amorphophallus titanum, smells exactly like rotting flesh.",
+      "visual": {
+        "sfSymbol": "nose.fill",
+        "imagePrompt": "A crowd of visitors in a greenhouse covering their noses while photographing a giant blooming corpse flower"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A flower the size of a person",
+      "body": "Native only to the limestone rainforests of Sumatra, the titan arum produces the largest unbranched flowering structure on Earth. When it blooms, its central spike — the spadix — can reach over 3 meters (10 feet) tall. It's actually not one flower but thousands: tiny male and female blossoms hidden inside the base of the frilly outer sheath called the spathe.",
+      "keyTerms": [
+        { "term": "Spadix", "definition": "The tall central spike that holds thousands of tiny flowers" },
+        { "term": "Spathe", "definition": "The large leafy hood that wraps around the spadix" }
+      ],
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A scale illustration comparing a fully bloomed titan arum to the height of a human being"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why stink matters",
+      "body": "In the Sumatran rainforest, nectar-drinking bees are a bad bet — there's too much competition. So the titan arum evolved to woo flies and carrion beetles, insects that lay eggs in dead animals. By producing a chemical cocktail — dimethyl trisulfide (rotting onions), trimethylamine (rotting fish), isovaleric acid (sweaty socks) — the plant mimics a fresh corpse. And it doesn't just smell the part: the spadix heats up to nearly human body temperature to help waft the stench high into the canopy.",
+      "funFact": "The spadix can reach 36°C (98°F) — essentially matching a feverish body.",
+      "visual": {
+        "sfSymbol": "thermometer.sun.fill",
+        "imagePrompt": "A thermal imaging view of a titan arum with the spadix glowing bright orange-red against a cooler greenhouse"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A once-a-decade spectacle",
+      "body": "The plant lives most of its life as a single enormous leaf, photosynthesizing for years to store energy in a tuber that can weigh over 100 kg. When it finally blooms, the show lasts only 24 to 48 hours. The first recorded bloom in cultivation was at the Royal Botanic Gardens in London in 1889, and every subsequent flowering is still treated as a botanical event.",
+      "visual": {
+        "sfSymbol": "calendar",
+        "imagePrompt": "A historical botanical illustration of the first titan arum bloom at Kew Gardens in Victorian London"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Death, in service of life",
+      "body": "The corpse flower is a masterclass in advertising: everything about it — color, shape, heat, chemistry — is tuned to convince a carrion insect that dinner is served. What looks grotesque to us is, to a blowfly, the most tempting dating profile in the forest. Evolution doesn't care about human aesthetics; it cares about what works.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Where is the titan arum native to?",
+      "options": ["The Amazon rainforest", "Madagascar", "Sumatra, Indonesia", "Borneo and the Philippines"],
+      "correctIndex": 2,
+      "explanation": "It grows wild only on the island of Sumatra, in limestone-rich rainforest soils."
+    },
+    {
+      "index": 1,
+      "question": "Why does the corpse flower smell like rotting flesh?",
+      "options": [
+        "To deter herbivores from eating it",
+        "To mimic a dead animal and attract flies and carrion beetles",
+        "As a waste product of photosynthesis",
+        "To kill nearby competing plants"
+      ],
+      "correctIndex": 1,
+      "explanation": "The stench is an evolved imitation of carrion, attracting the pollinators that feed on — and lay eggs in — dead animals."
+    },
+    {
+      "index": 2,
+      "question": "About how long does a titan arum bloom last?",
+      "options": ["A few minutes", "24 to 48 hours", "Two to three weeks", "The entire summer"],
+      "correctIndex": 1,
+      "explanation": "The bloom is extremely brief — typically only one to two days — which is why crowds rush to see it."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Thermogenesis and flowering biology of Amorphophallus titanum",
+      "publisher": "Plant Biology",
+      "year": 2012
+    },
+    {
+      "title": "Volatile chemistry of a corpse flower",
+      "publisher": "Natural Product Reports",
+      "year": 2010
+    }
+  ],
+
+  "related": ["rafflesia", "pollination-strategies", "sumatran-ecosystems"]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "why-sky-is-blue",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Sky Is Blue",
+    "teaser": "The sun is yellow-white, space is black. So why is the air above you blue?",
+    "category": "Physics",
+    "subcategories": ["Optics", "Atmospheric Physics"],
+    "tags": ["light", "optics", "scattering", "atmosphere", "color"],
+    "emoji": "☀️",
+    "accentColor": "#3E8DCF",
+    "coverSymbol": {
+      "sfSymbol": "sun.max.fill",
+      "fallbackEmoji": "☀️"
+    },
+    "coverImagePrompt": "A dramatic view looking straight up into a deep blue midday sky from a mountain summit, wisps of cirrus cloud, sunlight streaming through thin air, ultra-wide lens"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A question that stumped everyone for centuries",
+      "body": "Look up on a clear day. Why blue? Not red, not green, not a mix of everything. The answer involves the exact size of molecules in the air, a Victorian physicist named Rayleigh, and the fact that sunlight is secretly a rainbow pretending to be white.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A person lying in grass looking up at an impossibly blue sky, point-of-view shot, dreamy and soft"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Sunlight is a disguise",
+      "body": "White sunlight is a mix of every visible color — red, orange, yellow, green, blue, violet. Each color is light of a different wavelength: red is long and stretched, blue and violet are short and tight. When that cocktail enters Earth's atmosphere, it runs into roughly 10^25 air molecules per cubic meter. And different colors react differently.",
+      "keyTerms": [
+        { "term": "Wavelength", "definition": "The distance between peaks of a light wave; red is long, blue is short" }
+      ],
+      "visual": {
+        "sfSymbol": "rainbow",
+        "imagePrompt": "A prism splitting a white beam of sunlight into a spectrum of colors on a dark surface, crisp rainbow"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Small wavelengths bounce, big ones cruise",
+      "body": "Air molecules are tiny — much smaller than even a wavelength of blue light. When a light wave meets such a molecule, the short-wavelength colors (blue and violet) scatter in every direction far more strongly than the long-wavelength ones (red and orange). This is called Rayleigh scattering, and its strength goes up with the fourth power of frequency.",
+      "keyTerms": [
+        { "term": "Rayleigh scattering", "definition": "Scattering of light by particles much smaller than its wavelength; sharply favors shorter wavelengths" }
+      ],
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": "Stylized diagram of blue light waves bouncing off tiny spherical air molecules in every direction, red light passing through straight"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "So why not violet?",
+      "body": "Violet light actually scatters even more strongly than blue. So shouldn't the sky be violet? Two reasons it isn't: first, sunlight contains less violet to begin with. Second, our eyes have three color receptors, and the combination of sensitivities and the atmospheric mix lands firmly on blue. A honeybee, with different receptors, sees a different sky.",
+      "funFact": "At sunset, sunlight travels through more atmosphere on the way to your eyes. All the blue scatters away long before it reaches you — leaving red and orange.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "Split-panel illustration: a human eye seeing blue sky on one side, a bee seeing a different sky pattern on the other"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Color is a conversation",
+      "body": "The sky doesn't 'have' a color the way a wall has paint. The blue you see is a collaboration between sunlight, the size of air molecules, and the receptors in your head. Change any one of them, and the sky changes. Physics isn't abstract — it's the reason your view out the window looks like anything at all.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What physical effect makes the sky blue?",
+      "options": [
+        "Refraction through water vapor",
+        "Rayleigh scattering",
+        "Total internal reflection",
+        "Doppler shift"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rayleigh scattering by air molecules preferentially deflects short-wavelength light — the blue end of the spectrum."
+    },
+    {
+      "index": 1,
+      "question": "Which wavelengths scatter the most strongly in Earth's atmosphere?",
+      "options": [
+        "Long, red wavelengths",
+        "Middle, yellow wavelengths",
+        "Short, blue and violet wavelengths",
+        "Infrared only"
+      ],
+      "correctIndex": 2,
+      "explanation": "Scattering strength scales with 1/wavelength^4, so short wavelengths scatter dramatically more than long ones."
+    },
+    {
+      "index": 2,
+      "question": "Why is the sky blue and not violet, given that violet scatters even more?",
+      "options": [
+        "Violet light doesn't reach Earth",
+        "The sun emits less violet, and our eyes are less sensitive to it",
+        "Violet is absorbed by ozone entirely",
+        "The Earth's magnetic field filters it out"
+      ],
+      "correctIndex": 1,
+      "explanation": "Solar output is weaker in violet, and human eyes respond more strongly to blue — so the dominant perceived color is blue."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Light and Color in the Outdoors",
+      "publisher": "Springer",
+      "year": 1993
+    },
+    {
+      "title": "On the scattering of light by small particles",
+      "publisher": "Philosophical Magazine",
+      "year": 1871
+    }
+  ],
+
+  "related": ["sunset-colors", "rainbows", "light-spectrum"]
+}

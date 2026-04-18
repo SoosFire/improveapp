@@ -1,0 +1,145 @@
+{
+  "id": "how-llms-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Large Language Models Guess the Next Word",
+    "teaser": "ChatGPT isn't thinking. It's playing the world's most sophisticated game of 'guess what comes next.'",
+    "category": "Artificial Intelligence",
+    "subcategories": ["Machine Learning", "Natural Language Processing"],
+    "tags": ["llm", "gpt", "transformers", "ai", "deep-learning"],
+    "emoji": "🤖",
+    "accentColor": "#8B5CF6",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A glowing neural network made of floating words and tokens, each connected by luminous threads, deep indigo and violet palette, cinematic, ethereal, futuristic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It's autocomplete. Really.",
+      "body": "Strip away the hype and a Large Language Model is doing one staggeringly simple thing: predicting the next word. Over and over. That's it. The fact that this produces essays, poems, working code, and philosophical arguments should make you pause. Somewhere between 'the cat sat on the' and 'mat,' something close to reasoning seems to emerge.",
+      "visual": {
+        "sfSymbol": "text.cursor",
+        "imagePrompt": "A blinking cursor at the edge of a half-finished sentence, trailing off into a galaxy of glowing word particles"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Tokens, not words",
+      "body": "LLMs don't actually see words. They see tokens — little chunks of text, often three or four characters long. 'Unbelievable' might become 'un,' 'believ,' 'able.' Each token gets turned into a long list of numbers called an embedding, which captures its meaning in hundreds of dimensions. The model works entirely in this numerical space.",
+      "keyTerms": [
+        { "term": "Token", "definition": "A chunk of text (often a sub-word) that the model treats as a single unit" },
+        { "term": "Embedding", "definition": "A list of numbers representing a token's meaning in high-dimensional space" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A sentence being sliced into colorful token chunks, each floating into a lattice of numbers"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The attention trick",
+      "body": "The secret sauce is a mechanism called attention. For every word it's writing, the model looks back at every previous word and decides which ones matter most right now. When finishing the sentence 'The bank was steep and muddy, so the fisherman…' — it 'pays attention' to 'muddy' and 'fisherman,' not 'steep,' to decide that 'bank' means riverbank, not a place with money. This context-weighing happens in parallel, billions of times, across dozens of layers.",
+      "keyTerms": [
+        { "term": "Attention", "definition": "A mechanism that lets the model weigh which earlier tokens matter most for the next prediction" },
+        { "term": "Transformer", "definition": "The neural architecture built around attention, introduced by Google in 2017" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.branch",
+        "imagePrompt": "Glowing arrows of varying brightness connecting words in a sentence, showing attention weights"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Trained on a library bigger than you can imagine",
+      "body": "GPT-style models are trained on trillions of tokens — roughly the equivalent of reading every book ever written, every Wikipedia article, and vast swaths of the internet. During training, the model plays a game: hide the next word, guess it, check the answer, nudge billions of internal parameters to do better next time. Repeat until the guesses become eerily good.",
+      "funFact": "A single training run for a frontier LLM can cost more than $100 million in electricity and compute — more than the budget of many Hollywood films.",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "An endless library stretching into infinity, books glowing as data streams flow out of them into a central neural core"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why 'just predicting' isn't really 'just'",
+      "body": "To predict the next word well, a model has to implicitly learn grammar, facts, logic, tone, style — and a rough model of the world. That's the profound twist: reasoning-like behavior emerges as a side effect of getting better at autocomplete. Whether that counts as 'understanding' is a question philosophers and engineers are still fighting over.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What is an LLM fundamentally doing when it generates text?",
+      "options": [
+        "Looking up answers in a database",
+        "Predicting the next token in a sequence",
+        "Reasoning symbolically like a calculator",
+        "Copy-pasting from its training data"
+      ],
+      "correctIndex": 1,
+      "explanation": "At its core, an LLM is a next-token predictor — everything else emerges from getting really, really good at that one task."
+    },
+    {
+      "index": 1,
+      "question": "What does the 'attention' mechanism do?",
+      "options": [
+        "Keeps the model awake during training",
+        "Randomly selects words to output",
+        "Weighs which earlier tokens matter most for the current prediction",
+        "Filters out inappropriate content"
+      ],
+      "correctIndex": 2,
+      "explanation": "Attention lets the model focus on the relevant parts of the context — like realizing 'muddy' is the clue for what kind of 'bank' you mean."
+    },
+    {
+      "index": 2,
+      "question": "What is a token?",
+      "options": [
+        "A whole sentence",
+        "A single letter",
+        "A chunk of text, often smaller than a word",
+        "A type of neural network"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tokens are sub-word chunks — 'unbelievable' might split into 'un,' 'believ,' 'able' before the model processes it."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Attention Is All You Need",
+      "publisher": "Vaswani et al., NeurIPS",
+      "year": 2017
+    },
+    {
+      "title": "Language Models are Few-Shot Learners",
+      "publisher": "OpenAI / arXiv",
+      "year": 2020
+    }
+  ],
+
+  "related": ["neural-networks-basics", "turing-test", "transformer-architecture"]
+}

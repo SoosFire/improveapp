@@ -1,0 +1,144 @@
+{
+  "id": "tacoma-narrows-bridge",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Tacoma Narrows Bridge Disaster",
+    "teaser": "A 40 mph wind. A half-mile bridge. And the most famous engineering failure ever captured on film.",
+    "category": "Engineering",
+    "subcategories": ["Civil Engineering", "Disaster History"],
+    "tags": ["bridges", "resonance", "failure", "history", "aerodynamics"],
+    "emoji": "🌉",
+    "accentColor": "#0F766E",
+    "coverSymbol": {
+      "sfSymbol": "bolt.horizontal.fill",
+      "fallbackEmoji": "🌉"
+    },
+    "coverImagePrompt": "Black-and-white archival-style footage of a suspension bridge twisting violently in the wind, the roadway warping like a ribbon, dramatic grey sky, cinematic grain"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Galloping Gertie",
+      "body": "When the Tacoma Narrows Bridge opened in July 1940, it was the third-longest suspension bridge in the world — and it bounced so alarmingly that locals nicknamed it 'Galloping Gertie.' Commuters would drive across just for the thrill of watching the car ahead disappear below the horizon of the road. Four months later, Gertie tore herself apart in a 40 mph wind.",
+      "visual": {
+        "sfSymbol": "camera.fill",
+        "imagePrompt": "A 1940s sedan mid-crossing on a gently bouncing bridge deck, hat-wearing driver clutching the wheel, black and white"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Every structure has a rhythm",
+      "body": "Pluck a guitar string and it vibrates at one specific frequency. Push a child on a swing at just the right moment, and a tiny nudge sends them higher and higher. This is resonance — the magic of applying force in sync with a system's natural rhythm. Every physical object has at least one resonant frequency. Bridges are no exception.",
+      "keyTerms": [
+        { "term": "Resonance", "definition": "Amplification that happens when a driving force matches a system's natural frequency" },
+        { "term": "Natural frequency", "definition": "The rate at which an object prefers to vibrate when disturbed" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "A child on a swing, each push timed perfectly with their backward motion, arcs growing larger"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What really broke Gertie",
+      "body": "For decades, textbooks blamed simple resonance. But the real culprit was subtler: aeroelastic flutter. When wind passes a flat, narrow deck, it forms vortices that twist the bridge, and each twist changes how air flows next — feeding energy into the next twist. The motion isn't driven by an outside rhythm. The bridge is pumping itself up with every oscillation. By the time Gertie failed, she was twisting 45 degrees from horizontal.",
+      "keyTerms": [
+        { "term": "Aeroelastic flutter", "definition": "Self-amplifying oscillation caused by feedback between airflow and structure" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "Diagram of airflow swirling around a narrow bridge deck, red arrows showing twist building with each cycle"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "One casualty, one lesson, countless lives saved",
+      "body": "The bridge collapsed at 11:02 a.m. on November 7, 1940. The only death was a cocker spaniel named Tubby, trapped in a stranded car. But the disaster — filmed from multiple angles in stunning slow-motion — became the most-studied structural failure in history. Every modern bridge is tested in wind tunnels because of Gertie. Engineers learned to model flow, stiffen decks, and cut vents into the roadbed to break up dangerous vortices.",
+      "funFact": "The wreckage still lies at the bottom of the Tacoma Narrows, now protected as an artificial reef and on the National Register of Historic Places.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "A film reel showing the bridge collapse frame by frame, a chalkboard with equations in the background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Wind is a structural load",
+      "body": "Before Tacoma, engineers treated wind like a strong man leaning on a wall — a steady push. After Tacoma, they understood it could dance, pump, and amplify itself into a killer. Every suspension bridge built since owes something to a dog named Tubby and a long-dead ribbon of steel.",
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What was the primary cause of the Tacoma Narrows Bridge collapse?",
+      "options": [
+        "Earthquake",
+        "Aeroelastic flutter",
+        "Overloading by traffic",
+        "Foundation failure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flutter — self-amplifying oscillation from airflow-structure feedback — twisted the deck until it failed."
+    },
+    {
+      "index": 1,
+      "question": "What is resonance?",
+      "options": [
+        "A type of bridge cable",
+        "Amplification caused when a driving force matches a natural frequency",
+        "A wind-proofing material",
+        "A calculation error"
+      ],
+      "correctIndex": 1,
+      "explanation": "Like pushing a swing in rhythm, matching a system's natural frequency makes small forces produce large motions."
+    },
+    {
+      "index": 2,
+      "question": "What major practice became standard for bridge design after Tacoma?",
+      "options": [
+        "Steel was banned from suspension bridges",
+        "Bridges are tested in wind tunnels",
+        "All bridges were built with concrete decks",
+        "Bridges were shortened to under 500 feet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wind tunnel testing of scale models became a required step for every major bridge design."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Large Amplitude Motions and Wave Forces on a Ship",
+      "publisher": "American Physical Society / Am. J. Phys. (Billah & Scanlan)",
+      "year": 1991
+    },
+    {
+      "title": "Tacoma Narrows Bridge Collapse Investigation Report",
+      "publisher": "Federal Works Agency",
+      "year": 1941
+    }
+  ],
+
+  "related": ["why-skyscrapers-sway", "resonance-explained", "wind-tunnel-testing"]
+}

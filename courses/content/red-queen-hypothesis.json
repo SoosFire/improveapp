@@ -1,0 +1,141 @@
+{
+  "id": "red-queen-hypothesis",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Red Queen Hypothesis",
+    "teaser": "In evolution, you have to run as fast as you can just to stay in the same place. And some species can't.",
+    "category": "Evolutionary Biology",
+    "subcategories": ["Coevolution", "Parasitology"],
+    "tags": ["red-queen", "coevolution", "arms-race", "sex", "parasites"],
+    "emoji": "♟️",
+    "accentColor": "#9D2933",
+    "coverSymbol": {
+      "sfSymbol": "figure.run",
+      "fallbackEmoji": "🏃"
+    },
+    "coverImagePrompt": "A single crimson Red Queen chess piece on a cracked checkerboard, surrounded by smaller pieces mid-sprint on a treadmill-like looped board, surreal Lewis Carroll-inspired lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "'Here, you have to run...'",
+      "body": "In Lewis Carroll's Through the Looking-Glass, Alice sprints alongside the Red Queen only to discover they haven't moved. 'Now, here,' the Queen tells her, 'it takes all the running you can do, to keep in the same place.' In 1973, evolutionary biologist Leigh Van Valen borrowed that line to describe something he saw in the fossil record — and it reshaped how biologists think about survival.",
+      "visual": {
+        "sfSymbol": "figure.run.circle.fill",
+        "imagePrompt": "Victorian illustration style of Alice and the Red Queen running hand in hand, background blurred with motion yet anchored to the same tree"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Running to stand still",
+      "body": "The Red Queen Hypothesis says species must keep evolving just to maintain their current level of fitness — because the living things around them are evolving too. A predator gets faster, so prey must also get faster. A parasite finds a new trick, so the host must find a counter. Standing still, in biological terms, means falling behind.",
+      "keyTerms": [
+        { "term": "Coevolution", "definition": "Reciprocal evolution between interacting species, each applying selective pressure on the other" },
+        { "term": "Fitness", "definition": "An organism's reproductive success relative to others in its population" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "Two wildlife silhouettes — cheetah and gazelle — mid-chase on a Möbius-loop track stretching to the horizon"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why sex exists (probably)",
+      "body": "Sexual reproduction is biologically expensive. It cuts your genetic transmission in half and needs a partner. So why does almost every complex species do it? The leading answer is Red Queen dynamics. Parasites and pathogens evolve fast. Shuffling genes through sex creates new defensive combinations each generation, staying one step ahead. Cloning yourself is efficient — until the parasites figure you out.",
+      "visual": {
+        "sfSymbol": "shield.lefthalf.filled",
+        "imagePrompt": "DNA double helix surrounded by a swirling storm of stylized viruses, with new recombination patterns glowing at each generation"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The snail and the worm",
+      "body": "New Zealand mud snails provided classic proof. In lakes where parasitic worms are common, the snails mostly reproduce sexually. In parasite-free sites, the same species switches to asexual cloning. In lab experiments tracking generations, cloned snail lineages were quickly overwhelmed by coevolving parasites, while sexual lineages kept pace. The Red Queen was caught in the act.",
+      "funFact": "Van Valen's Red Queen paper was rejected by every major journal, so he founded his own — Evolutionary Theory — just to publish it.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "Microscopic view of a translucent freshwater snail crawling across algae, a few curled parasitic worms visible nearby, cool cyan lab lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "No ecosystem stands still",
+      "body": "The Red Queen reframes extinction not as something that happens when an environment changes, but as something that happens when a species can't evolve fast enough relative to its neighbors. It applies to antibiotic-resistant bacteria, cancer cells outpacing chemotherapy, even languages competing for speakers. Wherever there's selection and interaction, there's a racetrack nobody gets to leave.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the Red Queen Hypothesis claim?",
+      "options": [
+        "Species must keep evolving just to maintain their current fitness",
+        "Evolution eventually reaches a stable endpoint",
+        "Only the strongest species survive long-term",
+        "Mutations occur at a constant rate across species"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coevolving rivals mean that staying the same, in relative terms, requires constant evolutionary change."
+    },
+    {
+      "index": 1,
+      "question": "Why, according to the hypothesis, do most complex species reproduce sexually?",
+      "options": [
+        "Sex produces more offspring than cloning",
+        "Gene shuffling helps hosts stay ahead of parasites",
+        "Sex is easier than reproducing alone",
+        "Sexual species rarely face parasites"
+      ],
+      "correctIndex": 1,
+      "explanation": "Recombination produces novel defense combinations each generation, keeping hosts ahead of fast-evolving parasites."
+    },
+    {
+      "index": 2,
+      "question": "What did the New Zealand mud snail experiments show?",
+      "options": [
+        "Parasites eventually go extinct",
+        "Snails that cloned were overwhelmed by parasites faster than sexual snails",
+        "Sex offers no measurable advantage against parasites",
+        "Snails switch entirely to sexual reproduction when food is scarce"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sexual lineages kept pace with evolving parasites; asexual lineages were quickly overtaken — strong evidence for the Red Queen."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A New Evolutionary Law",
+      "publisher": "Evolutionary Theory (Leigh Van Valen)",
+      "year": 1973
+    },
+    {
+      "title": "Running with the Red Queen: host-parasite coevolution selects for biparental sex",
+      "publisher": "Science (Morran et al.)",
+      "year": 2011
+    }
+  ],
+
+  "related": ["coevolution", "origin-of-sex", "antibiotic-resistance"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "kola-superdeep-borehole",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Kola Superdeep Borehole",
+    "teaser": "The Soviets drilled 12 kilometers into the Earth — then the rock started flowing like plastic.",
+    "category": "Geography",
+    "subcategories": ["Geology", "Earth Science"],
+    "tags": ["geology", "soviet", "earth", "exploration"],
+    "emoji": "🕳️",
+    "accentColor": "#8B4A2B",
+    "coverSymbol": {
+      "sfSymbol": "arrow.down.to.line",
+      "fallbackEmoji": "🕳️"
+    },
+    "coverImagePrompt": "An abandoned Soviet drilling rig in the snowy Arctic tundra of the Kola Peninsula, rusted metal door welded shut over a small dark hole, ominous and cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A door to the underworld",
+      "body": "Near the Russian-Norwegian border, in the frozen Kola Peninsula, sits a rusted metal plate roughly 23 centimeters wide, bolted over a hole in the ground. That hole goes down 12,262 meters — the deepest artificial point on Earth. Dropped into it, a stone would fall for over 3 minutes. The Soviets drilled it to see what Earth is really made of. What they found didn't match the textbooks.",
+      "visual": {
+        "sfSymbol": "circle.dotted",
+        "imagePrompt": "A close-up of a heavy rusted metal plate bolted to cracked concrete, with a small dark hole in the center, Arctic wind blowing snow across the surface"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Cold War's quietest race",
+      "body": "In the 1960s, while the U.S. and USSR raced to the Moon, a second race was happening downward. The U.S. started Project Mohole to drill through the ocean floor. The Soviets responded with the Kola Superdeep Borehole — starting in 1970 and beating every depth record they set. In 1979 they passed the old U.S. record of 9,583 meters. By 1989 they had reached 12,262 meters. And then they stopped.",
+      "keyTerms": [
+        { "term": "Borehole", "definition": "A narrow shaft drilled vertically into the ground for exploration or extraction" },
+        { "term": "Crust", "definition": "The outermost rocky layer of Earth, about 5–70 km thick" }
+      ],
+      "visual": {
+        "sfSymbol": "flag.2.crossed.fill",
+        "imagePrompt": "A Soviet-era technical blueprint showing a cross-section of the borehole compared against the U.S. Mohole and ocean floor"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why they had to stop",
+      "body": "At 12 kilometers down, the rock temperature hit 180°C — much hotter than the 100°C predicted. At that heat, the crystalline rock began behaving like warm plastic, flowing around the drill bit and collapsing the borehole as fast as they could dig. The drill bits couldn't survive. They projected that reaching 15 km would cost more than the Soviet Union could afford. Then in 1991 the USSR itself collapsed. The project was abandoned in 2005.",
+      "visual": {
+        "sfSymbol": "thermometer.high",
+        "imagePrompt": "A rendered cross-section of rock glowing red-hot at depth with a drill bit bending under heat, dark dramatic lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Surprises in the rock",
+      "body": "The borehole overturned assumptions. Geologists expected a granite-to-basalt transition around 7 km — instead, they found fractured, water-saturated rock all the way down. Even at 6 km, water was flowing through cracks in crystalline rock where it shouldn't exist. They found 2.7-billion-year-old microfossils of plankton at 6 km depth — one of the deepest traces of ancient life ever recovered. And yes: the 'Well to Hell' legend, claiming they heard screams from underground, is a hoax from 1989.",
+      "funFact": "The borehole is only 23 cm wide — narrower than a dinner plate — despite being 4 times deeper than the Mariana Trench.",
+      "visual": {
+        "sfSymbol": "magnifyingglass.circle.fill",
+        "imagePrompt": "A cylindrical rock core sample under lab lighting, ancient layers visible, scientist in gloves examining it"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Barely scratched the surface",
+      "body": "For all the effort, Kola reached just 0.2% of the way to Earth's center, which lies 6,371 km below. We've sent probes past Pluto but our planet's deep interior remains largely unexplored. The hole is now sealed, but the data still reshapes geology. Sometimes the biggest discoveries aren't far away — they're straight down, under your feet, and so stubbornly difficult we can barely begin.",
+      "visual": {
+        "sfSymbol": "globe.desk.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How deep did the Kola Superdeep Borehole ultimately reach?",
+      "options": ["3,062 m", "7,540 m", "12,262 m", "20,180 m"],
+      "correctIndex": 2,
+      "explanation": "Drilling reached 12,262 meters in 1989, still the deepest artificial point on Earth."
+    },
+    {
+      "index": 1,
+      "question": "Why did drilling have to be abandoned?",
+      "options": [
+        "They hit underground oil",
+        "Rock became hot and plastic, collapsing the hole",
+        "They broke through into a cavern",
+        "A seismic event shut it down"
+      ],
+      "correctIndex": 1,
+      "explanation": "At 180°C, the rock flowed around the drill bit and closed the shaft faster than they could drill."
+    },
+    {
+      "index": 2,
+      "question": "What surprising find came from deep within the borehole?",
+      "options": [
+        "A layer of pure gold",
+        "2.7-billion-year-old microfossils and flowing water",
+        "Volcanic lava tubes",
+        "Radioactive diamonds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ancient microfossils and unexpected water circulation were found kilometers into crystalline rock."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Kola Superdeep: Interesting Results and Problems of Methodology",
+      "publisher": "Scientific Drilling",
+      "year": 2008
+    },
+    {
+      "title": "The Deepest Hole in the World",
+      "publisher": "BBC Future",
+      "year": 2019
+    }
+  ],
+
+  "related": ["earth-layers", "plate-tectonics", "deep-sea-drilling"]
+}

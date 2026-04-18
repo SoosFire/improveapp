@@ -1,0 +1,141 @@
+{
+  "id": "confirmation-bias",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Confirmation Bias",
+    "teaser": "Why your brain hunts for evidence that you're already right — and quietly ignores the rest.",
+    "category": "Critical Thinking",
+    "subcategories": ["Cognitive Bias", "Reasoning"],
+    "tags": ["bias", "psychology", "reasoning", "evidence", "wason"],
+    "emoji": "🔍",
+    "accentColor": "#8B5E3C",
+    "coverSymbol": {
+      "sfSymbol": "magnifyingglass.circle.fill",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A silhouetted head in profile with a magnifying glass inside, searching through scattered papers, all cheerfully ignoring a large contradictory document behind them, editorial illustration, warm amber palette"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A three-number puzzle",
+      "body": "In 1960, psychologist Peter Wason showed people the sequence 2, 4, 6 and said: 'Guess the rule.' Volunteers could propose more sequences to test. Almost everyone proposed confirming examples — 8, 10, 12 — and concluded the rule was 'even numbers going up by two.' The actual rule was much broader: 'any increasing sequence.' They never thought to test 5, 10, 11 — because humans are deeply reluctant to ask whether they might be wrong.",
+      "visual": {
+        "sfSymbol": "numbers.rectangle.fill",
+        "imagePrompt": "A row of three large numbered cards — 2, 4, 6 — on a wooden table with a thinker's silhouette in the background"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What confirmation bias actually is",
+      "body": "Confirmation bias is the tendency to seek, interpret, and remember information in a way that supports what we already believe. It has three flavours: selective search (we Google things we expect to confirm us), biased interpretation (we scrutinise opposing evidence more harshly), and selective recall (we remember the hits and forget the misses). It's not stupidity — it's the default setting of a brain built to act, not to deliberate.",
+      "keyTerms": [
+        { "term": "Confirmation bias", "definition": "A tendency to favour information that supports existing beliefs" },
+        { "term": "Disconfirming evidence", "definition": "Information that could prove a belief wrong — the test most people avoid" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.3.group.fill",
+        "imagePrompt": "Three filing cabinets labelled Search, Interpret, Remember, each overflowing with papers in a single colour and ignoring a colourful one"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why evolution likes the bias",
+      "body": "Confirmation bias looks like a flaw from a logician's desk, but from an evolutionary standpoint it's economical. If your tribe believes the red berries are poisonous, the cost of confirming that belief is low. The cost of disconfirming it — taking a bite — can be lethal. Our brains evolved to be efficient at surviving tomorrow, not optimal at being right.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": "A hand hesitating above wild berries on a bush, split composition with one person cautiously backing away and another lying sick, editorial illustration"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "It infects experts too",
+      "body": "A famous 1979 Stanford study showed subjects two studies on capital punishment — one supporting deterrence, one rejecting it. Both sides rated the study that agreed with them as methodologically superior and left with their views strengthened, even though they saw the same evidence. Physicians, judges, and intelligence analysts all perform worse on confirmation tasks when cases touch beliefs they hold strongly.",
+      "funFact": "In World War II, statistician Abraham Wald saved countless lives by noticing that the military wanted to armour the places on returning planes where bullets had hit — when really they should have armoured the places without damage, because planes hit there never came back. Classic confirmation trap.",
+      "visual": {
+        "sfSymbol": "airplane",
+        "imagePrompt": "A vintage WWII bomber with red dots marking bullet holes around the wings and fuselage — but none on the engines or cockpit, diagrammatic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "How to pre-commit to doubt",
+      "body": "You can't talk yourself out of confirmation bias in the moment — your mind is already captured. The only reliable defences are structural: write down predictions before you see results, actively seek the strongest counterargument, and phrase questions as 'what would prove me wrong?' Charles Darwin kept a notebook specifically for observations that contradicted his theories. He called them his 'golden facts.'",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What did Wason's 2-4-6 task demonstrate?",
+      "options": [
+        "People are bad at mental arithmetic",
+        "People rarely test their own hypotheses with disconfirming examples",
+        "People prefer small numbers to large ones",
+        "People are good at inductive reasoning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most volunteers only tried sequences that fit their guess. They almost never asked what would falsify their idea."
+    },
+    {
+      "index": 1,
+      "question": "Which of the following is NOT a form of confirmation bias?",
+      "options": [
+        "Searching selectively for supportive information",
+        "Interpreting ambiguous data in favour of your belief",
+        "Remembering confirming examples better than contradicting ones",
+        "Randomly sampling evidence without preference"
+      ],
+      "correctIndex": 3,
+      "explanation": "Random sampling is exactly what confirmation bias is not — it's unbiased by definition."
+    },
+    {
+      "index": 2,
+      "question": "What was Darwin's method for fighting his own bias?",
+      "options": [
+        "He worked only in isolation",
+        "He wrote down observations that contradicted his theories",
+        "He refused to publish controversial ideas",
+        "He only trusted mathematical data"
+      ],
+      "correctIndex": 1,
+      "explanation": "Darwin kept a dedicated notebook for 'golden facts' — the disconfirming observations he was most tempted to forget."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "On the failure to eliminate hypotheses in a conceptual task",
+      "publisher": "Quarterly Journal of Experimental Psychology",
+      "year": 1960
+    },
+    {
+      "title": "Biased Assimilation and Attitude Polarization",
+      "publisher": "Journal of Personality and Social Psychology",
+      "year": 1979
+    }
+  ],
+
+  "related": ["anchoring-effect", "survivorship-bias", "critical-thinking"]
+}

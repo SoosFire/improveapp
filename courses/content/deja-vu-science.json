@@ -1,0 +1,138 @@
+{
+  "id": "deja-vu-science",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Science of Déjà Vu",
+    "teaser": "That eerie feeling you've lived this exact moment before? It's your brain's fact-checker glitching in real time.",
+    "category": "Neuroscience",
+    "subcategories": ["Memory", "Consciousness"],
+    "tags": ["memory", "perception", "brain", "deja vu", "temporal lobe"],
+    "emoji": "🔮",
+    "accentColor": "#8E6EC1",
+    "coverSymbol": {
+      "sfSymbol": "eye.fill",
+      "fallbackEmoji": "👁️"
+    },
+    "coverImagePrompt": "A close-up of a person standing frozen in a cafe, their reflection doubled in a window with a subtle ghostly offset, dreamlike lighting, hint of violet haze"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "I've been here before",
+      "body": "You're in a new city, walking down a street you've never seen. Suddenly — a jolt. You know this street. You know what's around the corner. The feeling is absolute and wrong at the same time, and then it's gone. About 70% of people experience this at least once. For almost 150 years, scientists have been trying to figure out why.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A person pausing mid-step on a rainy European alley, eyes wide, a ripple of gold light passing through the scene, cinematic"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The name is a confession",
+      "body": "The term 'déjà vu' was coined in 1876 by the French philosopher Émile Boirac. It means, literally, 'already seen.' Scientists define it more precisely: a conscious experience of familiarity paired with the equally conscious knowledge that the familiarity is false. It's the feeling and the fact-check happening at the same time.",
+      "keyTerms": [
+        { "term": "Déjà vu", "definition": "A brief, jarring sense that you've lived the current moment before, combined with awareness that you haven't" }
+      ],
+      "visual": {
+        "sfSymbol": "text.book.closed.fill",
+        "imagePrompt": "An antique French dictionary open to the entry 'déjà vu,' soft library light, serif typography"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A familiarity signal misfires",
+      "body": "The leading theory points to the temporal lobes — specifically the rhinal cortex, which generates the feeling of familiarity. Normally, it fires alongside the hippocampus, which provides the actual memory. In déjà vu, researchers believe the familiarity signal fires by itself — without a matching memory — and your frontal cortex immediately flags the mismatch. The result: 'this feels familiar' plus 'but it shouldn't,' at the exact same instant.",
+      "keyTerms": [
+        { "term": "Rhinal cortex", "definition": "A region of the temporal lobe that generates the feeling of familiarity" }
+      ],
+      "visual": {
+        "sfSymbol": "bolt.horizontal.fill",
+        "imagePrompt": "A glowing brain diagram with the temporal lobe lit in amber and a single spark miscommunicating with the hippocampus"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The epilepsy clue",
+      "body": "The clearest evidence comes from people with temporal lobe epilepsy, who often experience intense déjà vu just before a seizure. When neurosurgeons electrically stimulate specific spots in their temporal lobes during brain surgery, patients report the feeling on demand. Alan Brown's lab at SMU has even triggered mild déjà vu in healthy volunteers using virtual reality — by showing them a scene spatially similar to one they'd seen before but consciously forgot.",
+      "funFact": "Déjà vu is most common between ages 15 and 25 and becomes rarer as you age — possibly because your frontal cortex gets better at catching the error before it reaches consciousness.",
+      "visual": {
+        "sfSymbol": "waveform.path.ecg",
+        "imagePrompt": "An EEG printout with a sudden spike highlighted, a blurred operating room in the background, clinical but cinematic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Proof your brain is working",
+      "body": "Déjà vu isn't a glimpse of a past life or a software glitch in the simulation. It's a tiny, private demonstration that your brain has a built-in fact-checker — one fast enough to catch its own mistakes in the act. The weirdness you feel is the moment you become aware of your own mind correcting itself.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'déjà vu' literally mean?",
+      "options": ["Already dreamed", "Already seen", "Second sight", "False memory"],
+      "correctIndex": 1,
+      "explanation": "The term comes from French, coined by Émile Boirac in 1876, meaning 'already seen.'"
+    },
+    {
+      "index": 1,
+      "question": "Which brain region is thought to produce the 'familiar' feeling in déjà vu?",
+      "options": [
+        "The cerebellum",
+        "The rhinal cortex in the temporal lobe",
+        "The amygdala",
+        "The occipital lobe"
+      ],
+      "correctIndex": 1,
+      "explanation": "The rhinal cortex generates feelings of familiarity; when it fires without a matching memory, you get déjà vu."
+    },
+    {
+      "index": 2,
+      "question": "Which group of people experience déjà vu most reliably?",
+      "options": [
+        "People with temporal lobe epilepsy",
+        "People under 5 years old",
+        "People with perfect memory",
+        "People with damaged visual cortex"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temporal lobe epilepsy patients often experience vivid déjà vu as part of seizure auras, giving researchers a window into the phenomenon."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Déjà Vu Experience",
+      "publisher": "Psychology Press",
+      "year": 2004
+    },
+    {
+      "title": "Testing a New Theory of Déjà Vu",
+      "publisher": "Memory journal",
+      "year": 2018
+    }
+  ],
+
+  "related": ["how-memories-form", "temporal-lobe", "false-memory"]
+}

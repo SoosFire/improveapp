@@ -1,0 +1,136 @@
+{
+  "id": "ikea-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The IKEA Effect: Why We Love What We Build",
+    "teaser": "Why does a wobbly bookshelf you assembled feel more valuable than a perfect one you bought?",
+    "category": "Marketing",
+    "subcategories": ["Behavioral Economics", "Consumer Psychology"],
+    "tags": ["ikea-effect", "endowment", "labor", "DIY", "product-design"],
+    "emoji": "🔧",
+    "accentColor": "#0051BA",
+    "coverSymbol": {
+      "sfSymbol": "wrench.and.screwdriver.fill",
+      "fallbackEmoji": "🪑"
+    },
+    "coverImagePrompt": "A half-assembled flat-pack wooden chair in a sunlit apartment, Allen key resting beside it, scattered screws and a proud mug of coffee on the floor, cinematic golden hour light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Your ugly shelf, your favorite shelf",
+      "body": "The bookcase leans slightly. One shelf is upside down. You spent three hours and uttered at least one word your grandmother would disapprove of. And yet — you love it. If someone offered to swap it for a professionally built identical one, you'd probably say no. Why?",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "A slightly crooked DIY bookshelf filled with books in a cozy living room"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Labor becomes love",
+      "body": "Harvard researcher Michael Norton and colleagues named this the 'IKEA effect': when we invest effort into making something, we value the finished thing more — sometimes far more than it's objectively worth. The sweat itself gets baked into the price tag in our heads.",
+      "keyTerms": [
+        { "term": "IKEA effect", "definition": "Our tendency to overvalue objects we partially created ourselves" },
+        { "term": "Endowment effect", "definition": "Valuing something more simply because we own it" }
+      ],
+      "visual": {
+        "sfSymbol": "hammer.fill",
+        "imagePrompt": "A hand holding a hammer with a glowing aura around a half-built wooden object"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "The origami experiment",
+      "body": "In Norton's 2011 study, participants folded origami frogs and cranes — objectively mediocre ones. They were then asked what they'd pay for their own creations versus those made by experts. Builders valued their lumpy paper animals roughly five times higher than non-builders did. Same paper, same folds. Different owner.",
+      "funFact": "The effect only kicked in if participants actually finished the build. Half-assembled objects didn't trigger it — completion matters.",
+      "visual": {
+        "sfSymbol": "scribble.variable",
+        "imagePrompt": "A clumsy origami frog on a white table, lit like a museum artifact"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why effort tricks the brain",
+      "body": "Part of it is pride — finished work signals competence to ourselves. Part of it is attachment — the object carries memories of your hands on it. And part is cognitive: justifying the effort ('that was worth it') feels better than admitting you wasted an afternoon on a $40 stool. Companies have quietly used this for decades. Betty Crocker famously boosted cake mix sales by requiring home cooks to add their own egg.",
+      "visual": {
+        "sfSymbol": "heart.fill",
+        "imagePrompt": "A wooden chair with a glowing heart-shaped aura, warm lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Effort as a design choice",
+      "body": "Customization tools, build-your-own meals, writing apps that make you pick fonts — these aren't just features, they're ownership manufacturing. The smarter question isn't 'is this product good?' but 'did they let me leave a fingerprint on it?' When you did, letting go gets much, much harder.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the IKEA effect describe?",
+      "options": [
+        "Preferring Swedish design in general",
+        "Overvaluing objects we helped create",
+        "Buying more when you're hungry",
+        "Trusting brands with blue logos"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's the tendency to place extra value on things we put effort into building ourselves."
+    },
+    {
+      "index": 1,
+      "question": "In the origami study, builders valued their creations how much more than non-builders did?",
+      "options": ["About the same", "Roughly twice as much", "Roughly five times as much", "Ten times as much"],
+      "correctIndex": 2,
+      "explanation": "Norton and colleagues found builders priced their own lumpy frogs about five times higher."
+    },
+    {
+      "index": 2,
+      "question": "Why did Betty Crocker ask bakers to add a fresh egg to cake mix?",
+      "options": [
+        "Eggs couldn't be shipped",
+        "To make the cakes taste better",
+        "To create a small sense of effort and ownership",
+        "To comply with food regulations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding real effort made home bakers feel the cake was 'theirs' — sales climbed sharply."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The IKEA Effect: When Labor Leads to Love",
+      "publisher": "Journal of Consumer Psychology",
+      "year": 2012
+    },
+    {
+      "title": "Predictably Irrational",
+      "publisher": "Dan Ariely, HarperCollins",
+      "year": 2008
+    }
+  ],
+
+  "related": ["decoy-effect", "endowment-effect", "sunk-cost-fallacy"]
+}

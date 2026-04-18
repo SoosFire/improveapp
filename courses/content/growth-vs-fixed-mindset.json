@@ -1,0 +1,141 @@
+{
+  "id": "growth-vs-fixed-mindset",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Growth vs. Fixed Mindset",
+    "teaser": "Two kids get the same test score. One says 'I'm smart'. The other says 'I tried hard'. Decades later, their lives look completely different.",
+    "category": "Self-improvement",
+    "subcategories": ["Psychology", "Learning"],
+    "tags": ["mindset", "dweck", "learning", "motivation", "psychology"],
+    "emoji": "🌱",
+    "accentColor": "#27AE60",
+    "coverSymbol": {
+      "sfSymbol": "leaf.circle.fill",
+      "fallbackEmoji": "🌳"
+    },
+    "coverImagePrompt": "A single sapling growing from cracked stone next to a rigid marble statue of a brain. Morning light, painterly, quietly hopeful."
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A tale of two praises",
+      "body": "In the late 1990s, psychologist Carol Dweck gave 400 New York fifth-graders a simple puzzle. After they finished, half were told 'You must be smart at this', and half 'You must have worked really hard.' Then she offered them a choice: try a harder puzzle, or an easy one again. The kids praised for being smart mostly picked easy. The kids praised for effort overwhelmingly chose the challenge. A single sentence of praise had split them into two different tracks.",
+      "visual": {
+        "sfSymbol": "puzzlepiece.fill",
+        "imagePrompt": "A classroom desk with two small puzzles, one labelled 'easy' and one 'hard', a nervous child's hand hovering between them"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Fixed vs. growth",
+      "body": "Dweck named the two patterns 'fixed' and 'growth' mindsets. A fixed mindset treats intelligence and talent as stable traits you have or don't have — so failure feels like evidence you lack them. A growth mindset treats them as things you develop through effort — so failure is information about what to try next. It's not about being naturally optimistic. It's about what you believe ability *is*.",
+      "keyTerms": [
+        { "term": "Fixed mindset", "definition": "The belief that abilities are innate and largely unchangeable" },
+        { "term": "Growth mindset", "definition": "The belief that abilities can be developed through effort and strategy" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.up.right.circle.fill",
+        "imagePrompt": "Two glass jars side by side — one sealed tight labelled 'fixed', the other open with roots growing out labelled 'growth'"
+      }
+    },
+    {
+      "index": 2,
+      "type": "evidence",
+      "title": "Brains literally respond differently",
+      "body": "In follow-up neuroscience work, Moser and Dweck had participants complete tasks while wearing EEG caps. After making a mistake, growth-mindset participants showed a bigger brain response — specifically in an error-correction signal called 'Pe' — and they fixed their errors faster. Fixed-mindset participants' brains essentially looked away. The difference wasn't hypothetical: it was measurable at the millisecond level.",
+      "funFact": "Dweck says the single most powerful word you can add to 'I can't do this' is 'yet'.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "An EEG readout with two overlaid waveforms, one reacting strongly to a labelled 'error', the other flat"
+      }
+    },
+    {
+      "index": 3,
+      "type": "explanation",
+      "title": "Why this is not just positive thinking",
+      "body": "Recent meta-analyses have been more skeptical. A 2018 review by Sisk and colleagues found growth-mindset interventions had small average effects — though the effects were larger and more reliable for low-income students and struggling learners. In other words, mindset doesn't magically turn anyone into a genius, but for the people furthest from the starting line, it meaningfully changes whether they keep running.",
+      "visual": {
+        "sfSymbol": "magnifyingglass",
+        "imagePrompt": "A research paper underlined with blue pencil, a magnifying glass on top revealing a single sentence in focus"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Praising the process",
+      "body": "The practical shift is narrow and specific: praise effort, strategy, and learning — not innate ability. 'You figured out a new approach' teaches growth; 'You're so smart' quietly teaches fragility. The same logic applies to self-talk. How you explain your own last failure is probably shaping whether you try the next thing.",
+      "visual": {
+        "sfSymbol": "text.bubble.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In Dweck's puzzle study, which group of kids chose the harder challenge?",
+      "options": [
+        "Those praised for being smart",
+        "Those praised for their effort",
+        "Both groups equally",
+        "Neither — most avoided it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Praising effort signaled that the challenge itself was what mattered, not protecting a 'smart' identity."
+    },
+    {
+      "index": 1,
+      "question": "What does a growth mindset fundamentally believe about ability?",
+      "options": [
+        "Ability is set at birth",
+        "Ability is developed through effort and strategy",
+        "Ability matters less than luck",
+        "Ability is purely social"
+      ],
+      "correctIndex": 1,
+      "explanation": "Growth mindset frames ability as trainable — failure becomes feedback rather than a verdict."
+    },
+    {
+      "index": 2,
+      "question": "What did more recent meta-analyses find about growth-mindset interventions?",
+      "options": [
+        "Huge effects for everyone",
+        "No effects at all",
+        "Small overall effects, larger for struggling learners",
+        "Negative effects"
+      ],
+      "correctIndex": 2,
+      "explanation": "Effects are modest on average but tend to be stronger and more reliable for at-risk learners."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mindset: The New Psychology of Success",
+      "publisher": "Random House",
+      "year": 2006
+    },
+    {
+      "title": "To what extent and under which circumstances are growth mindsets important to academic achievement?",
+      "publisher": "Psychological Science",
+      "year": 2018
+    }
+  ],
+
+  "related": ["deep-work-concept", "spaced-repetition", "deliberate-practice"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "stalemate-vs-checkmate",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Stalemate: The Draw That Shouldn't Exist",
+    "teaser": "You have a queen, a rook, and twelve pawns. Your opponent has only a king. And you just lost half a point.",
+    "category": "Chess",
+    "subcategories": ["Chess Rules", "Endgame"],
+    "tags": ["chess", "stalemate", "rules", "endgame", "draw"],
+    "emoji": "♔",
+    "accentColor": "#6F5A7A",
+    "coverSymbol": {
+      "sfSymbol": "crown.fill",
+      "fallbackEmoji": "♔"
+    },
+    "coverImagePrompt": "A lonely black king on an empty chess board surrounded by overwhelming white forces, frozen in place, moody contrast lighting, cinematic tension"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A draw that feels like a bug",
+      "body": "Imagine crushing your opponent for 40 moves. You've hunted down their army. Only their lone king is left, huddled in a corner. You move in for the kill — and suddenly the clock says 'draw.' You've just blundered into stalemate, chess's strangest rule, where overwhelming victory collapses into a tie in a single move.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A dramatic chess scene: a black king alone in the corner with no legal moves, white queen one square away"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The precise rule",
+      "body": "Stalemate happens when it's your opponent's turn, their king is NOT in check, but they have no legal move — any move they tried would put their own king in check. By modern rules, that position is a draw. Both players get half a point. It's the technicality at the heart of every coffeehouse heartbreak.",
+      "keyTerms": [
+        { "term": "Checkmate", "definition": "The king is in check and no legal move can escape it — the game is lost" },
+        { "term": "Stalemate", "definition": "The king is NOT in check, but no legal move exists — the game is drawn" }
+      ],
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": "Side-by-side chess diagrams: one position labeled 'checkmate' with king under attack; one labeled 'stalemate' with king not under attack"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it's a draw (and wasn't always)",
+      "body": "For centuries, rulebooks disagreed. In 18th-century England, stalemating your opponent meant you LOST — it was considered clumsy to pen your king so tight you left him no moves. In India and parts of Europe, stalemate was a WIN. Others treated it like a pass. Only in the 19th century did the modern convention settle: stalemate equals draw. The reason is elegant — chess's only legal goal is to checkmate, and if you can't, you haven't actually won.",
+      "visual": {
+        "sfSymbol": "book.fill",
+        "imagePrompt": "A stack of historical chess books from different centuries with conflicting stalemate rules highlighted"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How grandmasters weaponize it",
+      "body": "In losing positions, the weaker side actively hunts for stalemate. The most famous example is the Troitsky fortress in endgames with two knights vs pawns, where the defender stalemates by locking their king in a corner. Real-game stalemate tricks have saved half-points in world-championship events: in 1927, Capablanca vs Alekhine game 27 hinged on the threat of stalemate resource. Even Magnus Carlsen has been stalemated more than once at the elite level when he pushed too hard to win.",
+      "funFact": "Some chess variants, like Losing Chess, actually reward you for being stalemated — turning the whole rule on its head.",
+      "visual": {
+        "sfSymbol": "figure.fencing",
+        "imagePrompt": "A tense endgame position where the losing side is creating a stalemate trap, arrows highlighting the swindle"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Checkmate is the only win",
+      "body": "The deeper lesson of stalemate is that chess is about a single goal — trap the enemy king — and everything else is just support. Having more pieces doesn't win by itself. Until you deliver that final check, the game isn't over. Overwhelming force is never a substitute for accuracy.",
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which condition defines stalemate?",
+      "options": [
+        "The king is in check and cannot escape",
+        "The king is not in check but no legal move exists",
+        "A player runs out of time",
+        "A player offers a draw"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stalemate requires that the king is NOT under attack yet has no legal move available."
+    },
+    {
+      "index": 1,
+      "question": "How did 18th-century English players interpret stalemate?",
+      "options": [
+        "Always as a draw",
+        "As a win for the player who was stalemated",
+        "As a loss for the player delivering stalemate",
+        "As an illegal position to be replayed"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 18th-century England, delivering stalemate was considered a failure — the player doing so actually lost the game."
+    },
+    {
+      "index": 2,
+      "question": "What is the only legal way to win a standard chess game?",
+      "options": ["Capturing the enemy queen", "Delivering checkmate", "Promoting three pawns", "Controlling the center"],
+      "correctIndex": 1,
+      "explanation": "Checkmate is the only way to win in standard chess — no matter how many pieces you have, the game only ends when you deliver it."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A History of Chess",
+      "publisher": "Oxford University Press (H.J.R. Murray)",
+      "year": 1913
+    },
+    {
+      "title": "FIDE Laws of Chess",
+      "publisher": "Fédération Internationale des Échecs",
+      "year": 2023
+    }
+  ],
+
+  "related": ["endgame-basics", "fifty-move-rule", "draw-by-repetition"]
+}

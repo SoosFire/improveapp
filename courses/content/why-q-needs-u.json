@@ -1,0 +1,130 @@
+{
+  "id": "why-q-needs-u",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why 'Q' Almost Always Needs 'U'",
+    "teaser": "The strangest rule in English has a 3,000-year journey behind it — through Phoenicia, Rome, and medieval monks.",
+    "category": "Language",
+    "subcategories": ["Etymology", "Writing Systems"],
+    "tags": ["language", "letters", "english", "latin", "alphabet"],
+    "emoji": "🔤",
+    "accentColor": "#B85C8E",
+    "coverSymbol": {
+      "sfSymbol": "textformat",
+      "fallbackEmoji": "🔤"
+    },
+    "coverImagePrompt": "An illuminated medieval manuscript page, an oversized letter Q inked in gold with a U twined into its tail, candlelight flickering across parchment, cinematic close-up"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 4,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Quiz, quilt, queen",
+      "body": "Scroll through an English dictionary looking for words that start with Q without a U following it. You'll find fewer than two dozen, and almost all are borrowings — qi, qat, qoph. Everywhere else, Q and U are inseparable. Why? Because the pair isn't a spelling quirk. It's a 3,000-year-old habit.",
+      "visual": {
+        "sfSymbol": "book.closed.fill",
+        "imagePrompt": "A dictionary open to the letter Q, a finger sliding down the page, words glowing softly with an amber reading lamp above"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three letters for three sounds",
+      "body": "The ancient Phoenicians had three separate letters for three similar-sounding consonants. One, called 'qoph', represented a deep throaty K — formed further back in the mouth than regular K. When the Greeks borrowed the Phoenician alphabet around 800 BCE, they eventually dropped qoph. But the Etruscans kept it, and passed it to the Romans.",
+      "keyTerms": [
+        { "term": "Qoph", "definition": "A Phoenician letter for a deep 'K' sound, the ancestor of both Q and our word 'quest'" },
+        { "term": "Etruscan", "definition": "A pre-Roman civilization in Italy whose alphabet was adapted into Latin" }
+      ],
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": "A stone-carved Phoenician inscription weathered by centuries, subtle glow tracing the qoph symbol among its letters"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The Latin rule that stuck",
+      "body": "In Latin, Q was reserved for a very specific situation: a K-sound followed immediately by a W-sound, as in 'aqua' (water) or 'equus' (horse). The Romans wrote that W-sound with the letter V — so every Q always had a V (later U) glued to it. A thousand years later, French scribes brought that exact habit to English, and it never let go.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A Roman inscription carved in marble with the word AQVA prominent, dramatic directional lighting casting deep shadows in the chiseled letters"
+      }
+    },
+    {
+      "index": 3,
+      "type": "takeaway",
+      "title": "A fossilized partnership",
+      "body": "Q-without-U words in English are almost entirely loans from Arabic, Hebrew, or Chinese — languages that use a 'Q' sound without the 'W' after it. When Scrabble players triumphantly play 'qi', they're basically waving a little flag from outside the English tradition. Inside it, Q and U remain one of the oldest couples in writing.",
+      "visual": {
+        "sfSymbol": "link",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why does Q almost always appear with U in English?",
+      "options": [
+        "Q can't be pronounced alone",
+        "Latin used Q only for a K+W sound, and that pairing carried into English",
+        "It was a royal decree in medieval England",
+        "Printers didn't have a Q key"
+      ],
+      "correctIndex": 1,
+      "explanation": "Latin's strict Q-then-V pattern for a /kw/ sound became entrenched as Q-U through French and then English."
+    },
+    {
+      "index": 1,
+      "question": "Where does the letter Q ultimately come from?",
+      "options": [
+        "Ancient Greek",
+        "A Phoenician letter called qoph",
+        "The Roman alphabet, with no earlier source",
+        "Old English runes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Q descends from the Phoenician qoph, a letter for a deep K sound, via Etruscan and Latin."
+    },
+    {
+      "index": 2,
+      "question": "Why are words like 'qi' and 'qat' exceptions?",
+      "options": [
+        "They're spelling mistakes",
+        "They come from languages without the /kw/ pairing, so no U is needed",
+        "They're only allowed in poetry",
+        "They originally had a silent U"
+      ],
+      "correctIndex": 1,
+      "explanation": "Borrowings from Arabic, Hebrew, Chinese, and others use a Q sound without a following W, so English keeps them U-less."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Oxford Companion to the English Language",
+      "publisher": "Oxford University Press",
+      "year": 2018
+    },
+    {
+      "title": "A History of Writing",
+      "publisher": "Reaktion Books",
+      "year": 2004
+    }
+  ],
+
+  "related": ["phoenician-alphabet", "origin-of-english", "silent-letters"]
+}

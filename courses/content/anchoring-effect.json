@@ -1,0 +1,141 @@
+{
+  "id": "anchoring-effect",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Anchoring Effect",
+    "teaser": "A random number can change what you're willing to pay — even if you know it's random.",
+    "category": "Critical Thinking",
+    "subcategories": ["Cognitive Bias", "Behavioural Economics"],
+    "tags": ["anchoring", "bias", "kahneman", "negotiation", "psychology"],
+    "emoji": "⚓",
+    "accentColor": "#44617B",
+    "coverSymbol": {
+      "sfSymbol": "chevron.down.square.fill",
+      "fallbackEmoji": "🎯"
+    },
+    "coverImagePrompt": "A heavy rusted ship's anchor resting on a price tag in a clean studio setting, dramatic side-lighting, surreal still life photography in navy and cream tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A rigged wheel of fortune",
+      "body": "In a famous 1974 experiment, Amos Tversky and Daniel Kahneman spun a rigged wheel in front of volunteers. The wheel stopped at either 10 or 65. Then they asked: what percentage of African nations are members of the United Nations? People who saw 10 guessed, on average, 25%. People who saw 65 guessed 45%. The wheel was obviously random — and it still moved their answers by 20 percentage points.",
+      "visual": {
+        "sfSymbol": "circle.dashed",
+        "imagePrompt": "A vintage wooden prize wheel mid-spin, blurred numbers on its edges, a volunteer's hand hovering over a clipboard beside it, cinematic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What anchoring is",
+      "body": "Anchoring is the tendency to lean on an initial piece of numerical information — the 'anchor' — when estimating an unknown value. It happens almost automatically. The brain uses the anchor as a starting point and adjusts from there, but the adjustments are almost always insufficient. The anchor doesn't have to be relevant, expert, or even plausible to work.",
+      "keyTerms": [
+        { "term": "Anchor", "definition": "An initial number that biases a subsequent estimate, whether relevant or not" },
+        { "term": "Adjustment", "definition": "The mental process of moving away from an anchor — typically too small" }
+      ],
+      "visual": {
+        "sfSymbol": "ruler.fill",
+        "imagePrompt": "A measuring tape pinned at one end with a large red dot, the other end loosely wandering toward a question mark, minimalist illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why even judges fall for it",
+      "body": "A 2006 study asked German judges to read an identical shoplifting case, then roll dice that were rigged to land on either 3 or 9. Judges who rolled the high number recommended prison sentences about 50% longer than those who rolled the low number. These were experienced professionals, deciding sentences, while rolling dice — and the dice still moved them.",
+      "funFact": "Real estate agents, shown identical houses but given different listing prices, produced appraisals that shifted by tens of thousands of dollars. All of them denied afterward that the listing price had influenced them.",
+      "visual": {
+        "sfSymbol": "scale.3d",
+        "imagePrompt": "A pair of dice on a courtroom bench next to a gavel, shallow depth-of-field, dim wood-panelled lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where it shows up in your day",
+      "body": "Anchoring drives haggling — 'list price' sets an expectation the discount has to overcome. It drives restaurant menus — a $95 steak makes the $34 pasta feel reasonable. It drives salary negotiation — whoever names a number first usually wins. Even pick-a-number-between-1-and-100 ads on social media are often soft anchoring experiments, teaching your brain what 'expensive' and 'cheap' mean for a category.",
+      "visual": {
+        "sfSymbol": "menucard.fill",
+        "imagePrompt": "A restaurant menu in warm candlelight showing an eye-catching expensive dish at the top, smaller items underneath in softer typography"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Defending against the drag",
+      "body": "You cannot un-see an anchor, but you can reduce its pull. Before any negotiation, decide your own number and reasoning first. When you read a figure, ask what someone who hadn't seen it would guess. Consider the opposite explicitly. The anchoring effect doesn't disappear — it just weakens when you give yourself something to counter-weight it.",
+      "visual": {
+        "sfSymbol": "figure.mind.and.body",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In Tversky and Kahneman's 1974 experiment, what biased people's estimates?",
+      "options": [
+        "A map of Africa",
+        "A rigged wheel showing a random number",
+        "A televised news report",
+        "A UN pamphlet"
+      ],
+      "correctIndex": 1,
+      "explanation": "A single obviously-random wheel spin shifted estimates by 20 percentage points, showing anchors don't have to be relevant."
+    },
+    {
+      "index": 1,
+      "question": "Which profession did a 2006 study show was vulnerable to anchoring?",
+      "options": [
+        "Pilots",
+        "Chefs",
+        "Judges",
+        "Architects"
+      ],
+      "correctIndex": 2,
+      "explanation": "German judges' sentence recommendations shifted dramatically based on a dice roll — despite their training and experience."
+    },
+    {
+      "index": 2,
+      "question": "Why is the 'first number in a negotiation' often powerful?",
+      "options": [
+        "It's usually the correct number",
+        "It sets an anchor the other side unconsciously adjusts from",
+        "It must be matched by law",
+        "It locks out further bargaining"
+      ],
+      "correctIndex": 1,
+      "explanation": "The opening number becomes the reference point — subsequent offers tend to cluster around it, even when it was somewhat arbitrary."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Judgment under Uncertainty: Heuristics and Biases",
+      "publisher": "Science",
+      "year": 1974
+    },
+    {
+      "title": "Playing Dice With Criminal Sentences",
+      "publisher": "Personality and Social Psychology Bulletin",
+      "year": 2006
+    }
+  ],
+
+  "related": ["confirmation-bias", "availability-heuristic", "loss-aversion"]
+}
