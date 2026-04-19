@@ -141,11 +141,9 @@ function escape(s) {
 
 function tile(cat) {
   const emoji = CATEGORY_EMOJI[cat] || "✨";
-  const count = counts[cat] || 0;
   return `<button class="tile" data-cat="${escape(cat)}">
     <div class="tile-emoji">${emoji}</div>
     <div class="tile-name">${escape(cat)}</div>
-    <div class="tile-count">${count}</div>
     <div class="tile-check">✓</div>
   </button>`;
 }
@@ -155,13 +153,11 @@ const groupsHtml = META_GROUPS.map((g) => {
     .filter((c) => counts[c])
     .map(tile)
     .join("");
-  const totalCount = g.cats.reduce((sum, c) => sum + (counts[c] || 0), 0);
   return `
     <section class="group">
       <div class="group-head">
         <span class="group-emoji">${g.emoji}</span>
         <span class="group-name">${escape(g.name)}</span>
-        <span class="group-count">${totalCount}</span>
       </div>
       <div class="tiles">${tiles}</div>
     </section>
@@ -241,14 +237,12 @@ const html = `<!doctype html>
   .random-label { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; }
   .random-title { font-size: 28px; font-weight: 800; margin: 8px 0 4px; letter-spacing: -0.02em; position: relative; z-index: 1; }
   .random-sub { font-size: 13px; opacity: 0.9; position: relative; z-index: 1; }
-  .random-count { position: absolute; top: 22px; right: 22px; background: rgba(0,0,0,0.25); backdrop-filter: blur(8px); font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 999px; z-index: 1; }
 
   /* meta group */
   .group { margin-bottom: 24px; }
   .group-head { display: flex; align-items: center; gap: 8px; margin: 0 4px 12px; }
   .group-emoji { font-size: 18px; }
   .group-name { font-size: 14px; font-weight: 700; letter-spacing: -0.01em; color: var(--text); flex: 1; }
-  .group-count { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
 
   /* tiles grid */
   .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
@@ -263,7 +257,6 @@ const html = `<!doctype html>
   .tile.selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--panel)); }
   .tile-emoji { font-size: 28px; line-height: 1; margin-top: 2px; }
   .tile-name { font-size: 12px; font-weight: 600; line-height: 1.2; letter-spacing: -0.005em; color: var(--text); }
-  .tile-count { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
   .tile-check {
     position: absolute; top: 8px; right: 8px;
     width: 18px; height: 18px; border-radius: 50%;
@@ -322,13 +315,12 @@ const html = `<!doctype html>
     </div>
 
     <button class="random" id="randomBtn">
-      <div class="random-count">${totalCourses} courses</div>
       <div class="top">
         <div class="random-emoji">🎲</div>
         <div class="random-label">Feeling lucky</div>
       </div>
       <div class="random-title">Surprise me</div>
-      <div class="random-sub">Everything — ${totalCats} categories, shuffled.</div>
+      <div class="random-sub">A fresh mix across every topic we've got.</div>
     </button>
 
     ${groupsHtml}
@@ -388,17 +380,16 @@ document.querySelectorAll(".tile").forEach((tile) => {
 });
 
 function startFeed(mode, categories) {
-  const total = categories.reduce((sum, c) => sum + (CATEGORY_COUNTS[c] || 0), 0);
   if (mode === "random") {
     overlayTitle.textContent = "Shuffling everything";
-    overlaySub.textContent = \`\${total} courses across \${categories.length} categories, in random order.\`;
+    overlaySub.textContent = "A random mix across every topic we've got.";
   } else {
-    overlayTitle.textContent = \`\${total} courses queued up\`;
+    overlayTitle.textContent = "Your feed is ready";
     overlaySub.textContent = \`Tuned to \${categories.length} \${categories.length === 1 ? "category" : "categories"}.\`;
   }
   overlayList.innerHTML = categories
     .sort()
-    .map((c) => \`<li>\${c} <span style="color:var(--muted)">(\${CATEGORY_COUNTS[c] || 0})</span></li>\`)
+    .map((c) => \`<li>\${c}</li>\`)
     .join("");
   overlay.classList.add("visible");
 }

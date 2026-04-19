@@ -68,14 +68,12 @@
   .random-label { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; }
   .random-title { font-size: 28px; font-weight: 800; margin: 8px 0 4px; letter-spacing: -0.02em; position: relative; z-index: 1; }
   .random-sub { font-size: 13px; opacity: 0.9; position: relative; z-index: 1; }
-  .random-count { position: absolute; top: 22px; right: 22px; background: rgba(0,0,0,0.25); backdrop-filter: blur(8px); font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 999px; z-index: 1; }
 
   /* meta group */
   .group { margin-bottom: 24px; }
   .group-head { display: flex; align-items: center; gap: 8px; margin: 0 4px 12px; }
   .group-emoji { font-size: 18px; }
   .group-name { font-size: 14px; font-weight: 700; letter-spacing: -0.01em; color: var(--text); flex: 1; }
-  .group-count { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
 
   /* tiles grid */
   .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
@@ -90,7 +88,6 @@
   .tile.selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--panel)); }
   .tile-emoji { font-size: 28px; line-height: 1; margin-top: 2px; }
   .tile-name { font-size: 12px; font-weight: 600; line-height: 1.2; letter-spacing: -0.005em; color: var(--text); }
-  .tile-count { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
   .tile-check {
     position: absolute; top: 8px; right: 8px;
     width: 18px; height: 18px; border-radius: 50%;
@@ -149,13 +146,12 @@
     </div>
 
     <button class="random" id="randomBtn">
-      <div class="random-count">363 courses</div>
       <div class="top">
         <div class="random-emoji">🎲</div>
         <div class="random-label">Feeling lucky</div>
       </div>
       <div class="random-title">Surprise me</div>
-      <div class="random-sub">Everything — 69 categories, shuffled.</div>
+      <div class="random-sub">A fresh mix across every topic we've got.</div>
     </button>
 
     
@@ -163,77 +159,62 @@
       <div class="group-head">
         <span class="group-emoji">🌿</span>
         <span class="group-name">Science &amp; Nature</span>
-        <span class="group-count">76</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Physics">
     <div class="tile-emoji">⚛️</div>
     <div class="tile-name">Physics</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Chemistry">
     <div class="tile-emoji">🧪</div>
     <div class="tile-name">Chemistry</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Biology">
     <div class="tile-emoji">🧬</div>
     <div class="tile-name">Biology</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Astronomy">
     <div class="tile-emoji">🌌</div>
     <div class="tile-name">Astronomy</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Genetics">
     <div class="tile-emoji">🧬</div>
     <div class="tile-name">Genetics</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Evolutionary Biology">
     <div class="tile-emoji">🦍</div>
     <div class="tile-name">Evolutionary Biology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Microbiology">
     <div class="tile-emoji">🦠</div>
     <div class="tile-name">Microbiology</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Botany">
     <div class="tile-emoji">🌱</div>
     <div class="tile-name">Botany</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Paleontology">
     <div class="tile-emoji">🦖</div>
     <div class="tile-name">Paleontology</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Marine Life">
     <div class="tile-emoji">🐙</div>
     <div class="tile-name">Marine Life</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Wildlife">
     <div class="tile-emoji">🦁</div>
     <div class="tile-name">Wildlife</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Climate Science">
     <div class="tile-emoji">🌍</div>
     <div class="tile-name">Climate Science</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Weather">
     <div class="tile-emoji">⛈️</div>
     <div class="tile-name">Weather</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Nature">
     <div class="tile-emoji">🌳</div>
     <div class="tile-name">Nature</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -242,27 +223,22 @@
       <div class="group-head">
         <span class="group-emoji">🏺</span>
         <span class="group-name">History &amp; Culture</span>
-        <span class="group-count">22</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="History">
     <div class="tile-emoji">⚔️</div>
     <div class="tile-name">History</div>
-    <div class="tile-count">7</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Archaeology">
     <div class="tile-emoji">🏺</div>
     <div class="tile-name">Archaeology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Anthropology">
     <div class="tile-emoji">👥</div>
     <div class="tile-name">Anthropology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Religion &amp; Mythology">
     <div class="tile-emoji">✨</div>
     <div class="tile-name">Religion &amp; Mythology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -271,47 +247,38 @@
       <div class="group-head">
         <span class="group-emoji">💭</span>
         <span class="group-name">Mind &amp; Ideas</span>
-        <span class="group-count">41</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Psychology">
     <div class="tile-emoji">🎭</div>
     <div class="tile-name">Psychology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Neuroscience">
     <div class="tile-emoji">🧠</div>
     <div class="tile-name">Neuroscience</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Philosophy">
     <div class="tile-emoji">🤔</div>
     <div class="tile-name">Philosophy</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Ethics">
     <div class="tile-emoji">⚖️</div>
     <div class="tile-name">Ethics</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Critical Thinking">
     <div class="tile-emoji">💡</div>
     <div class="tile-name">Critical Thinking</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Logic">
     <div class="tile-emoji">🧩</div>
     <div class="tile-name">Logic</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Mindfulness &amp; Meditation">
     <div class="tile-emoji">🧘</div>
     <div class="tile-name">Mindfulness &amp; Meditation</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Mental Health">
     <div class="tile-emoji">💭</div>
     <div class="tile-name">Mental Health</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -320,22 +287,18 @@
       <div class="group-head">
         <span class="group-emoji">📖</span>
         <span class="group-name">Words &amp; Stories</span>
-        <span class="group-count">15</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Literature">
     <div class="tile-emoji">📖</div>
     <div class="tile-name">Literature</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Language">
     <div class="tile-emoji">💬</div>
     <div class="tile-name">Language</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Linguistics">
     <div class="tile-emoji">🔤</div>
     <div class="tile-name">Linguistics</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -344,47 +307,38 @@
       <div class="group-head">
         <span class="group-emoji">🎨</span>
         <span class="group-name">Arts &amp; Design</span>
-        <span class="group-count">43</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Art">
     <div class="tile-emoji">🎨</div>
     <div class="tile-name">Art</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Music">
     <div class="tile-emoji">🎵</div>
     <div class="tile-name">Music</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Film &amp; Cinema">
     <div class="tile-emoji">🎬</div>
     <div class="tile-name">Film &amp; Cinema</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Photography">
     <div class="tile-emoji">📷</div>
     <div class="tile-name">Photography</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Theater &amp; Drama">
     <div class="tile-emoji">🎭</div>
     <div class="tile-name">Theater &amp; Drama</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Architecture">
     <div class="tile-emoji">🏛️</div>
     <div class="tile-name">Architecture</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Design">
     <div class="tile-emoji">✏️</div>
     <div class="tile-name">Design</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Fashion">
     <div class="tile-emoji">👗</div>
     <div class="tile-name">Fashion</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -393,37 +347,30 @@
       <div class="group-head">
         <span class="group-emoji">💻</span>
         <span class="group-name">Tech &amp; Math</span>
-        <span class="group-count">30</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Mathematics">
     <div class="tile-emoji">📐</div>
     <div class="tile-name">Mathematics</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Technology">
     <div class="tile-emoji">📱</div>
     <div class="tile-name">Technology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Computer Science">
     <div class="tile-emoji">💻</div>
     <div class="tile-name">Computer Science</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Artificial Intelligence">
     <div class="tile-emoji">🤖</div>
     <div class="tile-name">Artificial Intelligence</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Engineering">
     <div class="tile-emoji">🔧</div>
     <div class="tile-name">Engineering</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Cybersecurity">
     <div class="tile-emoji">🔒</div>
     <div class="tile-name">Cybersecurity</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -432,32 +379,26 @@
       <div class="group-head">
         <span class="group-emoji">💪</span>
         <span class="group-name">Body &amp; Food</span>
-        <span class="group-count">25</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Medicine">
     <div class="tile-emoji">⚕️</div>
     <div class="tile-name">Medicine</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Health">
     <div class="tile-emoji">❤️</div>
     <div class="tile-name">Health</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Nutrition">
     <div class="tile-emoji">🥗</div>
     <div class="tile-name">Nutrition</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Fitness">
     <div class="tile-emoji">💪</div>
     <div class="tile-name">Fitness</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Cooking">
     <div class="tile-emoji">🍳</div>
     <div class="tile-name">Cooking</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -466,47 +407,38 @@
       <div class="group-head">
         <span class="group-emoji">🏡</span>
         <span class="group-name">Life &amp; Practical</span>
-        <span class="group-count">43</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Productivity">
     <div class="tile-emoji">⏱️</div>
     <div class="tile-name">Productivity</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Self-improvement">
     <div class="tile-emoji">🌱</div>
     <div class="tile-name">Self-improvement</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Relationships">
     <div class="tile-emoji">💞</div>
     <div class="tile-name">Relationships</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Parenting">
     <div class="tile-emoji">👶</div>
     <div class="tile-name">Parenting</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Travel">
     <div class="tile-emoji">✈️</div>
     <div class="tile-name">Travel</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Survival Skills">
     <div class="tile-emoji">🏕️</div>
     <div class="tile-name">Survival Skills</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Home &amp; DIY">
     <div class="tile-emoji">🔨</div>
     <div class="tile-name">Home &amp; DIY</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Gardening">
     <div class="tile-emoji">🌷</div>
     <div class="tile-name">Gardening</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -515,57 +447,46 @@
       <div class="group-head">
         <span class="group-emoji">💼</span>
         <span class="group-name">Business &amp; Society</span>
-        <span class="group-count">52</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Business">
     <div class="tile-emoji">📊</div>
     <div class="tile-name">Business</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Marketing">
     <div class="tile-emoji">📣</div>
     <div class="tile-name">Marketing</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Leadership">
     <div class="tile-emoji">👑</div>
     <div class="tile-name">Leadership</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Finance">
     <div class="tile-emoji">💰</div>
     <div class="tile-name">Finance</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Economics">
     <div class="tile-emoji">📈</div>
     <div class="tile-name">Economics</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Law">
     <div class="tile-emoji">⚖️</div>
     <div class="tile-name">Law</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Criminology">
     <div class="tile-emoji">🕵️</div>
     <div class="tile-name">Criminology</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Political Science">
     <div class="tile-emoji">🏛️</div>
     <div class="tile-name">Political Science</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Sociology">
     <div class="tile-emoji">👫</div>
     <div class="tile-name">Sociology</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Geography">
     <div class="tile-emoji">🗺️</div>
     <div class="tile-name">Geography</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -574,22 +495,18 @@
       <div class="group-head">
         <span class="group-emoji">🎮</span>
         <span class="group-name">Play</span>
-        <span class="group-count">16</span>
       </div>
       <div class="tiles"><button class="tile" data-cat="Sports">
     <div class="tile-emoji">⚽</div>
     <div class="tile-name">Sports</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Games &amp; Strategy">
     <div class="tile-emoji">🎲</div>
     <div class="tile-name">Games &amp; Strategy</div>
-    <div class="tile-count">5</div>
     <div class="tile-check">✓</div>
   </button><button class="tile" data-cat="Chess">
     <div class="tile-emoji">♟️</div>
     <div class="tile-name">Chess</div>
-    <div class="tile-count">6</div>
     <div class="tile-check">✓</div>
   </button></div>
     </section>
@@ -650,17 +567,16 @@ document.querySelectorAll(".tile").forEach((tile) => {
 });
 
 function startFeed(mode, categories) {
-  const total = categories.reduce((sum, c) => sum + (CATEGORY_COUNTS[c] || 0), 0);
   if (mode === "random") {
     overlayTitle.textContent = "Shuffling everything";
-    overlaySub.textContent = `${total} courses across ${categories.length} categories, in random order.`;
+    overlaySub.textContent = "A random mix across every topic we've got.";
   } else {
-    overlayTitle.textContent = `${total} courses queued up`;
+    overlayTitle.textContent = "Your feed is ready";
     overlaySub.textContent = `Tuned to ${categories.length} ${categories.length === 1 ? "category" : "categories"}.`;
   }
   overlayList.innerHTML = categories
     .sort()
-    .map((c) => `<li>${c} <span style="color:var(--muted)">(${CATEGORY_COUNTS[c] || 0})</span></li>`)
+    .map((c) => `<li>${c}</li>`)
     .join("");
   overlay.classList.add("visible");
 }
