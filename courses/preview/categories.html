@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Improve — Categories</title>
+<style>
+  :root {
+    --accent: #6B8DE3;
+    --bg: #0a0a0b;
+    --panel: #12121a;
+    --panel-2: #1a1a24;
+    --text: #f5f5f7;
+    --muted: #9d9da3;
+    --faint: #6a6a72;
+    --phone-w: 420px;
+    --phone-h: 860px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #000; color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", sans-serif; -webkit-font-smoothing: antialiased; }
+  body { min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at 30% 20%, #181820 0%, #050507 70%); }
+
+  .phone {
+    width: var(--phone-w); height: var(--phone-h);
+    border-radius: 48px; background: var(--bg); overflow: hidden; position: relative;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 8px 20px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(255,255,255,0.06);
+    display: flex; flex-direction: column;
+  }
+  .bar-top { height: 44px; padding: 14px 24px 0; display: flex; justify-content: space-between; align-items: center; font-size: 15px; font-weight: 600; color: var(--text); flex-shrink: 0; }
+
+  /* tab bar at bottom */
+  .tabs {
+    display: flex; justify-content: space-around; padding: 10px 16px 24px;
+    background: var(--panel); border-top: 1px solid rgba(255,255,255,0.06);
+    flex-shrink: 0;
+  }
+  .tab { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 10px; color: var(--faint); cursor: pointer; padding: 4px 8px; }
+  .tab-icon { font-size: 22px; opacity: 0.5; }
+  .tab.active { color: var(--accent); }
+  .tab.active .tab-icon { opacity: 1; }
+
+  /* scrollable content */
+  .content { flex: 1; overflow-y: auto; padding: 16px 20px 120px; }
+  .content::-webkit-scrollbar { display: none; }
+
+  .head { padding: 4px 4px 20px; }
+  .head h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 6px; }
+  .head p { font-size: 14px; color: var(--muted); margin: 0; line-height: 1.4; }
+
+  /* random hero card */
+  .random {
+    position: relative; display: block; width: 100%;
+    padding: 22px 22px 20px; border-radius: 24px; border: none; text-align: left;
+    background: linear-gradient(135deg, #6B8DE3 0%, #9E6BE3 60%, #D84F97 100%);
+    color: #fff; cursor: pointer; margin-bottom: 28px; overflow: hidden;
+    box-shadow: 0 16px 40px rgba(107,141,227,0.35);
+  }
+  .random::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(255,255,255,0.25) 0 1px, transparent 2px),
+      radial-gradient(circle at 80% 70%, rgba(255,255,255,0.2) 0 1px, transparent 2px),
+      radial-gradient(circle at 60% 20%, rgba(255,255,255,0.15) 0 1px, transparent 2px);
+    background-size: 80px 80px, 120px 120px, 60px 60px;
+  }
+  .random .top { display: flex; align-items: center; gap: 12px; position: relative; z-index: 1; }
+  .random-emoji { font-size: 34px; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3)); }
+  .random-label { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; }
+  .random-title { font-size: 28px; font-weight: 800; margin: 8px 0 4px; letter-spacing: -0.02em; position: relative; z-index: 1; }
+  .random-sub { font-size: 13px; opacity: 0.9; position: relative; z-index: 1; }
+  .random-count { position: absolute; top: 22px; right: 22px; background: rgba(0,0,0,0.25); backdrop-filter: blur(8px); font-size: 12px; font-weight: 700; padding: 6px 12px; border-radius: 999px; z-index: 1; }
+
+  /* meta group */
+  .group { margin-bottom: 24px; }
+  .group-head { display: flex; align-items: center; gap: 8px; margin: 0 4px 12px; }
+  .group-emoji { font-size: 18px; }
+  .group-name { font-size: 14px; font-weight: 700; letter-spacing: -0.01em; color: var(--text); flex: 1; }
+  .group-count { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
+
+  /* tiles grid */
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .tile {
+    position: relative; padding: 14px 10px 12px; border-radius: 16px;
+    background: var(--panel); border: 1.5px solid rgba(255,255,255,0.06);
+    color: var(--text); cursor: pointer; transition: all 0.15s ease;
+    display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;
+    min-height: 104px;
+  }
+  .tile:hover { background: var(--panel-2); border-color: rgba(255,255,255,0.14); transform: translateY(-1px); }
+  .tile.selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--panel)); }
+  .tile-emoji { font-size: 28px; line-height: 1; margin-top: 2px; }
+  .tile-name { font-size: 12px; font-weight: 600; line-height: 1.2; letter-spacing: -0.005em; color: var(--text); }
+  .tile-count { font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .tile-check {
+    position: absolute; top: 8px; right: 8px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--accent); color: #fff;
+    font-size: 10px; font-weight: 700; display: grid; place-items: center;
+    opacity: 0; transform: scale(0.5); transition: all 0.15s;
+  }
+  .tile.selected .tile-check { opacity: 1; transform: scale(1); }
+
+  /* sticky CTA */
+  .cta-bar {
+    position: absolute; left: 0; right: 0; bottom: 80px;
+    padding: 14px 20px 16px;
+    background: linear-gradient(to top, var(--bg) 50%, rgba(10,10,11,0.85) 80%, transparent);
+    transform: translateY(140%); transition: transform 0.25s ease;
+  }
+  .cta-bar.visible { transform: translateY(0); }
+  .cta {
+    width: 100%; padding: 16px 24px; border-radius: 16px;
+    background: var(--accent); color: #fff; font-weight: 700; font-size: 15px;
+    border: none; cursor: pointer; letter-spacing: 0.01em;
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--accent) 35%, transparent);
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .cta:hover { transform: translateY(-1px); }
+  .cta .badge { background: rgba(255,255,255,0.2); padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+
+  /* overlay shown after Start */
+  .overlay {
+    position: absolute; inset: 0; background: rgba(10,10,11,0.92); backdrop-filter: blur(20px);
+    display: grid; place-items: center; padding: 32px;
+    opacity: 0; pointer-events: none; transition: opacity 0.3s;
+    text-align: center; z-index: 10;
+  }
+  .overlay.visible { opacity: 1; pointer-events: auto; }
+  .overlay h2 { font-size: 22px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 10px; }
+  .overlay p { font-size: 14px; color: var(--muted); margin: 0 0 24px; line-height: 1.5; }
+  .overlay ul { text-align: left; max-height: 160px; overflow: auto; padding: 0 16px; margin: 0 0 24px; }
+  .overlay li { font-size: 13px; color: var(--text); padding: 4px 0; list-style: none; }
+  .overlay li::before { content: "• "; color: var(--accent); margin-right: 6px; }
+  .overlay .close { font-size: 13px; color: var(--muted); background: transparent; border: 1px solid rgba(255,255,255,0.15); padding: 10px 20px; border-radius: 12px; cursor: pointer; }
+  .overlay .burst { font-size: 56px; margin-bottom: 10px; animation: pop 0.4s ease; }
+  @keyframes pop { from { transform: scale(0.5); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+  .hint { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); font-size: 11px; color: var(--faint); letter-spacing: 0.06em; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="bar-top"><span>9:41</span><span style="font-weight:400;opacity:0.6;">Categories</span><span>●●●●●</span></div>
+
+  <div class="content">
+    <div class="head">
+      <h1>What are you in the mood for?</h1>
+      <p>Pick a few topics to tune your feed — or shuffle the whole library.</p>
+    </div>
+
+    <button class="random" id="randomBtn">
+      <div class="random-count">363 courses</div>
+      <div class="top">
+        <div class="random-emoji">🎲</div>
+        <div class="random-label">Feeling lucky</div>
+      </div>
+      <div class="random-title">Surprise me</div>
+      <div class="random-sub">Everything — 69 categories, shuffled.</div>
+    </button>
+
+    
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">🌿</span>
+        <span class="group-name">Science &amp; Nature</span>
+        <span class="group-count">76</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Physics">
+    <div class="tile-emoji">⚛️</div>
+    <div class="tile-name">Physics</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Chemistry">
+    <div class="tile-emoji">🧪</div>
+    <div class="tile-name">Chemistry</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Biology">
+    <div class="tile-emoji">🧬</div>
+    <div class="tile-name">Biology</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Astronomy">
+    <div class="tile-emoji">🌌</div>
+    <div class="tile-name">Astronomy</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Genetics">
+    <div class="tile-emoji">🧬</div>
+    <div class="tile-name">Genetics</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Evolutionary Biology">
+    <div class="tile-emoji">🦍</div>
+    <div class="tile-name">Evolutionary Biology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Microbiology">
+    <div class="tile-emoji">🦠</div>
+    <div class="tile-name">Microbiology</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Botany">
+    <div class="tile-emoji">🌱</div>
+    <div class="tile-name">Botany</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Paleontology">
+    <div class="tile-emoji">🦖</div>
+    <div class="tile-name">Paleontology</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Marine Life">
+    <div class="tile-emoji">🐙</div>
+    <div class="tile-name">Marine Life</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Wildlife">
+    <div class="tile-emoji">🦁</div>
+    <div class="tile-name">Wildlife</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Climate Science">
+    <div class="tile-emoji">🌍</div>
+    <div class="tile-name">Climate Science</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Weather">
+    <div class="tile-emoji">⛈️</div>
+    <div class="tile-name">Weather</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Nature">
+    <div class="tile-emoji">🌳</div>
+    <div class="tile-name">Nature</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">🏺</span>
+        <span class="group-name">History &amp; Culture</span>
+        <span class="group-count">22</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="History">
+    <div class="tile-emoji">⚔️</div>
+    <div class="tile-name">History</div>
+    <div class="tile-count">7</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Archaeology">
+    <div class="tile-emoji">🏺</div>
+    <div class="tile-name">Archaeology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Anthropology">
+    <div class="tile-emoji">👥</div>
+    <div class="tile-name">Anthropology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Religion &amp; Mythology">
+    <div class="tile-emoji">✨</div>
+    <div class="tile-name">Religion &amp; Mythology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">💭</span>
+        <span class="group-name">Mind &amp; Ideas</span>
+        <span class="group-count">41</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Psychology">
+    <div class="tile-emoji">🎭</div>
+    <div class="tile-name">Psychology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Neuroscience">
+    <div class="tile-emoji">🧠</div>
+    <div class="tile-name">Neuroscience</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Philosophy">
+    <div class="tile-emoji">🤔</div>
+    <div class="tile-name">Philosophy</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Ethics">
+    <div class="tile-emoji">⚖️</div>
+    <div class="tile-name">Ethics</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Critical Thinking">
+    <div class="tile-emoji">💡</div>
+    <div class="tile-name">Critical Thinking</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Logic">
+    <div class="tile-emoji">🧩</div>
+    <div class="tile-name">Logic</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Mindfulness &amp; Meditation">
+    <div class="tile-emoji">🧘</div>
+    <div class="tile-name">Mindfulness &amp; Meditation</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Mental Health">
+    <div class="tile-emoji">💭</div>
+    <div class="tile-name">Mental Health</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">📖</span>
+        <span class="group-name">Words &amp; Stories</span>
+        <span class="group-count">15</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Literature">
+    <div class="tile-emoji">📖</div>
+    <div class="tile-name">Literature</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Language">
+    <div class="tile-emoji">💬</div>
+    <div class="tile-name">Language</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Linguistics">
+    <div class="tile-emoji">🔤</div>
+    <div class="tile-name">Linguistics</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">🎨</span>
+        <span class="group-name">Arts &amp; Design</span>
+        <span class="group-count">43</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Art">
+    <div class="tile-emoji">🎨</div>
+    <div class="tile-name">Art</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Music">
+    <div class="tile-emoji">🎵</div>
+    <div class="tile-name">Music</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Film &amp; Cinema">
+    <div class="tile-emoji">🎬</div>
+    <div class="tile-name">Film &amp; Cinema</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Photography">
+    <div class="tile-emoji">📷</div>
+    <div class="tile-name">Photography</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Theater &amp; Drama">
+    <div class="tile-emoji">🎭</div>
+    <div class="tile-name">Theater &amp; Drama</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Architecture">
+    <div class="tile-emoji">🏛️</div>
+    <div class="tile-name">Architecture</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Design">
+    <div class="tile-emoji">✏️</div>
+    <div class="tile-name">Design</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Fashion">
+    <div class="tile-emoji">👗</div>
+    <div class="tile-name">Fashion</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">💻</span>
+        <span class="group-name">Tech &amp; Math</span>
+        <span class="group-count">30</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Mathematics">
+    <div class="tile-emoji">📐</div>
+    <div class="tile-name">Mathematics</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Technology">
+    <div class="tile-emoji">📱</div>
+    <div class="tile-name">Technology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Computer Science">
+    <div class="tile-emoji">💻</div>
+    <div class="tile-name">Computer Science</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Artificial Intelligence">
+    <div class="tile-emoji">🤖</div>
+    <div class="tile-name">Artificial Intelligence</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Engineering">
+    <div class="tile-emoji">🔧</div>
+    <div class="tile-name">Engineering</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Cybersecurity">
+    <div class="tile-emoji">🔒</div>
+    <div class="tile-name">Cybersecurity</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">💪</span>
+        <span class="group-name">Body &amp; Food</span>
+        <span class="group-count">25</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Medicine">
+    <div class="tile-emoji">⚕️</div>
+    <div class="tile-name">Medicine</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Health">
+    <div class="tile-emoji">❤️</div>
+    <div class="tile-name">Health</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Nutrition">
+    <div class="tile-emoji">🥗</div>
+    <div class="tile-name">Nutrition</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Fitness">
+    <div class="tile-emoji">💪</div>
+    <div class="tile-name">Fitness</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Cooking">
+    <div class="tile-emoji">🍳</div>
+    <div class="tile-name">Cooking</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">🏡</span>
+        <span class="group-name">Life &amp; Practical</span>
+        <span class="group-count">43</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Productivity">
+    <div class="tile-emoji">⏱️</div>
+    <div class="tile-name">Productivity</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Self-improvement">
+    <div class="tile-emoji">🌱</div>
+    <div class="tile-name">Self-improvement</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Relationships">
+    <div class="tile-emoji">💞</div>
+    <div class="tile-name">Relationships</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Parenting">
+    <div class="tile-emoji">👶</div>
+    <div class="tile-name">Parenting</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Travel">
+    <div class="tile-emoji">✈️</div>
+    <div class="tile-name">Travel</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Survival Skills">
+    <div class="tile-emoji">🏕️</div>
+    <div class="tile-name">Survival Skills</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Home &amp; DIY">
+    <div class="tile-emoji">🔨</div>
+    <div class="tile-name">Home &amp; DIY</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Gardening">
+    <div class="tile-emoji">🌷</div>
+    <div class="tile-name">Gardening</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">💼</span>
+        <span class="group-name">Business &amp; Society</span>
+        <span class="group-count">52</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Business">
+    <div class="tile-emoji">📊</div>
+    <div class="tile-name">Business</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Marketing">
+    <div class="tile-emoji">📣</div>
+    <div class="tile-name">Marketing</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Leadership">
+    <div class="tile-emoji">👑</div>
+    <div class="tile-name">Leadership</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Finance">
+    <div class="tile-emoji">💰</div>
+    <div class="tile-name">Finance</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Economics">
+    <div class="tile-emoji">📈</div>
+    <div class="tile-name">Economics</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Law">
+    <div class="tile-emoji">⚖️</div>
+    <div class="tile-name">Law</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Criminology">
+    <div class="tile-emoji">🕵️</div>
+    <div class="tile-name">Criminology</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Political Science">
+    <div class="tile-emoji">🏛️</div>
+    <div class="tile-name">Political Science</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Sociology">
+    <div class="tile-emoji">👫</div>
+    <div class="tile-name">Sociology</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Geography">
+    <div class="tile-emoji">🗺️</div>
+    <div class="tile-name">Geography</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+    <section class="group">
+      <div class="group-head">
+        <span class="group-emoji">🎮</span>
+        <span class="group-name">Play</span>
+        <span class="group-count">16</span>
+      </div>
+      <div class="tiles"><button class="tile" data-cat="Sports">
+    <div class="tile-emoji">⚽</div>
+    <div class="tile-name">Sports</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Games &amp; Strategy">
+    <div class="tile-emoji">🎲</div>
+    <div class="tile-name">Games &amp; Strategy</div>
+    <div class="tile-count">5</div>
+    <div class="tile-check">✓</div>
+  </button><button class="tile" data-cat="Chess">
+    <div class="tile-emoji">♟️</div>
+    <div class="tile-name">Chess</div>
+    <div class="tile-count">6</div>
+    <div class="tile-check">✓</div>
+  </button></div>
+    </section>
+  
+  </div>
+
+  <div class="cta-bar" id="ctaBar">
+    <button class="cta" id="startBtn">
+      Start swiping
+      <span class="badge" id="ctaBadge">0</span>
+    </button>
+  </div>
+
+  <div class="tabs">
+    <div class="tab"><span class="tab-icon">🏠</span>Feed</div>
+    <div class="tab active"><span class="tab-icon">📚</span>Categories</div>
+    <div class="tab"><span class="tab-icon">❤️</span>Library</div>
+    <div class="tab"><span class="tab-icon">👤</span>Profile</div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div>
+      <div class="burst">🎯</div>
+      <h2 id="overlayTitle">Ready to swipe</h2>
+      <p id="overlaySub">Your feed is now tuned to these topics.</p>
+      <ul id="overlayList"></ul>
+      <button class="close" id="overlayClose">Back to categories</button>
+    </div>
+  </div>
+</div>
+
+<div class="hint">Tap tiles to select · click Surprise me to shuffle all</div>
+
+<script>
+const CATEGORY_COUNTS = {"Philosophy":5,"Relationships":5,"Artificial Intelligence":5,"Travel":5,"Climate Science":5,"Critical Thinking":5,"Medicine":5,"History":7,"Mental Health":5,"Design":5,"Self-improvement":5,"Parenting":6,"Nature":5,"Language":5,"Microbiology":6,"Weather":5,"Architecture":5,"Computer Science":5,"Leadership":6,"Marine Life":5,"Mathematics":5,"Genetics":5,"Business":5,"Health":5,"Mindfulness & Meditation":5,"Gardening":6,"Theater & Drama":6,"Criminology":6,"Sociology":5,"Nutrition":5,"Chess":6,"Chemistry":5,"Film & Cinema":5,"Games & Strategy":5,"Religion & Mythology":5,"Music":5,"Psychology":5,"Law":5,"Economics":5,"Finance":5,"Evolutionary Biology":5,"Botany":6,"Wildlife":5,"Sports":5,"Engineering":5,"Astronomy":6,"Marketing":5,"Logic":6,"Productivity":5,"Neuroscience":5,"Photography":6,"Ethics":5,"Home & DIY":6,"Anthropology":5,"Political Science":5,"Technology":5,"Paleontology":6,"Survival Skills":5,"Linguistics":5,"Archaeology":5,"Biology":6,"Physics":6,"Literature":5,"Cybersecurity":5,"Art":5,"Geography":5,"Fitness":5,"Fashion":6,"Cooking":5};
+const selected = new Set();
+const ctaBar = document.getElementById("ctaBar");
+const ctaBadge = document.getElementById("ctaBadge");
+const startBtn = document.getElementById("startBtn");
+const overlay = document.getElementById("overlay");
+const overlayTitle = document.getElementById("overlayTitle");
+const overlaySub = document.getElementById("overlaySub");
+const overlayList = document.getElementById("overlayList");
+
+function updateCta() {
+  ctaBadge.textContent = selected.size;
+  if (selected.size > 0) ctaBar.classList.add("visible");
+  else ctaBar.classList.remove("visible");
+}
+
+document.querySelectorAll(".tile").forEach((tile) => {
+  tile.addEventListener("click", () => {
+    const cat = tile.dataset.cat;
+    if (selected.has(cat)) { selected.delete(cat); tile.classList.remove("selected"); }
+    else { selected.add(cat); tile.classList.add("selected"); }
+    updateCta();
+  });
+});
+
+function startFeed(mode, categories) {
+  const total = categories.reduce((sum, c) => sum + (CATEGORY_COUNTS[c] || 0), 0);
+  if (mode === "random") {
+    overlayTitle.textContent = "Shuffling everything";
+    overlaySub.textContent = `${total} courses across ${categories.length} categories, in random order.`;
+  } else {
+    overlayTitle.textContent = `${total} courses queued up`;
+    overlaySub.textContent = `Tuned to ${categories.length} ${categories.length === 1 ? "category" : "categories"}.`;
+  }
+  overlayList.innerHTML = categories
+    .sort()
+    .map((c) => `<li>${c} <span style="color:var(--muted)">(${CATEGORY_COUNTS[c] || 0})</span></li>`)
+    .join("");
+  overlay.classList.add("visible");
+}
+
+document.getElementById("randomBtn").addEventListener("click", () => {
+  startFeed("random", Object.keys(CATEGORY_COUNTS));
+});
+startBtn.addEventListener("click", () => {
+  if (selected.size === 0) return;
+  startFeed("selected", Array.from(selected));
+});
+document.getElementById("overlayClose").addEventListener("click", () => {
+  overlay.classList.remove("visible");
+});
+</script>
+</body>
+</html>
