@@ -1,0 +1,136 @@
+{
+  "id": "imposter-syndrome",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Imposter Syndrome",
+    "teaser": "The feeling that you've fooled everyone and they're about to find out — and why it hits high-achievers hardest.",
+    "category": "Mental Health",
+    "subcategories": ["Psychology", "Self-awareness"],
+    "tags": ["psychology", "self-doubt", "workplace", "identity", "anxiety"],
+    "emoji": "🎭",
+    "accentColor": "#7A5AA3",
+    "coverSymbol": {
+      "sfSymbol": "theatermasks.fill",
+      "fallbackEmoji": "🎭"
+    },
+    "coverImagePrompt": "A person's reflection in a cracked mirror showing multiple subtly different selves, soft purple dusk light, quiet and introspective"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The secret every high-achiever shares",
+      "body": "Maya Angelou, after eleven books and countless awards, still said: 'I have written eleven books, but each time I think, uh oh, they're going to find out now. I've run a game on everybody, and they're going to find me out.' Einstein called himself an 'involuntary swindler.' The feeling that your success is a trick — and you're about to be exposed — has a name, and it's startlingly common.",
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "A woman at a podium before an applauding crowd, her expression distant and unsettled, stage lights glaring"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What imposter syndrome actually is",
+      "body": "The term was coined in 1978 by psychologists Pauline Clance and Suzanne Imes, who noticed a pattern among high-achieving women: despite external proof of competence, they privately believed they were frauds. They attributed their success to luck, timing, or fooling others — never to skill. It's not a clinical diagnosis. It's a pattern of thinking.",
+      "keyTerms": [
+        { "term": "Imposter phenomenon", "definition": "The original term used by Clance and Imes for the pattern of internalized intellectual fraudulence" },
+        { "term": "Attribution bias", "definition": "Systematically crediting success to external factors and failure to internal ones" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.xaxis",
+        "imagePrompt": "A vintage 1970s academic office: typewriter, stacks of survey sheets, coffee mug, warm lamplight"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it targets competent people",
+      "body": "Here's the paradox: the more you know about a subject, the more you see what you don't know. That's the Dunning-Kruger effect in reverse — experts often underestimate themselves because they're intimately aware of their own gaps. Meanwhile, confident beginners don't yet know what they don't know, so they feel fine. Imposter syndrome is, in a way, a side effect of competence.",
+      "visual": {
+        "sfSymbol": "chart.line.uptrend.xyaxis",
+        "imagePrompt": "A diagram curve showing confidence peaking for novices, dipping for experts, and slowly rising again — labeled humorously"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How common is it, really?",
+      "body": "A 2020 systematic review in the Journal of General Internal Medicine looked at 62 studies and estimated that up to 82 percent of people experience imposter feelings at some point. It hits women, minorities, and first-generation professionals harder — groups whose presence in a space has historically been questioned by others, making self-questioning the default. It's not rare. It's practically universal.",
+      "funFact": "Clance and Imes originally thought the phenomenon was female-specific. Follow-up research showed men experience it at similar rates but are less likely to talk about it.",
+      "visual": {
+        "sfSymbol": "person.3.sequence.fill",
+        "imagePrompt": "Dozens of silhouetted office workers in soft focus, one looking at the camera with a faintly questioning expression"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The cure isn't confidence",
+      "body": "Trying to feel more confident often backfires — it sets a bar most humans will never clear. A better move: collect evidence. Keep a file of wins, specific feedback, and hard moments you got through. Imposter syndrome is a story your brain tells you. Facts are stubborn counter-narratives. And it helps to remember — the people you think have it figured out probably don't either.",
+      "visual": {
+        "sfSymbol": "folder.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who coined the original term 'imposter phenomenon'?",
+      "options": [
+        "Sigmund Freud and Carl Jung",
+        "Pauline Clance and Suzanne Imes",
+        "Aaron Beck",
+        "Daniel Kahneman"
+      ],
+      "correctIndex": 1,
+      "explanation": "Psychologists Pauline Clance and Suzanne Imes described the pattern in a 1978 study of high-achieving women."
+    },
+    {
+      "index": 1,
+      "question": "Why does imposter syndrome often strike competent people?",
+      "options": [
+        "They lack experience",
+        "Expertise makes their own knowledge gaps more visible",
+        "They don't work hard enough",
+        "They inherit it genetically"
+      ],
+      "correctIndex": 1,
+      "explanation": "The more you know, the more you see the limits of your knowledge — expertise makes gaps visible in a way beginners don't yet perceive."
+    },
+    {
+      "index": 2,
+      "question": "Roughly what percentage of people experience imposter feelings at some point, per recent research?",
+      "options": ["Under 10%", "Around 25%", "About 50%", "Up to 82%"],
+      "correctIndex": 3,
+      "explanation": "A 2020 systematic review across 62 studies found rates as high as 82% — effectively, it's the norm."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Impostor Phenomenon in High Achieving Women",
+      "publisher": "Clance & Imes, Psychotherapy: Theory, Research & Practice",
+      "year": 1978
+    },
+    {
+      "title": "Prevalence, Predictors, and Treatment of Impostor Syndrome: A Systematic Review",
+      "publisher": "Journal of General Internal Medicine",
+      "year": 2020
+    }
+  ],
+
+  "related": ["dunning-kruger-effect", "rumination-cycle", "self-compassion"]
+}

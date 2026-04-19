@@ -1,0 +1,141 @@
+{
+  "id": "deep-learning-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Deep Learning Explained Without Math",
+    "teaser": "What actually happens inside a neural network — told as a story, not a formula.",
+    "category": "Artificial Intelligence",
+    "subcategories": ["Neural Networks", "Machine Learning"],
+    "tags": ["deep-learning", "neural-networks", "ai", "intuition", "backpropagation"],
+    "emoji": "🧠",
+    "accentColor": "#6C5CE7",
+    "coverSymbol": {
+      "sfSymbol": "brain.head.profile",
+      "fallbackEmoji": "🧠"
+    },
+    "coverImagePrompt": "A glowing translucent brain made of interconnected light threads floating above an open notebook, with faint digital sparks traveling along each connection, cinematic, painterly, moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The machine that learned to see cats",
+      "body": "In 2012, a team at the University of Toronto entered a contest called ImageNet and slashed the error rate in half overnight. They didn't invent a smarter algorithm — they used an old one, from the 1980s, and threw it at a mountain of GPUs. The trick that had been sitting in textbooks for thirty years suddenly worked. That moment is why your phone now recognizes your face.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A retro CRT monitor in a dark lab showing pixelated images of cats being sorted, glowing green light spilling onto piles of academic papers"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Layers of guesses",
+      "body": "A neural network is basically a stack of knobs — sometimes billions of them. Each layer takes what came before and asks a slightly more abstract question. The first layer of an image network might look for edges. The next, corners. The next, eyes. The next, faces. Nobody tells it to look for eyes; it just figures out that 'eyes' is a useful concept on the road to 'cat'.",
+      "keyTerms": [
+        { "term": "Neuron", "definition": "A tiny unit that multiplies its inputs by weights, sums them, and passes the result through a simple curve" },
+        { "term": "Layer", "definition": "A row of neurons that all receive the same inputs and produce the next level of abstraction" }
+      ],
+      "visual": {
+        "sfSymbol": "square.stack.3d.up.fill",
+        "imagePrompt": "Cross-section of a stack of translucent glass plates, each etched with progressively more complex patterns — dots, lines, shapes, faces"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How it actually learns",
+      "body": "Training is embarrassingly simple. You show the network a picture, let it guess, and compare to the right answer. Wrong? Nudge every knob in the direction that would have made the guess a little less wrong. Do this a few million times across millions of examples. This nudging trick is called backpropagation — invented by Rumelhart, Hinton, and Williams in 1986 — and it is the beating heart of every model from GPT to Midjourney.",
+      "funFact": "Geoffrey Hinton, who helped invent backpropagation, called neural networks a 'dead end' for most of the 1990s — until he was proven spectacularly right in 2012.",
+      "visual": {
+        "sfSymbol": "arrow.uturn.backward.circle.fill",
+        "imagePrompt": "Animated diagram of a signal flowing forward through glowing nodes, hitting a wrong answer, and a red wave of correction flowing backward adjusting each connection"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why 2012 changed everything",
+      "body": "The winning 2012 model, AlexNet, had 60 million parameters and was trained on two gaming GPUs for about a week. Its top-5 error rate on ImageNet was 15.3% — the second-place team scored 26.2%. That 11-point gap was the shot heard round the world. Within four years, every major tech company had pivoted. Within ten, we had ChatGPT.",
+      "visual": {
+        "sfSymbol": "chart.line.downtrend.xyaxis",
+        "imagePrompt": "A dramatic line chart on a dark background with one line plunging below all others, labeled 2012, spotlight illuminating the drop"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The deep part of deep learning",
+      "body": "The word 'deep' just means many layers. That's it. Everything else — transformers, diffusion, ChatGPT — is variations on the same theme: stack layers, nudge weights, scale up. The magic isn't in the algorithm. It's in the scale. Give a simple idea enough data and enough compute, and it learns things we can't write down.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does the 'deep' in deep learning actually refer to?",
+      "options": [
+        "Deep understanding of language",
+        "Many stacked layers of neurons",
+        "A complex mathematical proof",
+        "Training that runs for a long time"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Deep' is literally just 'many layers'. Early networks had 1-2 layers; modern ones have hundreds."
+    },
+    {
+      "index": 1,
+      "question": "What is backpropagation?",
+      "options": [
+        "A way to compress a network",
+        "The technique of nudging every weight to reduce a prediction's error",
+        "A type of neuron",
+        "The reverse order of input data"
+      ],
+      "correctIndex": 1,
+      "explanation": "Backpropagation pushes the error signal backward through the network to update each weight in the right direction."
+    },
+    {
+      "index": 2,
+      "question": "Why was 2012's AlexNet such a turning point?",
+      "options": [
+        "It invented neural networks",
+        "It crushed ImageNet by an enormous margin using GPUs",
+        "It was the first AI to beat a human at chess",
+        "It removed the need for training data"
+      ],
+      "correctIndex": 1,
+      "explanation": "AlexNet's 11-point lead on ImageNet 2012 proved deep networks worked — once you had enough data and GPU power."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+      "publisher": "NeurIPS",
+      "year": 2012
+    },
+    {
+      "title": "Learning representations by back-propagating errors",
+      "publisher": "Nature",
+      "year": 1986
+    }
+  ],
+
+  "related": ["ai-hallucinations", "transformers-explained", "history-of-ai"]
+}

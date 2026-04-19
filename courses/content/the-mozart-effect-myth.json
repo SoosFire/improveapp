@@ -1,0 +1,141 @@
+{
+  "id": "the-mozart-effect-myth",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Does Mozart Actually Make You Smarter?",
+    "teaser": "In 1993, parents started playing sonatas to babies in the womb. The actual study said almost none of what you think.",
+    "category": "Music",
+    "subcategories": ["Cognition", "Music Psychology"],
+    "tags": ["mozart", "cognition", "myth-busting", "music", "psychology"],
+    "emoji": "🎹",
+    "accentColor": "#4B6B7A",
+    "coverSymbol": {
+      "sfSymbol": "pianokeys.inverse",
+      "fallbackEmoji": "🎵"
+    },
+    "coverImagePrompt": "A grand piano in soft evening light, sheet music on the stand showing Mozart's notation, a single cradle faintly visible in the background, nostalgic and warm"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The study heard around the world",
+      "body": "In 1993, a tiny paper in the journal Nature set off a pop-culture avalanche. Parents bought 'Baby Mozart' CDs. Georgia's governor mailed every newborn a classical album. Florida passed a law requiring state daycares to play Mozart. There was just one problem: the original study didn't involve babies, IQ, or any claim of getting smarter.",
+      "visual": {
+        "sfSymbol": "newspaper.fill",
+        "imagePrompt": "A 1990s newspaper headline about babies and Mozart, coffee ring on the corner, soft morning light through a kitchen window"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What the 1993 study actually found",
+      "body": "Psychologists Frances Rauscher, Gordon Shaw, and Katherine Ky tested 36 college students. The students listened to ten minutes of Mozart's Sonata for Two Pianos in D major, silence, or relaxation tapes. Then they took one specific kind of spatial-reasoning test — folding and cutting paper in their heads. The Mozart group scored slightly higher. The effect lasted about 15 minutes.",
+      "keyTerms": [
+        { "term": "Spatial reasoning", "definition": "Mental rotation and manipulation of shapes — one narrow slice of intelligence" },
+        { "term": "Mozart effect", "definition": "The popularized (and mostly wrong) claim that listening to Mozart makes you smarter" }
+      ],
+      "visual": {
+        "sfSymbol": "graduationcap.fill",
+        "imagePrompt": "A 1990s university psychology lab with three stacks of cassette tapes, student test papers scattered, fluorescent-lit realism"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the media got it wrong",
+      "body": "'College students scored marginally better on paper-folding' is not a headline. 'Mozart makes you smarter' is. The findings were stretched from a 15-minute boost on one task in adults, to lifelong IQ gains in infants. But the study tested neither babies nor IQ. The original researchers spent years trying to correct the record, mostly unsuccessfully.",
+      "visual": {
+        "sfSymbol": "megaphone.fill",
+        "imagePrompt": "A chain of telephones whispering from one person to the next, message visibly distorting along the way, playful infographic style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "What better studies found",
+      "body": "A 1999 meta-analysis of 16 studies found the 'Mozart effect' was real but tiny — worth maybe a couple of IQ points on that specific test, for that short window. Follow-up work showed the same boost happened with Schubert, Stephen King audiobooks, or any content the listener enjoyed. The real effect was arousal and mood, not Mozart. Enjoy something, perform slightly better for a little while.",
+      "funFact": "A 2006 study in Scotland found listening to pop music gave kids a bigger short-term boost on spatial tasks than Mozart did.",
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "A bar chart showing tiny differences between Mozart, Schubert, Stephen King, and silence — painted in watercolor infographic style"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The real lesson",
+      "body": "Mozart is still Mozart. Music that engages you genuinely does improve mood, attention, and short-term performance. But no passive listening will rewire a baby's brain. The Mozart effect is a case study in how a modest, honest finding becomes a billion-dollar industry by the time it reaches your headphones.",
+      "visual": {
+        "sfSymbol": "quote.closing",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who were the participants in the original 1993 Mozart effect study?",
+      "options": [
+        "Newborn babies",
+        "Pregnant women",
+        "36 college students",
+        "Elderly adults"
+      ],
+      "correctIndex": 2,
+      "explanation": "The original study tested 36 college undergraduates — not infants, despite how the story was later told."
+    },
+    {
+      "index": 1,
+      "question": "What did the Mozart group specifically improve on?",
+      "options": [
+        "Overall IQ",
+        "Long-term memory",
+        "One type of short-term spatial reasoning task",
+        "Musical ability"
+      ],
+      "correctIndex": 2,
+      "explanation": "The boost was narrow — a small, short-lived improvement on a paper-folding-and-cutting task, lasting about 15 minutes."
+    },
+    {
+      "index": 2,
+      "question": "What did later research suggest was the real cause of the boost?",
+      "options": [
+        "Something unique in Mozart's compositions",
+        "The 440Hz tuning standard",
+        "General arousal and enjoyment of the audio",
+        "Exposure to classical instruments"
+      ],
+      "correctIndex": 2,
+      "explanation": "Similar boosts appeared with any content the listener found engaging — audiobooks, pop music, anything enjoyable."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Music and spatial task performance",
+      "publisher": "Rauscher, Shaw & Ky, Nature",
+      "year": 1993
+    },
+    {
+      "title": "Prelude or requiem for the 'Mozart effect'?",
+      "publisher": "Chabris, Nature",
+      "year": 1999
+    }
+  ],
+
+  "related": ["why-440hz-standard", "confirmation-bias", "neuroplasticity-basics"]
+}

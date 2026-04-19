@@ -1,0 +1,141 @@
+{
+  "id": "what-is-a-compiler",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What a Compiler Actually Does",
+    "teaser": "A translator, a perfectionist, and a sleight-of-hand artist walk into a program — they're all the same tool.",
+    "category": "Computer Science",
+    "subcategories": ["Programming Languages", "Systems"],
+    "tags": ["compiler", "programming", "languages", "assembly", "parsing"],
+    "emoji": "⚙️",
+    "accentColor": "#0984E3",
+    "coverSymbol": {
+      "sfSymbol": "chevron.left.forwardslash.chevron.right",
+      "fallbackEmoji": "💻"
+    },
+    "coverImagePrompt": "Glowing lines of high-level code flowing into a geared machine and emerging as streams of binary on the other side, art-deco metallic, deep blue atmosphere, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A lost language",
+      "body": "When you type `print(\"hello\")` in Python, your CPU has no idea what 'print' means. It speaks a different language entirely — a dialect of 1s and 0s called machine code, specific to its exact chip. Something has to translate. In 1952, a woman named Grace Hopper wrote the first tool that could do that automatically. She called it a compiler. Industry executives told her it was impossible. Computers, they said, couldn't do math on words.",
+      "visual": {
+        "sfSymbol": "person.fill.questionmark",
+        "imagePrompt": "A 1950s computer lab with a portrait of Grace Hopper, reels of tape, flickering indicator lights, dim overhead lamps"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Three jobs in a trench coat",
+      "body": "A compiler does three things in sequence. First, it reads your source code and chops it into meaningful tokens — this word is a keyword, that one is a variable, this is a number. Second, it builds a tree showing how the tokens relate, like diagramming a sentence. Third, it walks that tree and emits an equivalent program in a much lower language. One piece of text in; one piece of machine code out.",
+      "keyTerms": [
+        { "term": "Tokenizer", "definition": "The part that splits source code into its smallest meaningful pieces" },
+        { "term": "AST (Abstract Syntax Tree)", "definition": "A tree-shaped representation of what your code means, not just how it looks" }
+      ],
+      "visual": {
+        "sfSymbol": "tree.fill",
+        "imagePrompt": "A glowing tree diagram with code snippets at the leaves branching into operators and nodes, dark minimalist background"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The real magic: optimization",
+      "body": "A modern compiler isn't just translating — it's rewriting. If you write `x = 2 + 3`, it quietly replaces it with `x = 5` before a single CPU instruction runs. It notices when a loop can be unrolled, when memory can be reused, when two calculations collapse into one. Clang and GCC both make thousands of these edits per compile. Your code reaches the CPU shaped nothing like you wrote it — but doing exactly what you meant.",
+      "funFact": "A single line of C code, after heavy optimization, can become zero lines of machine code if the compiler proves it has no visible effect.",
+      "visual": {
+        "sfSymbol": "wand.and.stars",
+        "imagePrompt": "A slow-motion montage of code snippets transforming into shorter, tighter versions with highlight sparkles"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Not all compilers output machine code",
+      "body": "Java compiles to 'bytecode' that runs on a virtual machine. TypeScript compiles to JavaScript. C compiles (usually) to assembly, then an assembler converts that to bytes. A compiler is any program that translates from one formal language to another. That definition alone covers hundreds of tools — LLVM, Babel, Rust's rustc, even Python's bytecode cache in those `__pycache__` folders.",
+      "visual": {
+        "sfSymbol": "arrow.right.circle.fill",
+        "imagePrompt": "A chain of language logos passing code between them like runners in a relay race"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why you should care",
+      "body": "Every time you run a program, a compiler is why it works. It's also why one language can feel fast and another slow, why error messages are sometimes cryptic ('expected token, got semicolon'), and why a tiny change in source code can produce a totally different binary. Understanding even a little of what compilers do demystifies half of modern programming. The machine is magical. The translation is the trick.",
+      "visual": {
+        "sfSymbol": "gearshape.2.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Who built the first automatic compiler?",
+      "options": [
+        "Alan Turing",
+        "Grace Hopper",
+        "Donald Knuth",
+        "Linus Torvalds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grace Hopper built the A-0 System in 1952, the first compiler in the modern sense."
+    },
+    {
+      "index": 1,
+      "question": "What is an Abstract Syntax Tree?",
+      "options": [
+        "A diagram of all functions in a file",
+        "A tree showing the structural meaning of code",
+        "A list of every variable's type",
+        "A visualization of memory usage"
+      ],
+      "correctIndex": 1,
+      "explanation": "An AST represents the meaning of your code — not its formatting — as a tree of nested nodes."
+    },
+    {
+      "index": 2,
+      "question": "Which of these is NOT a compiler?",
+      "options": [
+        "GCC",
+        "TypeScript's tsc",
+        "A text editor's spell checker",
+        "Rust's rustc"
+      ],
+      "correctIndex": 2,
+      "explanation": "A spell checker doesn't translate one formal language into another — it just validates text."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Compilers: Principles, Techniques, and Tools (The Dragon Book)",
+      "publisher": "Addison-Wesley",
+      "year": 2006
+    },
+    {
+      "title": "The Education of a Computer (on the A-0 System)",
+      "publisher": "Proceedings of the ACM National Meeting",
+      "year": 1952
+    }
+  ],
+
+  "related": ["recursion-basics", "how-cpus-work", "programming-languages"]
+}

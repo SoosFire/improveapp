@@ -1,0 +1,144 @@
+{
+  "id": "rumination-cycle",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Worrying Doesn't Help",
+    "teaser": "Your brain tells you the worrying is the work. It isn't. Here's the loop it's stuck in — and how to break it.",
+    "category": "Mental Health",
+    "subcategories": ["Anxiety", "Cognitive Psychology"],
+    "tags": ["anxiety", "rumination", "thinking", "therapy", "cbt"],
+    "emoji": "🌀",
+    "accentColor": "#5C7B8A",
+    "coverSymbol": {
+      "sfSymbol": "arrow.triangle.2.circlepath",
+      "fallbackEmoji": "🌀"
+    },
+    "coverImagePrompt": "A single figure at a desk surrounded by a slow spiral of thought-like paper ribbons, dim evening light, dreamlike atmosphere"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "It's 3 a.m. and you're replaying the meeting",
+      "body": "You keep going over what you said. What they said. What you should have said. Your brain insists this is productive — that if you just turn it over one more time, you'll solve it. Two hours later, nothing's solved. You're just more tired and more anxious. Welcome to rumination.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "A dark bedroom at 3 a.m., glowing alarm clock, a person lying awake staring at the ceiling, single sliver of moonlight"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Worrying vs. problem-solving",
+      "body": "Psychologist Susan Nolen-Hoeksema, who pioneered rumination research in the 1990s, drew a sharp line between the two. Problem-solving has a direction — it moves toward options, a decision, an action. Rumination moves in circles. It revisits the same feelings and questions without ever arriving anywhere. The brain mistakes repetition for progress.",
+      "keyTerms": [
+        { "term": "Rumination", "definition": "Repetitive, passive focus on negative feelings and their causes, without constructive action" },
+        { "term": "Susan Nolen-Hoeksema", "definition": "Yale psychologist whose research established rumination as a key driver of depression" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.turn.up.right.circle.fill",
+        "imagePrompt": "A flowchart diagram: one path spiraling in a closed loop, another branching forward into actions, hand-drawn style"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the loop feels so productive",
+      "body": "Rumination gives a false sense of control — as long as you're thinking about a problem, it feels like you're doing something about it. But fMRI studies show that rumination activates the default mode network, the same brain system that runs during daydreaming. You're not analyzing; you're idling in analysis-shaped gear. Meanwhile, stress hormones keep rising, which the brain interprets as evidence the threat is real.",
+      "keyTerms": [
+        { "term": "Default mode network", "definition": "A brain network active during rest and self-referential thought — overactive in depression and rumination" }
+      ],
+      "visual": {
+        "sfSymbol": "brain.head.profile.fill",
+        "imagePrompt": "A glowing brain illustration with a small region softly pulsing in loops, scientific but atmospheric"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How rumination becomes depression",
+      "body": "Nolen-Hoeksema's longitudinal studies found that people with a ruminative response style were more than twice as likely to develop major depression after a stressful event. Rumination also extends how long depressive episodes last — because the mind keeps the emotional fire topped up. Breaking the loop, even briefly, significantly improves outcomes.",
+      "funFact": "A 20-minute walk outside was shown in a Stanford study to measurably reduce activity in the brain region tied to rumination — without any other intervention.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A lone figure walking on a tree-lined path at golden hour, camera behind their shoulder, quiet and meditative"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Interrupt the loop, don't argue with it",
+      "body": "You can't outthink rumination — arguing with the thought only feeds it. What works better: change state. Move your body, talk to another human, do a concrete five-minute task. The goal isn't to solve the thought. It's to break the circuit long enough that your brain can reset. Worry pretends to be preparation. Action is what preparation actually looks like.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What's the key difference between problem-solving and rumination?",
+      "options": [
+        "Problem-solving uses more effort",
+        "Rumination moves toward action; problem-solving doesn't",
+        "Problem-solving moves toward a decision; rumination circles without arriving",
+        "They are the same process"
+      ],
+      "correctIndex": 2,
+      "explanation": "Problem-solving is directional — it moves toward options and decisions. Rumination loops the same material without progress."
+    },
+    {
+      "index": 1,
+      "question": "Which brain network is overactive during rumination?",
+      "options": [
+        "Motor cortex",
+        "Default mode network",
+        "Visual cortex",
+        "Brainstem"
+      ],
+      "correctIndex": 1,
+      "explanation": "The default mode network — active during self-referential, internally focused thought — runs too hot during rumination."
+    },
+    {
+      "index": 2,
+      "question": "What's a more effective response to rumination than arguing with the thought?",
+      "options": [
+        "Thinking about it harder",
+        "Changing state — move, talk, act",
+        "Trying to sleep it off",
+        "Writing out every counter-argument"
+      ],
+      "correctIndex": 1,
+      "explanation": "You can't outthink a loop. Changing state — through movement, connection, or concrete action — breaks the circuit."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Rethinking Rumination",
+      "publisher": "Nolen-Hoeksema, Wisco & Lyubomirsky, Perspectives on Psychological Science",
+      "year": 2008
+    },
+    {
+      "title": "Nature experience reduces rumination and subgenual prefrontal cortex activation",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "year": 2015
+    }
+  ],
+
+  "related": ["cognitive-behavioral-therapy", "default-mode-network", "imposter-syndrome"]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "photosynthesis-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Photosynthesis: The Reaction That Feeds the World",
+    "teaser": "Every bite you eat and every breath you take came out of a single chemical trick plants learned in the sun.",
+    "category": "Biology",
+    "subcategories": ["Plant Biology", "Biochemistry"],
+    "tags": ["photosynthesis", "plants", "chlorophyll", "oxygen", "biochemistry"],
+    "emoji": "🌱",
+    "accentColor": "#27AE60",
+    "coverSymbol": {
+      "sfSymbol": "leaf.fill",
+      "fallbackEmoji": "🍃"
+    },
+    "coverImagePrompt": "A single translucent green leaf backlit by golden sunlight, with cellular chloroplasts visible like tiny green lanterns, dew droplets sparkling, cinematic macro photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A leaf runs on sunlight",
+      "body": "A maple leaf sitting in the sun is, very literally, a small solar-powered factory. It takes in water from the roots, carbon dioxide from the air, and photons from the sky, and spits out sugar and oxygen. It does this all day, every day, across the entire green surface of the planet. The whole food web — including you — is downstream of this one reaction.",
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "A leaf drawn as a glowing factory silhouette with tiny arrows showing water, CO₂, and sunlight entering"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The ingredients",
+      "body": "The core recipe is short: 6 CO₂ + 6 H₂O + light → C₆H₁₂O₆ + 6 O₂. Six carbon dioxide molecules and six water molecules, plus sunlight, turn into one glucose molecule and six molecules of oxygen. The magic happens inside tiny green organelles called chloroplasts, where a molecule called chlorophyll absorbs red and blue light — and reflects green, which is why plants look the color they do.",
+      "keyTerms": [
+        { "term": "Chloroplast", "definition": "The organelle inside plant cells where photosynthesis occurs" },
+        { "term": "Chlorophyll", "definition": "The green pigment that absorbs sunlight to power the reaction" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.2x2.fill",
+        "imagePrompt": "A cross-section of a plant cell with bright green chloroplasts highlighted, each containing stacks of thylakoid discs"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Two reactions in one leaf",
+      "body": "Photosynthesis happens in two stages. The light-dependent reactions use photons to split water molecules, releasing oxygen as a waste product and storing energy in molecules called ATP and NADPH. The Calvin cycle then uses that stored energy to pull carbon out of CO₂ and stitch it into sugar. One stage makes the batteries; the other spends them building food.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "A two-panel diagram: light-reactions splitting water and making ATP on the left, Calvin cycle building glucose on the right"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The accident that made animals possible",
+      "body": "About 2.4 billion years ago, cyanobacteria started doing photosynthesis and dumping oxygen into Earth's previously oxygen-free atmosphere. It was a planetary pollution event called the Great Oxidation, and it killed most life at the time. But it also made breathing possible. Every O₂ molecule in every breath you take was originally a waste product spat out by a plant or microbe.",
+      "funFact": "Collectively, Earth's plants and phytoplankton produce about 330 billion tons of oxygen each year — a little over half of it comes from the ocean, not trees.",
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "An ancient shallow sea full of green-tinted mats of cyanobacteria releasing bubbles of oxygen, dramatic early-Earth lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The quiet engine of everything",
+      "body": "Animals — including us — don't really 'make' our own energy. We rent it from plants, and they rent it from the sun. Every muscle twitch, every thought, every burst of joy is ultimately powered by sunlight that was captured by a leaf somewhere. Photosynthesis is not just a chapter in a biology textbook. It's the reason there's a biology textbook.",
+      "visual": {
+        "sfSymbol": "infinity.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do most plants look green?",
+      "options": [
+        "Chlorophyll reflects green light while absorbing red and blue",
+        "Plants evolved green pigments for camouflage",
+        "Sunlight contains more green light than any other color",
+        "Carbon dioxide turns green inside the leaf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chlorophyll absorbs red and blue wavelengths for energy but reflects most green light — which is what our eyes see."
+    },
+    {
+      "index": 1,
+      "question": "What are the two main products of photosynthesis?",
+      "options": [
+        "Nitrogen and carbon",
+        "Glucose and oxygen",
+        "Water and methane",
+        "Starch and carbon dioxide"
+      ],
+      "correctIndex": 1,
+      "explanation": "The reaction converts CO₂ and water into glucose (sugar) and releases O₂ as a waste product."
+    },
+    {
+      "index": 2,
+      "question": "About how much of Earth's oxygen production comes from the ocean?",
+      "options": ["Less than 5%", "About 20%", "Just over half", "Essentially all of it"],
+      "correctIndex": 2,
+      "explanation": "Phytoplankton in the oceans produce a little more oxygen than all land plants combined — over half of the global total."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Biology of Plants",
+      "publisher": "W. H. Freeman",
+      "year": 2005
+    },
+    {
+      "title": "The Great Oxidation Event: How cyanobacteria changed life",
+      "publisher": "Nature Reviews Microbiology",
+      "year": 2019
+    }
+  ],
+
+  "related": ["great-oxidation-event", "chlorophyll-chemistry", "phytoplankton"]
+}

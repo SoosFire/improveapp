@@ -1,0 +1,141 @@
+{
+  "id": "prime-meridian-arbitrary",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Prime Meridian Runs Through Greenwich",
+    "teaser": "Zero longitude isn't written into the Earth. It was voted on in a room in Washington in 1884.",
+    "category": "Geography",
+    "subcategories": ["Cartography", "History of Science"],
+    "tags": ["longitude", "greenwich", "time-zones", "geography", "meridian"],
+    "emoji": "🌍",
+    "accentColor": "#636E72",
+    "coverSymbol": {
+      "sfSymbol": "globe.europe.africa.fill",
+      "fallbackEmoji": "🌐"
+    },
+    "coverImagePrompt": "The Royal Observatory at Greenwich at twilight with a brass meridian line glowing across the courtyard, visitors standing on either side, cinematic moody light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A line that isn't there",
+      "body": "Stand in the courtyard of the Royal Observatory in Greenwich, England, and you can straddle a brass strip in the pavement with one foot in the Eastern Hemisphere and one in the Western. That brass line is zero degrees longitude — the spot all world maps secretly point to. But the Earth has no such line. You can't see it from space. It is, in the most literal sense, imaginary. So why does it run through a hill in southeast London?",
+      "visual": {
+        "sfSymbol": "line.horizontal.3",
+        "imagePrompt": "A brass meridian line embedded in old cobblestones with visitors' feet straddling it, soft dusk light, tourists' silhouettes"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Latitude is given. Longitude is chosen.",
+      "body": "Latitude has a natural zero: the equator, fixed by the Earth's rotation. Longitude doesn't. Any north-south line is just as good as any other. In the 1800s, French ships measured longitude from Paris. Russian ships from Pulkovo. Portuguese ships from Lisbon. American ships from Washington. A single map could carry two or three different zero lines depending on who drew it. It was chaos for navigation and railway timetables.",
+      "keyTerms": [
+        { "term": "Latitude", "definition": "Angular distance north or south of the equator — fixed by Earth's rotation" },
+        { "term": "Longitude", "definition": "Angular distance east or west of a chosen reference meridian — inherently arbitrary" }
+      ],
+      "visual": {
+        "sfSymbol": "map",
+        "imagePrompt": "A stack of old 19th century maps each showing a different prime meridian, with dotted lines labeled Paris, Washington, Lisbon"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A vote in Washington",
+      "body": "In October 1884, 41 delegates from 25 nations met at the International Meridian Conference in Washington, D.C. They had one job: pick a single global zero. The vote for Greenwich won 22 to 1, with France and Brazil abstaining. The reason wasn't astronomical — it was practical. Roughly 72% of the world's shipping already used British nautical charts, which already put zero at Greenwich. Adopting anything else would have meant reprinting half the world's navigation data.",
+      "funFact": "France refused to officially recognize Greenwich as the prime meridian until 1911, and continued using 'Paris Mean Time' — set 9 minutes 21 seconds ahead of GMT — for everyday use.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A Victorian conference room with gaslight chandeliers, delegates standing in formal dress, a globe on a central table, 1884"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The wobble nobody mentions",
+      "body": "The meridian moved. With GPS, in 1984 the world adopted a new reference system called WGS84, based on satellite geometry rather than a brass strip in a courtyard. The WGS84 prime meridian runs about 102 meters east of the old brass line at Greenwich. So if you hold a modern GPS receiver on the famous courtyard strip, it shows you at about 0°00′05″ West — not zero. The line on the ground is a tourist attraction. The real line is defined by satellites.",
+      "visual": {
+        "sfSymbol": "location.fill",
+        "imagePrompt": "A split image of the brass Greenwich line and a GPS reading showing coordinates 102 meters off, overlaid map arrows"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An agreement, not a fact",
+      "body": "The prime meridian is a reminder that maps aren't neutral descriptions of Earth — they're decisions. Somebody has to pick zero. Somebody has to pick which direction is 'up' on the globe. Every map you've ever seen carries quiet choices from rooms full of delegates. Once you see them, you can't unsee them. Geography is a conversation humanity is still having with itself.",
+      "visual": {
+        "sfSymbol": "hands.and.sparkles.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why was Greenwich chosen as the prime meridian in 1884?",
+      "options": [
+        "It is the geographic center of the world",
+        "Roughly 72% of global shipping already used British charts based there",
+        "Queen Victoria demanded it",
+        "It has the oldest observatory in the world"
+      ],
+      "correctIndex": 1,
+      "explanation": "Practical dominance, not astronomy: most nautical charts already used Greenwich, so switching would have been disruptive."
+    },
+    {
+      "index": 1,
+      "question": "Why does latitude have a natural zero but longitude doesn't?",
+      "options": [
+        "Because Earth is a perfect sphere",
+        "Because the equator is fixed by Earth's rotation; no rotation-based line defines zero longitude",
+        "Because of magnetic fields",
+        "Because the sun travels east-west"
+      ],
+      "correctIndex": 1,
+      "explanation": "The equator is defined by Earth's spin axis; any meridian is geometrically equivalent, so zero must be chosen by convention."
+    },
+    {
+      "index": 2,
+      "question": "Approximately how far off is the brass Greenwich line from the modern GPS prime meridian?",
+      "options": [
+        "Exactly on it",
+        "About 102 meters east of it",
+        "About 10 kilometers east of it",
+        "On the other side of the world"
+      ],
+      "correctIndex": 1,
+      "explanation": "WGS84, used by GPS since 1984, places the prime meridian roughly 102 meters east of the historic brass line."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Proceedings of the International Meridian Conference, Washington, D.C.",
+      "publisher": "U.S. Government Printing Office",
+      "year": 1884
+    },
+    {
+      "title": "The Prime Meridian at Greenwich",
+      "publisher": "Journal of Geodesy",
+      "year": 2015
+    }
+  ],
+
+  "related": ["why-rivers-bend", "time-zones-history", "gps-explained"]
+}

@@ -1,0 +1,141 @@
+{
+  "id": "recursion-basics",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Recursion: Solving Problems by Shrinking Them",
+    "teaser": "To understand recursion, you must first understand recursion.",
+    "category": "Computer Science",
+    "subcategories": ["Algorithms", "Programming"],
+    "tags": ["recursion", "algorithms", "programming", "stack", "problem-solving"],
+    "emoji": "🌀",
+    "accentColor": "#FD79A8",
+    "coverSymbol": {
+      "sfSymbol": "arrow.triangle.turn.up.right.circle.fill",
+      "fallbackEmoji": "🌀"
+    },
+    "coverImagePrompt": "A spiral of nested glass boxes, each containing a smaller version of itself, stretching into infinity, soft pink and indigo gradients, cinematic, dreamlike"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The mirror problem",
+      "body": "Two mirrors facing each other create infinite copies. Recursion is that — on purpose, and with a way to stop. In 1960, computer scientist Edsger Dijkstra gave a talk where he solved a maze by saying, 'To escape this room, either walk out the door, or take one step in the best direction and solve the smaller room that remains.' Everyone in the audience laughed. Then they realized he'd just solved every maze that would ever exist.",
+      "visual": {
+        "sfSymbol": "rectangle.portrait.on.rectangle.portrait.fill",
+        "imagePrompt": "Two mirrors facing each other in a softly lit room, producing infinite reflections of a single candle"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A function that calls itself",
+      "body": "A recursive function has two parts: a base case (when to stop) and a recursive case (shrink the problem and call yourself again). Take factorial. `factorial(5)` is just `5 × factorial(4)`. And `factorial(4)` is `4 × factorial(3)`. Eventually you reach `factorial(1)`, which returns 1 without calling anything. The stack unwinds, multiplications cascade back, and you get 120.",
+      "keyTerms": [
+        { "term": "Base case", "definition": "The version of the problem small enough to solve directly, with no further recursion" },
+        { "term": "Recursive case", "definition": "The step where the problem is reduced and the function calls itself on the smaller version" }
+      ],
+      "visual": {
+        "sfSymbol": "function",
+        "imagePrompt": "A function call tree unrolling: factorial(5) branching into factorial(4), factorial(3), down to factorial(1)"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it can explode",
+      "body": "Every time a function calls itself, the computer saves the current state on a 'call stack.' Ten nested calls? Fine. A hundred thousand? You'll overflow the stack and crash. Worse: naive recursion can redo the same work. The naive Fibonacci function calls itself twice for every number, so `fib(40)` performs over 300 million calls. Same problem, memoized, takes 40. Recursion is powerful — and ruthless when you forget that.",
+      "funFact": "The Python interpreter limits recursion to about 1,000 calls by default, specifically to protect you from infinite or runaway recursion.",
+      "visual": {
+        "sfSymbol": "tray.full.fill",
+        "imagePrompt": "A towering stack of transparent trays, each labeled with a function call, wobbling dangerously high"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Where it shines",
+      "body": "Recursion is perfect for problems that are naturally self-similar. Traversing folders inside folders. Parsing mathematical expressions. Walking a family tree. Quicksort, which underlies Java's default sort and many language standard libraries, is recursive: pick a pivot, split the list, sort each half. Merge sort: same idea. The binary search in your phone's contacts app? Recursion in disguise.",
+      "visual": {
+        "sfSymbol": "folder.fill",
+        "imagePrompt": "A nested file system diagram with folders inside folders inside folders, a recursive path lighting up in sequence"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Shrink, don't solve",
+      "body": "The secret of recursion is giving up. You don't solve the whole problem. You reduce it to a smaller version of itself and trust the function to handle that version. Then you only worry about two things: how small is too small, and how to combine the smaller answer back into yours. Once you internalize that pattern, whole categories of problems quietly fall apart.",
+      "visual": {
+        "sfSymbol": "arrow.down.right.and.arrow.up.left",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What must every recursive function have to avoid running forever?",
+      "options": [
+        "A for loop",
+        "A base case",
+        "An exception handler",
+        "A return type"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without a base case that stops recursion, the function would call itself forever (or until the stack overflows)."
+    },
+    {
+      "index": 1,
+      "question": "Why does naive `fib(40)` take so long?",
+      "options": [
+        "Because 40 is a large number",
+        "Because it recomputes the same subproblems millions of times",
+        "Because addition is slow",
+        "Because Python is single-threaded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each call spawns two more, repeating work exponentially — hundreds of millions of redundant calls."
+    },
+    {
+      "index": 2,
+      "question": "Which algorithm classically uses recursion?",
+      "options": [
+        "Bubble sort",
+        "Linear scan",
+        "Quicksort",
+        "Hashing a string"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quicksort picks a pivot and recursively sorts the two halves — a textbook recursive divide-and-conquer."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A Discipline of Programming",
+      "publisher": "Prentice-Hall",
+      "year": 1976
+    },
+    {
+      "title": "Introduction to Algorithms (CLRS)",
+      "publisher": "MIT Press",
+      "year": 2022
+    }
+  ],
+
+  "related": ["what-is-a-compiler", "sorting-algorithms", "call-stack"]
+}

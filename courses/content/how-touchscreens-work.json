@@ -1,0 +1,141 @@
+{
+  "id": "how-touchscreens-work",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How Your Touchscreen Feels Your Finger",
+    "teaser": "Your phone doesn't detect pressure — it measures tiny electrical storms in the air around your fingertip.",
+    "category": "Technology",
+    "subcategories": ["Consumer Electronics", "Sensors"],
+    "tags": ["touchscreen", "capacitance", "iphone", "electronics", "interface"],
+    "emoji": "📱",
+    "accentColor": "#2980B9",
+    "coverSymbol": {
+      "sfSymbol": "hand.point.up.fill",
+      "fallbackEmoji": "👆"
+    },
+    "coverImagePrompt": "A close-up macro shot of a fingertip hovering a fraction of a millimeter above a phone screen, with glowing blue electric-field lines curving around the finger, dark moody background, hyper-detailed"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why a hot dog works and a pencil doesn't",
+      "body": "You can unlock your phone with your finger. You can unlock it with a sausage. You cannot unlock it with the eraser on a pencil. That's because your screen isn't feeling pressure — it's feeling electricity. And your body, unlike wood or plastic, is a surprisingly good conductor.",
+      "visual": {
+        "sfSymbol": "bolt.fill",
+        "imagePrompt": "A hot dog tapping a smartphone screen, deadpan still-life lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A grid of tiny capacitors",
+      "body": "Underneath the glass of a modern phone is a transparent grid of conductive wires made from indium tin oxide. Where the horizontal and vertical wires cross, they form tiny capacitors — each one storing a little bit of electric charge. This setup is called a projected capacitive touchscreen, and the entire grid is constantly being scanned hundreds of times per second.",
+      "keyTerms": [
+        { "term": "Capacitance", "definition": "A material's ability to store electrical charge" },
+        { "term": "Indium tin oxide (ITO)", "definition": "A transparent conductor used for touchscreen electrodes" }
+      ],
+      "visual": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "imagePrompt": "A transparent electrode grid seen under a microscope, illuminated with soft blue light"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Your finger steals the charge",
+      "body": "When your fingertip approaches the glass, it acts like a tiny grounded electrode. It distorts the electric field and drains a small amount of charge away from the nearest crossing points — often before you've even made contact. The chip controlling the screen notices exactly which capacitors lost charge, triangulates the position, and reports the coordinates to iOS or Android in milliseconds.",
+      "visual": {
+        "sfSymbol": "wave.3.forward",
+        "imagePrompt": "Electric field lines bending toward an approaching fingertip above a glowing grid"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why gloves betray you",
+      "body": "Wool and most plastics don't conduct electricity, so an ordinary glove simply hides your finger from the field. 'Touchscreen gloves' have conductive threads — often silver or carbon — stitched into the fingertips to restore the connection. For the same reason, a stylus meant for phones is usually made of a rubber or metal tip that carries charge, not the plastic nub of an old PDA.",
+      "funFact": "The first projected capacitive touchscreen was invented in 1973 at CERN — decades before the iPhone put the idea in your pocket.",
+      "visual": {
+        "sfSymbol": "hand.raised.fill",
+        "imagePrompt": "A wool glove failing to swipe a phone in the snow, with a small silver-threaded fingertip glowing in the next frame"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "You're already part of the circuit",
+      "body": "The reason a touchscreen feels so magical is that it isn't measuring your touch — it's measuring you. You finish the circuit every time you reach for the screen. Once you see it that way, it's hard not to notice the small, constant electrical conversation between your body and every glass rectangle in your life.",
+      "visual": {
+        "sfSymbol": "figure.wave",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What property of your finger does a modern touchscreen actually detect?",
+      "options": [
+        "Pressure on the glass",
+        "Body heat",
+        "Electrical capacitance",
+        "Skin oil residue"
+      ],
+      "correctIndex": 2,
+      "explanation": "Projected capacitive screens sense small changes in capacitance caused by your finger distorting the local electric field."
+    },
+    {
+      "index": 1,
+      "question": "Why can't you use a wooden pencil tip to operate your phone screen?",
+      "options": [
+        "Wood is too soft",
+        "Wood doesn't conduct electricity well",
+        "The tip is too sharp",
+        "Wood absorbs infrared light"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without conductivity, the pencil can't disturb the screen's electric field — so the touch controller sees nothing."
+    },
+    {
+      "index": 2,
+      "question": "What material forms the transparent electrode grid under the glass?",
+      "options": [
+        "Copper mesh",
+        "Indium tin oxide",
+        "Graphene foil",
+        "Aluminum vapor coating"
+      ],
+      "correctIndex": 1,
+      "explanation": "Indium tin oxide (ITO) is conductive and nearly transparent, making it ideal for the fine electrode grids in touchscreens."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Touch Technology: Principles and Applications",
+      "publisher": "Wiley",
+      "year": 2016
+    },
+    {
+      "title": "A History of Touchscreen Technology",
+      "publisher": "Ars Technica",
+      "year": 2013
+    }
+  ],
+
+  "related": ["iphone-launch", "capacitive-sensors", "haptic-feedback"]
+}

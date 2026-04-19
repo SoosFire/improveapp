@@ -1,0 +1,136 @@
+{
+  "id": "why-440hz-standard",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Orchestras Tune to 440Hz",
+    "teaser": "Why does every orchestra on earth start with the same little 'A'? The answer involves Mozart, politics, and a BBC broadcast.",
+    "category": "Music",
+    "subcategories": ["Music History", "Acoustics"],
+    "tags": ["pitch", "tuning", "orchestra", "history", "acoustics"],
+    "emoji": "🎻",
+    "accentColor": "#A35A3A",
+    "coverSymbol": {
+      "sfSymbol": "tuningfork",
+      "fallbackEmoji": "🎼"
+    },
+    "coverImagePrompt": "A tuning fork vibrating in close-up on dark wood, thin ripples of sound visualized as soft concentric lines, cinematic macro, warm amber light"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The one note everyone agrees on",
+      "body": "Before any orchestra plays, one sound cuts through the hall: the oboe's A. It vibrates at exactly 440 hertz — 440 times per second. Every player tunes to it. But that number was chosen by committee, relatively recently, after centuries of wild disagreement. Bach's A was probably closer to 415. Handel's was 423. Mozart's, around 421.",
+      "visual": {
+        "sfSymbol": "music.note",
+        "imagePrompt": "An oboist onstage before a concert, the orchestra silhouetted behind her, a single spotlight catching her instrument"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'A440' actually means",
+      "body": "Pitch is just the speed of vibration. An A at 440Hz means the air pressure is oscillating 440 times per second. Double the frequency to 880 and you get an A one octave higher. Musicians standardize a reference note — almost always A above middle C — so that any two instruments anywhere can actually agree on what 'in tune' means.",
+      "keyTerms": [
+        { "term": "Hertz (Hz)", "definition": "A unit of frequency — one cycle per second" },
+        { "term": "Concert pitch", "definition": "The pitch reference an ensemble tunes to, traditionally the A above middle C" }
+      ],
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "A clean physics diagram of a sine wave labeled 440 Hz, warm retro chalkboard aesthetic"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A slow arms race of sharpness",
+      "body": "For most of music history, there was no standard. Different cities, courts, and churches each had their own pitch — often drifting higher over time because sharper strings sound brighter and more exciting. By the 1800s, this 'pitch inflation' had grown so extreme that singers could no longer hit the notes in operas written fifty years earlier. Something had to give.",
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "A 19th-century opera house mid-performance, a tenor reaching for a high note, orchestra below, stormy dramatic lighting"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "How 440 became the rule",
+      "body": "In 1939, the International Organization for Standardization met in London and agreed on A=440Hz as the concert-pitch standard. The number wasn't sacred — 435 had been France's legal pitch since 1859, and Germany pushed higher — but 440 was a middle-ground compromise that the BBC had already been broadcasting as a time-signal reference. It was ratified again by ISO in 1955 and 1975, and it stuck.",
+      "funFact": "There's a small but vocal online movement insisting A=432Hz is more 'natural' and healing. No peer-reviewed study has ever supported this — the human ear can't reliably tell the two apart without a reference tone.",
+      "visual": {
+        "sfSymbol": "antenna.radiowaves.left.and.right",
+        "imagePrompt": "A 1930s BBC radio studio with a tuning fork on a polished desk beside a vintage microphone, art-deco atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A fragile little treaty",
+      "body": "Concert pitch is a treaty, not a law of physics. It's a global agreement that lets a flute made in Japan play with a cello built in Italy and a voice trained in Brazil. The number itself is almost arbitrary — but the agreement behind it is what makes modern music possible.",
+      "visual": {
+        "sfSymbol": "globe",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'A=440Hz' refer to?",
+      "options": [
+        "The number of strings on a violin",
+        "The air pressure oscillating 440 times per second for the note A",
+        "The number of seats in a concert hall",
+        "The tempo in beats per minute"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hertz measures frequency — 440 Hz means 440 vibrations per second for the reference pitch A."
+    },
+    {
+      "index": 1,
+      "question": "When was A=440Hz adopted as the international standard?",
+      "options": ["1750", "1859", "1939", "2000"],
+      "correctIndex": 2,
+      "explanation": "An international conference in London set A=440Hz as the concert-pitch standard in 1939."
+    },
+    {
+      "index": 2,
+      "question": "Why did historical pitch standards tend to drift upward over time?",
+      "options": [
+        "Because instruments physically shrank",
+        "Because composers demanded it in contracts",
+        "Because sharper tuning sounds brighter and more exciting",
+        "Because air pressure changed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Players favored sharper tuning for its brighter sound, creating a slow arms race until singers literally couldn't reach the notes anymore."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A History of Pitch Standards",
+      "publisher": "Bruce Haynes, Scarecrow Press",
+      "year": 2002
+    },
+    {
+      "title": "ISO 16:1975 Acoustics — Standard tuning frequency",
+      "publisher": "International Organization for Standardization",
+      "year": 1975
+    }
+  ],
+
+  "related": ["equal-temperament", "the-mozart-effect-myth", "why-we-love-minor-keys"]
+}

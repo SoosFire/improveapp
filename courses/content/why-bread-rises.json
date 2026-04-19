@@ -1,0 +1,141 @@
+{
+  "id": "why-bread-rises",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Bread Rises",
+    "teaser": "Every loaf is a quiet collaboration between a fungus and a protein — and neither one knows you exist.",
+    "category": "Cooking",
+    "subcategories": ["Baking", "Food Science"],
+    "tags": ["bread", "yeast", "gluten", "fermentation", "baking"],
+    "emoji": "🍞",
+    "accentColor": "#FDCB6E",
+    "coverSymbol": {
+      "sfSymbol": "bubbles.and.sparkles.fill",
+      "fallbackEmoji": "🥖"
+    },
+    "coverImagePrompt": "A loaf of sourdough cross-sectioned showing airy open crumb, steam rising, warm bakery light, flour dust in the air, cinematic food photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Trapped farts",
+      "body": "That pillowy hole-filled crumb in a good baguette is, at the atomic level, a vast network of frozen gas bubbles. Specifically: carbon dioxide exhaled by microscopic fungi and held in place by a stretchy protein web. Humans have been eating bread for at least 14,500 years — archaeologists found charred crumbs in a Jordanian hearth from well before farming. For most of that history, nobody knew yeast was alive.",
+      "visual": {
+        "sfSymbol": "bubble.left.fill",
+        "imagePrompt": "Extreme close-up of bread crumb showing thousands of tiny air pockets, each glowing softly, macro lens"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The fungus and the glue",
+      "body": "Two things make bread rise. First: yeast — specifically Saccharomyces cerevisiae, a single-celled fungus that eats sugar and burps CO₂. Second: gluten, a protein formed when two flour proteins (glutenin and gliadin) meet water and get kneaded. Glutenin gives strength; gliadin gives stretch. Together they form an elastic mesh, strong enough to trap each yeast burp without popping.",
+      "keyTerms": [
+        { "term": "Yeast", "definition": "A single-celled fungus that ferments sugars into CO₂ and ethanol" },
+        { "term": "Gluten", "definition": "A stretchy protein network formed when glutenin and gliadin in wheat flour meet water and are worked together" }
+      ],
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": "A microscopic view of gluten strands forming a stretchy web with yeast cells trapped inside, exhaling bubbles"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The slow breath of dough",
+      "body": "At room temperature, a well-fed yeast cell produces carbon dioxide every few seconds. Over a two-hour rise, a trillion yeast cells in an average loaf might release roughly a liter of gas. That gas inflates the gluten web. During kneading, you align and strengthen the protein strands; during proofing, you give the yeast time to puff them. Skip either step and the loaf is dense.",
+      "funFact": "The alcohol yeast produces doesn't disappear — bread dough is mildly alcoholic. It just evaporates in the oven, leaving behind some of the flavor compounds.",
+      "visual": {
+        "sfSymbol": "wind",
+        "imagePrompt": "A slow-motion timelapse of dough rising in a bowl, a cutaway showing the interior growing bubbles over hours"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Oven spring, the final act",
+      "body": "When the loaf hits a 220°C oven, three things happen in fast succession. The trapped CO₂ expands (warm gas takes more space). Water turns to steam, adding more lift. The yeast, before dying around 60°C, gives a last panicked burst of fermentation. This is 'oven spring' — the dramatic final rise in the first ten minutes of baking. After that, starch gelatinizes, proteins set, and the crumb is locked in forever.",
+      "visual": {
+        "sfSymbol": "oven.fill",
+        "imagePrompt": "A loaf of bread visibly swelling in a glass-front oven, steam rising, crust beginning to form, golden lighting"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A 14,000-year contract",
+      "body": "Bread is essentially a domesticated microorganism working inside a protein scaffold, released from a grain you grew from a grass. Every loaf is a quiet agreement across kingdoms — fungus, plant, and human — built on three ingredients: flour, water, time. Master that triangle and you can make any bread in the world.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What gas makes bread rise?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yeast metabolizes sugars into carbon dioxide and ethanol; the CO₂ is what inflates the dough."
+    },
+    {
+      "index": 1,
+      "question": "What two proteins combine to form gluten?",
+      "options": [
+        "Casein and whey",
+        "Glutenin and gliadin",
+        "Myosin and actin",
+        "Collagen and elastin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glutenin provides strength, gliadin provides stretch — together with water they form the elastic gluten network."
+    },
+    {
+      "index": 2,
+      "question": "What is 'oven spring'?",
+      "options": [
+        "The sudden cooling when you open the oven",
+        "The rapid final rise in the first minutes of baking",
+        "A type of springform pan",
+        "The sound a loaf makes when done"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the first ~10 minutes, gas expansion, steam, and a final yeast burst dramatically inflate the loaf."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Archaeobotanical evidence reveals the origins of bread 14,400 years ago in northeastern Jordan",
+      "publisher": "PNAS",
+      "year": 2018
+    },
+    {
+      "title": "On Food and Cooking",
+      "publisher": "Scribner",
+      "year": 2004
+    }
+  ],
+
+  "related": ["sous-vide-science", "fermentation-basics", "sourdough-starter"]
+}

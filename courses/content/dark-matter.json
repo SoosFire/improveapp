@@ -1,0 +1,136 @@
+{
+  "id": "dark-matter",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What Dark Matter Actually Is",
+    "teaser": "Five-sixths of the universe is invisible, silent, and pulling on everything you can see.",
+    "category": "Astronomy",
+    "subcategories": ["Cosmology", "Particle Physics"],
+    "tags": ["dark-matter", "cosmology", "galaxies", "mystery", "physics"],
+    "emoji": "🌌",
+    "accentColor": "#34495E",
+    "coverSymbol": {
+      "sfSymbol": "moon.stars.fill",
+      "fallbackEmoji": "🕳️"
+    },
+    "coverImagePrompt": "A spiral galaxy suspended in deep space with a faintly glowing halo of invisible 'something' around it, suggested by lensed starlight bending around empty space, cinematic, Hubble-style rich blacks and violets"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The 85% of the universe no one has seen",
+      "body": "Every star, every planet, every person, every atom in your body — all of it adds up to roughly 15% of the matter in the universe. The rest is something that refuses to shine, refuses to absorb light, and refuses to interact with ordinary matter in any way we've caught. We call it dark matter, and we know it's there only because galaxies wouldn't hold together without it.",
+      "visual": {
+        "sfSymbol": "circle.lefthalf.filled",
+        "imagePrompt": "A pie chart floating in space showing 'ordinary matter' as a thin sliver and 'dark matter' as a looming dark majority"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Galaxies spinning too fast",
+      "body": "In the 1930s, astronomer Fritz Zwicky noticed that galaxies in the Coma Cluster were moving so fast they should have flown apart. Decades later, Vera Rubin measured individual stars orbiting inside spiral galaxies and found the same thing: stars far from the center were orbiting just as fast as stars near the middle. With only visible matter, that's physically impossible — unless something invisible is holding the galaxy down.",
+      "keyTerms": [
+        { "term": "Galaxy rotation curve", "definition": "A plot of how fast stars orbit a galaxy at different distances from the center" },
+        { "term": "Dark matter halo", "definition": "The invisible sphere of mass believed to surround every galaxy" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.xyaxis.line",
+        "imagePrompt": "A graph of galaxy rotation speeds staying flat at large radii instead of dropping off, annotated with 'predicted' and 'observed' curves"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What we know it isn't",
+      "body": "Dark matter isn't dust, black holes, or faint stars — those have all been ruled out by surveys. It isn't antimatter, or it would annihilate with ordinary matter and light up the sky. It isn't any particle in the Standard Model of physics. The leading suspects are WIMPs (weakly interacting massive particles), axions, and sterile neutrinos — hypothetical particles that barely flinch when ordinary atoms touch them.",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A stylized particle collision diagram with a ghostly missing-energy arrow slipping out of the detector"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "A ghost with a shadow",
+      "body": "The Bullet Cluster is the smoking gun. Two galaxy clusters collided, and the hot gas — which is most of the ordinary matter — slowed down due to friction. But gravitational lensing maps show most of the mass kept going, passing right through the collision. That's the signature of something that barely interacts with anything, not even itself, except through gravity.",
+      "funFact": "The cosmic microwave background — baby pictures of the universe from 380,000 years after the Big Bang — independently predicts dark matter makes up about 27% of everything in the cosmos.",
+      "visual": {
+        "sfSymbol": "eye.slash.fill",
+        "imagePrompt": "The Bullet Cluster image with pink X-ray gas stretched behind and blue lensing-mass clumps racing ahead"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A universe mostly made of a question",
+      "body": "Dark matter isn't one of the more exotic ideas in physics — it's one of the most mundane. 'There's more stuff and we can't see it' is a pretty ordinary explanation. What's strange is that after ninety years of looking, we still have no idea what that stuff is. The universe is mostly a question with a very precise mass.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What first tipped astronomers off to dark matter?",
+      "options": [
+        "Galaxies rotating faster than their visible mass should allow",
+        "Light bending around empty regions of space",
+        "Unexplained heat in empty space",
+        "Strange sounds from radio telescopes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zwicky and later Rubin showed that galaxies and clusters rotate too quickly to be held together by their visible mass alone."
+    },
+    {
+      "index": 1,
+      "question": "Why is the Bullet Cluster considered strong evidence for dark matter?",
+      "options": [
+        "It is the densest known galaxy cluster",
+        "Its mass is found displaced from its visible gas after a collision",
+        "It emits no light at all",
+        "It contains more black holes than any other cluster"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the Bullet Cluster, gravitational lensing shows most of the mass passed straight through the collision while the visible gas lagged behind — exactly what you'd expect if most mass is weakly interacting dark matter."
+    },
+    {
+      "index": 2,
+      "question": "Roughly what fraction of all matter in the universe is dark matter?",
+      "options": ["About 5%", "About 27%", "About 50%", "About 85%"],
+      "correctIndex": 3,
+      "explanation": "Of all matter — not counting dark energy — dark matter makes up about 85%. Ordinary atoms account for only ~15%."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A direct empirical proof of the existence of dark matter",
+      "publisher": "The Astrophysical Journal Letters",
+      "year": 2006
+    },
+    {
+      "title": "Planck 2018 results: Cosmological parameters",
+      "publisher": "Astronomy & Astrophysics",
+      "year": 2020
+    }
+  ],
+
+  "related": ["dark-energy", "galaxy-formation", "vera-rubin"]
+}

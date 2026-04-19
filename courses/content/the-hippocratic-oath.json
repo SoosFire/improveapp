@@ -1,0 +1,144 @@
+{
+  "id": "the-hippocratic-oath",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Hippocratic Oath, Then and Now",
+    "teaser": "Doctors don't actually swear 'first, do no harm.' The real oath is older, stranger, and mostly rewritten.",
+    "category": "Medicine",
+    "subcategories": ["Medical History", "Ethics"],
+    "tags": ["hippocrates", "ethics", "ancient greece", "medicine", "oath"],
+    "emoji": "⚕️",
+    "accentColor": "#6B7B3A",
+    "coverSymbol": {
+      "sfSymbol": "staroflife.fill",
+      "fallbackEmoji": "📜"
+    },
+    "coverImagePrompt": "An ancient Greek scroll unfurled on weathered marble, a single-serpent Asclepian staff resting beside it, soft Mediterranean light, painterly stillness"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The phrase you're thinking of isn't in it",
+      "body": "Ask almost anyone what doctors swear, and you'll hear 'first, do no harm.' It's in TV dramas, commencement speeches, inspirational posters. But the line — primum non nocere — isn't in the Hippocratic Oath. It's not in any version. The oath people actually take is far more interesting, and far more awkward.",
+      "visual": {
+        "sfSymbol": "text.quote",
+        "imagePrompt": "A modern medical school graduate holding a diploma at sunset, her face thoughtful, the stage empty behind her"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Who was Hippocrates?",
+      "body": "Hippocrates of Kos was a Greek physician born around 460 BCE. He's called the father of Western medicine because he was among the first to argue that illness came from natural causes — diet, environment, imbalance — rather than from angry gods. The oath attributed to him was probably written by his school rather than Hippocrates himself, sometime in the 4th or 5th century BCE.",
+      "keyTerms": [
+        { "term": "Hippocrates", "definition": "A Greek physician (c. 460–370 BCE) considered the father of rational, natural-cause medicine" },
+        { "term": "Asclepius", "definition": "The Greek god of healing, whose serpent-entwined staff became the symbol of medicine" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.circle.fill",
+        "imagePrompt": "A marble bust of Hippocrates in profile against a soft white background, Mediterranean light, gentle shadows"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What the original oath actually says",
+      "body": "The ancient text opens by swearing to Apollo, Asclepius, Hygieia, and Panacea. It binds physicians to teach the art freely to their teacher's sons, to keep patients' homes free of seduction, and — crucially — not to perform surgery, which was beneath a true physician. It forbids abortion and prescribing lethal drugs. It sounds less like a modern ethics code and more like a religious guild loyalty pledge.",
+      "keyTerms": [
+        { "term": "Hygieia", "definition": "Greek goddess of cleanliness and health — the root of the word 'hygiene'" }
+      ],
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "A close-up of aged papyrus covered in Greek script, edges frayed and curling, warm candle-lit detail"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The oath today is almost completely different",
+      "body": "Most modern medical schools now use the 1964 Lasagna Oath, written by Tufts dean Louis Lasagna. It drops the Greek gods, removes the surgery ban, loosens positions on abortion and end-of-life care, and adds lines about humility, social context, and the patient as a human being rather than a chart. A 2017 survey found over 90 percent of US medical schools use some modernized version — almost none use the original.",
+      "funFact": "Many graduating doctors today never actually say 'do no harm' out loud, even though the public is convinced they do.",
+      "visual": {
+        "sfSymbol": "graduationcap.fill",
+        "imagePrompt": "A lecture hall of medical graduates standing with raised right hands, bright windows, solemn but warm atmosphere"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "An oath that keeps rewriting itself",
+      "body": "The oath endures less as a fixed text and more as a ritual — a centuries-old promise that the people entrusted with your body owe you something more than skill. It's been edited, secularized, and argued over for 2,400 years, which is probably the most Hippocratic thing about it.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Is 'first, do no harm' actually part of the original Hippocratic Oath?",
+      "options": [
+        "Yes, it's the opening line",
+        "Yes, but only in later translations",
+        "No, it isn't in the oath at all",
+        "Only in the Latin version"
+      ],
+      "correctIndex": 2,
+      "explanation": "The famous phrase (primum non nocere) isn't in the oath — it appears elsewhere in the Hippocratic writings and was popularized much later."
+    },
+    {
+      "index": 1,
+      "question": "Which modern version is used by most US medical schools today?",
+      "options": [
+        "The original Greek oath",
+        "The Lasagna Oath (1964)",
+        "The Geneva Declaration",
+        "The Oath of Maimonides"
+      ],
+      "correctIndex": 1,
+      "explanation": "Louis Lasagna's 1964 rewrite is used in some form by the vast majority of US medical schools."
+    },
+    {
+      "index": 2,
+      "question": "What did the original oath notably forbid physicians from doing?",
+      "options": [
+        "Treating wealthy patients",
+        "Performing surgery",
+        "Using herbal remedies",
+        "Teaching women"
+      ],
+      "correctIndex": 1,
+      "explanation": "The original oath reserved surgery for a separate class of practitioners — a true physician did not cut."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Hippocratic Writings",
+      "publisher": "Penguin Classics, edited by G. E. R. Lloyd",
+      "year": 1983
+    },
+    {
+      "title": "Medical Oaths: Analysis of the Hippocratic Oath in Modern Medical Schools",
+      "publisher": "Academic Medicine",
+      "year": 2017
+    }
+  ],
+
+  "related": ["medical-ethics-today", "asclepius-and-the-rod", "history-of-surgery"]
+}

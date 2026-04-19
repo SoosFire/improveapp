@@ -1,0 +1,141 @@
+{
+  "id": "ai-hallucinations",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why AI Confidently Makes Things Up",
+    "teaser": "Language models don't know what they don't know — and that's not a bug, it's the whole design.",
+    "category": "Artificial Intelligence",
+    "subcategories": ["Large Language Models", "AI Safety"],
+    "tags": ["llm", "hallucination", "chatgpt", "truth", "prediction"],
+    "emoji": "💭",
+    "accentColor": "#E17055",
+    "coverSymbol": {
+      "sfSymbol": "bubble.left.and.exclamationmark.bubble.right.fill",
+      "fallbackEmoji": "💬"
+    },
+    "coverImagePrompt": "A chatbot avatar confidently lecturing from a podium while books behind it are shown to be blank-paged illusions, soft spotlight, slightly eerie atmosphere, cinematic painterly"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The lawyer who trusted ChatGPT",
+      "body": "In June 2023, a New York attorney named Steven Schwartz filed a legal brief full of case citations. One problem: six of them didn't exist. ChatGPT had invented them — complete with plausible court names, judge initials, and docket numbers. The judge fined Schwartz $5,000. The cases were polished, confident, and completely fictional. So why did the machine lie?",
+      "visual": {
+        "sfSymbol": "books.vertical.fill",
+        "imagePrompt": "An empty courtroom with legal books opening to reveal blank pages, dust motes catching light from a tall window"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "A model of the next word, not the world",
+      "body": "Large language models don't store facts. They store statistics about which words follow which other words. When you ask for a 'famous 1923 physics paper,' the model produces the most plausible-sounding sequence of tokens given its training — not a database lookup. 'Plausible' and 'true' usually overlap. Sometimes they don't.",
+      "keyTerms": [
+        { "term": "Token", "definition": "A chunk of text (often a word fragment) that a language model reads and writes one at a time" },
+        { "term": "Next-token prediction", "definition": "The core task: given what's come before, pick the most likely next token" }
+      ],
+      "visual": {
+        "sfSymbol": "text.word.spacing",
+        "imagePrompt": "Probability clouds hovering over each word in a sentence, showing branching possibilities for the next word"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Confidence is a side effect",
+      "body": "A model is trained to sound like a fluent writer. Fluent writers sound sure. Nothing in that training rewards saying 'I don't know' — in fact, training data is full of confident assertions, so the model mimics them. This is why a hallucination reads just as crisp as a fact. The tone carries no signal about truth.",
+      "funFact": "OpenAI's GPT-4 technical report showed that newer, larger models hallucinate less — but they also become harder to catch, because their mistakes sound more expert.",
+      "visual": {
+        "sfSymbol": "waveform.path",
+        "imagePrompt": "Two identical sound waves labeled 'true' and 'false' — indistinguishable"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "You can literally measure it",
+      "body": "Researchers test hallucination rates by asking a model questions with known answers. In 2023, one Stanford benchmark (HaluEval) found that GPT-4 produced unsupported claims in roughly 19% of long-form answers. Smaller open-source models were often above 40%. The number keeps dropping with each model generation, but it never hits zero — because prediction isn't retrieval.",
+      "visual": {
+        "sfSymbol": "gauge.with.dots.needle.50percent",
+        "imagePrompt": "A dashboard with a dial labeled 'hallucination rate' hovering between 10% and 50%, warning lights blinking softly"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The fix is architectural, not moral",
+      "body": "You can't just tell a model to 'stop making things up' — it doesn't know which of its outputs are made up. The real fixes are engineering: retrieval-augmented generation (let the model look things up), tool use (let it call a calculator), and grounding (cite the source). Used well, language models are brilliant assistants. Used blindly, they're confident liars. The user's job is to know which.",
+      "visual": {
+        "sfSymbol": "checkmark.shield.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do language models hallucinate?",
+      "options": [
+        "They have bugs in their code",
+        "They predict plausible next tokens rather than look up facts",
+        "They are deliberately programmed to lie",
+        "Their training data is wrong"
+      ],
+      "correctIndex": 1,
+      "explanation": "LLMs generate text based on statistical likelihood, not database retrieval — so plausibility can outrun accuracy."
+    },
+    {
+      "index": 1,
+      "question": "What happened in the Mata v. Avianca case in 2023?",
+      "options": [
+        "ChatGPT won its first trial",
+        "A lawyer was fined for citing fake cases ChatGPT invented",
+        "A judge ruled AI could not be cited",
+        "ChatGPT was banned from New York"
+      ],
+      "correctIndex": 1,
+      "explanation": "Attorney Steven Schwartz submitted a brief with six fictional cases generated by ChatGPT, and was fined $5,000."
+    },
+    {
+      "index": 2,
+      "question": "Which of these helps reduce hallucinations in practice?",
+      "options": [
+        "Asking the model to 'try harder'",
+        "Retrieval-augmented generation (letting the model look things up)",
+        "Running the model at a hotter temperature",
+        "Removing all punctuation"
+      ],
+      "correctIndex": 1,
+      "explanation": "RAG grounds answers in real retrieved documents, which is one of the most effective architectural fixes."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Mata v. Avianca, Inc., 22-cv-1461",
+      "publisher": "U.S. District Court, Southern District of New York",
+      "year": 2023
+    },
+    {
+      "title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for LLMs",
+      "publisher": "EMNLP",
+      "year": 2023
+    }
+  ],
+
+  "related": ["deep-learning-basics", "rag-explained", "prompt-engineering"]
+}

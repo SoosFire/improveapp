@@ -1,0 +1,136 @@
+{
+  "id": "why-we-get-sick-in-winter",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why We Get Sick More in Winter",
+    "teaser": "Cold weather doesn't cause colds — but there's a reason the virus spikes when temperatures drop. Your nose has a secret.",
+    "category": "Medicine",
+    "subcategories": ["Immunology", "Virology"],
+    "tags": ["viruses", "immune system", "winter", "colds", "flu"],
+    "emoji": "🤧",
+    "accentColor": "#3A6EA5",
+    "coverSymbol": {
+      "sfSymbol": "snowflake",
+      "fallbackEmoji": "❄️"
+    },
+    "coverImagePrompt": "A close-up of a person's breath turning to vapor in frozen blue winter light, tiny ice crystals catching the sun, hyper-detailed macro photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Your grandmother was half right",
+      "body": "'Put a coat on or you'll catch a cold.' For generations, scientists rolled their eyes — a virus causes a cold, not cold air. But in 2022, researchers at Harvard and Northeastern found that your grandmother had accidentally been onto something. The temperature inside your nose genuinely does change how well your immune system fights back.",
+      "visual": {
+        "sfSymbol": "thermometer.snowflake",
+        "imagePrompt": "A grandmother wrapping a scarf around a child in a snowy doorway, warm golden indoor light spilling out"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Your nose has an immune army",
+      "body": "The cells lining your nasal passages release swarms of tiny sacs called extracellular vesicles — basically decoys covered in the same receptors a virus is trying to grab onto. These decoys float in your mucus, intercepting invaders before they reach your actual cells. It's a brilliant defense: your body makes bait and throws it at the enemy.",
+      "keyTerms": [
+        { "term": "Extracellular vesicles", "definition": "Tiny membrane-wrapped sacs released by cells, used here as viral decoys" },
+        { "term": "Nasal epithelium", "definition": "The layer of cells lining the inside of your nose — your first immune barrier" }
+      ],
+      "visual": {
+        "sfSymbol": "nose.fill",
+        "imagePrompt": "A stylized cross-section of a human nose with glowing immune cells releasing tiny decoy spheres into the airway, scientific illustration"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why cold air breaks the defense",
+      "body": "The Harvard team found that when the temperature inside your nose drops just 5°C — roughly what happens walking outside on a cold day — the release of those decoy vesicles plummets by about 42 percent. Fewer decoys means more viral particles reaching real cells. Your nose isn't colder because it's sick; it's getting sick because it's colder.",
+      "visual": {
+        "sfSymbol": "arrow.down.circle.fill",
+        "imagePrompt": "Two side-by-side microscope views: warm nasal tissue bustling with decoys, cold nasal tissue nearly empty, split-screen comparison"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Dry air, crowded rooms, weaker virus killers",
+      "body": "Cold nasal temperature isn't the only factor. Winter air holds less moisture, which dries out mucus and lets virus particles stay airborne longer — flu viruses in particular thrive in low-humidity air. People also cluster indoors with poor ventilation, vitamin D drops with reduced sunlight, and school terms concentrate kids (the ultimate super-spreaders) in enclosed rooms. It's a perfect storm.",
+      "funFact": "Flu viruses have a harder outer shell at low humidity, which is why dry winter air makes them more infectious in the air.",
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "A crowded classroom at winter dusk, condensation on the windows, children bundled in sweaters, warm lamplight"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "So — coats?",
+      "body": "Wearing a coat won't prevent a virus from existing, but keeping your face and nose warmer genuinely helps your first line of defense work better. The old wisdom wasn't about the cold itself being a pathogen. It was about giving your immune system a fair fight. Grandma wins this round.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What do nasal cells release to intercept viruses before they infect you?",
+      "options": [
+        "Antibodies alone",
+        "White blood cells",
+        "Extracellular vesicle decoys",
+        "Stomach acid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nasal cells release extracellular vesicles coated with viral receptors, acting as floating decoys that trap pathogens in the mucus."
+    },
+    {
+      "index": 1,
+      "question": "Roughly how much does decoy release drop when nose temperature falls 5°C?",
+      "options": ["About 5%", "About 20%", "About 42%", "About 80%"],
+      "correctIndex": 2,
+      "explanation": "The 2022 Harvard/Northeastern study found a roughly 42% drop in protective decoys at lower nasal temperatures."
+    },
+    {
+      "index": 2,
+      "question": "Which winter factor makes flu viruses more infectious in the air?",
+      "options": [
+        "High humidity",
+        "Low humidity",
+        "Strong UV light",
+        "Tropical temperatures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Low humidity gives flu virus particles a harder outer coating and lets them linger in the air longer."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Cold exposure impairs extracellular vesicle swarm–mediated nasal antiviral immunity",
+      "publisher": "Journal of Allergy and Clinical Immunology",
+      "year": 2022
+    },
+    {
+      "title": "Absolute humidity and the seasonal onset of influenza",
+      "publisher": "PLOS Biology",
+      "year": 2010
+    }
+  ],
+
+  "related": ["how-vaccines-work", "mucus-immune-system", "vitamin-d-and-immunity"]
+}

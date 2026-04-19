@@ -1,0 +1,136 @@
+{
+  "id": "in-medias-res",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "In Medias Res: Why Stories Start in the Middle",
+    "teaser": "Homer dropped us into a ten-year war at year nine. Here's why starting in the middle is a storyteller's oldest trick.",
+    "category": "Literature",
+    "subcategories": ["Narrative Technique", "Classical Literature"],
+    "tags": ["storytelling", "homer", "narrative", "structure", "latin"],
+    "emoji": "📖",
+    "accentColor": "#8B3A3A",
+    "coverSymbol": {
+      "sfSymbol": "book.pages.fill",
+      "fallbackEmoji": "📜"
+    },
+    "coverImagePrompt": "An open ancient Greek scroll unrolling mid-sentence, lit by warm oil-lamp glow, ink glistening on parchment, dramatic painterly composition"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A Trojan warrior is sulking",
+      "body": "The Iliad opens on Achilles, furious, refusing to fight — and we have no idea why. No throne rooms, no abducted queen, no ships setting sail. Homer starts us nine years into a ten-year war, mid-tantrum, and somehow it works. That choice has a name, and it's shaped storytelling for nearly three thousand years.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A bronze-helmeted Greek warrior seated alone outside a tent at dusk, campfires glowing behind him, stormy mood"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'in medias res' actually means",
+      "body": "The phrase is Latin for 'into the middle of things' — coined by the Roman poet Horace in his Ars Poetica around 19 BCE. He was praising Homer for plunging readers into the action rather than opening with 'long ago, there was a man named...'. Horace argued that starting late respects the audience's time and trusts their intelligence.",
+      "keyTerms": [
+        { "term": "In medias res", "definition": "Latin for 'into the middle of things' — a narrative that begins mid-story" },
+        { "term": "Ars Poetica", "definition": "Horace's verse essay on the craft of poetry, written around 19 BCE" }
+      ],
+      "visual": {
+        "sfSymbol": "text.book.closed.fill",
+        "imagePrompt": "A weathered Latin manuscript page with the phrase 'in medias res' circled in red ink"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why it hooks us",
+      "body": "When a story opens mid-action, the brain is immediately in detective mode — it must reverse-engineer the backstory from context clues. That feels less like reading and more like arriving. The technique also creates instant stakes: we don't need to earn our way into caring, we're already inside the consequences. Flashbacks then become answers to questions we're already asking.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A cinematic film frame frozen mid-chase through a neon-lit street, question marks subtly woven into the bokeh"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "From Homer to Star Wars",
+      "body": "The Odyssey opens with Odysseus stranded on an island — ten years after Troy fell. Paradise Lost begins with Satan already in Hell. Star Wars starts mid-space-battle with rebels fleeing a pursuit we don't understand yet. Breaking Bad's pilot opens with Walter White in his underwear, pointing a gun at sirens. Across epic poetry, film, and prestige TV, the technique keeps winning.",
+      "funFact": "The opening crawl of Star Wars was George Lucas's workaround — he loved starting in medias res but worried audiences needed just enough backstory to hold on.",
+      "visual": {
+        "sfSymbol": "film.fill",
+        "imagePrompt": "A montage collage: Greek urn, blockbuster film reel, and vintage television, all bleeding into one another, warm retro palette"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The oldest trick that still works",
+      "body": "Beginnings are promises. Starting in the middle promises the reader that the story is already worth their attention — that they've missed something, and they want to catch up. It's less a rule than a wager: trust the audience to keep up, and they usually do.",
+      "visual": {
+        "sfSymbol": "arrow.right.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does 'in medias res' literally translate to?",
+      "options": [
+        "At the end of things",
+        "Into the middle of things",
+        "Before the beginning",
+        "Through the action"
+      ],
+      "correctIndex": 1,
+      "explanation": "It's Latin for 'into the middle of things' — a story that opens mid-action rather than at the chronological start."
+    },
+    {
+      "index": 1,
+      "question": "Which Roman poet coined the phrase in his Ars Poetica?",
+      "options": ["Virgil", "Ovid", "Horace", "Catullus"],
+      "correctIndex": 2,
+      "explanation": "Horace wrote the Ars Poetica around 19 BCE, praising Homer for plunging readers straight into the action."
+    },
+    {
+      "index": 2,
+      "question": "Why does starting in medias res tend to hook readers?",
+      "options": [
+        "It reduces the word count",
+        "It creates instant stakes and triggers curiosity",
+        "It avoids the need for characters",
+        "It guarantees a happy ending"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dropping readers into ongoing action creates immediate stakes and puts the brain into detective mode, hunting for context."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Ars Poetica",
+      "publisher": "Horace (Loeb Classical Library edition)",
+      "year": 19
+    },
+    {
+      "title": "The Art of Fiction",
+      "publisher": "John Gardner, Vintage Books",
+      "year": 1983
+    }
+  ],
+
+  "related": ["unreliable-narrator", "chekhovs-gun", "the-heros-journey"]
+}

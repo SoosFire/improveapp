@@ -1,0 +1,141 @@
+{
+  "id": "heisenbergs-uncertainty",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Heisenberg's Uncertainty Principle",
+    "teaser": "Nature has a built-in fuzziness — and it's not your instruments' fault.",
+    "category": "Physics",
+    "subcategories": ["Quantum Mechanics", "20th Century Physics"],
+    "tags": ["quantum", "heisenberg", "uncertainty", "physics", "history-of-science"],
+    "emoji": "⚛️",
+    "accentColor": "#9B59B6",
+    "coverSymbol": {
+      "sfSymbol": "waveform.path.ecg",
+      "fallbackEmoji": "🎲"
+    },
+    "coverImagePrompt": "A tiny particle rendered as a blurred wave packet inside a precise glowing coordinate grid, photograph-style depth of field with sharp axes and fuzzy subject, dark indigo background, cinematic"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A very famous 'you can't'",
+      "body": "In 1927, a 25-year-old physicist named Werner Heisenberg wrote down a short inequality that said: there are things about a particle you simply cannot know at the same time. Not because your ruler is too short, not because your camera is too slow. Because the universe won't let you. It's one of the strangest rules ever discovered — and one of the most thoroughly confirmed.",
+      "visual": {
+        "sfSymbol": "lock.fill",
+        "imagePrompt": "A stern portrait of a young Werner Heisenberg at a chalkboard covered in wave equations, moody sepia lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Position and momentum, together forever",
+      "body": "The principle states: the more precisely you know a particle's position, the less precisely you can know its momentum — and vice versa. Formally, Δx · Δp ≥ ℏ/2, where ℏ (h-bar) is a tiny constant of nature. If you pin an electron's location to within a billionth of a meter, its momentum has to be fuzzy by a specific minimum amount. Reality draws a little rectangle of uncertainty around every particle, and you can't shrink both sides at once.",
+      "keyTerms": [
+        { "term": "Momentum", "definition": "A particle's mass times its velocity — roughly, how much push it has" },
+        { "term": "ℏ (h-bar)", "definition": "The reduced Planck constant, the tiny 'quantum of action' that sets the scale of uncertainty" }
+      ],
+      "visual": {
+        "sfSymbol": "rectangle.split.2x1",
+        "imagePrompt": "A graph with position on the x-axis and momentum on the y-axis, with a small shaded rectangle that can be stretched thin in one direction only by growing in the other"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "It's not a measurement problem",
+      "body": "A common mistake is to think uncertainty is caused by the clumsiness of measuring — 'if you bounce a photon off an electron to see where it is, you change its momentum.' That's part of the story, but the deeper truth is that particles don't have a precise position and momentum waiting to be discovered. A quantum particle is described by a wave, and a wave that's sharply localized in space is inherently spread out in its wavelength (and therefore momentum). The fuzz is in the thing itself.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": "Two waveforms: one narrow and localized, one broad and wavy, connected by arrows labeled 'definite position' and 'definite momentum'"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "You can watch it happen",
+      "body": "Shine electrons through a very narrow slit. The narrower the slit, the more precisely you've pinned their position as they pass through. And reliably, the more the resulting beam fans out on the far side — because forcing a tight position makes momentum fuzzier. This isn't a thought experiment; it's a staple undergraduate demonstration. Atomic clocks, MRI machines, and transistor design all depend on uncertainty being exactly the way Heisenberg described it.",
+      "funFact": "The principle is why atoms don't collapse: confining an electron ever closer to a nucleus would force its momentum — and energy — sky-high. Uncertainty is the reason matter takes up space at all.",
+      "visual": {
+        "sfSymbol": "dot.radiowaves.left.and.right",
+        "imagePrompt": "Electrons passing through a narrow slit and fanning out dramatically on a detector screen, annotated with Δx and Δp arrows"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A little humility baked into nature",
+      "body": "Classical physics imagined a universe that, with perfect measurements, could be perfectly predicted. Heisenberg broke that dream in a single line. The world isn't hiding its answers from us — at the smallest scales, it simply doesn't have all of them. And yet the math of uncertainty is so precise that we've built lasers, semiconductors, and medical scanners on top of it. A limit, it turns out, can also be a foundation.",
+      "visual": {
+        "sfSymbol": "scribble.variable",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which pair of quantities is linked by Heisenberg's inequality Δx · Δp ≥ ℏ/2?",
+      "options": [
+        "Energy and temperature",
+        "Position and momentum",
+        "Mass and velocity",
+        "Wavelength and color"
+      ],
+      "correctIndex": 1,
+      "explanation": "The canonical form relates the uncertainty in position (Δx) and the uncertainty in momentum (Δp)."
+    },
+    {
+      "index": 1,
+      "question": "What's the most accurate way to describe where the uncertainty comes from?",
+      "options": [
+        "Imperfect measuring instruments",
+        "Quantum objects are waves, so sharp position and sharp momentum can't both exist",
+        "Environmental noise in laboratories",
+        "Limits on how fast light can travel"
+      ],
+      "correctIndex": 1,
+      "explanation": "The uncertainty is a property of the wave nature of quantum objects — not of the tools used to measure them."
+    },
+    {
+      "index": 2,
+      "question": "Why does uncertainty help explain why atoms have size?",
+      "options": [
+        "Electrons repel each other electrically",
+        "Squeezing an electron closer to the nucleus forces its momentum (and energy) higher",
+        "Nuclei emit particles that push electrons outward",
+        "Gravity balances electromagnetic attraction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tighter confinement means more uncertain momentum, which raises kinetic energy — setting a minimum size for a stable atom."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik",
+      "publisher": "Zeitschrift für Physik",
+      "year": 1927
+    },
+    {
+      "title": "The Feynman Lectures on Physics, Vol. III",
+      "publisher": "Addison-Wesley",
+      "year": 1965
+    }
+  ],
+
+  "related": ["wave-particle-duality", "schrodinger-equation", "double-slit-experiment"]
+}

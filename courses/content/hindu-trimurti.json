@@ -1,0 +1,131 @@
+{
+  "id": "hindu-trimurti",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Brahma, Vishnu, Shiva: The Hindu Trinity",
+    "teaser": "One god creates, one preserves, one destroys — together they keep the universe spinning.",
+    "category": "Religion & Mythology",
+    "subcategories": ["Hinduism", "Deities"],
+    "tags": ["hinduism", "trimurti", "brahma", "vishnu", "shiva", "theology"],
+    "emoji": "🕉️",
+    "accentColor": "#E67E22",
+    "coverSymbol": {
+      "sfSymbol": "triangle.fill",
+      "fallbackEmoji": "🔱"
+    },
+    "coverImagePrompt": "Three radiant Hindu deities rendered in a single mandala — one lotus-seated creator, one serene preserver in blue, one ash-smeared ascetic with a drum — circled by fire and sacred geometry, painterly, devotional, rich jewel tones"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Three faces of the same truth",
+      "body": "Hinduism isn't a religion of one god or of thousands — it's both. At the center of its cosmic machinery stand three figures called the Trimurti: Brahma, Vishnu, and Shiva. They don't compete. They take turns. Creation, preservation, and destruction — endlessly, in that order, like the breath of the universe itself.",
+      "visual": {
+        "sfSymbol": "infinity",
+        "imagePrompt": "Three silhouetted deities emerging from a swirl of cosmic dust, backlit by a rising golden sun"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Meet the three",
+      "body": "Brahma is the four-faced creator who spoke the Vedas into being. Vishnu is the blue-skinned preserver who descends to Earth as avatars — Rama, Krishna, and eight others — whenever the world needs saving. Shiva is the wild ascetic with a third eye and a cobra around his neck, who dances the universe into ash so it can be reborn.",
+      "keyTerms": [
+        { "term": "Trimurti", "definition": "Sanskrit for 'three forms' — the triad of Brahma, Vishnu, and Shiva" },
+        { "term": "Avatar", "definition": "An earthly incarnation of a deity, most often used of Vishnu" }
+      ],
+      "visual": {
+        "sfSymbol": "person.3.fill",
+        "imagePrompt": "Three temple statues side by side: four-headed Brahma with a lotus, blue Vishnu with a conch and disc, and Shiva with matted hair and a trident"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A universe in three beats",
+      "body": "The Trimurti describes a cycle, not a hierarchy. Brahma creates a universe; Vishnu sustains it for billions of years while dharma rises and falls; Shiva finally dissolves it in a cosmic fire called pralaya. Then Brahma wakes again and begins the next universe. Hindu scripture counts this cycle in 'kalpas' — single days of Brahma, each about 4.32 billion years long.",
+      "visual": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "imagePrompt": "A glowing cyclical diagram: creation flowing into preservation flowing into destruction, set against a starfield"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why nobody builds Brahma temples",
+      "body": "Despite being the creator, Brahma barely has any active temples — one famous shrine at Pushkar in Rajasthan, and almost nothing else. One legend says a curse from Shiva stripped him of worship for lying about reaching the top of an endless pillar of fire. Vishnu and Shiva, meanwhile, each have hundreds of millions of devotees and entire sects — Vaishnavism and Shaivism — built around them.",
+      "funFact": "Some Hindu traditions consider the Trimurti itself to be a single reality — Brahman — viewed from three angles, like one mountain seen from three directions.",
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "The lone Brahma temple at Pushkar, bathed in warm evening light, pilgrims walking the steps"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Destruction is not the end",
+      "body": "The part Westerners usually misread is Shiva. He isn't evil — he's necessary. Without destruction, nothing new can grow; the universe would silt up with its own past. The Trimurti's quiet lesson is that creation and ending are the same gesture, just seen from different sides.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which role does Vishnu play in the Trimurti?",
+      "options": ["Creator", "Preserver", "Destroyer", "Judge of the dead"],
+      "correctIndex": 1,
+      "explanation": "Vishnu is the preserver who maintains cosmic order and descends as avatars — Rama, Krishna, and others — to restore balance."
+    },
+    {
+      "index": 1,
+      "question": "Roughly how long is a single 'day of Brahma' (a kalpa)?",
+      "options": ["4,320 years", "4.32 million years", "4.32 billion years", "432 trillion years"],
+      "correctIndex": 2,
+      "explanation": "One kalpa is about 4.32 billion years — a strikingly cosmological number from a text written long before modern astronomy."
+    },
+    {
+      "index": 2,
+      "question": "Why, according to legend, does Brahma have almost no temples dedicated to him?",
+      "options": [
+        "He asked his followers not to worship him",
+        "He was cursed by Shiva for lying",
+        "He is considered too abstract to depict",
+        "His temples were destroyed in the Kali Yuga"
+      ],
+      "correctIndex": 1,
+      "explanation": "A well-known myth tells that Shiva cursed Brahma after he falsely claimed to have reached the top of an infinite pillar of fire."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Hindu Religious Tradition",
+      "publisher": "Wadsworth / Thomson",
+      "year": 1971
+    },
+    {
+      "title": "Hindu Myths: A Sourcebook Translated from the Sanskrit",
+      "publisher": "Penguin Classics",
+      "year": 2004
+    }
+  ],
+
+  "related": ["hindu-avatars", "shiva-nataraja", "kalpa-cosmology"]
+}

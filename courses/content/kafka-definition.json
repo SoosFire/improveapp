@@ -1,0 +1,138 @@
+{
+  "id": "kafka-definition",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "What 'Kafkaesque' Really Means",
+    "teaser": "It's not just 'weird bureaucracy.' The word points to something stranger — and more specific — than you think.",
+    "category": "Literature",
+    "subcategories": ["20th Century Fiction", "Literary Terms"],
+    "tags": ["kafka", "existentialism", "absurdism", "prague", "language"],
+    "emoji": "🪳",
+    "accentColor": "#2C2C2C",
+    "coverSymbol": {
+      "sfSymbol": "door.left.hand.closed",
+      "fallbackEmoji": "🚪"
+    },
+    "coverImagePrompt": "An endless corridor of identical wooden doors stretching into warped perspective, a single figure dwarfed at the center, muted sepia light, claustrophobic and surreal"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The word nobody uses correctly",
+      "body": "People call a slow DMV line 'Kafkaesque.' A confusing tax form. A dropped customer-service call. But Franz Kafka wasn't really writing about inconvenience. He was writing about a specific kind of nightmare — one where the rules exist, but nobody will ever explain them to you.",
+      "visual": {
+        "sfSymbol": "exclamationmark.bubble.fill",
+        "imagePrompt": "A person holding a crumpled form at a glass window, the clerk's face out of focus, fluorescent office light"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Who was Franz Kafka?",
+      "body": "Kafka was a German-speaking Czech Jew, born in Prague in 1883. He worked as an insurance lawyer by day and wrote at night. He published very little in his lifetime and, famously, asked his friend Max Brod to burn his manuscripts after his death in 1924. Brod refused — and gave us The Trial, The Castle, and Metamorphosis.",
+      "keyTerms": [
+        { "term": "Max Brod", "definition": "Kafka's friend and literary executor, who defied his instruction to destroy the manuscripts" }
+      ],
+      "visual": {
+        "sfSymbol": "person.crop.rectangle.fill",
+        "imagePrompt": "A sepia portrait of a young Franz Kafka in a dark suit, sharp gaze, Prague rooftops blurred behind him"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The four ingredients of 'Kafkaesque'",
+      "body": "A truly Kafkaesque situation needs four things working together. First, an unseen authority whose logic is never explained. Second, a protagonist who keeps obeying, hoping compliance will help. Third, a quality of waking dream — strange yet oddly mundane. And fourth, a guilt that seems to precede any actual wrongdoing. The DMV has bureaucracy. Kafka has metaphysical bureaucracy.",
+      "keyTerms": [
+        { "term": "The Trial", "definition": "Kafka's novel in which Josef K. is arrested for a crime that is never named" }
+      ],
+      "visual": {
+        "sfSymbol": "building.columns.fill",
+        "imagePrompt": "A faceless tribunal seated at an impossibly long table in a dimly lit marble hall, a lone figure standing before them"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Metamorphosis, one sentence in",
+      "body": "The Metamorphosis opens: 'As Gregor Samsa awoke one morning from uneasy dreams, he found himself transformed in his bed into a gigantic insect.' What makes it Kafkaesque isn't the bug — it's that Gregor's first worry is being late for work. The horror isn't the transformation; it's that nobody, including Gregor, treats it as the most important problem.",
+      "funFact": "Kafka refused to let illustrators draw the insect on the cover of Metamorphosis. He wanted it to remain unseen — which is itself deeply Kafkaesque.",
+      "visual": {
+        "sfSymbol": "bed.double.fill",
+        "imagePrompt": "An empty bed with rumpled sheets in an early-morning room, a single dark shadow on the wall vaguely insectoid, unsettling quiet"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why the word still sticks",
+      "body": "We reach for 'Kafkaesque' because modern life has so many situations where a system governs us but refuses to explain itself — algorithmic bans, opaque denials, automated phone trees that loop forever. Kafka named the feeling a century before we had the infrastructure to mass-produce it.",
+      "visual": {
+        "sfSymbol": "network",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Which of these is most essential to a 'Kafkaesque' situation?",
+      "options": [
+        "A villain with a clear motive",
+        "A happy ending that feels earned",
+        "An unseen authority whose logic is never explained",
+        "A love triangle"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kafka's worlds are defined by incomprehensible systems — the protagonist can't even learn the rules they're being judged by."
+    },
+    {
+      "index": 1,
+      "question": "Who preserved Kafka's unpublished manuscripts against his wishes?",
+      "options": ["Thomas Mann", "Max Brod", "Walter Benjamin", "Rainer Maria Rilke"],
+      "correctIndex": 1,
+      "explanation": "Max Brod refused to burn the manuscripts Kafka asked him to destroy — we owe The Trial and The Castle to that refusal."
+    },
+    {
+      "index": 2,
+      "question": "What opens Kafka's Metamorphosis?",
+      "options": [
+        "A trial for an unnamed crime",
+        "Gregor Samsa waking up transformed into an insect",
+        "A surveyor arriving at a mysterious castle",
+        "A man discovering a locked door"
+      ],
+      "correctIndex": 1,
+      "explanation": "The novella begins with Gregor's transformation already complete — the strangeness is that he, and his family, mostly worry about practical matters."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Metamorphosis and Other Stories",
+      "publisher": "Franz Kafka, translated by Michael Hofmann, Penguin Classics",
+      "year": 2007
+    },
+    {
+      "title": "Kafka: The Decisive Years",
+      "publisher": "Reiner Stach, Princeton University Press",
+      "year": 2013
+    }
+  ],
+
+  "related": ["the-absurd", "existentialism-101", "surrealism-movement"]
+}

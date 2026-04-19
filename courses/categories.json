@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18",
+  "generatedAt": "2026-04-19",
   "categories": [
     {
       "name": "Anthropology",
@@ -48,8 +48,10 @@
     },
     {
       "name": "Artificial Intelligence",
-      "count": 3,
+      "count": 5,
       "courseIds": [
+        "ai-hallucinations",
+        "deep-learning-basics",
         "how-llms-work",
         "neural-networks-basics",
         "turing-test"
@@ -57,20 +59,24 @@
     },
     {
       "name": "Astronomy",
-      "count": 4,
+      "count": 6,
       "courseIds": [
+        "dark-matter",
         "fermi-paradox",
         "great-attractor",
         "inside-a-black-hole",
+        "oumuamua-interstellar",
         "venus-evil-twin"
       ]
     },
     {
       "name": "Biology",
-      "count": 4,
+      "count": 6,
       "courseIds": [
         "gut-brain-connection",
+        "horseshoe-crab-blue-blood",
         "immortal-jellyfish",
+        "photosynthesis-explained",
         "tardigrades",
         "trees-talk-fungi"
       ]
@@ -100,10 +106,12 @@
     },
     {
       "name": "Chemistry",
-      "count": 3,
+      "count": 5,
       "courseIds": [
+        "catalysts-explained",
         "how-soap-works",
         "maillard-reaction",
+        "periodic-table-patterns",
         "why-ice-floats"
       ]
     },
@@ -132,18 +140,22 @@
     },
     {
       "name": "Computer Science",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "big-o-notation",
         "binary-counting",
-        "how-search-engines-work"
+        "how-search-engines-work",
+        "recursion-basics",
+        "what-is-a-compiler"
       ]
     },
     {
       "name": "Cooking",
-      "count": 3,
+      "count": 5,
       "courseIds": [
+        "sous-vide-science",
         "umami-fifth-taste",
+        "why-bread-rises",
         "why-onions-make-you-cry",
         "why-salt-enhances-flavor"
       ]
@@ -318,10 +330,12 @@
     },
     {
       "name": "Geography",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "kola-superdeep-borehole",
         "map-projections",
+        "prime-meridian-arbitrary",
+        "why-rivers-bend",
         "why-time-zones-weird"
       ]
     },
@@ -408,9 +422,11 @@
     },
     {
       "name": "Literature",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "heros-journey",
+        "in-medias-res",
+        "kafka-definition",
         "shakespeare-invented-words",
         "unreliable-narrator"
       ]
@@ -462,20 +478,24 @@
     },
     {
       "name": "Medicine",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "antibiotic-resistance",
         "placebo-effect",
-        "vaccines-basics"
+        "the-hippocratic-oath",
+        "vaccines-basics",
+        "why-we-get-sick-in-winter"
       ]
     },
     {
       "name": "Mental Health",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "anxiety-vs-fear",
         "cognitive-behavioral-therapy",
-        "fight-flight-freeze"
+        "fight-flight-freeze",
+        "imposter-syndrome",
+        "rumination-cycle"
       ]
     },
     {
@@ -503,10 +523,12 @@
     },
     {
       "name": "Music",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "circle-of-fifths",
         "earworm-science",
+        "the-mozart-effect-myth",
+        "why-440hz-standard",
         "why-chords-sound-sad"
       ]
     },
@@ -569,8 +591,10 @@
     },
     {
       "name": "Philosophy",
-      "count": 3,
+      "count": 5,
       "courseIds": [
+        "absurdism-camus",
+        "allegory-of-the-cave",
         "ship-of-theseus",
         "stoicism-basics",
         "trolley-problem"
@@ -590,11 +614,13 @@
     },
     {
       "name": "Physics",
-      "count": 4,
+      "count": 6,
       "courseIds": [
+        "heisenbergs-uncertainty",
         "quantum-entanglement",
         "schrodingers-cat",
         "time-near-black-hole",
+        "why-glass-transparent",
         "why-sky-is-blue"
       ]
     },
@@ -644,10 +670,12 @@
     },
     {
       "name": "Religion & Mythology",
-      "count": 3,
+      "count": 5,
       "courseIds": [
+        "chinese-zodiac-origin",
         "egyptian-afterlife",
         "greek-twelve-labors",
+        "hindu-trimurti",
         "norse-mythology-ragnarok"
       ]
     },
@@ -697,10 +725,12 @@
     },
     {
       "name": "Technology",
-      "count": 3,
+      "count": 5,
       "courseIds": [
         "end-to-end-encryption",
+        "how-gps-works",
         "how-internet-works",
+        "how-touchscreens-work",
         "how-wifi-works"
       ]
     },
@@ -752,10 +782,45 @@
   ],
   "subcategories": [
     {
+      "name": "20th Century Fiction",
+      "count": 1,
+      "courseIds": [
+        "kafka-definition"
+      ]
+    },
+    {
+      "name": "20th Century Philosophy",
+      "count": 1,
+      "courseIds": [
+        "absurdism-camus"
+      ]
+    },
+    {
+      "name": "20th Century Physics",
+      "count": 1,
+      "courseIds": [
+        "heisenbergs-uncertainty"
+      ]
+    },
+    {
       "name": "AI History",
       "count": 1,
       "courseIds": [
         "turing-test"
+      ]
+    },
+    {
+      "name": "AI Safety",
+      "count": 1,
+      "courseIds": [
+        "ai-hallucinations"
+      ]
+    },
+    {
+      "name": "Acoustics",
+      "count": 1,
+      "courseIds": [
+        "why-440hz-standard"
       ]
     },
     {
@@ -789,10 +854,11 @@
     },
     {
       "name": "Algorithms",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "big-o-notation",
-        "how-search-engines-work"
+        "how-search-engines-work",
+        "recursion-basics"
       ]
     },
     {
@@ -822,6 +888,13 @@
       "courseIds": [
         "antikythera-mechanism",
         "library-of-alexandria"
+      ]
+    },
+    {
+      "name": "Ancient Philosophy",
+      "count": 1,
+      "courseIds": [
+        "allegory-of-the-cave"
       ]
     },
     {
@@ -876,6 +949,13 @@
       "count": 1,
       "courseIds": [
         "penicillin-discovery"
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "count": 1,
+      "courseIds": [
+        "rumination-cycle"
       ]
     },
     {
@@ -970,6 +1050,13 @@
       ]
     },
     {
+      "name": "Atomic Structure",
+      "count": 1,
+      "courseIds": [
+        "periodic-table-patterns"
+      ]
+    },
+    {
       "name": "Attraction",
       "count": 1,
       "courseIds": [
@@ -998,6 +1085,13 @@
         "airfare-economics",
         "longest-flight-explained",
         "why-airplane-food-tastes-bland"
+      ]
+    },
+    {
+      "name": "Baking",
+      "count": 1,
+      "courseIds": [
+        "why-bread-rises"
       ]
     },
     {
@@ -1048,10 +1142,11 @@
     },
     {
       "name": "Biochemistry",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "bioluminescence",
-        "how-soap-works"
+        "how-soap-works",
+        "photosynthesis-explained"
       ]
     },
     {
@@ -1171,9 +1266,10 @@
     },
     {
       "name": "Cartography",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "map-projections"
+        "map-projections",
+        "prime-meridian-arbitrary"
       ]
     },
     {
@@ -1239,6 +1335,13 @@
       ]
     },
     {
+      "name": "Chinese Folklore",
+      "count": 1,
+      "courseIds": [
+        "chinese-zodiac-origin"
+      ]
+    },
+    {
       "name": "Chronobiology",
       "count": 1,
       "courseIds": [
@@ -1279,6 +1382,13 @@
       ]
     },
     {
+      "name": "Classical Literature",
+      "count": 1,
+      "courseIds": [
+        "in-medias-res"
+      ]
+    },
+    {
       "name": "Climate Change",
       "count": 1,
       "courseIds": [
@@ -1310,9 +1420,10 @@
     },
     {
       "name": "Cognition",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "elephants-mourn-dead",
+        "the-mozart-effect-myth",
         "why-we-dream"
       ]
     },
@@ -1349,6 +1460,13 @@
       ]
     },
     {
+      "name": "Cognitive Psychology",
+      "count": 1,
+      "courseIds": [
+        "rumination-cycle"
+      ]
+    },
+    {
       "name": "Cognitive Science",
       "count": 2,
       "courseIds": [
@@ -1369,6 +1487,13 @@
       "courseIds": [
         "birthday-paradox",
         "pigeonhole-principle"
+      ]
+    },
+    {
+      "name": "Comets & Asteroids",
+      "count": 1,
+      "courseIds": [
+        "oumuamua-interstellar"
       ]
     },
     {
@@ -1477,6 +1602,13 @@
       ]
     },
     {
+      "name": "Consumer Electronics",
+      "count": 1,
+      "courseIds": [
+        "how-touchscreens-work"
+      ]
+    },
+    {
       "name": "Consumer Psychology",
       "count": 1,
       "courseIds": [
@@ -1500,8 +1632,9 @@
     },
     {
       "name": "Cosmology",
-      "count": 3,
+      "count": 4,
       "courseIds": [
+        "dark-matter",
         "fermi-paradox",
         "great-attractor",
         "inside-a-black-hole"
@@ -1619,6 +1752,13 @@
       "count": 1,
       "courseIds": [
         "permian-extinction"
+      ]
+    },
+    {
+      "name": "Deities",
+      "count": 1,
+      "courseIds": [
+        "hindu-trimurti"
       ]
     },
     {
@@ -1895,6 +2035,13 @@
       ]
     },
     {
+      "name": "Epistemology",
+      "count": 1,
+      "courseIds": [
+        "allegory-of-the-cave"
+      ]
+    },
+    {
       "name": "Eschatology",
       "count": 1,
       "courseIds": [
@@ -1903,9 +2050,10 @@
     },
     {
       "name": "Ethics",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "stoicism-basics",
+        "the-hippocratic-oath",
         "trolley-problem"
       ]
     },
@@ -1960,6 +2108,13 @@
       "count": 1,
       "courseIds": [
         "dunbar-number"
+      ]
+    },
+    {
+      "name": "Existentialism",
+      "count": 1,
+      "courseIds": [
+        "absurdism-camus"
       ]
     },
     {
@@ -2055,9 +2210,11 @@
     },
     {
       "name": "Food Science",
-      "count": 2,
+      "count": 4,
       "courseIds": [
+        "sous-vide-science",
         "why-airplane-food-tastes-bland",
+        "why-bread-rises",
         "why-onions-make-you-cry"
       ]
     },
@@ -2248,6 +2405,13 @@
       ]
     },
     {
+      "name": "Hinduism",
+      "count": 1,
+      "courseIds": [
+        "hindu-trimurti"
+      ]
+    },
+    {
       "name": "History",
       "count": 4,
       "courseIds": [
@@ -2273,10 +2437,12 @@
     },
     {
       "name": "History of Science",
-      "count": 2,
+      "count": 4,
       "courseIds": [
         "pasteur-spontaneous-generation",
-        "penicillin-discovery"
+        "penicillin-discovery",
+        "periodic-table-patterns",
+        "prime-meridian-arbitrary"
       ]
     },
     {
@@ -2333,9 +2499,10 @@
     },
     {
       "name": "Hydrology",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "dam-engineering"
+        "dam-engineering",
+        "why-rivers-bend"
       ]
     },
     {
@@ -2361,10 +2528,11 @@
     },
     {
       "name": "Immunology",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "vaccines-basics",
-        "why-we-fever"
+        "why-we-fever",
+        "why-we-get-sick-in-winter"
       ]
     },
     {
@@ -2379,6 +2547,13 @@
       "count": 1,
       "courseIds": [
         "three-sisters-garden"
+      ]
+    },
+    {
+      "name": "Industrial Chemistry",
+      "count": 1,
+      "courseIds": [
+        "catalysts-explained"
       ]
     },
     {
@@ -2503,6 +2678,13 @@
       ]
     },
     {
+      "name": "Large Language Models",
+      "count": 1,
+      "courseIds": [
+        "ai-hallucinations"
+      ]
+    },
+    {
       "name": "Learning",
       "count": 3,
       "courseIds": [
@@ -2549,6 +2731,13 @@
       ]
     },
     {
+      "name": "Literary Terms",
+      "count": 1,
+      "courseIds": [
+        "kafka-definition"
+      ]
+    },
+    {
       "name": "Logic",
       "count": 1,
       "courseIds": [
@@ -2572,8 +2761,9 @@
     },
     {
       "name": "Machine Learning",
-      "count": 2,
+      "count": 3,
       "courseIds": [
+        "deep-learning-basics",
         "how-llms-work",
         "neural-networks-basics"
       ]
@@ -2616,6 +2806,13 @@
       ]
     },
     {
+      "name": "Marine Life",
+      "count": 1,
+      "courseIds": [
+        "horseshoe-crab-blue-blood"
+      ]
+    },
+    {
       "name": "Marketing",
       "count": 1,
       "courseIds": [
@@ -2652,9 +2849,10 @@
     },
     {
       "name": "Materials",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "drywall-explained"
+        "drywall-explained",
+        "why-glass-transparent"
       ]
     },
     {
@@ -2682,10 +2880,24 @@
       ]
     },
     {
+      "name": "Medical History",
+      "count": 1,
+      "courseIds": [
+        "the-hippocratic-oath"
+      ]
+    },
+    {
       "name": "Medical Mysteries",
       "count": 1,
       "courseIds": [
         "dancing-plague-1518"
+      ]
+    },
+    {
+      "name": "Medicine",
+      "count": 1,
+      "courseIds": [
+        "horseshoe-crab-blue-blood"
       ]
     },
     {
@@ -2876,6 +3088,20 @@
       ]
     },
     {
+      "name": "Music History",
+      "count": 1,
+      "courseIds": [
+        "why-440hz-standard"
+      ]
+    },
+    {
+      "name": "Music Psychology",
+      "count": 1,
+      "courseIds": [
+        "the-mozart-effect-myth"
+      ]
+    },
+    {
       "name": "Music Theory",
       "count": 2,
       "courseIds": [
@@ -2899,8 +3125,9 @@
     },
     {
       "name": "Narrative Technique",
-      "count": 1,
+      "count": 2,
       "courseIds": [
+        "in-medias-res",
         "unreliable-narrator"
       ]
     },
@@ -2927,9 +3154,10 @@
     },
     {
       "name": "Navigation",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "finding-north-without-compass"
+        "finding-north-without-compass",
+        "how-gps-works"
       ]
     },
     {
@@ -2953,6 +3181,13 @@
       "count": 1,
       "courseIds": [
         "six-degrees-of-separation"
+      ]
+    },
+    {
+      "name": "Neural Networks",
+      "count": 1,
+      "courseIds": [
+        "deep-learning-basics"
       ]
     },
     {
@@ -3031,9 +3266,10 @@
     },
     {
       "name": "Optics",
-      "count": 4,
+      "count": 5,
       "courseIds": [
         "depth-of-field",
+        "why-glass-transparent",
         "why-rainbows-appear",
         "why-red-eye-happens",
         "why-sky-is-blue"
@@ -3079,6 +3315,13 @@
       "count": 1,
       "courseIds": [
         "red-queen-hypothesis"
+      ]
+    },
+    {
+      "name": "Particle Physics",
+      "count": 1,
+      "courseIds": [
+        "dark-matter"
       ]
     },
     {
@@ -3193,6 +3436,13 @@
       ]
     },
     {
+      "name": "Physical Geography",
+      "count": 1,
+      "courseIds": [
+        "why-rivers-bend"
+      ]
+    },
+    {
       "name": "Physics",
       "count": 4,
       "courseIds": [
@@ -3231,9 +3481,10 @@
     },
     {
       "name": "Plant Biology",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "flower-symmetry",
+        "photosynthesis-explained",
         "why-plants-are-green"
       ]
     },
@@ -3363,6 +3614,20 @@
       ]
     },
     {
+      "name": "Programming",
+      "count": 1,
+      "courseIds": [
+        "recursion-basics"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "count": 1,
+      "courseIds": [
+        "what-is-a-compiler"
+      ]
+    },
+    {
       "name": "Proof Techniques",
       "count": 1,
       "courseIds": [
@@ -3378,7 +3643,7 @@
     },
     {
       "name": "Psychology",
-      "count": 17,
+      "count": 18,
       "courseIds": [
         "arranged-vs-love-marriages",
         "attachment-theory",
@@ -3389,6 +3654,7 @@
         "foot-in-the-door",
         "gottman-four-horsemen",
         "growth-vs-fixed-mindset",
+        "imposter-syndrome",
         "marshmallow-test",
         "object-permanence",
         "parkinsons-law",
@@ -3415,6 +3681,13 @@
       ]
     },
     {
+      "name": "Quantum Mechanics",
+      "count": 1,
+      "courseIds": [
+        "heisenbergs-uncertainty"
+      ]
+    },
+    {
       "name": "Quantum Physics",
       "count": 2,
       "courseIds": [
@@ -3427,6 +3700,13 @@
       "count": 1,
       "courseIds": [
         "how-wifi-works"
+      ]
+    },
+    {
+      "name": "Reaction Kinetics",
+      "count": 1,
+      "courseIds": [
+        "catalysts-explained"
       ]
     },
     {
@@ -3502,6 +3782,13 @@
       ]
     },
     {
+      "name": "Satellites",
+      "count": 1,
+      "courseIds": [
+        "how-gps-works"
+      ]
+    },
+    {
       "name": "Scientific Method",
       "count": 1,
       "courseIds": [
@@ -3558,10 +3845,24 @@
       ]
     },
     {
+      "name": "Self-awareness",
+      "count": 1,
+      "courseIds": [
+        "imposter-syndrome"
+      ]
+    },
+    {
       "name": "Semiotics",
       "count": 1,
       "courseIds": [
         "emojis-new-language"
+      ]
+    },
+    {
+      "name": "Sensors",
+      "count": 1,
+      "courseIds": [
+        "how-touchscreens-work"
       ]
     },
     {
@@ -3676,6 +3977,13 @@
       ]
     },
     {
+      "name": "Solar System",
+      "count": 1,
+      "courseIds": [
+        "oumuamua-interstellar"
+      ]
+    },
+    {
       "name": "Sound Design",
       "count": 1,
       "courseIds": [
@@ -3787,9 +4095,10 @@
     },
     {
       "name": "Systems",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "getting-things-done"
+        "getting-things-done",
+        "what-is-a-compiler"
       ]
     },
     {
@@ -3815,9 +4124,10 @@
     },
     {
       "name": "Technique",
-      "count": 1,
+      "count": 2,
       "courseIds": [
-        "exposure-triangle"
+        "exposure-triangle",
+        "sous-vide-science"
       ]
     },
     {
@@ -3973,10 +4283,11 @@
     },
     {
       "name": "Virology",
-      "count": 2,
+      "count": 3,
       "courseIds": [
         "bacteriophages",
-        "what-is-a-virus"
+        "what-is-a-virus",
+        "why-we-get-sick-in-winter"
       ]
     },
     {
@@ -4104,6 +4415,13 @@
       "courseIds": [
         "japanese-no-spaces",
         "why-q-needs-u"
+      ]
+    },
+    {
+      "name": "Zodiac",
+      "count": 1,
+      "courseIds": [
+        "chinese-zodiac-origin"
       ]
     }
   ]

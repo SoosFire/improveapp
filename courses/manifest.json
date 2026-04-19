@@ -1,8 +1,36 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-18",
-  "courseCount": 333,
+  "generatedAt": "2026-04-19",
+  "courseCount": 363,
   "courses": [
+    {
+      "id": "absurdism-camus",
+      "language": "en",
+      "title": "Camus and the Absurd",
+      "teaser": "A man pushes a boulder up a mountain forever. Camus said we should imagine him happy — and meant it literally.",
+      "category": "Philosophy",
+      "subcategories": [
+        "Existentialism",
+        "20th Century Philosophy"
+      ],
+      "tags": [
+        "camus",
+        "absurdism",
+        "existentialism",
+        "meaning",
+        "sisyphus"
+      ],
+      "emoji": "🪨",
+      "accentColor": "#8C6A3A",
+      "coverSymbol": {
+        "sfSymbol": "mountain.2.fill",
+        "fallbackEmoji": "⛰️"
+      },
+      "difficulty": "intermediate",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
     {
       "id": "active-listening",
       "language": "en",
@@ -25,6 +53,34 @@
       "coverSymbol": {
         "sfSymbol": "ear.fill",
         "fallbackEmoji": "👂"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "ai-hallucinations",
+      "language": "en",
+      "title": "Why AI Confidently Makes Things Up",
+      "teaser": "Language models don't know what they don't know — and that's not a bug, it's the whole design.",
+      "category": "Artificial Intelligence",
+      "subcategories": [
+        "Large Language Models",
+        "AI Safety"
+      ],
+      "tags": [
+        "llm",
+        "hallucination",
+        "chatgpt",
+        "truth",
+        "prediction"
+      ],
+      "emoji": "💭",
+      "accentColor": "#E17055",
+      "coverSymbol": {
+        "sfSymbol": "bubble.left.and.exclamationmark.bubble.right.fill",
+        "fallbackEmoji": "💬"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
@@ -84,6 +140,34 @@
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "allegory-of-the-cave",
+      "language": "en",
+      "title": "Plato's Allegory of the Cave",
+      "teaser": "Prisoners who've only ever seen shadows on a wall — and what happens to the one who escapes. A 2,400-year-old thought experiment that still stings.",
+      "category": "Philosophy",
+      "subcategories": [
+        "Ancient Philosophy",
+        "Epistemology"
+      ],
+      "tags": [
+        "plato",
+        "ancient greece",
+        "epistemology",
+        "metaphor",
+        "knowledge"
+      ],
+      "emoji": "🕳️",
+      "accentColor": "#3E3A5C",
+      "coverSymbol": {
+        "sfSymbol": "flashlight.on.fill",
+        "fallbackEmoji": "🔦"
+      },
+      "difficulty": "intermediate",
+      "estimatedMinutes": 5,
       "lessonCount": 5,
       "hasQuiz": true
     },
@@ -926,6 +1010,34 @@
       "hasQuiz": true
     },
     {
+      "id": "catalysts-explained",
+      "language": "en",
+      "title": "Why Catalysts Don't Get Used Up",
+      "teaser": "The tiny pinch of platinum in your car's exhaust has been doing chemistry for 100,000 miles. How?",
+      "category": "Chemistry",
+      "subcategories": [
+        "Reaction Kinetics",
+        "Industrial Chemistry"
+      ],
+      "tags": [
+        "catalyst",
+        "enzyme",
+        "platinum",
+        "chemistry",
+        "energy"
+      ],
+      "emoji": "⚗️",
+      "accentColor": "#A29BFE",
+      "coverSymbol": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "fallbackEmoji": "♻️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "chekhovs-gun",
       "language": "en",
       "title": "Chekhov's Gun",
@@ -1005,6 +1117,35 @@
       },
       "difficulty": "beginner",
       "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "chinese-zodiac-origin",
+      "language": "en",
+      "title": "Why the Chinese Zodiac Starts With a Rat",
+      "teaser": "Twelve animals raced across a river. The sneaky one won — and got a whole year named after it.",
+      "category": "Religion & Mythology",
+      "subcategories": [
+        "Chinese Folklore",
+        "Zodiac"
+      ],
+      "tags": [
+        "china",
+        "zodiac",
+        "folklore",
+        "jade-emperor",
+        "rat",
+        "ox"
+      ],
+      "emoji": "🐀",
+      "accentColor": "#C0392B",
+      "coverSymbol": {
+        "sfSymbol": "hare.fill",
+        "fallbackEmoji": "🐉"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
       "lessonCount": 5,
       "hasQuiz": true
     },
@@ -1567,6 +1708,34 @@
       "hasQuiz": true
     },
     {
+      "id": "dark-matter",
+      "language": "en",
+      "title": "What Dark Matter Actually Is",
+      "teaser": "Five-sixths of the universe is invisible, silent, and pulling on everything you can see.",
+      "category": "Astronomy",
+      "subcategories": [
+        "Cosmology",
+        "Particle Physics"
+      ],
+      "tags": [
+        "dark-matter",
+        "cosmology",
+        "galaxies",
+        "mystery",
+        "physics"
+      ],
+      "emoji": "🌌",
+      "accentColor": "#34495E",
+      "coverSymbol": {
+        "sfSymbol": "moon.stars.fill",
+        "fallbackEmoji": "🕳️"
+      },
+      "difficulty": "intermediate",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "decoy-effect",
       "language": "en",
       "title": "The Decoy Effect",
@@ -1644,6 +1813,34 @@
       "coverSymbol": {
         "sfSymbol": "cpu.fill",
         "fallbackEmoji": "🤖"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "deep-learning-basics",
+      "language": "en",
+      "title": "Deep Learning Explained Without Math",
+      "teaser": "What actually happens inside a neural network — told as a story, not a formula.",
+      "category": "Artificial Intelligence",
+      "subcategories": [
+        "Neural Networks",
+        "Machine Learning"
+      ],
+      "tags": [
+        "deep-learning",
+        "neural-networks",
+        "ai",
+        "intuition",
+        "backpropagation"
+      ],
+      "emoji": "🧠",
+      "accentColor": "#6C5CE7",
+      "coverSymbol": {
+        "sfSymbol": "brain.head.profile",
+        "fallbackEmoji": "🧠"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 5,
@@ -3382,6 +3579,34 @@
       "hasQuiz": true
     },
     {
+      "id": "heisenbergs-uncertainty",
+      "language": "en",
+      "title": "Heisenberg's Uncertainty Principle",
+      "teaser": "Nature has a built-in fuzziness — and it's not your instruments' fault.",
+      "category": "Physics",
+      "subcategories": [
+        "Quantum Mechanics",
+        "20th Century Physics"
+      ],
+      "tags": [
+        "quantum",
+        "heisenberg",
+        "uncertainty",
+        "physics",
+        "history-of-science"
+      ],
+      "emoji": "⚛️",
+      "accentColor": "#9B59B6",
+      "coverSymbol": {
+        "sfSymbol": "waveform.path.ecg",
+        "fallbackEmoji": "🎲"
+      },
+      "difficulty": "intermediate",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "heros-journey",
       "language": "en",
       "title": "The Hero's Journey in Every Great Story",
@@ -3403,6 +3628,35 @@
       "coverSymbol": {
         "sfSymbol": "map.fill",
         "fallbackEmoji": "🗺️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "hindu-trimurti",
+      "language": "en",
+      "title": "Brahma, Vishnu, Shiva: The Hindu Trinity",
+      "teaser": "One god creates, one preserves, one destroys — together they keep the universe spinning.",
+      "category": "Religion & Mythology",
+      "subcategories": [
+        "Hinduism",
+        "Deities"
+      ],
+      "tags": [
+        "hinduism",
+        "trimurti",
+        "brahma",
+        "vishnu",
+        "shiva",
+        "theology"
+      ],
+      "emoji": "🕉️",
+      "accentColor": "#E67E22",
+      "coverSymbol": {
+        "sfSymbol": "triangle.fill",
+        "fallbackEmoji": "🔱"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 5,
@@ -3493,6 +3747,34 @@
       "hasQuiz": true
     },
     {
+      "id": "horseshoe-crab-blue-blood",
+      "language": "en",
+      "title": "Why Horseshoe Crabs Have Blue Blood",
+      "teaser": "A living fossil older than the dinosaurs bleeds copper — and every vaccine you've had was tested with it.",
+      "category": "Biology",
+      "subcategories": [
+        "Marine Life",
+        "Medicine"
+      ],
+      "tags": [
+        "horseshoe-crab",
+        "blood",
+        "biology",
+        "medicine",
+        "evolution"
+      ],
+      "emoji": "🦀",
+      "accentColor": "#2E86DE",
+      "coverSymbol": {
+        "sfSymbol": "drop.fill",
+        "fallbackEmoji": "🩸"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "how-fingerprinting-works",
       "language": "en",
       "title": "How Fingerprints Caught Criminals",
@@ -3544,6 +3826,34 @@
         "fallbackEmoji": "🦴"
       },
       "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "how-gps-works",
+      "language": "en",
+      "title": "How GPS Actually Knows Where You Are",
+      "teaser": "Your phone listens to four atomic clocks flying 12,500 miles overhead — and does Einstein's homework.",
+      "category": "Technology",
+      "subcategories": [
+        "Navigation",
+        "Satellites"
+      ],
+      "tags": [
+        "gps",
+        "satellites",
+        "relativity",
+        "timing",
+        "navigation"
+      ],
+      "emoji": "📡",
+      "accentColor": "#1ABC9C",
+      "coverSymbol": {
+        "sfSymbol": "location.north.line.fill",
+        "fallbackEmoji": "🛰️"
+      },
+      "difficulty": "intermediate",
       "estimatedMinutes": 5,
       "lessonCount": 5,
       "hasQuiz": true
@@ -3821,6 +4131,34 @@
       "coverSymbol": {
         "sfSymbol": "toilet.fill",
         "fallbackEmoji": "🚽"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "how-touchscreens-work",
+      "language": "en",
+      "title": "How Your Touchscreen Feels Your Finger",
+      "teaser": "Your phone doesn't detect pressure — it measures tiny electrical storms in the air around your fingertip.",
+      "category": "Technology",
+      "subcategories": [
+        "Consumer Electronics",
+        "Sensors"
+      ],
+      "tags": [
+        "touchscreen",
+        "capacitance",
+        "iphone",
+        "electronics",
+        "interface"
+      ],
+      "emoji": "📱",
+      "accentColor": "#2980B9",
+      "coverSymbol": {
+        "sfSymbol": "hand.point.up.fill",
+        "fallbackEmoji": "👆"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
@@ -4108,6 +4446,34 @@
       "hasQuiz": true
     },
     {
+      "id": "imposter-syndrome",
+      "language": "en",
+      "title": "Imposter Syndrome",
+      "teaser": "The feeling that you've fooled everyone and they're about to find out — and why it hits high-achievers hardest.",
+      "category": "Mental Health",
+      "subcategories": [
+        "Psychology",
+        "Self-awareness"
+      ],
+      "tags": [
+        "psychology",
+        "self-doubt",
+        "workplace",
+        "identity",
+        "anxiety"
+      ],
+      "emoji": "🎭",
+      "accentColor": "#7A5AA3",
+      "coverSymbol": {
+        "sfSymbol": "theatermasks.fill",
+        "fallbackEmoji": "🎭"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "impressionism-explained",
       "language": "en",
       "title": "Why Impressionist Paintings Look Blurry",
@@ -4129,6 +4495,34 @@
       "coverSymbol": {
         "sfSymbol": "paintpalette.fill",
         "fallbackEmoji": "🖼️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "in-medias-res",
+      "language": "en",
+      "title": "In Medias Res: Why Stories Start in the Middle",
+      "teaser": "Homer dropped us into a ten-year war at year nine. Here's why starting in the middle is a storyteller's oldest trick.",
+      "category": "Literature",
+      "subcategories": [
+        "Narrative Technique",
+        "Classical Literature"
+      ],
+      "tags": [
+        "storytelling",
+        "homer",
+        "narrative",
+        "structure",
+        "latin"
+      ],
+      "emoji": "📖",
+      "accentColor": "#8B3A3A",
+      "coverSymbol": {
+        "sfSymbol": "book.pages.fill",
+        "fallbackEmoji": "📜"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
@@ -4381,6 +4775,34 @@
       "coverSymbol": {
         "sfSymbol": "helm",
         "fallbackEmoji": "🧬"
+      },
+      "difficulty": "intermediate",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "kafka-definition",
+      "language": "en",
+      "title": "What 'Kafkaesque' Really Means",
+      "teaser": "It's not just 'weird bureaucracy.' The word points to something stranger — and more specific — than you think.",
+      "category": "Literature",
+      "subcategories": [
+        "20th Century Fiction",
+        "Literary Terms"
+      ],
+      "tags": [
+        "kafka",
+        "existentialism",
+        "absurdism",
+        "prague",
+        "language"
+      ],
+      "emoji": "🪳",
+      "accentColor": "#2C2C2C",
+      "coverSymbol": {
+        "sfSymbol": "door.left.hand.closed",
+        "fallbackEmoji": "🚪"
       },
       "difficulty": "intermediate",
       "estimatedMinutes": 5,
@@ -5754,6 +6176,34 @@
       "hasQuiz": true
     },
     {
+      "id": "oumuamua-interstellar",
+      "language": "en",
+      "title": "'Oumuamua: Our First Interstellar Visitor",
+      "teaser": "A cigar-shaped something swept past the sun in 2017 — and then accelerated on its way out.",
+      "category": "Astronomy",
+      "subcategories": [
+        "Solar System",
+        "Comets & Asteroids"
+      ],
+      "tags": [
+        "oumuamua",
+        "interstellar",
+        "comets",
+        "asteroids",
+        "space-oddities"
+      ],
+      "emoji": "☄️",
+      "accentColor": "#8E44AD",
+      "coverSymbol": {
+        "sfSymbol": "sparkles",
+        "fallbackEmoji": "🛸"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "panama-canal-locks",
       "language": "en",
       "title": "How the Panama Canal's Locks Work",
@@ -5978,6 +6428,34 @@
       "hasQuiz": true
     },
     {
+      "id": "periodic-table-patterns",
+      "language": "en",
+      "title": "The Hidden Pattern in the Periodic Table",
+      "teaser": "Mendeleev saw a rhythm no one else could — and used it to predict elements that didn't exist yet.",
+      "category": "Chemistry",
+      "subcategories": [
+        "Atomic Structure",
+        "History of Science"
+      ],
+      "tags": [
+        "periodic-table",
+        "mendeleev",
+        "elements",
+        "chemistry",
+        "patterns"
+      ],
+      "emoji": "🧪",
+      "accentColor": "#00B894",
+      "coverSymbol": {
+        "sfSymbol": "square.grid.3x3.fill",
+        "fallbackEmoji": "⚗️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "permian-extinction",
       "language": "en",
       "title": "The Great Dying: Earth's Worst Extinction",
@@ -6084,6 +6562,34 @@
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "photosynthesis-explained",
+      "language": "en",
+      "title": "Photosynthesis: The Reaction That Feeds the World",
+      "teaser": "Every bite you eat and every breath you take came out of a single chemical trick plants learned in the sun.",
+      "category": "Biology",
+      "subcategories": [
+        "Plant Biology",
+        "Biochemistry"
+      ],
+      "tags": [
+        "photosynthesis",
+        "plants",
+        "chlorophyll",
+        "oxygen",
+        "biochemistry"
+      ],
+      "emoji": "🌱",
+      "accentColor": "#27AE60",
+      "coverSymbol": {
+        "sfSymbol": "leaf.fill",
+        "fallbackEmoji": "🍃"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
       "lessonCount": 5,
       "hasQuiz": true
     },
@@ -6282,6 +6788,34 @@
       "hasQuiz": true
     },
     {
+      "id": "prime-meridian-arbitrary",
+      "language": "en",
+      "title": "Why the Prime Meridian Runs Through Greenwich",
+      "teaser": "Zero longitude isn't written into the Earth. It was voted on in a room in Washington in 1884.",
+      "category": "Geography",
+      "subcategories": [
+        "Cartography",
+        "History of Science"
+      ],
+      "tags": [
+        "longitude",
+        "greenwich",
+        "time-zones",
+        "geography",
+        "meridian"
+      ],
+      "emoji": "🌍",
+      "accentColor": "#636E72",
+      "coverSymbol": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "fallbackEmoji": "🌐"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "prisoners-dilemma",
       "language": "en",
       "title": "The Prisoner's Dilemma",
@@ -6420,6 +6954,34 @@
       "hasQuiz": true
     },
     {
+      "id": "recursion-basics",
+      "language": "en",
+      "title": "Recursion: Solving Problems by Shrinking Them",
+      "teaser": "To understand recursion, you must first understand recursion.",
+      "category": "Computer Science",
+      "subcategories": [
+        "Algorithms",
+        "Programming"
+      ],
+      "tags": [
+        "recursion",
+        "algorithms",
+        "programming",
+        "stack",
+        "problem-solving"
+      ],
+      "emoji": "🌀",
+      "accentColor": "#FD79A8",
+      "coverSymbol": {
+        "sfSymbol": "arrow.triangle.turn.up.right.circle.fill",
+        "fallbackEmoji": "🌀"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "red-queen-hypothesis",
       "language": "en",
       "title": "The Red Queen Hypothesis",
@@ -6529,6 +7091,34 @@
       "difficulty": "beginner",
       "estimatedMinutes": 3,
       "lessonCount": 4,
+      "hasQuiz": true
+    },
+    {
+      "id": "rumination-cycle",
+      "language": "en",
+      "title": "Why Worrying Doesn't Help",
+      "teaser": "Your brain tells you the worrying is the work. It isn't. Here's the loop it's stuck in — and how to break it.",
+      "category": "Mental Health",
+      "subcategories": [
+        "Anxiety",
+        "Cognitive Psychology"
+      ],
+      "tags": [
+        "anxiety",
+        "rumination",
+        "thinking",
+        "therapy",
+        "cbt"
+      ],
+      "emoji": "🌀",
+      "accentColor": "#5C7B8A",
+      "coverSymbol": {
+        "sfSymbol": "arrow.triangle.2.circlepath",
+        "fallbackEmoji": "🌀"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
       "hasQuiz": true
     },
     {
@@ -6833,6 +7423,34 @@
       },
       "difficulty": "intermediate",
       "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "sous-vide-science",
+      "language": "en",
+      "title": "The Science of Sous Vide",
+      "teaser": "A steak held at exactly 54.4°C for two hours is impossible to overcook. The reason is beautiful chemistry.",
+      "category": "Cooking",
+      "subcategories": [
+        "Technique",
+        "Food Science"
+      ],
+      "tags": [
+        "sous-vide",
+        "cooking",
+        "proteins",
+        "temperature",
+        "food-science"
+      ],
+      "emoji": "🥩",
+      "accentColor": "#E84393",
+      "coverSymbol": {
+        "sfSymbol": "thermometer.medium",
+        "fallbackEmoji": "🌡️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
       "lessonCount": 5,
       "hasQuiz": true
     },
@@ -7249,6 +7867,62 @@
       "coverSymbol": {
         "sfSymbol": "face.smiling.fill",
         "fallbackEmoji": "😤"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "the-hippocratic-oath",
+      "language": "en",
+      "title": "The Hippocratic Oath, Then and Now",
+      "teaser": "Doctors don't actually swear 'first, do no harm.' The real oath is older, stranger, and mostly rewritten.",
+      "category": "Medicine",
+      "subcategories": [
+        "Medical History",
+        "Ethics"
+      ],
+      "tags": [
+        "hippocrates",
+        "ethics",
+        "ancient greece",
+        "medicine",
+        "oath"
+      ],
+      "emoji": "⚕️",
+      "accentColor": "#6B7B3A",
+      "coverSymbol": {
+        "sfSymbol": "staroflife.fill",
+        "fallbackEmoji": "📜"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "the-mozart-effect-myth",
+      "language": "en",
+      "title": "Does Mozart Actually Make You Smarter?",
+      "teaser": "In 1993, parents started playing sonatas to babies in the womb. The actual study said almost none of what you think.",
+      "category": "Music",
+      "subcategories": [
+        "Cognition",
+        "Music Psychology"
+      ],
+      "tags": [
+        "mozart",
+        "cognition",
+        "myth-busting",
+        "music",
+        "psychology"
+      ],
+      "emoji": "🎹",
+      "accentColor": "#4B6B7A",
+      "coverSymbol": {
+        "sfSymbol": "pianokeys.inverse",
+        "fallbackEmoji": "🎵"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,
@@ -7843,6 +8517,34 @@
       "hasQuiz": true
     },
     {
+      "id": "what-is-a-compiler",
+      "language": "en",
+      "title": "What a Compiler Actually Does",
+      "teaser": "A translator, a perfectionist, and a sleight-of-hand artist walk into a program — they're all the same tool.",
+      "category": "Computer Science",
+      "subcategories": [
+        "Programming Languages",
+        "Systems"
+      ],
+      "tags": [
+        "compiler",
+        "programming",
+        "languages",
+        "assembly",
+        "parsing"
+      ],
+      "emoji": "⚙️",
+      "accentColor": "#0984E3",
+      "coverSymbol": {
+        "sfSymbol": "chevron.left.forwardslash.chevron.right",
+        "fallbackEmoji": "💻"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "what-is-a-virus",
       "language": "en",
       "title": "Are Viruses Actually Alive?",
@@ -7866,6 +8568,34 @@
         "fallbackEmoji": "🧬"
       },
       "difficulty": "intermediate",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "why-440hz-standard",
+      "language": "en",
+      "title": "Why Orchestras Tune to 440Hz",
+      "teaser": "Why does every orchestra on earth start with the same little 'A'? The answer involves Mozart, politics, and a BBC broadcast.",
+      "category": "Music",
+      "subcategories": [
+        "Music History",
+        "Acoustics"
+      ],
+      "tags": [
+        "pitch",
+        "tuning",
+        "orchestra",
+        "history",
+        "acoustics"
+      ],
+      "emoji": "🎻",
+      "accentColor": "#A35A3A",
+      "coverSymbol": {
+        "sfSymbol": "tuningfork",
+        "fallbackEmoji": "🎼"
+      },
+      "difficulty": "beginner",
       "estimatedMinutes": 4,
       "lessonCount": 5,
       "hasQuiz": true
@@ -8011,6 +8741,34 @@
       "hasQuiz": true
     },
     {
+      "id": "why-bread-rises",
+      "language": "en",
+      "title": "Why Bread Rises",
+      "teaser": "Every loaf is a quiet collaboration between a fungus and a protein — and neither one knows you exist.",
+      "category": "Cooking",
+      "subcategories": [
+        "Baking",
+        "Food Science"
+      ],
+      "tags": [
+        "bread",
+        "yeast",
+        "gluten",
+        "fermentation",
+        "baking"
+      ],
+      "emoji": "🍞",
+      "accentColor": "#FDCB6E",
+      "coverSymbol": {
+        "sfSymbol": "bubbles.and.sparkles.fill",
+        "fallbackEmoji": "🥖"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "why-cats-purr",
       "language": "en",
       "title": "Why Cats Purr (It's Not Just Happiness)",
@@ -8147,6 +8905,34 @@
         "fallbackEmoji": "🪿"
       },
       "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "why-glass-transparent",
+      "language": "en",
+      "title": "Why Glass Is Transparent",
+      "teaser": "Glass is made of sand. Sand is made of rock. Somehow, rock you can see through.",
+      "category": "Physics",
+      "subcategories": [
+        "Optics",
+        "Materials"
+      ],
+      "tags": [
+        "glass",
+        "optics",
+        "quantum",
+        "photons",
+        "materials"
+      ],
+      "emoji": "🪟",
+      "accentColor": "#85C1E9",
+      "coverSymbol": {
+        "sfSymbol": "square.fill",
+        "fallbackEmoji": "🔍"
+      },
+      "difficulty": "intermediate",
       "estimatedMinutes": 4,
       "lessonCount": 5,
       "hasQuiz": true
@@ -8684,6 +9470,34 @@
       "hasQuiz": true
     },
     {
+      "id": "why-rivers-bend",
+      "language": "en",
+      "title": "Why Rivers Never Run Straight",
+      "teaser": "A tiny wobble in the flow. A grain of sand out of place. Ten thousand years later: the Amazon.",
+      "category": "Geography",
+      "subcategories": [
+        "Hydrology",
+        "Physical Geography"
+      ],
+      "tags": [
+        "rivers",
+        "meander",
+        "erosion",
+        "geomorphology",
+        "geography"
+      ],
+      "emoji": "🏞️",
+      "accentColor": "#74B9FF",
+      "coverSymbol": {
+        "sfSymbol": "water.waves",
+        "fallbackEmoji": "🌊"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
       "id": "why-rock-paper-scissors-works",
       "language": "en",
       "title": "The Math of Rock Paper Scissors",
@@ -9012,6 +9826,34 @@
       "coverSymbol": {
         "sfSymbol": "thermometer.high",
         "fallbackEmoji": "🌡️"
+      },
+      "difficulty": "beginner",
+      "estimatedMinutes": 4,
+      "lessonCount": 5,
+      "hasQuiz": true
+    },
+    {
+      "id": "why-we-get-sick-in-winter",
+      "language": "en",
+      "title": "Why We Get Sick More in Winter",
+      "teaser": "Cold weather doesn't cause colds — but there's a reason the virus spikes when temperatures drop. Your nose has a secret.",
+      "category": "Medicine",
+      "subcategories": [
+        "Immunology",
+        "Virology"
+      ],
+      "tags": [
+        "viruses",
+        "immune system",
+        "winter",
+        "colds",
+        "flu"
+      ],
+      "emoji": "🤧",
+      "accentColor": "#3A6EA5",
+      "coverSymbol": {
+        "sfSymbol": "snowflake",
+        "fallbackEmoji": "❄️"
       },
       "difficulty": "beginner",
       "estimatedMinutes": 4,

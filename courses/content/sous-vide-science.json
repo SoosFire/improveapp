@@ -1,0 +1,141 @@
+{
+  "id": "sous-vide-science",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Science of Sous Vide",
+    "teaser": "A steak held at exactly 54.4°C for two hours is impossible to overcook. The reason is beautiful chemistry.",
+    "category": "Cooking",
+    "subcategories": ["Technique", "Food Science"],
+    "tags": ["sous-vide", "cooking", "proteins", "temperature", "food-science"],
+    "emoji": "🥩",
+    "accentColor": "#E84393",
+    "coverSymbol": {
+      "sfSymbol": "thermometer.medium",
+      "fallbackEmoji": "🌡️"
+    },
+    "coverImagePrompt": "A deep red steak slowly rotating in a vacuum-sealed bag inside a glass water bath, gentle bubbles rising, backlit warm amber, cinematic macro shot"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The pan's impossible job",
+      "body": "A ribeye in a hot pan faces a cruel problem. The surface hits 200°C while the center is still cold. By the time the middle is a rosy 54°C, the outer layers are grey, overcooked, and leathery. The pan is trying to cook two different meals at once. Sous vide says: forget that. Put the steak in a bag, float it in water at the exact final temperature you want, and walk away. The physics does the rest.",
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A steak in a cast iron pan with visible layers of color from charred to grey to raw, cross-section view, dramatic lighting"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Proteins are origami",
+      "body": "Meat is mostly folded protein. Each muscle fiber is bundled protein tubes (myosin and actin) wrapped in collagen. When you heat them, they unfold and shrink — a process called denaturation. Myosin denatures around 50°C. Actin at about 66°C. Once actin contracts, juice gets squeezed out. That's why a steak above 65°C starts losing water fast. Keep it under that line and the meat stays juicy.",
+      "keyTerms": [
+        { "term": "Denaturation", "definition": "The unfolding of protein structure caused by heat, acid, or other stress" },
+        { "term": "Collagen", "definition": "The tough connective protein that, above ~68°C over time, converts into soft gelatin" }
+      ],
+      "visual": {
+        "sfSymbol": "square.3.layers.3d.bottom.filled",
+        "imagePrompt": "Animated coiled proteins shown at different temperatures, slowly unfolding and tightening as temperature rises"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why holding matters",
+      "body": "At 54.4°C, a medium-rare steak will never go beyond 54.4°C, no matter how long it sits. But time still does work. Collagen, the chewy stuff in tough cuts, slowly unwinds at low temperatures if you give it hours. A brisket at 74°C for 24 hours comes out as tender as one braised for five — but without the dryness, because you never crossed the actin line. Temperature sets doneness. Time sets texture.",
+      "funFact": "Industrial food safety tables show that holding chicken at 60°C for 30 minutes kills the same pathogens as searing it to 74°C instantly — pasteurization is about time × temperature, not just temperature.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "A clock face with temperature markings replacing hours, two tender cuts below dial showing collagen converting over time"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The missing crust",
+      "body": "Sous vide has one famous flaw: no browning. The Maillard reaction — the flavor-packed cascade that turns meat brown — only kicks in above 140°C. Water tops out at 100°C. So chefs finish every sous vide steak with a 30-second blast in a ripping-hot pan or torch. Perfect interior from the bag. Crispy crust from the fire. Best of both physics.",
+      "visual": {
+        "sfSymbol": "flame.circle.fill",
+        "imagePrompt": "A sous-vide steak being seared with a blowtorch against a dark backdrop, crust forming in seconds, smoke curling"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it's cheating (and isn't)",
+      "body": "A traditional chef manages a moving target: a pan cooling and heating, surfaces racing ahead of centers, a narrow window between raw and ruined. Sous vide removes the race. The water bath is patient. It tells every molecule in your food 'this is your final temperature, and you have all the time in the world to get there.' It turns cooking from a panic into a calculation.",
+      "visual": {
+        "sfSymbol": "checkmark.seal.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why can't a steak cooked sous vide at 54.4°C become overcooked?",
+      "options": [
+        "Because water cools it down",
+        "Because its temperature can never exceed the water's temperature",
+        "Because the bag insulates it",
+        "Because water adds moisture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Food in a water bath equilibrates to exactly the bath's temperature — and can't exceed it."
+    },
+    {
+      "index": 1,
+      "question": "Which protein's denaturation causes the biggest loss of juice?",
+      "options": [
+        "Myosin (~50°C)",
+        "Actin (~66°C)",
+        "Collagen (~68°C)",
+        "Elastin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Actin contracts sharply around 66°C, squeezing out water — which is why steak gets dry above medium."
+    },
+    {
+      "index": 2,
+      "question": "Why do chefs sear sous vide meat after cooking?",
+      "options": [
+        "To kill bacteria",
+        "To create the Maillard crust, which only forms above about 140°C",
+        "To warm it up",
+        "To remove excess moisture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water baths can't reach the 140°C+ needed for Maillard browning, so a quick sear adds the crust."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Modernist Cuisine: The Art and Science of Cooking",
+      "publisher": "The Cooking Lab",
+      "year": 2011
+    },
+    {
+      "title": "On Food and Cooking",
+      "publisher": "Scribner",
+      "year": 2004
+    }
+  ],
+
+  "related": ["why-bread-rises", "maillard-reaction", "food-safety-basics"]
+}

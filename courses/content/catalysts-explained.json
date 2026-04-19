@@ -1,0 +1,136 @@
+{
+  "id": "catalysts-explained",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Catalysts Don't Get Used Up",
+    "teaser": "The tiny pinch of platinum in your car's exhaust has been doing chemistry for 100,000 miles. How?",
+    "category": "Chemistry",
+    "subcategories": ["Reaction Kinetics", "Industrial Chemistry"],
+    "tags": ["catalyst", "enzyme", "platinum", "chemistry", "energy"],
+    "emoji": "⚗️",
+    "accentColor": "#A29BFE",
+    "coverSymbol": {
+      "sfSymbol": "arrow.triangle.2.circlepath",
+      "fallbackEmoji": "♻️"
+    },
+    "coverImagePrompt": "A glowing platinum mesh inside a cutaway catalytic converter with gas molecules rearranging on its surface, hot metallic light, cinematic macro view"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The thing that helps but doesn't change",
+      "body": "Under your car is a honeycomb ceramic brick coated with maybe 3 to 7 grams of platinum. That metal converts toxic carbon monoxide and nitrogen oxides into less toxic gases — and after 100,000 miles of nonstop chemistry, it's still there. It never runs out. Meanwhile, inside your body, enzymes are doing the same trick millions of times per second. How can something participate in a reaction and come out unchanged?",
+      "visual": {
+        "sfSymbol": "car.fill",
+        "imagePrompt": "Cross-section of a catalytic converter showing a honeycomb structure with heat shimmer, exhaust gases flowing through"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The shortcut across the mountain",
+      "body": "Every chemical reaction has to climb an 'activation energy' hill. The higher the hill, the slower the reaction. A catalyst doesn't change where the reaction starts or ends — it carves a lower pass through the mountain. Same valley on both sides, shorter route. That's why reactions that would take a thousand years can happen in a second.",
+      "keyTerms": [
+        { "term": "Activation energy", "definition": "The minimum energy molecules need to collide with before a reaction can happen" },
+        { "term": "Catalyst", "definition": "A substance that lowers activation energy without being consumed in the overall reaction" }
+      ],
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "Energy diagram showing a tall energy hill with a lower red path carved through it labeled 'with catalyst'"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "It does change — briefly",
+      "body": "Here's the subtle part: catalysts do bind to the reacting molecules. They just let go. A platinum atom grabs a carbon monoxide molecule, holds it in exactly the right orientation, lets an oxygen atom stick, and then releases the finished CO₂. The platinum goes back to exactly what it was. The overall reaction shows no net change to the catalyst — but moment to moment, it's working hard.",
+      "funFact": "Hydrogen gas can sit in a jar with oxygen for years without reacting. Add a whisker of platinum and it explodes.",
+      "visual": {
+        "sfSymbol": "hand.raised.fingers.spread.fill",
+        "imagePrompt": "A platinum surface at atomic scale with molecules docking, reshaping, and floating away, glowing bond connections"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Life depends on this",
+      "body": "Your body runs on catalysts called enzymes. Carbonic anhydrase, which helps you exhale CO₂, processes up to 600,000 molecules per second — each enzyme doing the reaction a million times faster than it would happen otherwise. Without enzymes, digesting a sandwich would take decades. We are, chemically speaking, a walking web of catalysts borrowing energy from atoms and handing them back perfectly sorted.",
+      "visual": {
+        "sfSymbol": "heart.text.square.fill",
+        "imagePrompt": "A pearl-shaped enzyme with a perfectly-shaped molecule fitting into its active site, glowing like a key in a lock"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The matchmaker of chemistry",
+      "body": "A catalyst is a matchmaker. It doesn't become the couple. It just introduces the right molecules in the right positions and steps back. That's why a gram of platinum can work for years, why your body keeps its enzymes for a lifetime, and why industrial processes for fertilizer, plastics, and fuel all lean on this one elegant trick. Help, don't be consumed.",
+      "visual": {
+        "sfSymbol": "sparkles",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What does a catalyst do to a chemical reaction?",
+      "options": [
+        "Changes the final products",
+        "Lowers the activation energy required",
+        "Adds more energy to the system",
+        "Reverses the reaction"
+      ],
+      "correctIndex": 1,
+      "explanation": "A catalyst provides a lower-energy pathway, letting reactions happen faster without changing where they end up."
+    },
+    {
+      "index": 1,
+      "question": "Why doesn't the catalyst get used up?",
+      "options": [
+        "It is infinitely durable",
+        "It binds briefly but is released unchanged",
+        "It's made of unreactive gold",
+        "It evaporates and condenses back"
+      ],
+      "correctIndex": 1,
+      "explanation": "Catalysts participate moment-to-moment but return to their original state after each reaction cycle."
+    },
+    {
+      "index": 2,
+      "question": "About how many molecules per second can carbonic anhydrase process?",
+      "options": ["60", "6,000", "Up to 600,000", "Up to 60 million"],
+      "correctIndex": 2,
+      "explanation": "Carbonic anhydrase is one of the fastest enzymes known — up to 600,000 CO₂ molecules per second per enzyme."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Enzyme Kinetics: Principles and Methods",
+      "publisher": "Wiley-VCH",
+      "year": 2017
+    },
+    {
+      "title": "Automotive Catalyst Technology: A Review",
+      "publisher": "Platinum Metals Review",
+      "year": 2015
+    }
+  ],
+
+  "related": ["periodic-table-patterns", "enzymes-explained", "haber-process"]
+}

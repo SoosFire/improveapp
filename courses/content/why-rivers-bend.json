@@ -1,0 +1,141 @@
+{
+  "id": "why-rivers-bend",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Rivers Never Run Straight",
+    "teaser": "A tiny wobble in the flow. A grain of sand out of place. Ten thousand years later: the Amazon.",
+    "category": "Geography",
+    "subcategories": ["Hydrology", "Physical Geography"],
+    "tags": ["rivers", "meander", "erosion", "geomorphology", "geography"],
+    "emoji": "🏞️",
+    "accentColor": "#74B9FF",
+    "coverSymbol": {
+      "sfSymbol": "water.waves",
+      "fallbackEmoji": "🌊"
+    },
+    "coverImagePrompt": "Aerial view of a winding river cutting through lush green wetlands at golden hour, sinuous oxbow curves reflecting sky, cinematic landscape photography"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "The no-straight-rivers law",
+      "body": "Look at any river from above — the Mississippi, the Amazon, a creek behind your house. None of them run straight. Even on a perfectly flat plain, water curves. In the 1960s, physicists Luna Leopold and Walter Langbein ran experiments in a lab tank with a flat bed and found the same result: set water loose, and within minutes it starts to wobble. A straight river, it turns out, is physically unstable.",
+      "visual": {
+        "sfSymbol": "map.fill",
+        "imagePrompt": "A satellite image of the Mississippi River's meandering course with oxbow lakes visible, painted in earth tones"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Any tiny nudge will do",
+      "body": "Imagine a perfectly straight channel. Drop a single pebble on one side. The current has to bend slightly around it. On the outside of the bend, water speeds up and erodes the bank. On the inside, water slows down and drops sediment. The bend grows. The grown bend creates another. Rivers amplify small perturbations the way microphones amplify feedback. Once it starts, it doesn't stop.",
+      "keyTerms": [
+        { "term": "Meander", "definition": "A loop-like bend in a river formed by asymmetric erosion and deposition" },
+        { "term": "Cut bank", "definition": "The steeper, outer side of a bend where water is fastest and erosion is strongest" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.triangle.swap",
+        "imagePrompt": "Top-down diagram of a river bend with arrows showing fast water on outer bank, slow water on inner, sediment deposition"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "The spiral inside the flow",
+      "body": "Inside every bend, water rotates in a corkscrew pattern called secondary flow. The surface water slides toward the outer bank; at the riverbed, it sweeps back along the inside. This scoops sediment off the cut bank and dumps it on the opposite side, forming a 'point bar.' Every meander is carving and building at the same time. The river isn't moving water in a line — it's rolling it in a helix.",
+      "funFact": "The meanders of a lowland river tend to be about 11 times wider than the channel itself — a near-universal ratio across the planet, from Siberia to Borneo.",
+      "visual": {
+        "sfSymbol": "tornado",
+        "imagePrompt": "Cross-section of a river bend showing spiral secondary flow, red arrows curving down along the outer bank"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "When bends cut themselves off",
+      "body": "Given enough time, meanders grow so pinched that the river slices through the neck and takes a shortcut. The abandoned loop becomes an 'oxbow lake.' The Mississippi has done this dozens of times in recorded history — in 1876, one cutoff near Reverie, Tennessee, moved an entire town from the state of Arkansas into Tennessee overnight without a single person moving. The border now zigzags to match the old course.",
+      "visual": {
+        "sfSymbol": "scissors",
+        "imagePrompt": "An aerial photo of an oxbow lake, a horseshoe-shaped isolated body of water beside a newly straightened river channel"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The landscape in motion",
+      "body": "A river is not a thing — it is a process. From orbit, the Amazon looks stationary, but over centuries it swings back and forth across its floodplain the way a pendulum wanders. Every curve you see was caused by a grain of sand out of place, amplified by physics into a bend that shaped farms, borders, and civilizations. Rivers don't flow. They wander.",
+      "visual": {
+        "sfSymbol": "wind.circle.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why do rivers form meanders even on flat terrain?",
+      "options": [
+        "Because of wind",
+        "Because small disturbances are amplified by erosion and deposition",
+        "Because of Earth's rotation alone",
+        "Because straight flow violates gravity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Any tiny deflection bends the flow, erodes the outer bank, and grows — a feedback loop that makes straight channels unstable."
+    },
+    {
+      "index": 1,
+      "question": "What is a 'cut bank'?",
+      "options": [
+        "A cliff next to a river",
+        "The outer, eroding side of a river bend",
+        "A place where trees have been cut",
+        "The side with the most vegetation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The outer side of a bend has the fastest flow and strongest erosion, cutting into the land."
+    },
+    {
+      "index": 2,
+      "question": "What is an oxbow lake?",
+      "options": [
+        "A volcanic crater lake",
+        "An isolated curved lake formed when a river cuts through a meander neck",
+        "A lake with oxbow-shaped fish",
+        "A lake near an old railroad"
+      ],
+      "correctIndex": 1,
+      "explanation": "When a river shortcuts through its own loop, the abandoned bend becomes a curved oxbow-shaped lake."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "River Meanders",
+      "publisher": "Scientific American",
+      "year": 1966
+    },
+    {
+      "title": "Fluvial Processes in Geomorphology",
+      "publisher": "W. H. Freeman",
+      "year": 1964
+    }
+  ],
+
+  "related": ["prime-meridian-arbitrary", "oxbow-lakes", "erosion-basics"]
+}

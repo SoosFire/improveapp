@@ -1,0 +1,141 @@
+{
+  "id": "periodic-table-patterns",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "The Hidden Pattern in the Periodic Table",
+    "teaser": "Mendeleev saw a rhythm no one else could — and used it to predict elements that didn't exist yet.",
+    "category": "Chemistry",
+    "subcategories": ["Atomic Structure", "History of Science"],
+    "tags": ["periodic-table", "mendeleev", "elements", "chemistry", "patterns"],
+    "emoji": "🧪",
+    "accentColor": "#00B894",
+    "coverSymbol": {
+      "sfSymbol": "square.grid.3x3.fill",
+      "fallbackEmoji": "⚗️"
+    },
+    "coverImagePrompt": "A vintage hand-drawn periodic table unfolding on a dark wooden desk, candlelight flickering, with glowing element symbols pulsing in rhythmic groups, cinematic, moody"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A card game that changed chemistry",
+      "body": "In February 1869, Dmitri Mendeleev wrote the name of each known element on a card along with its properties, then spread them across his desk like a solitaire game. When he arranged them by atomic weight, he noticed something strange: properties repeated. Every so often, a metal that behaved like sodium would appear. Every so often, a gas like chlorine. He drew a table — and left gaps where he thought elements should exist but didn't yet.",
+      "visual": {
+        "sfSymbol": "rectangle.stack.fill",
+        "imagePrompt": "Worn index cards labeled with element symbols scattered across a 19th-century desk, candle glow, quill pen resting nearby"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The rhythm behind the rows",
+      "body": "The real pattern isn't weight — it's electrons. Every element has a shell structure. As you move across a row, electrons fill up the outer shell. When the shell is full, a new row starts, and the cycle begins again. That's why the leftmost column (lithium, sodium, potassium) all behave alike — they all have exactly one lonely electron in their outer shell, desperate to give it away.",
+      "keyTerms": [
+        { "term": "Valence electron", "definition": "An electron in the outermost shell — the one that decides how the atom reacts" },
+        { "term": "Period", "definition": "A horizontal row in the table; each row represents a new electron shell being filled" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.dotted",
+        "imagePrompt": "An atom diagram showing nested electron shells, with the outermost shell glowing and labeled 'valence'"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the gaps mattered",
+      "body": "Mendeleev's gaps were his masterstroke. Below aluminum, he predicted an unknown element he called 'eka-aluminum' — density about 5.9, melting point low. In 1875, a French chemist isolated gallium. Density: 5.91. Melting point: 29.76°C (it melts in your hand). The pattern wasn't just descriptive — it was predictive. Chemistry had discovered its own periodic law.",
+      "funFact": "Mendeleev also predicted 'eka-silicon' — later discovered as germanium in 1886, with properties matching his forecast almost exactly.",
+      "visual": {
+        "sfSymbol": "questionmark.square.fill",
+        "imagePrompt": "A periodic table with three empty squares highlighted in golden light, question marks inside, surrounding elements labeled"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The argon problem",
+      "body": "In 1894, Lord Rayleigh and William Ramsay discovered argon — a gas that reacted with absolutely nothing. It didn't fit anywhere in Mendeleev's table. Rather than break the pattern, scientists added a whole new column: the noble gases. The table stretched. Then helium, neon, krypton, xenon all slotted in. A good pattern doesn't just explain what you know. It leaves room for what you haven't found yet.",
+      "visual": {
+        "sfSymbol": "plus.rectangle.on.rectangle",
+        "imagePrompt": "A periodic table with a new rightmost column being added, elements slotting in with a soft glow of fit"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "The law before the theory",
+      "body": "Here's the beautiful part: Mendeleev had no idea about electrons. Protons hadn't been discovered. Quantum mechanics wouldn't exist for another 60 years. He found the rhythm purely by looking — and the deeper physics only confirmed it decades later. It's one of the cleanest examples in science of a pattern being real before anyone could say why.",
+      "visual": {
+        "sfSymbol": "waveform",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What property really drives the periodic pattern?",
+      "options": [
+        "Atomic weight",
+        "The number of valence electrons",
+        "The color of the element",
+        "The element's density"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elements in the same column share valence electron counts, which is why they behave similarly."
+    },
+    {
+      "index": 1,
+      "question": "How did Mendeleev handle elements that hadn't been discovered?",
+      "options": [
+        "He excluded them",
+        "He left gaps and predicted their properties",
+        "He merged them with similar elements",
+        "He waited until they were found"
+      ],
+      "correctIndex": 1,
+      "explanation": "He left predictive gaps — like 'eka-aluminum,' later confirmed as gallium in 1875."
+    },
+    {
+      "index": 2,
+      "question": "What happened when argon was discovered in 1894?",
+      "options": [
+        "The periodic table was thrown out",
+        "A whole new column (noble gases) was added",
+        "Argon was reclassified as a metal",
+        "Mendeleev denied it existed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Argon's inertness didn't fit any existing column, so a new group was created — which then filled in beautifully."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Periodic Law of the Chemical Elements",
+      "publisher": "Journal of the Chemical Society",
+      "year": 1889
+    },
+    {
+      "title": "On a new element, argon",
+      "publisher": "Proceedings of the Royal Society of London",
+      "year": 1895
+    }
+  ],
+
+  "related": ["catalysts-explained", "atomic-theory", "noble-gases"]
+}

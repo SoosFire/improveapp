@@ -1,0 +1,141 @@
+{
+  "id": "chinese-zodiac-origin",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why the Chinese Zodiac Starts With a Rat",
+    "teaser": "Twelve animals raced across a river. The sneaky one won — and got a whole year named after it.",
+    "category": "Religion & Mythology",
+    "subcategories": ["Chinese Folklore", "Zodiac"],
+    "tags": ["china", "zodiac", "folklore", "jade-emperor", "rat", "ox"],
+    "emoji": "🐀",
+    "accentColor": "#C0392B",
+    "coverSymbol": {
+      "sfSymbol": "hare.fill",
+      "fallbackEmoji": "🐉"
+    },
+    "coverImagePrompt": "Twelve stylized animals charging across a rushing river toward a golden imperial gate in the clouds, a tiny rat riding on an ox's horn in front, ink-brush painting style with bold reds and golds"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A race decided by cheating",
+      "body": "Every twelve years the Chinese calendar loops back to the Year of the Rat. Why start with a rat — the smallest, least noble animal in the zodiac? The traditional answer is a children's story that's secretly a story about strategy, betrayal, and the quiet power of being underestimated.",
+      "visual": {
+        "sfSymbol": "trophy.fill",
+        "imagePrompt": "A tiny rat in triumphant pose on top of a golden medal, paper-cut art style"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The Jade Emperor's invitation",
+      "body": "In the legend, the Jade Emperor — ruler of the heavens — decided to create a calendar by inviting every animal on Earth to a Great Race. The first twelve to cross a wide, fast river would each get a year named after them, in the order they arrived. Word spread slowly, so only twelve animals actually showed up.",
+      "keyTerms": [
+        { "term": "Jade Emperor", "definition": "The supreme deity of traditional Chinese folk religion" },
+        { "term": "Sheng Xiao", "definition": "Mandarin for the twelve-animal zodiac cycle" }
+      ],
+      "visual": {
+        "sfSymbol": "crown.fill",
+        "imagePrompt": "The Jade Emperor in golden robes standing on a cloud, summoning animals with a raised scroll"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "How the rat won",
+      "body": "The rat couldn't swim well, so it made a deal: it would ride on the ox's back across the river, and the kind-hearted ox agreed. Just as the ox reached the far shore — in first place — the rat leapt off its head and landed on the bank first. The ox came second, then the tiger, rabbit, dragon, snake, horse, goat, monkey, rooster, dog, and finally the pig, who had stopped for a snack.",
+      "visual": {
+        "sfSymbol": "figure.run",
+        "imagePrompt": "The twelve zodiac animals in a colorful single-file procession crossing a river, ink-wash style"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Older than the story",
+      "body": "The race itself is folklore, but the twelve-animal cycle is ancient. It shows up on bamboo slips from the Qin dynasty more than 2,200 years ago, and may have been adapted from Central Asian calendrical traditions. The story about the race became popular much later — a folk explanation bolted onto an already-fixed order.",
+      "funFact": "The cat isn't in the zodiac because, in one version of the legend, the rat forgot to wake him up — which is why cats have hated rats ever since.",
+      "visual": {
+        "sfSymbol": "scroll.fill",
+        "imagePrompt": "Ancient bamboo slips tied with silk cord, showing faded Chinese characters naming animals"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A moral you can read two ways",
+      "body": "Depending on who tells the story, the rat is either a cunning trickster who deserves the top spot, or a small reminder that cleverness beats strength. Either way, the zodiac isn't just about animals — it's a yearly reminder that the world doesn't always reward the biggest or the fastest.",
+      "visual": {
+        "sfSymbol": "lightbulb.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "According to the legend, how did the rat cross the river?",
+      "options": [
+        "It swam faster than anyone else",
+        "It flew on the dragon's back",
+        "It hitched a ride on the ox",
+        "It used a raft of leaves"
+      ],
+      "correctIndex": 2,
+      "explanation": "The rat talked the ox into carrying it across, then leapt off at the last moment to claim first place."
+    },
+    {
+      "index": 1,
+      "question": "Why, traditionally, is the cat absent from the zodiac?",
+      "options": [
+        "Cats were considered sacred and exempt",
+        "The rat forgot to wake the cat for the race",
+        "The cat refused to bow to the Jade Emperor",
+        "Cats hadn't been introduced to China yet"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the legend, the rat never told the cat about the race — the folk explanation for why cats chase rats to this day."
+    },
+    {
+      "index": 2,
+      "question": "How old is the twelve-animal zodiac cycle itself?",
+      "options": [
+        "About 200 years",
+        "Around 700 years",
+        "More than 2,000 years",
+        "Invented in the 20th century"
+      ],
+      "correctIndex": 2,
+      "explanation": "The twelve-animal cycle appears on bamboo slips from the Qin dynasty, dating back over 2,200 years."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Chinese Zodiac: A Guide to the Sheng Xiao",
+      "publisher": "China Intercontinental Press",
+      "year": 2010
+    },
+    {
+      "title": "Researches into Chinese Superstitions",
+      "publisher": "T'usewei Printing Press",
+      "year": 1914
+    }
+  ],
+
+  "related": ["lunar-new-year", "jade-emperor", "chinese-calendar"]
+}

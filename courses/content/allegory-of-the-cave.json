@@ -1,0 +1,144 @@
+{
+  "id": "allegory-of-the-cave",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Plato's Allegory of the Cave",
+    "teaser": "Prisoners who've only ever seen shadows on a wall — and what happens to the one who escapes. A 2,400-year-old thought experiment that still stings.",
+    "category": "Philosophy",
+    "subcategories": ["Ancient Philosophy", "Epistemology"],
+    "tags": ["plato", "ancient greece", "epistemology", "metaphor", "knowledge"],
+    "emoji": "🕳️",
+    "accentColor": "#3E3A5C",
+    "coverSymbol": {
+      "sfSymbol": "flashlight.on.fill",
+      "fallbackEmoji": "🔦"
+    },
+    "coverImagePrompt": "Flickering firelight on a rough cave wall casting long human-shaped shadows, a single silhouetted figure turning toward a distant sunlit opening, chiaroscuro, painterly"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Imagine a cave",
+      "body": "Prisoners have been chained since birth to face a stone wall. Behind them, a fire burns. Between the fire and the prisoners, people carry objects — statues, tools, figures — whose shadows flicker on the wall in front. The prisoners, who have never seen anything else, believe the shadows ARE reality. They name them. Debate them. Celebrate the prisoner best at predicting which shadow comes next.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": "A long cave interior at eye level with chained silhouettes facing a wall, firelight throwing shadow puppets of everyday objects"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "The setup and the escape",
+      "body": "Plato wrote this story around 380 BCE in Book VII of The Republic, narrated by his teacher Socrates. One prisoner is freed. At first the fire itself blinds him. He stumbles out of the cave and, slowly, his eyes adjust to the real world — grass, water, trees, eventually the sun itself, which illuminates everything else. This escape, for Plato, is the shape of philosophical awakening.",
+      "keyTerms": [
+        { "term": "The Republic", "definition": "Plato's dialogue on justice and the ideal state, where the Allegory of the Cave appears" },
+        { "term": "Socrates", "definition": "Plato's teacher, who narrates the allegory in The Republic" }
+      ],
+      "visual": {
+        "sfSymbol": "door.right.hand.open",
+        "imagePrompt": "The mouth of a cave from inside, dazzling daylight flooding in, a silhouetted figure shielding their eyes with one hand"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "What each part represents",
+      "body": "The shadows are sensory perception — what our eyes and ears hand us. The fire is secondhand knowledge: stories, culture, authority. The world outside is the realm of rational truth, what Plato calls the Forms — abstract ideals like Justice, Beauty, Goodness that don't change with fashion. The sun is the highest Form, the Good, which lets all other knowledge exist. The cave is where most people live their whole lives.",
+      "keyTerms": [
+        { "term": "Forms", "definition": "Plato's eternal, unchanging ideals (e.g., perfect Justice, Beauty, the Good) of which physical things are imperfect copies" }
+      ],
+      "visual": {
+        "sfSymbol": "sun.max.fill",
+        "imagePrompt": "A diagram-style illustration mapping the cave to its symbolic meanings, elegant hand-drawn style with serif labels"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "The returning prisoner gets mocked",
+      "body": "Here's the sting. The escaped prisoner goes back into the cave to tell the others. His eyes, now adjusted to sunlight, can't see the shadows well. He fumbles. The prisoners laugh. When he insists the shadows aren't real, they grow hostile. Plato writes that if they could, they'd kill him. Scholars have always read this as a direct reference to what Athens did to Socrates in 399 BCE.",
+      "funFact": "The allegory is one of the earliest texts to describe the modern idea of 'cognitive dissonance' — people defending a false worldview even against evidence.",
+      "visual": {
+        "sfSymbol": "exclamationmark.triangle.fill",
+        "imagePrompt": "A classical Greek painting-style scene of a philosopher returning to a dim cave, met with gesturing, angry seated figures"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Why it keeps coming back",
+      "body": "The Matrix, Truman Show, social-media bubbles, algorithmic feeds — every generation finds a new cave. Plato's point was never just about ancient Athens. It was about the difficulty of mistaking our inherited perceptions for reality, and the unpopularity of ever pointing that out. The cave is warm. Leaving it hurts. But the sun is out there.",
+      "visual": {
+        "sfSymbol": "sun.haze.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "In the allegory, what do the shadows on the cave wall represent?",
+      "options": [
+        "The eternal Forms",
+        "Sensory perception and appearances",
+        "The afterlife",
+        "Political power"
+      ],
+      "correctIndex": 1,
+      "explanation": "The shadows represent sensory perception — the superficial appearances that most people mistake for reality."
+    },
+    {
+      "index": 1,
+      "question": "What does the sun outside the cave symbolize for Plato?",
+      "options": [
+        "Fate",
+        "Democracy",
+        "The Form of the Good",
+        "Passage of time"
+      ],
+      "correctIndex": 2,
+      "explanation": "For Plato, the sun represents the Form of the Good — the highest truth that makes all other knowledge possible."
+    },
+    {
+      "index": 2,
+      "question": "What happens when the escaped prisoner returns to tell the others?",
+      "options": [
+        "They follow him out immediately",
+        "They mock and even threaten him",
+        "They become silent philosophers",
+        "They burn the cave down"
+      ],
+      "correctIndex": 1,
+      "explanation": "The prisoners laugh, reject his account, and would kill him if they could — a scene widely read as an allusion to the execution of Socrates."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Republic, Book VII",
+      "publisher": "Plato, translated by G. M. A. Grube, Hackett Publishing",
+      "year": 1992
+    },
+    {
+      "title": "Plato: Complete Works",
+      "publisher": "Edited by John M. Cooper, Hackett Publishing",
+      "year": 1997
+    }
+  ],
+
+  "related": ["socratic-method", "the-forms", "absurdism-camus"]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "how-gps-works",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "How GPS Actually Knows Where You Are",
+    "teaser": "Your phone listens to four atomic clocks flying 12,500 miles overhead — and does Einstein's homework.",
+    "category": "Technology",
+    "subcategories": ["Navigation", "Satellites"],
+    "tags": ["gps", "satellites", "relativity", "timing", "navigation"],
+    "emoji": "📡",
+    "accentColor": "#1ABC9C",
+    "coverSymbol": {
+      "sfSymbol": "location.north.line.fill",
+      "fallbackEmoji": "🛰️"
+    },
+    "coverImagePrompt": "A glowing network of four satellites above Earth's curvature beaming intersecting lines down to a single tiny smartphone on a mountain ridge at dusk, cinematic, deep blues and hot orange horizon"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "A blue dot is harder than it looks",
+      "body": "You open Maps, and a little blue dot appears within seconds, accurate to a few meters. It feels trivial. It is not. To put that dot there, your phone is solving a four-dimensional geometry problem using signals traveling at the speed of light from satellites orbiting 20,000 kilometers above your head.",
+      "visual": {
+        "sfSymbol": "location.fill",
+        "imagePrompt": "A phone screen with a pulsing blue location dot in an empty field at night"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Trilateration, not triangulation",
+      "body": "Each GPS satellite constantly broadcasts two things: its exact position and the exact time it sent the signal. Your phone measures how long the signal took to arrive, multiplies by the speed of light, and gets a distance. With distances to three satellites, you're somewhere on the intersection of three imaginary spheres. A fourth satellite nails down your location in 3D — plus fixes timing errors.",
+      "keyTerms": [
+        { "term": "Trilateration", "definition": "Finding a position by measuring distances from known points" },
+        { "term": "Pseudorange", "definition": "The raw distance estimate before clock errors are corrected" }
+      ],
+      "visual": {
+        "sfSymbol": "circle.grid.cross.fill",
+        "imagePrompt": "Three translucent spheres intersecting over a city grid, with a glowing dot at the intersection"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Why the clocks must be atomic",
+      "body": "Light travels about 30 centimeters per nanosecond. If a satellite's clock is off by a single microsecond, your position is off by 300 meters. That's why every GPS satellite carries at least two cesium or rubidium atomic clocks, accurate to nanoseconds. Your phone's cheap quartz clock doesn't have to be that good — the fourth satellite is essentially a shared correction.",
+      "visual": {
+        "sfSymbol": "clock.fill",
+        "imagePrompt": "Close-up of a satellite's onboard atomic clock module, with delicate gold wiring and a blinking timing LED"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Einstein rides along",
+      "body": "GPS satellites orbit at about 14,000 km/h, which makes their clocks tick slightly slower due to special relativity. But they're also higher up in Earth's gravity well, which makes them tick faster due to general relativity. The net effect is that satellite clocks run about 38 microseconds per day faster than clocks on the ground — and engineers have to pre-correct for it. Without the correction, GPS positions would drift more than 10 kilometers a day.",
+      "funFact": "GPS is arguably the most widely used real-world test of Einstein's general relativity — proved right every time you get directions to a coffee shop.",
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "A stylized Einstein equation overlaid on a satellite orbit diagram, chalk-on-blackboard aesthetic"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A quiet miracle of global cooperation",
+      "body": "There are actually several global navigation systems: the American GPS, European Galileo, Russian GLONASS, and Chinese BeiDou. Modern phones usually listen to all of them. That blue dot on your screen is the distilled output of more than a hundred satellites, a century of physics, and four superpowers that, for this one thing, agreed to keep talking.",
+      "visual": {
+        "sfSymbol": "globe.europe.africa.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why does a GPS receiver need signals from at least four satellites?",
+      "options": [
+        "To cover all directions of the sky",
+        "Three give a 3D position and the fourth corrects the receiver's clock",
+        "For redundancy in case one signal is weak",
+        "Because each satellite only knows one coordinate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Three satellites pin down a 3D point; a fourth allows the receiver to solve for its own unknown clock error as well."
+    },
+    {
+      "index": 1,
+      "question": "How much would uncorrected relativistic effects throw off GPS positions each day?",
+      "options": ["A few centimeters", "A few meters", "Over 10 kilometers", "It wouldn't matter"],
+      "correctIndex": 2,
+      "explanation": "Without relativity corrections, satellite clocks would drift about 38 microseconds per day, translating to over 10 km of positional error."
+    },
+    {
+      "index": 2,
+      "question": "What kind of clock is actually on board a GPS satellite?",
+      "options": ["Quartz", "Atomic (cesium or rubidium)", "Mechanical", "None — they use ground clocks"],
+      "correctIndex": 1,
+      "explanation": "Nanosecond-level accuracy requires atomic clocks; each satellite carries multiple cesium or rubidium oscillators."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Understanding GPS: Principles and Applications",
+      "publisher": "Artech House",
+      "year": 2005
+    },
+    {
+      "title": "Relativity in the Global Positioning System",
+      "publisher": "Living Reviews in Relativity",
+      "year": 2003
+    }
+  ],
+
+  "related": ["atomic-clocks", "general-relativity", "galileo-navigation"]
+}

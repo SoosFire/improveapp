@@ -1,0 +1,136 @@
+{
+  "id": "horseshoe-crab-blue-blood",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Horseshoe Crabs Have Blue Blood",
+    "teaser": "A living fossil older than the dinosaurs bleeds copper — and every vaccine you've had was tested with it.",
+    "category": "Biology",
+    "subcategories": ["Marine Life", "Medicine"],
+    "tags": ["horseshoe-crab", "blood", "biology", "medicine", "evolution"],
+    "emoji": "🦀",
+    "accentColor": "#2E86DE",
+    "coverSymbol": {
+      "sfSymbol": "drop.fill",
+      "fallbackEmoji": "🩸"
+    },
+    "coverImagePrompt": "A horseshoe crab on dark wet sand at twilight, a single drop of luminous blue blood falling from its underside into a glass vial, cinematic, bioluminescent mood, photoreal"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "An animal that bleeds the color of the sky",
+      "body": "Horseshoe crabs have been crawling along shorelines for about 450 million years — older than trees, older than dinosaurs, older than bones. They don't look like much. They look like armored dinner plates with tails. But cut one open and the blood that leaks out is a startling, luminous blue — and it turns out to be one of the most important substances in modern medicine.",
+      "visual": {
+        "sfSymbol": "ant.fill",
+        "imagePrompt": "A close-up of a horseshoe crab flipped over, revealing its underside against a tidepool"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Copper instead of iron",
+      "body": "Your blood is red because hemoglobin — the molecule that carries oxygen — contains iron. Horseshoe crabs use a different molecule called hemocyanin, which carries oxygen using copper instead. Copper compounds tend to look blue, which is why oxygen-rich horseshoe crab blood is the color of Windex. Many other arthropods and mollusks use hemocyanin too — octopuses have blue-green blood for the same reason.",
+      "keyTerms": [
+        { "term": "Hemocyanin", "definition": "A copper-based oxygen transporter used by many arthropods and mollusks" },
+        { "term": "Hemoglobin", "definition": "The iron-based oxygen carrier in vertebrate blood" }
+      ],
+      "visual": {
+        "sfSymbol": "atom",
+        "imagePrompt": "Molecular diagrams of hemocyanin and hemoglobin side by side, each shaded with its characteristic blue and red"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "A one-celled immune system",
+      "body": "Here's the part that changed medicine. Horseshoe crab blood contains cells called amebocytes that react to even trace amounts of bacterial toxins — forming a gel-like clot around them. This reaction is so sensitive it can detect one part per trillion of endotoxin. Pharmaceutical companies make a reagent from the blood called LAL (Limulus Amebocyte Lysate) and use it to test whether vaccines, IV drugs, and implants are safe to put into human bodies.",
+      "visual": {
+        "sfSymbol": "testtube.2",
+        "imagePrompt": "A pipette dropping blue liquid into a vial, forming a small clot around a glowing bacterium"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Every vaccine, almost",
+      "body": "Virtually every injectable drug approved in the United States since the 1970s has been tested with horseshoe crab blood. Each year, roughly 500,000 crabs are caught, drained of about 30% of their blood, and returned to the sea — though studies estimate 10–30% don't survive the ordeal. A synthetic alternative called rFC (recombinant Factor C) exists and works, and a few drugmakers have begun switching, but LAL is still the industry default.",
+      "funFact": "A liter of horseshoe crab blood is worth about $15,000 — making it gram for gram one of the most expensive fluids on Earth.",
+      "visual": {
+        "sfSymbol": "syringe.fill",
+        "imagePrompt": "A row of pale blue horseshoe crabs tethered to collection tubes in a bright clinical facility"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A quiet debt to an ancient animal",
+      "body": "Horseshoe crabs outlived five mass extinctions by not changing much. Then, in a single century, we figured out that their blood could save our lives. Whether we keep taking it or switch to the synthetic version is one of modern medicine's quietest ethical choices — the kind most people don't even know is happening.",
+      "visual": {
+        "sfSymbol": "leaf.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "Why is horseshoe crab blood blue?",
+      "options": [
+        "It contains chlorophyll",
+        "It uses a copper-based oxygen carrier called hemocyanin",
+        "It reacts with seawater",
+        "It has a natural blue pigment for camouflage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemocyanin uses copper instead of iron to carry oxygen, and oxygenated copper compounds are blue."
+    },
+    {
+      "index": 1,
+      "question": "What unique medical use does horseshoe crab blood have?",
+      "options": [
+        "It can replace human plasma",
+        "It detects bacterial endotoxins at incredibly low concentrations",
+        "It is used as an antibiotic",
+        "It strengthens blood clotting in surgery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cells in horseshoe crab blood clot around tiny amounts of endotoxin, making it invaluable for testing drugs and vaccines for contamination."
+    },
+    {
+      "index": 2,
+      "question": "What is the name of the synthetic alternative to horseshoe crab LAL?",
+      "options": ["rFC (recombinant Factor C)", "Synthoblood", "Artificial hemolymph", "CrabGel"],
+      "correctIndex": 0,
+      "explanation": "Recombinant Factor C (rFC) can be produced in a lab and reproduces the endotoxin-detecting function without harvesting crabs."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "Horseshoe Crab Biomedical Applications",
+      "publisher": "Ecological Research Monographs",
+      "year": 2015
+    },
+    {
+      "title": "The last of the blue-blooded crabs: biomedical use of Limulus",
+      "publisher": "Frontiers in Marine Science",
+      "year": 2020
+    }
+  ],
+
+  "related": ["living-fossils", "vaccine-safety-testing", "hemocyanin-mollusks"]
+}

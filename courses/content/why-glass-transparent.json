@@ -1,0 +1,141 @@
+{
+  "id": "why-glass-transparent",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Why Glass Is Transparent",
+    "teaser": "Glass is made of sand. Sand is made of rock. Somehow, rock you can see through.",
+    "category": "Physics",
+    "subcategories": ["Optics", "Materials"],
+    "tags": ["glass", "optics", "quantum", "photons", "materials"],
+    "emoji": "🪟",
+    "accentColor": "#85C1E9",
+    "coverSymbol": {
+      "sfSymbol": "square.fill",
+      "fallbackEmoji": "🔍"
+    },
+    "coverImagePrompt": "A pane of crystal-clear glass held up in a dusty workshop with slanted sunbeams passing straight through it, amber dust motes floating on either side, cinematic, Dutch Golden Age lighting"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 4,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Why isn't everything transparent?",
+      "body": "A brick blocks light. A chunk of wood blocks light. A sheet of aluminum foil blocks light. But a pane of glass, made of sand melted together — the exact kind of rock those other things could easily hide behind — lets light stroll right through. The reason has nothing to do with what glass is made of and everything to do with what its electrons refuse to do.",
+      "visual": {
+        "sfSymbol": "eye.fill",
+        "imagePrompt": "A split illustration: a brick wall absorbing sunlight on one side, a glass window letting it pass on the other"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Electrons are picky eaters",
+      "body": "When a photon hits a material, one of three things can happen: the material's electrons can absorb it, reflect it, or let it pass. Electrons can only absorb photons of very specific energies — the ones that exactly match the gap between their allowed energy levels. If a photon's energy doesn't match any gap, the electron simply can't grab it, and the photon sails through.",
+      "keyTerms": [
+        { "term": "Photon", "definition": "A single particle of light, carrying a specific amount of energy" },
+        { "term": "Band gap", "definition": "The energy difference between an electron's current state and the next available one" }
+      ],
+      "visual": {
+        "sfSymbol": "chart.bar.fill",
+        "imagePrompt": "An energy-level diagram showing photons arriving with various energies, some absorbed and others passing through an electron shell"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Visible light is invisible to glass",
+      "body": "The electrons in glass have a large band gap — bigger than the energy carried by any visible light photon. Red, orange, yellow, green, blue, and violet photons simply can't budge any electrons in glass. With nothing to absorb or scatter them, they travel straight through. Ultraviolet light has more energy and does match glass's band gap, which is why ordinary window glass blocks most UV and why you can't tan through a window.",
+      "visual": {
+        "sfSymbol": "rainbow",
+        "imagePrompt": "A beam of white light hitting a pane of glass, the visible rainbow passing through while a ghosted ultraviolet portion gets absorbed at the surface"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "And metals are the opposite",
+      "body": "Metals look shiny because their outer electrons are free to slosh around — they can absorb and re-emit almost any photon that arrives. That's why a metal mirror reflects light and a sheet of aluminum foil is opaque. Tiny variations in band structure explain why copper looks orange, gold looks yellow, and silver looks colorless: their electrons are tuned to re-emit slightly different mixes of visible frequencies.",
+      "funFact": "Medieval stained glass is mostly the same transparent silica — the brilliant colors come from adding a pinch of metal oxide (cobalt for blue, gold for red) that shifts the band gap into visible range.",
+      "visual": {
+        "sfSymbol": "mirror.side.right",
+        "imagePrompt": "A gold bar, a silver coin, and a copper cup each reflecting sunlight with their distinctive tints, against a dark background"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Transparency is a negotiation",
+      "body": "The weirdest part is that 'see-through' isn't about a material being empty or thin — it's about a mismatch. Glass is dense, solid, and full of atoms; it just happens to be tuned to ignore exactly the wavelengths our eyes evolved to use. If our eyes saw in ultraviolet, every window in the world would look as opaque as a wall.",
+      "visual": {
+        "sfSymbol": "eye.trianglebadge.exclamationmark.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "What determines whether a material absorbs a given photon?",
+      "options": [
+        "The photon's color",
+        "Whether the photon's energy matches an available electron transition",
+        "The thickness of the material",
+        "The temperature of the material"
+      ],
+      "correctIndex": 1,
+      "explanation": "Electrons only absorb photons whose energy matches the gap between allowed states. If nothing matches, the photon passes through."
+    },
+    {
+      "index": 1,
+      "question": "Why does ordinary window glass block most ultraviolet light?",
+      "options": [
+        "UV light reflects off glass surfaces",
+        "Glass heats up and re-emits UV as infrared",
+        "UV photons carry enough energy to match glass's band gap and be absorbed",
+        "UV light scatters in all directions inside glass"
+      ],
+      "correctIndex": 2,
+      "explanation": "UV photons are energetic enough to excite electrons across the band gap in glass, so they get absorbed rather than passing through."
+    },
+    {
+      "index": 2,
+      "question": "Why are metals opaque and reflective instead of transparent?",
+      "options": [
+        "They are too dense for photons to enter",
+        "Their free electrons absorb and re-emit almost any visible photon",
+        "They contain no gaps between atoms",
+        "They lack a crystal structure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Metals have a sea of loosely bound electrons that absorb and instantly re-emit photons of nearly any visible wavelength — producing reflection."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Feynman Lectures on Physics, Vol. I, Ch. 31",
+      "publisher": "Addison-Wesley",
+      "year": 1964
+    },
+    {
+      "title": "Optical properties of glass",
+      "publisher": "Journal of Non-Crystalline Solids",
+      "year": 2010
+    }
+  ],
+
+  "related": ["band-gap", "stained-glass-chemistry", "why-metals-shine"]
+}

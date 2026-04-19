@@ -1,0 +1,145 @@
+{
+  "id": "absurdism-camus",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "Camus and the Absurd",
+    "teaser": "A man pushes a boulder up a mountain forever. Camus said we should imagine him happy — and meant it literally.",
+    "category": "Philosophy",
+    "subcategories": ["Existentialism", "20th Century Philosophy"],
+    "tags": ["camus", "absurdism", "existentialism", "meaning", "sisyphus"],
+    "emoji": "🪨",
+    "accentColor": "#8C6A3A",
+    "coverSymbol": {
+      "sfSymbol": "mountain.2.fill",
+      "fallbackEmoji": "⛰️"
+    },
+    "coverImagePrompt": "A lone figure pushing a massive stone up a stark Mediterranean mountain at dusk, long shadow behind him, warm amber sky, painterly and still"
+  },
+
+  "meta": {
+    "difficulty": "intermediate",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Is life worth living?",
+      "body": "That's the first sentence — more or less — of Albert Camus's 1942 essay The Myth of Sisyphus. He called it the only truly serious philosophical question. Everything else, he argued, is detail. And his answer wasn't a reassurance. It was a dare.",
+      "visual": {
+        "sfSymbol": "questionmark.circle.fill",
+        "imagePrompt": "A solitary cafe table in 1940s Paris with an open notebook and a cigarette burning low, rain on the windows, noir atmosphere"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "What 'the Absurd' means to Camus",
+      "body": "The Absurd, for Camus, isn't 'silly.' It's the collision between two things: the human mind's deep hunger for meaning, and a universe that refuses to supply any. We crave purpose; reality shrugs. That gap is the Absurd. It isn't out in the world, and it isn't in us alone — it's the friction between.",
+      "keyTerms": [
+        { "term": "The Absurd", "definition": "The conflict between human beings' search for meaning and a silent, indifferent universe" },
+        { "term": "Albert Camus", "definition": "French-Algerian writer and philosopher (1913–1960), Nobel laureate 1957" }
+      ],
+      "visual": {
+        "sfSymbol": "arrow.left.arrow.right",
+        "imagePrompt": "A human silhouette shouting questions into a vast starry sky that simply hangs there, blue-black cosmic calm"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Three bad answers and one good one",
+      "body": "Camus outlines three common responses to the Absurd. First: physical suicide — ending the question by ending yourself. Second: 'philosophical suicide' — pretending the gap isn't there by accepting a religion or ideology that fills it. Third: hopeless despair. Camus rejects all three. His answer is to face the Absurd clearly and keep living anyway — what he calls revolt.",
+      "keyTerms": [
+        { "term": "Philosophical suicide", "definition": "Camus's term for taking a leap of faith into any ideology that papers over the Absurd" },
+        { "term": "Revolt", "definition": "The defiant choice to live fully in full awareness of the Absurd, without pretending it's resolved" }
+      ],
+      "visual": {
+        "sfSymbol": "flame.fill",
+        "imagePrompt": "A single candle burning stubbornly in a wide dark room, a window with a storm outside, soft flickering shadows"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Why Sisyphus is happy",
+      "body": "The Greek myth: Sisyphus is condemned to roll a boulder up a mountain for eternity, watching it roll back down every time. Camus uses him as the image of every human life — effort without ultimate meaning. But he ends the essay with a line that shocked readers in 1942 and still does: 'One must imagine Sisyphus happy.' Happy, because in the moment he walks back down the mountain, he owns the rock. He's defied the gods by refusing to despair.",
+      "funFact": "Camus wrote the essay while working in the French Resistance and living under Nazi occupation — the question 'is life worth living?' wasn't abstract.",
+      "visual": {
+        "sfSymbol": "mountain.2.fill",
+        "imagePrompt": "A painted scene of Sisyphus walking back down a mountain, shoulders relaxed, a faint private smile, golden dust"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "Meaning is the walk back down",
+      "body": "Camus wasn't a nihilist, despite the misreading. He believed that once you stop demanding meaning from the universe, you become free to make some — in the specific, temporary, deeply human ways available to you. The point isn't to solve the Absurd. It's to keep showing up, keep loving, keep creating, even when none of it adds up. Especially then.",
+      "visual": {
+        "sfSymbol": "figure.walk",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "For Camus, what is 'the Absurd'?",
+      "options": [
+        "A type of comedy",
+        "The tension between our need for meaning and a silent universe",
+        "The belief that nothing is real",
+        "A political ideology"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Absurd is the collision between the human craving for meaning and a universe that refuses to provide it."
+    },
+    {
+      "index": 1,
+      "question": "Which response to the Absurd does Camus endorse?",
+      "options": [
+        "Physical suicide",
+        "Religious faith",
+        "Conscious revolt — living fully in full awareness of the Absurd",
+        "Ironic detachment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Camus calls his answer 'revolt' — confronting the Absurd honestly and continuing to live and create anyway."
+    },
+    {
+      "index": 2,
+      "question": "How does Camus end The Myth of Sisyphus?",
+      "options": [
+        "With a prayer",
+        "With the line 'One must imagine Sisyphus happy'",
+        "With a warning about despair",
+        "With a quotation from Plato"
+      ],
+      "correctIndex": 1,
+      "explanation": "The essay closes with the deliberately jarring claim that Sisyphus, despite his eternal task, must be imagined as happy — owning his fate through revolt."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "The Myth of Sisyphus",
+      "publisher": "Albert Camus, translated by Justin O'Brien, Vintage International",
+      "year": 1955
+    },
+    {
+      "title": "Albert Camus: A Life",
+      "publisher": "Olivier Todd, Knopf",
+      "year": 1997
+    }
+  ],
+
+  "related": ["existentialism-101", "allegory-of-the-cave", "kafka-definition"]
+}

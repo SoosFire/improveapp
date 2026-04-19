@@ -1,0 +1,141 @@
+{
+  "id": "oumuamua-interstellar",
+  "version": 1,
+  "language": "en",
+
+  "card": {
+    "title": "'Oumuamua: Our First Interstellar Visitor",
+    "teaser": "A cigar-shaped something swept past the sun in 2017 — and then accelerated on its way out.",
+    "category": "Astronomy",
+    "subcategories": ["Solar System", "Comets & Asteroids"],
+    "tags": ["oumuamua", "interstellar", "comets", "asteroids", "space-oddities"],
+    "emoji": "☄️",
+    "accentColor": "#8E44AD",
+    "coverSymbol": {
+      "sfSymbol": "sparkles",
+      "fallbackEmoji": "🛸"
+    },
+    "coverImagePrompt": "An elongated, tumbling reddish-grey asteroid silhouetted against a streaked starfield, the sun a small bright dot in the distance, cinematic, eerie solitude, photoreal"
+  },
+
+  "meta": {
+    "difficulty": "beginner",
+    "estimatedMinutes": 5,
+    "lessonCount": 5,
+    "hasQuiz": true,
+    "createdBy": "ai",
+    "createdAt": "2026-04-18"
+  },
+
+  "lessons": [
+    {
+      "index": 0,
+      "type": "hook",
+      "title": "Something came through — and left",
+      "body": "On October 19, 2017, a telescope in Hawaii spotted a faint point of light moving in a way no solar system object should move. It wasn't orbiting the sun. It was passing through, at 196,000 mph, on a trajectory that meant only one thing: it had come from another star. Astronomers named it 'Oumuamua — Hawaiian for 'a messenger from afar, arriving first.'",
+      "visual": {
+        "sfSymbol": "arrow.up.right",
+        "imagePrompt": "A diagram of 'Oumuamua's hyperbolic trajectory whipping around the sun and escaping, against a black starfield"
+      }
+    },
+    {
+      "index": 1,
+      "type": "concept",
+      "title": "Shaped like nothing we'd seen",
+      "body": "By the time anyone could point a telescope at it, 'Oumuamua was already leaving. It was too small and too far to photograph clearly, but the way its brightness pulsed every few hours told a strange story: the object was extremely elongated, probably about 100 by 35 by 35 meters. Imagine a cosmic baguette tumbling end over end, maybe ten times longer than it was wide.",
+      "keyTerms": [
+        { "term": "Light curve", "definition": "A plot of an object's brightness over time, used to infer shape and rotation" },
+        { "term": "Hyperbolic orbit", "definition": "An unbound trajectory — the object isn't orbiting the sun, just passing through" }
+      ],
+      "visual": {
+        "sfSymbol": "rotate.3d",
+        "imagePrompt": "A cigar-shaped asteroid tumbling slowly, with its varying brightness plotted as a sine-wave graph underneath"
+      }
+    },
+    {
+      "index": 2,
+      "type": "explanation",
+      "title": "Then it sped up",
+      "body": "As 'Oumuamua pulled away from the sun, it accelerated slightly more than gravity alone could explain. Comets do this — gas jetting off their icy surfaces gives them a tiny push. But 'Oumuamua showed no visible coma, no tail, no gas or dust. Astronomers are still arguing about what non-gravitational force gave it that extra nudge. Hydrogen ice evaporating? Trapped nitrogen? Something stranger?",
+      "visual": {
+        "sfSymbol": "bolt.horizontal.fill",
+        "imagePrompt": "An asteroid receding from the sun with a faint invisible push indicated by soft heat-shimmer lines behind it"
+      }
+    },
+    {
+      "index": 3,
+      "type": "evidence",
+      "title": "Alien tech — or just weird nature?",
+      "body": "Harvard astronomer Avi Loeb argued the acceleration, odd shape, and lack of a coma could point to a piece of alien technology — perhaps a thin light sail pushed by sunlight. Most astronomers disagree, favoring exotic but natural explanations like a nitrogen-ice shard from a Pluto-like body in another star system. The truth is we'll almost certainly never know — 'Oumuamua is already past Saturn and heading out forever.",
+      "funFact": "In 2019 a second interstellar object, 2I/Borisov, was spotted — and behaved like a normal comet. Whatever 'Oumuamua was, it wasn't typical even for interstellar visitors.",
+      "visual": {
+        "sfSymbol": "questionmark.diamond.fill",
+        "imagePrompt": "A split illustration: on one side a natural icy shard, on the other a silvery alien light-sail, both in the same stretched silhouette"
+      }
+    },
+    {
+      "index": 4,
+      "type": "takeaway",
+      "title": "A teaser for what's coming",
+      "body": "'Oumuamua was the first, not the last. New sky surveys like the Vera Rubin Observatory should catch several interstellar visitors every year. Each one will bring tiny samples of geology from star systems we'll never reach. 'Oumuamua mostly taught us one thing: the galaxy is throwing rocks at us all the time, and we've only just learned to notice.",
+      "visual": {
+        "sfSymbol": "telescope.fill",
+        "imagePrompt": null
+      }
+    }
+  ],
+
+  "quiz": [
+    {
+      "index": 0,
+      "question": "How did astronomers know 'Oumuamua came from outside the solar system?",
+      "options": [
+        "It was glowing a color no solar system object emits",
+        "Its orbit was hyperbolic — unbound by the sun's gravity",
+        "It carried signals detectable on radio telescopes",
+        "It passed behind Neptune's orbit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Its trajectory was hyperbolic and too fast to be a long-period comet; it could only have come from interstellar space."
+    },
+    {
+      "index": 1,
+      "question": "What made 'Oumuamua's shape so unusual?",
+      "options": [
+        "It was perfectly spherical",
+        "It appeared to be extremely elongated, perhaps 10:1",
+        "It was larger than any known asteroid",
+        "It had visible rings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Its brightness varied dramatically as it tumbled, suggesting a shape about ten times longer than it was wide — unlike any previously observed asteroid."
+    },
+    {
+      "index": 2,
+      "question": "Which observation helped fuel speculation about artificial origins?",
+      "options": [
+        "A radio signal from the object",
+        "Its non-gravitational acceleration with no visible comet tail",
+        "Its perfectly reflective silver surface",
+        "A change in color during close approach"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Oumuamua accelerated more than gravity predicted, yet without visible gas or dust — an oddity that led to proposals ranging from hydrogen ice to alien light sails."
+    }
+  ],
+
+  "sources": [
+    {
+      "title": "A brief visit from a red and extremely elongated interstellar asteroid",
+      "publisher": "Nature",
+      "year": 2017
+    },
+    {
+      "title": "Non-gravitational acceleration in the trajectory of 1I/2017 U1 ('Oumuamua)",
+      "publisher": "Nature",
+      "year": 2018
+    }
+  ],
+
+  "related": ["borisov-comet", "interstellar-objects", "vera-rubin-observatory"]
+}
