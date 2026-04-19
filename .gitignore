@@ -13,3 +13,7 @@ desktop.ini
 
 # Node (if scripts ever grow deps)
 node_modules/
+
+# Downloaded stock images — rebuild via fetch-unsplash-images.mjs if needed
+courses/images/
+courses/attributions.json

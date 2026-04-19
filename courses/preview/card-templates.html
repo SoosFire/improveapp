@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Improve — Card Templates Preview</title>
+<style>
+  :root {
+    --bg: #0a0a0b;
+    --text: #f5f5f7;
+    --muted: #9d9da3;
+    --card-w: 340px;
+    --card-h: 500px;
+    --radius: 28px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", sans-serif; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 1400px; margin: 0 auto; padding: 48px 32px 96px; }
+  h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 8px; }
+  .sub { color: var(--muted); margin-bottom: 48px; font-size: 15px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 56px 0 20px; font-weight: 600; }
+  .row { display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start; }
+  .card {
+    width: var(--card-w);
+    height: var(--card-h);
+    border-radius: var(--radius);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45), 0 4px 12px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.08);
+    transition: transform 0.25s ease;
+  }
+  .card:hover { transform: translateY(-4px); }
+
+  /* ========= TEMPLATE A: big symbol + gradient + editorial typography ========= */
+  .tpl-a {
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 32px;
+    isolation: isolate;
+  }
+  .tpl-a::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(120% 80% at 30% 20%, var(--c1) 0%, var(--c2) 55%, var(--c3) 100%);
+    z-index: -2;
+  }
+  .tpl-a::after {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      radial-gradient(circle at 20% 15%, rgba(255,255,255,0.15) 0 1px, transparent 2px),
+      radial-gradient(circle at 75% 35%, rgba(255,255,255,0.08) 0 1px, transparent 2px),
+      radial-gradient(circle at 40% 85%, rgba(255,255,255,0.1) 0 1px, transparent 2px);
+    background-size: 180px 180px, 220px 220px, 160px 160px;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  .tpl-a .symbol {
+    position: absolute; top: 36px; right: 32px;
+    font-size: 72px; line-height: 1;
+    filter: drop-shadow(0 8px 24px rgba(0,0,0,0.3));
+  }
+  .tpl-a .category {
+    font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em;
+    opacity: 0.85; margin-bottom: 12px;
+  }
+  .tpl-a .title {
+    font-size: 32px; font-weight: 800; line-height: 1.05; letter-spacing: -0.02em;
+    margin-bottom: 16px;
+    text-wrap: balance;
+  }
+  .tpl-a .teaser {
+    font-size: 15px; line-height: 1.45; opacity: 0.9;
+    font-weight: 400;
+  }
+  .tpl-a .meta {
+    display: flex; align-items: center; gap: 8px; margin-top: 20px;
+    font-size: 12px; opacity: 0.75;
+  }
+  .tpl-a .dot { width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: 0.6; }
+
+  /* ========= TEMPLATE B: huge type hero + small symbol ========= */
+  .tpl-b {
+    display: flex; flex-direction: column; justify-content: space-between;
+    padding: 32px;
+    background: var(--c1);
+    color: #fff;
+  }
+  .tpl-b::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      linear-gradient(135deg, transparent 40%, rgba(255,255,255,0.08) 50%, transparent 60%);
+    pointer-events: none;
+  }
+  .tpl-b .top { display: flex; justify-content: space-between; align-items: flex-start; position: relative; z-index: 1; }
+  .tpl-b .pill { font-size: 11px; padding: 6px 12px; border-radius: 999px; background: rgba(255,255,255,0.18); backdrop-filter: blur(8px); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+  .tpl-b .symbol { font-size: 32px; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.2)); }
+  .tpl-b .hero {
+    font-size: 68px; font-weight: 900; line-height: 0.92; letter-spacing: -0.04em;
+    text-transform: uppercase; font-family: -apple-system, "SF Pro Display", "Inter", sans-serif;
+    position: relative; z-index: 1;
+    text-wrap: balance;
+  }
+  .tpl-b .bottom { position: relative; z-index: 1; }
+  .tpl-b .teaser { font-size: 14px; opacity: 0.85; line-height: 1.4; margin-top: 16px; }
+
+  /* ========= TEMPLATE C: split — symbol stage + typographic description ========= */
+  .tpl-c {
+    display: grid; grid-template-rows: 1fr auto;
+    background: #12121a;
+  }
+  .tpl-c .stage {
+    position: relative; display: grid; place-items: center;
+    background:
+      radial-gradient(65% 50% at 50% 55%, var(--c1) 0%, var(--c2) 100%);
+    overflow: hidden;
+  }
+  .tpl-c .stage::before {
+    content: ""; position: absolute; inset: 0;
+    background-image:
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 40px),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 40px);
+    mask-image: radial-gradient(circle at center, black 0%, transparent 70%);
+  }
+  .tpl-c .stage .symbol {
+    font-size: 120px;
+    filter: drop-shadow(0 16px 40px rgba(0,0,0,0.4));
+    position: relative; z-index: 1;
+  }
+  .tpl-c .info {
+    padding: 26px 28px;
+    background: #12121a;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .tpl-c .cat { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--c1); margin-bottom: 8px; }
+  .tpl-c .title { font-size: 22px; font-weight: 700; line-height: 1.15; letter-spacing: -0.01em; margin-bottom: 10px; }
+  .tpl-c .teaser { font-size: 13px; opacity: 0.75; line-height: 1.4; }
+
+  /* ========= swipe hint ========= */
+  .hint { margin-top: 64px; font-size: 12px; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Card templates — no photos required</h1>
+  <p class="sub">Three variations using only typography, color, SF Symbols, and CSS. Same data as the JSON manifest. No image files, no API calls, no loading states.</p>
+
+  <h2>Template A — editorial (gradient + symbol + body copy)</h2>
+  <div class="row">
+    <!-- Viking sunstone -->
+    <div class="card tpl-a" style="--c1:#6389B8; --c2:#3B5878; --c3:#1E2A3C;">
+      <div class="symbol">🧭</div>
+      <div>
+        <div class="category">History · Viking Age</div>
+        <div class="title">The Viking Sunstone</div>
+        <div class="teaser">How did the Vikings navigate without a compass — even when the sun was hidden?</div>
+        <div class="meta"><span>Beginner</span><span class="dot"></span><span>4 min</span><span class="dot"></span><span>Quiz</span></div>
+      </div>
+    </div>
+    <!-- Mariana Trench -->
+    <div class="card tpl-a" style="--c1:#1C5980; --c2:#0B3D61; --c3:#050F1D;">
+      <div class="symbol">🌊</div>
+      <div>
+        <div class="category">Marine Life · Deep Sea</div>
+        <div class="title">The Mariana Trench</div>
+        <div class="teaser">If you dropped Mount Everest into the ocean's deepest scar, its peak would still be buried under a mile of water.</div>
+        <div class="meta"><span>Beginner</span><span class="dot"></span><span>5 min</span><span class="dot"></span><span>Quiz</span></div>
+      </div>
+    </div>
+    <!-- Prisoner's Dilemma -->
+    <div class="card tpl-a" style="--c1:#5582B8; --c2:#2E5C8A; --c3:#132540;">
+      <div class="symbol">🤝</div>
+      <div>
+        <div class="category">Games &amp; Strategy · Game Theory</div>
+        <div class="title">The Prisoner's Dilemma</div>
+        <div class="teaser">Two suspects, two cells, zero trust — and a puzzle that rewrites how we think about cooperation.</div>
+        <div class="meta"><span>Beginner</span><span class="dot"></span><span>4 min</span><span class="dot"></span><span>Quiz</span></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Template B — typographic (hero type as the visual)</h2>
+  <div class="row">
+    <!-- Fibonacci -->
+    <div class="card tpl-b" style="--c1:#E6A817; color:#231500;">
+      <div class="top">
+        <div class="pill">Mathematics</div>
+        <div class="symbol">🌻</div>
+      </div>
+      <div class="bottom">
+        <div class="hero">Fibonacci</div>
+        <div class="teaser">Why does the same string of numbers show up in sunflowers, pinecones, and galaxies?</div>
+      </div>
+    </div>
+    <!-- Emu War -->
+    <div class="card tpl-b" style="--c1:#B56E2B; color:#fff;">
+      <div class="top">
+        <div class="pill">History</div>
+        <div class="symbol">🦤</div>
+      </div>
+      <div class="bottom">
+        <div class="hero">Emu War 1932</div>
+        <div class="teaser">Australia deployed machine guns against a horde of giant birds. The birds won.</div>
+      </div>
+    </div>
+    <!-- Trees talk -->
+    <div class="card tpl-b" style="--c1:#4C7C3A; color:#fff;">
+      <div class="top">
+        <div class="pill">Biology</div>
+        <div class="symbol">🌳</div>
+      </div>
+      <div class="bottom">
+        <div class="hero">Trees Talk</div>
+        <div class="teaser">Beneath every old forest is a web of living cables — and the trees use it to send warnings.</div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Template C — split (dramatic stage + info panel)</h2>
+  <div class="row">
+    <!-- Schrödinger -->
+    <div class="card tpl-c" style="--c1:#9B59B6; --c2:#4A235A;">
+      <div class="stage"><div class="symbol">🐱</div></div>
+      <div class="info">
+        <div class="cat">Physics · Quantum</div>
+        <div class="title">Schrödinger's Cat, Actually Explained</div>
+        <div class="teaser">A thought experiment so famous, almost nobody understands what it's actually saying.</div>
+      </div>
+    </div>
+    <!-- Dancing plague -->
+    <div class="card tpl-c" style="--c1:#D2527F; --c2:#5C1E38;">
+      <div class="stage"><div class="symbol">💃</div></div>
+      <div class="info">
+        <div class="cat">History · Medieval</div>
+        <div class="title">The Dancing Plague of 1518</div>
+        <div class="teaser">For a month, hundreds of people in Strasbourg danced themselves to death. Nobody knows why.</div>
+      </div>
+    </div>
+    <!-- Octopus -->
+    <div class="card tpl-c" style="--c1:#E74C3C; --c2:#4A1610;">
+      <div class="stage"><div class="symbol">🐙</div></div>
+      <div class="info">
+        <div class="cat">Wildlife · Cephalopods</div>
+        <div class="title">How Smart Is an Octopus?</div>
+        <div class="teaser">Nine brains, blue blood, and a talent for escaping sealed jars. Meet Earth's smartest invertebrate.</div>
+      </div>
+    </div>
+  </div>
+
+  <p class="hint">Swipe right to learn · swipe left to pass — works the same no matter which template you pick.</p>
+</div>
+</body>
+</html>
